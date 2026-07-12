@@ -1,0 +1,208 @@
+/*******************************************************************************************
+*   ___  _          ______                     _ _                _                        *
+*  / _ \| |         | ___ \                   | (_)              | |              © 2025   *
+* / /_\ | | _____  _| |_/ /_ __ __ _ _ __   __| |_ _ __   __ _   | |_ ___  __ _ _ __ ___   *
+* |  _  | |/ _ \ \/ / ___ \ '__/ _` | '_ \ / _` | | '_ \ / _` |  | __/ _ \/ _` | '_ ` _ \  *
+* | | | | |  __/>  <| |_/ / | | (_| | | | | (_| | | | | | (_| |  | ||  __/ (_| | | | | | | *
+* \_| |_/_|\___/_/\_\____/|_|  \__,_|_| |_|\__,_|_|_| |_|\__, |  \___\___|\__,_|_| |_| |_| *
+*                                                         __/ |                            *
+*                                                        |___/                             *
+* ---------------------------------------------------------------------------------------- *
+* This is commercial software, only users who have purchased a valid license and accept    *
+* to the terms of the License Agreement can install and use this program.                  *
+* ---------------------------------------------------------------------------------------- *
+* website: https://cs-cart.alexbranding.com                                                *
+*   email: info@alexbranding.com                                                           *
+*******************************************************************************************/
+/* Override load font from responsive theme */
+
+@font_heading_default_museo: 'MuseoSansBlack','Helvetica Neue','Arial',-apple-system,sans-serif;
+
+.ut2-change-font-face() when (@headings_font = @font_heading_default_museo) {
+    /* montserrat-900 */
+    @font-face {
+        font-display: swap;
+        font-family: 'MuseoSansBlack';
+        font-style: normal;
+        font-weight: 900;
+        src: url('../../../media/custom_fonts/montserrat/inter-900.woff2') format('woff2');
+    }
+}
+
+@font_heading_default_inter: 'Inter','Helvetica Neue','Arial',-apple-system,sans-serif;
+@font_regular_default_inter: -apple-system,BlinkMacSystemFont,'Inter','Helvetica Neue','Arial',sans-serif;
+
+.ut2-change-font-face() when (@headings_font = @font_heading_default_inter) {
+    /* inter-500 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        src: url('../../../media/custom_fonts/inter/inter-500.woff2') format('woff2');
+    }
+    /* inter-600 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        src: url('../../../media/custom_fonts/inter/inter-600.woff2') format('woff2');
+    }
+    /* inter-700 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        src: url('../../../media/custom_fonts/inter/inter-700.woff2') format('woff2');
+    }
+    /* inter-800 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        src: url('../../../media/custom_fonts/inter/inter-800.woff2') format('woff2');
+    }
+    /* inter-900 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        src: url('../../../media/custom_fonts/inter/inter-900.woff2') format('woff2');
+    }
+}
+.ut2-change-font-face() when (@body_font = @font_regular_default_inter) {
+    /* inter-regular */
+    @font-face {
+        font-display: swap;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../../../media/custom_fonts/inter/inter-regular.woff2') format('woff2');
+    }
+    /* inter-500 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        src: url('../../../media/custom_fonts/inter/inter-500.woff2') format('woff2');
+    }
+    /* inter-600 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        src: url('../../../media/custom_fonts/inter/inter-600.woff2') format('woff2');
+    }
+}
+
+@font_heading_default_montserrat: 'Montserrat','Helvetica Neue','Arial',-apple-system,sans-serif;
+@font_regular_default_montserrat: 'Montserrat',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Arial',sans-serif;
+
+.ut2-change-font-face() when (@headings_font = @font_heading_default_montserrat) {
+    /* montserrat-500 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        src: url('../../../media/custom_fonts/montserrat/montserrat-500.woff2') format('woff2');
+    }
+    /* montserrat-600 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        src: url('../../../media/custom_fonts/montserrat/montserrat-600.woff2') format('woff2');
+    }
+    /* montserrat-700 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        src: url('../../../media/custom_fonts/montserrat/montserrat-700.woff2') format('woff2');
+    }
+    /* montserrat-900 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        src: url('../../../media/custom_fonts/montserrat/montserrat-900.woff2') format('woff2');
+    }
+}
+.ut2-change-font-face() when (@body_font = @font_regular_default_montserrat) {
+    /* montserrat-regular */
+    @font-face {
+        font-display: swap;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../../../media/custom_fonts/montserrat/montserrat-regular.woff2') format('woff2');
+    }
+    /* montserrat-500 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        src: url('../../../media/custom_fonts/montserrat/montserrat-500.woff2') format('woff2');
+    }
+    /* montserrat-600 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        src: url('../../../media/custom_fonts/montserrat/montserrat-600.woff2') format('woff2');
+    }
+}
+
+@font_heading_default_opensans: 'Open Sans','Helvetica Neue','Arial',-apple-system,sans-serif;
+@font_regular_default_opensans: 'Open Sans',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Arial',sans-serif;
+
+.ut2-change-font-face() when (@headings_font = @font_heading_default_opensans) {
+    /* montserrat-900 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 900;
+        src: url('../../../media/custom_fonts/open-sans/open-sans-800.woff2') format('woff2');
+    }
+}
+.ut2-change-font-face() when (@body_font = @font_regular_default_opensans) {
+    /* open-sans-regular */
+    @font-face {
+        font-display: swap;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../../../media/custom_fonts/open-sans/open-sans-regular.woff2') format('woff2');
+    }
+    /* open-sans-500 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        src: url('../../../media/custom_fonts/open-sans/open-sans-500.woff2') format('woff2');
+    }
+    /* open-sans-600 */
+    @font-face {
+        font-display: swap;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        src: url('../../../media/custom_fonts/open-sans/open-sans-600.woff2') format('woff2');
+    }
+}
+
+.ut2-change-font-face();

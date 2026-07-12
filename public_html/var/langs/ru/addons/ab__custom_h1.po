@@ -1,0 +1,163 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__custom_h1"
+msgid "AB: Custom H1 PRO"
+msgstr "AB: Пользовательский H1 PRO"
+
+msgctxt "Addons::description::ab__custom_h1"
+msgid "This add-on allows you to override H1 tag for categories, products, pages and feature variants"
+msgstr "Модуль позволяет переопределить тег Н1 для категорий, товаров, страниц и варианта характеристики/бренда"
+
+msgctxt "Languages::ab__custom_h1"
+msgid "AB: Custom H1 PRO"
+msgstr "AB: Пользовательский H1 PRO"
+
+msgctxt "Languages::ab_custom_h1"
+msgid "AB: Custom H1 PRO"
+msgstr "AB: Пользовательский H1 PRO"
+
+msgctxt "Languages::ab__ch1.short"
+msgid "AB: Custom H1"
+msgstr "AB: Пользовательский H1"
+
+msgctxt "Languages::ab__ch1.category"
+msgid "AB: Custom H1 of the category"
+msgstr "AB: Пользовательский H1 категории"
+
+msgctxt "Languages::ab__ch1.product"
+msgid "AB: Custom H1 of the product"
+msgstr "AB: Пользовательский H1 товара"
+
+msgctxt "Languages::ab__ch1.page"
+msgid "AB: Custom H1 of the page"
+msgstr "AB: Пользовательский H1 страницы"
+
+msgctxt "Languages::ab__ch1.blog"
+msgid "AB: Custom H1 of the blog page"
+msgstr "AB: Пользовательский H1 страницы (блога)"
+
+msgctxt "Languages::ab__ch1.feature_variant"
+msgid "AB: Custom H1 of the feature variant"
+msgstr "AB: Пользовательский H1 варианта характеристики"
+
+msgctxt "Languages::ab__ch1.list"
+msgid "List of"
+msgstr "Список"
+
+msgctxt "Languages::ab__ch1.category.list"
+msgid "List of categories"
+msgstr "Список категорий"
+
+msgctxt "Languages::ab__ch1.product.list"
+msgid "List of products"
+msgstr "Список товаров"
+
+msgctxt "Languages::ab__ch1.page.list"
+msgid "List of pages"
+msgstr "Список страниц"
+
+msgctxt "Languages::ab__ch1.blog.list"
+msgid "List of blog pages"
+msgstr "Список страниц (блога)"
+
+msgctxt "Languages::ab__ch1.features_list"
+msgid "List of feature variants"
+msgstr "Список вариантов характеристик"
+
+msgctxt "Languages::ab__ch1.page_no"
+msgid "- page [page]"
+msgstr "- страница [page]"
+
+msgctxt "Languages::ab__custom_product_h1"
+msgid "AB: Custom H1 of the product"
+msgstr "AB: Пользовательский H1 товара"
+
+msgctxt "Languages::ab__ch1.should_be_filled"
+msgid "Field should be filled"
+msgstr "Поле должно быть заполненно"
+
+msgctxt "Languages::ab__ch1.should_be_filled.tooltip"
+msgid "When enabled products with the filled \"AB: Custom H1 of the product\" field will be selected"
+msgstr "Когда включено, то будут отобраны товары имеющие заполненное поле \"AB: Пользовательский H1 товара\""
+
+msgctxt "Languages::ab__ch1.product.tooltip"
+msgid "If the field is filled in, then products with the entered text in AB: Custom H1 of the product field will be selected"
+msgstr "Если поле заполнено, то будут отобраны товары имеющие в поле \"AB: Пользовательский H1 товара\" введенный текст"
+
+msgctxt "Languages::ab__ch1.page.tooltip"
+msgid "If the field is filled in, pages with the entered text in field \"AB: Custom H1 of the page\" will be selected"
+msgstr "Если поле заполнено, то будут отобраны страницы имеющие в поле \"AB: Пользовательский H1 страницы\" введенный текст"
+
+msgctxt "Languages::ab__ch1.search.ignore"
+msgid "Ignore field filling"
+msgstr "Игнорировать заполнение поля"
+
+msgctxt "Languages::ab__ch1.search.filled"
+msgid "Field should be filled"
+msgstr "Поле должно быть заполненно"
+
+msgctxt "Languages::ab__ch1.ab__emd.placeholder.category_custom_h1.tooltip"
+msgid "<b>[category_custom_h1]</b> — value of field AB: Custom H1 of the category (as is)<br> <b>[category_custom_h1_lower]</b> — value of field AB: Custom H1 of the category (lowercase)<br> <b>[Category_custom_h1]</b> — value of field AB: Custom H1 of the category (first letter uppercase, else lowercase)<br> <b>[CATEGORY_CUSTOM_H1]</b> — value of field AB: Custom H1 of the category (uppercase) <b>[category_custom_h1_first_lower]</b> — value of field AB: Custom H1 of the category (first letter lowercase, else as is)"
+msgstr "<b>[category_custom_h1]</b> — значение поля AB: Пользовательский H1 категории (как есть)<br>"
+"<b>[category_custom_h1_lower]</b> — значение поля AB: Пользовательский H1 категории (строчные буквы)<br>"
+"<b>[Category_custom_h1]</b> — значение поля AB: Пользовательский H1 категории (первая заглавная, остальные строчные)<br>"
+"<b>[CATEGORY_CUSTOM_H1]</b> — значение поля AB: Пользовательский H1 категории (заглавные буквы)<br>"
+"<b>[category_custom_h1_first_lower]</b> — значение поля AB: Пользовательский H1 категории (первая строчная, остальные как есть)"
+
+msgctxt "Languages::ab__ch1.ab__emd.placeholder.product_custom_h1.tooltip"
+msgid "<b>[product_custom_h1]</b> — value of field AB: Custom H1 of the product (as is)<br> <b>[product_custom_h1_lower]</b> — value of field AB: Custom H1 of the product (lowercase)<br> <b>[Product_custom_h1]</b> — value of field AB: Custom H1 of the product (first letter uppercase, else lowercase)<br> <b>[PRODUCT_CUSTOM_H1]</b> — value of field AB: Custom H1 of the product (uppercase)<br> <b>[product_custom_h1_first_lower]</b> — value of field AB: Custom H1 of the product (first letter uppercase, else as is)"
+msgstr "<b>[product_custom_h1]</b> — значение поля AB: Пользовательский H1 товара (как есть)<br>"
+"<b>[product_custom_h1_lower]</b> — значение поля AB: Пользовательский H1 товара (строчные буквы)<br>"
+"<b>[Product_custom_h1]</b> — значение поля AB: Пользовательский H1 товара (первая заглавная, остальные строчные)<br>"
+"<b>[PRODUCT_CUSTOM_H1]</b> — значение поля AB: Пользовательский H1 товара (заглавные буквы)<br>"
+"<b>[product_custom_h1_first_lower]</b> — значение поля AB: Пользовательский H1 товара (первая строчная, остальные как есть)"
+
+msgctxt "Languages::ab__ch1.ab__emd.placeholder.page_custom_h1.tooltip"
+msgid "<b>[page_custom_h1]</b> — value of field AB: Custom H1 of the page (as is)<br> <b>[page_custom_h1_lower]</b> — value of field AB: Custom H1 of the page (lowercase)<br> <b>[Page_custom_h1]</b> — value of field AB: Custom H1 of the page (first letter uppercase, else lowercase)<br> <b>[PAGE_CUSTOM_H1]</b> — value of field AB: Custom H1 of the page (uppercase)<br> <b>[page_custom_h1_first_lower]</b> — value of field AB: Custom H1 of the page (first letter uppercase, else as is)"
+msgstr "<b>[page_custom_h1]</b> — значение поля AB: Пользовательский H1 страницы (как есть)<br>"
+"<b>[page_custom_h1_lower]</b> — значение поля AB: Пользовательский H1 страницы (строчные буквы)<br>"
+"<b>[Page_custom_h1]</b> — значение поля AB: Пользовательский H1 страницы (первая заглавная, остальные строчные)<br>"
+"<b>[PAGE_CUSTOM_H1]</b> — значение поля AB: Пользовательский H1 страницы (заглавные буквы)<br>"
+"<b>[page_custom_h1_first_lower]</b> — значение поля AB: Пользовательский H1 страницы (первая строчная, остальные как есть)"
+
+msgctxt "Languages::ab__ch1.ab__emd.placeholder.brand_custom_h1.tooltip"
+msgid "<b>[brand_custom_h1]</b> — value of field AB: Custom H1 of the feature variant (as is)<br> <b>[brand_custom_h1_lower]</b> — value of field AB: Custom H1 of the feature variant (lowercase)<br> <b>[Brand_custom_h1]</b> — value of field AB: Custom H1 of the feature variant (first letter uppercase else lowercase)<br> <b>[BRAND_CUSTOM_H1]</b> — value of field AB: Custom H1 of the feature variant (uppercase)<br> <b>[brand_custom_h1_first_lower]</b> — value of field AB: Custom H1 of the feature variant (first letter uppercase, else as is)"
+msgstr "<b>[brand_custom_h1]</b> — значение поля AB: Пользовательский H1 варианта характеристики (как есть)<br>"
+"<b>[brand_custom_h1_lower]</b> — значение поля AB: Пользовательский H1 варианта характеристики (строчные буквы)<br>"
+"<b>[Brand_custom_h1]</b> — значение поля AB: Пользовательский H1 варианта характеристики (первая заглавная, остальные строчные)<br>"
+"<b>[BRAND_CUSTOM_H1]</b> — значение поля AB: Пользовательский H1 варианта характеристики (заглавные буквы)<br>"
+"<b>[brand_custom_h1_first_lower]</b> — значение поля AB: Пользовательский H1 варианта характеристики (первая строчная, остальные как есть)"
+
+msgctxt "Languages::SettingsOptions::ab__hide_product_description::add_h1_field_in_variations_list"
+msgid "Add the control field \"AB: Custom H1 of the product\" to the list of product variations"
+msgstr "Добавить поле для управления \"AB: Пользовательский H1 товара\" в список вариаций товаров"
+
+msgctxt "Languages::ab__ch1.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__ch1.help.doc"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__custom_h1.doc'>the documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__custom_h1.doc'>документацией</a>."
+
+msgctxt "Languages::privilege_groups.ab__custom_h1"
+msgid "AB: Custom H1 PRO"
+msgstr "AB: Пользовательский H1 PRO"
+
+msgctxt "Languages::privileges.ab__ch1.data.manage"
+msgid "Manage data"
+msgstr "Управление данными"
+
+msgctxt "Languages::privileges.ab__ch1.data.view"
+msgid "View data"
+msgstr "Просмотр данных"
+
+msgctxt "Languages::ab__ch1.autoinstall.done"
+msgid "Added custom H1 for first level categories"
+msgstr "Добавлены пользовательские H1 для категорий первого уровня"
+
+#. Alexbranding. Do not modify this file manually!

@@ -1,0 +1,18 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+
+msgctxt "Addons::name::srx_addons_installer"
+msgid "SonoTrix Addons Installer"
+msgstr "SonoTrix Addons Installer"
+
+msgctxt "Addons::description::srx_addons_installer"
+msgid "SonoTrix Addons Installer"
+msgstr "SonoTrix Addons Installer"
+
+msgctxt "SettingsOptions::srx_addons_installer::http_prefix"
+msgid "Url Prefix"
+msgstr "Url Prefix"

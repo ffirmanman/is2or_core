@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>srx_addons_installer</id>
+    <version>1.1.1</version>
+    <default_language>en</default_language>
+    <priority>122328</priority>
+    <position>0</position>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <name>SonoTrix Addons Installer</name>
+    <description><![CDATA[SonoTrix Addons Installer]]></description>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+   
+    <supplier>SonoTrix</supplier>
+    <supplier_link>https://sonotrix.com</supplier_link>
+<marketplace_product_id>4583</marketplace_product_id><marketplace_license_number>CS_LUTA_SHRT-A63V-P958-47DG-60C4</marketplace_license_number></addon>

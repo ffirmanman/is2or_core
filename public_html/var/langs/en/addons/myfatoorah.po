@@ -1,0 +1,157 @@
+msgid ""
+msgstr "Project-Id-Version: myfatoorah-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: MyFatoorah Plugins Support <tech@myfatoorah.com>\n"
+"Language: en_US"
+
+msgctxt "Addons::name::myfatoorah"
+msgid "MyFatoorah"
+msgstr "MyFatoorah"
+
+msgctxt "Addons::description::myfatoorah"
+msgid "MyFatoorah is a flexible and open-source payment gateway built on the CS-Cart e-commerce."
+msgstr "MyFatoorah is a flexible and open-source payment gateway built on the CS-Cart e-commerce."
+
+msgctxt "SettingsSections::myfatoorah::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::myfatoorah::countryMode"
+msgid "Vendor's Country"
+msgstr "Vendor's Country"
+
+msgctxt "SettingsTooltips::myfatoorah::countryMode"
+msgid "Select your MyFatoorah vendor's country. After that, use the API token key that belongs to this country."
+msgstr "Select your MyFatoorah vendor's country. After that, use the API token key that belongs to this country."
+
+msgctxt "SettingsOptions::myfatoorah::testMode"
+msgid "Test Mode"
+msgstr "Test Mode"
+
+msgctxt "SettingsTooltips::myfatoorah::testMode"
+msgid "Enable test / sandbox Mode"
+msgstr "Enable test / sandbox Mode"
+
+msgctxt "SettingsOptions::myfatoorah::apiKey"
+msgid "API Token Key"
+msgstr "API Token Key"
+
+msgctxt "SettingsTooltips::myfatoorah::apiKey"
+msgid "Get your API Token Key from Myfatoorah Vendor Account."
+msgstr "Get your API Token Key from Myfatoorah Vendor Account."
+
+msgctxt "SettingsOptions::myfatoorah::webhookSecretKey"
+msgid "Webhook Secret Key"
+msgstr "Webhook Secret Key"
+
+msgctxt "SettingsTooltips::myfatoorah::webhookSecretKey"
+msgid "Get your Webhook Secret Key from MyFatoorah Vendor Account."
+msgstr "Get your Webhook Secret Key from MyFatoorah Vendor Account."
+
+msgctxt "SettingsOptions::myfatoorah::listOptions"
+msgid "List Payment Options"
+msgstr "List Payment Options"
+
+msgctxt "SettingsTooltips::myfatoorah::listOptions"
+msgid "Select how to list payments on your checkout page."
+msgstr "Select how to list payments on your checkout page."
+
+msgctxt "Languages::text_variants_listOptions_multigateways"
+msgid "List All Enabled Gateways in Checkout Page"
+msgstr "List All Enabled Gateways in Checkout Page"
+
+msgctxt "Languages::text_variants_listOptions_myfatoorah"
+msgid "Redirect to MyFatoorah Invoice Page"
+msgstr "Redirect to MyFatoorah Invoice Page"
+
+msgctxt "SettingsOptions::myfatoorah::isApplePayRegistered"
+msgid "Apple Pay Embedded"
+msgstr "Apple Pay Embedded"
+
+msgctxt "SettingsTooltips::myfatoorah::isApplePayRegistered"
+msgid "isApplePayRegisteredTooltips"
+msgstr "Create a folder named \".well-known\" in the root path and copy the apple-developer-merchantid-domain-association file which you received from MyFatoorah support team (tech@myfatoorah.com)"
+
+msgctxt "SettingsOptions::myfatoorah::orderStatus"
+msgid "Order Status"
+msgstr "Order Status"
+
+msgctxt "SettingsTooltips::myfatoorah::orderStatus"
+msgid "How to mark the successful payment in the Admin Orders Page."
+msgstr "How to mark the successful payment in the Admin Orders Page."
+
+msgctxt "Languages::text_variants_orderStatus_P"
+msgid "Paid"
+msgstr "Paid"
+
+msgctxt "Languages::text_variants_orderStatus_C"
+msgid "Complete"
+msgstr "Complete"
+
+msgctxt "SettingsOptions::myfatoorah::debugMode"
+msgid "Debug Mode"
+msgstr "Debug Mode"
+
+msgctxt "SettingsTooltips::myfatoorah::debugMode"
+msgid "Log MyFatoorah events in var/myfatoorah.log"
+msgstr "Log MyFatoorah events in var/myfatoorah.log"
+
+msgctxt "SettingsOptions::myfatoorah::saveCard"
+msgid "Save Card Mode"
+msgstr "Save Card Mode"
+
+msgctxt "SettingsTooltips::myfatoorah::saveCard"
+msgid "Enable MyFatoorah save-card information feature for logged-in users for future payments"
+msgstr "Enable MyFatoorah save-card information feature for logged-in users for future payments"
+
+msgctxt "Languages::text_webhook_update"
+msgid "text_webhook_update"
+msgstr "Updated by Webhook"
+
+msgctxt "Languages::text_how_to_pay"
+msgid "text_how_to_pay"
+msgstr "How would you like to pay?"
+
+msgctxt "Languages::text_pay_with"
+msgid "text_pay_with"
+msgstr "Pay With"
+
+msgctxt "Languages::text_or"
+msgid "text_or"
+msgstr "Or"
+
+msgctxt "Languages::text_insert_card"
+msgid "text_insert_card"
+msgstr "Insert Card Details"
+
+msgctxt "Languages::text_holder_name"
+msgid "text_holder_name"
+msgstr "Name On Card"
+
+msgctxt "Languages::text_card_number"
+msgid "text_card_number"
+msgstr "Number"
+
+msgctxt "Languages::text_expire_date"
+msgid "text_expire_date"
+msgstr "MM / YY"
+
+msgctxt "Languages::text_cvv"
+msgid "text_cvv"
+msgstr "CVV"
+
+msgctxt "Languages::text_myfatoorah_disabled"
+msgid "text_myfatoorah_disabled"
+msgstr "MyFatoorah addon has been disabled."
+
+msgctxt "Languages::text_ap_disabled"
+msgid "text_ap_disabled"
+msgstr "Embedded ApplePay is disapled."
+
+msgctxt "Languages::text_ap_with_list_option"
+msgid "text_ap_with_list_option"
+msgstr "Embedded ApplePay works only if you select "List All Enabled Gateways in Checkout Page" from the "List Payment" option."
+
+msgctxt "Languages::text_installation_warning"
+msgid "text_installation_warning"
+msgstr "You need to configure MyFatoorah to activate it."

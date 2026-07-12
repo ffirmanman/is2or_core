@@ -1,0 +1,1 @@
+{style src="addons/csc_exim_categories/styles.less"}

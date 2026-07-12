@@ -1,0 +1,2 @@
+language, product_code, product_name, category, brand, description, short_description, product_price, display_price, unit, weight, quantity, tax, image
+en,prd123,sample product,Supermarket///Retail///Bakery, sample brand,sample product description, sample description, 10,10,pcs,100,10,15,https://upload.wikimedia.org/wikipedia/commons/9/9b/Handmade_soap_cropped_and_simplified.jpg

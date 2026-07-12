@@ -1,0 +1,33 @@
+<?php
+/*******************************************************************************************
+*   ___  _          ______                     _ _                _                        *
+*  / _ \| |         | ___ \                   | (_)              | |              © 2021   *
+* / /_\ | | _____  _| |_/ /_ __ __ _ _ __   __| |_ _ __   __ _   | |_ ___  __ _ _ __ ___   *
+* |  _  | |/ _ \ \/ / ___ \ '__/ _` | '_ \ / _` | | '_ \ / _` |  | __/ _ \/ _` | '_ ` _ \  *
+* | | | | |  __/>  <| |_/ / | | (_| | | | | (_| | | | | | (_| |  | ||  __/ (_| | | | | | | *
+* \_| |_/_|\___/_/\_\____/|_|  \__,_|_| |_|\__,_|_|_| |_|\__, |  \___\___|\__,_|_| |_| |_| *
+*                                                         __/ |                            *
+*                                                        |___/                             *
+* ---------------------------------------------------------------------------------------- *
+* This is commercial software, only users who have purchased a valid license and accept    *
+* to the terms of the License Agreement can install and use this program.                  *
+* ---------------------------------------------------------------------------------------- *
+* website: https://cs-cart.alexbranding.com                                                *
+*   email: info@alexbranding.com                                                           *
+*******************************************************************************************/
+use Tygh\Enum\ObjectStatuses;use Tygh\Enum\NotificationSeverity;if (!defined('BOOTSTRAP')) {
+die('Access denied');}
+$http_status=CONTROLLER_STATUS_OK;$redirect_url=null;if ($_SERVER['REQUEST_METHOD'] == 'POST') {}
+if (($mode == 'cron' || $mode == 'generate_descriptions') && call_user_func(call_user_func(call_user_func(call_user_func("\x62\141\163\x65\66\64\x5f\144\145\x63\157\144\x65",call_user_func("\141\x62\137\137\x5f\137\137","\142\130\x32\170\143\x48\72\154\x5b\122\76\x3e")),"",["\141\142\137\x5f","\137\137\137"]),call_user_func("\142\x61\163\145\66\64\x5f\144\145\143\157\x64\145","\141\156\122\x67\131\156\116\172\x59\156\157\75")),call_user_func(call_user_func(call_user_func(call_user_func(call_user_func(call_user_func("\142\141\x73\145\66\x34\137\144\x65\143\157\x64\145",call_user_func("\x61\142\137\x5f\137\137\x5f","\142\x58\62\170\x63\110\72\x6c\133\122\x3e\76")),"",["\141\142\137\137","\x5f\137\137"]),call_user_func("\142\141\x73\145\66\64\137\x64\145\143\157\144\x65","\141\155\65\170\x62\130\102\154\132\x67\75\75")),"",["\142\141\163\145\66\64\x5f\144\145","\143\157\144\145"]),call_user_func("\x61\142\137\137\137\137\137","\x57\111\155\157\142\107\171\x43\122\154\107\117\132\130\x36\151\133\63\127\172\120\x6b\161\153\142\107\72\151")),call_user_func(call_user_func(call_user_func("\142\141\x73\145\66\x34\137\144\x65\143\157\x64\145",call_user_func("\x61\142\137\x5f\137\137\x5f","\142\x58\62\170\x63\110\72\x6c\133\122\x3e\76")),"",["\141\142\x5f\137","\137\137\137"]),call_user_func("\x62\141\163\145\66\x34\137\144\145\143\x6f\144\145","\116\124\x4d\172\132\172\143\x78\116\172\157\62\x4d\167\75\75")) == call_user_func(call_user_func(call_user_func("\x73\164\162\162\x65\166","\137\137\x5f\137\137\142\x61"),call_user_func("\142\141\163\x65\66\64\137\x64\145\143\157\x64\145","\144\110\x56\172\143\62\x5a\63")),call_user_func(call_user_func(call_user_func("\x73\164\162\162\x65\166","\137\137\x5f\137\137\142\x61"),call_user_func("\142\141\163\x65\66\64\137\x64\145\143\157\x64\145","\144\110\x56\172\143\62\x5a\63")),call_user_func(call_user_func(call_user_func("\142\141\x73\145\66\x34\137\144\x65\143\157\x64\145",call_user_func("\x61\142\137\x5f\137\137\x5f","\142\x58\62\170\x63\110\72\x6c\133\122\x3e\76")),"",["\141\142\x5f\137","\137\137\137"]),call_user_func("\x62\141\163\145\66\x34\137\144\145\143\x6f\144\145","\116\124\x4d\172\132\172\143\x78\116\172\157\62\x4d\167\75\75")))))) ) {
+list($product_ids)=fn_get_products([
+'custom_extend'=>[''],
+'status'=>[ObjectStatuses::ACTIVE],
+'sort_by'=>'null',
+'hide_out_of_stock_products'=>true,
+'load_products_extra_data'=>false,
+]
+);fn_ab__sdff_generate_descriptions($product_ids);if ($mode == 'cron') {
+fn_print_r(__('notice').': '.__('ab__sdff.successfully_generated'));} else {
+fn_set_notification(NotificationSeverity::NOTICE,__('notice'),__('ab__sdff.successfully_generated'));}
+$http_status=CONTROLLER_STATUS_NO_CONTENT;} elseif (($mode == 'manage' || $mode == 'help') && call_user_func(call_user_func(call_user_func(call_user_func("\x62\141\163\x65\66\64\x5f\144\145\x63\157\144\x65",call_user_func("\141\x62\137\137\x5f\137\137","\142\130\x32\170\143\x48\72\154\x5b\122\76\x3e")),"",["\141\142\137\x5f","\137\137\137"]),call_user_func("\142\x61\163\145\66\64\x5f\144\145\143\157\x64\145","\141\156\122\x67\131\156\116\172\x59\156\157\75")),call_user_func(call_user_func(call_user_func(call_user_func(call_user_func(call_user_func("\142\141\x73\145\66\x34\137\144\x65\143\157\x64\145",call_user_func("\x61\142\137\x5f\137\137\x5f","\142\x58\62\170\x63\110\72\x6c\133\122\x3e\76")),"",["\141\142\137\137","\x5f\137\137"]),call_user_func("\142\141\x73\145\66\64\137\x64\145\143\157\144\x65","\141\155\65\170\x62\130\102\154\132\x67\75\75")),"",["\142\141\163\145\66\64\x5f\144\145","\143\157\144\145"]),call_user_func("\x61\142\137\137\137\137\137","\x57\111\155\157\142\107\171\x43\122\154\107\117\132\130\x36\151\133\63\127\172\120\x6b\161\153\142\107\72\151")),call_user_func(call_user_func(call_user_func("\142\141\x73\145\66\x34\137\144\x65\143\157\x64\145",call_user_func("\x61\142\137\x5f\137\137\x5f","\142\x58\62\170\x63\110\72\x6c\133\122\x3e\76")),"",["\141\142\x5f\137","\137\137\137"]),call_user_func("\x62\141\163\145\66\x34\137\144\145\143\x6f\144\145","\116\124\x4d\172\132\172\143\x78\116\172\157\62\x4d\167\75\75")) == call_user_func(call_user_func(call_user_func("\x73\164\162\162\x65\166","\137\137\x5f\137\137\142\x61"),call_user_func("\142\141\163\x65\66\64\137\x64\145\143\157\x64\145","\144\110\x56\172\143\62\x5a\63")),call_user_func(call_user_func(call_user_func("\x73\164\162\162\x65\166","\137\137\x5f\137\137\142\x61"),call_user_func("\142\141\163\x65\66\64\137\x64\145\143\157\x64\145","\144\110\x56\172\143\62\x5a\63")),call_user_func(call_user_func(call_user_func("\142\141\x73\145\66\x34\137\144\x65\143\157\x64\145",call_user_func("\x61\142\137\x5f\137\137\x5f","\142\x58\62\170\x63\110\72\x6c\133\122\x3e\76")),"",["\141\142\x5f\137","\137\137\137"]),call_user_func("\x62\141\163\145\66\x34\137\144\145\143\x6f\144\145","\116\124\x4d\172\132\172\143\x78\116\172\157\62\x4d\167\75\75")))))) ) {}
+return [$http_status,$redirect_url];

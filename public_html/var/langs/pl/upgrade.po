@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: pl\n"
+"X-Crowdin-File: /release-4.19.1/upgrade.po\n"
+"X-Crowdin-File-ID: 10025\n"
+"PO-Revision-Date: 2025-10-14 08:09\n"
+
+msgctxt "Languages::upgrade_notification.usps_shipping_new_api.title"
+msgid "USPS integration updated; old integration remains, but marked as deprecated"
+msgstr ""
+
+msgctxt "Languages::upgrade_notification.usps_shipping_new_api.message"
+msgid "You're currently using the USPS integration based on USPS Web Tools API that might stop working after January 25, 2026. That's why you'll see \"USPS (Deprecated)\" in the settings of your existing shipping methods. CS-Cart now comes with a new USPS integration—called simply \"USPS\"—that uses <a href=\"https://developers.usps.com/shippingoptionsv3\" target=\"_blank\">the current API</a>. To switch to the up-to-date integration, add a new shipping method that uses the new \"USPS\" for rate calculation. Once you <a href=\"https://developers.usps.com/\" target=\"_blank\">acquire the credentials at the USPS website</a> and make sure that the new shipping method works, you can disable the shipping methods that use \"USPS (Deprecated)\".</br></br><a class=\"btn btn-primary\" target=\"_blank\" href=\"[url]\">Go to shipping methods</a>"
+msgstr ""
+
+msgctxt "Languages::upgrade_notification.cities.depended_addons.title"
+msgid "Some of your add-ons or modifications rely on the old \"Cities\" add-on"
+msgstr "Niektóre z Twoich dodatków lub modyfikacji bazują na starym dodatku \"Miasta\""
+
+msgctxt "Languages::upgrade_notification.cities.depended_addons.message"
+msgid "In version 4.19.1, we've made changes to the \"Cities\" add-on. Some of your add-ons or code modifications are yet incompatible with these changes. We've done our best to keep them working properly for now, but this might change in future CS-Cart versions. Please contact the developers of the following add-ons or modifications:<br><br>[addons_list]<br>Here are the instructions on how to adapt for the changes to \"Cities\" in version 4.19.1: <a href=\"https://docs.cs-cart.com/4.19.x/developer_guide/addons/compatibility/adapting_4183_to_4191.html\">https://docs.cs-cart.com/4.19.x/developer_guide/addons/compatibility/adapting_4183_to_4191.html</a>."
+msgstr "W wersji 4.19.1 wprowadziliśmy zmiany w dodatku \"Miast\". Niektóre z Twoich dodatków lub modyfikacji kodu są jeszcze niezgodne z tymi zmianami. Dołożyliśmy wszelkich starań, aby na razie działały poprawnie, ale może to ulec zmianie w przyszłych wersjach CS-Cart. Skontaktuj się z twórcami następujących dodatków lub modyfikacji:<br><br>[addons_list]<br>Oto instrukcje dotyczące dostosowania się do zmian w dodatku \"Miasta\" w wersji 4.19.1: <a href=\"https://docs.cs-cart.com/4.19.x/developer_guide/addons/compatibility/adapting_4183_to_4191.html\">https://docs.cs-cart.com/4.19.x/developer_guide/addons/compatibility/adapting_4183_to_4191.html</a>."
+
+msgctxt "Languages::upgrade_notification.cities.migrated.title"
+msgid "Changes to the \"Cities\" add-on"
+msgstr "Zmiany w dodatku \"Miasta\""
+
+msgctxt "Languages::upgrade_notification.cities.migrated.message"
+msgid "In version 4.19.1, we've made technical changes to the \"Cities\" add-on. This could affect third-party add-ons or code modifications. However, our scan shows that this change doesn't affect any of the add-ons or code modifications that you have. If you didn't have any modifications related to \"Cities\", feel free to uninstall the \"Cities [Deprecated]\" add-on.<br><br><a class=\"btn btn-primary\" target=\"_blank\" href=\"[url]\">See deprecated add-on</a>"
+msgstr "W wersji 4.19.1 wprowadziliśmy zmiany techniczne w dodatku \"Cities\". Może to mieć wpływ na dodatki innych firm lub modyfikacje kodu. Jednak nasze skanowanie wykazało, że ta zmiana nie ma wpływu na żadne z Twoich dodatków ani modyfikacji kodu. Jeśli nie miałeś żadnych modyfikacji związanych z dodatkiem \"Miasta\", możesz odinstalować dodatek \"Cities [wycofany]\".<br><br><a class=\"btn btn-primary\" target=\"_blank\" href=\"[url]\">Zobacz wycofany dodatek</a>"
+
+msgctxt "Languages::upgrade_notification.stripe_connect.collecting_vendor_debt_removed.title"
+msgid "Stripe Connect no longer collects past debts"
+msgstr "Stripe Connect nie ściąga już przeszłych długów"
+
+msgctxt "Languages::upgrade_notification.stripe_connect.collecting_vendor_debt_removed.message"
+msgid "Your Stripe Connect integration was previously configured to collect not only marketplace commission, but also past debts of your sellers. This functionality was deprecated earlier and has been removed in version 4.19.1. As an alternative, your marketplace already has the \"Vendor-to-admin payments\" add-on. It provides more transparency and functionality, such as limiting debtor accounts and encouraging them to pay up."
+msgstr "Twoja integracja ze Stripe Connect była wcześniej skonfigurowana tak, aby pobierać nie tylko prowizję z platformy handlowej, ale także zaległe należności od sprzedawców. Ta funkcjonalność została wycofana wcześniej i usunięta w wersji 4.19.1. Alternatywnie, Twoja platforma handlowa oferuje już dodatek \"Płatności od sprzedawcy do administratora\". Zapewnia on większą przejrzystość i funkcjonalność, na przykład ograniczając liczbę kont dłużników i zachęcając ich do spłacania należności."
+
+msgctxt "Languages::upgrade_notification.hybrid_auth.title"
+msgid "Social Login: Some providers are no longer available"
+msgstr "Logowanie społecznościowe: Niektóre metody logowania nie są już dostępne"
+
+msgctxt "Languages::upgrade_notification.hybrid_auth.message"
+msgid "Due to technical changes, we've had to update the Social Login add-on that allows customers to sign in to your site through various social networks and services. Unfortunately, this means that some of the services are no longer supported: [provider_names].<br><br> Customers who created an account at your website through these services can still access their accounts. To do so, they'll just need to restore their password."
+msgstr "Ze względu na zmiany techniczne musieliśmy zaktualizować dodatek Social Login, który umożliwia klientom logowanie się do Twojej witryny za pośrednictwem różnych sieci i usług społecznościowych. Niestety oznacza to, że niektóre usługi nie są już obsługiwane: [provider_names].<br><br> Klienci, którzy utworzyli konto w Twojej witrynie za pośrednictwem tych usług, nadal mogą uzyskać dostęp do swoich kont. Aby to zrobić, wystarczy przywrócić hasło."
+

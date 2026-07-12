@@ -1,0 +1,1 @@
+Ability to export data from New products tab was added.

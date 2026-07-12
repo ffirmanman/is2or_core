@@ -1,0 +1,1 @@
+{include file="addons/ab__custom_h1/hooks/products/tabs_content.post.tpl"}

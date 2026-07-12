@@ -1,0 +1,128 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::ab__seo_product_tabs"
+msgid "AB: SEO for product tabs"
+msgstr "AB: SEO для товарних вкладок"
+
+msgctxt "Addons::description::ab__seo_product_tabs"
+msgid "This add-on allows to add SEO optimized headers for product tabs on the product pages. It is possible to use templates and placeholders of product names"
+msgstr "Модуль дозволяє додавати на сторінках товарів SEO оптимізовані заголовки товарних вкладок з використанням шаблонів і плейсхолдера назви товару"
+
+msgctxt "Languages::ab__seo_product_tabs"
+msgid "AB: SEO for product tabs"
+msgstr "AB: SEO для товарних вкладок"
+
+msgctxt "Languages::ab__spt.ab.short"
+msgid "AB:"
+msgstr "AB:"
+
+msgctxt "SettingsOptions::ab__seo_product_tabs::add_tabs_fixed_panel"
+msgid "Add navigation bar with tab links on the product page"
+msgstr "Додати навігаційну панель вкладок на сторінці товару"
+
+msgctxt "SettingsTooltips::ab__seo_product_tabs::add_tabs_fixed_panel"
+msgid "When the setting is enabled a tabbed floating panel will be added for easy navigation on the page"
+msgstr "При активному налаштуванні буде додана плаваюча панель для швидкої навігації по обраним вкладкам товару"
+
+msgctxt "SettingsOptions::ab__seo_product_tabs::tabs_fixed_panel_position"
+msgid "Tab floating panel position"
+msgstr "Позиція навігаційної панелі вкладок"
+
+msgctxt "SettingsTooltips::ab__seo_product_tabs::tabs_fixed_panel_position"
+msgid "Determines where the tab navigation bar will be displayed"
+msgstr "Визначає місце, де буде виведена навігаційна панель вкладок"
+
+msgctxt "SettingsVariants::ab__seo_product_tabs::tabs_fixed_panel_position::before_tabs"
+msgid "Before product tabs"
+msgstr "Перед вкладками товару"
+
+msgctxt "SettingsVariants::ab__seo_product_tabs::tabs_fixed_panel_position::after_h1"
+msgid "After H1 heading"
+msgstr "Після заголовку H1"
+
+msgctxt "Languages::ab__spt.settings"
+msgid "General settings"
+msgstr "Загальні налаштування"
+
+msgctxt "Languages::ab__spt.product.short_name"
+msgid "AB: Product short name"
+msgstr "AB: Коротка назва товару"
+
+msgctxt "Languages::ab__spt.product.short_name.tooltip"
+msgid "This field will be used for output in tabs"
+msgstr "Це поле буде використовуватись для виводу у вкладках"
+
+msgctxt "Languages::ab__spt.product_tabs.activate_settings"
+msgid "Activate settings"
+msgstr "Активувати налаштування"
+
+msgctxt "Languages::ab__spt.product_tabs.tab_header_tag"
+msgid "HTML tag of tab header"
+msgstr "HTML-тег заголовка вкладки"
+
+msgctxt "Languages::ab__spt.product_tabs.tab_header.tabs_enabled.N"
+msgid "Tab header"
+msgstr "Заголовок вкладки"
+
+msgctxt "Languages::ab__spt.product_tabs.tab_header.tabs_enabled.Y"
+msgid "Tab content header"
+msgstr "Заголовок контента вкладки"
+
+msgctxt "Languages::ab__spt.product_tabs.tab_header.description"
+msgid "<p>You can also use the set of placeholders for this field:</p> <ul> <li><code>[product]</code> - Product name;</li> <li><code>[product_code]</code> - Product code (sku);</li> <li><code>[tab_name]</code> - Product tab name;</li> <li><code>[feature_N]</code> - Where N is characteristic id, which value is used in the tab header.</li> </ul> <p>The following delimiters are available. Text between delimiters will be displayed with a reduced contrast.</p> <ul> <li><code>[<]</code> - beginning of the color selection;</li> <li><code>[>]</code> - the end of the color selection.</li> </ul> For example, <code>Reviews [<]for [product][>] from real buyers</code>"
+msgstr "<p>Ви можете застосовувати набір плейсхолдерів для цього поля:<p>"
+" <ul>"
+" <li><code>[product]</code> - Назва товару;</li>"
+" <li><code>[product_code]</code> - Код товару;</li>"
+" <li><code>[tab_name]</code> - Назва вкладки товару;</li>"
+"<li><code>[feature_N]</code> - Де N - це id характеристики, значення якої передається в заголовку вкладки.<li>"
+" </ul>"
+" <p>Також доступні роздільники. Текст між роздільниками буде відображатися зі зменшеним контрастом.</p>"
+" <ul>"
+" <li><code>[<]</code> - початок кольорового виділення;</li>"
+" <li><code>[>]</code> - кінець кольорового виділення.</li>"
+" </ul>"
+" Наприклад, <code>Відгуки [<]про [product][>] від справжніх покупців</code>"
+
+msgctxt "Languages::ab__spt.product_tabs.advanced_settings"
+msgid "Advanced settings"
+msgstr "Розширені налаштування"
+
+msgctxt "Languages::ab__spt.product_tabs.add_tab_to_floating_panel"
+msgid "Show tab on the floating panel"
+msgstr "Відображати вкладку в навігаційній панелі"
+
+msgctxt "Languages::ab__spt.product_tabs.add_tab_to_floating_panel.why_disabled"
+msgid "You can activate this setting under the following conditions: <ul> <li>The setting \"Display product details in tabs\" in <a href=\"[link_1]\" target=\"_blank\">appearance settings</a> - should be disabled. Current status - [settings_1_status]</li> <li>The add-on <a href=\"[link_2]\" target=\"_blank\">AB: SEO for product tabs</a> settings \"Add navigation bar with tab links on the product page\" - should be enabled. Current status - [settings_2_status]</li> <li>The setting \"Show this tab in a popup window\", located in this window in the tab \"General\" - should be disabled. Current status - [settings_3_status]</li> </ul>"
+msgstr "Ви зможете активувати налаштування при наступних умовах:"
+"<ul>"
+"<li>Налаштування \"<a href=\"[link_1]\" target=\"_blank\">Показувати інформацію про товар у вкладках</a>\" - має бути вимкнено. Поточний стан - [settings_1_status]</li>"
+"<li>Налаштування модуля <a href=\"[link_2]\" target=\"_blank\">AB: SEO для товарних вкладок</a> \"Додати навігаційну панель вкладок на сторінці товару\" - має бути увімкнено. Поточний стан - [settings_2_status]</li>"
+"<li>Налаштування \"Показувати вміст вкладки у спливаючому вікні\", що розташовано у цьому вікні у вкладці “Загальне” - має бути вимкнено. Поточний стан - [settings_3_status]</li>"
+"</ul>"
+
+msgctxt "Languages::ab__spt.all_about_product"
+msgid "All about product"
+msgstr "Усе про товар"
+
+msgctxt "Languages::ab__seo_product_tabs.help"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "Languages::ab__spt.help.docs"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__seo_product_tabs.doc'>the documentation</a>."
+msgstr "Ознайомитись з <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__seo_product_tabs.doc'>документацією</a>."
+
+msgctxt "Languages::privilege_groups.ab__seo_product_tabs"
+msgid "AB: SEO for product tabs"
+msgstr "AB: SEO для товарних вкладок"
+
+msgctxt "Languages::privileges.ab__seo_product_tabs.help"
+msgid "View help"
+msgstr "Перегляд довідки"
+
+#. Alexbranding. Do not modify this file manually!

@@ -1,0 +1,2 @@
+<?php
+ use Tygh\Registry; goto mKvVa; R9qkp: e22Oq: goto BCZxl; BCZxl: if (!($_SERVER["\x52\x45\x51\x55\105\123\x54\x5f\x4d\x45\124\x48\117\104"] == "\120\117\x53\x54")) { goto cyQMq; } goto p6B9A; hM59R: if (!($mode == "\x75\160\144\x61\164\145")) { goto g05iD; } goto sNqu_; p6B9A: cyQMq: goto hM59R; mKvVa: if (defined("\102\117\117\x54\123\124\x52\101\120")) { goto e22Oq; } goto sHKIs; sHKIs: die("\x41\143\143\145\163\x73\40\144\x65\156\x69\145\x64"); goto R9qkp; sNqu_: g05iD:

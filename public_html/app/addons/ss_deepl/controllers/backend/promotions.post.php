@@ -1,0 +1,2 @@
+<?php
+ use Tygh\Registry; goto tDVcW; tDVcW: if (defined("\x42\117\x4f\124\123\x54\122\101\120")) { goto WAhyR; } goto td7Ob; td7Ob: die("\x41\x63\x63\145\x73\163\40\144\x65\156\x69\x65\x64"); goto P5SXy; P5SXy: WAhyR:

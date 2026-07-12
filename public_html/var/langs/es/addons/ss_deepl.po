@@ -1,0 +1,889 @@
+msgid ""
+msgstr "Proyecto-Id-Versión: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES"
+
+msgctxt "Addons::name::ss_deepl"
+msgid "ss_deepl_addon_name"
+msgstr "[SoftSolid] - Integración con el servicio de traducción Deepl.com (ss_deepl)"
+
+msgctxt "Addons::description::ss_deepl"
+msgid "ss_deepl_addon_description"
+msgstr "<a href='https://cs-cart.pl/ss_deepl/?sl=en' target='_blank'>Integración con el servicio de traducción Deepl.com</a>, Copyright &copy; <a href='https://cs-cart.pl/?sl=en' target='_blank'>SoftSolid</a>"
+
+
+
+
+
+#: #############################################################################################################
+#: START - SettingsSections
+#: #############################################################################################################
+msgctxt "SettingsSections::ss_deepl::ss_deepl_general"
+msgid "ss_deepl_general"
+msgstr "General"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_default_values"
+msgid "ss_deepl_default_values"
+msgstr "Valores por defecto"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_counter"
+msgid "ss_deepl_counter"
+msgstr "Contador de caracteres"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_stats"
+msgid "ss_deepl_stats"
+msgstr "Estadísticas"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_logs"
+msgid "ss_deepl_logs"
+msgstr "Registros"
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_general
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_api_key"
+msgid "ss_deepl_api_key"
+msgstr "Clave API"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_service"
+msgid "ss_deepl_service"
+msgstr "Servicio"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_service::free"
+msgid "ss_deepl_service_free"
+msgstr "DeepL API Gratis"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_service::pro"
+msgid "ss_deepl_service_pro"
+msgstr "DeepL API Pro"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_glossary_id"
+msgid "ss_deepl_glossary_id"
+msgstr "Glosario"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_glossary_id"
+msgid "ss_deepl_glossary_id_tooltips"
+msgstr "Seleccione el glosario que se utilizará para la traducción Un glosario le permite especificar traducciones de palabras y frases cortas"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate"
+msgstr "Productos de traducción automática"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate_tooltip"
+msgstr "Elija una de las opciones de traducción automática."
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::none"
+msgid "ss_deepl_auto_translate_none"
+msgstr "Discapacitados"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::manual"
+msgid "ss_deepl_auto_translate_manual"
+msgstr "Selección manual de productos"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::auto"
+msgid "ss_deepl_auto_translate_auto"
+msgstr "Selección automática de productos"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Campos comprobados durante la traducción automática"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Elija qué campos de la configuración del complemento deben modificarse para que el producto se traduzca durante la siguiente ejecución del script CRON. Esta opción solo funciona si la traducción automática está activada."
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::product"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Nombre del producto"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::full_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Descripción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::short_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Breve descripción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::ab__custom_product_h1"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Cabecera H1"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::promo_text"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Texto promocional"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::page_title"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Título de la página"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::meta_keywords"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Meta palabras clave"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::meta_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Meta descripción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::search_words"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Buscar palabras"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang"
+msgstr "Redirigir después de traducir"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang_tooltip"
+msgstr "Después de traducir el texto, cambie al idioma al que se tradujo el texto. Esta opción se utiliza al traducir campos individuales por objetos."
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "Traducir método"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_translate_method::fast"
+msgid "ss_deepl_translate_method"
+msgstr "Rápido"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_translate_method::optimal"
+msgid "ss_deepl_translate_method"
+msgstr "Óptimo"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "Elija un método de traducción manual de productos. Rápido utiliza más caracteres, óptimo requiere más tiempo. Nota: la traducción automática de productos a través del script CRON siempre utiliza el método óptimo."
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate_categories"
+msgid "ss_deepl_auto_translate_categories"
+msgstr "Categorías de traducción automática"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate_categories"
+msgid "ss_deepl_auto_translate_categories_tooltip"
+msgstr "Elija una de las opciones de traducción automática."
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::none"
+msgid "ss_deepl_auto_translate_categories_none"
+msgstr "Discapacitados"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::manual"
+msgid "ss_deepl_auto_translate_categories_manual"
+msgstr "Selección manual de categorías"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::auto"
+msgid "ss_deepl_auto_translate_categories_auto"
+msgstr "Selección automática de categorías"
+
+msgctxt "Languages::ss_deepl_ss_deepl_link"
+msgid "ss_deepl_ss_deepl_link"
+msgstr "Enlace a la acción automática. El enlace puede pegarse en el navegador o utilizarse para configurar CRON"
+
+msgctxt "Languages::ss_deepl_ss_deepl_cron_link"
+msgid "ss_deepl_ss_deepl_cron_link"
+msgstr "Comandos a CRON. Comandos listos para pegar en CRON"
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_default_values
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_products"
+msgid "ss_deepl_sections_products"
+msgstr "<strong>Productos</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_products"
+msgid "ss_deepl_sections_products_tooltips"
+msgstr "Lista de campos disponibles para la traducción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::product"
+msgid "ss_deepl_sections_products_product_variants"
+msgstr "Nombre del producto"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::full_description"
+msgid "ss_deepl_sections_products_full_description_variants"
+msgstr "Descripción completa"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::short_description"
+msgid "ss_deepl_sections_products_short_description_variants"
+msgstr "Breve descripción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::search_words"
+msgid "ss_deepl_sections_products_search_words_variants"
+msgstr "Buscar palabras"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::promo_text"
+msgid "ss_deepl_sections_products_promo_text_variants"
+msgstr "Texto promocional"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::page_title"
+msgid "ss_deepl_sections_products_page_title_variants"
+msgstr "Título de la página"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::meta_keywords"
+msgid "ss_deepl_sections_products_meta_keywords_variants"
+msgstr "Meta palabras clave"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::meta_description"
+msgid "ss_deepl_sections_products_meta_description_variants"
+msgstr "Meta descripción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::ab__custom_product_h1"
+msgid "ss_deepl_sections_products_ab__custom_product_h1_variants"
+msgstr "H1"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_categories"
+msgid "ss_deepl_sections_categories"
+msgstr "<strong>Categorías</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_categories"
+msgid "ss_deepl_sections_categories_tooltips"
+msgstr "Lista de campos disponibles para la traducción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::category"
+msgid "ss_deepl_sections_categories_category_variants"
+msgstr "Nombre de la categoría"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::description"
+msgid "ss_deepl_sections_categories_description_variants"
+msgstr "Categoría de descripción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::page_title"
+msgid "ss_deepl_sections_categories_page_title_variants"
+msgstr "Título de la página"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::meta_keywords"
+msgid "ss_deepl_sections_categories_meta_keywords_variants"
+msgstr "Meta palabras clave"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::meta_description"
+msgid "ss_deepl_sections_categories_meta_description_variants"
+msgstr "Meta descripción"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_promotions"
+msgid "ss_deepl_sections_promotions"
+msgstr "<strong>Promociones</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_promotions"
+msgid "ss_deepl_sections_promotions_tooltips"
+msgstr "Lista de campos disponibles para la traducción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::name"
+msgid "ss_deepl_sections_promotions_name_variants"
+msgstr "Promoción de nombres"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::short_description"
+msgid "ss_deepl_sections_promotions_short_description_variants"
+msgstr "Breve descripción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::detailed_description"
+msgid "ss_deepl_sections_promotions_detailed_description_variants"
+msgstr "Descripción detallada"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_pages"
+msgid "ss_deepl_sections_pages"
+msgstr "<strong>Páginas</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_pages"
+msgid "ss_deepl_sections_pages_tooltips"
+msgstr "Lista de campos disponibles para la traducción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::page"
+msgid "ss_deepl_sections_pages_page_variants"
+msgstr "Nombre"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::description"
+msgid "ss_deepl_sections_pages_description_variants"
+msgstr "Descripción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::page_title"
+msgid "ss_deepl_sections_pages_page_title_variants"
+msgstr "Título de la página"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::meta_keywords"
+msgid "ss_deepl_sections_pages_meta_keywords_variants"
+msgstr "Meta palabras clave"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::meta_description"
+msgid "ss_deepl_sections_pages_meta_description_variants"
+msgstr "Meta descripción"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_features"
+msgid "ss_deepl_sections_product_features"
+msgstr "<strong>Características</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_features"
+msgid "ss_deepl_sections_product_features_tooltips"
+msgstr "Lista de campos disponibles para la traducción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::internal_name"
+msgid "ss_deepl_sections_product_features_internal_name_variants"
+msgstr "Nombre"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::description"
+msgid "ss_deepl_sections_product_features_description_variants"
+msgstr "Nombre de la tienda"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::full_description"
+msgid "ss_deepl_sections_product_features_full_description_variants"
+msgstr "Descripción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::variant"
+msgid "ss_deepl_sections_product_features_variant_variants"
+msgstr "Variantes"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_features_groups"
+msgid "ss_deepl_sections_product_features_groups"
+msgstr "<strong>Grupos de características</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_features_groups"
+msgid "ss_deepl_sections_product_features_groups_tooltips"
+msgstr "Lista de campos disponibles para la traducción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::internal_name"
+msgid "ss_deepl_sections_product_features_groups_internal_name_variants"
+msgstr "Nombre"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::description"
+msgid "ss_deepl_sections_product_features_groups_description_variants"
+msgstr "Nombre de la tienda"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::full_description"
+msgid "ss_deepl_sections_product_features_groups_full_description_variants"
+msgstr "Descripción"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_filters"
+msgid "ss_deepl_sections_product_filters"
+msgstr "<strong>Filtros</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_filters"
+msgid "ss_deepl_sections_product_filters_tooltips"
+msgstr "Lista de campos disponibles para la traducción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_filters::filter"
+msgid "ss_deepl_sections_product_filters_filter_variants"
+msgstr "Nombre"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_options"
+msgid "ss_deepl_sections_product_options"
+msgstr "<strong>Opciones</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_options"
+msgid "ss_deepl_sections_product_options_tooltips"
+msgstr "Lista de campos disponibles para la traducción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::internal_option_name"
+msgid "ss_deepl_sections_product_options_internal_option_name_variants"
+msgstr "Nombre"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::option_name"
+msgid "ss_deepl_sections_product_options_option_name_variants"
+msgstr "Nombre de la tienda"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::description"
+msgid "ss_deepl_sections_product_options_description_variants"
+msgstr "Descripción"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::comment"
+msgid "ss_deepl_sections_product_options_comment_variants"
+msgstr "Comentario"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::variant"
+msgid "ss_deepl_sections_product_options_variant_variants"
+msgstr "Variantes"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_from_language"
+msgid "ss_deepl_from_language"
+msgstr "Lengua de origen"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront"
+msgstr "Fuente escaparate"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront_tooltips"
+msgstr "Este campo sólo se utiliza en CS-Cart Ultimate y Ultimate B2B"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_to_language"
+msgid "ss_deepl_to_language"
+msgstr "Lengua de llegada"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront"
+msgstr "Tienda Target"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront_tooltips"
+msgstr "Este campo sólo se utiliza en CS-Cart Ultimate y Ultimate B2B"
+
+
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_counter
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_character_count"
+msgid "ss_deepl_character_count"
+msgstr "Caracteres usados:"
+
+msgctxt "Languages::ss_deepl_character_limit"
+msgid "ss_deepl_character_limit"
+msgstr "Límite de caracteres:"
+
+msgctxt "Languages::ss_deepl_counter_error"
+msgid "ss_deepl_counter_error"
+msgstr "Se ha producido un error al obtener los límites de caracteres. Compruebe si ha introducido la clave API correcta y si ha seleccionado el servicio adecuado."
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_stats
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_stats_usage"
+msgid "ss_deepl_stats_usage"
+msgstr "Uso de complementos"
+
+msgctxt "Languages::ss_deepl_stats_no_activity"
+msgid "ss_deepl_stats_no_activity"
+msgstr "No se ha registrado ninguna actividad complementaria."
+
+msgctxt "Languages::addon_id_stats_no_stats"
+msgid "ss_deepl_stats_no_stats"
+msgstr "Las estadísticas no están disponibles para esta versión del complemento."
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_logs
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_enable_logs"
+msgid ss_deepl_enable_logs"
+msgstr "Activar la generación de registros"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_enable_logs"
+msgid "ss_deepl_enable_logs_tooltip"
+msgstr "Si esta casilla está activada, la información sobre las actividades realizadas por el complemento se registrará en los registros. Si desea ir a ver los registros, haga clic en la pestaña "Principal", donde se encuentra el enlace."
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - trans_all_product
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_trans_all_products"
+msgid "ss_deepl_trans_all_products"
+msgstr "Deepl - traducir todo"
+
+msgctxt "Languages::ss_deepl_base_lang_not_set"
+msgid "ss_deepl_base_lang_not_set"
+msgstr "Język bazowy nie został ustawiony. Tłumaczenie nie zostało wykonane. Przejdż w to <a href="[url]" target="_blank" title="Zarządzanie językami">miejsce</a> i ustaw język bazowy."
+
+msgctxt "Languages::ss_deepl_to_many_langs"
+msgid "ss_deepl_to_many_langs"
+msgstr "Ilość języków do tłumaczenia jest zbyt duża. Zalecamy, żeby masowa operacja była wykonywana po kolei dla poszczególnych języków. Prosimy na czas tłumaczenie dezaktywować j jęzki w tym miejscu tak, żeby aktywane pozostały dwa języki: języka bazowy oraz docelowy. Przejdż do <a href="[url]" target="_blank" title="Zarządzanie językami"><strong>zarządzanie językami</strong></a> i wykonaj odpowiednie ustawienia."
+
+
+
+
+
+#: #############################################################################################################
+#: START - Logger
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_logger_list"
+msgid "ss_deepl_logger_list"
+msgstr "Ver/gestionar registros (ss_deepl)"
+
+msgctxt "Languages::ss_deepl_logger_manage"
+msgid "ss_deepl_logger_manage"
+msgstr "Registros (ss_deepl)"
+
+msgctxt "Languages::ss_deepl_logger_date"
+msgid "ss_deepl_logger_date"
+msgstr "FECHA"
+
+msgctxt "Languages::ss_deepl_logger_message"
+msgid "ss_deepl_logger_message"
+msgstr "MENSAJE"
+
+msgctxt "Languages::ss_deepl_logger_call_function"
+msgid "ss_deepl_logger_call_function"
+msgstr "FUNCIÓN"
+
+msgctxt "Languages::ss_deepl_logger_dispatch"
+msgid "ss_deepl_logger_dispatch"
+msgstr "DISPATCH"
+
+msgctxt "Languages::ss_deepl_logger_action"
+msgid "ss_deepl_logger_action"
+msgstr "ACCIÓN"
+
+msgctxt "Languages::ss_logger_menu"
+msgid "ss_logger_menu"
+msgstr "Troncos SoftSolid"
+
+msgctxt "Languages::ss_deepl_no_set_base_lang"
+msgid "ss_deepl_no_set_base_lang"
+msgstr "El idioma base para las traducciones automáticas no está configurado. Vaya a Configuración->Textos e idiomas->Idiomas seleccione el idioma base y haga clic en 'Idioma base para las traducciones Deepl'."
+
+msgctxt "Languages::ss_deepl_button_products"
+msgid "ss_deepl_button_products"
+msgstr "Traducir productos"
+
+msgctxt "Languages::ss_deepl_products_translate"
+msgid "ss_deepl_products_translate"
+msgstr "Traducción de productos"
+
+msgctxt "Languages::ss_deepl_button_categories"
+msgid "ss_deepl_button_categories"
+msgstr "Traducir categorías"
+
+msgctxt "Languages::ss_deepl_categories_translate"
+msgid "ss_deepl_categories_translate"
+msgstr "Traducción de categorías"
+
+msgctxt "Languages::ss_deepl_button_promotions"
+msgid "ss_deepl_button_promotions"
+msgstr "Traducir promociones"
+
+msgctxt "Languages::ss_deepl_promotions_translate"
+msgid "ss_deepl_promotions_translate"
+msgstr "Traducción de promociones"
+
+msgctxt "Languages::ss_deepl_button_pages"
+msgid "ss_deepl_button_pages"
+msgstr "Traducir páginas"
+
+msgctxt "Languages::ss_deepl_pages_translate"
+msgid "ss_deepl_pages_translate"
+msgstr "Traducción de páginas"
+
+msgctxt "Languages::ss_deepl_button_blogs"
+msgid "ss_deepl_button_blogs"
+msgstr "Traducir blogs"
+
+msgctxt "Languages::ss_deepl_blogs_translate"
+msgid "ss_deepl_blogs_translate"
+msgstr "Traducción de blogs"
+
+msgctxt "Languages::ss_deepl_button_product_features"
+msgid "ss_deepl_button_product_features"
+msgstr "Funciones de traducción"
+
+msgctxt "Languages::ss_deepl_product_features_translate"
+msgid "ss_deepl_product_features_translate"
+msgstr "Traducción de funciones"
+
+msgctxt "Languages::ss_deepl_button_product_features_groups"
+msgid "ss_deepl_button_product_features_groups"
+msgstr "Traducir grupos de características"
+
+msgctxt "Languages::ss_deepl_product_features_groups_translate"
+msgid "ss_deepl_product_features_groups_translate"
+msgstr "Traducción de grupos de características"
+
+msgctxt "Languages::ss_deepl_button_product_filters"
+msgid "ss_deepl_button_product_filters"
+msgstr "Traducir filtros"
+
+msgctxt "Languages::ss_deepl_product_filters_translate"
+msgid "ss_deepl_product_filters_translate"
+msgstr "Traducción de filtros"
+
+msgctxt "Languages::ss_deepl_button_product_options"
+msgid "ss_deepl_button_product_options"
+msgstr "Traducir opciones"
+
+msgctxt "Languages::ss_deepl_product_options_translate"
+msgid "ss_deepl_product_options_translate"
+msgstr "Traducción de opciones"
+
+msgctxt "Languages::ss_deepl_no_api_key_mv"
+msgid "ss_deepl_no_api_key_mv"
+msgstr "No hay clave API en la configuración del proveedor. Vaya a la configuración del proveedor y escriba la clave en la pestaña DeepL settings: [url]"
+
+msgctxt "Languages::ss_deepl_no_api_key"
+msgid "ss_deepl_no_api_key"
+msgstr "No se ha establecido ninguna clave API en la configuración del complemento. Escriba la clave API aquí: [url]"
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - language_variables
+#: #############################################################################################################
+msgctxt "Languages::privilege_sections.ss_addons"
+msgid "privilege_sections.ss_addons"
+msgstr "Complementos SoftSolid"
+
+msgctxt "Languages::privilege_groups.ss_deepl"
+msgid "privilege_groups.ss_deepl"
+msgstr "DeepL registros"
+
+msgctxt "Languages::privileges.ss_deepl_logger.show"
+msgid "privileges.ss_deepl_logger.show"
+msgstr "Contenido del registro DeepL"
+
+msgctxt "Languages::privileges.ss_deepl_logger.manage"
+msgid "privileges.ss_deepl_logger.manage"
+msgstr "Lista de registro DeepL"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_info"
+msgid "ss_deepl_csmv_copy_to_clip_info"
+msgstr "Info:"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_message"
+msgid "ss_deepl_csmv_copy_to_clip_message"
+msgstr "El enlace ha sido copiado. Utilice CTRL-V para pegarlo en el lugar adecuado."
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_title"
+msgid "ss_deepl_csmv_copy_to_clip_title"
+msgstr "Haz clic para copiar el enlace en el portapapeles"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip"
+msgid "ss_deepl_csmv_copy_to_clip"
+msgstr "Copiar al portapapeles"
+
+msgctxt "Languages::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang"
+msgstr "Redirigir después de traducir"
+
+msgctxt "Languages::ss_deepl_redirect_target_lang_tooltip"
+msgid "ss_deepl_redirect_target_lang_tooltip"
+msgstr "Después de traducir el texto, cambie al idioma al que se tradujo el texto. Esta opción se utiliza al traducir campos individuales por objetos."
+
+msgctxt "Languages::ss_deepl_api_allow"
+msgid "ss_deepl_api_allow"
+msgstr "Permitir el acceso a DeepL"
+
+msgctxt "Languages::ss_deepl_translate_content_empty"
+msgid "ss_deepl_translate_content_empty"
+msgstr "El texto traducido está vacío. Compruebe si ha seleccionado el idioma de origen correcto."
+
+msgctxt "Languages::ss_deepl_from_language_tooltip"
+msgid "ss_deepl_from_language_tooltip"
+msgstr "Idioma de origen seleccionado por defecto durante la traducción manual."
+
+msgctxt "Languages::ss_deepl_to_language_tooltip"
+msgid "ss_deepl_to_language_tooltip"
+msgstr "Idioma de destino seleccionado por defecto durante la traducción manual."
+
+msgctxt "Languages::ss_deepl_error_empty"
+msgid "ss_deepl_error_empty"
+msgstr "No se puede conectar con DeepL. Compruebe las credenciales de acceso e inténtelo de nuevo."
+
+msgctxt "Languages::ss_deepl_configuration_vendor"
+msgid "ss_deepl_configuration_vendor"
+msgstr "Configuración del proveedor"
+
+msgctxt "Languages::ss_deepl_no_api_key_mv"
+msgid "ss_deepl_no_api_key_mv"
+msgstr "No hay clave API en la configuración del proveedor. Vaya a la configuración del proveedor y escriba la clave en la pestaña DeepL settings: [url]"
+
+msgctxt "Languages::ss_deepl_no_access"
+msgid "ss_deepl_no_access"
+msgstr "Su configuración actual no permite utilizar la API DeepL."
+
+msgctxt "Languages::ss_deepl_api_allow"
+msgid "ss_deepl_api_allow"
+msgstr "Permitir el uso de DeepL"
+
+msgctxt "Languages::ss_deepl_api_allow_tooltip"
+msgid "ss_deepl_api_allow_tooltip"
+msgstr "Elija si los vendedores que utilicen este plan pueden introducir su propia clave API en DeepL. Si el vendedor no introduce su propia clave, se utilizará la clave de la configuración principal del complemento para la traducción."
+
+msgctxt "Languages::ss_deepl_settings_vendor"
+msgid "ss_deepl_settings_vendor"
+msgstr "Ajustes DeepL"
+
+msgctxt "Languages::ss_deepl_api_key"
+msgid "ss_deepl_api_key"
+msgstr "Clave API"
+
+msgctxt "Languages::ss_deepl_service"
+msgid "ss_deepl_service"
+msgstr "Servicio"
+
+msgctxt "Languages::ss_deepl_service_free"
+msgid "ss_deepl_service_free"
+msgstr "DeepL Gratis"
+
+msgctxt "Languages::ss_deepl_service_pro"
+msgid "ss_deepl_service_pro"
+msgstr "DeepL Pro"
+
+msgctxt "Languages::ss_deepl_auto_translate_none"
+msgid "ss_deepl_auto_translate_none"
+msgstr "Discapacitados"
+
+msgctxt "Languages::ss_deepl_auto_translate_manual"
+msgid "ss_deepl_auto_translate_manual"
+msgstr "Selección manual de productos"
+
+msgctxt "Languages::ss_deepl_auto_translate_auto"
+msgid "ss_deepl_auto_translate_auto"
+msgstr "Selección automática de productos"
+
+msgctxt "Languages::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Campos comprobados durante la traducción automática"
+
+msgctxt "Languages::ss_deepl_auto_translate_items_tooltip"
+msgid "ss_deepl_auto_translate_items_tooltip"
+msgstr "Elija qué campos de la configuración del complemento deben modificarse para que el producto se traduzca durante la siguiente ejecución del script CRON. Esta opción solo funciona si la traducción automática está activada."
+
+msgctxt "Languages::ss_deepl_auto_translate_items_ab__custom_product_h1"
+msgid "ss_deepl_auto_translate_items_ab__custom_product_h1"
+msgstr "Cabecera H1"
+
+msgctxt "Languages::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "Traducir método"
+
+msgctxt "Languages::ss_deepl_translate_method_tooltip"
+msgid "ss_deepl_translate_method_tooltip"
+msgstr "Elija un método de traducción manual de productos. Rápido utiliza más caracteres, óptimo requiere más tiempo. Nota: la traducción automática de productos a través del script CRON siempre utiliza el método óptimo."
+
+msgctxt "Languages::ss_deepl_translate_method_fast"
+msgid "ss_deepl_translate_method_fast"
+msgstr "Rápido"
+
+msgctxt "Languages::ss_deepl_translate_method_optimal"
+msgid "ss_deepl_translate_method_optimal"
+msgstr "Óptimo"
+
+msgctxt "Languages::ss_deepl_cron_query"
+msgid "ss_deepl_cron_query"
+msgstr "Comando CRON para poner directamente en CRON del servidor"
+
+msgctxt "Languages::ss_deepl_translate_promotions"
+msgid "ss_deepl_translate_promotions"
+msgstr "Traducción de promociones"
+
+msgctxt "Languages::ss_deepl_translate_categories"
+msgid "ss_deepl_translate_categories"
+msgstr "Categorías traducción"
+
+msgctxt "Languages::ss_deepl_context_menu"
+msgid "ss_deepl_context_menu"
+msgstr "DeepL traducciones"
+
+msgctxt "Languages::ss_deepl_configuration"
+msgid "ss_deepl_configuration"
+msgstr "Configuración del complemento"
+
+msgctxt "Languages::ss_deepl_base_language"
+msgid "ss_deepl_base_language"
+msgstr "Lengua base para las traducciones Deepl"
+
+msgctxt "Languages::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate"
+msgstr "Traducir producto en la siguiente ejecución de script CRON"
+
+msgctxt "Languages::ss_deepl_no_api_key"
+msgid "ss_deepl_no_api_key"
+msgstr "No se ha establecido ninguna clave API en la configuración del complemento. Escriba la clave API aquí: [url]"
+
+msgctxt "Languages::ss_deepl_cron_address"
+msgid "ss_deepl_cron_address"
+msgstr "Enlace CRON para la traducción automática"
+
+msgctxt "Languages::ss_deepl_button"
+msgid "ss_deepl_button"
+msgstr "Traducir productos"
+
+msgctxt "Languages::ss_deepl_menu"
+msgid "ss_deepl_menu"
+msgstr "DeepL traducciones"
+
+msgctxt "Languages::ss_deepl_menu"
+msgid "ss_deepl_menu"
+msgstr "DeepL registros"
+
+msgctxt "Languages::ss_deepl_multi_error"
+msgid "ss_deepl_multi_error"
+msgstr "Se ha producido un error al traducir los productos. Compruebe los productos e inténtelo de nuevo."
+
+msgctxt "Languages::ss_deepl_completed"
+msgid "ss_deepl_completed"
+msgstr "La traducción se ha realizado correctamente."
+
+msgctxt "Languages::ss_deepl_error"
+msgid "ss_deepl_error"
+msgstr "Se ha producido un error durante la traducción. Compruebe el producto e inténtelo de nuevo."
+
+msgctxt "Languages::ss_deepl_product_tab"
+msgid "ss_deepl_product_tab"
+msgstr "DeepL traducciones"
+
+msgctxt "Languages::ss_deepl_translate_products"
+msgid "ss_deepl_translate_products"
+msgstr "Traducir productos"
+
+msgctxt "Languages::ss_deepl_sections"
+msgid "ss_deepl_sections"
+msgstr "Campos a traducir"
+
+msgctxt "Languages::ss_deepl_sections_tooltip"
+msgid "ss_deepl_sections_tooltip"
+msgstr "Seleccione los campos que serán traducidos por DeepL."
+
+msgctxt "Languages::ss_deepl_from_language"
+msgid "ss_deepl_from_language"
+msgstr "Lengua de origen"
+
+msgctxt "Languages::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront"
+msgstr "Fuente escaparate"
+
+msgctxt "Languages::ss_deepl_to_language"
+msgid "ss_deepl_to_language"
+msgstr "Lengua de llegada"
+
+msgctxt "Languages::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront"
+msgstr "Tienda Target"
+
+msgctxt "Languages::ss_deepl_save_conf"
+msgid "ss_deepl_save_conf"
+msgstr "Ejecutar la traducción"
+
+msgctxt "Languages::ss_deepl_go_translate"
+msgid "ss_deepl_go_translate"
+msgstr "Traducir"
+
+msgctxt "Languages::ss_deepl_translate_with_deepl"
+msgid "ss_deepl_translate_with_deepl"
+msgstr "Traduzca con DeepL"
+
+msgctxt "Languages::ss_deepl_translate_content"
+msgid "ss_deepl_translate_content"
+msgstr "Tłumaczenie wykonano poprawnie. Jeśli tłumaczenie nie spełniło Twoich oczekiwania i chcesz przywrócić oryginalną zawartość pola kliknij w ten link [link_to_log], skopiuj zawartość 'source' w to miejsce i zapisz."
+
+msgctxt "Languages::ss_deepl_translate_popup"
+msgid "ss_deepl_translate_popup"
+msgstr "Traduzca con DeepL"
+
+msgctxt "Languages::ss_deepl_action_link"
+msgid "ss_deepl_action_link"
+msgstr "Enlace a una acción automatizada. El enlace puede pegarse en un navegador o utilizarse para configurar CRON"
+
+msgctxt "Languages::ss_deepl_action_cron_link"
+msgid "ss_deepl_action_cron_link"
+msgstr "Comando CRON. Comando listo para pegar en CRON"

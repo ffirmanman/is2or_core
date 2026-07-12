@@ -1,0 +1,167 @@
+/*******************************************************************************************
+*   ___  _          ______                     _ _                _                        *
+*  / _ \| |         | ___ \                   | (_)              | |              © 2023   *
+* / /_\ | | _____  _| |_/ /_ __ __ _ _ __   __| |_ _ __   __ _   | |_ ___  __ _ _ __ ___   *
+* |  _  | |/ _ \ \/ / ___ \ '__/ _` | '_ \ / _` | | '_ \ / _` |  | __/ _ \/ _` | '_ ` _ \  *
+* | | | | |  __/>  <| |_/ / | | (_| | | | | (_| | | | | | (_| |  | ||  __/ (_| | | | | | | *
+* \_| |_/_|\___/_/\_\____/|_|  \__,_|_| |_|\__,_|_|_| |_|\__, |  \___\___|\__,_|_| |_| |_| *
+*                                                         __/ |                            *
+*                                                        |___/                             *
+* ---------------------------------------------------------------------------------------- *
+* This is commercial software, only users who have purchased a valid license and accept    *
+* to the terms of the License Agreement can install and use this program.                  *
+* ---------------------------------------------------------------------------------------- *
+* website: https://cs-cart.alexbranding.com                                                *
+*   email: info@alexbranding.com                                                           *
+*******************************************************************************************/
+
+.ab-ec-comparison {
+    &__header {
+        .owl-controls:not(.owl-controls-outside) .owl-buttons {
+            position: absolute;
+            top: 50%;
+            margin-top: -42px;
+            width: 100%;
+
+            .owl-prev {
+                position: absolute;
+                left: -27px;
+                right: auto;
+            }
+            .owl-next {
+                position: absolute;
+                right: -27px;
+                left: auto;
+            }
+        }
+        .owl-theme .owl-controls.owl-controls-outside div {
+            line-height: 34px;
+        }
+    }
+}
+
+.ab-ec-comparison-features__group-name > span {
+    font-weight: bold;
+}
+
+.ab-ec-product-item {
+
+    &__rating {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        > *:not(:last-child) {
+            max-height: 16px;
+            margin-right: 5px;
+            top: 0;
+        }
+    }
+
+    &__bottom-prices {
+        min-height: 44px;
+        line-height: 10px;
+
+        .ty-price-num {
+            font-size: 18px;
+        }
+    }
+
+    &__add-to-cart-default {
+        .ty-btn__primary {
+            padding: 0;
+
+            >span {
+                font-size: 0;
+
+                &:before {
+                    content: "\E8CC";
+                    .material-icons-css();
+                    font-size: 20px;
+                }
+            }
+
+            i {
+                margin: 0;
+                font-size: 0;
+            }
+
+        }
+    }
+
+    .stock-block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+
+    .ty-sku-item {
+        margin-right: 5px;
+    }
+
+    .ty-control-group {
+        margin: 0;
+        color: @light-color-65;
+
+        label {
+            padding: 0;
+            width: auto;
+            margin-right: 3px;
+            color: @light-color-65;
+        }
+
+        span {
+            padding: 0;
+            vertical-align: top;
+        }
+
+        & + .product-title {
+            padding-top: 0;
+        }
+    }
+
+    &__body-buttons {
+        .ab-ec {
+            &__compare, &__wishlist, &__quick-view, &__delete {
+                &:before {
+                    .material-icons-css();
+                }
+            }
+
+            &__delete:before {
+                content: "delete";
+            }
+
+            &__compare:before {
+                content: "";
+            }
+
+            &__wishlist:before {
+                content: "";
+            }
+
+            &__quick-view:before {
+                content: "";
+            }
+        }
+    }
+
+    &:hover {
+        .ty-sku-item {
+            span {
+                color: @font;
+            }
+        }
+    }
+}
+
+.ty-btn {
+    &__ab-ec-in-compare {
+        &.ty-add-to-compare {
+            &:before {
+                color: @links;
+            }
+        }
+    }
+}

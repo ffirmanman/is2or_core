@@ -1,0 +1,1 @@
+{style src="addons/ab__images_seo/styles.less"}

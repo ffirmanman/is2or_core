@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__short_desc_from_features</id>
+<version>1.10.0</version>
+<priority>2016</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<ab>
+<hash>2c0c9253ac43932ec99b96951a7f14c91fae53e3, 2021-03-23 09:54:49</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.3.5</min></ab__addons_manager>
+<ab__seo_filters><min>7.4.2</min></ab__seo_filters>
+</dependencies>
+</compatibility>
+</ab>
+<compatibility>
+<dependencies>ab__addons_manager</dependencies>
+<core_version><min>4.12.1</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="settings">
+<items>
+<item id="insert_type">
+<type>selectbox</type>
+<default_value>override_empty</default_value>
+<variants>
+<item id="var">
+</item>
+<item id="override_all">
+</item>
+<item id="override_empty">
+</item>
+</variants>
+</item>
+<item id="external_delim_prod_page">
+<type>input</type>
+<default_value>; </default_value>
+</item>
+<item id="external_delim_prod_list">
+<type>input</type>
+<default_value>\n</default_value>
+</item>
+<item id="internal_delim_prod_page">
+<type>input</type>
+<default_value>: </default_value>
+</item>
+<item id="internal_delim_prod_list">
+<type>input</type>
+<default_value>: </default_value>
+</item>
+<item id="show_descr_in_multicolumn">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="code"><type>hidden</type><default_value>ABA-RBYB2rw5o7ujP5N2RiVts</default_value></item>
+<item id="build"><type>hidden</type><default_value>825</default_value></item>
+</items>
+</section>
+<section id="ab__pfe">
+<items>
+<item id="external_delim_pfe">
+<type>input</type>
+<default_value>; </default_value>
+</item>
+<item id="internal_delim_pfe">
+<type>input</type>
+<default_value>: </default_value>
+</item>
+</items>
+</section>
+<section id="ab__sf">
+<items>
+<item id="target">
+<type>selectbox</type>
+<default_value>_blank</default_value>
+<variants>
+<item id="_blank">
+</item>
+<item id="_self">
+</item>
+</variants>
+</item>
+<item id="product_page_output">
+<type>selectbox</type>
+<default_value>links</default_value>
+<variants>
+<item id="text">
+</item>
+<item id="links">
+</item>
+</variants>
+</item>
+<item id="product_lists_output">
+<type>selectbox</type>
+<default_value>text</default_value>
+<variants>
+<item id="text">
+</item>
+<item id="links">
+</item>
+</variants>
+</item>
+</items>
+</section>
+</sections>
+</settings>
+<queries>
+<item>
+CREATE TABLE IF NOT EXISTS ?:ab__short_desc_from_features_values (
+product_id mediumint(8) unsigned NOT NULL,
+feature_short_desc mediumtext NOT NULL default '',
+lang_code char(2) NOT NULL default '',
+company_id int(10) unsigned NOT NULL DEFAULT '0',
+storefront_id int(10) unsigned NOT NULL DEFAULT '0',
+PRIMARY KEY (product_id, lang_code, company_id, storefront_id)
+) DEFAULT CHARSET UTF8;
+</item>
+<item>
+CREATE TABLE IF NOT EXISTS ?:ab__short_desc_from_features_flags (
+feature_id mediumint(8) unsigned NOT NULL,
+use_for_desc char(1) NOT NULL default 'N',
+PRIMARY KEY (feature_id)
+) DEFAULT CHARSET UTF8;
+</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__sdff.data.manage', 'Y', 'ab__addons', 'ab__short_desc_from_features', 'N')</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__sdff.data.view', 'Y', 'ab__addons', 'ab__short_desc_from_features', 'Y')</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__short_desc_from_features' OR group_id = 'ab__short_desc_from_features'</item>
+</queries>
+<functions>
+<item for="install">fn_ab__sdff_install</item>
+</functions>
+</addon>

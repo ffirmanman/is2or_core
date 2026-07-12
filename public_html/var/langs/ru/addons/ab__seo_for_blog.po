@@ -1,0 +1,211 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__seo_for_blog"
+msgid "AB: SEO for blog"
+msgstr "AB: SEO для блога"
+
+msgctxt "Addons::description::ab__seo_for_blog"
+msgid "Adds author for blog, page of author articles and table of contents for articles"
+msgstr "Добавляет автора для блога, страницу статей автора и оглавление для статьи"
+
+msgctxt "Languages::ab__seo_for_blog"
+msgid "AB: SEO for blog"
+msgstr "AB: SEO для блога"
+
+msgctxt "Languages::ab__seo_for_blog.added_by_addon"
+msgid "Functionality is added by \"AB: SEO for blog\""
+msgstr "Функционал добавлен модулем \"AB: SEO для блога\""
+
+msgctxt "SettingsOptions::ab__seo_for_blog::default_author"
+msgid "Author by default"
+msgstr "Автор по умолчанию"
+
+msgctxt "SettingsTooltips::ab__seo_for_blog::default_author"
+msgid "Will be used for all articles where author is not selected"
+msgstr "Будет использован для всех статей, для которых не выбран автор"
+
+msgctxt "Languages::ab__seo_for_blog.settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "Languages::ab__seo_for_blog.tab"
+msgid "AB: SEO for blog"
+msgstr "AB: SEO для блога"
+
+msgctxt "Languages::ab__seo_for_blog.position"
+msgid "Position"
+msgstr "Позиция"
+
+msgctxt "Languages::ab__seo_for_blog.title"
+msgid "Title"
+msgstr "Заголовок"
+
+msgctxt "Languages::ab__seo_for_blog.description"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "Languages::ab__seo_for_blog.popup.add"
+msgid "Add a new description"
+msgstr "Добавить новое описание"
+
+msgctxt "Languages::ab__seo_for_blog.popup.edit"
+msgid "Edit description: [name]"
+msgstr "Редактировать описание: [name]"
+
+msgctxt "Languages::ab__seo_for_blog.update.on_page"
+msgid "Edit on the page"
+msgstr "Редактировать описание на странице"
+
+msgctxt "Languages::ab__seo_for_blog.delete"
+msgid "Delete description"
+msgstr "Удалить описание"
+
+msgctxt "Languages::ab__seo_for_blog.first_tab"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "Languages::ab__sfb.authors.manage"
+msgid "Manage authors"
+msgstr "Управление авторами"
+
+msgctxt "Languages::ab__sfb.new_author"
+msgid "New author"
+msgstr "Новый автор"
+
+msgctxt "Languages::ab__sfb.contents"
+msgid "Content"
+msgstr "Содержание"
+
+msgctxt "Languages::ab__sfb.microdata.schema_type"
+msgid "Formatting type"
+msgstr "Тип разметки"
+
+msgctxt "Languages::ab__sfb.microdata.schema_type.none"
+msgid "Do not use"
+msgstr "Не использовать"
+
+msgctxt "Languages::ab__sfb.microdata.schema_type.Article"
+msgid "Article"
+msgstr "Статья"
+
+msgctxt "Languages::ab__sfb.microdata.schema_type.NewsArticle"
+msgid "News"
+msgstr "Новость"
+
+msgctxt "Languages::ab__sfb.microdata.schema_type.BlogPosting"
+msgid "Blog post"
+msgstr "Пост блога"
+
+msgctxt "Languages::ab__sfb.author.name"
+msgid "Name"
+msgstr "Имя"
+
+msgctxt "Languages::ab__sfb.author.rank"
+msgid "Rank"
+msgstr "Звание"
+
+msgctxt "Languages::ab__sfb.author.appointment"
+msgid "Position"
+msgstr "Должность"
+
+msgctxt "Languages::ab__sfb.author.short_description"
+msgid "Short description"
+msgstr "Короткое описание"
+
+msgctxt "Languages::ab__sfb.author.full_description"
+msgid "Full description"
+msgstr "Полное описание"
+
+msgctxt "Languages::ab__sfb.author.image"
+msgid "Image"
+msgstr "Изображение"
+
+msgctxt "Languages::ab__sfb.author.add"
+msgid "Add author"
+msgstr "Добавить автора"
+
+msgctxt "Languages::ab__sfb.author"
+msgid "Author"
+msgstr "Автор"
+
+msgctxt "Languages::ab__sfb.all_authors_posts"
+msgid "All author posts"
+msgstr "Все посты автора"
+
+msgctxt "Languages::ab__sfb.author.url"
+msgid "Link to author page"
+msgstr "Ссылка на страницу автора"
+
+msgctxt "Languages::ab__sfb_post_info_short"
+msgid "AB: Short description about post"
+msgstr "AB: Краткая информация о посте"
+
+msgctxt "Languages::ab__sfb_author_data"
+msgid "AB: Information about author"
+msgstr "AB: Информация об авторе"
+
+msgctxt "Languages::ab__sfb_table_of_content"
+msgid "AB: Content of the article"
+msgstr "AB: Содержание статьи"
+
+msgctxt "Languages::ab__sfb.export.success"
+msgid "Blog and authors have been exported successfully"
+msgstr "Блог и авторы экспортированы успешно"
+
+msgctxt "Languages::ab__sfb.demodata.errors.no_blog_page"
+msgid "Root page of the blog has not been found"
+msgstr "Не найдена корневая страница блога"
+
+msgctxt "Languages::ab__sfb.demodata.errors.no_data"
+msgid "Files of demo data are absent"
+msgstr "Отсутствуют файлы демо-данных"
+
+msgctxt "Languages::ab__sfb.demodata.success"
+msgid "Blog authors [authors] and posts [posts] were successfully created"
+msgstr "Авторы блога [authors] и посты [posts] успешно созданы"
+
+msgctxt "Languages::ab__sfb.demodata_description"
+msgid "Download page of demo data"
+msgstr "Страница загрузки демо-данных"
+
+msgctxt "Languages::ab__sfb.demodata.table.description"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "Languages::ab__sfb.demodata.table.action"
+msgid "Action"
+msgstr "Действие"
+
+msgctxt "Languages::ab__sfb.demodata.table.add_authors_and_blogs"
+msgid "Add authors and blog posts"
+msgstr "Добавить авторов и посты блога"
+
+msgctxt "Languages::ab__sfb.demodata"
+msgid "Demo data"
+msgstr "Демо-данные"
+
+msgctxt "Languages::ab__sfb.demo_products"
+msgid "AB: SEO for blog: demo products"
+msgstr "AB: SEO для блога: демо-товары"
+
+msgctxt "Languages::ab__seo_for_blog.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__seo_for_blog.help.docs"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__seo_for_blog.doc'>the documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__seo_for_blog.doc'>документацией</a>."
+
+msgctxt "Languages::privilege_groups.ab__seo_for_blog"
+msgid "AB: SEO for blog"
+msgstr "AB: SEO для блога"
+
+msgctxt "Languages::privileges.ab__seo_for_blog.help"
+msgid "View help"
+msgstr "Просмотр справки"
+
+#. Alexbranding. Do not modify this file manually!

@@ -1,0 +1,789 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::abt__unitheme2_mv"
+msgid "AB: UniTheme2 (Multi-Vendor)"
+msgstr "AB: UniTheme2 (Multi-Vendor)"
+
+msgctxt "Addons::description::abt__unitheme2_mv"
+msgid "Addon adds AB: UniTheme2 files for support of Multi-Vendor edition"
+msgstr "Модуль додає файли шаблону АВ: UniTheme2 для редакції Multi-Vendor"
+
+msgctxt "Languages::abt__unitheme2_mv"
+msgid "AB: UniTheme2 (Multi-Vendor)"
+msgstr "AB: UniTheme2 (Multi-Vendor)"
+
+msgctxt "Languages::abt__ut2.settings.vendor"
+msgid "Vendor"
+msgstr "Продавець"
+
+msgctxt "Languages::abt__ut2.settings.vendor_description"
+msgid "Block with vendor information on the vendor's page"
+msgstr "Блок з інформацією про продавця на сторінці продавця"
+
+msgctxt "Languages::abt__ut2.settings.vendor.truncate_short_description"
+msgid "Number of characters for vendor description"
+msgstr "Кількість символів для відображення опису продавця"
+
+msgctxt "Languages::abt__ut2.settings.vendor.truncate_short_description.tooltip"
+msgid "Allows you to limit the output of vendor short description, specify the number of displayed characters. To disable output, use the value \"0\""
+msgstr "Дозволяє обмежити відображення інформації про продавця, вкажіть кількість символів для відображення. Щоб вимкнути відображення застосовуйте значення \"0\""
+
+msgctxt "Languages::abt__ut2.settings.vendor.show_ask_question_link"
+msgid "Display \"Ask a question\" link"
+msgstr "Відображати посилання \"Задати питання\""
+
+msgctxt "Languages::abt__ut2.settings.vendor.show_ask_question_link.tooltip"
+msgid "Allows customers to communicate with the vendor using chat. Depends on \"Ask vendor a question\" add-on"
+msgstr "Дозволяє відобразити посилання для комунікації з продавцем за допомогою чата. Залежить від модуля \"Чат з продавцем\""
+
+msgctxt "Languages::abt__ut2.settings.products.vendor_group"
+msgid "Block with vendor information"
+msgstr "Блок з інформацією про продавця"
+
+msgctxt "Languages::abt__ut2.settings.products.vendor_group_description"
+msgid "Settings for block with vendor information on the product page"
+msgstr "Налаштування блоку з інформацією про продавця на сторінці товару"
+
+msgctxt "Languages::abt__ut2.settings.products.vendor.show_name_as_link"
+msgid "Use vendor name as a link on a vendor page"
+msgstr "Ім'я продавця, як посилання на сторінку продавця"
+
+msgctxt "Languages::abt__ut2.settings.products.vendor.show_name_as_link.tooltip"
+msgid "Allows use vendor name as a link to the page of this vendor"
+msgstr "Дозволяє за посиланням переходити на сторінку продавця"
+
+msgctxt "Languages::abt__ut2.settings.products.vendor.show_logo"
+msgid "Show vendor logo"
+msgstr "Відображати логотип продавця"
+
+msgctxt "Languages::abt__ut2.settings.products.vendor.show_logo.tooltip"
+msgid "Displays the vendor's logo"
+msgstr "Дозволяє відображати логотип продавця"
+
+msgctxt "Languages::abt__ut2.settings.products.vendor.truncate_short_description"
+msgid "Number of characters for vendor description"
+msgstr "Кількість символів для відображення опису продавця"
+
+msgctxt "Languages::abt__ut2.settings.products.vendor.truncate_short_description.tooltip"
+msgid "Allows you to limit the output of a vendor description, specify the number of displayed characters. To disable output, use the value \"0\""
+msgstr "Дозволяє обмежити відображення опису продавця, вкажіть кількість символів для відображення. Щоб вимкнути відображення застосовуйте значення \"0\""
+
+msgctxt "Languages::abt__ut2.settings.products.vendor.show_vendor_panel"
+msgid "Show panel with a detailed vendor information"
+msgstr "Відображати панель з докладною інформацією про продавця"
+
+msgctxt "Languages::abt__ut2.settings.products.vendor.show_vendor_panel.tooltip"
+msgid "Show a content of the page \"Vendor information\" in the pop-up window"
+msgstr "Відображає вміст сторінки \"Інформація про продавця\" у спливаючому вікні"
+
+msgctxt "Languages::abt__ut2.settings.products.vendor.show_ask_question_link"
+msgid "Show \"Ask a question\" link"
+msgstr "Відображати посилання \"Задати питання\""
+
+msgctxt "Languages::abt__ut2.settings.products.vendor.show_ask_question_link.tooltip"
+msgid "Allows customers to communicate with the vendor using chat. Depends on \"Ask vendor a question\" add-on"
+msgstr "Дозволяє відобразити посилання для комунікації з продавцем за допомогою чата. Залежить від модуля \"Чат з продавцем\""
+
+msgctxt "Languages::abt__ut2.settings.products.vendor.show_vendor_address"
+msgid "Show vendor address"
+msgstr "Відображати адресу продавця"
+
+msgctxt "Languages::abt__ut2.settings.products.vendor.show_vendor_rating"
+msgid "Show vendor rating"
+msgstr "Відображати рейтинг продавця"
+
+msgctxt "Languages::abt__ut2.settings.products.vendor.show_vendor_rating.tooltip"
+msgid "Depends on the add-on \"Vendor rating\""
+msgstr "Залежить від модуля \"Рейтинг продавців\""
+
+msgctxt "Languages::abt__ut2.settings.product_list.products_multicolumns.show_vendor_info"
+msgid "Show vendor information"
+msgstr "Відображати інформацію про продавця"
+
+msgctxt "Languages::abt__ut2.settings.product_list.products_multicolumns.show_vendor_info.variants.none"
+msgid "Do not show"
+msgstr "Не відображати"
+
+msgctxt "Languages::abt__ut2.settings.product_list.products_multicolumns.show_vendor_info.variants.show"
+msgid "Show"
+msgstr "Відображати"
+
+msgctxt "Languages::abt__ut2.settings.product_list.products_multicolumns.show_vendor_logo"
+msgid "Show vendor logo"
+msgstr "Відображати логотип продавця"
+
+msgctxt "Languages::abt__ut2.settings.product_list.products_multicolumns.show_vendor_rating"
+msgid "Show vendor rating"
+msgstr "Відображати рейтинг продавця"
+
+msgctxt "Languages::abt__ut2.settings.product_list.products_multicolumns.show_vendor_address"
+msgid "Show vendor address"
+msgstr "Відображати адресу продавця"
+
+msgctxt "Languages::abt__ut2.settings.product_list.products_without_options.show_vendor_info"
+msgid "Show vendor information"
+msgstr "Відображати інформацію про продавця"
+
+msgctxt "Languages::abt__ut2.settings.product_list.products_without_options.show_vendor_info.variants.none"
+msgid "Do not show"
+msgstr "Не відображати"
+
+msgctxt "Languages::abt__ut2.settings.product_list.products_without_options.show_vendor_info.variants.show"
+msgid "Show"
+msgstr "Відображати"
+
+msgctxt "Languages::abt__ut2.settings.product_list.products_without_options.show_vendor_logo"
+msgid "Show vendor logo"
+msgstr "Відображати логотип продавця"
+
+msgctxt "Languages::abt__ut2.settings.product_list.products_without_options.show_vendor_rating"
+msgid "Show vendor rating"
+msgstr "Відображати рейтинг продавця"
+
+msgctxt "Languages::abt__ut2.settings.product_list.products_without_options.show_vendor_address"
+msgid "Show vendor address"
+msgstr "Відображати адресу продавця"
+
+msgctxt "Languages::abt__ut2.settings.product_list.short_list.show_vendor_info"
+msgid "Show vendor information"
+msgstr "Відображати інформацію про продавця"
+
+msgctxt "Languages::abt__ut2.settings.product_list.short_list.show_vendor_info.variants.none"
+msgid "Do not show"
+msgstr "Не відображати"
+
+msgctxt "Languages::abt__ut2.settings.product_list.short_list.show_vendor_info.variants.show"
+msgid "Show"
+msgstr "Відображати"
+
+msgctxt "Languages::abt__ut2.settings.product_list.short_list.show_vendor_logo"
+msgid "Show vendor logo"
+msgstr "Відображати логотип продавця"
+
+msgctxt "Languages::abt__ut2.settings.product_list.short_list.show_vendor_rating"
+msgid "Show vendor rating"
+msgstr "Відображати рейтинг продавця"
+
+msgctxt "Languages::abt__ut2.settings.product_list.short_list.show_vendor_address"
+msgid "Show vendor address"
+msgstr "Відображати адресу продавця"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_about_page_metadata_group"
+msgid "\"About vendor\" page metadata"
+msgstr "Метадані сторінки \"Про продавця\""
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_products_page_metadata_group"
+msgid "\"Vendor products\" page metadata"
+msgstr "Метадані сторінки \"Товари продавця\""
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_reviews_page_metadata_group"
+msgid "\"Vendor reviews\" page metadata"
+msgstr "Метадані сторінки \"Відгуки про продавця\""
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_store_page_metadata_group"
+msgid "\"Vendor micro-store\" page metadata"
+msgstr "Метадані сторінки \"Мікро-магазин продавця\""
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_about_page_metadata_group_description"
+msgid "Settings for \"About vendor\" page: Page title, Meta description, Meta keywords.<br>Available placeholders: <code>[company_name]</code> - company name; <code>[storefront_name]</code> - storefront name"
+msgstr "Налаштування для сторінки \"Про продавця\": Назва сторінки, Мета опис, Мета ключові слова.<br>Доступні плейсхолдери: <code>[company_name]</code> - назва компанії; <code>[storefront_name]</code> - назва вітрини"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_products_page_metadata_group_description"
+msgid "Settings for \"Vendor products\" page: Page title, Meta description, Meta keywords.<br>Available placeholders: <code>[company_name]</code> - company name; <code>[storefront_name]</code> - storefront name"
+msgstr "Налаштування для сторінки \"Товари продавця\": Назва сторінки, Мета опис, Мета ключові слова.<br>Доступні плейсхолдери: <code>[company_name]</code> - назва компанії; <code>[storefront_name]</code> - назва вітрини"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_reviews_page_metadata_group_description"
+msgid "Settings for \"Vendor reviews\" page: Page title, Meta description, Meta keywords.<br>Available placeholders: <code>[company_name]</code> - company name; <code>[storefront_name]</code> - storefront name"
+msgstr "Налаштування для сторінки \"Відгуки про продавця\": Назва сторінки, Мета опис, Мета ключові слова.<br>Доступні плейсхолдери: <code>[company_name]</code> - назва компанії; <code>[storefront_name]</code> - назва вітрини"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_store_page_metadata_group_description"
+msgid "Settings for \"Vendor micro-store\" page: Page title, Meta description, Meta keywords.<br>Available placeholders: <code>[company_name]</code> - company name; <code>[storefront_name]</code> - storefront name"
+msgstr "Налаштування для сторінки \"Мікро-магазин продавця\": Назва сторінки, Мета опис, Мета ключові слова.<br>Доступні плейсхолдери: <code>[company_name]</code> - назва компанії; <code>[storefront_name]</code> - назва вітрини"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_about_page_metadata.vendor_about_page_title"
+msgid "Page title"
+msgstr "Назва сторінки"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_about_page_metadata.vendor_about_page_description"
+msgid "Meta description"
+msgstr "Мета опис"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_about_page_metadata.vendor_about_page_keywords"
+msgid "Meta keywords"
+msgstr "Мета ключові слова"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_products_page_metadata.vendor_products_page_title"
+msgid "Page title"
+msgstr "Назва сторінки"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_products_page_metadata.vendor_products_page_description"
+msgid "Meta description"
+msgstr "Мета опис"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_products_page_metadata.vendor_products_page_keywords"
+msgid "Meta keywords"
+msgstr "Мета ключові слова"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_reviews_page_metadata.vendor_reviews_page_title"
+msgid "Page title"
+msgstr "Назва сторінки"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_reviews_page_metadata.vendor_reviews_page_description"
+msgid "Meta description"
+msgstr "Мета опис"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_reviews_page_metadata.vendor_reviews_page_keywords"
+msgid "Meta keywords"
+msgstr "Мета ключові слова"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_store_page_metadata.vendor_store_page_title"
+msgid "Page title"
+msgstr "Назва сторінки"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_store_page_metadata.vendor_store_page_description"
+msgid "Meta description"
+msgstr "Мета опис"
+
+msgctxt "Languages::abt__ut2.settings.vendor.vendor_store_page_metadata.vendor_store_page_keywords"
+msgid "Meta keywords"
+msgstr "Мета ключові слова"
+
+msgctxt "Languages::abt__ut2_mv.allow_vendor_metadata"
+msgid "AB: Allow custom metadata"
+msgstr "AB: Дозволити метадані користувача"
+
+msgctxt "Languages::abt__ut2_mv.allow_vendor_metadata.tooltip"
+msgid "Allows vendors to set their own metadata for page: About vendor, Vendor products, Vendor reviews, Vendor micro-store"
+msgstr "Дозволяє продавцю вносити свої метадані для сторінок: Про продавця, Товари продавця, Відгуки про продавця, Мікро-магазин продавця"
+
+msgctxt "Languages::abt__ut2_mv.vendor_metadata.page.about"
+msgid "\"About vendor\" page"
+msgstr "Сторінка \"Про продавця\""
+
+msgctxt "Languages::abt__ut2_mv.vendor_metadata.page.products"
+msgid "\"Vendor products\" page"
+msgstr "Сторінка \"Товари продавця\""
+
+msgctxt "Languages::abt__ut2_mv.vendor_metadata.page.reviews"
+msgid "\"Vendor reviews\" page"
+msgstr "Сторінка \"Відгуки про продавця\""
+
+msgctxt "Languages::abt__ut2_mv.vendor_metadata.page.store"
+msgid "\"Vendor micro-store\" page"
+msgstr "Сторінка \"Мікро-магазин продавця\""
+
+msgctxt "Languages::abt__ut2_mv.addon.name"
+msgid "AB: UniTheme2 (Multi-Vendor)"
+msgstr "AB: UniTheme2 (Multi-Vendor)"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor"
+msgid "Vendor"
+msgstr "Продавець"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor_description"
+msgid "There are settings that influence on elements of the vendor page"
+msgstr "Нижче представлені налаштування, які впливають на елементи сторінок продавця"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_info_group"
+msgid "Vendor information"
+msgstr "Інформація про продавця"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_info_group_description"
+msgid "There are settings that influence on elements of the block \"Vendor information\""
+msgstr "Нижче представлені налаштування, які впливають на елементи блоку \"Інформація про продавця\""
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_info.background"
+msgid "Block background"
+msgstr "Фон блоку"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_info.font_main"
+msgid "Main text color in the block"
+msgstr "Основний колір тексту в блоці"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_info.font_additional"
+msgid "Additional text color in the block"
+msgstr "Додатковий колір тексту в блоці"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_info.links"
+msgid "Color of links in the block"
+msgstr "Колір посилань у блоці"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_menu_group"
+msgid "Vendor menu"
+msgstr "Меню продавця"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_menu_group_description"
+msgid "There are settings that influence on elements of the block \"Vendor menu\""
+msgstr "Нижче представлені налаштування, які впливають на елементи блоку \"Меню продавця\""
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_menu.background"
+msgid "Menu background"
+msgstr "Фон меню"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_menu.active_background"
+msgid "Background of active menu item"
+msgstr "Фон активного пункту меню"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_menu.item"
+msgid "Color of menu links in the first level"
+msgstr "Колір посилань меню на першому рівні"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_menu.item_active"
+msgid "Color of menu links in the first level on hover"
+msgstr "Колір посилань меню на першому рівні при наведенні"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_buttons_group"
+msgid "Vendor buttons"
+msgstr "Кнопки продавця"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_buttons_group_description"
+msgid "There are settings that influence on elements of the \"Vendor buttons\" block"
+msgstr "Нижче наведено налаштування, які впливають на елементи блоку \"Кнопки продавця\""
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_buttons.background"
+msgid "Background color of buttons"
+msgstr "Фоновий колір кнопок"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_buttons.active_background"
+msgid "Background color of buttons on hover"
+msgstr "Фоновий колір кнопок при наведенні"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_buttons.color"
+msgid "Text color of buttons"
+msgstr "Колір тексту кнопок"
+
+msgctxt "Languages::abt__ut2.less_settings.vendor.vendor_buttons.color_active"
+msgid "Text color of buttons on hover"
+msgstr "Колір тексту кнопок при наведенні"
+
+msgctxt "Languages::abt__ut2.sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "Сортувати по алфавіту: від А до Я"
+
+msgctxt "Languages::abt__ut2.sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "Сортувати по алфавіту: від Я до А"
+
+msgctxt "Languages::abt__ut2.sort_by_rating_asc"
+msgid "Sort by rating: Low to High"
+msgstr "Сортувати за рейтингом: за зростанням"
+
+msgctxt "Languages::abt__ut2.sort_by_rating_desc"
+msgid "Sort by rating"
+msgstr "Сортувати за рейтингом"
+
+msgctxt "Languages::abt__ut2.sort_by_absolute_vendor_rating_asc"
+msgid "Sort by Vendor rating: Low to High"
+msgstr "Сортувати за рейтингом продавця: за зростанням"
+
+msgctxt "Languages::abt__ut2.sort_by_absolute_vendor_rating_desc"
+msgid "Sort by Vendor rating"
+msgstr "Сортувати за рейтингом продавця"
+
+msgctxt "Languages::abt__ut2_mv.vendor_settings_tab"
+msgid "Vendor settings on vendor page"
+msgstr "Налаштування Продавця на сторінці продавця"
+
+msgctxt "Languages::abt__ut2_mv.product_page_vendor_settings"
+msgid "Vendor settings on product page"
+msgstr "Налаштування Продавця на сторінці товару"
+
+msgctxt "Languages::abt__ut2_mv_vendor_store"
+msgid "My micro-store"
+msgstr "Мій мікро-магазин"
+
+msgctxt "Languages::abt__ut2_mv_home_blocks"
+msgid "Blocks on micro-store"
+msgstr "Блоки мікро-магазину"
+
+msgctxt "Languages::abt__ut2_mv_banners"
+msgid "Banners"
+msgstr "Банери"
+
+msgctxt "Languages::abt__ut2_mv_menus"
+msgid "Menu"
+msgstr "Меню"
+
+msgctxt "Languages::block_abt__ut2_mv_vendor_subcategories_menu"
+msgid "AB: Vendor categories"
+msgstr "AB: Категорії продавця"
+
+msgctxt "Languages::abt__ut2_mv_vendor_information"
+msgid "AB: Vendor information"
+msgstr "AB: Інформація про продавця"
+
+msgctxt "Languages::abt__ut2_mv_vendor_information_vertical"
+msgid "AB: Vendor information (Vertical)"
+msgstr "AB: Інформація про продавця (Вертикальний)"
+
+msgctxt "Languages::abt__ut2_mv_type"
+msgid "Template type"
+msgstr "Тип шаблону"
+
+msgctxt "Languages::abt__ut2_mv.vendor_panel_type_f"
+msgid "Full"
+msgstr "Повний"
+
+msgctxt "Languages::abt__ut2_mv.vendor_panel_type_c"
+msgid "Compact"
+msgstr "Компактний"
+
+msgctxt "Languages::abt__ut2_mv_logo"
+msgid "Vendor logo"
+msgstr "Логотип продавця"
+
+msgctxt "Languages::abt__ut2_mv_name_as_link"
+msgid "Vendor name by reference (to vendor Home page)"
+msgstr "Назва продавця посиланням (на головну сторінку продавця)"
+
+msgctxt "Languages::abt__ut2_mv_vendor_rating"
+msgid "Vendor rating"
+msgstr "Рейтинг продавця"
+
+msgctxt "Languages::abt__ut2_mv.vendor_rating_tooltip"
+msgid "Depends on the add-ons \"Vendor rating\" and \"Comments and reviews\". Displays a vendor rating, number of reviews, average mark for reviews and statistic of reviews"
+msgstr "Залежить від модулів “Рейтинг продавців\" і \"Відгуки і коментарі\" Відображає рейтинг продавця, кількість відгуків, середню оцінку по відгукам і статистику відгуків"
+
+msgctxt "Languages::abt__ut2_mv_description_length"
+msgid "Number of characters in the short description of vendor"
+msgstr "Кількість символів у короткому описі продавця"
+
+msgctxt "Languages::abt__ut2_mv.description_length_tooltip"
+msgid "Value \"0\" disables the display"
+msgstr "Значення \"0\" вимикає відображення"
+
+msgctxt "Languages::abt__ut2_mv_motivation"
+msgid "Motivation for buyer"
+msgstr "Мотивація для покупця"
+
+msgctxt "Languages::abt__ut2_mv.motivation_tooltip"
+msgid "Displays a number of products, work period on the marketplace and location of the vendor"
+msgstr "Відображає кількість товарів продавця, період роботи на маркетплейсі і локацію"
+
+msgctxt "Languages::abt__ut2_mv_contacts"
+msgid "Contact information"
+msgstr "Контактна інформація"
+
+msgctxt "Languages::abt__ut2_mv_ask_question"
+msgid "Button \"Ask a question\""
+msgstr "Кнопка \"Задати питання\""
+
+msgctxt "Languages::abt__ut2_mv.ask_question_tooltip"
+msgid "Depends on the add-on \"Message center\""
+msgstr "Залежить від модуля “Центр повідомлень\""
+
+msgctxt "Languages::abt__ut2_mv_vendor_home_banner"
+msgid "AB: Banner of Home page of vendor"
+msgstr "AB: Банер домашньої сторінки продавця"
+
+msgctxt "Languages::block_abt__ut2_mv_vendor_menu"
+msgid "AB: Vendor menu"
+msgstr "AB: Меню продавця"
+
+msgctxt "Languages::abt__ut2_mv.vendor_categories"
+msgid "Vendor categories"
+msgstr "Категорії продавця"
+
+msgctxt "Languages::abt__ut2_mv.wrappers.main_block"
+msgid "Main block"
+msgstr "Основний блок"
+
+msgctxt "Languages::abt__ut2_mv.wrappers.main_block_with_background_gray"
+msgid "Main block with a gray background"
+msgstr "Основний блок із сірим фоном"
+
+msgctxt "Languages::abt__ut2_mv.wrappers.main_block_with_background_colored"
+msgid "Main block with background colored"
+msgstr "Основний блок із кольоровим фоном"
+
+msgctxt "Languages::abt__ut2_mv.wrappers.simplified_block"
+msgid "Simplified block"
+msgstr "Спрощений блок"
+
+msgctxt "Languages::abt__ut2_mv.wrappers.secondary_block"
+msgid "Secondary block"
+msgstr "Другорядний блок"
+
+msgctxt "Languages::abt__ut2_mv.wrappers.secondary_framed_block"
+msgid "Secondary framed block"
+msgstr "Другорядний блок з обрамленням"
+
+msgctxt "Languages::abt__ut2_mv.upgrade_notifications.title"
+msgid "AB: UniTheme2 (Multi-Vendor) was successfully updated to v[ver]!"
+msgstr "AB: UniTheme2 (Multi-Vendor) успішно оновлена до v[ver]!"
+
+msgctxt "Languages::abt__ut2_mv.upgrade_notifications.text"
+msgid "The detailed list of changes for <b>v[ver]</b> version look in documentation for the theme in the section <a target=\"_blank\" href=\"https://docs.cs-cart.abt.team/en/abt__unitheme2_mv.doc#p-1276\">List of releases</a>."
+msgstr "Докладний список змін, що увійшов у версію <b>v[ver]</b> дивіться в документації по темі в розділі <a target=\"_blank\" href=\"https://docs.cs-cart.abt.team/ru/abt__unitheme2_mv.doc#p-1276\">Список релізів</a>."
+
+msgctxt "Languages::abt__ut2_mv.upgrade_notifications.4.10.2.b.new_layouts.title"
+msgid "We recommend to update the used layout!"
+msgstr "Необхідно оновити макет, що використовується!"
+
+msgctxt "Languages::abt__ut2_mv.upgrade_notifications.4.10.2.b.new_layouts.text"
+msgid "Use the following <a target=\"_blank\" href=\"https://docs.cs-cart.abt.team/en/abt__unitheme2.doc#p-142\">instruction</a> to update the used layout."
+msgstr "Застосовуйте наступну <a target=\"_blank\" href=\"https://docs.cs-cart.abt.team/ru/abt__unitheme2.doc#p-142\">інструкцію</a> для оновлення макету, що застосовується."
+
+msgctxt "Languages::abt__ut2_mv.upgrade_notifications.recommend_to_update_layouts.title"
+msgid "We recommend to update the used layout!"
+msgstr "Необхідно оновити макет, що використовується!"
+
+msgctxt "Languages::abt__ut2_mv.upgrade_notifications.recommend_to_update_layouts.text"
+msgid "Use the following <a target=\"_blank\" href=\"https://docs.cs-cart.abt.team/en/abt__unitheme2.doc#p-142\">instruction</a> to update the used layout."
+msgstr "Застосовуйте наступну <a target=\"_blank\" href=\"https://docs.cs-cart.abt.team/ru/abt__unitheme2.doc/v4.10.2.d#p-142\">інструкцію</a> для оновлення макету, що застосовується."
+
+msgctxt "Languages::abt__ut2_mv.upgrade_notifications.4.11.2.a.new_settings.title"
+msgid "Added new settings"
+msgstr "Додано нові налаштування"
+
+msgctxt "Languages::abt__ut2_mv.upgrade_notifications.4.11.2.a.new_settings.text"
+msgid "<h3>Block with information about the vendor on the product page</h3> <p>To edit this settings go to: Admin panel → AB: Addons → AB: UniTheme2 → Theme settings, go to Product tab and find section Block with vendor information:</p> <ul> <li>Use vendor name as a link on a vendor page;</li> <li>Show vendor logo;</li> <li>Number of characters for vendor description;</li> <li>Show vendor phone number;</li> <li>Show \"Ask a question\" link.</li> </ul> <h3>Block with information about the vendor on the vendor's page</h3> <p>To edit this settings go to: Admin panel → AB: Addons → AB: UniTheme2 → Theme settings, go to Vendor tab:</p> <ul> <li>Number of characters for vendor description;</li> <li>Display \"Ask a question\" link.</li> </ul>"
+msgstr "<h3>Блок з інформацією про продавця на сторінці товару</h3>"
+"<p>Для редагування цих налаштувань перейдіть: Панель адміністратора → AB: Модулі → AB: UniTheme2 → Налаштування теми, перейдіть на вкладку \"Товар\" і знайдіть розділ \"Блок з інформацією про продавця\":</p>"
+"<ul>"
+"<li>Ім'я продавця, як посилання на сторінку продавця;</li>"
+"<li>Відображати логотип продавця;</li>"
+"<li>Кількість символів для відображення опису продавця;</li>"
+"<li>Відображати телефон продавця;</li>"
+"<li>Відображати посилання \"Задати питання\".</li>"
+"</ul>"
+"<h3>Блок з інформацією про продавця, на сторінці продавця</h3>"
+"<p>Для редагування цих налаштувань перейдіть: Панель адміністратора → AB: Модулі → AB: UniTheme2 → Налаштування теми, перейдіть на вкладку \"Продавець\":</p>"
+" <ul>"
+" <li>Кількість символів для відображення опису продавця;</li>"
+" <li>Відображати посилання \"Задати питання\".</li>"
+" </ul>"
+
+msgctxt "Languages::abt__ut2_mv.autoinstall.add_layouts"
+msgid "Added layouts for Multi-Vendor"
+msgstr "Додано макети для Multi-Vendor"
+
+msgctxt "Languages::abt__ut2_mv.help"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "Languages::abt__ut2_mv.help.doc"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/abt__unitheme2_mv.doc'>the documentation</a>."
+msgstr "Ознайомитись з <a target='_blank' href='https://cs-cart.alexbranding.com/ru/abt__unitheme2_mv.doc'>документацією</a>."
+
+msgctxt "Languages::abt__ut2_mv.add_block"
+msgid "Add block"
+msgstr "Додати блок"
+
+msgctxt "Languages::abt__ut2_mv.show_title"
+msgid "Show title"
+msgstr "Відображати заголовок"
+
+msgctxt "Languages::abt__ut2_mv_vendor_products"
+msgid "AB: Vendor products only"
+msgstr "AB: Тільки товари продавця"
+
+msgctxt "Languages::abt__ut2_mv_vendor_products.tooltip"
+msgid "Vendor products will be displayed on the product page or vendor pages"
+msgstr "Товари продавця будуть відображатись на сторінці товару або на сторінках продавця"
+
+msgctxt "Languages::abt__ut2_mv.banner_position.after_breadcrumbs"
+msgid "After breadcrumbs of product"
+msgstr "Після хлібних крихт товару"
+
+msgctxt "Languages::abt__ut2_mv.banner_position.after_general"
+msgid "After main information about product"
+msgstr "Після основної інформації про товар"
+
+msgctxt "Languages::abt__ut2_mv.n_reviews"
+msgid "[n] review|[n] reviews"
+msgstr "[n] відгук|[n] відгуки|[n] відгуків"
+
+msgctxt "Languages::abt__ut2_mv.of_stars"
+msgid "<b>[stars]</b> from 5"
+msgstr "<b>[stars]</b> з 5"
+
+msgctxt "Languages::abt__ut2_mv.read_all"
+msgid "Read all"
+msgstr "Читати все"
+
+msgctxt "Languages::abt__ut2_mv.read_all_reviews"
+msgid "View all reviews"
+msgstr "Проглянути усі відгуки"
+
+msgctxt "Languages::abt__ut2_mv.total_products"
+msgid "Total products"
+msgstr "Всього товарів"
+
+msgctxt "Languages::abt__ut2_mv.sell_on"
+msgid "Sells on [marketplace]"
+msgstr "Продає на [marketplace]"
+
+msgctxt "Languages::abt__ut2_mv.n_years"
+msgid "[n] year|[n] years"
+msgstr "[n] рік|[n] роки|[n] років"
+
+msgctxt "Languages::abt__ut2_mv.n_months"
+msgid "[n] month|[n] months"
+msgstr "[n] місяць|[n] місяці|[n] місяців"
+
+msgctxt "Languages::abt__ut2_mv.n_days"
+msgid "[n] day|[n] days"
+msgstr "[n] день|[n] дні|[n] днів"
+
+msgctxt "Languages::abt__ut2_mv.vendor_location"
+msgid "Vendor location"
+msgstr "Розташування продавця"
+
+msgctxt "Languages::abt__ut2_mv.vendor_contact_page"
+msgid "Vendor contacts"
+msgstr "Контакти продавця"
+
+msgctxt "Languages::abt__ut2_mv.sold_by"
+msgid "Sold by"
+msgstr "Продають"
+
+msgctxt "Languages::abt__ut2_mv.master_vendors"
+msgid "[n] vendor|[n] vendors"
+msgstr "[n] продавець|[n] продавці|[n] продавців"
+
+msgctxt "Languages::abt__ut2_mv.about_vendor"
+msgid "About vendor"
+msgstr "Про продавця"
+
+msgctxt "Languages::abt__ut2_mv.vendor_social"
+msgid "Social network services [vendor]"
+msgstr "Соціальні мережі [vendor]"
+
+msgctxt "Languages::abt__ut2_mv.info_block_background"
+msgid "Background for block \"Vendor information\""
+msgstr "Фон для блоку \"Інформація про продавця\""
+
+msgctxt "Languages::abt__ut2_mv.banner_main_page"
+msgid "Banner for the header of Home page"
+msgstr "Банер для шапки головної сторінки"
+
+msgctxt "Languages::abt__ut2_mv.reviews"
+msgid "Reviews"
+msgstr "Відгуки"
+
+msgctxt "Languages::abt__ut2_mv.hide_if_no_vendor_reviews"
+msgid "Hide reviews if the vendor has none"
+msgstr "Приховувати відгуки, якщо у продавця вони відсутні"
+
+msgctxt "Languages::abt__ut2_mv.view_vendor_home_page"
+msgid "Vendor store"
+msgstr "Магазин продавця"
+
+msgctxt "Languages::abt__ut2_mv.abt__ut2_mv_social_links_title"
+msgid "Social network services"
+msgstr "Соціальні мережі"
+
+msgctxt "Languages::abt__ut2_mv.social_links.facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Languages::abt__ut2_mv.social_links.vk"
+msgid "VK"
+msgstr "VK"
+
+msgctxt "Languages::abt__ut2_mv.social_links.youtube"
+msgid "Youtube"
+msgstr "Youtube"
+
+msgctxt "Languages::abt__ut2_mv.social_links.telegram"
+msgid "Telegram"
+msgstr "Telegram"
+
+msgctxt "Languages::abt__ut2_mv.social_links.instagram"
+msgid "Instagram"
+msgstr "Instagram"
+
+msgctxt "Languages::abt__ut2_mv.social_links.tiktok"
+msgid "TikTok"
+msgstr "TikTok"
+
+msgctxt "Languages::abt__ut2_mv.social_links.twitter"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "Languages::abt__ut2_mv.social_links.pinterest"
+msgid "Pinterest"
+msgstr "Pinterest"
+
+msgctxt "Languages::abt__ut2_mv.social_links.linkedin"
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+msgctxt "Languages::abt__ut2_mv.text_compact_logo"
+msgid "Compact logo"
+msgstr "Компактний логотип"
+
+msgctxt "Languages::abt__ut2_mv.direct_payments_cart_hint"
+msgid "Some items in your cart come from different vendors. You have to place the order for each vendor separately."
+msgstr "Товари у вашому кошику походять від різних продавців. Вам необхідно оформити замовлення окремо для кожного продавця."
+
+msgctxt "Languages::ab__vendor_contacts"
+msgid "Vendor contacts (only for \"About vendor\" page)"
+msgstr "Контакти продавця (тільки на сторінці \"Про продавця\")"
+
+msgctxt "Languages::ab__vendor_description"
+msgid "Vendor description (only for \"About vendor\" page)"
+msgstr "Опис продавця (тільки на сторінці \"Про продавця\")"
+
+msgctxt "Languages::ab__vendor_products"
+msgid "Button \"All products of vendor\" (only for \"About vendor\" page)"
+msgstr "Кнопка \"Всі товари продавця\" (тільки на сторінці \"Про продавця\")"
+
+msgctxt "Languages::abt__ut2_mv.vendor_rating_bronze"
+msgid "Bronze"
+msgstr "Бронза"
+
+msgctxt "Languages::abt__ut2_mv.vendor_rating_silver"
+msgid "Silver"
+msgstr "Срібло"
+
+msgctxt "Languages::abt__ut2_mv.vendor_rating_gold"
+msgid "Gold"
+msgstr "Золото"
+
+msgctxt "Languages::abt__ut2_mv.abt__ut2_mv_banners_for_products"
+msgid "AB: Banners on product page"
+msgstr "АВ: Банери на сторінці товару"
+
+msgctxt "Languages::abt__ut2_mv.abt__ut2_mv_banners_for_products.tooltip"
+msgid "Adds ability to choose 2 banners: after the breadcrumbs and after a general information about product"
+msgstr "Додає можливість обрати 2 банери: після хлібних крихт і після загальної інформації про товар"
+
+msgctxt "Languages::abt__ut2_mv.abt__ut2_mv_personal_design"
+msgid "AB: Personal design of pages and blocks"
+msgstr "AB: Персональний дизайн сторінок і блоків"
+
+msgctxt "Languages::abt__ut2_mv.abt__ut2_mv_personal_design.tooltip"
+msgid "Allows vendors to manage a menu color, color and background of a block about vendor information, header background of the vendor page"
+msgstr "Дозволяє продавцям керувати кольором меню, кольором і фоном блоку інформації про продавця, фоном шапки сторінки продавця"
+
+msgctxt "Languages::abt__ut2_mv.abt__ut2_mv_personal_design_title"
+msgid "Style"
+msgstr "Оформлення"
+
+msgctxt "Languages::abt__ut2_mv.abt__ut2_mv_microstore_homepage"
+msgid "AB: Micro-store homepage"
+msgstr "АВ: Головна сторінка мікро-магазину"
+
+msgctxt "Languages::abt__ut2_mv.abt__ut2_mv_microstore_homepage.tooltip"
+msgid "Allows vendor to create its own \"Home Page\" and allows to fill the page in the vendor's panel with content blocks: products, banners, blog articles, promotions, HTML content."
+msgstr "Дозволяє продавцеві створити власну \"Головну сторінку\" і в панелі продавця доступне наповнення сторінки блоками з контентом: товари, банери, статті блогу, промо-акції, HTML контент."
+
+msgctxt "Languages::privilege_sections.ab__addons"
+msgid "AB: Add-ons"
+msgstr "АВ: Модулі"
+
+msgctxt "Languages::abt__ut2_mv.vendor_products.other_vendors_from"
+msgid "Other vendors from"
+msgstr "Інші продавці від"
+
+msgctxt "Languages::abt__ut2_mv.block_shipping_and_payments_methods"
+msgid "Shipping and Payment methods"
+msgstr "Способи доставки та оплати"
+
+#. Alexbranding. Do not modify this file manually!

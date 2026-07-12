@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "Languages::is2or_ai_integration.api_base_url"
+msgid "is2or_ai_integration.api_base_url"
+msgstr "رابط خدمة الذكاء الاصطناعي"
+
+msgctxt "Languages::is2or_ai_integration.api_base_url_tooltip"
+msgid "is2or_ai_integration.api_base_url_tooltip"
+msgstr "الرابط الأساسي لخدمة IS2OR AI. مثال: https://ai.example.com"
+
+msgctxt "Languages::is2or_ai_integration.api_token"
+msgid "is2or_ai_integration.api_token"
+msgstr "رمز Bearer للمصادقة"
+
+msgctxt "Languages::is2or_ai_integration.api_token_tooltip"
+msgid "is2or_ai_integration.api_token_tooltip"
+msgstr "الرمز المشترك المستخدم للمصادقة مع خدمة الذكاء الاصطناعي."
+
+msgctxt "Languages::is2or_ai_integration.search_limit"
+msgid "is2or_ai_integration.search_limit"
+msgstr "حد نتائج البحث"
+
+msgctxt "Languages::is2or_ai_integration.search_limit_tooltip"
+msgid "is2or_ai_integration.search_limit_tooltip"
+msgstr "الحد الأقصى لعدد المنتجات المطلوبة من واجهة بحث الذكاء الاصطناعي. الافتراضي: 10."
+
+msgctxt "Languages::is2or_ai_integration.debug_mode"
+msgid "is2or_ai_integration.debug_mode"
+msgstr "وضع التشخيص"
+
+msgctxt "Languages::is2or_ai_integration.debug_mode_tooltip"
+msgid "is2or_ai_integration.debug_mode_tooltip"
+msgstr "عند التفعيل، يتم تسجيل أحداث بحث الذكاء الاصطناعي في سجل أحداث CS-Cart."
+
+msgctxt "Languages::is2or_ai_integration.listing_timeout"
+msgid "is2or_ai_integration.listing_timeout"
+msgstr "مهلة إنشاء وصف المنتج بالذكاء الاصطناعي (ثانية)"
+
+msgctxt "Languages::is2or_ai_integration.listing_timeout_tooltip"
+msgid "is2or_ai_integration.listing_timeout_tooltip"
+msgstr "أقصى وقت انتظار (بالثواني) لاستجابة خدمة الذكاء الاصطناعي عند إنشاء عنوان/وصف المنتج. الافتراضي: 20."
+
+msgctxt "Languages::is2or_ai_integration.error_not_configured"
+msgid "is2or_ai_integration.error_not_configured"
+msgstr "لم يتم إعداد خدمة الذكاء الاصطناعي بعد. يرجى ضبط رابط API والرمز في إعدادات الإضافة."
+
+msgctxt "Languages::is2or_ai_integration.error_name_required"
+msgid "is2or_ai_integration.error_name_required"
+msgstr "اسم المنتج مطلوب لإنشاء محتوى بالذكاء الاصطناعي."
+
+msgctxt "Languages::is2or_ai_integration.error_connection"
+msgid "is2or_ai_integration.error_connection"
+msgstr "تعذر الوصول إلى خدمة الذكاء الاصطناعي. يرجى المحاولة مرة أخرى."
+
+msgctxt "Languages::is2or_ai_integration.error_bad_response"
+msgid "is2or_ai_integration.error_bad_response"
+msgstr "أعادت خدمة الذكاء الاصطناعي استجابة غير متوقعة."
+
+msgctxt "Languages::is2or_ai_integration.error_empty_output"
+msgid "is2or_ai_integration.error_empty_output"
+msgstr "لم تُرجع خدمة الذكاء الاصطناعي أي محتوى لهذا المنتج."
+
+msgctxt "Languages::is2or_ai_integration.error_forbidden"
+msgid "is2or_ai_integration.error_forbidden"
+msgstr "ليس لديك صلاحية لتنفيذ هذا الإجراء."

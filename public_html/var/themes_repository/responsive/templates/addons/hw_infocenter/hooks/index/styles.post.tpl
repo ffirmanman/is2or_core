@@ -1,0 +1,1 @@
+{style src="addons/hw_infocenter/styles.less"}

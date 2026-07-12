@@ -1,0 +1,1 @@
+<div class="custome-upgrade-center-msg" style="color: #b42d28; background: #edc9c5; border:1px solid #c29494; display: block; border-radius: 3px; padding: 15px 20px 5px; margin: 20px 0;"><strong style="font-size: 20px; display: block; font-weight: normal; padding-bottom: 10px;">PHP version 7.1 is required</strong></div>

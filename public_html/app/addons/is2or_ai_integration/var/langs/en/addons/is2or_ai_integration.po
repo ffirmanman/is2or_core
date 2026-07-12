@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "Languages::is2or_ai_integration.api_base_url"
+msgid "is2or_ai_integration.api_base_url"
+msgstr "AI Service Base URL"
+
+msgctxt "Languages::is2or_ai_integration.api_base_url_tooltip"
+msgid "is2or_ai_integration.api_base_url_tooltip"
+msgstr "The base URL of the IS2OR AI service. Example: https://ai.example.com"
+
+msgctxt "Languages::is2or_ai_integration.api_token"
+msgid "is2or_ai_integration.api_token"
+msgstr "API Bearer Token"
+
+msgctxt "Languages::is2or_ai_integration.api_token_tooltip"
+msgid "is2or_ai_integration.api_token_tooltip"
+msgstr "The shared bearer token used to authenticate requests to the AI service."
+
+msgctxt "Languages::is2or_ai_integration.search_limit"
+msgid "is2or_ai_integration.search_limit"
+msgstr "Search Result Limit"
+
+msgctxt "Languages::is2or_ai_integration.search_limit_tooltip"
+msgid "is2or_ai_integration.search_limit_tooltip"
+msgstr "Maximum number of products to request from the AI search API. Default: 10."
+
+msgctxt "Languages::is2or_ai_integration.debug_mode"
+msgid "is2or_ai_integration.debug_mode"
+msgstr "Debug Mode"
+
+msgctxt "Languages::is2or_ai_integration.debug_mode_tooltip"
+msgid "is2or_ai_integration.debug_mode_tooltip"
+msgstr "When enabled, logs AI search events (queries, response times, fallbacks) to the CS-Cart event log."
+
+msgctxt "Languages::is2or_ai_integration.listing_timeout"
+msgid "is2or_ai_integration.listing_timeout"
+msgstr "AI Listing Generation Timeout (sec)"
+
+msgctxt "Languages::is2or_ai_integration.listing_timeout_tooltip"
+msgid "is2or_ai_integration.listing_timeout_tooltip"
+msgstr "Maximum time (in seconds) to wait for the AI service when generating product title/description content. Default: 20."
+
+msgctxt "Languages::is2or_ai_integration.error_not_configured"
+msgid "is2or_ai_integration.error_not_configured"
+msgstr "AI service is not configured yet. Please set the API URL and token in the addon settings."
+
+msgctxt "Languages::is2or_ai_integration.error_name_required"
+msgid "is2or_ai_integration.error_name_required"
+msgstr "Product name is required to generate AI content."
+
+msgctxt "Languages::is2or_ai_integration.error_connection"
+msgid "is2or_ai_integration.error_connection"
+msgstr "Could not reach the AI service. Please try again."
+
+msgctxt "Languages::is2or_ai_integration.error_bad_response"
+msgid "is2or_ai_integration.error_bad_response"
+msgstr "The AI service returned an unexpected response."
+
+msgctxt "Languages::is2or_ai_integration.error_empty_output"
+msgid "is2or_ai_integration.error_empty_output"
+msgstr "The AI service did not return any content for this product."
+
+msgctxt "Languages::is2or_ai_integration.error_forbidden"
+msgid "is2or_ai_integration.error_forbidden"
+msgstr "You do not have permission to perform this action."

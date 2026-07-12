@@ -1,0 +1,47 @@
+config.local.php
+.idea
+.vscode
+# Folder cache dan compiled templates
+var/cache/
+var/cache1/
+var/cache2/
+var/cache3/
+var/cache4/
+var/cache5/
+var/compiled/
+var/logs/
+var/sessions/
+var/backups/
+
+# File upload user
+images/
+design/backend/media/
+design/themes/*/media/
+design/themes/*/templates/addons/**/media/
+
+# File konfigurasi lokal (isi koneksi database, dll)
+app/config/config.local.php
+
+# File instalasi
+install/
+.htaccess
+
+# File sistem/IDE
+*.log
+*.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+node_modules/
+.env
+.env.*
+composer.lock
+*.zip
+var/custom_files/sess_data
+var/files/tryoto_token.txt
+error_log
+packages
+documents
+vendor
+composer.json

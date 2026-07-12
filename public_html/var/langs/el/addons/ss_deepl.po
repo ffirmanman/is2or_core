@@ -1,0 +1,889 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR"
+
+msgctxt "Addons::name::ss_deepl"
+msgid "ss_deepl_addon_name"
+msgstr "[SoftSolid] - Ενσωμάτωση με τη μεταφραστική υπηρεσία Deepl.com (ss_deepl)"
+
+msgctxt "Addons::description::ss_deepl"
+msgid "ss_deepl_addon_description"
+msgstr "<a href='https://cs-cart.pl/ss_deepl/?sl=en' target='_blank'>Ενσωμάτωση με τη μεταφραστική υπηρεσία Deepl.com</a>, Copyright &copy; <a href='https://cs-cart.pl/?sl=en' target='_blank'>SoftSolid</a>"
+
+
+
+
+
+#: #############################################################################################################
+#: START - SettingsSections
+#: #############################################################################################################
+msgctxt "SettingsSections::ss_deepl::ss_deepl_general"
+msgid "ss_deepl_general"
+msgstr "Γενικά"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_default_values"
+msgid "ss_deepl_default_values"
+msgstr "Προεπιλεγμένες τιμές"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_counter"
+msgid "ss_deepl_counter"
+msgstr "Μετρητής χαρακτήρων"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_stats"
+msgid "ss_deepl_stats"
+msgstr "Στατιστικά στοιχεία"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_logs"
+msgid "ss_deepl_logs"
+msgstr "Ημερολόγια"
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_general
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_api_key"
+msgid "ss_deepl_api_key"
+msgstr "Κλειδί API"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_service"
+msgid "ss_deepl_service"
+msgstr "Υπηρεσία"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_service::free"
+msgid "ss_deepl_service_free"
+msgstr "DeepL API Δωρεάν"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_service::pro"
+msgid "ss_deepl_service_pro"
+msgstr "DeepL API Pro"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_glossary_id"
+msgid "ss_deepl_glossary_id"
+msgstr "Γλωσσάριο"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_glossary_id"
+msgid "ss_deepl_glossary_id_tooltips"
+msgstr "Επιλέξτε το γλωσσάρι που θα χρησιμοποιηθεί για τη μετάφραση Το γλωσσάρι σας επιτρέπει να καθορίσετε μεταφράσεις για λέξεις και σύντομες φράσεις."
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate"
+msgstr "Αυτόματη μετάφραση προϊόντων"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate_tooltip"
+msgstr "Επιλέξτε μία από τις επιλογές αυτόματης μετάφρασης."
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::none"
+msgid "ss_deepl_auto_translate_none"
+msgstr "Άτομα με ειδικές ανάγκες"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::manual"
+msgid "ss_deepl_auto_translate_manual"
+msgstr "Χειροκίνητη επιλογή προϊόντων"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::auto"
+msgid "ss_deepl_auto_translate_auto"
+msgstr "Αυτόματη επιλογή προϊόντων"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Πεδία που ελέγχονται κατά την αυτόματη μετάφραση"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Επιλέξτε ποια πεδία στη διαμόρφωση του πρόσθετου πρέπει να αλλάξουν, ώστε το προϊόν να μεταφραστεί κατά την επόμενη εκτέλεση του σεναρίου CRON. Αυτή η επιλογή λειτουργεί μόνο εάν είναι ενεργοποιημένη η αυτόματη μετάφραση."
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::product"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Όνομα προϊόντος"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::full_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Περιγραφή"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::short_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Σύντομη περιγραφή"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::ab__custom_product_h1"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Κεφαλίδα H1"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::promo_text"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Κείμενο προώθησης"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::page_title"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Τίτλος σελίδας"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::meta_keywords"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Λέξεις-κλειδιά Meta"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::meta_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Περιγραφή μεταφράσεων"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::search_words"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Λέξεις αναζήτησης"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang"
+msgstr "Ανακατεύθυνση μετά τη μετάφραση"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang_tooltip"
+msgstr "Μετά τη μετάφραση του κειμένου, μεταβείτε στη γλώσσα στην οποία μεταφράστηκε το κείμενο. Η επιλογή αυτή χρησιμοποιείται κατά τη μετάφραση μεμονωμένων πεδίων ανά αντικείμενα."
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "Μέθοδος μετάφρασης"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_translate_method::fast"
+msgid "ss_deepl_translate_method"
+msgstr "Γρήγορη"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_translate_method::optimal"
+msgid "ss_deepl_translate_method"
+msgstr "Βέλτιστο"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "Επιλέξτε μια μέθοδο χειροκίνητης μετάφρασης προϊόντων. Η γρήγορη χρησιμοποιεί περισσότερους χαρακτήρες, η βέλτιστη απαιτεί περισσότερο χρόνο. Σημείωση: η αυτόματη μετάφραση προϊόντων μέσω του σεναρίου CRON χρησιμοποιεί πάντα τη βέλτιστη μέθοδο."
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate_categories"
+msgid "ss_deepl_auto_translate_categories"
+msgstr "Αυτόματη μετάφραση κατηγοριών"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate_categories"
+msgid "ss_deepl_auto_translate_categories_tooltip"
+msgstr "Επιλέξτε μία από τις επιλογές αυτόματης μετάφρασης."
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::none"
+msgid "ss_deepl_auto_translate_categories_none"
+msgstr "Άτομα με ειδικές ανάγκες"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::manual"
+msgid "ss_deepl_auto_translate_categories_manual"
+msgstr "Χειροκίνητη επιλογή κατηγοριών"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::auto"
+msgid "ss_deepl_auto_translate_categories_auto"
+msgstr "Αυτόματη επιλογή κατηγοριών"
+
+msgctxt "Languages::ss_deepl_ss_deepl_link"
+msgid "ss_deepl_ss_deepl_link"
+msgstr "Σύνδεση με αυτόματη δράση. Ο σύνδεσμος μπορεί να επικολληθεί στο πρόγραμμα περιήγησής σας ή να χρησιμοποιηθεί για τη διαμόρφωση του CRON"
+
+msgctxt "Languages::ss_deepl_ss_deepl_cron_link"
+msgid "ss_deepl_ss_deepl_cron_link"
+msgstr "Εντολή προς CRON. Έτοιμες εντολές για επικόλληση στο CRON"
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_default_values
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_products"
+msgid "ss_deepl_sections_products"
+msgstr "<strong>Προϊόντα</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_products"
+msgid "ss_deepl_sections_products_tooltips"
+msgstr "Κατάλογος πεδίων που είναι διαθέσιμα για μετάφραση"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::product"
+msgid "ss_deepl_sections_products_product_variants"
+msgstr "Όνομα προϊόντος"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::full_description"
+msgid "ss_deepl_sections_products_full_description_variants"
+msgstr "Πλήρης περιγραφή"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::short_description"
+msgid "ss_deepl_sections_products_short_description_variants"
+msgstr "Σύντομη περιγραφή"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::search_words"
+msgid "ss_deepl_sections_products_search_words_variants"
+msgstr "Λέξεις αναζήτησης"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::promo_text"
+msgid "ss_deepl_sections_products_promo_text_variants"
+msgstr "Κείμενο προώθησης"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::page_title"
+msgid "ss_deepl_sections_products_page_title_variants"
+msgstr "Τίτλος σελίδας"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::meta_keywords"
+msgid "ss_deepl_sections_products_meta_keywords_variants"
+msgstr "Λέξεις-κλειδιά Meta"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::meta_description"
+msgid "ss_deepl_sections_products_meta_description_variants"
+msgstr "Περιγραφή μεταφράσεων"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::ab__custom_product_h1"
+msgid "ss_deepl_sections_products_ab__custom_product_h1_variants"
+msgstr "H1"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_categories"
+msgid "ss_deepl_sections_categories"
+msgstr "<strong>Κατηγορίες</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_categories"
+msgid "ss_deepl_sections_categories_tooltips"
+msgstr "Κατάλογος πεδίων που είναι διαθέσιμα για μετάφραση"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::category"
+msgid "ss_deepl_sections_categories_category_variants"
+msgstr "Όνομα κατηγορίας"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::description"
+msgid "ss_deepl_sections_categories_description_variants"
+msgstr "Κατηγορία περιγραφής"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::page_title"
+msgid "ss_deepl_sections_categories_page_title_variants"
+msgstr "Τίτλος σελίδας"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::meta_keywords"
+msgid "ss_deepl_sections_categories_meta_keywords_variants"
+msgstr "Λέξεις-κλειδιά Meta"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::meta_description"
+msgid "ss_deepl_sections_categories_meta_description_variants"
+msgstr "Περιγραφή μεταφράσεων"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_promotions"
+msgid "ss_deepl_sections_promotions"
+msgstr "<strong>Προωθητικές ενέργειες</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_promotions"
+msgid "ss_deepl_sections_promotions_tooltips"
+msgstr "Κατάλογος πεδίων που είναι διαθέσιμα για μετάφραση"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::name"
+msgid "ss_deepl_sections_promotions_name_variants"
+msgstr "Προώθηση ονόματος"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::short_description"
+msgid "ss_deepl_sections_promotions_short_description_variants"
+msgstr "Σύντομη περιγραφή"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::detailed_description"
+msgid "ss_deepl_sections_promotions_detailed_description_variants"
+msgstr "Λεπτομερής περιγραφή"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_pages"
+msgid "ss_deepl_sections_pages"
+msgstr "<strong>Σελίδες</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_pages"
+msgid "ss_deepl_sections_pages_tooltips"
+msgstr "Κατάλογος πεδίων που είναι διαθέσιμα για μετάφραση"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::page"
+msgid "ss_deepl_sections_pages_page_variants"
+msgstr "Όνομα"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::description"
+msgid "ss_deepl_sections_pages_description_variants"
+msgstr "Περιγραφή"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::page_title"
+msgid "ss_deepl_sections_pages_page_title_variants"
+msgstr "Τίτλος σελίδας"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::meta_keywords"
+msgid "ss_deepl_sections_pages_meta_keywords_variants"
+msgstr "Λέξεις-κλειδιά Meta"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::meta_description"
+msgid "ss_deepl_sections_pages_meta_description_variants"
+msgstr "Περιγραφή μεταφράσεων"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_features"
+msgid "ss_deepl_sections_product_features"
+msgstr "<strong>Χαρακτηριστικά</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_features"
+msgid "ss_deepl_sections_product_features_tooltips"
+msgstr "Κατάλογος πεδίων που είναι διαθέσιμα για μετάφραση"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::internal_name"
+msgid "ss_deepl_sections_product_features_internal_name_variants"
+msgstr "Όνομα"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::description"
+msgid "ss_deepl_sections_product_features_description_variants"
+msgstr "Όνομα για τη βιτρίνα"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::full_description"
+msgid "ss_deepl_sections_product_features_full_description_variants"
+msgstr "Περιγραφή"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::variant"
+msgid "ss_deepl_sections_product_features_variant_variants"
+msgstr "Παραλλαγές"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_features_groups"
+msgid "ss_deepl_sections_product_features_groups"
+msgstr "<strong>Ομάδες χαρακτηριστικών</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_features_groups"
+msgid "ss_deepl_sections_product_features_groups_tooltips"
+msgstr "Κατάλογος πεδίων που είναι διαθέσιμα για μετάφραση"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::internal_name"
+msgid "ss_deepl_sections_product_features_groups_internal_name_variants"
+msgstr "Όνομα"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::description"
+msgid "ss_deepl_sections_product_features_groups_description_variants"
+msgstr "Όνομα για τη βιτρίνα"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::full_description"
+msgid "ss_deepl_sections_product_features_groups_full_description_variants"
+msgstr "Περιγραφή"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_filters"
+msgid "ss_deepl_sections_product_filters"
+msgstr "<strong>Φίλτρα</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_filters"
+msgid "ss_deepl_sections_product_filters_tooltips"
+msgstr "Κατάλογος πεδίων που είναι διαθέσιμα για μετάφραση"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_filters::filter"
+msgid "ss_deepl_sections_product_filters_filter_variants"
+msgstr "Όνομα"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_options"
+msgid "ss_deepl_sections_product_options"
+msgstr "<strong>Επιλογές</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_options"
+msgid "ss_deepl_sections_product_options_tooltips"
+msgstr "Κατάλογος πεδίων που είναι διαθέσιμα για μετάφραση"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::internal_option_name"
+msgid "ss_deepl_sections_product_options_internal_option_name_variants"
+msgstr "Όνομα"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::option_name"
+msgid "ss_deepl_sections_product_options_option_name_variants"
+msgstr "Όνομα για τη βιτρίνα"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::description"
+msgid "ss_deepl_sections_product_options_description_variants"
+msgstr "Περιγραφή"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::comment"
+msgid "ss_deepl_sections_product_options_comment_variants"
+msgstr "Σχόλιο"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::variant"
+msgid "ss_deepl_sections_product_options_variant_variants"
+msgstr "Παραλλαγές"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_from_language"
+msgid "ss_deepl_from_language"
+msgstr "Πηγαία γλώσσα"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront"
+msgstr "Πηγή βιτρίνα"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront_tooltips"
+msgstr "Αυτό το πεδίο χρησιμοποιείται μόνο στο CS-Cart Ultimate και Ultimate B2B."
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_to_language"
+msgid "ss_deepl_to_language"
+msgstr "Γλώσσα-στόχος"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront"
+msgstr "Προθήκη καταστήματος Target"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront_tooltips"
+msgstr "Αυτό το πεδίο χρησιμοποιείται μόνο στο CS-Cart Ultimate και Ultimate B2B."
+
+
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_counter
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_character_count"
+msgid "ss_deepl_character_count"
+msgstr "Χρησιμοποιημένοι χαρακτήρες:"
+
+msgctxt "Languages::ss_deepl_character_limit"
+msgid "ss_deepl_character_limit"
+msgstr "Όριο χαρακτήρων:"
+
+msgctxt "Languages::ss_deepl_counter_error"
+msgid "ss_deepl_counter_error"
+msgstr "Προέκυψε σφάλμα κατά τη λήψη των ορίων χαρακτήρων. Ελέγξτε αν έχετε πληκτρολογήσει το σωστό κλειδί API και έχετε επιλέξει την κατάλληλη υπηρεσία."
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_stats
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_stats_usage"
+msgid "ss_deepl_stats_usage"
+msgstr "Πρόσθετη χρήση"
+
+msgctxt "Languages::ss_deepl_stats_no_activity"
+msgid "ss_deepl_stats_no_activity"
+msgstr "Δεν έχει καταχωρηθεί καμία πρόσθετη δραστηριότητα."
+
+msgctxt "Languages::addon_id_stats_no_stats"
+msgid "ss_deepl_stats_no_stats"
+msgstr "Τα στατιστικά στοιχεία δεν είναι διαθέσιμα για αυτή την πρόσθετη έκδοση."
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_logs
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_enable_logs"
+msgid ss_deepl_enable_logs"
+msgstr "Ενεργοποίηση δημιουργίας αρχείων καταγραφής"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_enable_logs"
+msgid "ss_deepl_enable_logs_tooltip"
+msgstr "Εάν αυτό το πλαίσιο ελέγχου είναι ενεργοποιημένο, οι πληροφορίες σχετικά με τις δραστηριότητες που εκτελούνται από το πρόσθετο θα καταγράφονται στα αρχεία καταγραφής. Αν θέλετε να μεταβείτε στην προβολή των αρχείων καταγραφής, κάντε κλικ στην καρτέλα 'Main' (Κύρια) όπου βρίσκεται ο σύνδεσμος."
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - trans_all_product
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_trans_all_products"
+msgid "ss_deepl_trans_all_products"
+msgstr "Deepl - μεταφράστε όλα"
+
+msgctxt "Languages::ss_deepl_base_lang_not_set"
+msgid "ss_deepl_base_lang_not_set"
+msgstr "Język bazowy nie został ustawiony. Tłumaczenie nie zostało wykonane. Przejdż w to <a href="[url]" target="_blank" title="Zarządzanie językami">miejsce</a> i ustaw język bazowy"
+
+msgctxt "Languages::ss_deepl_to_many_langs"
+msgid "ss_deepl_to_many_langs"
+msgstr "Ilość języków do tłumaczenia jest zbyt duża. Zalecamy, żeby masowa operacja była wykonywana po kolei dla poszczególnych języków. Prosimy na czas tłumaczenie dezaktywować j jęzki w tym miejscu tak, żeby aktywane pozostały dwa języki: języka bazowy oraz docelowy. Przejdż do <a href="[url]" target="_blank" title="Zarządzanie językami"><strong>zarządzanie językami</strong></a> i wykonaj odpowiednie ustawienia."
+
+
+
+
+
+#: #############################################################################################################
+#: START - Logger
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_logger_list"
+msgid "ss_deepl_logger_list"
+msgstr "Προβολή/διαχείριση αρχείων καταγραφής (ss_deepl)"
+
+msgctxt "Languages::ss_deepl_logger_manage"
+msgid "ss_deepl_logger_manage"
+msgstr "Ημερολόγια (ss_deepl)"
+
+msgctxt "Languages::ss_deepl_logger_date"
+msgid "ss_deepl_logger_date"
+msgstr "ΗΜΕΡΟΜΗΝΙΑ"
+
+msgctxt "Languages::ss_deepl_logger_message"
+msgid "ss_deepl_logger_message"
+msgstr "ΜΗΝΥΜΑ"
+
+msgctxt "Languages::ss_deepl_logger_call_function"
+msgid "ss_deepl_logger_call_function"
+msgstr "ΛΕΙΤΟΥΡΓΙΑ"
+
+msgctxt "Languages::ss_deepl_logger_dispatch"
+msgid "ss_deepl_logger_dispatch"
+msgstr "DISPATCH"
+
+msgctxt "Languages::ss_deepl_logger_action"
+msgid "ss_deepl_logger_action"
+msgstr "ΔΡΑΣΗ"
+
+msgctxt "Languages::ss_logger_menu"
+msgid "ss_logger_menu"
+msgstr "SoftSolid Logs"
+
+msgctxt "Languages::ss_deepl_no_set_base_lang"
+msgid "ss_deepl_no_set_base_lang"
+msgstr "Η βασική γλώσσα για τις αυτόματες μεταφράσεις δεν έχει οριστεί. Μεταβείτε στις Ρυθμίσεις->Κείμενα και γλώσσες->Γλώσσες επιλέξτε τη βασική γλώσσα και κάντε κλικ στο 'Βασική γλώσσα για μεταφράσεις Deepl'."
+
+msgctxt "Languages::ss_deepl_button_products"
+msgid "ss_deepl_button_products"
+msgstr "Μεταφράστε προϊόντα"
+
+msgctxt "Languages::ss_deepl_products_translate"
+msgid "ss_deepl_products_translate"
+msgstr "Μετάφραση προϊόντων"
+
+msgctxt "Languages::ss_deepl_button_categories"
+msgid "ss_deepl_button_categories"
+msgstr "Μεταφράστε κατηγορίες"
+
+msgctxt "Languages::ss_deepl_categories_translate"
+msgid "ss_deepl_categories_translate"
+msgstr "Μετάφραση κατηγορίας"
+
+msgctxt "Languages::ss_deepl_button_promotions"
+msgid "ss_deepl_button_promotions"
+msgstr "Μεταφράστε προωθητικές ενέργειες"
+
+msgctxt "Languages::ss_deepl_promotions_translate"
+msgid "ss_deepl_promotions_translate"
+msgstr "Μετάφραση προωθητικών ενεργειών"
+
+msgctxt "Languages::ss_deepl_button_pages"
+msgid "ss_deepl_button_pages"
+msgstr "Μετάφραση σελίδων"
+
+msgctxt "Languages::ss_deepl_pages_translate"
+msgid "ss_deepl_pages_translate"
+msgstr "Μετάφραση σελίδων"
+
+msgctxt "Languages::ss_deepl_button_blogs"
+msgid "ss_deepl_button_blogs"
+msgstr "Μεταφράστε blogs"
+
+msgctxt "Languages::ss_deepl_blogs_translate"
+msgid "ss_deepl_blogs_translate"
+msgstr "Blogs μετάφραση"
+
+msgctxt "Languages::ss_deepl_button_product_features"
+msgid "ss_deepl_button_product_features"
+msgstr "Χαρακτηριστικά μετάφρασης"
+
+msgctxt "Languages::ss_deepl_product_features_translate"
+msgid "ss_deepl_product_features_translate"
+msgstr "Χαρακτηριστικά μετάφρασης"
+
+msgctxt "Languages::ss_deepl_button_product_features_groups"
+msgid "ss_deepl_button_product_features_groups"
+msgstr "Μεταφράστε ομάδες χαρακτηριστικών"
+
+msgctxt "Languages::ss_deepl_product_features_groups_translate"
+msgid "ss_deepl_product_features_groups_translate"
+msgstr "Χαρακτηριστικά ομάδων μετάφρασης"
+
+msgctxt "Languages::ss_deepl_button_product_filters"
+msgid "ss_deepl_button_product_filters"
+msgstr "Μεταφράστε τα φίλτρα"
+
+msgctxt "Languages::ss_deepl_product_filters_translate"
+msgid "ss_deepl_product_filters_translate"
+msgstr "Μετάφραση φίλτρων"
+
+msgctxt "Languages::ss_deepl_button_product_options"
+msgid "ss_deepl_button_product_options"
+msgstr "Μεταφράστε τις επιλογές"
+
+msgctxt "Languages::ss_deepl_product_options_translate"
+msgid "ss_deepl_product_options_translate"
+msgstr "Μετάφραση επιλογών"
+
+msgctxt "Languages::ss_deepl_no_api_key_mv"
+msgid "ss_deepl_no_api_key_mv"
+msgstr "Δεν υπάρχει κλειδί API στη ρύθμιση παραμέτρων του προμηθευτή. Μεταβείτε στη διαμόρφωση προμηθευτή και πληκτρολογήστε το κλειδί στην καρτέλα DeepL settings: [url]"
+
+msgctxt "Languages::ss_deepl_no_api_key"
+msgid "ss_deepl_no_api_key"
+msgstr "Δεν έχει οριστεί κλειδί API στη ρύθμιση παραμέτρων του πρόσθετου. Πληκτρολογήστε το κλειδί API εδώ: [url]"
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - language_variables
+#: #############################################################################################################
+msgctxt "Languages::privilege_sections.ss_addons"
+msgid "privilege_sections.ss_addons"
+msgstr "Πρόσθετα SoftSolid"
+
+msgctxt "Languages::privilege_groups.ss_deepl"
+msgid "privilege_groups.ss_deepl"
+msgstr "DeepL ημερολόγια"
+
+msgctxt "Languages::privileges.ss_deepl_logger.show"
+msgid "privileges.ss_deepl_logger.show"
+msgstr "Περιεχόμενο καταγραφής DeepL"
+
+msgctxt "Languages::privileges.ss_deepl_logger.manage"
+msgid "privileges.ss_deepl_logger.manage"
+msgstr "Λίστα καταγραφής DeepL"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_info"
+msgid "ss_deepl_csmv_copy_to_clip_info"
+msgstr "Πληροφορίες:"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_message"
+msgid "ss_deepl_csmv_copy_to_clip_message"
+msgstr "Ο σύνδεσμος έχει αντιγραφεί. Χρησιμοποιήστε το CTRL-V για να τον επικολλήσετε στη σωστή θέση."
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_title"
+msgid "ss_deepl_csmv_copy_to_clip_title"
+msgstr "Κάντε κλικ για να αντιγράψετε το σύνδεσμο στο πρόχειρο"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip"
+msgid "ss_deepl_csmv_copy_to_clip"
+msgstr "Αντιγραφή στο πρόχειρο"
+
+msgctxt "Languages::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang"
+msgstr "Ανακατεύθυνση μετά τη μετάφραση"
+
+msgctxt "Languages::ss_deepl_redirect_target_lang_tooltip"
+msgid "ss_deepl_redirect_target_lang_tooltip"
+msgstr "Μετά τη μετάφραση του κειμένου, μεταβείτε στη γλώσσα στην οποία μεταφράστηκε το κείμενο. Η επιλογή αυτή χρησιμοποιείται κατά τη μετάφραση μεμονωμένων πεδίων ανά αντικείμενα."
+
+msgctxt "Languages::ss_deepl_api_allow"
+msgid "ss_deepl_api_allow"
+msgstr "Επιτρέψτε την πρόσβαση στο DeepL"
+
+msgctxt "Languages::ss_deepl_translate_content_empty"
+msgid "ss_deepl_translate_content_empty"
+msgstr "Το μεταφρασμένο κείμενο είναι κενό. Ελέγξτε αν έχετε επιλέξει τη σωστή γλώσσα προέλευσης."
+
+msgctxt "Languages::ss_deepl_from_language_tooltip"
+msgid "ss_deepl_from_language_tooltip"
+msgstr "Προεπιλεγμένη γλώσσα προέλευσης κατά τη χειροκίνητη μετάφραση."
+
+msgctxt "Languages::ss_deepl_to_language_tooltip"
+msgid "ss_deepl_to_language_tooltip"
+msgstr "Προεπιλεγμένη γλώσσα-στόχος κατά τη χειροκίνητη μετάφραση."
+
+msgctxt "Languages::ss_deepl_error_empty"
+msgid "ss_deepl_error_empty"
+msgstr "Αδυναμία σύνδεσης με το DeepL. Ελέγξτε τα διαπιστευτήρια πρόσβασης και προσπαθήστε ξανά."
+
+msgctxt "Languages::ss_deepl_configuration_vendor"
+msgid "ss_deepl_configuration_vendor"
+msgstr "Διαμόρφωση προμηθευτή"
+
+msgctxt "Languages::ss_deepl_no_api_key_mv"
+msgid "ss_deepl_no_api_key_mv"
+msgstr "Δεν υπάρχει κλειδί API στη ρύθμιση παραμέτρων του προμηθευτή. Μεταβείτε στη διαμόρφωση προμηθευτή και πληκτρολογήστε το κλειδί στην καρτέλα DeepL settings: [url]"
+
+msgctxt "Languages::ss_deepl_no_access"
+msgid "ss_deepl_no_access"
+msgstr "Οι τρέχουσες ρυθμίσεις σας δεν επιτρέπουν τη χρήση του API DeepL."
+
+msgctxt "Languages::ss_deepl_api_allow"
+msgid "ss_deepl_api_allow"
+msgstr "Επιτρέψτε τη χρήση του DeepL"
+
+msgctxt "Languages::ss_deepl_api_allow_tooltip"
+msgid "ss_deepl_api_allow_tooltip"
+msgstr "Επιλέξτε αν οι πωλητές που χρησιμοποιούν αυτό το σχέδιο μπορούν να πληκτρολογήσουν το δικό τους κλειδί API DeepL. Εάν ο πωλητής δεν πληκτρολογήσει το δικό του κλειδί, το κλειδί από την κύρια διαμόρφωση του πρόσθετου θα χρησιμοποιηθεί για τη μετάφραση."
+
+msgctxt "Languages::ss_deepl_settings_vendor"
+msgid "ss_deepl_settings_vendor"
+msgstr "Ρυθμίσεις DeepL"
+
+msgctxt "Languages::ss_deepl_api_key"
+msgid "ss_deepl_api_key"
+msgstr "Κλειδί API"
+
+msgctxt "Languages::ss_deepl_service"
+msgid "ss_deepl_service"
+msgstr "Υπηρεσία"
+
+msgctxt "Languages::ss_deepl_service_free"
+msgid "ss_deepl_service_free"
+msgstr "DeepL Δωρεάν"
+
+msgctxt "Languages::ss_deepl_service_pro"
+msgid "ss_deepl_service_pro"
+msgstr "DeepL Pro"
+
+msgctxt "Languages::ss_deepl_auto_translate_none"
+msgid "ss_deepl_auto_translate_none"
+msgstr "Άτομα με ειδικές ανάγκες"
+
+msgctxt "Languages::ss_deepl_auto_translate_manual"
+msgid "ss_deepl_auto_translate_manual"
+msgstr "Χειροκίνητη επιλογή προϊόντων"
+
+msgctxt "Languages::ss_deepl_auto_translate_auto"
+msgid "ss_deepl_auto_translate_auto"
+msgstr "Αυτόματη επιλογή προϊόντων"
+
+msgctxt "Languages::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Πεδία που ελέγχονται κατά την αυτόματη μετάφραση"
+
+msgctxt "Languages::ss_deepl_auto_translate_items_tooltip"
+msgid "ss_deepl_auto_translate_items_tooltip"
+msgstr "Επιλέξτε ποια πεδία στη διαμόρφωση του πρόσθετου πρέπει να αλλάξουν, ώστε το προϊόν να μεταφραστεί κατά την επόμενη εκτέλεση του σεναρίου CRON. Αυτή η επιλογή λειτουργεί μόνο εάν είναι ενεργοποιημένη η αυτόματη μετάφραση."
+
+msgctxt "Languages::ss_deepl_auto_translate_items_ab__custom_product_h1"
+msgid "ss_deepl_auto_translate_items_ab__custom_product_h1"
+msgstr "Κεφαλίδα H1"
+
+msgctxt "Languages::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "Μέθοδος μετάφρασης"
+
+msgctxt "Languages::ss_deepl_translate_method_tooltip"
+msgid "ss_deepl_translate_method_tooltip"
+msgstr "Επιλέξτε μια μέθοδο χειροκίνητης μετάφρασης προϊόντων. Η γρήγορη χρησιμοποιεί περισσότερους χαρακτήρες, η βέλτιστη απαιτεί περισσότερο χρόνο. Σημείωση: η αυτόματη μετάφραση προϊόντων μέσω του σεναρίου CRON χρησιμοποιεί πάντα τη βέλτιστη μέθοδο."
+
+msgctxt "Languages::ss_deepl_translate_method_fast"
+msgid "ss_deepl_translate_method_fast"
+msgstr "Γρήγορη"
+
+msgctxt "Languages::ss_deepl_translate_method_optimal"
+msgid "ss_deepl_translate_method_optimal"
+msgstr "Βέλτιστο"
+
+msgctxt "Languages::ss_deepl_cron_query"
+msgid "ss_deepl_cron_query"
+msgstr "Εντολή CRON για άμεση εισαγωγή στο CRON του διακομιστή"
+
+msgctxt "Languages::ss_deepl_translate_promotions"
+msgid "ss_deepl_translate_promotions"
+msgstr "Μετάφραση προωθητικών ενεργειών"
+
+msgctxt "Languages::ss_deepl_translate_categories"
+msgid "ss_deepl_translate_categories"
+msgstr "Κατηγορίες μετάφραση"
+
+msgctxt "Languages::ss_deepl_context_menu"
+msgid "ss_deepl_context_menu"
+msgstr "DeepL μεταφράσεις"
+
+msgctxt "Languages::ss_deepl_configuration"
+msgid "ss_deepl_configuration"
+msgstr "Ρύθμιση πρόσθετων ρυθμίσεων"
+
+msgctxt "Languages::ss_deepl_base_language"
+msgid "ss_deepl_base_language"
+msgstr "Βασική γλώσσα για μεταφράσεις Deepl"
+
+msgctxt "Languages::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate"
+msgstr "Μετάφραση προϊόντος κατά την επόμενη εκτέλεση δέσμης ενεργειών CRON"
+
+msgctxt "Languages::ss_deepl_no_api_key"
+msgid "ss_deepl_no_api_key"
+msgstr "Δεν έχει οριστεί κλειδί API στη ρύθμιση παραμέτρων του πρόσθετου. Πληκτρολογήστε το κλειδί API εδώ: [url]"
+
+msgctxt "Languages::ss_deepl_cron_address"
+msgid "ss_deepl_cron_address"
+msgstr "Σύνδεσμος CRON για αυτόματη μετάφραση"
+
+msgctxt "Languages::ss_deepl_button"
+msgid "ss_deepl_button"
+msgstr "Μεταφράστε προϊόντα"
+
+msgctxt "Languages::ss_deepl_menu"
+msgid "ss_deepl_menu"
+msgstr "DeepL μεταφράσεις"
+
+msgctxt "Languages::ss_deepl_menu"
+msgid "ss_deepl_menu"
+msgstr "DeepL ημερολόγια"
+
+msgctxt "Languages::ss_deepl_multi_error"
+msgid "ss_deepl_multi_error"
+msgstr "Προέκυψε σφάλμα κατά τη μετάφραση των προϊόντων. Ελέγξτε τα προϊόντα και προσπαθήστε ξανά."
+
+msgctxt "Languages::ss_deepl_completed"
+msgid "ss_deepl_completed"
+msgstr "Η μετάφραση ολοκληρώθηκε με επιτυχία."
+
+msgctxt "Languages::ss_deepl_error"
+msgid "ss_deepl_error"
+msgstr "Προέκυψε σφάλμα κατά τη μετάφραση. Ελέγξτε το προϊόν και προσπαθήστε ξανά."
+
+msgctxt "Languages::ss_deepl_product_tab"
+msgid "ss_deepl_product_tab"
+msgstr "DeepL μεταφράσεις"
+
+msgctxt "Languages::ss_deepl_translate_products"
+msgid "ss_deepl_translate_products"
+msgstr "Μεταφράστε προϊόντα"
+
+msgctxt "Languages::ss_deepl_sections"
+msgid "ss_deepl_sections"
+msgstr "Πεδία προς μετάφραση"
+
+msgctxt "Languages::ss_deepl_sections_tooltip"
+msgid "ss_deepl_sections_tooltip"
+msgstr "Επιλέξτε τα πεδία που θα μεταφραστούν από το DeepL."
+
+msgctxt "Languages::ss_deepl_from_language"
+msgid "ss_deepl_from_language"
+msgstr "Πηγαία γλώσσα"
+
+msgctxt "Languages::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront"
+msgstr "Πηγή βιτρίνα"
+
+msgctxt "Languages::ss_deepl_to_language"
+msgid "ss_deepl_to_language"
+msgstr "Γλώσσα-στόχος"
+
+msgctxt "Languages::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront"
+msgstr "Προθήκη καταστήματος Target"
+
+msgctxt "Languages::ss_deepl_save_conf"
+msgid "ss_deepl_save_conf"
+msgstr "Εκτέλεση μετάφρασης"
+
+msgctxt "Languages::ss_deepl_go_translate"
+msgid "ss_deepl_go_translate"
+msgstr "Μεταφράστε"
+
+msgctxt "Languages::ss_deepl_translate_with_deepl"
+msgid "ss_deepl_translate_with_deepl"
+msgstr "Μεταφράστε με το DeepL"
+
+msgctxt "Languages::ss_deepl_translate_content"
+msgid "ss_deepl_translate_content"
+msgstr "Tłumaczenie wykonano poprawnie. Jeśli tłumaczenie nie spełniło Twoich oczekiwania i chcesz przywrócić oryginalną zawartość pola kliknij w ten link [link_to_log], skopiuj zawartość 'source' w to miejsce i zapisz."
+
+msgctxt "Languages::ss_deepl_translate_popup"
+msgid "ss_deepl_translate_popup"
+msgstr "Μεταφράστε με το DeepL"
+
+msgctxt "Languages::ss_deepl_action_link"
+msgid "ss_deepl_action_link"
+msgstr "Σύνδεσμος προς μια αυτοματοποιημένη ενέργεια. Ο σύνδεσμος μπορεί να επικολληθεί σε ένα πρόγραμμα περιήγησης ή να χρησιμοποιηθεί για τη διαμόρφωση του CRON."
+
+msgctxt "Languages::ss_deepl_action_cron_link"
+msgid "ss_deepl_action_cron_link"
+msgstr "Εντολή CRON. Έτοιμη εντολή για επικόλληση στην CRON"

@@ -1,0 +1,157 @@
+msgid ""
+msgstr "Project-Id-Version: myfatoorah-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: MyFatoorah Plugins Support <tech@myfatoorah.com>\n"
+"Language: ar_SA"
+
+msgctxt "Addons::name::myfatoorah"
+msgid "MyFatoorah"
+msgstr "ماي فاتورة"
+
+msgctxt "Addons::description::myfatoorah"
+msgid "MyFatoorah is a flexible and open-source payment gateway built on the CS-Cart e-commerce."
+msgstr "ماي فاتورة هي بوابة دفع مفتوحة المصدر مخصصة لمنصة CS-Cart."
+
+msgctxt "SettingsSections::myfatoorah::general"
+msgid "General"
+msgstr "عام"
+
+msgctxt "SettingsOptions::myfatoorah::countryMode"
+msgid "Vendor's Country"
+msgstr "دولة البائع"
+
+msgctxt "SettingsTooltips::myfatoorah::countryMode"
+msgid "Select your MyFatoorah vendor's country. After that, use the API token key that belongs to this country."
+msgstr "اختار بلد البائع الخاص بماي فاتورة ومن ثم استخدم رمز التكامل الخاص بتلك الدولة."
+
+msgctxt "SettingsOptions::myfatoorah::testMode"
+msgid "Test Mode"
+msgstr "الوضع التجريبي"
+
+msgctxt "SettingsTooltips::myfatoorah::testMode"
+msgid "Enable test / sandbox Mode"
+msgstr "تفعيل الوضع التجريبي"
+
+msgctxt "SettingsOptions::myfatoorah::apiKey"
+msgid "API Token Key"
+msgstr "رمز التكامل"
+
+msgctxt "SettingsTooltips::myfatoorah::apiKey"
+msgid "Get your API Token Key from Myfatoorah Vendor Account."
+msgstr "احصل على رمز التكامل من حسابك في ماي فاتورة."
+
+msgctxt "SettingsOptions::myfatoorah::webhookSecretKey"
+msgid "Webhook Secret Key"
+msgstr "مفتاح الويب هوك السري"
+
+msgctxt "SettingsTooltips::myfatoorah::webhookSecretKey"
+msgid "Get your Webhook Secret Key from MyFatoorah Vendor Account."
+msgstr "يمكنك نسخ مفتاح الويب هوك السري من حساب ماي فاتورة."
+
+msgctxt "SettingsOptions::myfatoorah::listOptions"
+msgid "List Payment Options"
+msgstr "قائمة خيارات الدفع"
+
+msgctxt "SettingsTooltips::myfatoorah::listOptions"
+msgid "Select how to list payments on your checkout page."
+msgstr "حدد كيفية سرد الدفع على صفحة الخروج الخاصة بك."
+
+msgctxt "Languages::text_variants_listOptions_multigateways"
+msgid "List All Enabled Gateways in Checkout Page"
+msgstr "سرد جميع طرق الدفع المفعلة في صفحة الدفع"
+
+msgctxt "Languages::text_variants_listOptions_myfatoorah"
+msgid "Redirect to MyFatoorah Invoice Page"
+msgstr "إعادة التوجيه لصفحة ماي فاتورة للدفع"
+
+msgctxt "SettingsOptions::myfatoorah::isApplePayRegistered"
+msgid "Apple Pay Embedded"
+msgstr "عرض زر أبل باي"
+
+msgctxt "SettingsTooltips::myfatoorah::isApplePayRegistered"
+msgid "isApplePayRegisteredTooltips"
+msgstr "قم بإنشاء مجلد باسم \.well-known\ في المسار الرئيسي للموقع، ثم انسخ ملف apple-developer-merchantid-domain-association الذي استلمته من فريق الدعم بماي فاتورة (tech@myfatoorah.com)"
+
+msgctxt "SettingsOptions::myfatoorah::orderStatus"
+msgid "Order Status"
+msgstr "حالة الطلب"
+
+msgctxt "SettingsTooltips::myfatoorah::orderStatus"
+msgid "How to mark the successful payment in the Admin Orders Page."
+msgstr "تحديد حالة الطلبات الناجحة التي سوف تظهر في صفحة الطلبات في منصة الأدمن."
+
+msgctxt "Languages::text_variants_orderStatus_P"
+msgid "Paid"
+msgstr "مدفوع"
+
+msgctxt "Languages::text_variants_orderStatus_C"
+msgid "Complete"
+msgstr "مكتمل"
+
+msgctxt "SettingsOptions::myfatoorah::debugMode"
+msgid "Debug Mode"
+msgstr "وضع التشخيص البرمجي"
+
+msgctxt "SettingsTooltips::myfatoorah::debugMode"
+msgid "Log MyFatoorah events in var/myfatoorah.log"
+msgstr "تسجيل الأحداث الخاصة بماي فاتورة في ملف var/myfatoorah.log"
+
+msgctxt "SettingsOptions::myfatoorah::saveCard"
+msgid "Save Card Mode"
+msgstr "حفظ بيانات الكارت"
+
+msgctxt "SettingsTooltips::myfatoorah::saveCard"
+msgid "Enable MyFatoorah save-card information feature for logged-in users for future payments"
+msgstr "تفعيل خاصية ماي فاتورة للحفاظ على بيانات الكارت للمستخدمين المسجلين لديك للمدفوعات الجديدة"
+
+msgctxt "Languages::text_webhook_update"
+msgid "text_webhook_update"
+msgstr "تحديث الويب هوك"
+
+msgctxt "Languages::text_how_to_pay"
+msgid "text_how_to_pay"
+msgstr "كيف تريد أن تدفع ؟"
+
+msgctxt "Languages::text_pay_with"
+msgid "text_pay_with"
+msgstr "دفع من خلال"
+
+msgctxt "Languages::text_or"
+msgid "text_or"
+msgstr "أو"
+
+msgctxt "Languages::text_insert_card"
+msgid "text_insert_card"
+msgstr "إدخال بيانات البطاقة"
+
+msgctxt "Languages::text_holder_name"
+msgid "text_holder_name"
+msgstr "اسم صاحب البطاقة"
+
+msgctxt "Languages::text_card_number"
+msgid "text_card_number"
+msgstr "رقم البطاقة"
+
+msgctxt "Languages::text_expire_date"
+msgid "text_expire_date"
+msgstr "YY / MM"
+
+msgctxt "Languages::text_cvv"
+msgid "text_cvv"
+msgstr "CVV"
+
+msgctxt "Languages::text_myfatoorah_disabled"
+msgid "text_myfatoorah_disabled"
+msgstr "تم إيقاف إضافة ماي فاتورة"
+
+msgctxt "Languages::text_ap_disabled"
+msgid "text_ap_disabled"
+msgstr "تم إيقاف زر أبل باي"
+
+msgctxt "Languages::text_ap_with_list_option"
+msgid "text_ap_with_list_option"
+msgstr "لتفعيل زر أبل باي يجب اختيار 'سرد جميع طرق الدفع المفعلة في صفحة الدفع' من 'قائمة خيارات الدفع'."
+
+msgctxt "Languages::text_installation_warning"
+msgid "text_installation_warning"
+msgstr "لتفعيل ماي فاتورة يجب عليك ضبط الإعدادت أولاً."

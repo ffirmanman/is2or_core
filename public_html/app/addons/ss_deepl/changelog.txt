@@ -1,0 +1,113 @@
+Legend:
+[+] - New feature/improvement
+[*] - Functionality changes
+[!] - Bugfix
+
+Version [1.1.1.3], 21 February 2022
+
+[!] Fixed an issue with incorrect address for DeepL Pro
+
+Version [1.1.1.4], 28 February 2022
+
+[+] Added an ability to auto-translate products
+[+] Added an option to select translation mode in add-on configuration
+[!] Fixes a lot of small issues and bugs
+
+Version [1.1.1.5], 4 March 2022
+
+[+] Added an ability to translate categories and promotions
+
+Version [1.1.1.6], 5 April 2022
+
+[!] Fixed some issues with vendors being able to access some DeepL functions even if it was disabled in their vendor plan.
+
+Version [1.1.1.7], 26 April 2022
+
+[!] Fixed an issue with categories that prevented some other category tabs from saving their content.
+
+Version [1.1.1.8], 6 May 2022
+
+[+] Added an ability to set permissions for DeepL usage separately for each vendor
+[!] Fixed an issue related to vendor configuration
+
+Version [1.1.1.9], 29 June 2022
+
+[!] Fixed an issue preventing admins in Multi-Vendor stores from using translations
+
+Version [1.1.2.0], 11 August 2022
+
+[+] New licensing system
+
+Version [1.1.2.1], 15 September 2022
+
+[+] Added a new option in add-on configuration to disable logging information about translations
+[+] Updated logger to new standards
+
+Version [1.1.2.2], 27 September 2022
+
+[!] Fixed an issue that could cause error messages to pop-up when logging information about translations.
+
+Version [1.1.2.3], 12 October 2022
+
+[+] Added an ability to mass translate categories.
+
+Version [1.1.2.4], 21 November 2022
+
+[!] Fixed an issue which could lead to translations failing under certain conditions.
+
+Version [1.1.2.5], 25 January 2023
+
+[*] Enabled POST requests to API, for better processing of long texts.
+[!] Various minor bugfixes and code adjustments.
+
+Version [1.1.2.6], 30 March 2023
+
+[*] Adjusted add-on to current standards.
+
+Version [1.1.2.7], 20 July 2023
+
+[!] Fixed a bug that could cause the CRON script to crash when trying to translate text to unsupported language.
+[*] CRON links in add-on configuration can now be copied with press of a button.
+
+Version [1.1.2.8], 28 January 2024
+
+[!] Fixed small problems
+[*] Add new functions
+[*] Adjusted add-on to match the current standards.
+[*] Security updates
+[!] Refactoring parts of the code
+
+Version [1.1.2.9], 20 April 2024
+
+[*] Add new functions
+[*] Security updates
+[!] Refactoring parts of the code
+
+Version [1.1.3.0], 4 May 2024
+
+[+] Add features translate
+[!] Refactoring parts of the code
+[!] Fixed small problems
+
+Version [1.1.3.1], 3 July 2024
+
+[+] Add mass translate promotions
+[+] Add translate static pages
+[*] Security updates
+[!] Refactoring parts of the code
+[!] Fixes in addon translation
+
+Version [1.1.3.2], 13 April 2025
+[!] Problem with mass translate on ULTIMATE - fixed
+[!] Refactoring parts of the code
+[!] Small fixes in addon translation
+[*] Compatibility with new version Store Builder and Multi-Vendor
+
+Version [1.1.3.3], 30 September 2025
+[+] Added support for glossaries
+[+] Adding the ability to translate into multiple languages simultaneously
+[+] Added the ability to translate the entire frontend to any language supported by deepl
+[+] Add new languages
+[!] Refactoring parts of the code
+[!] Small fixes in addon translation
+[*] Compatibility with new version Store Builder and Multi-Vendor

@@ -1,0 +1,138 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::ab__seo_reviews"
+msgid "AB: SEO for reviews"
+msgstr "AB: SEO для відгуків"
+
+msgctxt "Addons::description::ab__seo_reviews"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__seo_reviews"
+msgid "AB: SEO for reviews"
+msgstr "AB: SEO для відгуків"
+
+msgctxt "SettingsOptions::ab__seo_reviews::ab__as"
+msgid "AB: Advanced sitemap"
+msgstr "AB: Розширена карта сайту"
+
+msgctxt "SettingsOptions::ab__seo_reviews::ab__as_add_to_sitemap"
+msgid "Adding reviews pages to the XML-sitemap"
+msgstr "Додає сторінки відгуків до XML-карти сайту"
+
+msgctxt "Languages::ab__seo_reviews.settings"
+msgid "General settings"
+msgstr "Загальні налаштування"
+
+msgctxt "Languages::ab__sr.settings.default_seo_names"
+msgid "SEO names of reviews page by default"
+msgstr "SEO-імена сторінки відгуків за замовчуванням"
+
+msgctxt "Languages::ab__sr.reviews_form.status"
+msgid "Enable reviews page"
+msgstr "Увімкнути сторінку відгуків"
+
+msgctxt "Languages::ab__sr.reviews_form.h1"
+msgid "H1 tag"
+msgstr "H1 тег"
+
+msgctxt "Languages::ab__sr.reviews_form.description"
+msgid "Description"
+msgstr "Опис"
+
+msgctxt "Languages::ab__sr.reviews_form.page_title"
+msgid "Page title"
+msgstr "Заголовок сторінки"
+
+msgctxt "Languages::ab__sr.reviews_form.meta_description"
+msgid "Meta tag <code>description</code>"
+msgstr "Мета тег <code>description</code>"
+
+msgctxt "Languages::ab__sr.reviews_form.meta_keywords"
+msgid "Meta tag <code>keywords</code>"
+msgstr "Мета тег <code>keywords</code>"
+
+msgctxt "Languages::ab__sr.reviews_form.placeholders.title"
+msgid "Use following placeholders:"
+msgstr "Використовуйте наступні плейсхолдери:"
+
+msgctxt "Languages::ab__sr.reviews_form.placeholders.text"
+msgid "<b>[category]</b> — category name (as is)<br> <b>[category_lower]</b> — category name (lowercase)<br> <b>[Category]</b> — category name (the first letter is uppercase, others are lowercase)<br> <b>[CATEGORY]</b> — category name (uppercase)"
+msgstr "<b>[category]</b> — назва категорії (як є)<br>"
+"<b>[category_lower]</b> — назва категорії (малі літери)<br>"
+"<b>[Category]</b> — назва категорії (перша велика, решта малі)<br>"
+"<b>[CATEGORY]</b> — назва категорії (великі літери)"
+
+msgctxt "Languages::ab__sr.show_more_reviews"
+msgid "Show more"
+msgstr "Показати ще"
+
+msgctxt "Languages::ab__sr.layout.view_category"
+msgid "AB: Reviews of products in the category"
+msgstr "AB: Відгуки про товари категорії"
+
+msgctxt "Languages::ab__seo_reviews.help"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "Languages::ab__sr.help.docs"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__seo_reviews.doc'>the documentation</a>."
+msgstr "Ознайомитись з <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__seo_reviews.doc''>документацією</a>."
+
+msgctxt "Languages::privilege_groups.ab__seo_reviews"
+msgid "AB: SEO for reviews"
+msgstr "AB: SEO для відгуків"
+
+msgctxt "Languages::privileges.ab__sr.data.manage"
+msgid "Manage data"
+msgstr "Керування даними"
+
+msgctxt "Languages::privileges.ab__sr.data.view"
+msgid "View data"
+msgstr "Перегляд даних"
+
+msgctxt "Languages::ab__emd.tabs.ab__seo_reviews.view_category"
+msgid "AB: SEO for reviews"
+msgstr "AB: SEO для відгуків"
+
+msgctxt "Languages::ab__emd.setting.header.ab__seo_reviews.view_category"
+msgid "Reviews page general pattern"
+msgstr "Загальний шаблон сторінки відгуків"
+
+msgctxt "Languages::ab__emd.setting.ab__seo_reviews.view_category.action"
+msgid "Redefine categories meta tags"
+msgstr "Перевизначати мета-теги"
+
+msgctxt "Languages::ab__emd.setting.ab__seo_reviews.view_category.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Шаблон тега <code>title</code>"
+
+msgctxt "Languages::ab__emd.setting.ab__seo_reviews.view_category.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Шаблон мета-тега <code>description</code>"
+
+msgctxt "Languages::ab__emd.setting.ab__seo_reviews.view_category.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Шаблон мета-тега <code>keywords</code>"
+
+msgctxt "Languages::ab__emd.setting.ab__seo_reviews.view_category.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Не перевизначати"
+
+msgctxt "Languages::ab__emd.setting.ab__seo_reviews.view_category.action.override_empty"
+msgid "Redefine empty"
+msgstr "Перевизначати пусті"
+
+msgctxt "Languages::ab__emd.setting.ab__seo_reviews.view_category.action.override_all"
+msgid "Redefine all"
+msgstr "Перевизначати всі"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[h1_tag]"
+msgid "h1 value"
+msgstr "значення h1"
+
+#. Alexbranding. Do not modify this file manually!

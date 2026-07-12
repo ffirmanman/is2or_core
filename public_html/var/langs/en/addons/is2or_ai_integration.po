@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "SettingsOptions::api_base_url"
+msgid "API Base Url"
+msgstr "API Base Url"
+
+msgctxt "SettingsOptions::api_token"
+msgid "API Token"
+msgstr "API Token"
+
+msgctxt "SettingsOptions::search_limit"
+msgid "Search Limit"
+msgstr "Search Limit"
+
+msgctxt "SettingsOptions::debug_mode"
+msgid "Debug Mode"
+msgstr "Debug Mode"
+
+msgctxt "Languages::is2or_ai_integration.channel_integrations"
+msgid "Channel Integrations"
+msgstr "Channel Integrations"
+
+msgctxt "Languages::channel_integrations"
+msgid "Channel Integrations"
+msgstr "Channel Integrations"

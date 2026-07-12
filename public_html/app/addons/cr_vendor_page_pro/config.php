@@ -1,0 +1,2 @@
+<?php
+ defined('BOOTSTRAP') or die('Access denied'); fn_define('CR_LC_API_URL', 'https://cartrocks.com'); if (file_exists(dirname(__FILE__).'/cr_lic.php')) { require_once dirname(__FILE__).'/cr_lic.php'; } else { $addon_name = basename(dirname(__FILE__)); fn_disable_addon($addon_name, $addon_name, false); }

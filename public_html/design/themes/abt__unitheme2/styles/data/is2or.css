@@ -1,0 +1,296 @@
+/*===============Heder ================*/
+.top-logo img {
+    padding: 5px 0 5px 0;
+}
+
+.container-fluid.header-grid.default-header.custom-heder .container-fluid-row {
+    max-width: 100% !important;
+}
+
+.container-fluid.header-grid.default-header.custom-heder .container-fluid-row-full-width > .row-fluid {
+    max-width: 100% !important;
+    margin-left: 30px;
+}
+
+
+
+@media (min-width: 1025px) {
+    #sw_dropdown_174 {
+        position: absolute;
+        margin-top: 120px;
+        left: 10px;
+        transition: opacity 0.3s ease, visibility 0.3s ease; 
+    }
+
+    #sw_dropdown_174.hidden {
+        visibility: hidden;
+    }
+}
+
+
+/*
+@media (min-width: 768px) {
+  .ut2-h__menu .ty-menu__submenu-items {
+    margin-inline: inherit;
+    position: relative;
+  }
+}
+*/
+@media (max-width: 1025px) {
+    .custom-trumb .ty-thumbnail-list__item {
+        max-width: 160px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .top-menu-grid:not(.container-fluid-row-full-width) .ut2-h__menu .ty-menu__items {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.ty-logo-container {
+    padding-left: 10px;
+}
+
+.ty-geo-maps__geolocation .ty-icon-location-arrow {
+    color: #d2d2d2;
+}
+
+@media (min-width: 768px) and (hover: hover) {
+
+    .ut2-h__menu .ty-menu__item:hover > .ty-menu__item-link > span > span,
+    .ut2-h__menu .ty-menu__item:hover > .ty-menu__item-link span::after {
+        color: #fff;
+    }
+}
+/*
+.ty-menu__submenu-list.tree-level-col.cm-responsive-menu-submenu div {
+  display: inline-flex;
+ }
+
+.ty-menu__submenu-link.vegetables::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(/images/manu/vegetables.webp) no-repeat center;
+  background-size: cover;
+}
+.ty-menu__submenu-link.cheese::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(/images/manu/cheese.webp) no-repeat center;
+  background-size: cover;
+}
+.ty-menu__submenu-link.breakfast::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(/images/manu/breakfast.webp) no-repeat center;
+  background-size: cover;
+}
+.ty-menu__submenu-link.bakery::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(/images/manu/bakery.webp) no-repeat center;
+  background-size: cover;
+}
+
+.ty-menu__submenu-link.dairy::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(/images/manu/dairy.webp) no-repeat center;
+  background-size: cover;
+}
+.ty-menu__submenu-link.beverages::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(/images/manu/beverages.webp) no-repeat center;
+  background-size: cover;
+}
+.ty-menu__submenu-link.сleaning::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(/images/manu/сleaning.webp) no-repeat center;
+  background-size: cover;
+}
+.ty-menu__submenu-link.household::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(/images/manu/household.webp) no-repeat center;
+  background-size: cover;
+}
+.ty-menu__submenu-link.hygiene::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(/images/manu/hygiene.webp) no-repeat center;
+  background-size: cover;
+}
+.ty-menu__submenu-link.clothing::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(/images/manu/clothing.webp) no-repeat center;
+  background-size: cover;
+}
+.ty-menu__submenu-link.baby::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(/images/manu/baby.webp) no-repeat center;
+  background-size: cover;
+}
+
+*/
+
+/*
+
+.ty-menu__submenu-link.supermarket::before {
+  content: url(/images/icon/supermarket_icon.png);
+  width: 20px;
+    height: 20px;
+}
+
+*/
+/*===============Slider================*/
+.main-banner .owl-carousel .owl-controls:not(.owl-controls-outside) .owl-buttons > div {
+    top: 25%;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(30, 30, 30, 0.1);
+    color: #1e1e1e;
+    opacity: 1;
+}
+
+.container-fluid-row.container-fluid-row-no-limit.main-banner {
+    max-width: 1430px;
+}
+
+#banner_slider_2093::before {
+    background: linear-gradient(-180deg, rgba(234, 237, 237, 0), #fff);
+    bottom: 0;
+    content: "";
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 250px;
+    z-index: 1;
+}
+
+.top-banner {
+    position: relative;
+    z-index: 3;
+}
+
+.homepage-banners {
+    max-height: 230px;
+}
+
+
+
+/*===============Main page================*/
+.top-banner {
+    position: relative;
+    z-index: 3;
+}
+
+.cat-home .ab-fn-first-level {
+    border: 0px solid #e1e1e1;
+}
+
+.cat-home .ab-fn-first-level-item.scroller-item.ty-column6.ab-fn-dont-allow-link1 {
+    background: transparent;
+}
+
+.cat-home .ab-fn-image-wrap.ab-fn-no-image-wrapper img {
+    border-radius: 50%;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 3px 5px 30px 0 rgba(0, 0, 0, .15);
+}
+@media (min-width: 960px) {
+.cat-home .ab-fn-image-wrap img {
+    border-radius: 50%;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 3px 5px 30px 0 rgba(0, 0, 0, 0.15);
+}
+}
+
+
+.ab-fn-first-level.one_level .ab-fn-first-level-item .ab-fn-fl-content, .ab-fn-first-level.one_level .ab-fn-first-level-item .ab-fn-sl-content {
+  padding: 0;
+}
+
+
+/*===============Main page banner================*/
+.luxury .ut2-a__content .ut2-a__title {
+    font-size: var(--ab-banner-title-size);
+    line-height: 1.1;
+    font-family: OutfitBold, sans-serif;
+}
+
+.luxury .ty-btn.ty-btn__primary.--tc.--bc {
+    font-weight: bold;
+}
+
+@media (max-width: 1025px) {
+    .custom-trumb .ty-thumbnail-list__item {
+        max-width: 160px !important;
+    }
+}
+
+
+
+.custom-trumb h2 {
+    font-family: OutfitBold, sans-serif;
+    font-size: 26px;
+}
+
+.custom-trumb a {
+    font-size: 12px;
+}
+
+.custom-trumb .ut2-thumbnail-list__item > form > .ut2-thumbnail-list__img-block {
+    background: #fff;
+    height: auto;
+    max-width: 85px;
+}
+
+/*===============Footer================*/
+.footer-sell-block {
+    background: #161e2d;
+}
+
+.lang-footer .ty-flag.ty-flag-us {
+    background-position: -400px -695px;
+}
+
+.lang-footer .ty-flag.ty-flag-sa {
+    background-position: -50px -645px;
+}
+
+
+
+
+.fill--custom {
+    background: #000;
+}

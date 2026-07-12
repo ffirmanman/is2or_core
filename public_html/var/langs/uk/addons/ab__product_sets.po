@@ -1,0 +1,102 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::ab__product_sets"
+msgid "AB: Product sets (Up-Sell)"
+msgstr "AB: Комплекти для товару (Up-Sell)"
+
+msgctxt "Addons::description::ab__product_sets"
+msgid "Addon Product sets"
+msgstr "Модуль Комплекти товару"
+
+msgctxt "Languages::ab__product_sets"
+msgid "AB: Product sets (Up-Sell)"
+msgstr "AB: Комплекти для товару (Up-Sell)"
+
+msgctxt "SettingsOptions::ab__product_sets::pattern"
+msgid "List element's pattern"
+msgstr "Шаблон елементу списку"
+
+msgctxt "SettingsTooltips::ab__product_sets::pattern"
+msgid "This pattern is using by products for set at customer side <br>Use tokens: <br>%product% - product's name; <br>%price% - product's price."
+msgstr "Шаблон використовується для відображення товарів на клієнтській стороні"
+"<br>Використовуйте токени:"
+"<br>%product% - назва товару;"
+"<br>%price% - ціна товару."
+
+msgctxt "Languages::ab__ps.form.pos"
+msgid "Pos."
+msgstr "Поз."
+
+msgctxt "Languages::ab__ps.form.title"
+msgid "Set title"
+msgstr "Заголовок комплекту"
+
+msgctxt "Languages::ab__ps.form.status"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "Languages::ab__ps.form.add_set"
+msgid "Add set"
+msgstr "Додати набір"
+
+msgctxt "Languages::ab__ps.results.subtotal"
+msgid "Subtotal"
+msgstr "Підсумок"
+
+msgctxt "Languages::ab__ps.results.discount"
+msgid "Discount"
+msgstr "Знижка"
+
+msgctxt "Languages::ab__ps.results.total"
+msgid "Total"
+msgstr "Всього"
+
+msgctxt "Languages::ab__ps.multiselect.searchplaceholder"
+msgid "Select products"
+msgstr "Виберіть товари"
+
+msgctxt "Languages::ab__ps.multiselect.noItemsAvailable"
+msgid "No items available"
+msgstr "Немає підходящих товарів"
+
+msgctxt "Languages::ab__ps.multiselect.selectAll"
+msgid "Select all"
+msgstr "Вибрати всі"
+
+msgctxt "Languages::ab__ps.multiselect.selectNone"
+msgid "Select none"
+msgstr "Відмінити всі"
+
+msgctxt "Languages::ab__ps.settings"
+msgid "General settings"
+msgstr "Загальні налаштування"
+
+msgctxt "Languages::ab__product_sets.help"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "Languages::ab__ps_help.docs"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__product_sets.doc'>the documentation</a>."
+msgstr "Ознайомитись з <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__product_sets.doc'>документацією</a>."
+
+msgctxt "Languages::privilege_groups.ab__product_sets"
+msgid "AB: Product sets (Up-Sell)"
+msgstr "AB: Комплекти для товару (Up-Sell)"
+
+msgctxt "Languages::privileges.ab__ps.sets.manage"
+msgid "Manage sets"
+msgstr "Керування комплектами"
+
+msgctxt "Languages::privileges.ab__ps.sets.view"
+msgid "View sets"
+msgstr "Перегляд комплектів"
+
+msgctxt "Languages::ab__ps.autoinstall.install_demodata"
+msgid "For the following products, sets of products were added: [products]."
+msgstr "Для наступних товарів додані комплекти: [products]."
+
+#. Alexbranding. Do not modify this file manually!

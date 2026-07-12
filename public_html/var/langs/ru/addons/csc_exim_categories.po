@@ -1,0 +1,164 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::csc_exim_categories"
+msgid "Import/export categories"
+msgstr "Импорт/экспорт категорий"
+
+msgctxt "Addons::description::csc_exim_categories"
+msgid "Import/export your store categories via csv import. Developed by <b> <a href=\"https://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+msgstr "Выгружайте и импортируйте категории на вашем сайте через csv импорт. Разработано <b> <a href=\"https://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+
+msgctxt "Languages::ceca.csc_addons"
+msgid "CS-Commerce Addons"
+msgstr "Модули CS-Commerce"
+
+msgctxt "Languages::csc_addons"
+msgid "CS-Commerce Addons"
+msgstr "Модули CS-Commerce"
+
+msgctxt "Languages::csc_exim_categories"
+msgid "Import/export categories"
+msgstr "Импорт/экспорт категорий"
+
+msgctxt "Languages::privilege_groups.csc_exim_categories"
+msgid "Manage Импорт/экспорт категорий"
+msgstr "Управление модулем \"Импорт/экспорт категорий\""
+
+msgctxt "Languages::ceca.settings"
+msgid "General settings"
+msgstr "Основные настройки"
+
+msgctxt "Languages::ceca.title_general_settings"
+msgid "General settings"
+msgstr "Основные настройки"
+
+msgctxt "Languages::ceca.tab_general"
+msgid "General settings"
+msgstr "Основные настройки"
+
+msgctxt "Languages::ceca.menu"
+msgid "Menu"
+msgstr "Меню"
+
+msgctxt "Languages::ceca.rate_us"
+msgid "Like this addon? Rate it!"
+msgstr "Поставить оценку модулю"
+
+msgctxt "Languages::ceca.other_addons"
+msgid "Other our addons"
+msgstr "Другие наши модули →"
+
+
+msgctxt "Languages::ceca.documentation"
+msgid "Documentation"
+msgstr "Документация"
+
+msgctxt "Languages::ceca.feedback"
+msgid "Have questions? Mail us!"
+msgstr "Есть вопросы? Пишите нам!"
+
+msgctxt "Languages::ceca.addon_upgrades"
+msgid "Add-on upgrades"
+msgstr "Обновления модуля"
+
+msgctxt "Languages::ceca.license_error"
+msgid "License error"
+msgstr "Ошибка лицензии"
+
+msgctxt "Languages::ceca.current_v"
+msgid "Installed version"
+msgstr "Установлена версия"
+
+msgctxt "Languages::ceca.new_v"
+msgid "New add-on version"
+msgstr "Новая версия модуля"
+
+msgctxt "Languages::ceca.actual_version_installed"
+msgid "The latest version is installed"
+msgstr "Вы используете последнюю версию модуля"
+
+msgctxt "Languages::ceca.prolongate"
+msgid "Prolongate subscription"
+msgstr "Продлить подписку"
+
+msgctxt "Languages::ceca.days_left"
+msgid "<b>[n]</b> day left until the end of the subscription|<b>[n]</b> days left until the end of the subscription"
+msgstr "До конца подписки <b>[n] день</b>|До конца подписки <b>[n] дня</b>|До конца подписки <b>[n] дней</b>"
+
+msgctxt "Languages::ceca.subscription_expired"
+msgid "Upgrade subscription expired"
+msgstr "Подписка на обновления истекла"
+
+msgctxt "Languages::ceca.prolongate_discount"
+msgid "Renew your subscription with a <b>30% discount until [date]</b>"
+msgstr "Продлевайте подписку со скидкой <b>30% до [date]</b>"
+
+msgctxt "Languages::ceca.upgrade"
+msgid "Upgrade center"
+msgstr "Центр обновлений"
+
+msgctxt "Languages::ceca.category_code"
+msgid "Category code"
+msgstr "Артикул категории"
+
+msgctxt "Languages::ceca.category_code_tlp"
+msgid "Unique category number (within one storefront) to identify category on import process."
+msgstr "Уникальный код категории (в рамках одной витрины) используемый для идентификации категории во время импорта"
+
+msgctxt "Languages::ceca_export_categories"
+msgid "Export categories"
+msgstr "Экспорт категорий"
+
+msgctxt "Languages::ceca_import_categories"
+msgid "Import categories"
+msgstr "Импорт категорий"
+
+msgctxt "Languages::ceca_categories"
+msgid "Categories"
+msgstr "Категории"
+
+msgctxt "Languages::ceca_import_mode"
+msgid "Import mode"
+msgstr "Режим импорта"
+
+msgctxt "Languages::ceca_import_mode_desc"
+msgid "Select logic of updating exists categories and create new categories"
+msgstr "Выберите логику обновления сущесмтвующий катгеорий и создания новых"
+
+msgctxt "Languages::ceca_update_exists_only"
+msgid "Update only exist categories"
+msgstr "Обновлять только существующие категории"
+
+msgctxt "Languages::ceca_create_new_only"
+msgid "Create only new categories"
+msgstr "Только создавать новые категории"
+
+msgctxt "Languages::ceca_backup_categories"
+msgid "Backup data"
+msgstr "Создать резервную копию таблиц"
+
+msgctxt "Languages::ceca_backup_categories_descr"
+msgid "Create buckup categories and seo-names tables before import"
+msgstr "Создать резервную копию таблиц категорий и сео-имен перед импортом"
+
+msgctxt "Languages::ceca.export_selected_products"
+msgid "Export products from selected"
+msgstr "Экспортировать товары из выбранных категорий"
+
+msgctxt "Languages::ceca.parent_category_not_exists"
+msgid "Parent category not exist: "
+msgstr "Родительской катгеории не существует: "
+
+
+msgctxt "Languages::ceca.generate_codes"
+msgid "Generate category codes for categories without it ([no_codes])"
+msgstr "Сгенерировать артикулы категориям без артикула ([no_codes])"
+
+msgctxt "Languages::ceca.category_codes_was_set_success"
+msgid "Category codes was generated success!"
+msgstr "Артикулы успешно сгенерированны!"
+

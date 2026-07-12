@@ -1,0 +1,1 @@
+{capture name="mainbox_title"}<span {live_edit name="category:category:{$category_data.category_id}"}>{$category_data.category}{if $smarty.request.page > 1}{__('ab__ch1.page_no', ['[page]' => $_REQUEST['page']])}{/if}</span>{/capture}

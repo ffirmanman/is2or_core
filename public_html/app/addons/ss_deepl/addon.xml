@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ss_deepl</id>
+    <version>1.1.3.3</version>
+    <priority>1</priority>
+    <position>10000</position>
+    <status>active</status>
+    <commit></commit>
+    <supplier>SoftSolid</supplier>
+    <supplier_link>https://cs-cart.pl</supplier_link>
+    <supplier_page>addons.manage?supplier=SoftSolid</supplier_page>
+    <authors>
+        <author>
+            <name>SoftSolid</name>
+            <email>office@cs-cart.com.pl</email>
+            <url>https://cs-cart.pl</url>
+            <phone>+48698780870, +48661661964</phone>
+        </author>
+    </authors>
+    <has_icon>true</has_icon>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <compatibility>
+        <!--<core_version>
+            <min></min>
+            <max></max>
+        </core_version>-->
+        <core_edition></core_edition>
+        <!--<php_version>
+            <min></min>
+            <max></max>
+        </php_version>-->
+        <dependencies></dependencies>
+        <conflicts></conflicts>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR" layout="separate">
+        <sections>
+            <section id="ss_deepl_general">
+                 <items>
+                    <item id="ss_deepl_api_key">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="ss_deepl_service">
+                        <type>selectbox</type>
+                        <default_value>free</default_value>
+                        <variants>
+                            <item id="free">
+                            </item>
+                            <item id="pro">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="ss_deepl_glossary_id">
+                        <type>selectbox</type>
+                    </item>
+                    <item id="ss_deepl_auto_translate">
+                        <type>selectbox</type>
+                        <default_value>none</default_value>
+                        <variants>
+                            <item id="none"></item>
+                            <item id="manual"></item>
+                            <item id="auto"></item>
+                        </variants>
+                    </item>
+                    <!--  <item id="ss_deepl_detect_from_lang">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item> -->
+                    <!-- <item id="ss_deepl_auto_translate_categories">
+                        <type>selectbox</type>
+                        <default_value>none</default_value>
+                        <variants>
+                            <item id="none"></item>
+                            <item id="manual"></item>
+                            <item id="auto"></item>
+                        </variants>
+                    </item> -->
+                    <item id="ss_deepl_auto_translate_items">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#product=Y&full_description=Y]]></default_value>
+                        <variants>
+                            <item id="product"></item>
+                            <item id="full_description"></item>
+                            <item id="short_description"></item>
+                            <item id="search_words"></item>
+                            <item id="promo_text"></item>
+                            <item id="page_title"></item>
+                            <item id="meta_keywords"></item>
+                            <item id="meta_description"></item>
+                            <item id="ab__custom_product_h1"></item>
+                        </variants>
+                    </item>
+                    <!--  <item id="ss_deepl_translate_method">
+                        <type>selectbox</type>
+                        <default_value>fast</default_value>
+                        <variants>
+                            <item id="fast"></item>
+                            <item id="optimal"></item>
+                        </variants>
+                    </item> -->
+                    <item id="ss_deepl_redirect_target_lang">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="ss_deepl_link">
+                        <type>info</type>
+                        <handler>fn_ss_deepl_link</handler>
+                    </item>
+                    <item id="ss_deepl_cron_link">
+                        <type>info</type>
+                        <handler>fn_ss_deepl_cron_link</handler>
+                    </item>
+                </items>
+            </section>
+            <section id="ss_deepl_default_values">
+                 <items>
+                    <item id="ss_deepl_sections_products">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#product=Y&full_description=Y]]></default_value>
+                        <variants>
+                            <item id="product"></item>
+                            <item id="full_description"></item>
+                            <item id="short_description"></item>
+                            <item id="search_words"></item>
+                            <item id="promo_text"></item>
+                            <item id="page_title"></item>
+                            <item id="meta_keywords"></item>
+                            <item id="meta_description"></item>
+                            <item id="ab__custom_product_h1"></item>
+                        </variants>
+                    </item>
+                    <item id="ss_deepl_sections_categories">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#category=Y&description=Y]]></default_value>
+                        <variants>
+                            <item id="category"></item>
+                            <item id="description"></item>
+                            <item id="page_title"></item>
+                            <item id="meta_keywords"></item>
+                            <item id="meta_description"></item>
+                        </variants>
+                    </item>
+                    <item id="ss_deepl_sections_promotions">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#name=Y&detailed_description=Y]]></default_value>
+                        <variants>
+                            <item id="name"></item>
+                            <item id="short_description"></item>
+                            <item id="detailed_description"></item>
+                        </variants>
+                    </item>
+                    <item id="ss_deepl_sections_pages">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#page=Y&description=Y]]></default_value>
+                        <variants>
+                            <item id="page"></item>
+                            <item id="description"></item>
+                            <item id="page_title"></item>
+                            <item id="meta_keywords"></item>
+                            <item id="meta_description"></item>
+                        </variants>
+                    </item>
+                    <item id="ss_deepl_sections_product_features">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#internal_name=Y&description=Y]]></default_value>
+                        <variants>
+                            <item id="internal_name"></item>
+                            <item id="description"></item>
+                            <item id="full_description"></item>
+                            <item id="variant"></item>
+                        </variants>
+                    </item>
+                    <item id="ss_deepl_sections_product_features_groups">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#internal_name=Y&description=Y]]></default_value>
+                        <variants>
+                            <item id="internal_name"></item>
+                            <item id="description"></item>
+                            <item id="full_description"></item>
+                        </variants>
+                    </item>
+                    <item id="ss_deepl_sections_product_filters">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#filter=Y]]></default_value>
+                        <variants>
+                            <item id="filter"></item>
+                        </variants>
+                    </item>
+                    <item id="ss_deepl_sections_product_options">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#option_name=Y&description=Y]]></default_value>
+                        <variants>
+                            <item id="internal_option_name"></item>
+                            <item id="option_name"></item>
+                            <item id="description"></item>
+                            <item id="comment"></item>
+                            <item id="variant"></item>
+                        </variants>
+                    </item>
+                    <item id="ss_deepl_from_language">
+                        <type>selectbox</type>
+                    </item>
+                    <item id="ss_deepl_from_storefront">
+                        <type>selectbox</type>
+                    </item>
+                    <item id="ss_deepl_to_language">
+                        <type>multiple checkboxes</type>
+                    </item>
+                    <item id="ss_deepl_to_storefront">
+                        <type>selectbox</type>
+                    </item>
+                </items>
+            </section>
+            <section id="ss_deepl_counter">
+                <items>
+                    <item id="ss_deepl_counter">
+                        <type>info</type>
+                        <handler>fn_ss_deepl_get_counter</handler>
+                    </item>
+                </items>
+            </section>
+            <section id="ss_deepl_stats">
+                <items>
+                    <item id="ss_deepl_stats">
+                        <type>info</type>
+                        <handler>fn_ss_deepl_get_stats</handler>
+                    </item>
+                </items>
+            </section>
+            <section id="ss_deepl_logs">
+                <items>
+                    <item id="ss_deepl_enable_logs">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+    </queries>
+    <functions>
+        <item for="install">fn_ss_deepl_install</item>
+        <item for="uninstall">fn_ss_deepl_uninstall</item>
+    </functions>
+</addon>

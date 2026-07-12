@@ -1,0 +1,2 @@
+<?php
+if (!defined('BOOTSTRAP')) { die('Access denied'); } if ( $mode === 'update' && $_REQUEST['addon'] === 'srx_addons_installer' ) { return array(CONTROLLER_STATUS_REDIRECT, 'sonotrix_addons_installer.installer'); }

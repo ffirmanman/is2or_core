@@ -1,0 +1,134 @@
+/*======Main manu======*/
+.maim-manu-icon .ab-fn-first-level {
+  border: 1px solid #d7d7d700;
+}
+.ab-fn-parent .ab-fn-first-level-item .ab-fn-image-wrap, .ab-fn-parent .ab-fn-second-level-item .ab-fn-image-wrap {
+  min-height: auto;
+}
+
+
+.maim-manu-second .ab-fn-image-wrap {
+  display: none !important;
+}
+.maim-manu-second {
+    background-color: #f2f2f7;
+}
+
+.maim-manu-second .owl-wrapper-outer {
+    display: flex;
+    justify-content: center;
+}
+
+.maim-manu-second .owl-wrapper {
+    width: 1400px !important;
+}
+
+.maim-manu-second .owl-carousel .owl-wrapper {
+    display: flex !important;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.maim-manu-second .owl-item {
+    width: auto !important;
+}
+
+.maim-manu-second .owl-item:hover {
+    background: #e3e3e3;
+}
+
+.maim-manu-second .owl-wrapper > * {
+    flex: 1 1 auto;
+}
+
+.maim-manu-second .ab-fn-first-level-item {
+    padding-top: 15px !important;
+    padding-bottom: 14px !important;
+}
+
+.maim-manu-second .ab-fn-first-level.one_level .ab-fn-first-level-item {
+    background: inherit;
+}
+
+.maim-manu-second .ab-fn-first-level.one_level .ab-fn-first-level-item .ab-fn-fl-content, .ab-fn-first-level.one_level .ab-fn-first-level-item .ab-fn-sl-content {
+     padding: 0px !important;
+}
+
+.maim-manu-second .ab-fn-fl-content, .ab-fn-sl-content {
+     padding: 0px !important;
+}
+
+.maim-manu-second .ab-fn-parent .ab-fn-first-level-item:not(.ab-fn-common-item-link) .ab-fn-item-header, .ab-fn-parent .ab-fn-second-level-item:not(.ab-fn-common-item-link) .ab-fn-item-header {
+    min-height: 0px;
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.maim-manu-second .ab-fn-parent .ab-fn-first-level-item:hover .ab-fn-item-header, .ab-fn-parent .ab-fn-second-level-item:hover .ab-fn-item-header {
+    color: inherit;
+}
+
+.maim-manu-second .ab-fn-parent .ab-fn-first-level-item, .ab-fn-parent .ab-fn-second-level-item {
+    align-items: center;
+    min-height: 0px;
+}
+/*======Logo======*/
+@media (min-width: 1023px) {
+.top-logo img {
+  padding: 5px 0 5px 0;
+}
+}
+@media (max-width: 1023px) {
+.top-languages {
+  padding: 15px 0 0 0;
+}
+}
+/*======Shadow======*/
+.ut2-sidebox-important {
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.08);
+}
+/*======Tags======*/
+.ty-tag-cloud__item.ty-tag-level-2 {
+  display: inline-block;
+  margin:5px;
+}
+.ty-tag-cloud__item.ty-tag-level-2 {
+  border:1px solid #aeaeae;
+  padding:10px;
+  border-radius:50px;
+  color: #000 !important;
+}
+.ty-tag-cloud__item.ty-tag-level-2:hover {
+  color: #ff6800 !important;
+  border:1px solid #ff6800;
+}
+.ty-tag-level-2, .ty-tag-level-2:active {
+  font-size: 100%;
+}
+/*===============Form ================*/
+.ty-form-builder .ty-input-text {
+    max-width: 100%;
+}
+
+.ty-form-builder__textarea {
+    max-width: 100%;
+}
+
+.ty-form-builder__buttons.buttons-container.buttons-container > .ty-btn {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.ty-control-group__title.cm-required {
+    font-weight: bold;
+}
+
+
+.ut2-social-links a {
+  background: black;
+}
+.see a {
+color: #ea5920;
+}
+

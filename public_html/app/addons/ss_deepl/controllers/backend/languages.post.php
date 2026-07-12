@@ -1,0 +1,2 @@
+<?php
+ use Tygh\Registry; goto qEHj_; C7R2P: die("\x41\143\x63\145\163\163\x20\x64\145\x6e\x69\145\144"); goto AomE7; VWgA8: if (!($_SERVER["\122\x45\121\125\105\123\124\x5f\115\x45\124\x48\x4f\x44"] === "\x50\117\x53\124")) { goto vv1qa; } goto fyehD; qEHj_: if (defined("\102\x4f\117\x54\123\x54\x52\101\x50")) { goto SDI5R; } goto C7R2P; fyehD: if (!($mode === "\165\160\144\141\164\x65")) { goto g2C84; } goto nTsbV; nTsbV: g2C84: goto NUVOu; AomE7: SDI5R: goto VWgA8; NUVOu: vv1qa:

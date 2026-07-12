@@ -1,0 +1,1 @@
+{hook name="abt__ut2_mv:vendor_reviews"}{/hook}

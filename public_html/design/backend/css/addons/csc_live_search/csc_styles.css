@@ -1,0 +1,1668 @@
+article,
+		aside,
+		details,
+		figcaption,
+		figure,
+		footer,
+		header,
+		hgroup,
+		main,
+		nav,
+		section,
+		summary {
+			display: block;
+		}
+		
+		audio,
+		canvas,
+		video {
+			display: inline-block;
+		}
+		
+		audio:not([controls]) {
+			display: none;
+			height: 0;
+		}
+		
+		[hidden],
+		template {
+			display: none;
+		}
+		
+		html {
+			font-size: 100%;
+			-ms-text-size-adjust: 100%;
+			-webkit-text-size-adjust: 100%;
+		}
+		
+		body {
+			margin: 0;
+		}
+		
+		a {
+			background-color: transparent;
+		}
+		
+		a:focus {
+			outline: thin dotted;
+		}
+		
+		a:active,
+		a:hover {
+			outline: 0;
+		}
+		
+		abbr[title] {
+			border-bottom: 1px dotted;
+			text-decoration: none;
+		}
+		
+		b,
+		strong {
+			font-weight: bold;
+		}
+		
+		dfn {
+			font-style: italic;
+		}
+		
+		small {
+			font-size: 80%;
+		}
+		
+		sub,
+		sup {
+			font-size: 75%;
+			line-height: 0;
+			position: relative;
+			vertical-align: baseline;
+		}
+		
+		sup {
+			top: -0.5em;
+		}
+		
+		sub {
+			bottom: -0.25em;
+		}
+		
+		img {
+			-ms-interpolation-mode: bicubic;
+			border: 0;
+			vertical-align: middle;
+		}
+		
+		svg:not(:root) {
+			overflow: hidden;
+		}
+		
+		figure {
+			margin: 0;
+		}
+		
+		pre {
+			overflow: auto;
+		}
+		
+		code,
+		kbd,
+		pre,
+		samp {
+			font-family: monospace, serif;
+			font-size: 1em;
+		}
+		
+		blockquote,
+		q {
+			quotes: none;
+		}
+		
+		blockquote:before,
+		blockquote:after,
+		q:before,
+		q:after {
+			content: "";
+			content: none;
+		}
+		
+		form {
+			margin: 0;
+		}
+		
+		button,
+		input,
+		optgroup,
+		select,
+		textarea {
+			color: inherit;
+			font: inherit;
+			margin: 0;
+		}
+		
+		button {
+			overflow: visible;
+		}
+		
+		button,
+		select {
+			text-transform: none;
+		}
+		
+		button,
+		html input[type="button"],
+		input[type="reset"],
+		input[type="submit"] {
+			-webkit-appearance: button;
+			cursor: pointer;
+		}
+		
+		button[disabled],
+		html input[disabled] {
+			cursor: default;
+		}
+		
+		button::-moz-focus-inner,
+		input::-moz-focus-inner {
+			border: 0;
+			padding: 0;
+		}
+		
+		input {
+			line-height: normal;
+		}
+		
+		input[type="checkbox"],
+		input[type="radio"] {
+			box-sizing: border-box;
+			padding: 0;
+		}
+		
+		input[type="number"]::-webkit-inner-spin-button,
+		input[type="number"]::-webkit-outer-spin-button {
+			height: auto;
+		}
+		
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="password"],
+		input[type="search"],
+		textarea {
+			-webkit-appearance: none;
+		}
+		
+		input[type="search"]::-webkit-search-cancel-button,
+		input[type="search"]::-webkit-search-decoration {
+			-webkit-appearance: none;
+		}
+		
+		textarea {
+			overflow: auto;
+		}
+		
+		optgroup {
+			font-weight: bold;
+		}
+		
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+		
+		/**
+		 * 2. General
+		 * ------------------------------------------------------------
+		 */
+		html,
+		button,
+		input,
+		select,
+		textarea {
+			font-family: 'Open Sans', sans-serif;
+		}
+		
+		body {
+			color: #dadada;
+			line-height: 1.75;
+		}
+		
+		a {
+			color: #dadada;
+			text-decoration: underline;
+		}
+		
+		a:hover {
+			text-decoration: none;
+		}
+		
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: #fff;
+			font-family: 'Roboto Slab', serif;
+			font-weight: 400;
+			line-height: 1.16667;
+			margin: 0 0 28px;
+		}
+		
+		h1 {
+			font-size: 44px;
+		}
+		
+		h2 {
+			font-size: 30px;
+		}
+		
+		h3 {
+			font-size: 24px;
+		}
+		
+		h4 {
+			font-size: 18px;
+		}
+		
+		h5,
+		h6 {
+			font-size: 16px;
+		}
+		
+		.one-half h3 {
+			margin-bottom: 14px;
+		}
+		
+		p {
+			margin: 0 0 28px;
+		}
+		
+		address {
+			font-style: italic;
+			margin: 0 0 28px;
+		}
+		
+		mark,
+		ins {
+			background-color: #6e6e6e;
+			color: #dadada;
+			padding: 0 3px;
+			text-decoration: none;
+		}
+		
+		pre {
+			line-height: 1.5;
+			margin: 0 0 28px;
+			white-space: pre;
+			white-space: pre-wrap;
+			word-wrap: break-word;
+		}
+		
+		blockquote {
+			color: #fff;
+			font-size: 24px;
+			font-style: italic;
+			line-height: 1.33333;
+			margin: 0 0 28px;
+			text-align: center;
+		}
+		
+		blockquote small,
+		blockquote cite {
+			color: #dadada;
+			display: block;
+			font-size: 14px;
+			font-style: normal;
+			letter-spacing: 1px;
+			margin-top: 1em;
+			text-transform: uppercase;
+		}
+		
+		dl,
+		dd {
+			margin: 0 0 28px;
+		}
+		
+		dt {
+			font-weight: bold;
+		}
+		
+		ul,
+		ol {
+			margin: 0 0 28px;
+			padding: 0 0 0 24px;
+		}
+		
+		ul {
+			list-style: disc;
+		}
+		
+		ol {
+			list-style: decimal;
+		}
+		
+		li > ul,
+		
+		li > ol {
+			margin-bottom: 0;
+		}
+		
+		hr {
+			background-color: #6e6e6e;
+			border: 0;
+			height: 1px;
+			margin: 28px 0;
+			position: relative;
+		}
+		
+		label {
+			display: block;
+			font-size: 14px;
+		}
+		
+		button,
+		input,
+		select,
+		textarea {
+			background-color: #6e6e6e;
+			background-color: rgba(169,169,169,.3);
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			border: 1px solid #6e6e6e;
+			border-radius: 0;
+			color: #fff;
+			display: inline-block;
+			font-size: 14px;
+			font-weight: 700;
+			letter-spacing: 1px;
+			max-width: 100%;
+			padding: 10px 12px;
+			text-transform: uppercase;
+			vertical-align: baseline;
+		}
+		
+		input[type="text"]:focus,
+		input[type="email"]:focus,
+		input[type="url"]:focus,
+		input[type="password"]:focus,
+		input[type="search"]:focus,
+		textarea:focus {
+			outline: 0;
+		}
+		
+		button,
+		input[type="submit"],
+		input[type="button"] {
+			background-color: #73ba37;
+			background-color: rgba(115,186,55,.8);
+			border: 0;
+			padding-left: 24px;
+			padding-right: 24px;
+			-webkit-transition: .3s;
+			-moz-transition: .3s;
+			transition: .3s;
+		}
+		
+		button:hover,
+		button:focus,
+		button:active,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		input[type="submit"]:active,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="button"]:active {
+			background-color: #73ba37;
+			outline: 0;
+		}
+		
+		/* Placeholder text color */
+		::-webkit-input-placeholder {
+			color: #a9a9a9;
+		}
+		
+		:-moz-placeholder {
+			color: #a9a9a9;
+		}
+		
+		::-moz-placeholder {
+			color: #a9a9a9;
+			opacity: 1;
+		}
+		
+		:-ms-input-placeholder {
+			color: #a9a9a9;
+		}
+		
+		/* Videos, audios and embeds */
+		embed,
+		iframe,
+		object,
+		video {
+			max-width: 100%;
+		}
+		
+		/* Images */
+		img {
+			height: auto;
+			max-width: 100%;
+		}
+		
+		/* Text meant only for screen readers */
+		.screen-reader-text,
+		#mc-embedded-subscribe-form label {
+			clip: rect(1px, 1px, 1px, 1px);
+			height: 1px;
+			overflow: hidden;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+		
+		/* Grid */
+		.row {
+			margin-left: -48px;
+		}
+		
+		.one-half {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			float: left;
+			padding-left: 48px;
+			text-align: left;
+		}
+		
+		.one-half {
+			width: 50%;
+		}
+		
+		/* Clearing floats */
+		.inner:after,
+		.row:after {
+			clear: both;
+		}
+		
+		.inner:before,
+		.inner:after,
+		.row:before,
+		.row:after {
+			content: "";
+			display: table;
+		}
+		
+		/* Icons */
+		h3 [class^="fa-"],
+		h3 [class*=" fa-"] {
+			display: inline;
+			font-size: 18px;
+			line-height: 1.6;
+			margin-right: 5px;
+		}
+		
+		/* Animations */
+		@-webkit-keyframes fadeZoomIn {
+			0% {
+				opacity: 0;
+				-webkit-transform: scale(1.1);
+				transform: scale(1.1);
+			}
+			100% {
+				opacity: 1;
+				-webkit-transform: scale(1);
+				transform: scale(1);
+			}
+		}
+		
+		@keyframes fadeZoomIn {
+			0% {
+				opacity: 0;
+				-webkit-transform: scale(1.1);
+				transform: scale(1.1);
+			}
+			100% {
+				opacity: 1;
+				-webkit-transform: scale(1);
+				transform: scale(1);
+			}
+		}
+		
+		@-webkit-keyframes bounce {
+			0%, 80%, 100% {
+				-webkit-transform: scale(0.0);
+			}
+			40% {
+				-webkit-transform: scale(1.0);
+			}
+		}
+		
+		@keyframes bounce {
+			0%, 80%, 100% {
+				transform: scale(0.0);
+			}
+			40% {
+				transform: scale(1.0);
+			}
+		}
+		
+		/**
+		 * 3. Structure
+		 * ------------------------------------------------------------
+		 */
+		.wrap {
+			overflow: hidden;
+			position: relative;
+		}
+		
+		.inner {
+			margin: 0 auto;
+			padding: 42px 24px;
+		}
+		
+		.site-front {
+			opacity: 1;
+		}
+		
+		.site-front .inner {
+			max-width: 820px;
+			padding-top: 64px;
+		}
+		
+		.site-modal {
+			-webkit-animation: fadeZoomIn .4s forwards;
+			animation: fadeZoomIn .4s forwards;
+			background-color: #1f1f1f;
+			background-color: rgba(31,31,31,0.8);
+			-webkit-backface-visibility: hidden;
+			bottom: 0;
+			display: none;
+			left: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+			z-index: 9997;
+		}
+		
+		.modal-scrollable {
+			height: 100%;
+			overflow: auto;
+			-webkit-overflow-scrolling: touch;
+			position: relative;
+		}
+		
+		.site-modal .inner {
+			max-width: 620px;
+		}
+		
+		.modal--opened .wrap {
+			height: 100%;
+			overflow: hidden;
+			position: fixed;
+			width: 100%;
+		}
+		
+		.modal--opened .site-front {
+			opacity: 0;
+		}
+		
+		.modal--opened .site-modal {
+			display: block;
+		}
+		
+		/* Background Overlay */
+		.overlay {
+			background: rgba(0,0,0,.5) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpEM0QxNjgwRDdDMjdFMzExQjM2REIxMUUxQjNCMDBFRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyNTQyRDIxRTI3N0MxMUUzODMyM0IxOThEOUM5NEFBMiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyNTQyRDIxRDI3N0MxMUUzODMyM0IxOThEOUM5NEFBMiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkQ0RDE2ODBEN0MyN0UzMTFCMzZEQjExRTFCM0IwMEVFIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkQzRDE2ODBEN0MyN0UzMTFCMzZEQjExRTFCM0IwMEVFIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+xqq3QAAAAMxJREFUeNrs01ENACEMRMENPs4DMvBvqEcCIhoy/XkVsJOqyr6lPZr7fNqjI+emNqllEqKEEKKEEKKEEKKEEGKZhCghhCghhCghhCghhFgmIUoIIUoIIUoIIUoIIUqIEkKIEkKIEkKIEkKIEqKEEKKEEKKEEKKEEKKEKCGEKCGEKCGEKCGEKCFKCCFKCCFKCCFKCCFKiBJCiBJCiBJCiBJCiBKihBCihBCihBCihBCihCghhCghhCghhCghhCghhFgmIUoIIUrIC/0FGABvLbsFk/yxQwAAAABJRU5ErkJggg==') repeat;
+			height: 100%;
+			left: 0;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			z-index: -1;
+		}
+		
+		/* Preload */
+		#preload {
+			background: #1f1f1f url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpEM0QxNjgwRDdDMjdFMzExQjM2REIxMUUxQjNCMDBFRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyNTQyRDIxRTI3N0MxMUUzODMyM0IxOThEOUM5NEFBMiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyNTQyRDIxRDI3N0MxMUUzODMyM0IxOThEOUM5NEFBMiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkQ0RDE2ODBEN0MyN0UzMTFCMzZEQjExRTFCM0IwMEVFIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkQzRDE2ODBEN0MyN0UzMTFCMzZEQjExRTFCM0IwMEVFIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+xqq3QAAAAMxJREFUeNrs01ENACEMRMENPs4DMvBvqEcCIhoy/XkVsJOqyr6lPZr7fNqjI+emNqllEqKEEKKEEKKEEKKEEGKZhCghhCghhCghhCghhFgmIUoIIUoIIUoIIUoIIUqIEkKIEkKIEkKIEkKIEqKEEKKEEKKEEKKEEKKEKCGEKCGEKCGEKCGEKCFKCCFKCCFKCCFKCCFKiBJCiBJCiBJCiBJCiBKihBCihBCihBCihBCihCghhCghhCghhCghhCghhFgmIUoIIUrIC/0FGABvLbsFk/yxQwAAAABJRU5ErkJggg==') repeat;
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			right: 0;
+			top: 0;
+			z-index: 9998;
+		}
+		
+		#preload-content {
+			height: 100px;
+			left: 50%;
+			margin-left: -50px;
+			margin-top: -50px;
+			position: absolute;
+			top: 50%;
+			width: 100px;
+			z-index: 9999;
+		}
+		
+		.preload-text {
+			color: #73ba37;
+			font-family: 'Roboto Slab', serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		
+		.preload-spinner {
+			margin: 0 auto 14px;
+			text-align: center;
+		}
+		
+		.bounce1,
+		.bounce2,
+		.bounce3 {
+			-webkit-animation: bounce 1.4s ease-in-out infinite both;
+			animation: bounce 1.4s ease-in-out infinite both;
+			background-color: #474747;
+			display: inline-block;
+			height: 14px;
+			margin: 0 3px;
+			opacity: 0.6;
+			width: 14px;
+		}
+		
+		.bounce1 {
+			-webkit-animation-delay: -0.32s;
+			animation-delay: -0.32s;
+		}
+		
+		.bounce2 {
+			-webkit-animation-delay: -0.16s;
+			animation-delay: -0.16s;
+		}
+		
+		/**
+		 * 4. Content
+		 * ------------------------------------------------------------
+		 */
+		.site-header {
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		
+		.site-title {
+			font-size: 30px;
+		}
+		
+		.content {
+			padding-bottom: 28px;
+			text-align: center;
+		}
+		
+		.section-title {
+			font-size: 44px;
+		}
+		
+		.site-modal .section-title {
+			margin-bottom: 42px;
+		}
+		
+		.subtitle {
+			font-size: 14px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+		}
+		
+		/* Countdown timer */
+		.countdown-timer {
+			margin-bottom: 28px;
+		}
+		
+		.countdown-row {
+			display: block;
+		}
+		
+		.countdown-section {
+			border-left: 1px dotted rgba(218,218,218,0.8);
+			color: #dadada;
+			display: inline-block;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			font-size: 12px;
+			letter-spacing: 1px;
+			padding: 12px 12px 12px;
+			text-transform: uppercase;
+			width: 25%;
+		}
+		
+		.countdown-section:first-child {
+			border-left: 0;
+		}
+		
+		.countdown-amount {
+			color: #fff;
+			display: block;
+			font-family: 'Roboto Slab', serif;
+			font-size: 60px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 1;
+			padding-bottom: 21px;
+		}
+		
+		/* Newsletter form */
+		.newsletter {
+			margin-bottom: 28px;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 580px;
+		}
+		
+		#newsletter-form {
+			padding-right: 180px;
+			position: relative;
+		}
+		
+		#newsletter-email {
+			height: 42px;
+			width: 100%;
+		}
+		
+		#newsletter-submit {
+			height: 42px;
+			padding: 0;			
+			width: 181px;
+		}
+		
+		.newsletter .form-field {
+			margin-bottom: 14px;
+			position: relative;
+		}
+		
+		.newsletter span.error {
+			background-color: #73ba37;
+			background-color: rgba(115,186,55,0.8);
+			border: 1px solid #73ba37;
+			color: #f7f7f7;
+			font-size: 10px;
+			letter-spacing: 1px;
+			padding: 4px 6px;
+			position: absolute;
+			right: 6px;
+			text-transform: uppercase;
+			top: -14px;
+		}
+		
+		#newsletter-response {
+			color: #dadada;
+			display: none;
+			font-family: 'Roboto Slab', serif;
+			min-height: 42px;
+			opacity: 0;
+			text-align: center;
+		}
+		
+		/* Social links */
+		.social-links {
+			margin-bottom: 28px;
+			line-height:22px;
+		}
+		
+		.social-links a {
+			color: #f7f7f7;
+			display: inline-block;
+			font-size: 18px;
+			height: 30px;
+			line-height: 1.66667;
+			margin: 4px 8px;
+			text-decoration: none;
+			-webkit-transition: .3s;
+			-moz-transition: .3s;
+			transition: .3s;
+			width: 30px;
+		}
+		
+		.social-links a:hover {
+			color: #73ba37;
+		}
+		
+		/* Modal toggle */
+		.modal-toggle {
+			text-align: center;
+		}
+		
+		
+		.site-modal .modal-toggle {
+			margin-bottom: 42px;
+		}
+		
+		.modal-note {
+			color: #dadada;
+			display: block;
+			font-size: 12px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+		}
+		
+		#modal-open,
+		#modal-close {
+			background-color: transparent;
+			border: 0;
+			height: 30px;
+			padding: 0;
+			position: relative;
+			width: 30px;
+		}
+		
+		.icon-plus {
+			height: 24px;
+			position: absolute;
+			left: 50%;
+			margin-left: -12px;
+			margin-top: -12px;
+			top: 50%;
+			width: 24px;
+		}
+		
+		.icon-plus:before,
+		.icon-plus:after {
+			background-color: #f7f7f7;
+			content: "";
+			left: 50%;
+			position: absolute;
+			top: 50%;
+		}
+		
+		.icon-plus:before {
+			height: 2px;
+			margin-left: -6px;
+			margin-top: -1px;
+			width: 12px;
+		}
+		
+		.icon-plus:after {
+			height: 12px;
+			margin-left: -1px;
+			margin-top: -6px;
+			width: 2px;
+		}
+		
+		#modal-close .icon-plus {
+			-webkit-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+		
+		/* No JS */
+		.no-js .countdown-timer,
+		.no-js .modal-toggle,
+		.no-js #preload {
+			display: none;
+		}
+		
+		/**
+		 * 5. Media Queries
+		 * ------------------------------------------------------------
+		 */
+		@media only screen and (max-width: 680px) {
+			h1,
+			.section-title {
+				font-size: 36px;
+			}
+			.countdown-amount {
+				font-size: 48px;
+			}
+		}
+		
+		@media only screen and (max-width: 540px) {
+			.one-half {
+				width: 100%;
+			}
+		}
+		
+		@media only screen and (max-width: 480px) {
+			h1,
+			.section-title {
+				font-size: 30px;
+			}
+			h2 {
+				font-size: 24px;
+			}
+			h3 {
+				font-size: 21px;
+			}
+			.countdown-section {
+				padding: 28px 6px 28px;
+			}
+			.countdown-amount {
+				font-size: 42px;
+			}
+			#newsletter-form {
+				padding-right: 0;
+			}
+			#newsletter-submit {
+				position: static;
+			}
+		}
+		
+		@media only screen and (max-width: 360px) {
+			.countdown-section {
+				font-size: 10px;
+				padding: 21px 6px;
+			}
+			.countdown-amount {
+				font-size: 36px;
+			}
+		}
+		
+		
+		/*progress*/
+		.progress{
+			margin-bottom:20px;
+		}
+		
+			.progress progress[value="0"] + .progress-value:before {
+  content: "0%";
+}
+.progress progress[value="0"] ~ .progress-bg .progress-bar {
+  width: 0%;
+}
+.progress progress[value="1"] + .progress-value:before {
+  content: "1%";
+}
+.progress progress[value="1"] ~ .progress-bg .progress-bar {
+  width: 1%;
+}
+.progress progress[value="2"] + .progress-value:before {
+  content: "2%";
+}
+.progress progress[value="2"] ~ .progress-bg .progress-bar {
+  width: 2%;
+}
+.progress progress[value="3"] + .progress-value:before {
+  content: "3%";
+}
+.progress progress[value="3"] ~ .progress-bg .progress-bar {
+  width: 3%;
+}
+.progress progress[value="4"] + .progress-value:before {
+  content: "4%";
+}
+.progress progress[value="4"] ~ .progress-bg .progress-bar {
+  width: 4%;
+}
+.progress progress[value="5"] + .progress-value:before {
+  content: "5%";
+}
+.progress progress[value="5"] ~ .progress-bg .progress-bar {
+  width: 5%;
+}
+.progress progress[value="6"] + .progress-value:before {
+  content: "6%";
+}
+.progress progress[value="6"] ~ .progress-bg .progress-bar {
+  width: 6%;
+}
+.progress progress[value="7"] + .progress-value:before {
+  content: "7%";
+}
+.progress progress[value="7"] ~ .progress-bg .progress-bar {
+  width: 7%;
+}
+.progress progress[value="8"] + .progress-value:before {
+  content: "8%";
+}
+.progress progress[value="8"] ~ .progress-bg .progress-bar {
+  width: 8%;
+}
+.progress progress[value="9"] + .progress-value:before {
+  content: "9%";
+}
+.progress progress[value="9"] ~ .progress-bg .progress-bar {
+  width: 9%;
+}
+.progress progress[value="10"] + .progress-value:before {
+  content: "10%";
+}
+.progress progress[value="10"] ~ .progress-bg .progress-bar {
+  width: 10%;
+}
+.progress progress[value="11"] + .progress-value:before {
+  content: "11%";
+}
+.progress progress[value="11"] ~ .progress-bg .progress-bar {
+  width: 11%;
+}
+.progress progress[value="12"] + .progress-value:before {
+  content: "12%";
+}
+.progress progress[value="12"] ~ .progress-bg .progress-bar {
+  width: 12%;
+}
+.progress progress[value="13"] + .progress-value:before {
+  content: "13%";
+}
+.progress progress[value="13"] ~ .progress-bg .progress-bar {
+  width: 13%;
+}
+.progress progress[value="14"] + .progress-value:before {
+  content: "14%";
+}
+.progress progress[value="14"] ~ .progress-bg .progress-bar {
+  width: 14%;
+}
+.progress progress[value="15"] + .progress-value:before {
+  content: "15%";
+}
+.progress progress[value="15"] ~ .progress-bg .progress-bar {
+  width: 15%;
+}
+.progress progress[value="16"] + .progress-value:before {
+  content: "16%";
+}
+.progress progress[value="16"] ~ .progress-bg .progress-bar {
+  width: 16%;
+}
+.progress progress[value="17"] + .progress-value:before {
+  content: "17%";
+}
+.progress progress[value="17"] ~ .progress-bg .progress-bar {
+  width: 17%;
+}
+.progress progress[value="18"] + .progress-value:before {
+  content: "18%";
+}
+.progress progress[value="18"] ~ .progress-bg .progress-bar {
+  width: 18%;
+}
+.progress progress[value="19"] + .progress-value:before {
+  content: "19%";
+}
+.progress progress[value="19"] ~ .progress-bg .progress-bar {
+  width: 19%;
+}
+.progress progress[value="20"] + .progress-value:before {
+  content: "20%";
+}
+.progress progress[value="20"] ~ .progress-bg .progress-bar {
+  width: 20%;
+}
+.progress progress[value="21"] + .progress-value:before {
+  content: "21%";
+}
+.progress progress[value="21"] ~ .progress-bg .progress-bar {
+  width: 21%;
+}
+.progress progress[value="22"] + .progress-value:before {
+  content: "22%";
+}
+.progress progress[value="22"] ~ .progress-bg .progress-bar {
+  width: 22%;
+}
+.progress progress[value="23"] + .progress-value:before {
+  content: "23%";
+}
+.progress progress[value="23"] ~ .progress-bg .progress-bar {
+  width: 23%;
+}
+.progress progress[value="24"] + .progress-value:before {
+  content: "24%";
+}
+.progress progress[value="24"] ~ .progress-bg .progress-bar {
+  width: 24%;
+}
+.progress progress[value="25"] + .progress-value:before {
+  content: "25%";
+}
+.progress progress[value="25"] ~ .progress-bg .progress-bar {
+  width: 25%;
+}
+.progress progress[value="26"] + .progress-value:before {
+  content: "26%";
+}
+.progress progress[value="26"] ~ .progress-bg .progress-bar {
+  width: 26%;
+}
+.progress progress[value="27"] + .progress-value:before {
+  content: "27%";
+}
+.progress progress[value="27"] ~ .progress-bg .progress-bar {
+  width: 27%;
+}
+.progress progress[value="28"] + .progress-value:before {
+  content: "28%";
+}
+.progress progress[value="28"] ~ .progress-bg .progress-bar {
+  width: 28%;
+}
+.progress progress[value="29"] + .progress-value:before {
+  content: "29%";
+}
+.progress progress[value="29"] ~ .progress-bg .progress-bar {
+  width: 29%;
+}
+.progress progress[value="30"] + .progress-value:before {
+  content: "30%";
+}
+.progress progress[value="30"] ~ .progress-bg .progress-bar {
+  width: 30%;
+}
+.progress progress[value="31"] + .progress-value:before {
+  content: "31%";
+}
+.progress progress[value="31"] ~ .progress-bg .progress-bar {
+  width: 31%;
+}
+.progress progress[value="32"] + .progress-value:before {
+  content: "32%";
+}
+.progress progress[value="32"] ~ .progress-bg .progress-bar {
+  width: 32%;
+}
+.progress progress[value="33"] + .progress-value:before {
+  content: "33%";
+}
+.progress progress[value="33"] ~ .progress-bg .progress-bar {
+  width: 33%;
+}
+.progress progress[value="34"] + .progress-value:before {
+  content: "34%";
+}
+.progress progress[value="34"] ~ .progress-bg .progress-bar {
+  width: 34%;
+}
+.progress progress[value="35"] + .progress-value:before {
+  content: "35%";
+}
+.progress progress[value="35"] ~ .progress-bg .progress-bar {
+  width: 35%;
+}
+.progress progress[value="36"] + .progress-value:before {
+  content: "36%";
+}
+.progress progress[value="36"] ~ .progress-bg .progress-bar {
+  width: 36%;
+}
+.progress progress[value="37"] + .progress-value:before {
+  content: "37%";
+}
+.progress progress[value="37"] ~ .progress-bg .progress-bar {
+  width: 37%;
+}
+.progress progress[value="38"] + .progress-value:before {
+  content: "38%";
+}
+.progress progress[value="38"] ~ .progress-bg .progress-bar {
+  width: 38%;
+}
+.progress progress[value="39"] + .progress-value:before {
+  content: "39%";
+}
+.progress progress[value="39"] ~ .progress-bg .progress-bar {
+  width: 39%;
+}
+.progress progress[value="40"] + .progress-value:before {
+  content: "40%";
+}
+.progress progress[value="40"] ~ .progress-bg .progress-bar {
+  width: 40%;
+}
+.progress progress[value="41"] + .progress-value:before {
+  content: "41%";
+}
+.progress progress[value="41"] ~ .progress-bg .progress-bar {
+  width: 41%;
+}
+.progress progress[value="42"] + .progress-value:before {
+  content: "42%";
+}
+.progress progress[value="42"] ~ .progress-bg .progress-bar {
+  width: 42%;
+}
+.progress progress[value="43"] + .progress-value:before {
+  content: "43%";
+}
+.progress progress[value="43"] ~ .progress-bg .progress-bar {
+  width: 43%;
+}
+.progress progress[value="44"] + .progress-value:before {
+  content: "44%";
+}
+.progress progress[value="44"] ~ .progress-bg .progress-bar {
+  width: 44%;
+}
+.progress progress[value="45"] + .progress-value:before {
+  content: "45%";
+}
+.progress progress[value="45"] ~ .progress-bg .progress-bar {
+  width: 45%;
+}
+.progress progress[value="46"] + .progress-value:before {
+  content: "46%";
+}
+.progress progress[value="46"] ~ .progress-bg .progress-bar {
+  width: 46%;
+}
+.progress progress[value="47"] + .progress-value:before {
+  content: "47%";
+}
+.progress progress[value="47"] ~ .progress-bg .progress-bar {
+  width: 47%;
+}
+.progress progress[value="48"] + .progress-value:before {
+  content: "48%";
+}
+.progress progress[value="48"] ~ .progress-bg .progress-bar {
+  width: 48%;
+}
+.progress progress[value="49"] + .progress-value:before {
+  content: "49%";
+}
+.progress progress[value="49"] ~ .progress-bg .progress-bar {
+  width: 49%;
+}
+.progress progress[value="50"] + .progress-value:before {
+  content: "50%";
+}
+.progress progress[value="50"] ~ .progress-bg .progress-bar {
+  width: 50%;
+}
+.progress progress[value="51"] + .progress-value:before {
+  content: "51%";
+}
+.progress progress[value="51"] ~ .progress-bg .progress-bar {
+  width: 51%;
+}
+.progress progress[value="52"] + .progress-value:before {
+  content: "52%";
+}
+.progress progress[value="52"] ~ .progress-bg .progress-bar {
+  width: 52%;
+}
+.progress progress[value="53"] + .progress-value:before {
+  content: "53%";
+}
+.progress progress[value="53"] ~ .progress-bg .progress-bar {
+  width: 53%;
+}
+.progress progress[value="54"] + .progress-value:before {
+  content: "54%";
+}
+.progress progress[value="54"] ~ .progress-bg .progress-bar {
+  width: 54%;
+}
+.progress progress[value="55"] + .progress-value:before {
+  content: "55%";
+}
+.progress progress[value="55"] ~ .progress-bg .progress-bar {
+  width: 55%;
+}
+.progress progress[value="56"] + .progress-value:before {
+  content: "56%";
+}
+.progress progress[value="56"] ~ .progress-bg .progress-bar {
+  width: 56%;
+}
+.progress progress[value="57"] + .progress-value:before {
+  content: "57%";
+}
+.progress progress[value="57"] ~ .progress-bg .progress-bar {
+  width: 57%;
+}
+.progress progress[value="58"] + .progress-value:before {
+  content: "58%";
+}
+.progress progress[value="58"] ~ .progress-bg .progress-bar {
+  width: 58%;
+}
+.progress progress[value="59"] + .progress-value:before {
+  content: "59%";
+}
+.progress progress[value="59"] ~ .progress-bg .progress-bar {
+  width: 59%;
+}
+.progress progress[value="60"] + .progress-value:before {
+  content: "60%";
+}
+.progress progress[value="60"] ~ .progress-bg .progress-bar {
+  width: 60%;
+}
+.progress progress[value="61"] + .progress-value:before {
+  content: "61%";
+}
+.progress progress[value="61"] ~ .progress-bg .progress-bar {
+  width: 61%;
+}
+.progress progress[value="62"] + .progress-value:before {
+  content: "62%";
+}
+.progress progress[value="62"] ~ .progress-bg .progress-bar {
+  width: 62%;
+}
+.progress progress[value="63"] + .progress-value:before {
+  content: "63%";
+}
+.progress progress[value="63"] ~ .progress-bg .progress-bar {
+  width: 63%;
+}
+.progress progress[value="64"] + .progress-value:before {
+  content: "64%";
+}
+.progress progress[value="64"] ~ .progress-bg .progress-bar {
+  width: 64%;
+}
+.progress progress[value="65"] + .progress-value:before {
+  content: "65%";
+}
+.progress progress[value="65"] ~ .progress-bg .progress-bar {
+  width: 65%;
+}
+.progress progress[value="66"] + .progress-value:before {
+  content: "66%";
+}
+.progress progress[value="66"] ~ .progress-bg .progress-bar {
+  width: 66%;
+}
+.progress progress[value="67"] + .progress-value:before {
+  content: "67%";
+}
+.progress progress[value="67"] ~ .progress-bg .progress-bar {
+  width: 67%;
+}
+.progress progress[value="68"] + .progress-value:before {
+  content: "68%";
+}
+.progress progress[value="68"] ~ .progress-bg .progress-bar {
+  width: 68%;
+}
+.progress progress[value="69"] + .progress-value:before {
+  content: "69%";
+}
+.progress progress[value="69"] ~ .progress-bg .progress-bar {
+  width: 69%;
+}
+.progress progress[value="70"] + .progress-value:before {
+  content: "70%";
+}
+.progress progress[value="70"] ~ .progress-bg .progress-bar {
+  width: 70%;
+}
+.progress progress[value="71"] + .progress-value:before {
+  content: "71%";
+}
+.progress progress[value="71"] ~ .progress-bg .progress-bar {
+  width: 71%;
+}
+.progress progress[value="72"] + .progress-value:before {
+  content: "72%";
+}
+.progress progress[value="72"] ~ .progress-bg .progress-bar {
+  width: 72%;
+}
+.progress progress[value="73"] + .progress-value:before {
+  content: "73%";
+}
+.progress progress[value="73"] ~ .progress-bg .progress-bar {
+  width: 73%;
+}
+.progress progress[value="74"] + .progress-value:before {
+  content: "74%";
+}
+.progress progress[value="74"] ~ .progress-bg .progress-bar {
+  width: 74%;
+}
+.progress progress[value="75"] + .progress-value:before {
+  content: "75%";
+}
+.progress progress[value="75"] ~ .progress-bg .progress-bar {
+  width: 75%;
+}
+.progress progress[value="76"] + .progress-value:before {
+  content: "76%";
+}
+.progress progress[value="76"] ~ .progress-bg .progress-bar {
+  width: 76%;
+}
+.progress progress[value="77"] + .progress-value:before {
+  content: "77%";
+}
+.progress progress[value="77"] ~ .progress-bg .progress-bar {
+  width: 77%;
+}
+.progress progress[value="78"] + .progress-value:before {
+  content: "78%";
+}
+.progress progress[value="78"] ~ .progress-bg .progress-bar {
+  width: 78%;
+}
+.progress progress[value="79"] + .progress-value:before {
+  content: "79%";
+}
+.progress progress[value="79"] ~ .progress-bg .progress-bar {
+  width: 79%;
+}
+.progress progress[value="80"] + .progress-value:before {
+  content: "80%";
+}
+.progress progress[value="80"] ~ .progress-bg .progress-bar {
+  width: 80%;
+}
+.progress progress[value="81"] + .progress-value:before {
+  content: "81%";
+}
+.progress progress[value="81"] ~ .progress-bg .progress-bar {
+  width: 81%;
+}
+.progress progress[value="82"] + .progress-value:before {
+  content: "82%";
+}
+.progress progress[value="82"] ~ .progress-bg .progress-bar {
+  width: 82%;
+}
+.progress progress[value="83"] + .progress-value:before {
+  content: "83%";
+}
+.progress progress[value="83"] ~ .progress-bg .progress-bar {
+  width: 83%;
+}
+.progress progress[value="84"] + .progress-value:before {
+  content: "84%";
+}
+.progress progress[value="84"] ~ .progress-bg .progress-bar {
+  width: 84%;
+}
+.progress progress[value="85"] + .progress-value:before {
+  content: "85%";
+}
+.progress progress[value="85"] ~ .progress-bg .progress-bar {
+  width: 85%;
+}
+.progress progress[value="86"] + .progress-value:before {
+  content: "86%";
+}
+.progress progress[value="86"] ~ .progress-bg .progress-bar {
+  width: 86%;
+}
+.progress progress[value="87"] + .progress-value:before {
+  content: "87%";
+}
+.progress progress[value="87"] ~ .progress-bg .progress-bar {
+  width: 87%;
+}
+.progress progress[value="88"] + .progress-value:before {
+  content: "88%";
+}
+.progress progress[value="88"] ~ .progress-bg .progress-bar {
+  width: 88%;
+}
+.progress progress[value="89"] + .progress-value:before {
+  content: "89%";
+}
+.progress progress[value="89"] ~ .progress-bg .progress-bar {
+  width: 89%;
+}
+.progress progress[value="90"] + .progress-value:before {
+  content: "90%";
+}
+.progress progress[value="90"] ~ .progress-bg .progress-bar {
+  width: 90%;
+}
+.progress progress[value="91"] + .progress-value:before {
+  content: "91%";
+}
+.progress progress[value="91"] ~ .progress-bg .progress-bar {
+  width: 91%;
+}
+.progress progress[value="92"] + .progress-value:before {
+  content: "92%";
+}
+.progress progress[value="92"] ~ .progress-bg .progress-bar {
+  width: 92%;
+}
+.progress progress[value="93"] + .progress-value:before {
+  content: "93%";
+}
+.progress progress[value="93"] ~ .progress-bg .progress-bar {
+  width: 93%;
+}
+.progress progress[value="94"] + .progress-value:before {
+  content: "94%";
+}
+.progress progress[value="94"] ~ .progress-bg .progress-bar {
+  width: 94%;
+}
+.progress progress[value="95"] + .progress-value:before {
+  content: "95%";
+}
+.progress progress[value="95"] ~ .progress-bg .progress-bar {
+  width: 95%;
+}
+.progress progress[value="96"] + .progress-value:before {
+  content: "96%";
+}
+.progress progress[value="96"] ~ .progress-bg .progress-bar {
+  width: 96%;
+}
+.progress progress[value="97"] + .progress-value:before {
+  content: "97%";
+}
+.progress progress[value="97"] ~ .progress-bg .progress-bar {
+  width: 97%;
+}
+.progress progress[value="98"] + .progress-value:before {
+  content: "98%";
+}
+.progress progress[value="98"] ~ .progress-bg .progress-bar {
+  width: 98%;
+}
+.progress progress[value="99"] + .progress-value:before {
+  content: "99%";
+}
+.progress progress[value="99"] ~ .progress-bg .progress-bar {
+  width: 99%;
+}
+.progress progress[value="100"] + .progress-value:before {
+  content: "100%";
+}
+.progress progress[value="100"] ~ .progress-bg .progress-bar {
+  width: 100%;
+}
+.progress {
+  font: 12px Arial, Tahoma, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+.progress progress {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  left: -777px;
+}
+.progress-value {
+  color: #fff;
+  display: block;
+  line-height: 21px;
+  text-align: center;
+}
+.progress-bg {
+  background: #e6e9ed;
+  position: relative;
+  height: 8px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+@-webkit-keyframes progress_bar {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -40px 0;
+  }
+}
+@-moz-keyframes progress_bar {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -40px 0;
+  }
+}
+@keyframes progress_bar {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -40px 0;
+  }
+}
+.progress-bar {
+  overflow: hidden;
+  background: #ac92ec;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  -webkit-transition: width 1s linear;
+  -moz-transition: width 1s linear;
+  -ms-transition: width 1s linear;
+  transition: width 1s linear;
+}
+.progress-bar:after {
+  -webkit-animation: progress_bar 0.8s linear infinite;
+  -moz-animation: progress_bar 0.8s linear infinite;
+  -ms-animation: progress_bar 0.8s linear infinite;
+  -o-animation: progress_bar 0.8s linear infinite;
+  animation: progress_bar 0.8s linear infinite;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+  background-size: 40px 40px;
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}		
+  /*progress*/
+  
+  .back_to_admin{
+	  margin-top:55px;			
+  }
+  .back_to_admin a{
+	  cursor:pointer;
+	  text-decoration:none;				
+  }
+  .back_to_admin a:hover{
+	  text-decoration: underline;
+  }
+  
+  #settings .social-links{
+	  line-height: 16px;
+	  font-size:14px;	 
+  }
+  
+ .btn_bck_info{
+	font-size: 12px;
+    margin-top: -5px;
+ }

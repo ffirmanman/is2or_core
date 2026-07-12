@@ -1,0 +1,131 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__webp"
+msgid "AB: WebP images"
+msgstr "AB: WebP изображения"
+
+msgctxt "Addons::description::ab__webp"
+msgid "Provides automatic converting of images used on site pages to the new WebP format as well as gives these images to browsers supporting the technology, improving page loading speed."
+msgstr "Обеспечивает автоматическую конвертацию используемых на страницах сайта изображений в новый формат WebP, а также отдает эти изображения поддерживающим технологию браузерам, улучшая тем самым скорость загрузки страниц."
+
+msgctxt "Languages::ab__webp"
+msgid "AB: WebP images"
+msgstr "AB: WebP изображения"
+
+msgctxt "SettingsOptions::ab__webp::quality"
+msgid "WebP format quality"
+msgstr "Качество формата WebP"
+
+msgctxt "SettingsTooltips::ab__webp::quality"
+msgid "Enter a value from 1 to 100. The higher quality is, the larger size of a file"
+msgstr "Введите значение от 1 до 100. Чем выше качество - тем больше размер файла"
+
+msgctxt "SettingsOptions::ab__webp::lazy"
+msgid "Delayed converting"
+msgstr "Отложенная конвертация"
+
+msgctxt "SettingsOptions::ab__webp::convert_for_email"
+msgid "Convert for email"
+msgstr "Конвертировать для email"
+
+msgctxt "SettingsTooltips::ab__webp::convert_for_email"
+msgid "Use WebP images when sending messages via email (images could not be shown if deprecated email clients are used, e.g. Outlook 2007)"
+msgstr "При отправке сообщений на email использовать WebP изображения (изображения могут не отображаться в старых email-клиентах. Например, Outlook 2007)"
+
+msgctxt "Languages::ab__webp.settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "Languages::ab__webp.error_quality_validation"
+msgid "You entered wrong quality level. Standard value is set. Set a value from 1 to 100."
+msgstr "Вы ввели неверный уровень качества. Установлено стандартное значение. Установите значение от 1 до 100."
+
+msgctxt "Languages::ab__webp.cron.title"
+msgid "Use the following command to start a queue of converting of images by Cron"
+msgstr "Для запуска очереди конвертации изображений по Cron-у используйте следующую команду"
+
+msgctxt "Languages::ab__webp.cron.text"
+msgid "It is required when the checkbox \"Delayed converting\" is set"
+msgstr "Это необходимо, только если установлен чекбокс \"Отложенная конвертация\""
+
+msgctxt "Languages::ab__webp.run_queue.label"
+msgid "Start queue"
+msgstr "Запустить очередь"
+
+msgctxt "Languages::ab__webp.run_queue"
+msgid "Start"
+msgstr "Запустить"
+
+msgctxt "Languages::ab__webp.run_queue.description"
+msgid "[limit] images will be converted"
+msgstr "Будет сконвертировано [limit] изображений"
+
+msgctxt "Languages::ab__webp.images_in_queue_amount"
+msgid "Images in queue: [amount]"
+msgstr "Изображений в очереди: [amount]"
+
+msgctxt "Languages::ab__webp.total_images"
+msgid "Total number of images: [total_images] pcs., used memory: [memory_used]"
+msgstr "Всего изображений: [total_images] шт., использовано памяти: [memory_used]"
+
+msgctxt "Languages::ab__webp.delete_generated_images.label"
+msgid "Remove generated images"
+msgstr "Удалить сгенерированные изображения"
+
+msgctxt "Languages::ab__webp.delete_generated_images.description"
+msgid "Only generated images WebP will be removed. Original images will be untouched"
+msgstr "Будут удалены только сгенерированные изображения WebP. Оригиналы изображений останутся нетронутыми"
+
+msgctxt "Languages::ab__webp.no_converted_images"
+msgid "There is no any WebP image"
+msgstr "Еще нет ни одного изображения WebP"
+
+msgctxt "Languages::ab__webp.images_deleted"
+msgid "Images were removed"
+msgstr "Изображения удалены"
+
+msgctxt "Languages::ab__webp.images_queue_is_empty"
+msgid "Converting queue is empty"
+msgstr "Очередь конвертации пустая"
+
+msgctxt "Languages::ab__webp.images_converted"
+msgid "Converted [n] image|Converted [n] images"
+msgstr "Сконвертировано [n] изображение|Сконвертировано [n] изображения|Сконвертировано [n] изображений"
+
+msgctxt "Languages::ab__webp.delete"
+msgid "Delete"
+msgstr "Удалить"
+
+msgctxt "Languages::ab__webp.manage"
+msgid "Generation management"
+msgstr "Управление генерацией"
+
+msgctxt "Languages::ab__webp.watermark_update_warning"
+msgid "If you have changed settings of the add-on \"Watermarks\", you have to delete generated images of WebP"
+msgstr "Если Вы изменили настройки модуля \"Водяные знаки\", удалите сгенерированные изображения WebP"
+
+msgctxt "Languages::ab__webp.error_library_requirements"
+msgid "Library GD version 2.2.0+ or ImageMagick with WebP support is required for work of the add-on AB: WebP images"
+msgstr "Для работы модуля AB: WebP изображения необходима библиотека GD версии 2.2.0+ или ImageMagick с поддержкой WebP"
+
+msgctxt "Languages::ab__webp.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__webp.help.docs"
+msgid "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__webp.doc'>documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__webp.doc'>документацией</a>."
+
+msgctxt "Languages::privilege_groups.ab__webp"
+msgid "AB: WebP images"
+msgstr "AB: WebP изображения"
+
+msgctxt "Languages::privileges.ab__webp.help"
+msgid "Help"
+msgstr "Справка"
+
+#. Alexbranding. Do not modify this file manually!

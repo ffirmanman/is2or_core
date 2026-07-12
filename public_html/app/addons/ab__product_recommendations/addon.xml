@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__product_recommendations</id>
+<version>1.0.1</version>
+<priority>2024</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<ab>
+<hash>4d8d87065b20532beeb3b044edd0bd60e5d6057a, 2025-07-25 18:05:31</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.5.6</min></ab__addons_manager>
+</dependencies>
+</compatibility>
+</ab>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<compatibility>
+<dependencies>ab__addons_manager</dependencies>
+<core_version><min>4.17.1</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="settings">
+<items>
+<item id="code"><type>hidden</type><default_value>ABA-cMFrmXJFczEMN2uVZMebD</default_value></item>
+<item id="build"><type>hidden</type><default_value>1234</default_value></item>
+</items>
+</section>
+</sections>
+</settings>
+<functions>
+<item for="install">fn_ab__pr_install</item>
+</functions>
+<queries>
+<item for="install">
+CREATE TABLE IF NOT EXISTS ?:ab__product_recommendations(
+object_id INT(11) NOT NULL ,
+object_type CHAR(1) NOT NULL ,
+link_type CHAR(1) NOT NULL ,
+inherit CHAR(1) NOT NULL DEFAULT 'A',
+inherit_if_not_available CHAR(1) NOT NULL DEFAULT 'N',
+object_data TEXT NOT NULL ,
+PRIMARY KEY (object_id, object_type, link_type)
+);
+</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__pr.data.manage', 'Y', 'ab__addons', 'ab__product_recommendations', 'N')</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__pr.data.view', 'Y', 'ab__addons', 'ab__product_recommendations', 'Y')</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__product_recommendations' OR group_id = 'ab__product_recommendations'</item>
+</queries>
+</addon>

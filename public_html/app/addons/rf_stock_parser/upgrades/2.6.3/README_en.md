@@ -1,0 +1,1 @@
+Now products will be imported with default category if auto import setting was enabled.

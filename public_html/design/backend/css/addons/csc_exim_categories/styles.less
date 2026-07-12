@@ -1,0 +1,79 @@
+#addon_csc_exim_categories .addon-icon .bg-icon i,
+#addon_csc_exim_categoriesinstalled .addon-icon .bg-icon i,
+form[name="upgrade_form_addon_csc_exim_categories"] .upgrade-center_icon .glyph-addon
+{
+	background-image: url('https://s3.cs-commerce.com/addons/common/icons/cscommerce.svg');
+	background-position: center;
+	background-size: 32px;
+	background-repeat: no-repeat;
+	width: 38px;
+	height: 35px;
+	margin: 0;
+	line-height: 100%;
+  	display: block;	
+	&:before{
+		display:none;
+	}
+} 
+form[name="upgrade_form_addon_csc_exim_categories"] .upgrade-center_icon .glyph-addon{
+	width: 50px;
+    height: 50px;
+	background-size: 50px;
+}
+/*since 4.13.1*/
+#addon_csc_exim_categories .addons-addon-icon__image:not(img){
+	font-size:0px;
+	background-color: transparent;
+	background-image: url('https://s3.cs-commerce.com/addons/common/icons/cscommerce.svg');
+	background-position: center;
+	background-size: 44px;
+	background-repeat: no-repeat;
+	width: 44px;
+	height: 44px;
+	margin: 0;
+	line-height: 100%;
+  	display: block;	
+		
+}
+
+.csc_exim_categories_reviews{
+	margin-top:25px;	
+	ul{
+		margin:0;
+	}
+	ul li{
+		display:block;
+		text-align:center;
+		
+	}
+	li.stars i:before{
+		margin:0 1px;
+		display:inline-block;
+		content:"";
+		background:	url('https://s3.cs-commerce.com/addons/common/icons/star.png');
+		width:21px;
+		height:20px;
+		background-size:100%;	
+	}
+	hr{
+		display:block !important;
+	}
+}
+.cecaInfoBlock{
+	border: 1px dashed #95a8b8; 
+    padding: 15px;
+	margin-bottom: 15px;
+}
+
+#ceca_versions {
+	line-height: 1.4;
+	&.cecaGreen {
+		background: #51D3561A;
+	}
+	&.cecaYellow {
+		background: #F4A32A1A;
+	}
+	&.cecaRed {
+		background: #F34F4F1A;
+	}
+}

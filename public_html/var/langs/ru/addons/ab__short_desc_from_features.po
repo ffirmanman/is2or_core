@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__short_desc_from_features"
+msgid "AB: Products short description from features"
+msgstr "AB: Краткое описание товара из характеристик"
+
+msgctxt "Addons::description::ab__short_desc_from_features"
+msgid "Add-on generates products short descriptions from its chosen features"
+msgstr "Модуль формирует краткие описания для товаров по их выбранным характеристикам"
+
+msgctxt "Languages::ab__short_desc_from_features"
+msgid "AB: Products short description from features"
+msgstr "AB: Краткое описание товара из характеристик"
+
+msgctxt "SettingsOptions::ab__short_desc_from_features::show_descr_in_multicolumn"
+msgid "Display a short description in the \"Grid\" view list"
+msgstr "Отображать краткое описание в списке вида \"Сетка\""
+
+msgctxt "SettingsTooltips::ab__short_desc_from_features::show_descr_in_multicolumn"
+msgid "When the setting is active, a product short description will be displayed in the product lists"
+msgstr "Когда настройка активна, в списках товаров будет отображено краткое описание товара"
+
+msgctxt "SettingsOptions::ab__short_desc_from_features::cron_key"
+msgid "Cron key"
+msgstr "Cron ключ"
+
+msgctxt "SettingsTooltips::ab__short_desc_from_features::cron_key"
+msgid "Auto update requires Cron key. Length must be between 10 and 20 chars (only latin letters and numbers)"
+msgstr "Автоматическое обновление требует Cron ключ. "
+"Длина ключа должна находится в пределах 10-20 символов (только латинские буквы и цифры)"
+
+msgctxt "SettingsOptions::ab__short_desc_from_features::insert_type"
+msgid "Short description override order"
+msgstr "Взаимодействие с кратким описанием"
+
+msgctxt "SettingsTooltips::ab__short_desc_from_features::insert_type"
+msgid "Also you can use variable <code>$feature_short_desc</code>. Note that the \"overwrite\" mode does not replace the already existing product short description but only replaces the value when displaying on the storefront."
+msgstr "Также Вы можете использовать переменную <code>$feature_short_desc</code>. "
+"Также обратите внимание, что режим \"перезаписать\" не заменяет "
+"уже существующее краткое описание для товаров, а лишь "
+"подменяет значение при отображении на клиентской стороне."
+
+msgctxt "SettingsVariants::ab__short_desc_from_features::insert_type::var"
+msgid "Don`t override $short_description"
+msgstr "Не перезаписывать $short_description"
+
+msgctxt "SettingsVariants::ab__short_desc_from_features::insert_type::override_all"
+msgid "Override $short_description for all products"
+msgstr "Перезаписать $short_description для всех товаров"
+
+msgctxt "SettingsVariants::ab__short_desc_from_features::insert_type::override_empty"
+msgid "Override $short_description only if it's empty"
+msgstr "Перезаписать $short_description только если оно пусто"
+
+msgctxt "SettingsOptions::ab__short_desc_from_features::external_delim_prod_page"
+msgid "Different features delimiter on the product page"
+msgstr "Разделитель отдельных характеристик на странице товара"
+
+msgctxt "SettingsTooltips::ab__short_desc_from_features::external_delim_prod_page"
+msgid "Use \\n for new string"
+msgstr "Используйте \\n для новой строки"
+
+msgctxt "SettingsOptions::ab__short_desc_from_features::external_delim_prod_list"
+msgid "Different features delimiter on the product list"
+msgstr "Разделитель отдельных характеристик в списке товаров"
+
+msgctxt "SettingsTooltips::ab__short_desc_from_features::external_delim_prod_list"
+msgid "Use \\n for new string"
+msgstr "Используйте \\n для новой строки"
+
+msgctxt "SettingsOptions::ab__short_desc_from_features::internal_delim_prod_page"
+msgid "Feature and its value delimiter on the product page"
+msgstr "Разделитель характеристики и её значения на странице товара"
+
+msgctxt "SettingsOptions::ab__short_desc_from_features::internal_delim_prod_list"
+msgid "Feature and its value delimiter on the product list"
+msgstr "Разделитель характеристики и её значения в списке товаров"
+
+msgctxt "SettingsOptions::ab__short_desc_from_features::external_delim_pfe"
+msgid "Different features delimiter in feed"
+msgstr "Разделитель отдельных характеристик в выгрузке"
+
+msgctxt "SettingsTooltips::ab__short_desc_from_features::external_delim_pfe"
+msgid "For add-on \"AB: Product feed export\". Use \\n for new string"
+msgstr "Для модуля \"AB: Выгрузка товаров для прайс-агрегаторов\". "
+"Используйте \\n для новой строки"
+
+msgctxt "SettingsOptions::ab__short_desc_from_features::internal_delim_pfe"
+msgid "Feature and its value delimiter in feed"
+msgstr "Разделитель характеристики и её значения в выгрузке"
+
+msgctxt "SettingsTooltips::ab__short_desc_from_features::internal_delim_pfe"
+msgid "For addon \"AB: Product feed export\""
+msgstr "Для модуля \"AB: Выгрузка товаров для прайс-агрегаторов\""
+
+msgctxt "SettingsSections::ab__short_desc_from_features::settings"
+msgid "General"
+msgstr "Основные"
+
+msgctxt "SettingsSections::ab__short_desc_from_features::ab__pfe"
+msgid "AB: Product feed export"
+msgstr "AB: Выгрузка товаров для прайс-агрегаторов"
+
+msgctxt "SettingsSections::ab__short_desc_from_features::ab__sf"
+msgid "AB: SEO pages for filters"
+msgstr "AB: SEO-страницы для фильтров"
+
+msgctxt "SettingsOptions::ab__short_desc_from_features::target"
+msgid "Open link in"
+msgstr "Открывать ссылку в"
+
+msgctxt "SettingsTooltips::ab__short_desc_from_features::target"
+msgid "For add-on \"SEO pages for filters\". \"target\" attribute for the tag <code>&lt;a&gt;</code>: `_blank` or `_self`"
+msgstr "Для модуля \"AB: SEO-страницы для фильтров\". \"target\" атрибут для "
+"тега <code>&lt;a&gt;</code>: `_blank` или `_self`"
+
+msgctxt "SettingsVariants::ab__short_desc_from_features::target::_blank"
+msgid "New tab"
+msgstr "Новой вкладке"
+
+msgctxt "SettingsVariants::ab__short_desc_from_features::target::_self"
+msgid "Current tab"
+msgstr "Текущей вкладке"
+
+msgctxt "SettingsOptions::ab__short_desc_from_features::product_page_output"
+msgid "Display on the product card"
+msgstr "Отображение в карточке товара"
+
+msgctxt "SettingsTooltips::ab__short_desc_from_features::product_page_output"
+msgid "For add-on \"SEO pages for filters\". Style of feature values display on the product card"
+msgstr "Для модуля \"AB: SEO-страницы для фильтров\". "
+"Стиль отображения значений характеристик в карточке товара"
+
+msgctxt "SettingsVariants::ab__short_desc_from_features::product_page_output::text"
+msgid "Plain text"
+msgstr "Текст"
+
+msgctxt "SettingsVariants::ab__short_desc_from_features::product_page_output::links"
+msgid "Links"
+msgstr "Ссылки"
+
+msgctxt "SettingsOptions::ab__short_desc_from_features::product_lists_output"
+msgid "Display on product lists"
+msgstr "Отображение в списках товаров"
+
+msgctxt "SettingsTooltips::ab__short_desc_from_features::product_lists_output"
+msgid "For add-on \"SEO pages for filters\". Style of feature values display on the product lists"
+msgstr "Для модуля \"AB: SEO-страницы для фильтров\". "
+"Стиль отображения значений характеристик в списках товаров"
+
+msgctxt "SettingsVariants::ab__short_desc_from_features::product_lists_output::text"
+msgid "Plain text"
+msgstr "Текст"
+
+msgctxt "SettingsVariants::ab__short_desc_from_features::product_lists_output::links"
+msgid "Links"
+msgstr "Ссылки"
+
+msgctxt "Languages::ab__sdff.generate_link"
+msgid "<p><b>Use one of following links to generate descriptions by Cron:</b><br> <br><code>[cron_cmd]</code>"
+msgstr "<p><b>Для выполнения генерации описаний по Cron-у "
+"используйте одну из этих ссылок:</b><br>"
+"<br><code>[cron_cmd]</code>"
+
+msgctxt "Languages::ab__sdff.form.use_for_desc"
+msgid "AB: Use for short description"
+msgstr "AB: Использовать для краткого описания"
+
+msgctxt "Languages::ab__sdff.form.feature_short_desc"
+msgid "Generated descriptions"
+msgstr "Сгенерированные описания"
+
+msgctxt "Languages::ab__sdff.generate_button"
+msgid "Generate short descriptions for all languages"
+msgstr "Сгенерировать краткие описания для всех языков"
+
+msgctxt "Languages::ab__sdff.ab__pfe_extending.var"
+msgid "<div style='padding:0 10px;'>Use <code>{$product.feature_short_desc}</code> in product description block to display its short description from features</div>"
+msgstr "<div style='padding:0 10px;'>Используйте <code>{$product.feature_short_desc}</code> "
+"в блоке описания товара для отображения его краткого описания из характеристик</div>"
+
+msgctxt "Languages::ab__sdff.ab__pfe_extending.override_all"
+msgid "<div style='padding:0 10px;'><code>{$product.short_description}</code> is replaced to short description from features for all products. Also you can use variable <code>{$product.feature_short_desc}</code></div>"
+msgstr "<div style='padding:0 10px;'><code>{$product.short_description}</code> "
+"заменено на краткое описание из характеристик для всех товаров. "
+"Также Вы можете использовать переменную "
+"<code>{$product.feature_short_desc}</code></div>"
+
+msgctxt "Languages::ab__sdff.ab__pfe_extending.override_empty"
+msgid "<div style='padding:0 10px;'><code>{$product.short_description}</code> is replaced to short description from features only where it's empty. Also you can use variable <code>{$product.feature_short_desc}</code></div>"
+msgstr "<div style='padding:0 10px;'><code>{$product.short_description}</code> заменено "
+"на краткое описание из характеристик для всех товаров с пустым кратким "
+"описанием. Также Вы можете использовать переменную "
+"<code>{$product.feature_short_desc}</code></div>"
+
+msgctxt "Languages::ab__sdff.successfully_generated"
+msgid "Descriptions generated successfully"
+msgstr "Описания успешно созданы"
+
+msgctxt "Languages::ab__sdff.generate"
+msgid "Generate descriptions"
+msgstr "Сгенерировать описания"
+
+msgctxt "Languages::ab__sdff.settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "Languages::ab__short_desc_from_features.errors.cron_key"
+msgid "<p>Warning! The value <code>[value]</code> of the setting <code>Cron key</code> doesn't meet the safety requirements</p>"
+msgstr "<p>Внимание! Введенное Вами значение <code>[value]</code> настройки <code>Cron ключ</code> не отвечает требованиям безопасности</p>"
+
+msgctxt "Languages::privilege_groups.ab__short_desc_from_features"
+msgid "AB: Products short description from features"
+msgstr "AB: Краткое описание товара из характеристик"
+
+msgctxt "Languages::ab__sdff.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__sdff_help.docs"
+msgid "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/ab__short_desc_from_features.en.doc'>documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' "
+"href='https://cs-cart.alexbranding.com/ab__short_desc_from_features.ru.doc'>"
+"документацией</a>."
+
+#. Alexbranding. Do not modify this file manually!

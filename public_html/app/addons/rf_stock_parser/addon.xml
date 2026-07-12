@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rf_stock_parser</id>
+    <version>2.9.3</version>
+    <priority>5000</priority>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <supplier>RetailFactory</supplier>
+        <has_icon>Y</has_icon>
+    <compatibility>
+        <dependencies>attachments</dependencies>
+        <php_version>
+            <min>7.4.0</min>
+        </php_version>
+        <php_extensions>
+            <xml>
+                <supported>Y</supported>
+            </xml>
+            <zip>
+                <supported>Y</supported>
+            </zip>
+        </php_extensions>
+        <php_extensions>
+            <curl>
+                <supported>Y</supported>
+            </curl>
+        </php_extensions>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="cron_info">
+                        <type>info</type>
+                        <handler>rf_stock_parser_cron_info</handler>
+                    </item>
+                    <item id="php_executable_path">
+                        <type>input</type>
+                    </item>
+                    <item id="large_percent_change">
+                        <type>input</type>
+                        <default_value>50</default_value>
+                    </item>
+                    <item id="brand_feature_id">
+                        <type>selectbox</type>
+                        <variants/>
+                    </item>
+                    <item id="add_fields_products_list">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="rates_source">
+                        <type>selectbox</type>
+                        <default_value>cbr</default_value>
+                        <variants/>
+                    </item>
+                    <item id="import_to_multiple_stores">
+                        <type>multiple checkboxes</type>
+                        <variants/>
+                    </item>
+                    <item id="csv_fields_range">
+                        <type>input</type>
+                        <default_value>200</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">DROP TABLE IF EXISTS `?:rf_stock_parser`</item>
+        <item for="install">
+            CREATE TABLE `?:rf_stock_parser` (
+                `my_supplier_id` mediumint(8) UNSIGNED NOT NULL auto_increment,
+                `type` varchar(5) DEFAULT 'xls',
+                `supplier_name` varchar(255) NOT NULL,
+                `company_id` int(11) unsigned NOT NULL DEFAULT 0,
+                `manufacturer_field` varchar(128) NOT NULL DEFAULT 'manufacturer_code',
+                `extra_charge` decimal(10,2) NOT NULL DEFAULT 0,
+                `extra_charge_type` tinyint(1) not null default 0,
+                `cron` text NULL,
+                `timestamp` int(11) unsigned NOT NULL DEFAULT 0,
+                `amount_synonyms` TEXT NULL,
+                `price_synonyms` TEXT NULL,
+                `features_synonyms` TEXT NULL,
+                `avail_strategy_in` TINYINT(1) UNSIGNED NOT NULL DEFAULT 0,
+                `avail_strategy_not_in` TINYINT(1) UNSIGNED NOT NULL DEFAULT 0,
+                `column_settings` MEDIUMTEXT NULL,
+                `status` char(1) NOT NULL default 'A',
+                `access_time` int NOT NULL default 0,
+                `pricing_strategy` TINYINT(1) UNSIGNED NOT NULL DEFAULT 0,
+                `custom_node_name` varchar(255) NULL,
+                `keep_logs_days` SMALLINT UNSIGNED NOT NULL DEFAULT 30,
+                `filter_attributes` varchar(255) NULL,
+                `amount_field` varchar(255) DEFAULT 'amount',
+                `amount_field_not_in_schema` varchar(255) DEFAULT 'amount',
+                `amount_field_not_in_schema_value` int(11) DEFAULT 100,
+                `extra_charge_custom` longtext NULL,
+                `new_pos` TEXT NULL,
+                `autoimport` tinyint(1) not null default 0,
+                `attach_to_master` tinyint(1) not null default 0,
+                `xml_fix_wrong_encode` tinyint(1) not null default 0,
+                `price_round` text NULL,
+                `constructor_id` int(11) unsigned NOT NULL DEFAULT 0,
+                `wh_clear` TEXT NULL,
+                `link_to_products` tinyint(1) unsigned not null,
+                `update_price_is_out_of_stock` enum ('update', 'set_zero', 'keep') default 'update' not null,
+                PRIMARY KEY (`my_supplier_id`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=UTF8
+        </item>
+        <item for="install">DROP TABLE IF EXISTS `?:rf_stock_parser_logs`</item>
+        <item for="install">
+            CREATE TABLE `?:rf_stock_parser_logs` (
+            `id` int UNSIGNED NOT NULL auto_increment,
+            `my_supplier_id` mediumint(8) UNSIGNED NOT NULL,
+            `user_id` mediumint(8) UNSIGNED NOT NULL,
+            `general` TEXT NULL,
+            `duplicates` MEDIUMTEXT NULL,
+            `categories` MEDIUMTEXT NULL default NULL null,
+            `detailed` TINYINT(1) UNSIGNED not null default 0,
+            `large_percentage` TINYINT(1) UNSIGNED not null default 0,
+            `attach_id` int UNSIGNED NOT NULL,
+            `date` DATETIME NULL,
+            `access_time` int NOT NULL default 0,
+            PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=UTF8
+        </item>
+        <item for="install">DROP TABLE IF EXISTS `?:rf_stock_parser_logs_not_found`</item>
+        <item for="install">
+            CREATE TABLE `?:rf_stock_parser_logs_not_found` (
+            `id` int UNSIGNED NOT NULL auto_increment,
+            `my_supplier_id` mediumint(8) UNSIGNED NOT NULL,
+            `value` MEDIUMTEXT NULL,
+            `added` TINYINT(1) UNSIGNED NOT NULL DEFAULT 0,
+            `manufacturer_code` varchar(255) not null,
+            `brand` varchar(255) null,
+            `category_id` int null,
+            PRIMARY KEY (`id`),
+            INDEX (my_supplier_id),
+            INDEX (added),
+            INDEX (manufacturer_code),
+            INDEX (brand),
+            INDEX (category_id)
+            ) ENGINE=InnoDB DEFAULT CHARSET=UTF8
+        </item>
+        <item for="install">DROP TABLE IF EXISTS `?:rf_stock_parser_logs_detailed`</item>
+        <item for="install">
+            CREATE TABLE `?:rf_stock_parser_logs_detailed` (
+            `id` BIGINT UNSIGNED NOT NULL auto_increment,
+            `my_supplier_id` mediumint(8) UNSIGNED NOT NULL,
+            `access_time` int NOT NULL default 0,
+            `product_id` mediumint(8) UNSIGNED NOT NULL,
+            `type` TINYINT(2) UNSIGNED NOT NULL default 0,
+            `value` MEDIUMTEXT NULL,
+            `p_price` mediumint(8) NOT NULL DEFAULT 0,
+            `large_percentage` TINYINT(1) UNSIGNED NOT NULL default 0,
+            PRIMARY KEY (`id`),
+            INDEX (my_supplier_id, access_time),
+            INDEX (product_id),
+            INDEX (large_percentage)
+            ) ENGINE=InnoDB DEFAULT CHARSET=UTF8
+        </item>
+        <item for="install">DROP TABLE IF EXISTS `?:rf_stock_parser_brands`</item>
+        <item for="install">
+            CREATE TABLE `?:rf_stock_parser_brands` (
+            `id` int UNSIGNED NOT NULL auto_increment,
+            `my_supplier_id` mediumint(8) UNSIGNED NOT NULL,
+            `brand_id` mediumint(8) UNSIGNED NOT NULL,
+            PRIMARY KEY (`id`),
+            INDEX (my_supplier_id)
+            ) ENGINE=InnoDB DEFAULT CHARSET=UTF8
+        </item>
+        <item for="install">DROP TABLE IF EXISTS `?:rf_stock_parser_xml_nodes`</item>
+        <item for="install">
+            CREATE TABLE `?:rf_stock_parser_xml_nodes` (
+            `constructor_id` int(11) unsigned not null,
+            `name` varchar(255) not null,
+            `attrs` text not null,
+            INDEX (constructor_id)
+            ) ENGINE=InnoDB DEFAULT CHARSET=UTF8
+        </item>
+        <item for="install">
+            ALTER TABLE `?:products`
+            ADD COLUMN `my_supplier_id` mediumint(8) unsigned NOT NULL DEFAULT 0,
+            ADD KEY `my_supplier_id` (`my_supplier_id`);
+        </item>
+        <item for="install">
+            ALTER TABLE `?:products`
+            ADD COLUMN `supplier_amount` mediumint(8) unsigned NOT NULL DEFAULT 0
+        </item>
+        <item for="install">
+            ALTER TABLE `?:products`
+            ADD COLUMN `manufacturer_code` varchar(128) NOT NULL DEFAULT '';
+        </item>
+        <item for="install">
+            ALTER TABLE `?:products`
+            ADD COLUMN `supplier_access_time` int NOT NULL DEFAULT 0,
+            ADD KEY `supplier_access_time` (`supplier_access_time`);
+        </item>
+        <item for="install">
+            ALTER TABLE `?:products`
+            ADD COLUMN `rf_stop_update_price` varchar(1) NOT NULL DEFAULT 'N'
+        </item>
+        <item for="install">
+            ALTER TABLE `?:products`
+            ADD COLUMN `rf_stop_update_amount` varchar(1) NOT NULL DEFAULT 'N'
+        </item>
+        <item for="install">
+            ALTER TABLE `?:products`
+            ADD COLUMN `rf_stop_update_status` varchar(1) NOT NULL DEFAULT 'N'
+        </item>
+        <item for="install">
+            ALTER TABLE `?:images`
+            ADD COLUMN `rf_original` varchar(255) NULL
+        </item>
+        <item for="install">
+            create table ?:rf_stock_parser_process (
+                parser_id int not null,
+                type tinyint default 1 not null,
+                percent tinyint default 0 not null,
+                error_message text null,
+                running tinyint default 0 not null,
+                last_change int null,
+                process_message varchar(255) null,
+                data text null,
+                PRIMARY KEY (`parser_id`, `type`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=UTF8;
+        </item>
+        <item for="install">
+            create table ?:rf_stock_parser_artefacts (
+                id int auto_increment,
+                parser_id int not null,
+                name varchar(255) not null,
+                value text null,
+                PRIMARY KEY (`id`),
+                unique (parser_id, name)
+            ) ENGINE=InnoDB DEFAULT CHARSET=UTF8;
+        </item>
+        <item for="install">
+            create index products_rf_product_code_index
+            on ?:products (product_code);
+        </item>
+        <item for="install">
+            create index products_rf_manufacturer_code_index
+            on ?:products (manufacturer_code);
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:rf_stock_parser`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:rf_stock_parser_logs`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:rf_stock_parser_brands`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:rf_stock_parser_logs_detailed`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:rf_stock_parser_logs_not_found`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:rf_stock_parser_xml_nodes`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:rf_stock_parser_process`</item>
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('manage_rf_stock_parser', 'Y', 'products', 'rf_stock_parser', 'N')</item>
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('view_rf_stock_parser', 'Y', 'products', 'rf_stock_parser', 'Y')</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE group_id = 'rf_stock_parser'</item>
+        <item for="uninstall">
+            ALTER TABLE `?:products`
+            DROP COLUMN `my_supplier_id`
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products`
+            DROP COLUMN `supplier_amount`
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products`
+            DROP COLUMN `manufacturer_code`
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products`
+            DROP COLUMN `supplier_access_time`
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products`
+            DROP COLUMN `rf_stop_update_price`
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products`
+            DROP COLUMN `rf_stop_update_amount`
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products`
+            DROP COLUMN `rf_stop_update_status`
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:images`
+            DROP COLUMN `rf_original`
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS ?:rf_stock_parser_artefacts
+        </item>
+        <item for="uninstall">
+            drop index products_rf_product_code_index on ?:products;
+        </item>
+    </queries>
+    <functions>
+        <item for="before_install">fn_rf_stock_parser_before_install</item>
+        <item for="install">fn_rf_stock_parser_install</item>
+    </functions>
+</addon>

@@ -1,0 +1,889 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ"
+
+msgctxt "Addons::name::ss_deepl"
+msgid "ss_deepl_addon_name"
+msgstr "[SoftSolid] - Integrace s překladatelskou službou Deepl.com (ss_deepl)"
+
+msgctxt "Addons::description::ss_deepl"
+msgid "ss_deepl_addon_description"
+msgstr "<a href='https://cs-cart.pl/ss_deepl/?sl=en' target='_blank'>Integrace s překladatelskou službou Deepl.com</a>, Copyright &copy; <a href='https://cs-cart.pl/?sl=en' target='_blank'>SoftSolid</a>"
+
+
+
+
+
+#: #############################################################################################################
+#: START - SettingsSections
+#: #############################################################################################################
+msgctxt "SettingsSections::ss_deepl::ss_deepl_general"
+msgid "ss_deepl_general"
+msgstr "Obecné"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_default_values"
+msgid "ss_deepl_default_values"
+msgstr "Výchozí hodnoty"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_counter"
+msgid "ss_deepl_counter"
+msgstr "Počítadlo znaků"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_stats"
+msgid "ss_deepl_stats"
+msgstr "Statistiky"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_logs"
+msgid "ss_deepl_logs"
+msgstr "Protokoly"
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_general
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_api_key"
+msgid "ss_deepl_api_key"
+msgstr "Klíč API"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_service"
+msgid "ss_deepl_service"
+msgstr "Služba"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_service::free"
+msgid "ss_deepl_service_free"
+msgstr "DeepL API Zdarma"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_service::pro"
+msgid "ss_deepl_service_pro"
+msgstr "DeepL API Pro"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_glossary_id"
+msgid "ss_deepl_glossary_id"
+msgstr "Slovníček"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_glossary_id"
+msgid "ss_deepl_glossary_id_tooltips"
+msgstr "Vyberte slovník, který se má použít pro překlad Slovník umožňuje zadat překlady slov a krátkých frází."
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate"
+msgstr "Automatický překlad produktů"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate_tooltip"
+msgstr "Vyberte jednu z možností automatického překladu."
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::none"
+msgid "ss_deepl_auto_translate_none"
+msgstr "Bezbariérový"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::manual"
+msgid "ss_deepl_auto_translate_manual"
+msgstr "Ruční výběr produktů"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::auto"
+msgid "ss_deepl_auto_translate_auto"
+msgstr "Automatický výběr produktů"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Pole kontrolovaná při automatickém překladu"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Zvolte, která pole v konfiguraci doplňku mají být změněna, aby byl produkt přeložen při dalším spuštění skriptu CRON. Tato možnost funguje pouze v případě, že je povolen automatický překlad."
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::product"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Název produktu"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::full_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Popis"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::short_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Krátký popis"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::ab__custom_product_h1"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Záhlaví H1"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::promo_text"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Propagační text"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::page_title"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Název stránky"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::meta_keywords"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Meta klíčová slova"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::meta_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Meta popis"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::search_words"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Hledaná slova"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang"
+msgstr "Přesměrování po překladu"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang_tooltip"
+msgstr "Po překladu textu přepněte na jazyk, do kterého byl text přeložen. Tato možnost se používá při překladu jednotlivých polí podle objektů."
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "Metoda překladu"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_translate_method::fast"
+msgid "ss_deepl_translate_method"
+msgstr "Rychle"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_translate_method::optimal"
+msgid "ss_deepl_translate_method"
+msgstr "Optimální"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "Zvolte metodu ručního překladu produktu. Rychlý používá více znaků, optimální zabere více času. Poznámka: automatický překlad produktů prostřednictvím skriptu CRON vždy používá optimální metodu."
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate_categories"
+msgid "ss_deepl_auto_translate_categories"
+msgstr "Automatický překlad kategorií"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate_categories"
+msgid "ss_deepl_auto_translate_categories_tooltip"
+msgstr "Vyberte jednu z možností automatického překladu."
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::none"
+msgid "ss_deepl_auto_translate_categories_none"
+msgstr "Bezbariérový"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::manual"
+msgid "ss_deepl_auto_translate_categories_manual"
+msgstr "Ruční výběr kategorií"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::auto"
+msgid "ss_deepl_auto_translate_categories_auto"
+msgstr "Automatický výběr kategorií"
+
+msgctxt "Languages::ss_deepl_ss_deepl_link"
+msgid "ss_deepl_ss_deepl_link"
+msgstr "Odkaz na automatickou akci. Odkaz lze vložit do prohlížeče nebo použít ke konfiguraci CRONu"
+
+msgctxt "Languages::ss_deepl_ss_deepl_cron_link"
+msgid "ss_deepl_ss_deepl_cron_link"
+msgstr "Příkaz pro CRON. Připravené příkazy pro vložení do CRONu"
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_default_values
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_products"
+msgid "ss_deepl_sections_products"
+msgstr "<strong>Produkty</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_products"
+msgid "ss_deepl_sections_products_tooltips"
+msgstr "Seznam polí dostupných pro překlad"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::product"
+msgid "ss_deepl_sections_products_product_variants"
+msgstr "Název produktu"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::full_description"
+msgid "ss_deepl_sections_products_full_description_variants"
+msgstr "Úplný popis"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::short_description"
+msgid "ss_deepl_sections_products_short_description_variants"
+msgstr "Krátký popis"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::search_words"
+msgid "ss_deepl_sections_products_search_words_variants"
+msgstr "Hledaná slova"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::promo_text"
+msgid "ss_deepl_sections_products_promo_text_variants"
+msgstr "Propagační text"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::page_title"
+msgid "ss_deepl_sections_products_page_title_variants"
+msgstr "Název stránky"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::meta_keywords"
+msgid "ss_deepl_sections_products_meta_keywords_variants"
+msgstr "Meta klíčová slova"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::meta_description"
+msgid "ss_deepl_sections_products_meta_description_variants"
+msgstr "Meta popis"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::ab__custom_product_h1"
+msgid "ss_deepl_sections_products_ab__custom_product_h1_variants"
+msgstr "H1"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_categories"
+msgid "ss_deepl_sections_categories"
+msgstr "<strong>Kategorie</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_categories"
+msgid "ss_deepl_sections_categories_tooltips"
+msgstr "Seznam polí dostupných pro překlad"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::category"
+msgid "ss_deepl_sections_categories_category_variants"
+msgstr "Název kategorie"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::description"
+msgid "ss_deepl_sections_categories_description_variants"
+msgstr "Kategorie popisu"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::page_title"
+msgid "ss_deepl_sections_categories_page_title_variants"
+msgstr "Název stránky"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::meta_keywords"
+msgid "ss_deepl_sections_categories_meta_keywords_variants"
+msgstr "Meta klíčová slova"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::meta_description"
+msgid "ss_deepl_sections_categories_meta_description_variants"
+msgstr "Meta popis"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_promotions"
+msgid "ss_deepl_sections_promotions"
+msgstr "<strong>Propagační akce</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_promotions"
+msgid "ss_deepl_sections_promotions_tooltips"
+msgstr "Seznam polí dostupných pro překlad"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::name"
+msgid "ss_deepl_sections_promotions_name_variants"
+msgstr "Propagace názvu"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::short_description"
+msgid "ss_deepl_sections_promotions_short_description_variants"
+msgstr "Krátký popis"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::detailed_description"
+msgid "ss_deepl_sections_promotions_detailed_description_variants"
+msgstr "Podrobný popis"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_pages"
+msgid "ss_deepl_sections_pages"
+msgstr "<strong>Stránky</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_pages"
+msgid "ss_deepl_sections_pages_tooltips"
+msgstr "Seznam polí dostupných pro překlad"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::page"
+msgid "ss_deepl_sections_pages_page_variants"
+msgstr "Název"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::description"
+msgid "ss_deepl_sections_pages_description_variants"
+msgstr "Popis"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::page_title"
+msgid "ss_deepl_sections_pages_page_title_variants"
+msgstr "Název stránky"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::meta_keywords"
+msgid "ss_deepl_sections_pages_meta_keywords_variants"
+msgstr "Meta klíčová slova"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::meta_description"
+msgid "ss_deepl_sections_pages_meta_description_variants"
+msgstr "Meta popis"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_features"
+msgid "ss_deepl_sections_product_features"
+msgstr "<strong>Vlastnosti</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_features"
+msgid "ss_deepl_sections_product_features_tooltips"
+msgstr "Seznam polí dostupných pro překlad"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::internal_name"
+msgid "ss_deepl_sections_product_features_internal_name_variants"
+msgstr "Název"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::description"
+msgid "ss_deepl_sections_product_features_description_variants"
+msgstr "Název pro Storefront"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::full_description"
+msgid "ss_deepl_sections_product_features_full_description_variants"
+msgstr "Popis"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::variant"
+msgid "ss_deepl_sections_product_features_variant_variants"
+msgstr "Varianty"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_features_groups"
+msgid "ss_deepl_sections_product_features_groups"
+msgstr "<strong>Skupiny funkcí</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_features_groups"
+msgid "ss_deepl_sections_product_features_groups_tooltips"
+msgstr "Seznam polí dostupných pro překlad"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::internal_name"
+msgid "ss_deepl_sections_product_features_groups_internal_name_variants"
+msgstr "Název"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::description"
+msgid "ss_deepl_sections_product_features_groups_description_variants"
+msgstr "Název pro Storefront"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::full_description"
+msgid "ss_deepl_sections_product_features_groups_full_description_variants"
+msgstr "Popis"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_filters"
+msgid "ss_deepl_sections_product_filters"
+msgstr "<strong>Filtry</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_filters"
+msgid "ss_deepl_sections_product_filters_tooltips"
+msgstr "Seznam polí dostupných pro překlad"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_filters::filter"
+msgid "ss_deepl_sections_product_filters_filter_variants"
+msgstr "Název"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_options"
+msgid "ss_deepl_sections_product_options"
+msgstr "<strong>Možnosti</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_options"
+msgid "ss_deepl_sections_product_options_tooltips"
+msgstr "Seznam polí dostupných pro překlad"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::internal_option_name"
+msgid "ss_deepl_sections_product_options_internal_option_name_variants"
+msgstr "Název"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::option_name"
+msgid "ss_deepl_sections_product_options_option_name_variants"
+msgstr "Název pro Storefront"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::description"
+msgid "ss_deepl_sections_product_options_description_variants"
+msgstr "Popis"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::comment"
+msgid "ss_deepl_sections_product_options_comment_variants"
+msgstr "Komentář:"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::variant"
+msgid "ss_deepl_sections_product_options_variant_variants"
+msgstr "Varianty"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_from_language"
+msgid "ss_deepl_from_language"
+msgstr "Zdrojový jazyk"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront"
+msgstr "Source storefront"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront_tooltips"
+msgstr "Toto pole se používá pouze v CS-Cart Ultimate a Ultimate B2B."
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_to_language"
+msgid "ss_deepl_to_language"
+msgstr "Cílový jazyk"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront"
+msgstr "Výloha obchodu Target"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront_tooltips"
+msgstr "Toto pole se používá pouze v CS-Cart Ultimate a Ultimate B2B."
+
+
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_counter
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_character_count"
+msgid "ss_deepl_character_count"
+msgstr "Použité znaky:"
+
+msgctxt "Languages::ss_deepl_character_limit"
+msgid "ss_deepl_character_limit"
+msgstr "Omezení počtu znaků:"
+
+msgctxt "Languages::ss_deepl_counter_error"
+msgid "ss_deepl_counter_error"
+msgstr "Při získávání limitů znaků došlo k chybě. Zkontrolujte, zda jste zadali správný klíč API a vybrali správnou službu."
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_stats
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_stats_usage"
+msgid "ss_deepl_stats_usage"
+msgstr "Používání doplňků"
+
+msgctxt "Languages::ss_deepl_stats_no_activity"
+msgid "ss_deepl_stats_no_activity"
+msgstr "Nebyla zaregistrována žádná doplňková činnost."
+
+msgctxt "Languages::addon_id_stats_no_stats"
+msgid "ss_deepl_stats_no_stats"
+msgstr "Pro tuto verzi doplňku nejsou k dispozici statistiky."
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_logs
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_enable_logs"
+msgid ss_deepl_enable_logs"
+msgstr "Povolení generování protokolů"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_enable_logs"
+msgid "ss_deepl_enable_logs_tooltip"
+msgstr "Pokud je toto políčko zaškrtnuto, budou se do protokolů zaznamenávat informace o činnostech prováděných doplňkem. Pokud chcete přejít k prohlížení protokolů, klikněte na kartu "Hlavní", kde se nachází odkaz."
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - trans_all_product
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_trans_all_products"
+msgid "ss_deepl_trans_all_products"
+msgstr "Deepl - přeložit vše"
+
+msgctxt "Languages::ss_deepl_base_lang_not_set"
+msgid "ss_deepl_base_lang_not_set"
+msgstr "Język bazowy nie został ustawiony. Tłumaczenie nie zostało wykonane. Przejdż w to <a href="[url]" target="_blank" title="Zarządzanie językami">miejsce</a> i ustaw język bazowy"
+
+msgctxt "Languages::ss_deepl_to_many_langs"
+msgid "ss_deepl_to_many_langs"
+msgstr "Ilość języków do tłumaczenia jest zbyt duża. Zalecamy, żeby masowa operacja była wykonywana po kolei dla poszczególnych języków. Prosimy na czas tłumaczenie dezaktywować j jęzki w tym miejscu tak, żeby aktywane pozostały dwa języki: języka bazowy oraz docelowy. Przejdż do <a href="[url]" target="_blank" title="Zarządzanie językami"><strong>zarządzanie językami</strong></a> i wykonaj odpowiednie ustawienia."
+
+
+
+
+
+#: #############################################################################################################
+#: START - Logger
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_logger_list"
+msgid "ss_deepl_logger_list"
+msgstr "Zobrazení/správa protokolů (ss_deepl)"
+
+msgctxt "Languages::ss_deepl_logger_manage"
+msgid "ss_deepl_logger_manage"
+msgstr "Protokoly (ss_deepl)"
+
+msgctxt "Languages::ss_deepl_logger_date"
+msgid "ss_deepl_logger_date"
+msgstr "DATUM"
+
+msgctxt "Languages::ss_deepl_logger_message"
+msgid "ss_deepl_logger_message"
+msgstr "ZPRÁVA"
+
+msgctxt "Languages::ss_deepl_logger_call_function"
+msgid "ss_deepl_logger_call_function"
+msgstr "FUNKCE"
+
+msgctxt "Languages::ss_deepl_logger_dispatch"
+msgid "ss_deepl_logger_dispatch"
+msgstr "DISPATCH"
+
+msgctxt "Languages::ss_deepl_logger_action"
+msgid "ss_deepl_logger_action"
+msgstr "AKCE"
+
+msgctxt "Languages::ss_logger_menu"
+msgid "ss_logger_menu"
+msgstr "SoftSolid Logs"
+
+msgctxt "Languages::ss_deepl_no_set_base_lang"
+msgid "ss_deepl_no_set_base_lang"
+msgstr "Základní jazyk pro automatické překlady není nastaven. Přejděte do Nastavení->Texty a jazyky->Jazyky, vyberte základní jazyk a klikněte na 'Základní jazyk pro překlady Deepl'."
+
+msgctxt "Languages::ss_deepl_button_products"
+msgid "ss_deepl_button_products"
+msgstr "Přeložit produkty"
+
+msgctxt "Languages::ss_deepl_products_translate"
+msgid "ss_deepl_products_translate"
+msgstr "Překlad produktů"
+
+msgctxt "Languages::ss_deepl_button_categories"
+msgid "ss_deepl_button_categories"
+msgstr "Přeložit kategorie"
+
+msgctxt "Languages::ss_deepl_categories_translate"
+msgid "ss_deepl_categories_translate"
+msgstr "Překlad kategorie"
+
+msgctxt "Languages::ss_deepl_button_promotions"
+msgid "ss_deepl_button_promotions"
+msgstr "Přeložit propagační akce"
+
+msgctxt "Languages::ss_deepl_promotions_translate"
+msgid "ss_deepl_promotions_translate"
+msgstr "Překlad propagačních akcí"
+
+msgctxt "Languages::ss_deepl_button_pages"
+msgid "ss_deepl_button_pages"
+msgstr "Přeložit stránky"
+
+msgctxt "Languages::ss_deepl_pages_translate"
+msgid "ss_deepl_pages_translate"
+msgstr "Překlad stránek"
+
+msgctxt "Languages::ss_deepl_button_blogs"
+msgid "ss_deepl_button_blogs"
+msgstr "Přeložit blogy"
+
+msgctxt "Languages::ss_deepl_blogs_translate"
+msgid "ss_deepl_blogs_translate"
+msgstr "Překlad blogů"
+
+msgctxt "Languages::ss_deepl_button_product_features"
+msgid "ss_deepl_button_product_features"
+msgstr "Přeložit funkce"
+
+msgctxt "Languages::ss_deepl_product_features_translate"
+msgid "ss_deepl_product_features_translate"
+msgstr "Funkce překladu"
+
+msgctxt "Languages::ss_deepl_button_product_features_groups"
+msgid "ss_deepl_button_product_features_groups"
+msgstr "Přeložit skupiny funkcí"
+
+msgctxt "Languages::ss_deepl_product_features_groups_translate"
+msgid "ss_deepl_product_features_groups_translate"
+msgstr "Překlad skupin funkcí"
+
+msgctxt "Languages::ss_deepl_button_product_filters"
+msgid "ss_deepl_button_product_filters"
+msgstr "Přeložit filtry"
+
+msgctxt "Languages::ss_deepl_product_filters_translate"
+msgid "ss_deepl_product_filters_translate"
+msgstr "Překlad filtrů"
+
+msgctxt "Languages::ss_deepl_button_product_options"
+msgid "ss_deepl_button_product_options"
+msgstr "Možnosti překladu"
+
+msgctxt "Languages::ss_deepl_product_options_translate"
+msgid "ss_deepl_product_options_translate"
+msgstr "Překlad možností"
+
+msgctxt "Languages::ss_deepl_no_api_key_mv"
+msgid "ss_deepl_no_api_key_mv"
+msgstr "V konfiguraci dodavatele není klíč API. Přejděte do konfigurace dodavatele a zadejte klíč na kartě DeepL settings: [url]"
+
+msgctxt "Languages::ss_deepl_no_api_key"
+msgid "ss_deepl_no_api_key"
+msgstr "V konfiguraci doplňku není nastaven žádný klíč API. Zde zadejte klíč API: [url]"
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - language_variables
+#: #############################################################################################################
+msgctxt "Languages::privilege_sections.ss_addons"
+msgid "privilege_sections.ss_addons"
+msgstr "Doplňky SoftSolid"
+
+msgctxt "Languages::privilege_groups.ss_deepl"
+msgid "privilege_groups.ss_deepl"
+msgstr "DeepL protokoly"
+
+msgctxt "Languages::privileges.ss_deepl_logger.show"
+msgid "privileges.ss_deepl_logger.show"
+msgstr "Obsah protokolu DeepL"
+
+msgctxt "Languages::privileges.ss_deepl_logger.manage"
+msgid "privileges.ss_deepl_logger.manage"
+msgstr "Seznam záznamů DeepL"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_info"
+msgid "ss_deepl_csmv_copy_to_clip_info"
+msgstr "Informace:"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_message"
+msgid "ss_deepl_csmv_copy_to_clip_message"
+msgstr "Odkaz byl zkopírován. Pomocí CTRL-V jej vložte na správné místo."
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_title"
+msgid "ss_deepl_csmv_copy_to_clip_title"
+msgstr "Kliknutím zkopírujete odkaz do schránky"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip"
+msgid "ss_deepl_csmv_copy_to_clip"
+msgstr "Kopírování do schránky"
+
+msgctxt "Languages::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang"
+msgstr "Přesměrování po překladu"
+
+msgctxt "Languages::ss_deepl_redirect_target_lang_tooltip"
+msgid "ss_deepl_redirect_target_lang_tooltip"
+msgstr "Po překladu textu přepněte na jazyk, do kterého byl text přeložen. Tato možnost se používá při překladu jednotlivých polí podle objektů."
+
+msgctxt "Languages::ss_deepl_api_allow"
+msgid "ss_deepl_api_allow"
+msgstr "Povolit přístup na DeepL"
+
+msgctxt "Languages::ss_deepl_translate_content_empty"
+msgid "ss_deepl_translate_content_empty"
+msgstr "Přeložený text je prázdný. Zkontrolujte, zda jste vybrali správný zdrojový jazyk."
+
+msgctxt "Languages::ss_deepl_from_language_tooltip"
+msgid "ss_deepl_from_language_tooltip"
+msgstr "Výchozí zvolený zdrojový jazyk při ručním překladu."
+
+msgctxt "Languages::ss_deepl_to_language_tooltip"
+msgid "ss_deepl_to_language_tooltip"
+msgstr "Výchozí zvolený cílový jazyk při ručním překladu."
+
+msgctxt "Languages::ss_deepl_error_empty"
+msgid "ss_deepl_error_empty"
+msgstr "Nelze se připojit k webu DeepL. Zkontrolujte přístupové údaje a zkuste to znovu."
+
+msgctxt "Languages::ss_deepl_configuration_vendor"
+msgid "ss_deepl_configuration_vendor"
+msgstr "Konfigurace prodejce"
+
+msgctxt "Languages::ss_deepl_no_api_key_mv"
+msgid "ss_deepl_no_api_key_mv"
+msgstr "V konfiguraci dodavatele není klíč API. Přejděte do konfigurace dodavatele a zadejte klíč na kartě DeepL settings: [url]"
+
+msgctxt "Languages::ss_deepl_no_access"
+msgid "ss_deepl_no_access"
+msgstr "Vaše aktuální nastavení neumožňuje používat rozhraní API DeepL."
+
+msgctxt "Languages::ss_deepl_api_allow"
+msgid "ss_deepl_api_allow"
+msgstr "Povolit používání stránek DeepL"
+
+msgctxt "Languages::ss_deepl_api_allow_tooltip"
+msgid "ss_deepl_api_allow_tooltip"
+msgstr "Vyberte, zda prodejci používající tento plán mohou zadat svůj vlastní klíč API DeepL. Pokud prodejce nezadá vlastní klíč, bude pro překlad použit klíč z hlavní konfigurace doplňku."
+
+msgctxt "Languages::ss_deepl_settings_vendor"
+msgid "ss_deepl_settings_vendor"
+msgstr "Nastavení DeepL"
+
+msgctxt "Languages::ss_deepl_api_key"
+msgid "ss_deepl_api_key"
+msgstr "Klíč API"
+
+msgctxt "Languages::ss_deepl_service"
+msgid "ss_deepl_service"
+msgstr "Služba"
+
+msgctxt "Languages::ss_deepl_service_free"
+msgid "ss_deepl_service_free"
+msgstr "DeepL Zdarma"
+
+msgctxt "Languages::ss_deepl_service_pro"
+msgid "ss_deepl_service_pro"
+msgstr "DeepL Pro"
+
+msgctxt "Languages::ss_deepl_auto_translate_none"
+msgid "ss_deepl_auto_translate_none"
+msgstr "Bezbariérový"
+
+msgctxt "Languages::ss_deepl_auto_translate_manual"
+msgid "ss_deepl_auto_translate_manual"
+msgstr "Ruční výběr produktů"
+
+msgctxt "Languages::ss_deepl_auto_translate_auto"
+msgid "ss_deepl_auto_translate_auto"
+msgstr "Automatický výběr produktů"
+
+msgctxt "Languages::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Pole kontrolovaná při automatickém překladu"
+
+msgctxt "Languages::ss_deepl_auto_translate_items_tooltip"
+msgid "ss_deepl_auto_translate_items_tooltip"
+msgstr "Zvolte, která pole v konfiguraci doplňku mají být změněna, aby byl produkt přeložen při dalším spuštění skriptu CRON. Tato možnost funguje pouze v případě, že je povolen automatický překlad."
+
+msgctxt "Languages::ss_deepl_auto_translate_items_ab__custom_product_h1"
+msgid "ss_deepl_auto_translate_items_ab__custom_product_h1"
+msgstr "Záhlaví H1"
+
+msgctxt "Languages::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "Metoda překladu"
+
+msgctxt "Languages::ss_deepl_translate_method_tooltip"
+msgid "ss_deepl_translate_method_tooltip"
+msgstr "Zvolte metodu ručního překladu produktu. Rychlý používá více znaků, optimální zabere více času. Poznámka: automatický překlad produktů prostřednictvím skriptu CRON vždy používá optimální metodu."
+
+msgctxt "Languages::ss_deepl_translate_method_fast"
+msgid "ss_deepl_translate_method_fast"
+msgstr "Rychle"
+
+msgctxt "Languages::ss_deepl_translate_method_optimal"
+msgid "ss_deepl_translate_method_optimal"
+msgstr "Optimální"
+
+msgctxt "Languages::ss_deepl_cron_query"
+msgid "ss_deepl_cron_query"
+msgstr "Příkaz CRON pro přímé vložení do serveru CRON"
+
+msgctxt "Languages::ss_deepl_translate_promotions"
+msgid "ss_deepl_translate_promotions"
+msgstr "Překlad propagačních akcí"
+
+msgctxt "Languages::ss_deepl_translate_categories"
+msgid "ss_deepl_translate_categories"
+msgstr "Kategorie překlad"
+
+msgctxt "Languages::ss_deepl_context_menu"
+msgid "ss_deepl_context_menu"
+msgstr "DeepL překlady"
+
+msgctxt "Languages::ss_deepl_configuration"
+msgid "ss_deepl_configuration"
+msgstr "Konfigurace doplňku"
+
+msgctxt "Languages::ss_deepl_base_language"
+msgid "ss_deepl_base_language"
+msgstr "Základní jazyk pro překlady Deepl"
+
+msgctxt "Languages::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate"
+msgstr "Přeložit produkt při dalším spuštění skriptu CRON"
+
+msgctxt "Languages::ss_deepl_no_api_key"
+msgid "ss_deepl_no_api_key"
+msgstr "V konfiguraci doplňku není nastaven žádný klíč API. Zde zadejte klíč API: [url]"
+
+msgctxt "Languages::ss_deepl_cron_address"
+msgid "ss_deepl_cron_address"
+msgstr "Odkaz CRON pro automatický překlad"
+
+msgctxt "Languages::ss_deepl_button"
+msgid "ss_deepl_button"
+msgstr "Přeložit produkty"
+
+msgctxt "Languages::ss_deepl_menu"
+msgid "ss_deepl_menu"
+msgstr "DeepL překlady"
+
+msgctxt "Languages::ss_deepl_menu"
+msgid "ss_deepl_menu"
+msgstr "DeepL protokoly"
+
+msgctxt "Languages::ss_deepl_multi_error"
+msgid "ss_deepl_multi_error"
+msgstr "Při překladu produktů došlo k chybě. Zkontrolujte produkty a zkuste to znovu."
+
+msgctxt "Languages::ss_deepl_completed"
+msgid "ss_deepl_completed"
+msgstr "Překlad byl úspěšně dokončen."
+
+msgctxt "Languages::ss_deepl_error"
+msgid "ss_deepl_error"
+msgstr "Při překladu došlo k chybě. Zkontrolujte produkt a zkuste to znovu."
+
+msgctxt "Languages::ss_deepl_product_tab"
+msgid "ss_deepl_product_tab"
+msgstr "DeepL překlady"
+
+msgctxt "Languages::ss_deepl_translate_products"
+msgid "ss_deepl_translate_products"
+msgstr "Přeložit produkty"
+
+msgctxt "Languages::ss_deepl_sections"
+msgid "ss_deepl_sections"
+msgstr "Pole k překladu"
+
+msgctxt "Languages::ss_deepl_sections_tooltip"
+msgid "ss_deepl_sections_tooltip"
+msgstr "Vyberte pole, která budou přeložena pomocí DeepL."
+
+msgctxt "Languages::ss_deepl_from_language"
+msgid "ss_deepl_from_language"
+msgstr "Zdrojový jazyk"
+
+msgctxt "Languages::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront"
+msgstr "Source storefront"
+
+msgctxt "Languages::ss_deepl_to_language"
+msgid "ss_deepl_to_language"
+msgstr "Cílový jazyk"
+
+msgctxt "Languages::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront"
+msgstr "Výloha obchodu Target"
+
+msgctxt "Languages::ss_deepl_save_conf"
+msgid "ss_deepl_save_conf"
+msgstr "Provést překlad"
+
+msgctxt "Languages::ss_deepl_go_translate"
+msgid "ss_deepl_go_translate"
+msgstr "Přeložit"
+
+msgctxt "Languages::ss_deepl_translate_with_deepl"
+msgid "ss_deepl_translate_with_deepl"
+msgstr "Přeložit pomocí DeepL"
+
+msgctxt "Languages::ss_deepl_translate_content"
+msgid "ss_deepl_translate_content"
+msgstr "Tłumaczenie wykonano poprawnie. Pokud tłumaczenie nie spełniło Twoich oczekiwania i chcesz przywrócić oryginalną zawartość pola kliknij w ten link [link_to_log], skopiuj zawartość 'source' w to miejsce i zapisz."
+
+msgctxt "Languages::ss_deepl_translate_popup"
+msgid "ss_deepl_translate_popup"
+msgstr "Přeložit pomocí DeepL"
+
+msgctxt "Languages::ss_deepl_action_link"
+msgid "ss_deepl_action_link"
+msgstr "Odkaz na automatizovanou akci. Odkaz lze vložit do prohlížeče nebo použít ke konfiguraci CRONu"
+
+msgctxt "Languages::ss_deepl_action_cron_link"
+msgid "ss_deepl_action_cron_link"
+msgstr "Příkaz CRON. Připravený příkaz pro vložení do CRON"

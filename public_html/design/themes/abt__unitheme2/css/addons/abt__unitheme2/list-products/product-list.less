@@ -1,0 +1,285 @@
+/*******************************************************************************************
+*   ___  _          ______                     _ _                _                        *
+*  / _ \| |         | ___ \                   | (_)              | |              © 2026   *
+* / /_\ | | _____  _| |_/ /_ __ __ _ _ __   __| |_ _ __   __ _   | |_ ___  __ _ _ __ ___   *
+* |  _  | |/ _ \ \/ / ___ \ '__/ _` | '_ \ / _` | | '_ \ / _` |  | __/ _ \/ _` | '_ ` _ \  *
+* | | | | |  __/>  <| |_/ / | | (_| | | | | (_| | | | | | (_| |  | ||  __/ (_| | | | | | | *
+* \_| |_/_|\___/_/\_\____/|_|  \__,_|_| |_|\__,_|_|_| |_|\__, |  \___\___|\__,_|_| |_| |_| *
+*                                                         __/ |                            *
+*                                                        |___/                             *
+* ---------------------------------------------------------------------------------------- *
+* This is commercial software, only users who have purchased a valid license and accept    *
+* to the terms of the License Agreement can install and use this program.                  *
+* ---------------------------------------------------------------------------------------- *
+* website: https://cs-cart.alexbranding.com                                                *
+*   email: info@alexbranding.com                                                           *
+*******************************************************************************************/
+// Product-list ================================================================================================
+
+@pl_width_min_width_left_col: 240px;
+@pl_width_right_col: 280px;
+
+[id*="pagination"]:has( > .ty-product-list) {
+    .ut2_fluid_grid_width() when (@fluidContainerMaxWidth >= 1920), (@fluidContainerMaxWidth = auto) {
+        @media (min-width: 1920px) {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(max(960px, calc(50% - var(--gap))), 1fr));
+            width: 100%;
+
+            .ut2_grid_border_base() when not (@abt__ut2_product_list_show_grid_border = none) {
+                &:first-child, &:nth-child(2) {
+                    border-top: 1px solid var(--color-base);
+                }
+                &:nth-child(2n + 1) {
+                    border-right: 1px solid var(--color-base);
+                }
+            }
+            .ut2_grid_border_base();
+        }
+    }
+    .ut2_fluid_grid_width();
+}
+
+.ty-product-list {
+    flex: 1 100%;
+
+    // Margin border
+    .ut2_grid_border_base() when not (@abt__ut2_product_list_show_grid_border = none) {
+        box-shadow: inset 0 0 0 1px @base, 0 0 0 1px @content_bg;
+        background: var(--color-general);
+    }
+    .ut2_grid_border_base() when (@abt__ut2_product_list_show_grid_border = solid_with_margins) {
+        margin-bottom: var(--gap-xs);
+        padding: var(--gap-s);
+        border-radius: calc(var(--border-radius-box) + 4px);
+    }
+    .ut2_grid_border_base() when (@abt__ut2_product_list_show_grid_border = solid_without_margins) {
+        padding: var(--gap-s);
+
+        @media (max-width: 576px) {
+            min-width: calc(100% + (var(--gap-s) * 2));
+            margin: 0 calc(var(--gap-s) * -1);
+            border-width: 1px 0 0 0;
+        }
+    }
+    .ut2_grid_border_base() when (@abt__ut2_product_list_show_grid_border = none) {
+        margin-bottom: -1px;
+        border-top: solid 1px var(--color-base);
+        border-bottom: solid 1px var(--color-base);
+        padding: var(--gap-m) 0;
+    }
+    .ut2_grid_border_base();
+
+    // Features
+    .ut2-lv__features-item:has(.ut2-lv__color-variant[style*="hidden"]) {
+        display: none;
+    }
+    .ut2-lv__color-variant:empty {
+        display: none;
+    }
+
+    // Responsive
+    @media (max-width: 1024px) {
+        .ut2-pl__info {
+            padding-right: 0;
+            border-right: 0;
+            width: 100%;
+        }
+        .ut2-pl__control {
+            min-width: 100%;
+            padding-right: 0;
+        }
+    }
+    @media (max-width: 576px) {
+        .ut2-pl__content {
+            width: 100%;
+        }
+        .ut2-pl__image {
+            margin-right: 0;
+            min-width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+.ut2-pl__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-xs) var(--gap-sm);
+
+    &:not(.mobile-screen) & {
+        gap: var(--gap-s);
+    }
+}
+
+// Image
+.ut2-pl__image {
+    position: relative;
+    width: var(--pl-thumbs-width);
+    max-height: var(--pl-thumbs-height);
+    max-width: min(40%, var(--pl-thumbs-width));
+    border-radius: var(--border-radius-decreased);
+    overflow: hidden;
+
+    > *:not(.ut2-image-reload, .ty-center-block) {
+        .ut2_product_image_mask_margin() when (@abt__ut2_product_list_mask_images_gallery = true) {
+            .ut2_round_blocks() when not (@abt__ut2_general_use_rounding_blocks = full) {
+                margin: var(--gap-xxs);
+            }
+            .ut2_round_blocks();
+        }
+        .ut2_product_image_mask_margin();
+    }
+
+    > a, .cm-item-gallery > a, .ut2-image-reload > a {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+
+        // Mask
+        .ut2_product_image_mask();
+    }
+
+    .ty-thumbs-wrapper {
+        max-height: var(--pl-thumbs-height);
+    }
+}
+
+// Content
+.ut2-pl__content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-s);
+
+    .ty-control-group {
+        margin-bottom: 0;
+    }
+}
+.ut2-pl__info {
+    display: flex;
+    flex-flow: column;
+    flex: 1 0 @pl_width_min_width_left_col;
+    padding-right: var(--gap-s);
+    margin-right: -1px;
+    border-right: 1px solid var(--color-base);
+    gap: var(--gap-xs);
+}
+.ut2-pl__control {
+    display: inline-flex;
+    flex-direction: column;
+    width: @pl_width_right_col;
+    gap: var(--gap-xs);
+
+    select {
+        width: 100%;
+    }
+    .ty-product-options__item:not(:last-child) {
+        margin-bottom: var(--gap-xs);
+    }
+}
+
+
+/* [ BEGIN ] head group (name + rating + sku + brand logo) */
+.ut2-pl__info__head-group {
+    display: flex;
+    column-gap: var(--gap-xs);
+}
+
+.ut2-pl__info__head-group__main {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-xxs);
+}
+
+.ut2-pl__info__head-group__aside {
+    max-inline-size: 30%;
+    min-inline-size: 60px;
+}
+/* [ END ] head group (name + rating + sku + brand logo) */
+
+// Name
+.ut2-pl__item-name {
+    width: 100%;
+
+    .product-title {
+        display: block;
+
+        .brand-name {
+            font-size: var(--font-size-medium);
+            font-weight: normal;
+            color: var(--color-font-lighten);
+            margin-block-end: var(--gap-xxs);
+        }
+    }
+
+    > a {
+        color: var(--color-font);
+        font-size: var(--font-size-large);
+        font-weight: bold;
+
+        &:hover {
+            color: var(--color-links);
+        }
+    }
+
+    .brand-img {
+        position: absolute;
+        top: 1px;
+        right: 0;
+        flex-shrink: 0;
+    }
+}
+
+// Extra block
+.ut2-pl__extra-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1;
+    column-gap: var(--gap-xs);
+
+    &::before,
+    &::after {
+        content: initial;
+    }
+}
+
+// Description
+.ut2-pl__description {
+    line-height: 1.4;
+}
+
+// Qty
+.ut2-pl__qty-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xxs);
+
+    .ty-qty, .quantity {
+        margin: initial;
+
+        .ty-value-changer,
+        .ty-value-changer__input,
+        .ty-value-changer a[class*="changer"] {
+            height: var(--min-height-button);
+        }
+    }
+    .ty-control-group__label {
+        display: none;
+    }
+    .ty-min-qty-description {
+        padding: initial;
+        order: 1;
+        flex-basis: 100%;
+
+        /*+ div {
+            margin-top: var(--gap-xs);
+            width: 100%;
+        }*/
+    }
+}

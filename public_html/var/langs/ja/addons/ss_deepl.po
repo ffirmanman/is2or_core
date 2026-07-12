@@ -1,0 +1,889 @@
+msgid ""
+msgstr "プロジェクト-ID-バージョン: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP"
+
+msgctxt "Addons::name::ss_deepl"
+msgid "ss_deepl_addon_name"
+msgstr "[SoftSolid] - 翻訳サービスDeepl.comとの統合 (ss_deepl)"
+
+msgctxt "Addons::description::ss_deepl"
+msgid "ss_deepl_addon_description"
+msgstr "<a href='https://cs-cart.pl/ss_deepl/?sl=en' target='_blank'>翻訳サービスDeepl.comとの統合</a>, Copyright &copy; <a href='https://cs-cart.pl/?sl=en' target='_blank'>ソフトソリッド</a>."
+
+
+
+
+
+#: #############################################################################################################
+#: START - SettingsSections
+#: #############################################################################################################
+msgctxt "SettingsSections::ss_deepl::ss_deepl_general"
+msgid "ss_deepl_general"
+msgstr "一般"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_default_values"
+msgid "ss_deepl_default_values"
+msgstr "デフォルト値"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_counter"
+msgid "ss_deepl_counter"
+msgstr "キャラクター・カウンター"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_stats"
+msgid "ss_deepl_stats"
+msgstr "統計"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_logs"
+msgid "ss_deepl_logs"
+msgstr "過去ログ"
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_general
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_api_key"
+msgid "ss_deepl_api_key"
+msgstr "APIキー"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_service"
+msgid "ss_deepl_service"
+msgstr "サービス"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_service::free"
+msgid "ss_deepl_service_free"
+msgstr "DeepL API 無料"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_service::pro"
+msgid "ss_deepl_service_pro"
+msgstr "DeepL API Pro"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_glossary_id"
+msgid "ss_deepl_glossary_id"
+msgstr "用語集"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_glossary_id"
+msgid "ss_deepl_glossary_id_tooltips"
+msgstr "翻訳に使用する用語集を選択 用語集では、単語や短いフレーズの翻訳を指定できます。"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate"
+msgstr "製品の自動翻訳"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate_tooltip"
+msgstr "自動翻訳オプションのいずれかを選択します。"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::none"
+msgid "ss_deepl_auto_translate_none"
+msgstr "無効"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::manual"
+msgid "ss_deepl_auto_translate_manual"
+msgstr "手動による製品の選択"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::auto"
+msgid "ss_deepl_auto_translate_auto"
+msgstr "商品の自動選択"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "自動翻訳時にチェックされるフィールド"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "CRONスクリプトの次回実行時に製品を翻訳するために、アドオン設定のどのフィールドを変更するかを選択します。このオプションは、自動翻訳が有効になっている場合にのみ機能します。"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::product"
+msgid "ss_deepl_auto_translate_items"
+msgstr "商品名"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::full_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "説明"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::short_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "簡単な説明"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::ab__custom_product_h1"
+msgid "ss_deepl_auto_translate_items"
+msgstr "ヘッダーH1"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::promo_text"
+msgid "ss_deepl_auto_translate_items"
+msgstr "プロモーション・テキスト"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::page_title"
+msgid "ss_deepl_auto_translate_items"
+msgstr "ページタイトル"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::meta_keywords"
+msgid "ss_deepl_auto_translate_items"
+msgstr "メタキーワード"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::meta_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "メタディスクリプション"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::search_words"
+msgid "ss_deepl_auto_translate_items"
+msgstr "検索ワード"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang"
+msgstr "翻訳後のリダイレクト"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang_tooltip"
+msgstr "テキストを翻訳した後、テキストが翻訳された言語に切り替える。このオプションは、オブジェクトごとに個々のフィールドを翻訳するときに使用します。"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "翻訳メソッド"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_translate_method::fast"
+msgid "ss_deepl_translate_method"
+msgstr "速い"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_translate_method::optimal"
+msgid "ss_deepl_translate_method"
+msgstr "最適"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "手動による製品翻訳の方法を選択します。高速はより多くの文字を使用し、最適はより多くの時間がかかります。注：CRONスクリプトによる製品の自動翻訳は、常に最適な方法を使用します。"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate_categories"
+msgid "ss_deepl_auto_translate_categories"
+msgstr "カテゴリの自動翻訳"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate_categories"
+msgid "ss_deepl_auto_translate_categories_tooltip"
+msgstr "自動翻訳オプションのいずれかを選択します。"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::none"
+msgid "ss_deepl_auto_translate_categories_none"
+msgstr "無効"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::manual"
+msgid "ss_deepl_auto_translate_categories_manual"
+msgstr "カテゴリーの手動選択"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::auto"
+msgid "ss_deepl_auto_translate_categories_auto"
+msgstr "カテゴリーの自動選択"
+
+msgctxt "Languages::ss_deepl_ss_deepl_link"
+msgid "ss_deepl_ss_deepl_link"
+msgstr "自動アクションへのリンク。このリンクはブラウザに貼り付けたり、CRONの設定に使用することができます。"
+
+msgctxt "Languages::ss_deepl_ss_deepl_cron_link"
+msgid "ss_deepl_ss_deepl_cron_link"
+msgstr "CRONへのコマンド。CRONに貼り付ける既成コマンド"
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_default_values
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_products"
+msgid "ss_deepl_sections_products"
+msgstr "<strong>製品</strong></strong"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_products"
+msgid "ss_deepl_sections_products_tooltips"
+msgstr "翻訳可能なフィールドのリスト"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::product"
+msgid "ss_deepl_sections_products_product_variants"
+msgstr "商品名"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::full_description"
+msgid "ss_deepl_sections_products_full_description_variants"
+msgstr "詳細"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::short_description"
+msgid "ss_deepl_sections_products_short_description_variants"
+msgstr "簡単な説明"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::search_words"
+msgid "ss_deepl_sections_products_search_words_variants"
+msgstr "検索ワード"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::promo_text"
+msgid "ss_deepl_sections_products_promo_text_variants"
+msgstr "プロモーション・テキスト"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::page_title"
+msgid "ss_deepl_sections_products_page_title_variants"
+msgstr "ページタイトル"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::meta_keywords"
+msgid "ss_deepl_sections_products_meta_keywords_variants"
+msgstr "メタキーワード"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::meta_description"
+msgid "ss_deepl_sections_products_meta_description_variants"
+msgstr "メタディスクリプション"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::ab__custom_product_h1"
+msgid "ss_deepl_sections_products_ab__custom_product_h1_variants"
+msgstr "H1"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_categories"
+msgid "ss_deepl_sections_categories"
+msgstr "<strong>カテゴリー</strong></strong"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_categories"
+msgid "ss_deepl_sections_categories_tooltips"
+msgstr "翻訳可能なフィールドのリスト"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::category"
+msgid "ss_deepl_sections_categories_category_variants"
+msgstr "カテゴリー名"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::description"
+msgid "ss_deepl_sections_categories_description_variants"
+msgstr "説明カテゴリー"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::page_title"
+msgid "ss_deepl_sections_categories_page_title_variants"
+msgstr "ページタイトル"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::meta_keywords"
+msgid "ss_deepl_sections_categories_meta_keywords_variants"
+msgstr "メタキーワード"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::meta_description"
+msgid "ss_deepl_sections_categories_meta_description_variants"
+msgstr "メタディスクリプション"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_promotions"
+msgid "ss_deepl_sections_promotions"
+msgstr "<プロモーション"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_promotions"
+msgid "ss_deepl_sections_promotions_tooltips"
+msgstr "翻訳可能なフィールドのリスト"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::name"
+msgid "ss_deepl_sections_promotions_name_variants"
+msgstr "ネーム・プロモーション"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::short_description"
+msgid "ss_deepl_sections_promotions_short_description_variants"
+msgstr "簡単な説明"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::detailed_description"
+msgid "ss_deepl_sections_promotions_detailed_description_variants"
+msgstr "詳細説明"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_pages"
+msgid "ss_deepl_sections_pages"
+msgstr "<ページ数"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_pages"
+msgid "ss_deepl_sections_pages_tooltips"
+msgstr "翻訳可能なフィールドのリスト"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::page"
+msgid "ss_deepl_sections_pages_page_variants"
+msgstr "名称"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::description"
+msgid "ss_deepl_sections_pages_description_variants"
+msgstr "説明"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::page_title"
+msgid "ss_deepl_sections_pages_page_title_variants"
+msgstr "ページタイトル"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::meta_keywords"
+msgid "ss_deepl_sections_pages_meta_keywords_variants"
+msgstr "メタキーワード"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::meta_description"
+msgid "ss_deepl_sections_pages_meta_description_variants"
+msgstr "メタディスクリプション"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_features"
+msgid "ss_deepl_sections_product_features"
+msgstr "<strong>特長</strong></strong></strong"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_features"
+msgid "ss_deepl_sections_product_features_tooltips"
+msgstr "翻訳可能なフィールドのリスト"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::internal_name"
+msgid "ss_deepl_sections_product_features_internal_name_variants"
+msgstr "名称"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::description"
+msgid "ss_deepl_sections_product_features_description_variants"
+msgstr "ストアフロントの名称"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::full_description"
+msgid "ss_deepl_sections_product_features_full_description_variants"
+msgstr "説明"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::variant"
+msgid "ss_deepl_sections_product_features_variant_variants"
+msgstr "バリエーション"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_features_groups"
+msgid "ss_deepl_sections_product_features_groups"
+msgstr "<strong>機能グループ</strong>。"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_features_groups"
+msgid "ss_deepl_sections_product_features_groups_tooltips"
+msgstr "翻訳可能なフィールドのリスト"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::internal_name"
+msgid "ss_deepl_sections_product_features_groups_internal_name_variants"
+msgstr "名称"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::description"
+msgid "ss_deepl_sections_product_features_groups_description_variants"
+msgstr "ストアフロントの名称"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::full_description"
+msgid "ss_deepl_sections_product_features_groups_full_description_variants"
+msgstr "説明"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_filters"
+msgid "ss_deepl_sections_product_filters"
+msgstr "<strong>フィルター</strong>。"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_filters"
+msgid "ss_deepl_sections_product_filters_tooltips"
+msgstr "翻訳可能なフィールドのリスト"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_filters::filter"
+msgid "ss_deepl_sections_product_filters_filter_variants"
+msgstr "名称"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_options"
+msgid "ss_deepl_sections_product_options"
+msgstr "<strong>オプション</strong>。"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_options"
+msgid "ss_deepl_sections_product_options_tooltips"
+msgstr "翻訳可能なフィールドのリスト"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::internal_option_name"
+msgid "ss_deepl_sections_product_options_internal_option_name_variants"
+msgstr "名称"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::option_name"
+msgid "ss_deepl_sections_product_options_option_name_variants"
+msgstr "ストアフロントの名称"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::description"
+msgid "ss_deepl_sections_product_options_description_variants"
+msgstr "説明"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::comment"
+msgid "ss_deepl_sections_product_options_comment_variants"
+msgstr "コメント"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::variant"
+msgid "ss_deepl_sections_product_options_variant_variants"
+msgstr "バリエーション"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_from_language"
+msgid "ss_deepl_from_language"
+msgstr "出典言語"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront"
+msgstr "ソース・ストアフロント"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront_tooltips"
+msgstr "このフィールドはCS-Cart UltimateおよびUltimate B2Bでのみ使用されます。"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_to_language"
+msgid "ss_deepl_to_language"
+msgstr "ターゲット言語"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront"
+msgstr "ターゲット店頭"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront_tooltips"
+msgstr "このフィールドはCS-Cart UltimateおよびUltimate B2Bでのみ使用されます。"
+
+
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_counter
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_character_count"
+msgid "ss_deepl_character_count"
+msgstr "使用文字："
+
+msgctxt "Languages::ss_deepl_character_limit"
+msgid "ss_deepl_character_limit"
+msgstr "文字数制限"
+
+msgctxt "Languages::ss_deepl_counter_error"
+msgid "ss_deepl_counter_error"
+msgstr "文字数制限の取得時にエラーが発生しました。正しいAPIキーを入力し、適切なサービスを選択しているか確認してください。"
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_stats
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_stats_usage"
+msgid "ss_deepl_stats_usage"
+msgstr "アドオンの使用"
+
+msgctxt "Languages::ss_deepl_stats_no_activity"
+msgid "ss_deepl_stats_no_activity"
+msgstr "アドオン活動は登録されていない。"
+
+msgctxt "Languages::addon_id_stats_no_stats"
+msgid "ss_deepl_stats_no_stats"
+msgstr "このアドオンバージョンでは、統計は利用できません。"
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_logs
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_enable_logs"
+msgid ss_deepl_enable_logs"
+msgstr "ログの生成を有効にする"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_enable_logs"
+msgid "ss_deepl_enable_logs_tooltip"
+msgstr "このチェックボックスをオンにすると、アドオンが実行したアクティビティに関する情報がログに記録されます。ログを表示するには、リンクがある「メイン」タブをクリックします。"
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - trans_all_product
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_trans_all_products"
+msgid "ss_deepl_trans_all_products"
+msgstr "Deepl - すべてを翻訳"
+
+msgctxt "Languages::ss_deepl_base_lang_not_set"
+msgid "ss_deepl_base_lang_not_set"
+msgstr "Język bazowy nie został ustawiony.をご覧ください。<a href="[url]" target="_blank" title="Zarządzanie językami">miejsce</a> i język bazowyをご覧ください。"
+
+msgctxt "Languages::ss_deepl_to_many_langs"
+msgid "ss_deepl_to_many_langs"
+msgstr "このような状況において、私どもは、より良いサービスを提供するため、最善を尽くしております。そのため、このような手術が行われることになったのです。このような手術は、手術後の患者さんや医療従事者のために行われるものです。<a href="[url]" target="_blank" title="Zarządzanie językami"><strong>Zarządzanie językami</strong></a> をクリックし、検索してください。"
+
+
+
+
+
+#: #############################################################################################################
+#: START - Logger
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_logger_list"
+msgid "ss_deepl_logger_list"
+msgstr "ログの表示/管理 (ss_deepl)"
+
+msgctxt "Languages::ss_deepl_logger_manage"
+msgid "ss_deepl_logger_manage"
+msgstr "ログ (ss_deepl)"
+
+msgctxt "Languages::ss_deepl_logger_date"
+msgid "ss_deepl_logger_date"
+msgstr "日付"
+
+msgctxt "Languages::ss_deepl_logger_message"
+msgid "ss_deepl_logger_message"
+msgstr "メッセージ"
+
+msgctxt "Languages::ss_deepl_logger_call_function"
+msgid "ss_deepl_logger_call_function"
+msgstr "機能"
+
+msgctxt "Languages::ss_deepl_logger_dispatch"
+msgid "ss_deepl_logger_dispatch"
+msgstr "ディスパッチ"
+
+msgctxt "Languages::ss_deepl_logger_action"
+msgid "ss_deepl_logger_action"
+msgstr "アクション"
+
+msgctxt "Languages::ss_logger_menu"
+msgid "ss_logger_menu"
+msgstr "ソフトソリッドログ"
+
+msgctxt "Languages::ss_deepl_no_set_base_lang"
+msgid "ss_deepl_no_set_base_lang"
+msgstr "自動翻訳のベース言語が設定されていません。設定]->[テキストと言語]->[言語]でベース言語を選択し、[Deepl翻訳のベース言語]をクリックします。"
+
+msgctxt "Languages::ss_deepl_button_products"
+msgid "ss_deepl_button_products"
+msgstr "製品を翻訳する"
+
+msgctxt "Languages::ss_deepl_products_translate"
+msgid "ss_deepl_products_translate"
+msgstr "製品翻訳"
+
+msgctxt "Languages::ss_deepl_button_categories"
+msgid "ss_deepl_button_categories"
+msgstr "カテゴリーを翻訳する"
+
+msgctxt "Languages::ss_deepl_categories_translate"
+msgid "ss_deepl_categories_translate"
+msgstr "カテゴリー翻訳"
+
+msgctxt "Languages::ss_deepl_button_promotions"
+msgid "ss_deepl_button_promotions"
+msgstr "プロモーションの翻訳"
+
+msgctxt "Languages::ss_deepl_promotions_translate"
+msgid "ss_deepl_promotions_translate"
+msgstr "プロモーション翻訳"
+
+msgctxt "Languages::ss_deepl_button_pages"
+msgid "ss_deepl_button_pages"
+msgstr "ページを翻訳する"
+
+msgctxt "Languages::ss_deepl_pages_translate"
+msgid "ss_deepl_pages_translate"
+msgstr "ページ翻訳"
+
+msgctxt "Languages::ss_deepl_button_blogs"
+msgid "ss_deepl_button_blogs"
+msgstr "ブログを翻訳する"
+
+msgctxt "Languages::ss_deepl_blogs_translate"
+msgid "ss_deepl_blogs_translate"
+msgstr "ブログ翻訳"
+
+msgctxt "Languages::ss_deepl_button_product_features"
+msgid "ss_deepl_button_product_features"
+msgstr "翻訳機能"
+
+msgctxt "Languages::ss_deepl_product_features_translate"
+msgid "ss_deepl_product_features_translate"
+msgstr "特徴 翻訳"
+
+msgctxt "Languages::ss_deepl_button_product_features_groups"
+msgid "ss_deepl_button_product_features_groups"
+msgstr "特徴グループを翻訳する"
+
+msgctxt "Languages::ss_deepl_product_features_groups_translate"
+msgid "ss_deepl_product_features_groups_translate"
+msgstr "特徴 グループ 翻訳"
+
+msgctxt "Languages::ss_deepl_button_product_filters"
+msgid "ss_deepl_button_product_filters"
+msgstr "フィルターを翻訳する"
+
+msgctxt "Languages::ss_deepl_product_filters_translate"
+msgid "ss_deepl_product_filters_translate"
+msgstr "フィルター翻訳"
+
+msgctxt "Languages::ss_deepl_button_product_options"
+msgid "ss_deepl_button_product_options"
+msgstr "オプションを翻訳する"
+
+msgctxt "Languages::ss_deepl_product_options_translate"
+msgid "ss_deepl_product_options_translate"
+msgstr "オプション翻訳"
+
+msgctxt "Languages::ss_deepl_no_api_key_mv"
+msgid "ss_deepl_no_api_key_mv"
+msgstr "ベンダ構成に API キーがありません。ベンダ設定に移動し、DeepL 設定タブにキーを入力します：[url] に入力します。"
+
+msgctxt "Languages::ss_deepl_no_api_key"
+msgid "ss_deepl_no_api_key"
+msgstr "アドオン設定にAPIキーが設定されていません。ここにAPIキーを入力してください：[url]"
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - language_variables
+#: #############################################################################################################
+msgctxt "Languages::privilege_sections.ss_addons"
+msgid "privilege_sections.ss_addons"
+msgstr "SoftSolid アドオン"
+
+msgctxt "Languages::privilege_groups.ss_deepl"
+msgid "privilege_groups.ss_deepl"
+msgstr "DeepLのログ"
+
+msgctxt "Languages::privileges.ss_deepl_logger.show"
+msgid "privileges.ss_deepl_logger.show"
+msgstr "ログコンテンツ DeepL"
+
+msgctxt "Languages::privileges.ss_deepl_logger.manage"
+msgid "privileges.ss_deepl_logger.manage"
+msgstr "ログリスト DeepL"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_info"
+msgid "ss_deepl_csmv_copy_to_clip_info"
+msgstr "情報"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_message"
+msgid "ss_deepl_csmv_copy_to_clip_message"
+msgstr "リンクがコピーされました。CTRL-Vを使用して適切な場所に貼り付けてください。"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_title"
+msgid "ss_deepl_csmv_copy_to_clip_title"
+msgstr "クリックしてリンクをクリップボードにコピーする"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip"
+msgid "ss_deepl_csmv_copy_to_clip"
+msgstr "クリップボードにコピー"
+
+msgctxt "Languages::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang"
+msgstr "翻訳後のリダイレクト"
+
+msgctxt "Languages::ss_deepl_redirect_target_lang_tooltip"
+msgid "ss_deepl_redirect_target_lang_tooltip"
+msgstr "テキストを翻訳した後、テキストが翻訳された言語に切り替える。このオプションは、オブジェクトごとに個々のフィールドを翻訳するときに使用します。"
+
+msgctxt "Languages::ss_deepl_api_allow"
+msgid "ss_deepl_api_allow"
+msgstr "DeepLアクセスを許可する"
+
+msgctxt "Languages::ss_deepl_translate_content_empty"
+msgid "ss_deepl_translate_content_empty"
+msgstr "翻訳されたテキストが空です。正しいソース言語を選択したか確認してください。"
+
+msgctxt "Languages::ss_deepl_from_language_tooltip"
+msgid "ss_deepl_from_language_tooltip"
+msgstr "手動翻訳中にデフォルトで選択されたソース言語。"
+
+msgctxt "Languages::ss_deepl_to_language_tooltip"
+msgid "ss_deepl_to_language_tooltip"
+msgstr "手動翻訳中にデフォルトで選択されたターゲット言語。"
+
+msgctxt "Languages::ss_deepl_error_empty"
+msgid "ss_deepl_error_empty"
+msgstr "DeepL に接続できません。アクセス認証情報を確認して再試行してください。"
+
+msgctxt "Languages::ss_deepl_configuration_vendor"
+msgid "ss_deepl_configuration_vendor"
+msgstr "ベンダー設定"
+
+msgctxt "Languages::ss_deepl_no_api_key_mv"
+msgid "ss_deepl_no_api_key_mv"
+msgstr "ベンダ構成に API キーがありません。ベンダ設定に移動し、DeepL 設定タブにキーを入力します：[url] に入力します。"
+
+msgctxt "Languages::ss_deepl_no_access"
+msgid "ss_deepl_no_access"
+msgstr "現在の設定では、API DeepL を使用できません。"
+
+msgctxt "Languages::ss_deepl_api_allow"
+msgid "ss_deepl_api_allow"
+msgstr "DeepLの使用を許可する"
+
+msgctxt "Languages::ss_deepl_api_allow_tooltip"
+msgid "ss_deepl_api_allow_tooltip"
+msgstr "このプランを使用するベンダが独自の DeepL API キーを入力できるかどうかを選択します。ベンダが独自のキーを入力しない場合、アドオンのメイン構成のキーが翻訳に使用されます。"
+
+msgctxt "Languages::ss_deepl_settings_vendor"
+msgid "ss_deepl_settings_vendor"
+msgstr "設定 DeepL"
+
+msgctxt "Languages::ss_deepl_api_key"
+msgid "ss_deepl_api_key"
+msgstr "APIキー"
+
+msgctxt "Languages::ss_deepl_service"
+msgid "ss_deepl_service"
+msgstr "サービス"
+
+msgctxt "Languages::ss_deepl_service_free"
+msgid "ss_deepl_service_free"
+msgstr "DeepL 無料"
+
+msgctxt "Languages::ss_deepl_service_pro"
+msgid "ss_deepl_service_pro"
+msgstr "ディープル・プロ"
+
+msgctxt "Languages::ss_deepl_auto_translate_none"
+msgid "ss_deepl_auto_translate_none"
+msgstr "無効"
+
+msgctxt "Languages::ss_deepl_auto_translate_manual"
+msgid "ss_deepl_auto_translate_manual"
+msgstr "手動による製品の選択"
+
+msgctxt "Languages::ss_deepl_auto_translate_auto"
+msgid "ss_deepl_auto_translate_auto"
+msgstr "商品の自動選択"
+
+msgctxt "Languages::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "自動翻訳時にチェックされるフィールド"
+
+msgctxt "Languages::ss_deepl_auto_translate_items_tooltip"
+msgid "ss_deepl_auto_translate_items_tooltip"
+msgstr "CRONスクリプトの次回実行時に製品を翻訳するために、アドオン設定のどのフィールドを変更するかを選択します。このオプションは、自動翻訳が有効になっている場合にのみ機能します。"
+
+msgctxt "Languages::ss_deepl_auto_translate_items_ab__custom_product_h1"
+msgid "ss_deepl_auto_translate_items_ab__custom_product_h1"
+msgstr "ヘッダーH1"
+
+msgctxt "Languages::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "翻訳メソッド"
+
+msgctxt "Languages::ss_deepl_translate_method_tooltip"
+msgid "ss_deepl_translate_method_tooltip"
+msgstr "手動による製品翻訳の方法を選択します。高速はより多くの文字を使用し、最適はより多くの時間がかかります。注：CRONスクリプトによる製品の自動翻訳は、常に最適な方法を使用します。"
+
+msgctxt "Languages::ss_deepl_translate_method_fast"
+msgid "ss_deepl_translate_method_fast"
+msgstr "速い"
+
+msgctxt "Languages::ss_deepl_translate_method_optimal"
+msgid "ss_deepl_translate_method_optimal"
+msgstr "最適"
+
+msgctxt "Languages::ss_deepl_cron_query"
+msgid "ss_deepl_cron_query"
+msgstr "サーバーのCRONに直接入れるCRONコマンド"
+
+msgctxt "Languages::ss_deepl_translate_promotions"
+msgid "ss_deepl_translate_promotions"
+msgstr "プロモーション翻訳"
+
+msgctxt "Languages::ss_deepl_translate_categories"
+msgid "ss_deepl_translate_categories"
+msgstr "カテゴリー 翻訳"
+
+msgctxt "Languages::ss_deepl_context_menu"
+msgid "ss_deepl_context_menu"
+msgstr "DeepLの翻訳"
+
+msgctxt "Languages::ss_deepl_configuration"
+msgid "ss_deepl_configuration"
+msgstr "アドオンの設定"
+
+msgctxt "Languages::ss_deepl_base_language"
+msgid "ss_deepl_base_language"
+msgstr "翻訳のベース言語 Deepl"
+
+msgctxt "Languages::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate"
+msgstr "次のCRONスクリプト実行時に製品を翻訳する"
+
+msgctxt "Languages::ss_deepl_no_api_key"
+msgid "ss_deepl_no_api_key"
+msgstr "アドオン設定にAPIキーが設定されていません。ここにAPIキーを入力してください：[url]"
+
+msgctxt "Languages::ss_deepl_cron_address"
+msgid "ss_deepl_cron_address"
+msgstr "自動翻訳用CRONリンク"
+
+msgctxt "Languages::ss_deepl_button"
+msgid "ss_deepl_button"
+msgstr "製品を翻訳する"
+
+msgctxt "Languages::ss_deepl_menu"
+msgid "ss_deepl_menu"
+msgstr "DeepLの翻訳"
+
+msgctxt "Languages::ss_deepl_menu"
+msgid "ss_deepl_menu"
+msgstr "DeepLのログ"
+
+msgctxt "Languages::ss_deepl_multi_error"
+msgid "ss_deepl_multi_error"
+msgstr "商品の翻訳中にエラーが発生しました。商品を確認し、再度お試しください。"
+
+msgctxt "Languages::ss_deepl_completed"
+msgid "ss_deepl_completed"
+msgstr "翻訳は正常に完了しました。"
+
+msgctxt "Languages::ss_deepl_error"
+msgid "ss_deepl_error"
+msgstr "翻訳中にエラーが発生しました。製品を確認して再試行してください。"
+
+msgctxt "Languages::ss_deepl_product_tab"
+msgid "ss_deepl_product_tab"
+msgstr "DeepLの翻訳"
+
+msgctxt "Languages::ss_deepl_translate_products"
+msgid "ss_deepl_translate_products"
+msgstr "製品を翻訳する"
+
+msgctxt "Languages::ss_deepl_sections"
+msgid "ss_deepl_sections"
+msgstr "翻訳するフィールド"
+
+msgctxt "Languages::ss_deepl_sections_tooltip"
+msgid "ss_deepl_sections_tooltip"
+msgstr "DeepL によって変換されるフィールドを選択します。"
+
+msgctxt "Languages::ss_deepl_from_language"
+msgid "ss_deepl_from_language"
+msgstr "出典言語"
+
+msgctxt "Languages::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront"
+msgstr "ソース・ストアフロント"
+
+msgctxt "Languages::ss_deepl_to_language"
+msgid "ss_deepl_to_language"
+msgstr "ターゲット言語"
+
+msgctxt "Languages::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront"
+msgstr "ターゲット店頭"
+
+msgctxt "Languages::ss_deepl_save_conf"
+msgid "ss_deepl_save_conf"
+msgstr "翻訳の実行"
+
+msgctxt "Languages::ss_deepl_go_translate"
+msgid "ss_deepl_go_translate"
+msgstr "翻訳する"
+
+msgctxt "Languages::ss_deepl_translate_with_deepl"
+msgid "ss_deepl_translate_with_deepl"
+msgstr "DeepLで翻訳"
+
+msgctxt "Languages::ss_deepl_translate_content"
+msgid "ss_deepl_translate_content"
+msgstr "このサイトでは、ポップアップを表示します。このページでは、リンク[link_to_log]をクリックし、[source]をクリックし、「ソース」をクリックしてください。"
+
+msgctxt "Languages::ss_deepl_translate_popup"
+msgid "ss_deepl_translate_popup"
+msgstr "DeepLで翻訳"
+
+msgctxt "Languages::ss_deepl_action_link"
+msgid "ss_deepl_action_link"
+msgstr "自動アクションへのリンク。このリンクはブラウザに貼り付けたり、CRONの設定に使用することができます。"
+
+msgctxt "Languages::ss_deepl_action_cron_link"
+msgid "ss_deepl_action_cron_link"
+msgstr "CRONコマンド。CRONに貼り付ける準備のできたコマンド"

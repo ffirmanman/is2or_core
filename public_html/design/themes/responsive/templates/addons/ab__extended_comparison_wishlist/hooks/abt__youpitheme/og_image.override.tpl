@@ -1,0 +1,1 @@
+{include file="addons/ab__extended_comparison_wishlist/hooks/abt__unitheme/og_image.override.tpl"}

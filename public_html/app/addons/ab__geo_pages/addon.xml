@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__geo_pages</id>
+<version>1.0.1</version>
+<priority>200000000</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<ab>
+<hash>ff9195ebbd43932fc47246b4014d6720e3560fad, 2025-04-09 19:13:11</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.5.6</min></ab__addons_manager>
+</dependencies>
+</compatibility>
+</ab>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<compatibility>
+<conflicts></conflicts>
+<dependencies>ab__addons_manager</dependencies>
+<core_version><min>4.14.3</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="settings">
+<items>
+<item id="code"><type>hidden</type><default_value>ABA-26dzPgjh9Fs2LKPF1xxAA</default_value></item>
+<item id="build"><type>hidden</type><default_value>1223</default_value></item>
+<item id="default_template_id">
+<type>selectbox</type>
+<default_value>0</default_value>
+</item>
+<item id="index_page_template_id">
+<type>selectbox</type>
+<default_value>0</default_value>
+</item>
+<item id="single_url">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+</items>
+</section>
+</sections>
+</settings>
+<functions>
+<item for="install">fn_ab__geo_pages_install</item>
+</functions>
+<queries>
+<item for="install">
+CREATE TABLE IF NOT EXISTS ?:ab__gp_location_descriptions (
+location_id int(11) NOT NULL,
+lang_code char(2) NOT NULL,
+seo_name varchar(100) NOT NULL,
+location varchar(100) NOT NULL,
+location_form_1 varchar(100) NOT NULL,
+location_form_2 varchar(100) NOT NULL,
+location_form_3 varchar(100) NOT NULL,
+location_form_4 varchar(100) NOT NULL,
+location_form_5 varchar(100) NOT NULL,
+location_form_6 varchar(100) NOT NULL,
+location_form_7 varchar(100) NOT NULL,
+PRIMARY KEY (location_id,lang_code),
+KEY seo_name (seo_name)
+) DEFAULT CHARSET=utf8
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS ?:ab__gp_locations (
+location_id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+company_id int(11) NOT NULL,
+status char(1) NOT NULL,
+seo_name varchar(100) NOT NULL,
+link_type char(1) DEFAULT NULL,
+PRIMARY KEY (location_id)
+) DEFAULT CHARSET=utf8
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS ?:ab__gp_object_location_settings (
+object_id int(11) NOT NULL,
+object_type varchar(25) NOT NULL,
+location_id int(11) NOT NULL,
+template_id int(11) NOT NULL,
+enable char(1) DEFAULT 'N',
+is_noindex char(1) NOT NULL DEFAULT 'N',
+canonical_id int(11) DEFAULT NULL,
+PRIMARY KEY (object_id,object_type,location_id)
+) DEFAULT CHARSET=utf8
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS ?:ab__gp_template_descriptions (
+template_id int(11) NOT NULL,
+lang_code char(2) NOT NULL,
+template_name varchar(50) NOT NULL,
+name varchar(255) NOT NULL,
+description text NOT NULL,
+title varchar(255) NOT NULL,
+meta_description varchar(255) NOT NULL,
+PRIMARY KEY (template_id,lang_code)
+) DEFAULT CHARSET=utf8
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS ?:ab__gp_templates (
+template_id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+object_id int(11) DEFAULT NULL,
+object_type char(1) DEFAULT NULL,
+company_id int(11) NOT NULL,
+is_global char(1) NOT NULL,
+PRIMARY KEY (template_id)
+) DEFAULT CHARSET=utf8
+</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__gp.data.manage', 'Y', 'ab__addons', 'ab__geo_pages', 'N')</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__gp.data.view', 'Y', 'ab__addons', 'ab__geo_pages', 'Y')</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__geo_pages' OR group_id = 'ab__geo_pages'</item>
+</queries>
+</addon>

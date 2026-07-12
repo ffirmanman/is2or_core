@@ -1,0 +1,352 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ab__extended_comparison_wishlist"
+msgid "AB: Extended comparison and wishlist"
+msgstr "AB: Extended comparison and wishlist"
+
+msgctxt "Addons::description::ab__extended_comparison_wishlist"
+msgid "The add-on uses and extends the functionality of product comparison and wishlist in the CS-Cart / Multi-Vendor platform for Up-sell."
+msgstr "The add-on uses and extends the functionality of product comparison and wishlist in the CS-Cart / Multi-Vendor platform for Up-sell."
+
+msgctxt "Languages::ab__extended_comparison_wishlist"
+msgid "AB: Extended comparison and wishlist"
+msgstr "AB: Extended comparison and wishlist"
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::group_comparison_lists"
+msgid "Group products in comparison list"
+msgstr "Group products in comparison list"
+
+msgctxt "SettingsTooltips::ab__extended_comparison_wishlist::group_comparison_lists"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::show_popup_on_adding"
+msgid "Show dialog window when adding product to comparison list"
+msgstr "Show dialog window when adding product to comparison list"
+
+msgctxt "SettingsTooltips::ab__extended_comparison_wishlist::show_popup_on_adding"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::group_by"
+msgid "Group comparison lists by"
+msgstr "Group comparison lists by"
+
+msgctxt "SettingsTooltips::ab__extended_comparison_wishlist::group_by"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::show_company_name"
+msgid "Show vendor's name"
+msgstr "Show vendor's name"
+
+msgctxt "SettingsTooltips::ab__extended_comparison_wishlist::show_company_name"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::show_product_names"
+msgid "Show product name"
+msgstr "Show product name"
+
+msgctxt "SettingsTooltips::ab__extended_comparison_wishlist::show_product_names"
+msgid "When the setting is active, product names will be displayed above appropriate feature names on the comparison page and blocks \"Products\" where the template \"AB: Extended comparison and wishlist\" is used: List with feature list\""
+msgstr "When the setting is active, product names will be displayed above appropriate feature names on the comparison page and blocks \"Products\" where the template \"AB: Extended comparison and wishlist\" is used: List with feature list\""
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::features_filter_behavior"
+msgid "Behaviour of the button \"All features\""
+msgstr "Behaviour of the button \"All features\""
+
+msgctxt "SettingsTooltips::ab__extended_comparison_wishlist::features_filter_behavior"
+msgid "Select a way to place an emphasis on different product features"
+msgstr "Select a way to place an emphasis on different product features"
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::open_compare_page_with_add_to_compare_button"
+msgid "Open comparison list by second click on the button"
+msgstr "Open comparison list by second click on the button"
+
+msgctxt "Languages::ab__ecw.group_by"
+msgid "Group by"
+msgstr "Group by"
+
+msgctxt "Languages::ab__extended_comparison_wishlist.settings"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "Languages::ab__ecw.product_already_in_compare"
+msgid "Product already exists in comparison list"
+msgstr "Product already exists in comparison list"
+
+msgctxt "Languages::ab__ecw.comparison_lists"
+msgid "Comparison lists"
+msgstr "Comparison lists"
+
+msgctxt "Languages::ab__ecw.group_by.main_category"
+msgid "main product category"
+msgstr "main product category"
+
+msgctxt "Languages::ab__ecw.features_filter_behavior.reload_page"
+msgid "Display different features only"
+msgstr "Display different features only"
+
+msgctxt "Languages::ab__ecw.features_filter_behavior.highlight_differences"
+msgid "Light different features"
+msgstr "Light different features"
+
+msgctxt "Languages::ab__ecw.copy_link_to_compare_list"
+msgid "Share comparison list"
+msgstr "Share comparison list"
+
+msgctxt "Languages::ab__ecw_often_compared"
+msgid "AB: Products are being compared frequently"
+msgstr "AB: Products are being compared frequently"
+
+msgctxt "Languages::ab__ecw.link_was_copied"
+msgid "Link was copied to clipboard"
+msgstr "Link was copied to clipboard"
+
+msgctxt "Languages::sort_by_ab__extended_comparison_wishlist_asc"
+msgid "AB: Extended comparison and wishlist: frequently compared at the end"
+msgstr "AB: Extended comparison and wishlist: frequently compared at the end"
+
+msgctxt "Languages::sort_by_ab__extended_comparison_wishlist_desc"
+msgid "AB: Extended comparison and wishlist: frequently compared at the beginning"
+msgstr "AB: Extended comparison and wishlist: frequently compared at the beginning"
+
+msgctxt "Languages::abt__ut2.sort_by_ab__extended_comparison_wishlist_asc"
+msgid "AB: Extended comparison and wishlist: frequently compared at the end"
+msgstr "AB: Extended comparison and wishlist: frequently compared at the end"
+
+msgctxt "Languages::abt__ut2.sort_by_ab__extended_comparison_wishlist_desc"
+msgid "AB: Extended comparison and wishlist: frequently compared at the beginning"
+msgstr "AB: Extended comparison and wishlist: frequently compared at the beginning"
+
+msgctxt "Languages::ab__ecw_similar_in_stock"
+msgid "Show products \"in stock\" only"
+msgstr "Show products \"in stock\" only"
+
+msgctxt "Languages::ab__ecw_list_with_features"
+msgid "AB: Extended comparison and wishlist: List with features list"
+msgstr "AB: Extended comparison and wishlist: List with features list"
+
+msgctxt "Languages::ab__ecw_enable_scroller"
+msgid "AB: Enable scroller"
+msgstr "AB: Enable scroller"
+
+msgctxt "Languages::ab__ecw_min_compares_count"
+msgid "AB: Minimal quantity of comparisons"
+msgstr "AB: Minimal quantity of comparisons"
+
+msgctxt "Languages::ab__ecw_min_compares_count.tooltip"
+msgid "Minimal quantity of product comparisons in order for getting into extract. If 0 is specified, all compared products will get into extract"
+msgstr "Minimal quantity of product comparisons in order for getting into extract. If 0 is specified, all compared products will get into extract"
+
+msgctxt "Languages::ab__ecw.empty_feature_value"
+msgid "-"
+msgstr "-"
+
+msgctxt "Languages::ab__ecw_show_product_names"
+msgid "AB: Show product names in feature list"
+msgstr "AB: Show product names in feature list"
+
+msgctxt "Languages::ab__ecw.view_more_products"
+msgid "Show more [title]"
+msgstr "Show more [title]"
+
+msgctxt "Languages::ab__ecw.add_more_products"
+msgid "Add more"
+msgstr "Add more"
+
+msgctxt "Languages::ab__ecw_enable_add_more"
+msgid "Show link \"Show more...\""
+msgstr "Show link \"Show more...\""
+
+msgctxt "Languages::ab__ecw_enable_add_to_compare"
+msgid "Show \"Add to comparison list\""
+msgstr "Show \"Add to comparison list\""
+
+msgctxt "Languages::ab__ecw.compare.title"
+msgid "Compare: [title]"
+msgstr "Compare: [title]"
+
+msgctxt "Languages::ab__ecw.added_by_addon"
+msgid "Functionality is added by the add-on AB: Extended comparison and wishlist"
+msgstr "Functionality is added by the add-on AB: Extended comparison and wishlist"
+
+msgctxt "Languages::ab__ecw.compares_qty"
+msgid "Quantity of comparisons"
+msgstr "Quantity of comparisons"
+
+msgctxt "Languages::ab__ecw.all_lists"
+msgid "All lists"
+msgstr "All lists"
+
+msgctxt "Languages::ab__ecw.not_enough_to_compare"
+msgid "Lack of products to compare."
+msgstr "Lack of products to compare."
+
+msgctxt "Languages::ab__ecw_comparison_pages.manage"
+msgid "Manage comparison pages"
+msgstr "Manage comparison pages"
+
+msgctxt "Languages::ab__ecw_comparison_pages.add_page"
+msgid "Add comparison page"
+msgstr "Add comparison page"
+
+msgctxt "Languages::ab__ecw_comparison_pages.new_page"
+msgid "New comparison page"
+msgstr "New comparison page"
+
+msgctxt "Languages::ab__ecw.select_some_products"
+msgid "You have to choose products to create comparison page"
+msgstr "You have to choose products to create comparison page"
+
+msgctxt "Languages::ab__ecw_comparison_pages.comparison_page"
+msgid "Comparison page"
+msgstr "Comparison page"
+
+msgctxt "Languages::ab__ecw.ab__ecw_comparison_pages.pages_deleted"
+msgid "Comparison page has been deleted|Comparison pages have been deleted"
+msgstr "Comparison page has been deleted|Comparison pages have been deleted"
+
+msgctxt "Languages::ab__ecw_pages_list"
+msgid "Page list"
+msgstr "Page list"
+
+msgctxt "Languages::block_ab__ecw_comparison_pages"
+msgid "AB: Comparison pages"
+msgstr "AB: Comparison pages"
+
+msgctxt "Languages::ab__ecw_comparison_pages.ab__comparison_page"
+msgid "AB: Comparison page"
+msgstr "AB: Comparison page"
+
+msgctxt "Languages::ab__ecw.select_more_products"
+msgid "To produce comparison pages select more than one product"
+msgstr "To produce comparison pages select more than one product"
+
+msgctxt "Languages::ab__ecw.add_products"
+msgid "To create a comparison page, please, select 2 and more products"
+msgstr "To create a comparison page, please, select 2 and more products"
+
+msgctxt "Languages::ab__ecw_pages_extended"
+msgid "Extended page list"
+msgstr "Extended page list"
+
+msgctxt "Languages::ab__ecw.pages_extended.products_heading"
+msgid "Compare:"
+msgstr "Compare:"
+
+msgctxt "Languages::ab__ecw_show_short_descr"
+msgid "Display short description"
+msgstr "Display short description"
+
+msgctxt "Languages::ab__ecw_show_products_list"
+msgid "Display product list"
+msgstr "Display product list"
+
+msgctxt "Languages::ab__ecw_show_date"
+msgid "Display date"
+msgstr "Display date"
+
+msgctxt "Languages::abt__ut2.less_settings.addons.ab__extended_comparison_wishlist_group"
+msgid "AB: Extended comparison and wishlist"
+msgstr "AB: Extended comparison and wishlist"
+
+msgctxt "Languages::abt__ut2.less_settings.addons.ab__extended_comparison_wishlist_group_description"
+msgid "There are settings that influence on elements that were added by the add-on \"AB: Extended comparison and wishlist\""
+msgstr "There are settings that influence on elements that were added by the add-on \"AB: Extended comparison and wishlist\""
+
+msgctxt "Languages::abt__ut2.less_settings.addons.ab__extended_comparison_wishlist.block_background"
+msgid "Color of block background \"Extended page list\""
+msgstr "Color of block background \"Extended page list\""
+
+msgctxt "Languages::abt__yt.less_settings.addons.ab__extended_comparison_wishlist_group"
+msgid "AB: Extended comparison and wishlist"
+msgstr "AB: Extended comparison and wishlist"
+
+msgctxt "Languages::abt__yt.less_settings.addons.ab__extended_comparison_wishlist_group_description"
+msgid "There are settings that influence on elements that were added by the add-on \"AB: Extended comparison and wishlist\""
+msgstr "There are settings that influence on elements that were added by the add-on \"AB: Extended comparison and wishlist\""
+
+msgctxt "Languages::abt__yt.less_settings.addons.ab__extended_comparison_wishlist.block_background"
+msgid " Color of block background \"Extended page list\""
+msgstr ""
+"Color of block background \"Extended page list\""
+
+msgctxt "Languages::ab__ecw.comparison_pages.list"
+msgid "Comparison pages"
+msgstr "Comparison pages"
+
+msgctxt "Languages::ab__ecw.image_update.description"
+msgid "Image will be displayed in lists and when formating Open Graph microdata"
+msgstr "Image will be displayed in lists and when formating Open Graph microdata"
+
+msgctxt "Languages::ab__ecw_comparison_pages.ab__comparison_pages_list"
+msgid "AB: Comparison pages list"
+msgstr "AB: Comparison pages list"
+
+msgctxt "Languages::ab__ecw.comparison_pages.detailed_image"
+msgid "Detailed image"
+msgstr "Detailed image"
+
+msgctxt "Languages::ab__ecw.detailed_image_update.description"
+msgid "Image will be displayed on the comparison page"
+msgstr "Image will be displayed on the comparison page"
+
+msgctxt "Languages::ab__ecw.comparison_pages.table_title"
+msgid "#"
+msgstr "#"
+
+msgctxt "Languages::ab__ecw_comparison_pages.demo_data"
+msgid "Demo data"
+msgstr "Demo data"
+
+msgctxt "Languages::ab__ecw.demo_data.unpacking_archive"
+msgid "Decompression of the archive"
+msgstr "Decompression of the archive"
+
+msgctxt "Languages::ab__ecw.demo_data.creating_pages"
+msgid "Page creation"
+msgstr "Page creation"
+
+msgctxt "Languages::ab__ecw.demo_data.description"
+msgid "You can set demo data of the add-on on the page"
+msgstr "You can set demo data of the add-on on the page"
+
+msgctxt "Languages::ab__ecw.demo_data.table.description"
+msgid "Demo data description"
+msgstr "Demo data description"
+
+msgctxt "Languages::ab__ecw_comparison_pages.demo_data.add_pages"
+msgid "Demo pages of comparisons (new products and its features will be added)"
+msgstr "Demo pages of comparisons (new products and its features will be added)"
+
+msgctxt "Languages::ab__ecw.demo_data.deleting_temp_files"
+msgid "Removal of utility files"
+msgstr "Removal of utility files"
+
+msgctxt "Languages::ab__ecw.page_created"
+msgid "Comparison page <a href=\"[href]\" target=\"_blank\">has been created</a>"
+msgstr "Comparison page <a href=\"[href]\" target=\"_blank\">has been created</a>"
+
+msgctxt "Languages::ab__extended_comparison_wishlist.help"
+msgid "Help"
+msgstr "Help"
+
+msgctxt "Languages::ab__extended_comparison_wishlist.help.docs"
+msgid "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__extended_comparison_wishlist.doc'>documentation</a>."
+msgstr "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__extended_comparison_wishlist.doc'>documentation</a>."
+
+msgctxt "Languages::privilege_groups.ab__extended_comparison_wishlist"
+msgid "AB: Extended comparison and wishlist"
+msgstr "AB: Extended comparison and wishlist"
+
+msgctxt "Languages::privileges.ab__extended_comparison_wishlist.help"
+msgid "View help"
+msgstr "View help"
+
+#. Alexbranding. Do not modify this file manually!

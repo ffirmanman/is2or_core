@@ -1,0 +1,168 @@
+[
+  {
+    "status": "A",
+    "position": "10",
+    "is_faq": "N",
+    "is_open": "Y",
+    "tag": "h3",
+    "descriptions": {
+      "default": {
+        "title": "&#129297 Как купить недорогие [category]?",
+        "description": "Самые дешевые [category_lower] это: </br>[products]"
+      },
+      "en": {
+        "title": "&#129297 How to buy inexpensive [category]?",
+        "description": "The cheapest [category_lower] are: </br>[products]"
+      }
+    },
+    "filling_type": "newest",
+    "filling_data": {
+      "newest": {
+        "period": "A",
+        "products_number": "3",
+        "sorting": "price-asc"
+      },
+      "min_products_on_page": 3,
+      "template": "unordered_list"
+    },
+    "settings": {
+      "category": {
+        "status": "A"
+      },
+      "feature_variant": {
+        "status": "D"
+      }
+    }
+  },
+  {
+    "status": "A",
+    "position": "20",
+    "is_faq": "N",
+    "is_open": "N",
+    "tag": "h3",
+    "descriptions": {
+      "default": {
+        "title": "&#128181 Самые дорогие [category]",
+        "description": "Самые дорогие товары в этой категории: [products]"
+      },
+      "en": {
+        "title": "&#128181 Most expensive [category]",
+        "description": "Most expensive items in this category: [products]"
+      }
+    },
+    "filling_type": "newest",
+    "filling_data": {
+      "newest": {
+        "period": "A",
+        "products_number": "4",
+        "sorting": "price-desc"
+      },
+      "min_products_on_page": 1,
+      "template": "commas"
+    },
+    "settings": {
+      "category": {
+        "status": "A"
+      },
+      "feature_variant": {
+        "status": "D"
+      }
+    }
+  },
+  {
+    "status": "A",
+    "position": "30",
+    "is_faq": "N",
+    "is_open": "N",
+    "tag": "h3",
+    "descriptions": {
+      "default": {
+        "title": "&#11088 Какие [category] самые лучшие [year] года?",
+        "description": "Самые лучшие [category_lower] [year]: [products]"
+      },
+      "en": {
+        "title": "&#11088 What are the best [category] in [year]?",
+        "description": "The best [category_lower] of [year]: [products]"
+      }
+    },
+    "filling_type": "newest",
+    "filling_data": {
+      "newest": {
+        "period": "A",
+        "products_number": "5",
+        "sorting": "popularity-desc"
+      },
+      "min_products_on_page": 0,
+      "template": "ordered_list"
+    },
+    "settings": {
+      "category": {
+        "status": "A"
+      },
+      "feature_variant": {
+        "status": "D"
+      }
+    }
+  },
+  {
+    "status": "A",
+    "position": "40",
+    "is_faq": "N",
+    "is_open": "N",
+    "tag": "h3",
+    "descriptions": {
+      "default": {
+        "title": "&#128142 Какие [category] самые новые?",
+        "description": "Последние [category_lower] [month] [year]: [products]"
+      },
+      "en": {
+        "title": "&#128142 Which [category] are the newest?",
+        "description": "Latest [category_lower] of [month] [year]: [products]"
+      }
+    },
+    "filling_type": "newest",
+    "filling_data": {
+      "newest": {
+        "period": "A",
+        "products_number": "5",
+        "sorting": "timestamp-desc"
+      },
+      "min_products_on_page": 1,
+      "template": "commas"
+    },
+    "settings": {
+      "category": {
+        "status": "A"
+      },
+      "feature_variant": {
+        "status": "D"
+      }
+    }
+  },
+  {
+    "status": "A",
+    "position": "7",
+    "is_faq": "N",
+    "is_open": "N",
+    "tag": "h2",
+    "item_type": "headers",
+    "descriptions": {
+      "default": {
+        "description": "",
+        "title": "Часто задаваемые вопросы про [category]"
+      },
+      "en": {
+        "description": "",
+        "title": "Frequently asked questions about [category]"
+      }
+    },
+    "settings": {
+      "category": {
+        "status": "A"
+      },
+      "feature_variant": {
+        "status": "D"
+      }
+    }
+  }
+]

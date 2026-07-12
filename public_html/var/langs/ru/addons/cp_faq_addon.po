@@ -1,0 +1,363 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "Addons::name::cp_faq_addon"
+msgid "Cart-Power: FAQ addon"
+msgstr "Cart-Power: Часто задаваемые вопросы"
+
+msgctxt "Addons::description::cp_faq_addon"
+msgid "Allow You to create and manage FAQ. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Позволяет создавать и редактировать FAQ. Разработано <a target=\"_blank\" href=\"http://cart-power.ru/\">Cart-Power</a>. Профессиональная разработка для CS-Cart"
+
+msgctxt "Languages::faq_sections"
+msgid "F\.A\.Q\. manage"
+msgstr "FAQ менеджер"
+
+msgctxt "Languages::privilege_groups.cp_fq_privil"
+msgid "FAQ"
+msgstr "FAQ"
+
+msgctxt "Languages::cp_fq_faq_tab_text"
+msgid "FAQ manage"
+msgstr "Управление FAQ"
+
+msgctxt "Languages::cp_fq_from_main_var"
+msgid "From main product"
+msgstr "С основного товара"
+
+msgctxt "Languages::cp_fq_custom_var"
+msgid "Own for each variation"
+msgstr "Свой для каждой вариации"
+
+msgctxt "Languages::cp_fq_variation_type"
+msgid "FAQ mode for variations"
+msgstr "Режим работы FAQ для вариаций"
+
+msgctxt "Languages::cp_fq_variation_text_info"
+msgid "FAQ will be taken from the parent product of the variations. If you need to enable the FAQ separately for variations, change the setting on the <a href=\"[link]\">parent product</a>. Tab \"Add-ons\""
+msgstr "FAQ будет браться с основного товара вариаций. Если необходимо включить FAQ отдельно для вариаций, то измените настройку на <a href=\"[link]\">основном товаре</a>. Вкладка \"Модули\""
+
+msgctxt "Languages::select_none_for_create_question"
+msgid "Select \"None\" if You want to create new question"
+msgstr "Выберите \"Не выбрано\", если Вы хотите создать новый вопрос"
+
+msgctxt "Languages::cp_fq_generate"
+msgid "Generate"
+msgstr "Сгенерировать"
+
+msgctxt "SettingsOptions::cp_faq_addon::product_settings"
+msgid "Settings for product"
+msgstr "Настройки для товара"
+
+msgctxt "SettingsOptions::cp_faq_addon::faq_page_settings"
+msgid "Settings for FAQ page and blocks"
+msgstr "Настройки для страницы FAQ  и блоков"
+
+msgctxt "SettingsOptions::cp_faq_addon::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "Languages::cp_faq_page_instruction_settings"
+msgid "To set up the FAQ page, create a new page using the <a target=\"_blank\" href=\"https://docs.google.com/document/d/1tTa3ESdcmLM_xOop7W8I_htnwBI7HnnsX2lJuz9qp6U\">instructions</a>"
+msgstr "Для настройки страницы \"FAQ\" необходимо создать новую страницу согласно <a target=\"_blank\" href=\"https://docs.google.com/document/d/1uZxPRsgj0Va0YOGIXMEHi7Bdbi1obPUF_GMzLHRxdRg\">инструкции</a>"
+
+msgctxt "Languages::cp_fq_show_on_main"
+msgid "Show on main FAQ page"
+msgstr "Показывать на главной FAQ"
+
+msgctxt "Languages::cp_fq_icons_class"
+msgid "Icon classes"
+msgstr "Классы иконок"
+
+msgctxt "Languages::privileges.manage_cp_faq_addon"
+msgid "Manage FAQ"
+msgstr "Редактирование FAQ"
+
+msgctxt "Languages::privileges.view_cp_faq_addon"
+msgid "View FAQ"
+msgstr "Просмотр FAQ"
+
+msgctxt "Languages::you_cant_remove_company"
+msgid "You can't remove company"
+msgstr "Вы не можете удалить компанию"
+
+msgctxt "Languages::from_this_faq_section"
+msgid "from this section, because it used on product"
+msgstr "из этой секции, так как она используется на товаре"
+
+msgctxt "Languages::editing_faq_question"
+msgid "Editing F\.A\.Q\. question"
+msgstr "Редактирование FAQ вопроса"
+
+msgctxt "Languages::block_faq_block_questions_description"
+msgid "F.A.Q. questions"
+msgstr "FAQ вопросы"
+
+msgctxt "Languages::block_faq_block_sections_description"
+msgid "F.A.Q. sections"
+msgstr "FAQ секции"
+
+msgctxt "Languages::cp_choose_section"
+msgid "Choose existing section"
+msgstr "Выберите существующую секцию"
+
+msgctxt "Languages::cp_choose_question"
+msgid "Choose existed question"
+msgstr "Выберите существующий вопрос"
+
+msgctxt "Languages::select_none_for_create"
+msgid "Select \"None\" if You want to create new"
+msgstr "Выберите \"Не выбрано\", если Вы хотите создать новую"
+
+msgctxt "Languages::please_enter_faq_question_and_answer"
+msgid "Please, enter F\.A\.Q\. question and F\.A\.Q\. answer"
+msgstr "Пожалуйста, введите название вопроса и ответ на него"
+
+msgctxt "Languages::block_faq_block_questions"
+msgid "F\.A\.Q\. questions"
+msgstr "FAQ вопросы"
+
+msgctxt "Languages::block_faq_block_sections"
+msgid "F\.A\.Q\. sections"
+msgstr "FAQ секции"
+
+msgctxt "Languages::faq_questions"
+msgid "F\.A\.Q\. questions manage"
+msgstr "Менеджер FAQ вопросов"
+
+msgctxt "Languages::no_icon"
+msgid "No icon"
+msgstr "Нет иконки"
+
+msgctxt "Languages::faq_show_expanded_quest"
+msgid "Show expanded questions"
+msgstr "Показывать вопросы развернутыми"
+
+msgctxt "Languages::faq_show_expanded_sec"
+msgid "Show expanded sections"
+msgstr "Показывать секции развернутыми"
+
+msgctxt "Languages::faq_show_search_form"
+msgid "Show search in block"
+msgstr "Показывать поиск"
+
+msgctxt "Languages::faq_for_bread"
+msgid "F\.A\.Q\."
+msgstr "FAQ"
+
+msgctxt "Languages::faq_block"
+msgid "F\.A\.Q\. block"
+msgstr "FAQ блок"
+
+msgctxt "Languages::section_icon"
+msgid "Section\'s icon"
+msgstr "Иконка секции"
+
+msgctxt "Languages::faq_menu"
+msgid "F\.A\.Q\. template"
+msgstr "FAQ шаблон"
+
+msgctxt "Languages::faq_menu_questions"
+msgid "F\.A\.Q\. questions template"
+msgstr "Шаблон FAQ вопросов"
+
+msgctxt "Languages::faq_sections_picker"
+msgid "F\.A\.Q\. sections"
+msgstr "FAQ секции"
+
+msgctxt "Languages::faq_questions_picker"
+msgid "F\.A\.Q\. questions"
+msgstr "FAQ вопросы"
+
+msgctxt "Languages::question_icon"
+msgid "Question\'s icon"
+msgstr "Иконка вопроса"
+
+msgctxt "Languages::question_icon_descr"
+msgid "Enter font \"Awesome\" icon class for question"
+msgstr "Введите класс иконки из шрифта \"Awesome\" для вопроса"
+
+msgctxt "Languages::section_icon_descr"
+msgid "Enter font \"Awesome\" icon class"
+msgstr "Введите класс иконки из шрифта \"Awesome\" для секции"
+
+msgctxt "Languages::add_section"
+msgid "Add section"
+msgstr "Добавить секцию"
+
+msgctxt "Languages::add_section_and_close"
+msgid "Add section and close"
+msgstr "Добавить секцию и закрыть"
+
+msgctxt "Languages::add_question_and_close"
+msgid "Add question and close"
+msgstr "Добавить вопрос и закрыть"
+
+msgctxt "Languages::section_position"
+msgid "Section's position"
+msgstr "Позиция секции"
+
+msgctxt "Languages::cp_faq_questions"
+msgid "Section's questions"
+msgstr "Вопросы секции"
+
+msgctxt "Languages::cp_faq_new_question"
+msgid "New F\.A\.Q\. question"
+msgstr "Новый FAQ вопрос"
+
+msgctxt "Languages::question_position"
+msgid "Question's position"
+msgstr "Позиция вопроса"
+
+msgctxt "Languages::new_faq_section"
+msgid "New F\.A\.Q\. section"
+msgstr "Новая FAQ секция"
+
+msgctxt "Languages::editing_faq_section"
+msgid "Editing F\.A\.Q\. section"
+msgstr "Редактирование FAQ секции"
+
+msgctxt "Languages::section_position_descr"
+msgid "At customer area sections will be sorted by position"
+msgstr "На странице магазина секции будут отсортированы по позиции"
+
+msgctxt "Languages::question_position_descr"
+msgid "Questions will be sorted by position"
+msgstr "Вопросы будут отсортированы по позиции"
+
+msgctxt "Languages::faq_sections_menu_description"
+msgid "Allow You to manage F\.A\.Q\. sections"
+msgstr "Позволяет Вам редактировать F\.A\.Q\. секции"
+
+msgctxt "Languages::faq_question"
+msgid "F\.A\.Q\. question"
+msgstr "FAQ вопрос"
+
+msgctxt "Languages::add_question"
+msgid "Add question"
+msgstr "Добавить вопрос"
+
+msgctxt "Languages::faq_answer"
+msgid "F\.A\.Q\. answer"
+msgstr "FAQ ответ"
+
+msgctxt "Languages::faq_anchor"
+msgid "Anchor"
+msgstr "Метка"
+
+msgctxt "Languages::that_anchor_already_exist"
+msgid "That anchor already exists"
+msgstr "Такая метка уже существует"
+
+msgctxt "Languages::faq_anchor_descr"
+msgid "You can give a link to that question using this anchor"
+msgstr "Вы можете использовать метку для ссылок с других страниц"
+
+msgctxt "SettingsOptions::cp_faq_addon::show_expanded_sections_tab"
+msgid "Show expanded sections on F\.A\.Q\. product tab"
+msgstr "Показывать развернутые секции во вкладке FAQ товара"
+
+msgctxt "SettingsOptions::cp_faq_addon::show_expanded_questions"
+msgid "Show expanded questions on F\.A\.Q\. product tab"
+msgstr "Показывать развернутые вопросы во вкладке FAQ товара"
+
+msgctxt "SettingsOptions::cp_faq_addon::show_search_comon_faq"
+msgid "Show search on F\.A\.Q\. page"
+msgstr "Разрешить поиск на странице FAQ"
+
+msgctxt "SettingsOptions::cp_faq_addon::show_expanded_questions_comon_faq"
+msgid "Show expanded questions on F\.A\.Q\. page"
+msgstr "Показывать развернутые вопросы на странице FAQ"
+
+msgctxt "SettingsOptions::cp_faq_addon::show_search_on_tab"
+msgid "Show search on F\.A\.Q\. product tab"
+msgstr "Разрешить поиск во вкладке FAQ товара"
+
+msgctxt "SettingsOptions::cp_faq_addon::show_expanded_section_comon_faq"
+msgid "Show expanded sections on F\.A\.Q\. page"
+msgstr "Показывать развернутые секции на странице FAQ"
+
+msgctxt "SettingsOptions::cp_faq_addon::default_icon_for_section"
+msgid "Default icon for F\.A\.Q\. section"
+msgstr "Иконка по умолчанию для FAQ секций"
+
+msgctxt "SettingsOptions::cp_faq_addon::default_icon_for_question"
+msgid "Default icon for F\.A\.Q\. question"
+msgstr "Иконка по умолчанию для FAQ вопросов"
+
+msgctxt "SettingsOptions::cp_faq_addon::font_awesome_version"
+msgid "Font Awesome version"
+msgstr "Версия шрифта Awesome"
+
+msgctxt "SettingsOptions::cp_faq_addon::font_awesome_info"
+msgid "Font Awesome info"
+msgstr "Информация о шрифте Awesome"
+
+msgctxt "Languages::cp_check_version"
+msgid "Check version"
+msgstr "Проверить версию"
+
+msgctxt "Languages::cp_if_you_want_font"
+msgid "If You want to use the latest icons, check version and enter it to the field \"Font Awesome version\""
+msgstr "Если вы хотите использовать новые иконки, введите новую версию шрифта в поле \"Версия шрифта Awesome\""
+
+msgctxt "SettingsOptions::cp_faq_addon::font_awesome_info_icons"
+msgid "Font Awesome icons info"
+msgstr "Информация об иконках Awesome"
+
+msgctxt "Languages::cp_you_can_find_icons_here"
+msgid "You can find icons here - "
+msgstr "Вы можете найти иконки тут - "
+
+msgctxt "Languages::cp_icons"
+msgid "Icons"
+msgstr "Иконки"
+
+msgctxt "SettingsTooltips::cp_faq_addon::default_icon_for_section"
+msgid "Enter icon class like - fa-info"
+msgstr "fa-info (пример)"
+
+msgctxt "SettingsTooltips::cp_faq_addon::default_icon_for_question"
+msgid "Enter icon class like - fa-question"
+msgstr "fa-question (пример)"
+
+msgctxt "Languages::cp_enter_icon_clas_place"
+msgid "Enter class like fa-bolt"
+msgstr "fa-bolt (пример)"
+
+msgctxt "SettingsSections::cp_faq_addon::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::cp_faq_addon::item"
+msgid "Item"
+msgstr "Item"
+
+msgctxt "SettingsOptions::cp_faq_addon::licensekey"
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsOptions::cp_faq_addon::meta_title_faq_page"
+msgid "Page title for FAQ"
+msgstr "Название страницы для FAQ"
+
+msgctxt "SettingsOptions::cp_faq_addon::meta_description_faq_page"
+msgid "Meta description for FAQ page"
+msgstr "Мета-описание для страницы FAQ"
+
+msgctxt "SettingsOptions::cp_faq_addon::meta_keyword_faq_page"
+msgid "Meta keywords for FAQ page"
+msgstr "Мета-ключевые слова для страницы FAQ"
+
+msgctxt "Languages::cp_your_license_is_not_valid"
+msgid "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."
+msgstr "Введите лицензионный ключ. Пожалуйста, свяжитесь с нами (sales@cart-power.com), если возникнут какие-либо проблемы"
+
+msgctxt "Languages::cp_faq_questions_title_text"
+msgid "CP: F.A.Q. questions"
+msgstr "CP: FAQ вопросы"
+

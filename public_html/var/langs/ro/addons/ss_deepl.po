@@ -1,0 +1,889 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO"
+
+msgctxt "Addons::name::ss_deepl"
+msgid "ss_deepl_addon_name"
+msgstr "[SoftSolid] - Integrare cu serviciul de traducere Deepl.com (ss_deepl)"
+
+msgctxt "Addons::description::ss_deepl"
+msgid "ss_deepl_addon_description"
+msgstr "<a href='https://cs-cart.pl/ss_deepl/?sl=en' target='_blank'>Integrare cu serviciul de traducere Deepl.com</a>, Copyright &copy; <a href='https://cs-cart.pl/?sl=en' target='_blank'>SoftSolid</a>"
+
+
+
+
+
+#: #############################################################################################################
+#: START - SettingsSections
+#: #############################################################################################################
+msgctxt "SettingsSections::ss_deepl::ss_deepl_general"
+msgid "ss_deepl_general"
+msgstr "Generalități"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_default_values"
+msgid "ss_deepl_default_values"
+msgstr "Valori implicite"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_counter"
+msgid "ss_deepl_counter"
+msgstr "Contator de caractere"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_stats"
+msgid "ss_deepl_stats"
+msgstr "Statistici"
+
+msgctxt "SettingsSections::ss_deepl::ss_deepl_logs"
+msgid "ss_deepl_logs"
+msgstr "Jurnale"
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_general
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_api_key"
+msgid "ss_deepl_api_key"
+msgstr "Cheie API"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_service"
+msgid "ss_deepl_service"
+msgstr "Service"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_service::free"
+msgid "ss_deepl_service_free"
+msgstr "DeepL API Gratuit"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_service::pro"
+msgid "ss_deepl_service_pro"
+msgstr "DeepL API Pro"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_glossary_id"
+msgid "ss_deepl_glossary_id"
+msgstr "Glosar"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_glossary_id"
+msgid "ss_deepl_glossary_id_tooltips"
+msgstr "Selectați glosarul care urmează să fie utilizat pentru traducere Un glosar vă permite să specificați traducerile pentru cuvinte și fraze scurte"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate"
+msgstr "Traducerea automată a produselor"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate_tooltip"
+msgstr "Alegeți una dintre opțiunile de traducere automată."
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::none"
+msgid "ss_deepl_auto_translate_none"
+msgstr "Dezactivat"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::manual"
+msgid "ss_deepl_auto_translate_manual"
+msgstr "Selectarea manuală a produselor"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate::auto"
+msgid "ss_deepl_auto_translate_auto"
+msgstr "Selectarea automată a produselor"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Câmpuri verificate în timpul traducerii automate"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Alegeți câmpurile din configurația add-on care trebuie modificate pentru ca produsul să fie tradus în timpul următoarei execuții a scriptului CRON. Această opțiune funcționează numai dacă traducerea automată este activată."
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::product"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Denumirea produsului"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::full_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Descriere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::short_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Scurtă descriere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::ab__custom_product_h1"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Antet H1"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::promo_text"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Text promoțional"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::page_title"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Titlul paginii"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::meta_keywords"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Meta cuvinte cheie"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::meta_description"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Meta descriere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_items::search_words"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Cuvinte de căutare"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang"
+msgstr "Redirecționare după traducere"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang_tooltip"
+msgstr "După traducerea textului, treceți la limba în care a fost tradus textul. Opțiunea este utilizată la traducerea câmpurilor individuale prin obiecte."
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "Traduceți metoda"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_translate_method::fast"
+msgid "ss_deepl_translate_method"
+msgstr "Rapid"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_translate_method::optimal"
+msgid "ss_deepl_translate_method"
+msgstr "Optimă"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "Alegeți o metodă de traducere manuală a produselor. Metoda rapidă utilizează mai multe caractere, metoda optimă necesită mai mult timp. Notă: traducerea automată a produselor prin scriptul CRON utilizează întotdeauna metoda optimă."
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_auto_translate_categories"
+msgid "ss_deepl_auto_translate_categories"
+msgstr "Categorii de autotraducere"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_auto_translate_categories"
+msgid "ss_deepl_auto_translate_categories_tooltip"
+msgstr "Alegeți una dintre opțiunile de traducere automată."
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::none"
+msgid "ss_deepl_auto_translate_categories_none"
+msgstr "Dezactivat"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::manual"
+msgid "ss_deepl_auto_translate_categories_manual"
+msgstr "Selectarea manuală a categoriilor"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_auto_translate_categories::auto"
+msgid "ss_deepl_auto_translate_categories_auto"
+msgstr "Selectarea automată a categoriilor"
+
+msgctxt "Languages::ss_deepl_ss_deepl_link"
+msgid "ss_deepl_ss_deepl_link"
+msgstr "Link către acțiunea automată. Linkul poate fi lipit în browser sau utilizat pentru a configura CRON"
+
+msgctxt "Languages::ss_deepl_ss_deepl_cron_link"
+msgid "ss_deepl_ss_deepl_cron_link"
+msgstr "Comenzi pentru CRON. Comenzi gata făcute pentru a fi lipite în CRON"
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_default_values
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_products"
+msgid "ss_deepl_sections_products"
+msgstr "<strong>Produse</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_products"
+msgid "ss_deepl_sections_products_tooltips"
+msgstr "Lista câmpurilor disponibile pentru traducere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::product"
+msgid "ss_deepl_sections_products_product_variants"
+msgstr "Denumirea produsului"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::full_description"
+msgid "ss_deepl_sections_products_full_description_variants"
+msgstr "Descriere completă"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::short_description"
+msgid "ss_deepl_sections_products_short_description_variants"
+msgstr "Scurtă descriere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::search_words"
+msgid "ss_deepl_sections_products_search_words_variants"
+msgstr "Cuvinte de căutare"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::promo_text"
+msgid "ss_deepl_sections_products_promo_text_variants"
+msgstr "Text promoțional"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::page_title"
+msgid "ss_deepl_sections_products_page_title_variants"
+msgstr "Titlul paginii"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::meta_keywords"
+msgid "ss_deepl_sections_products_meta_keywords_variants"
+msgstr "Meta cuvinte cheie"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::meta_description"
+msgid "ss_deepl_sections_products_meta_description_variants"
+msgstr "Meta descriere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_products::ab__custom_product_h1"
+msgid "ss_deepl_sections_products_ab__custom_product_h1_variants"
+msgstr "H1"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_categories"
+msgid "ss_deepl_sections_categories"
+msgstr "<strong>Categorii</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_categories"
+msgid "ss_deepl_sections_categories_tooltips"
+msgstr "Lista câmpurilor disponibile pentru traducere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::category"
+msgid "ss_deepl_sections_categories_category_variants"
+msgstr "Numele categoriei"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::description"
+msgid "ss_deepl_sections_categories_description_variants"
+msgstr "Descriere categorie"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::page_title"
+msgid "ss_deepl_sections_categories_page_title_variants"
+msgstr "Titlul paginii"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::meta_keywords"
+msgid "ss_deepl_sections_categories_meta_keywords_variants"
+msgstr "Meta cuvinte cheie"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_categories::meta_description"
+msgid "ss_deepl_sections_categories_meta_description_variants"
+msgstr "Meta descriere"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_promotions"
+msgid "ss_deepl_sections_promotions"
+msgstr "<strong>Promoții</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_promotions"
+msgid "ss_deepl_sections_promotions_tooltips"
+msgstr "Lista câmpurilor disponibile pentru traducere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::name"
+msgid "ss_deepl_sections_promotions_name_variants"
+msgstr "Promovarea numelui"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::short_description"
+msgid "ss_deepl_sections_promotions_short_description_variants"
+msgstr "Scurtă descriere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_promotions::detailed_description"
+msgid "ss_deepl_sections_promotions_detailed_description_variants"
+msgstr "Descriere detaliată"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_pages"
+msgid "ss_deepl_sections_pages"
+msgstr "<strong>Pagini</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_pages"
+msgid "ss_deepl_sections_pages_tooltips"
+msgstr "Lista câmpurilor disponibile pentru traducere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::page"
+msgid "ss_deepl_sections_pages_page_variants"
+msgstr "Nume și prenume"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::description"
+msgid "ss_deepl_sections_pages_description_variants"
+msgstr "Descriere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::page_title"
+msgid "ss_deepl_sections_pages_page_title_variants"
+msgstr "Titlul paginii"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::meta_keywords"
+msgid "ss_deepl_sections_pages_meta_keywords_variants"
+msgstr "Meta cuvinte cheie"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_pages::meta_description"
+msgid "ss_deepl_sections_pages_meta_description_variants"
+msgstr "Meta descriere"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_features"
+msgid "ss_deepl_sections_product_features"
+msgstr "<strong>Caracteristici</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_features"
+msgid "ss_deepl_sections_product_features_tooltips"
+msgstr "Lista câmpurilor disponibile pentru traducere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::internal_name"
+msgid "ss_deepl_sections_product_features_internal_name_variants"
+msgstr "Nume și prenume"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::description"
+msgid "ss_deepl_sections_product_features_description_variants"
+msgstr "Nume pentru vitrină"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::full_description"
+msgid "ss_deepl_sections_product_features_full_description_variants"
+msgstr "Descriere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features::variant"
+msgid "ss_deepl_sections_product_features_variant_variants"
+msgstr "Variante"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_features_groups"
+msgid "ss_deepl_sections_product_features_groups"
+msgstr "<strong>Grupuri de caracteristici</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_features_groups"
+msgid "ss_deepl_sections_product_features_groups_tooltips"
+msgstr "Lista câmpurilor disponibile pentru traducere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::internal_name"
+msgid "ss_deepl_sections_product_features_groups_internal_name_variants"
+msgstr "Nume și prenume"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::description"
+msgid "ss_deepl_sections_product_features_groups_description_variants"
+msgstr "Nume pentru vitrină"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_features_groups::full_description"
+msgid "ss_deepl_sections_product_features_groups_full_description_variants"
+msgstr "Descriere"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_filters"
+msgid "ss_deepl_sections_product_filters"
+msgstr "<strong>Filtre</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_filters"
+msgid "ss_deepl_sections_product_filters_tooltips"
+msgstr "Lista câmpurilor disponibile pentru traducere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_filters::filter"
+msgid "ss_deepl_sections_product_filters_filter_variants"
+msgstr "Nume și prenume"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_sections_product_options"
+msgid "ss_deepl_sections_product_options"
+msgstr "<strong>Opțiuni</strong>"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_sections_product_options"
+msgid "ss_deepl_sections_product_options_tooltips"
+msgstr "Lista câmpurilor disponibile pentru traducere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::internal_option_name"
+msgid "ss_deepl_sections_product_options_internal_option_name_variants"
+msgstr "Nume și prenume"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::option_name"
+msgid "ss_deepl_sections_product_options_option_name_variants"
+msgstr "Nume pentru vitrină"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::description"
+msgid "ss_deepl_sections_product_options_description_variants"
+msgstr "Descriere"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::comment"
+msgid "ss_deepl_sections_product_options_comment_variants"
+msgstr "Comentariu"
+
+msgctxt "SettingsVariants::ss_deepl::ss_deepl_sections_product_options::variant"
+msgid "ss_deepl_sections_product_options_variant_variants"
+msgstr "Variante"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_from_language"
+msgid "ss_deepl_from_language"
+msgstr "Limba sursă"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront"
+msgstr "Sursă vitrină"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront_tooltips"
+msgstr "Acest câmp este utilizat numai în CS-Cart Ultimate și Ultimate B2B"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_to_language"
+msgid "ss_deepl_to_language"
+msgstr "Limba țintă"
+
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront"
+msgstr "Magazin țintă"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront_tooltips"
+msgstr "Acest câmp este utilizat numai în CS-Cart Ultimate și Ultimate B2B"
+
+
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_counter
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_character_count"
+msgid "ss_deepl_character_count"
+msgstr "Caractere folosite:"
+
+msgctxt "Languages::ss_deepl_character_limit"
+msgid "ss_deepl_character_limit"
+msgstr "Limita de caractere:"
+
+msgctxt "Languages::ss_deepl_counter_error"
+msgid "ss_deepl_counter_error"
+msgstr "A apărut o eroare la obținerea limitelor de caractere. Verificați dacă ați introdus cheia API corectă și dacă ați selectat serviciul corespunzător."
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_stats
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_stats_usage"
+msgid "ss_deepl_stats_usage"
+msgstr "Utilizare add-on"
+
+msgctxt "Languages::ss_deepl_stats_no_activity"
+msgid "ss_deepl_stats_no_activity"
+msgstr "Nu a fost înregistrată nicio activitate suplimentară."
+
+msgctxt "Languages::addon_id_stats_no_stats"
+msgid "ss_deepl_stats_no_stats"
+msgstr "Statisticile nu sunt disponibile pentru această versiune add-on."
+
+
+
+
+
+#: #############################################################################################################
+#: START - Section - ss_deepl_logs
+#: #############################################################################################################
+msgctxt "SettingsOptions::ss_deepl::ss_deepl_enable_logs"
+msgid ss_deepl_enable_logs"
+msgstr "Activarea generării de jurnale"
+
+msgctxt "SettingsTooltips::ss_deepl::ss_deepl_enable_logs"
+msgid "ss_deepl_enable_logs_tooltip"
+msgstr "Dacă această casetă de selectare este activată, informațiile despre activitățile efectuate de add-on vor fi înregistrate în jurnale. Dacă doriți să mergeți la vizualizarea jurnalelor, faceți clic pe fila "Principală", unde se află link-ul."
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - trans_all_product
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_trans_all_products"
+msgid "ss_deepl_trans_all_products"
+msgstr "Deepl - traduce tot"
+
+msgctxt "Languages::ss_deepl_base_lang_not_set"
+msgid "ss_deepl_base_lang_not_set"
+msgstr "Język bazowy nie został ustawiony. Tłumaczenie nie zostało wykonane. Przejdż w to <a href="[url]" target="_blank" title="Zarządzanie językami">miejsce</a> i ustaw język bazowy"
+
+msgctxt "Languages::ss_deepl_to_many_langs"
+msgid "ss_deepl_to_many_langs"
+msgstr "Ilość języków do tłumaczenia jest zbyt duża. Zalecamy, żeby masowa operacja była wykonywana po kolei dla poszczególnych języków. Prosimy na czas tłumaczenie dezaktywować j jęzki w tym miejscu tak, żeby aktywane pozostały dwa języki: języka bazowy oraz docelowy. Przejdż do <a href="[url]" target="_blank" title="Zarządzanie językami"><strong>zarządzanie językami</strong></a> i wykonaj odpowiednie ustawienia."
+
+
+
+
+
+#: #############################################################################################################
+#: START - Logger
+#: #############################################################################################################
+msgctxt "Languages::ss_deepl_logger_list"
+msgid "ss_deepl_logger_list"
+msgstr "Vizualizarea/gestionarea jurnalelor (ss_deepl)"
+
+msgctxt "Languages::ss_deepl_logger_manage"
+msgid "ss_deepl_logger_manage"
+msgstr "Jurnale (ss_deepl)"
+
+msgctxt "Languages::ss_deepl_logger_date"
+msgid "ss_deepl_logger_date"
+msgstr "DATA"
+
+msgctxt "Languages::ss_deepl_logger_message"
+msgid "ss_deepl_logger_message"
+msgstr "MESAJ"
+
+msgctxt "Languages::ss_deepl_logger_call_function"
+msgid "ss_deepl_logger_call_function"
+msgstr "FUNCȚIE"
+
+msgctxt "Languages::ss_deepl_logger_dispatch"
+msgid "ss_deepl_logger_dispatch"
+msgstr "DISPECTAJ"
+
+msgctxt "Languages::ss_deepl_logger_action"
+msgid "ss_deepl_logger_action"
+msgstr "ACȚIUNE"
+
+msgctxt "Languages::ss_logger_menu"
+msgid "ss_logger_menu"
+msgstr "Bușteni SoftSolid"
+
+msgctxt "Languages::ss_deepl_no_set_base_lang"
+msgid "ss_deepl_no_set_base_lang"
+msgstr "Limba de bază pentru traducerile automate nu este setată. Mergeți la Setări->Texte și limbi->Limbi selectați limba de bază și faceți clic pe "Limba de bază pentru traducerile Deepl"
+
+msgctxt "Languages::ss_deepl_button_products"
+msgid "ss_deepl_button_products"
+msgstr "Traduceți produsele"
+
+msgctxt "Languages::ss_deepl_products_translate"
+msgid "ss_deepl_products_translate"
+msgstr "Traducere produse"
+
+msgctxt "Languages::ss_deepl_button_categories"
+msgid "ss_deepl_button_categories"
+msgstr "Traducere categorii"
+
+msgctxt "Languages::ss_deepl_categories_translate"
+msgid "ss_deepl_categories_translate"
+msgstr "Categorie traducere"
+
+msgctxt "Languages::ss_deepl_button_promotions"
+msgid "ss_deepl_button_promotions"
+msgstr "Tradu promoții"
+
+msgctxt "Languages::ss_deepl_promotions_translate"
+msgid "ss_deepl_promotions_translate"
+msgstr "Traducerea promoțiilor"
+
+msgctxt "Languages::ss_deepl_button_pages"
+msgid "ss_deepl_button_pages"
+msgstr "Traduceți pagini"
+
+msgctxt "Languages::ss_deepl_pages_translate"
+msgid "ss_deepl_pages_translate"
+msgstr "Traducerea paginilor"
+
+msgctxt "Languages::ss_deepl_button_blogs"
+msgid "ss_deepl_button_blogs"
+msgstr "Traduceți bloguri"
+
+msgctxt "Languages::ss_deepl_blogs_translate"
+msgid "ss_deepl_blogs_translate"
+msgstr "Traducerea blogurilor"
+
+msgctxt "Languages::ss_deepl_button_product_features"
+msgid "ss_deepl_button_product_features"
+msgstr "Tradu caracteristici"
+
+msgctxt "Languages::ss_deepl_product_features_translate"
+msgid "ss_deepl_product_features_translate"
+msgstr "Caracteristici traducere"
+
+msgctxt "Languages::ss_deepl_button_product_features_groups"
+msgid "ss_deepl_button_product_features_groups"
+msgstr "Traduceți grupurile de caracteristici"
+
+msgctxt "Languages::ss_deepl_product_features_groups_translate"
+msgid "ss_deepl_product_features_groups_translate"
+msgstr "Caracteristici grupuri traducere"
+
+msgctxt "Languages::ss_deepl_button_product_filters"
+msgid "ss_deepl_button_product_filters"
+msgstr "Traduceți filtrele"
+
+msgctxt "Languages::ss_deepl_product_filters_translate"
+msgid "ss_deepl_product_filters_translate"
+msgstr "Traducerea filtrelor"
+
+msgctxt "Languages::ss_deepl_button_product_options"
+msgid "ss_deepl_button_product_options"
+msgstr "Traduceți opțiunile"
+
+msgctxt "Languages::ss_deepl_product_options_translate"
+msgid "ss_deepl_product_options_translate"
+msgstr "Traducerea opțiunilor"
+
+msgctxt "Languages::ss_deepl_no_api_key_mv"
+msgid "ss_deepl_no_api_key_mv"
+msgstr "Nu există cheie API în configurația furnizorului. Mergeți la configurația furnizorului și tastați cheia în fila DeepL settings: [url]"
+
+msgctxt "Languages::ss_deepl_no_api_key"
+msgid "ss_deepl_no_api_key"
+msgstr "Nu este setată nicio cheie API în configurația add-on-ului. Introduceți cheia API aici: [url]"
+
+
+
+
+
+
+#: #############################################################################################################
+#: START - language_variables
+#: #############################################################################################################
+msgctxt "Languages::privilege_sections.ss_addons"
+msgid "privilege_sections.ss_addons"
+msgstr "Suplimente SoftSolid"
+
+msgctxt "Languages::privilege_groups.ss_deepl"
+msgid "privilege_groups.ss_deepl"
+msgstr "DeepL jurnale"
+
+msgctxt "Languages::privileges.ss_deepl_logger.show"
+msgid "privileges.ss_deepl_logger.show"
+msgstr "Conținutul jurnalului DeepL"
+
+msgctxt "Languages::privileges.ss_deepl_logger.manage"
+msgid "privileges.ss_deepl_logger.manage"
+msgstr "Lista jurnalelor DeepL"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_info"
+msgid "ss_deepl_csmv_copy_to_clip_info"
+msgstr "Info:"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_message"
+msgid "ss_deepl_csmv_copy_to_clip_message"
+msgstr "Link-ul a fost copiat. Utilizați CTRL-V pentru a-l lipi la locul potrivit."
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip_title"
+msgid "ss_deepl_csmv_copy_to_clip_title"
+msgstr "Faceți clic pentru a copia link-ul în clipboard"
+
+msgctxt "Languages::ss_deepl_csmv_copy_to_clip"
+msgid "ss_deepl_csmv_copy_to_clip"
+msgstr "Copiere în clipboard"
+
+msgctxt "Languages::ss_deepl_redirect_target_lang"
+msgid "ss_deepl_redirect_target_lang"
+msgstr "Redirecționare după traducere"
+
+msgctxt "Languages::ss_deepl_redirect_target_lang_tooltip"
+msgid "ss_deepl_redirect_target_lang_tooltip"
+msgstr "După traducerea textului, treceți la limba în care a fost tradus textul. Opțiunea este utilizată la traducerea câmpurilor individuale prin obiecte."
+
+msgctxt "Languages::ss_deepl_api_allow"
+msgid "ss_deepl_api_allow"
+msgstr "Permiteți accesul la DeepL"
+
+msgctxt "Languages::ss_deepl_translate_content_empty"
+msgid "ss_deepl_translate_content_empty"
+msgstr "Textul tradus este gol. Verificați dacă ați selectat limba sursă corectă."
+
+msgctxt "Languages::ss_deepl_from_language_tooltip"
+msgid "ss_deepl_from_language_tooltip"
+msgstr "Limba sursă selectată implicit în timpul traducerii manuale."
+
+msgctxt "Languages::ss_deepl_to_language_tooltip"
+msgid "ss_deepl_to_language_tooltip"
+msgstr "Limba țintă selectată implicit în timpul traducerii manuale."
+
+msgctxt "Languages::ss_deepl_error_empty"
+msgid "ss_deepl_error_empty"
+msgstr "Nu vă puteți conecta cu DeepL. Verificați credențialele de acces și încercați din nou."
+
+msgctxt "Languages::ss_deepl_configuration_vendor"
+msgid "ss_deepl_configuration_vendor"
+msgstr "Configurația furnizorului"
+
+msgctxt "Languages::ss_deepl_no_api_key_mv"
+msgid "ss_deepl_no_api_key_mv"
+msgstr "Nu există cheie API în configurația furnizorului. Mergeți la configurația furnizorului și tastați cheia în fila DeepL settings: [url]"
+
+msgctxt "Languages::ss_deepl_no_access"
+msgid "ss_deepl_no_access"
+msgstr "Setările dvs. actuale nu permit utilizarea API DeepL."
+
+msgctxt "Languages::ss_deepl_api_allow"
+msgid "ss_deepl_api_allow"
+msgstr "Permiteți utilizarea DeepL"
+
+msgctxt "Languages::ss_deepl_api_allow_tooltip"
+msgid "ss_deepl_api_allow_tooltip"
+msgstr "Alegeți dacă vânzătorii care utilizează acest plan își pot introduce propria cheie API DeepL. Dacă furnizorul nu introduce propria cheie, cheia din configurația principală a add-on-ului va fi utilizată pentru traducere."
+
+msgctxt "Languages::ss_deepl_settings_vendor"
+msgid "ss_deepl_settings_vendor"
+msgstr "Setări DeepL"
+
+msgctxt "Languages::ss_deepl_api_key"
+msgid "ss_deepl_api_key"
+msgstr "Cheie API"
+
+msgctxt "Languages::ss_deepl_service"
+msgid "ss_deepl_service"
+msgstr "Service"
+
+msgctxt "Languages::ss_deepl_service_free"
+msgid "ss_deepl_service_free"
+msgstr "DeepL Gratuit"
+
+msgctxt "Languages::ss_deepl_service_pro"
+msgid "ss_deepl_service_pro"
+msgstr "DeepL Pro"
+
+msgctxt "Languages::ss_deepl_auto_translate_none"
+msgid "ss_deepl_auto_translate_none"
+msgstr "Dezactivat"
+
+msgctxt "Languages::ss_deepl_auto_translate_manual"
+msgid "ss_deepl_auto_translate_manual"
+msgstr "Selectarea manuală a produselor"
+
+msgctxt "Languages::ss_deepl_auto_translate_auto"
+msgid "ss_deepl_auto_translate_auto"
+msgstr "Selectarea automată a produselor"
+
+msgctxt "Languages::ss_deepl_auto_translate_items"
+msgid "ss_deepl_auto_translate_items"
+msgstr "Câmpuri verificate în timpul traducerii automate"
+
+msgctxt "Languages::ss_deepl_auto_translate_items_tooltip"
+msgid "ss_deepl_auto_translate_items_tooltip"
+msgstr "Alegeți câmpurile din configurația add-on care trebuie modificate pentru ca produsul să fie tradus în timpul următoarei execuții a scriptului CRON. Această opțiune funcționează numai dacă traducerea automată este activată."
+
+msgctxt "Languages::ss_deepl_auto_translate_items_ab__custom_product_h1"
+msgid "ss_deepl_auto_translate_items_ab__custom_product_h1"
+msgstr "Antet H1"
+
+msgctxt "Languages::ss_deepl_translate_method"
+msgid "ss_deepl_translate_method"
+msgstr "Traduceți metoda"
+
+msgctxt "Languages::ss_deepl_translate_method_tooltip"
+msgid "ss_deepl_translate_method_tooltip"
+msgstr "Alegeți o metodă de traducere manuală a produselor. Metoda rapidă utilizează mai multe caractere, metoda optimă necesită mai mult timp. Notă: traducerea automată a produselor prin scriptul CRON utilizează întotdeauna metoda optimă."
+
+msgctxt "Languages::ss_deepl_translate_method_fast"
+msgid "ss_deepl_translate_method_fast"
+msgstr "Rapid"
+
+msgctxt "Languages::ss_deepl_translate_method_optimal"
+msgid "ss_deepl_translate_method_optimal"
+msgstr "Optimă"
+
+msgctxt "Languages::ss_deepl_cron_query"
+msgid "ss_deepl_cron_query"
+msgstr "Comanda CRON pentru a fi pusă direct în serverul CRON"
+
+msgctxt "Languages::ss_deepl_translate_promotions"
+msgid "ss_deepl_translate_promotions"
+msgstr "Traducerea promoțiilor"
+
+msgctxt "Languages::ss_deepl_translate_categories"
+msgid "ss_deepl_translate_categories"
+msgstr "Categorii traducere"
+
+msgctxt "Languages::ss_deepl_context_menu"
+msgid "ss_deepl_context_menu"
+msgstr "DeepL traduceri"
+
+msgctxt "Languages::ss_deepl_configuration"
+msgid "ss_deepl_configuration"
+msgstr "Configurație add-on"
+
+msgctxt "Languages::ss_deepl_base_language"
+msgid "ss_deepl_base_language"
+msgstr "Limba de bază pentru traduceri Deepl"
+
+msgctxt "Languages::ss_deepl_auto_translate"
+msgid "ss_deepl_auto_translate"
+msgstr "Traduceți produsul la următoarea execuție a scriptului CRON"
+
+msgctxt "Languages::ss_deepl_no_api_key"
+msgid "ss_deepl_no_api_key"
+msgstr "Nu este setată nicio cheie API în configurația add-on-ului. Introduceți cheia API aici: [url]"
+
+msgctxt "Languages::ss_deepl_cron_address"
+msgid "ss_deepl_cron_address"
+msgstr "Link CRON pentru autotraducere"
+
+msgctxt "Languages::ss_deepl_button"
+msgid "ss_deepl_button"
+msgstr "Traduceți produsele"
+
+msgctxt "Languages::ss_deepl_menu"
+msgid "ss_deepl_menu"
+msgstr "DeepL traduceri"
+
+msgctxt "Languages::ss_deepl_menu"
+msgid "ss_deepl_menu"
+msgstr "DeepL jurnale"
+
+msgctxt "Languages::ss_deepl_multi_error"
+msgid "ss_deepl_multi_error"
+msgstr "A apărut o eroare la traducerea produselor. Verificați produsele și încercați din nou."
+
+msgctxt "Languages::ss_deepl_completed"
+msgid "ss_deepl_completed"
+msgstr "Traducerea a fost finalizată cu succes."
+
+msgctxt "Languages::ss_deepl_error"
+msgid "ss_deepl_error"
+msgstr "A apărut o eroare în timpul traducerii. Verificați produsul și încercați din nou."
+
+msgctxt "Languages::ss_deepl_product_tab"
+msgid "ss_deepl_product_tab"
+msgstr "DeepL traduceri"
+
+msgctxt "Languages::ss_deepl_translate_products"
+msgid "ss_deepl_translate_products"
+msgstr "Traduceți produsele"
+
+msgctxt "Languages::ss_deepl_sections"
+msgid "ss_deepl_sections"
+msgstr "Câmpuri de tradus"
+
+msgctxt "Languages::ss_deepl_sections_tooltip"
+msgid "ss_deepl_sections_tooltip"
+msgstr "Selectați câmpurile care vor fi traduse de DeepL."
+
+msgctxt "Languages::ss_deepl_from_language"
+msgid "ss_deepl_from_language"
+msgstr "Limba sursă"
+
+msgctxt "Languages::ss_deepl_from_storefront"
+msgid "ss_deepl_from_storefront"
+msgstr "Sursă vitrină"
+
+msgctxt "Languages::ss_deepl_to_language"
+msgid "ss_deepl_to_language"
+msgstr "Limba țintă"
+
+msgctxt "Languages::ss_deepl_to_storefront"
+msgid "ss_deepl_to_storefront"
+msgstr "Magazin țintă"
+
+msgctxt "Languages::ss_deepl_save_conf"
+msgid "ss_deepl_save_conf"
+msgstr "Executați traducerea"
+
+msgctxt "Languages::ss_deepl_go_translate"
+msgid "ss_deepl_go_translate"
+msgstr "Tradu"
+
+msgctxt "Languages::ss_deepl_translate_with_deepl"
+msgid "ss_deepl_translate_with_deepl"
+msgstr "Traducere cu DeepL"
+
+msgctxt "Languages::ss_deepl_translate_content"
+msgid "ss_deepl_translate_content"
+msgstr "Tłumaczenie wykonano poprawnie. Jeśli tłumaczenie nie spełniło Twoich oczekiwania i chcesz przywrócić oryginalną zawartość pola kliknij w ten link [link_to_log], skopiuj zawartość 'source' w to miejsce i zapisz."
+
+msgctxt "Languages::ss_deepl_translate_popup"
+msgid "ss_deepl_translate_popup"
+msgstr "Traducere cu DeepL"
+
+msgctxt "Languages::ss_deepl_action_link"
+msgid "ss_deepl_action_link"
+msgstr "Link către o acțiune automată. Linkul poate fi lipit într-un browser sau utilizat pentru a configura CRON"
+
+msgctxt "Languages::ss_deepl_action_cron_link"
+msgid "ss_deepl_action_cron_link"
+msgstr "Comanda CRON. Comandă gata de lipit în CRON"

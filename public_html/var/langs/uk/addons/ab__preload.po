@@ -1,0 +1,683 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::ab__preload"
+msgid "AB: Preload"
+msgstr "AB: Preload (Попереднє завантаження)"
+
+msgctxt "Addons::description::ab__preload"
+msgid "The add-on allows the browser to specify links to fonts that will be loaded before the first rendering of the page, which reduces the time for page opening"
+msgstr "Модуль дозволяє вказати браузеру посилання на шрифти, які будуть завантажені перед першою візуалізацією вмісту, що зменшить час відкриття сторінки"
+
+msgctxt "Languages::ab__preload"
+msgid "AB: Preload"
+msgstr "AB: Preload (Попереднє завантаження)"
+
+msgctxt "SettingsOptions::ab__preload::add_font_display"
+msgid "Add font-display for style fonts"
+msgstr "Додати font-display для шрифтів стилю"
+
+msgctxt "SettingsTooltips::ab__preload::add_font_display"
+msgid "On saving style via theme editor, adds CSS-feature <code>font-display: swap;</code> for choosen fonts."
+msgstr "При збереженні стилю через редактор тем додає для підключених шрифтів CSS-властивість <code>font-display: swap;</code>."
+
+msgctxt "SettingsOptions::ab__preload::preload_blog_image"
+msgid "Preload image on the blog page"
+msgstr "Попередньо завантажувати зображення сторінки блогу"
+
+msgctxt "SettingsTooltips::ab__preload::preload_blog_image"
+msgid "Setting preloads image that is added with \"Blog\" add-on"
+msgstr "Налаштування попередньо завантажує зображення, що додається модулем \"Блог\""
+
+msgctxt "Languages::ab__p.pov"
+msgid "Part of the browser window"
+msgstr "Частина вікна браузера"
+
+msgctxt "Languages::ab__preload_links.manage"
+msgid "Links preload"
+msgstr "Попереднє завантаження посилань"
+
+msgctxt "Languages::ab__preload_links.note"
+msgid "With preload, the fonts are fetched much earlier on (before CSS is parsed), saving significant time on the first render page."
+msgstr "На цій сторінці Ви можете додати посилання на шрифти для попереднього завантаження, які будуть завантажені перед обробкою CSS-стилів, що в результаті прискорює першу візуалізацію вмісту."
+
+msgctxt "Languages::ab__preload_links.form.url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "Languages::ab__preload_links.form.format"
+msgid "Format"
+msgstr "Формат"
+
+msgctxt "Languages::ab__preload_links.undefined"
+msgid "- Undefined -"
+msgstr "Невизначено"
+
+msgctxt "Languages::ab__preload_links.format.ttf"
+msgid "*.ttf"
+msgstr "*.ttf"
+
+msgctxt "Languages::ab__preload_links.format.woff"
+msgid "*.woff"
+msgstr "*.woff"
+
+msgctxt "Languages::ab__preload_links.format.woff2"
+msgid "*.woff2"
+msgstr "*.woff2"
+
+msgctxt "Languages::ab__preload_links.format.svg"
+msgid "*.svg"
+msgstr "*.svg"
+
+msgctxt "Languages::ab__preload_links.form.use_timestamp"
+msgid "Use timestamp"
+msgstr "Використовувати timestamp (мітку часу)"
+
+msgctxt "Languages::ab__preload_links.form.status"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "Languages::ab__preload_add_new_link"
+msgid "Add new link"
+msgstr "Додати нове посилання"
+
+msgctxt "Languages::ab__preload.settings"
+msgid "General settings"
+msgstr "Загальні налаштування"
+
+msgctxt "Languages::ab__p.disable_first_banner_lazy_load"
+msgid "Preload the first banner"
+msgstr "Попередньо завантажити перший банер"
+
+msgctxt "Languages::ab__p.enable_preload"
+msgid "Enable preload"
+msgstr "Ввімкнути попереднє завантаження"
+
+msgctxt "Languages::ab__p.enable_preload.ab__fast_navigation.tooltip"
+msgid "If you use UniTheme2 or YoupiTheme, number of preloaded images will correspond settings of every device. For Responsive theme number of preloaded images will correspond the setting \"Number of columns in the objects list (Desktop)\""
+msgstr "У випадку використання тем UniTheme2 або YoupiTheme кількість попередньо завантажених зображень буде відповідати налаштуванням кожного пристрою. Для теми Responsive кількість попередньо завантажених зображень буде відповідати налаштуванню \"Кількість колонок у списку (Десктоп)\""
+
+msgctxt "Languages::ab__p.pov_mobile"
+msgid "for Phones"
+msgstr "для Смартфонів"
+
+msgctxt "Languages::ab__p.pov_desktop"
+msgid "for PC"
+msgstr "для ПК"
+
+msgctxt "Languages::ab__p.pov_tablet"
+msgid "for Tablets"
+msgstr "для Планшетів"
+
+msgctxt "Languages::ab__p.expert_settings"
+msgid "Expert preload settings"
+msgstr "Експертні налаштування попереднього завантаження"
+
+msgctxt "Languages::ab__p.examples_description"
+msgid "If you do not understand what these settings are for, look at the screenshots or read the documentation"
+msgstr "Якщо Ви не розумієте для чого ці налаштування, перегляньте скріншоти або ознайомтеся з документацією"
+
+msgctxt "Languages::ab__p.wrong_preload_images"
+msgid "Wrong images were preloaded"
+msgstr "Попередньо завантажені помилкові зображення"
+
+msgctxt "Languages::ab__p.image_is_not_preloaded"
+msgid "Image was not preloaded"
+msgstr "Зображення не було попередньо завантажено"
+
+msgctxt "Languages::ab__p.image_must_be_preloaded"
+msgid "Image was not preloaded, but it should be preloaded"
+msgstr "Зображення не було попередньо завантажено, але його варто попередньо завантажити"
+
+msgctxt "Languages::ab__p.image_is_preloaded"
+msgid "Image was preloaded"
+msgstr "Зображення було попередньо завантажено"
+
+msgctxt "Languages::ab__p.fact_pov"
+msgid "Actual part from all images in the browser window"
+msgstr "Фактична частина від усіх зображень у вікні брраузера"
+
+msgctxt "Languages::ab__p.settings_pov"
+msgid "Setting state"
+msgstr "Стан налаштування"
+
+msgctxt "Languages::ab__p.lcp_element_missing"
+msgid "There is no LCP element on the page. It is possible that a page is overloaded because of AJAX is used. <b>Refresh the page to get correct metering</b>"
+msgstr "На сторінці відсутній LCP елемент. Можливо сторінка перезавантажена з використанням AJAX. <b>Для правильного вимірювання перезавантажте сторінку</b>"
+
+msgctxt "Languages::ab__preload.help"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "Languages::ab__preload.help.doc"
+msgid "Read <a target='_blank' href=\"https://cs-cart.alexbranding.com/en/ab__preload.doc\">the documentation</a>."
+msgstr "Ознайомитись з <a target='_blank' href=\"https://cs-cart.alexbranding.com/ru/ab__preload.doc\">документацією</a>."
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload_group"
+msgid "Add-on \"AB: Preload\""
+msgstr "Модуль \"AB: Preload (Попереднє завантаження)\""
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload_group_description"
+msgid "Disables Lazy Load for several first images and adds tags <code>&#60;link rel=\"preload\"></code> for them. Use it to increase performance of PageSpeed Insights. <b>To get maximal efficiency, you shall preload images that are displayed at a moment of the first page loading only.</b>"
+msgstr "Вимикає Lazy load для декількох перших зображень і додає для них теги <code>&#60;link rel=\"preload\"></code>. Використовуйте для підвищення показника PageSpeed Insights. <b>Для максимальної ефективності попередньо завантажуйте тільки ті зображення, які видно в момент першого завантаження сторінки.</b>"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns"
+msgid "Quantity for product list type \"Grid\""
+msgstr "Кількість для виду списку товарів \"Сітка\""
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns.tooltip"
+msgid "Specify number of products for preload. Recommended values: <ul><li>Desktop - 6</li><li>Tablet - 3</li><li>Phone - 2</li></ul>"
+msgstr "Вкажіть кількість товарів для попереднього завантаження. Рекомендовані значення: <ul><li>ПК - 6</li><li>Планшет - 3</li><li>Смартфон - 2</li></ul>"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns.variants.0"
+msgid "Do not use"
+msgstr "Не використовувати"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns.variants.1"
+msgid "1"
+msgstr "1"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns.variants.2"
+msgid "2"
+msgstr "2"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns.variants.3"
+msgid "3"
+msgstr "3"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns.variants.4"
+msgid "4"
+msgstr "4"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns.variants.5"
+msgid "5"
+msgstr "5"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns.variants.6"
+msgid "6"
+msgstr "6"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns.variants.7"
+msgid "7"
+msgstr "7"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns.variants.8"
+msgid "8"
+msgstr "8"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns.variants.9"
+msgid "9"
+msgstr "9"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns.variants.10"
+msgid "10"
+msgstr "10"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options"
+msgid "Quantity for product list type \"List without options\""
+msgstr "Кількість для виду списку товарів \"Список без опцій\"."
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options.tooltip"
+msgid "Specify number of products for preload. Recommended values: <ul><li>Desktop - 4</li><li>Tablet - 4</li><li>Phone - 1</li></ul>"
+msgstr "Вкажіть кількість товарів для попереднього завантаження. Рекомендовані значення: <ul><li>ПК - 4</li><li>Планшет - 4</li><li>Смартфон - 1</li></ul>"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options.variants.0"
+msgid "Do not use"
+msgstr "Не використовувати"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options.variants.1"
+msgid "1"
+msgstr "1"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options.variants.2"
+msgid "2"
+msgstr "2"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options.variants.3"
+msgid "3"
+msgstr "3"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options.variants.4"
+msgid "4"
+msgstr "4"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options.variants.5"
+msgid "5"
+msgstr "5"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options.variants.6"
+msgid "6"
+msgstr "6"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options.variants.7"
+msgid "7"
+msgstr "7"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options.variants.8"
+msgid "8"
+msgstr "8"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options.variants.9"
+msgid "9"
+msgstr "9"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options.variants.10"
+msgid "10"
+msgstr "10"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list"
+msgid "Quantity for product list type \"Compact list\""
+msgstr "Кількість для виду списку товарів \"Компактний список\""
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list.tooltip"
+msgid "Specify number of products for preload. Recommended values: <ul><li>Desktop - 8</li><li>Tablet - 6</li><li>Phone - 2</li></ul>"
+msgstr "Вкажіть кількість товарів для попереднього завантаження. Рекомендовані значення: <ul><li>ПК - 8</li><li>Планшет - 6</li><li>Смартфон - 2</li></ul>"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list.variants.0"
+msgid "Do not use"
+msgstr "Не використовувати"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list.variants.1"
+msgid "1"
+msgstr "1"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list.variants.2"
+msgid "2"
+msgstr "2"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list.variants.3"
+msgid "3"
+msgstr "3"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list.variants.4"
+msgid "4"
+msgstr "4"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list.variants.5"
+msgid "5"
+msgstr "5"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list.variants.6"
+msgid "6"
+msgstr "6"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list.variants.7"
+msgid "7"
+msgstr "7"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list.variants.8"
+msgid "8"
+msgstr "8"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list.variants.9"
+msgid "9"
+msgstr "9"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list.variants.10"
+msgid "10"
+msgstr "10"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_main_product_image"
+msgid "Preload main product image"
+msgstr "Попередньо завантажувати головне зображення товару"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_main_product_image.tooltip"
+msgid "Enables preload of the main product image"
+msgstr "Вмикає попереднє завантаження головного зображення товару"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_subcategories"
+msgid "Preload subcategories images"
+msgstr "Попередньо завантажувати зображення підкатегорій"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_subcategories.tooltip"
+msgid "Recommended values: <ul><li>Desktop - 5</li><li>Tablet - 4</li><li>Phone - 4</li></ul>"
+msgstr "Рекомендовані значення: <ul><li>ПК - 5</li><li>Планшет - 4</li><li>Смартфон - 4</li></ul>"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_subcategories.variants.0"
+msgid "Do not use"
+msgstr "Не використовувати"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_subcategories.variants.1"
+msgid "1"
+msgstr "1"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_subcategories.variants.2"
+msgid "2"
+msgstr "2"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_subcategories.variants.3"
+msgid "3"
+msgstr "3"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_subcategories.variants.4"
+msgid "4"
+msgstr "4"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_subcategories.variants.5"
+msgid "5"
+msgstr "5"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_subcategories.variants.6"
+msgid "6"
+msgstr "6"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_subcategories.variants.7"
+msgid "7"
+msgstr "7"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_subcategories.variants.8"
+msgid "8"
+msgstr "8"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_subcategories.variants.9"
+msgid "9"
+msgstr "9"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.preload_subcategories.variants.10"
+msgid "10"
+msgstr "10"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.subcategories_pov"
+msgid "Part of the browser window that every subcategory takes place"
+msgstr "Частина вікна браузера, що займає кожна підкатегорія"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.subcategories_pov.tooltip"
+msgid "Is a part of the first screen that image takes place"
+msgstr "Частина першого екрану, що займає зображення"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns_pov"
+msgid "Part of the browser window that a product takes place in the \"Grid\" list"
+msgstr "Частина вікна браузера, що займає товар у списку \"Сітка\""
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_multicolumns_pov.tooltip"
+msgid "Is a part of the first screen that image takes place"
+msgstr "Частина першого екрану, що займає зображення"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options_pov"
+msgid "Part of the browser window that a product takes place in the \"List without options\" list"
+msgstr "Частина вікна браузера, що займає товар у списку \"Список без опцій\""
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.products_without_options_pov.tooltip"
+msgid "Is a part of the first screen that image takes place"
+msgstr "Частина першого екрану, що займає зображення"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list_pov"
+msgid "Part of the browser window that a product takes place in the \"Compact list\""
+msgstr "Частина вікна браузера, що займає товар у списку \"Компактний список\""
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__preload.short_list_pov.tooltip"
+msgid "Is a part of the first screen that image takes place"
+msgstr "Частина першого екрану, що займає зображення"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload_group"
+msgid "Add-on \"AB: Preload\""
+msgstr "Модуль \"AB: Preload (Попереднє завантаження)\""
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload_group_description"
+msgid "Disables Lazy Load for several first images and adds tags <code>&#60;link rel=\"preload\"></code> for them. Use it to increase performance of PageSpeed Insights. <b>To get maximal efficiency, you shall preload images that are displayed at a moment of the first page loading only.</b>"
+msgstr "Вимикає Lazy load для декількох перших зображень і додає для них теги <code>&#60;link rel=\"preload\"></code>. Використовуйте для підвищення показника PageSpeed Insights. <b>Для максимальної ефективності попередньо завантажуйте тільки ті зображення, які видно в момент першого завантаження сторінки.</b>"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns"
+msgid "Quantity for product list type \"Grid\""
+msgstr "Кількість для виду списку товарів \"Сітка\""
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns.tooltip"
+msgid "Specify number of products for preload. Recommended values: <ul><li>Desktop - 6</li><li>Tablet - 3</li><li>Phone - 2</li></ul>"
+msgstr "Вкажіть кількість товарів для попереднього завантаження. Рекомендовані значення: <ul><li>ПК - 6</li><li>Планшет - 3</li><li>Смартфон - 2</li></ul>"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns.variants.0"
+msgid "Do not use"
+msgstr "Не використовувати"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns.variants.1"
+msgid "1"
+msgstr "1"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns.variants.2"
+msgid "2"
+msgstr "2"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns.variants.3"
+msgid "3"
+msgstr "3"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns.variants.4"
+msgid "4"
+msgstr "4"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns.variants.5"
+msgid "5"
+msgstr "5"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns.variants.6"
+msgid "6"
+msgstr "6"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns.variants.7"
+msgid "7"
+msgstr "7"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns.variants.8"
+msgid "8"
+msgstr "8"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns.variants.9"
+msgid "9"
+msgstr "9"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns.variants.10"
+msgid "10"
+msgstr "10"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options"
+msgid "Quantity for product list type \"List without options\""
+msgstr "Кількість для виду списку товарів \"Список без опцій\"."
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options.tooltip"
+msgid "Specify number of products for preload. Recommended values: <ul><li>Desktop - 2</li><li>Tablet - 2</li><li>Phone - 1</li></ul>"
+msgstr "Вкажіть кількість товарів для попереднього завантаження. Рекомендовані значення: <ul><li>ПК - 2</li><li>Планшет - 2</li><li>Смартфон - 1</li></ul>"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options.variants.0"
+msgid "Do not use"
+msgstr "Не використовувати"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options.variants.1"
+msgid "1"
+msgstr "1"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options.variants.2"
+msgid "2"
+msgstr "2"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options.variants.3"
+msgid "3"
+msgstr "3"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options.variants.4"
+msgid "4"
+msgstr "4"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options.variants.5"
+msgid "5"
+msgstr "5"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options.variants.6"
+msgid "6"
+msgstr "6"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options.variants.7"
+msgid "7"
+msgstr "7"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options.variants.8"
+msgid "8"
+msgstr "8"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options.variants.9"
+msgid "9"
+msgstr "9"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options.variants.10"
+msgid "10"
+msgstr "10"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list"
+msgid "Quantity for product list type \"Compact list\""
+msgstr "Кількість для виду списку товарів \"Компактний список\""
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list.tooltip"
+msgid "Specify number of products for preload. Recommended values: <ul><li>Desktop - 7</li><li>Tablet - 8</li><li>Phone - 2</li></ul>"
+msgstr "Вкажіть кількість товарів для попереднього завантаження. Рекомендовані значення: <ul><li>ПК - 7</li><li>Планшет - 8</li><li>Смартфон - 2</li></ul>"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list.variants.0"
+msgid "Do not use"
+msgstr "Не використовувати"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list.variants.1"
+msgid "1"
+msgstr "1"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list.variants.2"
+msgid "2"
+msgstr "2"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list.variants.3"
+msgid "3"
+msgstr "3"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list.variants.4"
+msgid "4"
+msgstr "4"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list.variants.5"
+msgid "5"
+msgstr "5"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list.variants.6"
+msgid "6"
+msgstr "6"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list.variants.7"
+msgid "7"
+msgstr "7"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list.variants.8"
+msgid "8"
+msgstr "8"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list.variants.9"
+msgid "9"
+msgstr "9"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list.variants.10"
+msgid "10"
+msgstr "10"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_main_product_image"
+msgid "Preload main product image"
+msgstr "Попередньо завантажувати головне зображення товару"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_main_product_image.tooltip"
+msgid "Enables preload of the main product image"
+msgstr "Вмикає попереднє завантаження головного зображення товару"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_subcategories"
+msgid "Preload subcategories images"
+msgstr "Попередньо завантажувати зображення підкатегорій"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_subcategories.tooltip"
+msgid "Recommended values: <ul><li>Desktop - 7</li><li>Tablet - 4</li><li>Phone - 4</li></ul>"
+msgstr "Рекомендовані значення: <ul><li>ПК - 7</li><li>Планшет - 4</li><li>Смартфон - 4</li></ul>"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_subcategories.variants.0"
+msgid "Do not use"
+msgstr "Не використовувати"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_subcategories.variants.1"
+msgid "1"
+msgstr "1"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_subcategories.variants.2"
+msgid "2"
+msgstr "2"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_subcategories.variants.3"
+msgid "3"
+msgstr "3"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_subcategories.variants.4"
+msgid "4"
+msgstr "4"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_subcategories.variants.5"
+msgid "5"
+msgstr "5"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_subcategories.variants.6"
+msgid "6"
+msgstr "6"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_subcategories.variants.7"
+msgid "7"
+msgstr "7"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_subcategories.variants.8"
+msgid "8"
+msgstr "8"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_subcategories.variants.9"
+msgid "9"
+msgstr "9"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.preload_subcategories.variants.10"
+msgid "10"
+msgstr "10"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.subcategories_pov"
+msgid "Part of the browser window that every subcategory takes place"
+msgstr "Частина вікна браузера, що займає кожна підкатегорія"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.subcategories_pov.tooltip"
+msgid "Is a part of the first screen that image takes place"
+msgstr "Частина першого екрану, що займає зображення"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns_pov"
+msgid "Part of the browser window that a product takes place in the \"Grid\" list"
+msgstr "Частина вікна браузера, що займає товар у списку \"Сітка\""
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_multicolumns_pov.tooltip"
+msgid "Is a part of the first screen that image takes place"
+msgstr "Частина першого екрану, що займає зображення"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options_pov"
+msgid "Part of the browser window that a product takes place in the \"List without options\" list"
+msgstr "Частина вікна браузера, що займає товар у списку \"Список без опцій\""
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.products_without_options_pov.tooltip"
+msgid "Is a part of the first screen that image takes place"
+msgstr "Частина першого екрану, що займає зображення"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list_pov"
+msgid "Part of the browser window that a product takes place in the \"Compact list\""
+msgstr "Частина вікна браузера, що займає товар у списку \"Компактний список\""
+
+msgctxt "Languages::abt__yt.settings.addons.ab__preload.short_list_pov.tooltip"
+msgid "Is a part of the first screen that image takes place"
+msgstr "Частина першого екрану, що займає зображення"
+
+msgctxt "Languages::privilege_groups.ab__preload"
+msgid "AB: Preload"
+msgstr "AB: Preload (Попереднє завантаження)"
+
+msgctxt "Languages::privileges.ab__preload.manage_data"
+msgid "Manage preload data"
+msgstr "Керування даними попереднього завантаження"
+
+msgctxt "Languages::privileges.ab__preload.view_data"
+msgid "View preload data"
+msgstr "Перегляд даних попереднього завантаження"
+
+#. Alexbranding. Do not modify this file manually!

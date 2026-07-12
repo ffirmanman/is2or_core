@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__seo_brands</id>
+<version>1.4.2</version>
+<priority>2020</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<ab>
+<hash>712f4b613e43932ebcf2652c8cf9495eaad90659, 2025-10-28 18:21:40</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.5.6</min></ab__addons_manager>
+</dependencies>
+</compatibility>
+</ab>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<compatibility>
+<conflicts></conflicts>
+<dependencies>ab__addons_manager</dependencies>
+<core_version><min>4.13.1</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+<php_extensions>
+<mbstring>
+<supported>Y</supported>
+</mbstring>
+</php_extensions>
+</compatibility>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="settings">
+<items>
+<item id="ab__as">
+<type>header</type>
+</item>
+<item id="ab__as_add_to_sitemap">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="code"><type>hidden</type><default_value>ABA-EXqffHz3dCVWrieBNYpB1</default_value></item>
+<item id="build"><type>hidden</type><default_value>1255</default_value></item>
+</items>
+</section>
+</sections>
+</settings>
+<functions>
+<item for="install">fn_ab__seo_brands_install</item>
+</functions>
+<queries>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__sb.data.manage', 'Y', 'ab__addons', 'ab__seo_brands', 'N')</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__sb.data.view', 'Y', 'ab__addons', 'ab__seo_brands', 'Y')</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__seo_brands' OR group_id = 'ab__seo_brands'</item>
+</queries>
+</addon>

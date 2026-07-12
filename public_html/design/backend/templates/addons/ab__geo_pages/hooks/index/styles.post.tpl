@@ -1,0 +1,1 @@
+{style src="addons/ab__geo_pages/styles.less"}

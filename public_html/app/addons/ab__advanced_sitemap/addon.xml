@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__advanced_sitemap</id>
+<version>2.6.3</version>
+<priority>2016</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<compatibility>
+<conflicts>google_sitemap</conflicts>
+<dependencies>ab__addons_manager</dependencies>
+<core_version><min>4.13.3</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<ab>
+<hash>88200128dc43932ed0655f5b7049fda42ed7aea1, 2024-11-26 12:33:38</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.5.3</min></ab__addons_manager>
+<ab__images_seo><min>2.4.1</min></ab__images_seo>
+</dependencies>
+</compatibility>
+</ab>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="general">
+<items>
+<item id="exclude_categories">
+<type>selectbox</type>
+<default_value>without_products</default_value>
+<variants>
+<item id="none"> </item>
+<item id="without_products"> </item>
+<item id="without_product_amount"> </item>
+<item id="without_product_price"> </item>
+<item id="without_product_amount_and_price"> </item>
+</variants>
+</item>
+<item id="exclude_brands">
+<type>selectbox</type>
+<default_value>without_products</default_value>
+<variants>
+<item id="none"> </item>
+<item id="without_products"> </item>
+<item id="without_product_amount"> </item>
+<item id="without_product_price"> </item>
+<item id="without_product_amount_and_price"> </item>
+</variants>
+</item>
+<item id="exclude_products">
+<type>selectbox</type>
+<default_value>none</default_value>
+<variants>
+<item id="none"> </item>
+<item id="without_amount"> </item>
+<item id="without_price"> </item>
+<item id="without_amount_and_price"> </item>
+</variants>
+</item>
+<item id="exclude_products_variations">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="code"><type>hidden</type><default_value>ABA-9Bvlfc8wwe0Xjpiuyj9ps</default_value></item>
+<item id="build"><type>hidden</type><default_value>1196</default_value></item>
+</items>
+</section>
+<section id="xml_sitemap">
+<items>
+<item id="enable_xml_sitemap">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="xml_sitemap_directory">
+<type>input</type>
+</item>
+<item id="include_companies" edition_type="MVE:ROOT,MVE:STOREFRONT">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="add_lastmod">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="products_settings">
+<type>header</type>
+</item>
+<item id="include_products">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="products_changefreq">
+<type>selectbox</type>
+<default_value>daily</default_value>
+</item>
+<item id="products_priority">
+<type>selectbox</type>
+<default_value>0.5</default_value>
+</item>
+<item id="add_vendor_offers" edition_type="MVE:ROOT,MVE:STOREFRONT">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="categories_settings">
+<type>header</type>
+</item>
+<item id="include_categories">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="categories_changefreq">
+<type>selectbox</type>
+<default_value>daily</default_value>
+</item>
+<item id="categories_priority">
+<type>selectbox</type>
+<default_value>0.5</default_value>
+</item>
+<item id="pages_settings">
+<type>header</type>
+</item>
+<item id="include_pages">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="include_blog">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="pages_changefreq">
+<type>selectbox</type>
+<default_value>daily</default_value>
+</item>
+<item id="pages_priority">
+<type>selectbox</type>
+<default_value>0.5</default_value>
+</item>
+<item id="feature_variants_settings">
+<type>header</type>
+</item>
+<item id="include_extended">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="feature_variants_changefreq">
+<type>selectbox</type>
+<default_value>daily</default_value>
+</item>
+<item id="feature_variants_priority">
+<type>selectbox</type>
+<default_value>0.5</default_value>
+</item>
+<item id="custom_links_settings">
+<type>header</type>
+</item>
+<item id="custom_links_changefreq">
+<type>selectbox</type>
+<default_value>daily</default_value>
+</item>
+<item id="custom_links_priority">
+<type>selectbox</type>
+<default_value>0.5</default_value>
+</item>
+<item id="other_links_settings">
+<type>header</type>
+</item>
+<item id="other_links_changefreq">
+<type>selectbox</type>
+<default_value>daily</default_value>
+</item>
+<item id="other_links_priority">
+<type>selectbox</type>
+<default_value>0.5</default_value>
+</item>
+<item id="languages_locales_header">
+<type>header</type>
+</item>
+<item id="languages_locales">
+<type>hidden</type>
+</item>
+<item id="languages_locales_tmpl">
+<type>template</type>
+<default_value>languages_locales.tpl</default_value>
+</item>
+</items>
+</section>
+<section id="html_sitemap">
+<items>
+<item id="enable_html_sitemap">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+</items>
+</section>
+<section id="xml_images_map">
+<items>
+<item id="enable_xml_images_map">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="add_title_and_caption">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="add_variation_features_description" parent_id="add_title_and_caption">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+</items>
+</section>
+</sections>
+</settings>
+<queries>
+<item>
+CREATE TABLE IF NOT EXISTS `?:ab__as_links` (
+`link` varchar(255) NOT NULL,
+`company_id` int(11) unsigned NOT NULL default 0,
+PRIMARY KEY (`link`,`company_id`)
+) DEFAULT CHARSET UTF8;
+</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__as.manage', 'Y', 'ab__addons', 'ab__advanced_sitemap', 'N')</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__as.view', 'Y', 'ab__addons', 'ab__advanced_sitemap', 'Y')</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__advanced_sitemap' OR group_id = 'ab__advanced_sitemap'</item>
+</queries>
+<functions>
+<item for="install">fn_ab__advanced_sitemap_install</item>
+</functions>
+</addon>

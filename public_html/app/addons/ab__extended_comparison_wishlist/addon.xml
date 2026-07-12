@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__extended_comparison_wishlist</id>
+<version>1.2.1</version>
+<priority>2021</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<ab>
+<hash>924712eb8ae6e3bea014f6bae691315cde9518e7, 2023-02-23 12:07:18</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.5.0</min></ab__addons_manager>
+<abt__unitheme2><min>4.16.1.b</min></abt__unitheme2>
+</dependencies>
+</compatibility>
+</ab>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<compatibility>
+<dependencies>ab__addons_manager</dependencies>
+<core_version><min>4.13.1</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="settings">
+<items>
+<item id="group_comparison_lists"><type>checkbox</type><default_value>Y</default_value></item>
+<item id="group_by">
+<type>selectbox</type>
+<default_value>main_category</default_value>
+</item>
+<item id="show_popup_on_adding"><type>checkbox</type><default_value>Y</default_value></item>
+<item id="open_compare_page_with_add_to_compare_button">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="show_company_name" edition_type="MVE:ROOT">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="show_product_names">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="features_filter_behavior">
+<type>selectbox</type>
+<default_value>reload_page</default_value>
+</item>
+<item id="code"><type>hidden</type><default_value>ABA-ZZM7a05pcZC15NankwPgP</default_value></item>
+<item id="build"><type>hidden</type><default_value>1103</default_value></item>
+</items>
+</section>
+</sections>
+</settings>
+<functions>
+<item for="install">fn_ab__ecw_install</item>
+</functions>
+<queries>
+<item for="install">
+CREATE TABLE IF NOT EXISTS ?:ab__ecw_comparison_info (
+product_id MEDIUMINT(8) unsigned NOT NULL,
+compared_product_id MEDIUMINT(8) unsigned NOT NULL,
+count MEDIUMINT(8) unsigned NOT NULL DEFAULT 0,
+list_id MEDIUMINT(8) unsigned NOT NULL DEFAULT 0,
+group_by VARCHAR(128) NOT NULL DEFAULT '',
+PRIMARY KEY (product_id, compared_product_id, list_id, group_by),
+INDEX (count),
+INDEX (group_by)
+) DEFAULT CHARSET UTF8;
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS ?:ab__ecw_comparison_pages (
+page_id MEDIUMINT(8) unsigned NOT NULL AUTO_INCREMENT,
+product_ids MEDIUMTEXT,
+category_ids MEDIUMTEXT,
+status CHAR(1) NOT NULL DEFAULT 'A',
+storefront_id MEDIUMINT(8) unsigned NOT NULL DEFAULT 0,
+timestamp INT(11) unsigned NOT NULL DEFAULT 0,
+PRIMARY KEY (page_id)
+) DEFAULT CHARSET UTF8;
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS ?:ab__ecw_comparison_page_descriptions (
+page_id MEDIUMINT(8) unsigned NOT NULL,
+name VARCHAR(256) NOT NULL DEFAULT '',
+short_description MEDIUMTEXT,
+description MEDIUMTEXT,
+page_title VARCHAR(256) NOT NULL DEFAULT '',
+meta_description VARCHAR(512) NOT NULL DEFAULT '',
+meta_keywords VARCHAR(512) NOT NULL DEFAULT '',
+lang_code CHAR(2) NOT NULL DEFAULT '',
+PRIMARY KEY (page_id, lang_code),
+FOREIGN KEY (page_id) REFERENCES ?:ab__ecw_comparison_pages (page_id) ON DELETE CASCADE
+) DEFAULT CHARSET UTF8;
+</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__ecw.data.manage', 'Y', 'ab__addons', 'ab__extended_comparison_wishlist', 'N')</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__ecw.data.view', 'Y', 'ab__addons', 'ab__extended_comparison_wishlist', 'Y')</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__extended_comparison_wishlist' OR group_id = 'ab__extended_comparison_wishlist'</item>
+</queries>
+</addon>

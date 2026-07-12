@@ -1,0 +1,280 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::csc_virtual_categories"
+msgid "Virtual categories"
+msgstr "Виртуальные категории"
+
+msgctxt "Addons::description::csc_virtual_categories"
+msgid "Virtual categories for your store. Developed by <b> <a href=\"http://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+msgstr "Виртуальные категории в вашем магазине. Разработчик <b> <a href=\"http://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+
+msgctxt "Languages::cvc_addons"
+msgid "CS-Commerce Addons"
+msgstr "Модули CS-Commerce"
+
+msgctxt "Languages::privilege_groups.csc_virtual_categories"
+msgid "Manage Virtual categories add-ons"
+msgstr "Управление модулем Виртуальные категории"
+
+msgctxt "Languages::cvc.rate_us"
+msgid "Like this addon? Rate it!"
+msgstr "Поставить оценку модулю"
+
+msgctxt "Languages::cvc.other_addons"
+msgid "Other our addons →"
+msgstr "Другие наши модули →"
+
+msgctxt "Languages::cvc.documentation"
+msgid "Documentation"
+msgstr "Документация"
+
+msgctxt "Languages::cvc.feedback"
+msgid "Have questions? Mail us!"
+msgstr "Есть вопросы? Пишите нам!"
+
+msgctxt "Languages::cvc.addon_upgrades"
+msgid "Add-on upgrades"
+msgstr "Обновления модуля"
+
+msgctxt "Languages::cvc.license_error"
+msgid "License error"
+msgstr "Ошибка лицензии"
+
+msgctxt "Languages::cvc.current_v"
+msgid "Installed version"
+msgstr "Установлена версия"
+
+msgctxt "Languages::cvc.new_v"
+msgid "New add-on version"
+msgstr "Новая версия модуля"
+
+msgctxt "Languages::cvc.actual_version_installed"
+msgid "The latest version is installed"
+msgstr "Вы используете последнюю версию модуля"
+
+msgctxt "Languages::cvc.prolongate"
+msgid "Prolongate subscription"
+msgstr "Продлить подписку"
+
+msgctxt "Languages::cvc.days_left"
+msgid "<b>[n]</b> day left until the end of the subscription|<b>[n]</b> days left until the end of the subscription"
+msgstr "До конца подписки <b>[n] день</b>|До конца подписки <b>[n] дня</b>|До конца подписки <b>[n] дней</b>"
+
+msgctxt "Languages::cvc.subscription_expired"
+msgid "Upgrade subscription expired"
+msgstr "Подписка на обновления истекла"
+
+msgctxt "Languages::cvc.prolongate_discount"
+msgid "Renew your subscription with a <b>30% discount until [date]</b>"
+msgstr "Продлевайте подписку со скидкой <b>30% до [date]</b>"
+
+msgctxt "Languages::cvc.upgrade"
+msgid "Upgrade center"
+msgstr "Центр обновлений"
+
+msgctxt "Languages::csc_virtual_categories"
+msgid "Virtual categories"
+msgstr "Виртуальные категории"
+
+msgctxt "Languages::cvc.is_virtual"
+msgid "Make category virtual"
+msgstr "Сделать категорию виртуальной"
+
+msgctxt "Languages::cvc.is_virtual_tlp"
+msgid "If category marked as virtual - products on this category will be displayed depending of conditions above"
+msgstr "Если категория отмечена как виртуальная  - товары в этой категории будут выводится согласно указанным ниже условиям"
+
+msgctxt "Languages::cvc.cond_any"
+msgid "any"
+msgstr "любое"
+
+msgctxt "Languages::cvc.cond_all"
+msgid "all"
+msgstr "каждое"
+
+msgctxt "Languages::cvc.cond_true"
+msgid "true"
+msgstr "выполняется"
+
+msgctxt "Languages::cvc.cond_false"
+msgid "false"
+msgstr "не выполняется"
+
+msgctxt "Languages::cvc.cond_price"
+msgid "Product price"
+msgstr "Цена товара"
+
+msgctxt "Languages::cvc.cond_discount_prc"
+msgid "Product discount (%)"
+msgstr "Скидка на товар (%)"
+
+msgctxt "Languages::cvc.cond_categories"
+msgid "Categories"
+msgstr "Категории"
+
+msgctxt "Languages::cvc.cond_feature"
+msgid "Product feature"
+msgstr "Характеристика товара"
+
+msgctxt "Languages::cvc.cond_products"
+msgid "Products"
+msgstr "Товары"
+
+msgctxt "Languages::cvc.cond_product_weight"
+msgid "Product weight"
+msgstr "Вес товара"
+
+msgctxt "Languages::cvc.cond_product_name"
+msgid "Product name"
+msgstr "Название товара"
+
+msgctxt "Languages::cvc.cond_product_amount"
+msgid "Product amount"
+msgstr "Кол-во товара на складе"
+
+msgctxt "Languages::cvc.cond_product_popularity"
+msgid "Product popularity"
+msgstr "Популярность товара"
+
+msgctxt "Languages::cvc.cond_product_timestamp"
+msgid "Product create date"
+msgstr "Дата создания товара"
+
+msgctxt "Languages::cvc.cond_product_sales"
+msgid "Product sales"
+msgstr "Кол-во продаж товара"
+
+msgctxt "Languages::cvc.cond_reviews_count"
+msgid "Product reviews count"
+msgstr "Кол-во отзывов на товар"
+
+msgctxt "Languages::cvc.cond_avg_rating"
+msgid "Product average rating"
+msgstr "Средняя оценка товара"
+
+msgctxt "Languages::cvc.cond_vendor"
+msgid "Vendor"
+msgstr "Продавец"
+
+msgctxt "Languages::promotion_op_like"
+msgid "Like"
+msgstr "Соответствует"
+
+msgctxt "Languages::cvc.tab_general"
+msgid "General"
+msgstr "Основная"
+
+msgctxt "Languages::cvc.settings_descr"
+msgid "This addon no have global settings yet. All settings are on the category update page on \"Virtual categories\" tab. "
+msgstr "Этот модуль пока не имеет глобальных настроек. Все необходимые настройки находятся на странице редактирования категории во вкладке «Виртуальные категории»."
+
+msgctxt "Languages::cid"
+msgid "Category"
+msgstr "Категория"
+
+msgctxt "Languages::sort_order"
+msgid "Sort order"
+msgstr "Направление сортировки"
+
+msgctxt "Languages::is_virtual"
+msgid "Is virtual"
+msgstr "Виртуальная"
+
+msgctxt "Languages::cvc.settings"
+msgid "Settings"
+msgstr "Настройки"
+
+msgctxt "Languages::cvc.menu"
+msgid "Menu"
+msgstr "Меню"
+
+msgctxt "Languages::cvc.manage"
+msgid "Manage categories"
+msgstr "Управление категориями"
+
+
+
+
+msgctxt "Languages::cvc.linked_success"
+msgid "Products linked success"
+msgstr "Линковка товаров завершена успешно"
+
+msgctxt "Languages::cvc.run_linking"
+msgid "Run virtual linking"
+msgstr "Запустить виртуальную линковку"
+
+msgctxt "Languages::cvc.title_header_mode"
+msgid "Global mode"
+msgstr "Глобальный режим работы"
+
+
+msgctxt "Languages::cvc.mode"
+msgid "Mode"
+msgstr "Режим"
+
+msgctxt "Languages::cvc.realtime"
+msgid "Virtual (realtime) mode"
+msgstr "Виртуальный режим (режим реального времени)"
+
+msgctxt "Languages::cvc.cron_mode"
+msgid "Hard linked mode"
+msgstr "Физическая привязка товара к виртуальной категории"
+
+msgctxt "Languages::cvc.how_to_use_cron"
+msgid "<p>Hard linked mode need regulare update products links to virtual categories. There are possibility to do it manualy by click \"Run virtual linking\" on options menu on this page (for all virtual categories) and on category update page for specific category.</p>
+<p>Best way to atomatize linking - is configure cron job on your server:</p>"
+msgstr "<p>В режиме \"Физическая привязка\" требует периодического обновления привязки товаров к виртуальной категории, т.к ваш каталог может наполнятся новыми товарами. Есть возможность обновлять привязку в ручном режиме на этой странице в меню шестеренки \"Запустить виртуальную линковку\" и на каждой странице редактирования категории для конкретной категории.</p>
+<p>Наиболее удобный способ осуществлять привязку - это настройка Cron-команды на сервере:</p>
+"
+
+msgctxt "Languages::cvc.cron_console_cmd"
+msgid "Console command (recommended)"
+msgstr "Команда (рекомендуется)"
+
+
+msgctxt "Languages::cvc.cron_wget_cmd"
+msgid "Alternative Console command"
+msgstr "Альтернативная команда"
+
+msgctxt "Languages::cvc.mode_settings_info"
+msgid "<p><b>Virtual mode</b> - products will be displayed on virtual category without directly links to the virtual category. When customer opens virtual category - products will be displayed according virtual category settings in real time.</p>
+<p><b>Hard linked mode</b> - products will be attached to virtual category by directly links. Hard linked mode can be used also for automatically fillings products into categories. And if you unmark than category as virtual - products will be stayed on this category.</p>"
+msgstr "<p><b>Виртуальный режим</b> - товары будут отображаться в виртуальной категории без прямых ссылок на виртуальную категорию. Когда покупатель открывает виртуальную категорию - товары будут отображаться в соответствии с настройками виртуальной категории в режиме реального времени. </p>
+<p><b>Физическая привязка</b> - товары будут привязаны к виртуальной категории напрямую. Режим жесткой привязки можно использовать также для автоматического распределения товаров по категориям. А если убрать галочку напротив категории как виртуальные - привязка товаров к данной категории останется. </p>"
+
+msgctxt "Languages::cvc.title_settings"
+msgid "Other settings"
+msgstr "Другие настройки"
+
+msgctxt "Languages::cvc.hide_virtual_cats"
+msgid "Hide virtual categories on pickers"
+msgstr "Скрывать виртуальные категории в селекторах категорий"
+
+msgctxt "Languages::cvc.hide_virtual_cats_tooltip"
+msgid "This can helps you to hide category on product update page or on another categories pickers."
+msgstr "Если вы не хотите что бы виртуальные категории отображались на странице редактирования товара."
+
+msgctxt "Languages::cvc.cond_supplier"
+msgid "Supplier"
+msgstr "Поставщик"
+
+
+msgctxt "Languages::cvc.cond_product_days"
+msgid "Product created, days"
+msgstr "Товар создан, дней"
+
+msgctxt "Languages::cvc.cond_last_review_days"
+msgid "It's been days since the last review"
+msgstr "Прошло дней с момента последнего отзыва"
+
+msgctxt "Languages::cvc.lost_products_category"
+msgid "\"Virtual categories\" lost products"
+msgstr "\"Виртуальные категории\" потерянные товары"
+
+msgctxt "Languages::cvc.lost_products_category_description"
+msgid "If at the time of hard mode linking the product did not have a main category and it was not bound anywhere, then it falls into this category"
+msgstr "Если во время физической привязки у товара не было главной категории и он никуда не привязался, то он попадает в эту категорию"

@@ -1,0 +1,49 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cr_vendor_page_pro"
+msgid "[Cart Rocks] Vendor Page Pro"
+msgstr "[Cart Rocks] Vendor Page Pro"
+
+msgctxt "Addons::description::cr_vendor_page_pro"
+msgid "Professional vendor page template and blocks. Developed by <a href=\"https://cartrocks.com\" target=\"_blank\">Cart Rocks</a>"
+msgstr "Professional vendor page template and blocks. Developed by <a href=\"https://cartrocks.com\" target=\"_blank\">Cart Rocks</a>"
+
+msgctxt "SettingsOptions::cr_vendor_page_pro::license_key"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "SettingsOptions::cr_vendor_page_pro::header_vendor_page_pro"
+msgid "Vendor logo size"
+msgstr "Vendor logo size"
+
+msgctxt "SettingsOptions::cr_vendor_page_pro::vendor_logo_width"
+msgid "Vendor logo width"
+msgstr "Vendor logo width"
+
+msgctxt "SettingsOptions::cr_vendor_page_pro::vendor_logo_height"
+msgid "Vendor logo height"
+msgstr "Vendor logo height"
+
+msgctxt "SettingsOptions::cr_vendor_page_pro::pd_show_vendor_logo"
+msgid "Show vendor logo on product page(inside vendor box)"
+msgstr "Show vendor logo on product page(inside vendor box)"
+
+msgctxt "SettingsOptions::cr_vendor_page_pro::pd_vendor_logo_width"
+msgid "Product page vendor logo width"
+msgstr "Product page vendor logo width"
+
+msgctxt "SettingsOptions::cr_vendor_page_pro::pd_vendor_logo_height"
+msgid "Product page vendor logo height"
+msgstr "Product page vendor logo height"
+
+msgctxt "Languages::cr_vendor_reviews"
+msgid "review(s)"
+msgstr "review(s)"
+
+msgctxt "Languages::cr_visit_store"
+msgid "Visit Store"
+msgstr "Visit Store"

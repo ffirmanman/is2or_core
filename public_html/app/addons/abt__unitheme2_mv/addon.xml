@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>abt__unitheme2_mv</id>
+<version>4.20.1.a</version>
+<priority>10010</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<ab>
+<hash>331208818a32232da404d691045625e8e3225774, 2026-06-04 12:07:31</hash>
+<layout_version>mv11</layout_version>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.5.9</min></ab__addons_manager>
+<abt__unitheme2><min>4.19.1.c</min></abt__unitheme2>
+</dependencies>
+</compatibility>
+</ab>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<compatibility>
+<dependencies>abt__unitheme2,ab__addons_manager</dependencies>
+<conflicts>abt__unitheme,abt__youpitheme</conflicts>
+<core_version><min>4.19.1</min></core_version>
+<core_edition>MULTIVENDOR</core_edition>
+</compatibility>
+<settings edition_type="ROOT,VENDOR,STOREFRONT" layout="separate">
+<sections>
+<section id="settings">
+<items>
+<item id="code"><type>hidden</type><default_value>ABA-XFins6qht1xNtVJKMzZ7R</default_value></item>
+<item id="build"><type>hidden</type><default_value>1276</default_value></item>
+</items>
+</section>
+</sections>
+</settings>
+<functions>
+<item for="install">fn_abt__ut2_mv_copy_layouts</item>
+<item for="install">fn_abt__ut2_mv_remove_cscart_layouts</item>
+<item for="install">fn_abt__ut2_mv_install</item>
+</functions>
+<queries>
+<item for="install">
+CREATE TABLE IF NOT EXISTS ?:abt__ut2_mv_vendor_blocks(
+company_id INT(11) NOT NULL DEFAULT '0',
+block_id INT(11) NOT NULL DEFAULT '0',
+position INT(11) NOT NULL DEFAULT '0',
+status CHAR(1) NOT NULL DEFAULT 'A',
+snow_title CHAR(1) NOT NULL DEFAULT 'N',
+PRIMARY KEY (company_id, block_id)
+) DEFAULT CHARSET=utf8;
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS `?:abt__ut2_mv_vendor_custom_metadata` (
+company_id INT(11) NOT NULL,
+lang_code CHAR(2) NOT NULL,
+page VARCHAR(255) NOT NULL,
+name VARCHAR(255) NOT NULL,
+value TEXT NOT NULL,
+PRIMARY KEY (company_id, lang_code,page, name)
+) DEFAULT CHARSET=utf8;
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS ?:abt__ut2_mv_vendor_banners(
+company_id INT(11) NOT NULL DEFAULT '0',
+type VARCHAR(25) NOT NULL DEFAULT '',
+banner_id INT(11) NOT NULL DEFAULT '0',
+PRIMARY KEY (company_id, type)
+) DEFAULT CHARSET=utf8;
+</item>
+</queries>
+</addon>

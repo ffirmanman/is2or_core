@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>hw_infocenter</id>
+    <version>1.3.0</version>
+    <priority>1800</priority>
+    <position>0</position>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <supplier>Hungryweb</supplier>
+    <supplier_link>https://www.hungryweb.net</supplier_link>
+    <authors>
+        <author>
+            <name>Hungryweb</name>
+            <email>info@hungryweb.net</email>
+            <url>https://www.hungryweb.net</url>
+        </author>
+    </authors>
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="license_updates">
+                <items>
+                    <item id="license">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="license_info_generate">
+                        <type>info</type>
+                        <handler>fn_hw_infocenter_license_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>    
+    <compatibility>
+        <core_version>
+            <min>4.12.2</min>
+        </core_version>    
+    </compatibility>
+    <functions>
+        <item for="install">fn_hw_infocenter_install</item>
+        <item for="uninstall">fn_hw_infocenter_uninstall</item>
+    </functions>  
+<marketplace_product_id>4108</marketplace_product_id><marketplace_license_number>MP-B872-69Q4-27XW-IWD9</marketplace_license_number></addon>

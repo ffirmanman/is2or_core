@@ -1,0 +1,307 @@
+/*******************************************************************************************
+*   ___  _          ______                     _ _                _                        *
+*  / _ \| |         | ___ \                   | (_)              | |              © 2026   *
+* / /_\ | | _____  _| |_/ /_ __ __ _ _ __   __| |_ _ __   __ _   | |_ ___  __ _ _ __ ___   *
+* |  _  | |/ _ \ \/ / ___ \ '__/ _` | '_ \ / _` | | '_ \ / _` |  | __/ _ \/ _` | '_ ` _ \  *
+* | | | | |  __/>  <| |_/ / | | (_| | | | | (_| | | | | | (_| |  | ||  __/ (_| | | | | | | *
+* \_| |_/_|\___/_/\_\____/|_|  \__,_|_| |_|\__,_|_|_| |_|\__, |  \___\___|\__,_|_| |_| |_| *
+*                                                         __/ |                            *
+*                                                        |___/                             *
+* ---------------------------------------------------------------------------------------- *
+* This is commercial software, only users who have purchased a valid license and accept    *
+* to the terms of the License Agreement can install and use this program.                  *
+* ---------------------------------------------------------------------------------------- *
+* website: https://cs-cart.alexbranding.com                                                *
+*   email: info@alexbranding.com                                                           *
+*******************************************************************************************/
+/*==============================================================================
+   [[[ BEGIN ]]] Multi-Vendor cart with "direct_payments" module enabled
+==============================================================================*/
+.ty-mainbox-title.ty-mve-title {
+	flex-wrap: nowrap;
+	align-items: baseline;
+	column-gap: var(--gap-l);
+	row-gap: var(--gap-xs);
+
+	@media (max-width: 1023px) {
+		flex-wrap: wrap;
+	}
+
+	.heading {
+		.mxn_good-wrap-text-containing-long-word();
+		min-inline-size: 0;
+		flex-grow: 1;
+	}
+
+	.ty-mve-total {
+		font-size: calc(var(--font-size-extra-big) - 8px);
+		padding: initial;
+		white-space: nowrap;
+
+		@media (max-width: 1023px) {
+			white-space: initial;
+		}
+
+		.caption {
+			color: var(--color-font-lighten-max);
+		}
+	}
+}
+
+.ut2-mv-dp_cart-hint {
+	.mxn_content-hint();
+}
+
+.ut2-mv-dp_vendor-cart {
+	border-radius: var(--border-radius-box);
+	border: 1px solid var(--color-base);
+	margin-block: calc(var(--gap-xs) * 2);
+}
+
+.ut2-mv-dp_vendor-cart__header {
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	cursor: pointer;
+	padding-inline: var(--gap-sm);
+	padding-block: var(--gap-s);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: var(--gap-m);
+
+	@media (hover: hover) and (pointer: fine) {
+		&:hover {
+			.header-main > [class*=ut2-icon-],
+			.order-number {
+				color: var(--color-links-active);
+			}
+		}
+	}
+	@media (max-width: 833px) {
+		display: block;
+	}
+
+	&.open {
+		.header-totals {
+			display: none !important;
+		}
+	}
+
+	&:not(.open) {
+		.header-main > [class*=ut2-icon-] {
+			transform: rotate(-90deg);
+		}
+	}
+
+	.header-main {
+		position: relative;
+		padding-inline-start: 30px;
+
+		> [class*=ut2-icon-] {
+			font-size: 30px;
+			inline-size: 30px;
+			block-size: 30px;
+			position: absolute;
+			inset-inline-start: calc(var(--gap-xxs) * -1);
+			inset-block-start: 5px;
+			margin-block: auto;
+			color: var(--color-links);
+			transition: color @common-duration;
+		}
+	}
+
+	.order-number {
+		font-size: calc(var(--font-size-large) + 2px);
+		line-height: calc(var(--font-size-large) + 4px);
+		font-weight: bold;
+		white-space: nowrap;
+		color: var(--color-links);
+		transition: color @common-duration;
+	}
+
+	.order-vendor {
+		.ty-control-group {
+			display: flex;
+			column-gap: var(--gap-xxs);
+			margin: initial;
+
+			@media (max-width: 833px) {
+				flex-wrap: wrap;
+			}
+
+			&::before,
+			&::after {
+				content: initial;
+			}
+		}
+
+		.ty-control-group__label,
+		.ty-control-group__item {
+			line-height: calc(var(--font-size-normal) + 4px);
+			padding: initial;
+			margin: initial;
+			width: initial;
+		}
+
+		.ty-control-group__label {
+			cursor: pointer; // restore pointer cursor
+			flex-shrink: 0;
+		}
+
+		.ty-control-group__item {
+			.mxn_good-wrap-text-containing-long-word();
+			.ut2_line_clamp(2);
+		}
+	}
+
+	.header-totals {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		column-gap: var(--gap-s);
+
+		@media (max-width: 833px) {
+			padding-inline-start: 30px;
+		}
+
+		@media (max-width: 575px) {
+			padding-inline-start: initial;
+			padding-block-start: var(--gap-sm);
+			border-block-start: 1px solid var(--color-base);
+			margin-block-start: var(--gap-sm);
+			display: block;
+		}
+	}
+
+	.header-totals__cost {
+		text-align: end;
+
+		@media (max-width: 833px) {
+			text-align: start;
+		}
+
+		@media (max-width: 575px) {
+			display: flex;
+			align-items: baseline;
+			justify-content: space-between;
+			column-gap: var(--gap-xs);
+			margin-block-end: var(--gap-sm);
+		}
+
+		@media (max-width: 460px) {
+			align-items: center;
+		}
+	}
+
+	.header-totals__caption {
+		line-height: 18px;
+		color: var(--color-font-lighten);
+		white-space: nowrap;
+
+		@media (max-width: 575px) {
+			white-space: initial;
+			min-inline-size: 0;
+		}
+	}
+
+	.header-totals__products-count {
+		white-space: nowrap;
+	}
+
+	.header-totals__price {
+		font-size: var(--price-font-size);
+		line-height: 22px;
+		font-weight: bold;
+		white-space: nowrap;
+		flex-shrink: 0;
+	}
+
+	.ty-btn {
+		font-weight: bold;
+		flex-shrink: 0;
+
+		@media (max-width: 575px) {
+			inline-size: 100%;
+		}
+	}
+}
+
+.ut2-mv-dp_vendor-cart__container {
+	display: flex;
+	align-items: start;
+	column-gap: var(--gap-l);
+	padding-inline: var(--gap-sm);
+
+	&:has(.ui-widget-overlay) {
+		position: relative;
+		z-index: 6;
+
+		.ut2-cart-checkout_totals {
+			z-index: -1;
+		}
+	}
+
+	@media (max-width: 1023px) {
+		display: block;
+	}
+}
+
+.ut2-mv-dp_vendor-cart__items,
+.ut2-mv-dp_vendor-cart__totals {
+	position: sticky;
+	inset-block-start: calc(var(--js_rt_overall-top_-stuck-_height) + var(--gap-s));
+
+	@media (max-width: 1023px) {
+		position: initial;
+	}
+}
+
+.ut2-mv-dp_vendor-cart__items {
+	min-inline-size: 0;
+	flex-basis: 0;
+	flex-grow: 1;
+
+	.ut2-cart-content {
+		margin-block-start: calc(~'var(--gap-xs) * -1');
+
+		@media (max-width: 1023px) {
+			margin-block-start: calc(~'var(--gap-xxs) * -1');
+			margin-block-end: var(--gap-xxs);
+		}
+	}
+}
+
+.ut2-mv-dp_vendor-cart__totals.ut2-cart-checkout_totals {
+	inline-size: 30%;
+
+	@media (max-width: 1023px) {
+		inline-size: initial;
+		margin-inline: calc(var(--gap-sm) * -1);
+		margin-block-end: initial;
+	}
+
+	.heading {
+		font-size: var(--font-size-large);
+		font-weight: bold;
+		.mxn_good-wrap-text-containing-long-word();
+		margin-block-end: var(--gap-sm);
+
+		.mix-vendor-parentheses {
+			text-transform: uppercase;
+		}
+	}
+
+	.ut2-buttons-list {
+		.ty-btn {
+			width: 100%;
+		}
+		.ty-btn__tertiary {
+			background: var(--color-general);
+		}
+		.ty-btn__primary {
+			height: var(--height-button); // reset/clean inherited style
+		}
+	}
+}
+/* [[[ END ]]] Multi-Vendor cart with "direct_payments" module enabled
+==============================================================================*/

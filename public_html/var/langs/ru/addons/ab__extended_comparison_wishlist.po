@@ -1,0 +1,351 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__extended_comparison_wishlist"
+msgid "AB: Extended comparison and wishlist"
+msgstr "AB: Расширенные сравнения и отложенные товары"
+
+msgctxt "Addons::description::ab__extended_comparison_wishlist"
+msgid "The add-on uses and extends the functionality of product comparison and wishlist in the CS-Cart / Multi-Vendor platform for Up-sell."
+msgstr "Модуль использует и расширяет функционал сравнения и отложенных товаров в платформе CS-Cart / Multi-Vendor для Up-sell."
+
+msgctxt "Languages::ab__extended_comparison_wishlist"
+msgid "AB: Extended comparison and wishlist"
+msgstr "AB: Расширенные сравнения и отложенные товары"
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::group_comparison_lists"
+msgid "Group products in comparison list"
+msgstr "Группировать товары в списки сравнений"
+
+msgctxt "SettingsTooltips::ab__extended_comparison_wishlist::group_comparison_lists"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::show_popup_on_adding"
+msgid "Show dialog window when adding product to comparison list"
+msgstr "Показывать диалоговое окно при добавлении товара к списку сравнения"
+
+msgctxt "SettingsTooltips::ab__extended_comparison_wishlist::show_popup_on_adding"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::group_by"
+msgid "Group comparison lists by"
+msgstr "Группировать списки сравнений по"
+
+msgctxt "SettingsTooltips::ab__extended_comparison_wishlist::group_by"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::show_company_name"
+msgid "Show vendor's name"
+msgstr "Показывать название продавца"
+
+msgctxt "SettingsTooltips::ab__extended_comparison_wishlist::show_company_name"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::show_product_names"
+msgid "Show product name"
+msgstr "Отображать название товаров"
+
+msgctxt "SettingsTooltips::ab__extended_comparison_wishlist::show_product_names"
+msgid "When the setting is active, product names will be displayed above appropriate feature names on the comparison page and blocks \"Products\" where the template \"AB: Extended comparison and wishlist\" is used: List with feature list\""
+msgstr "При активации данной настройки названия товаров будут отображены над названиями соответствующих характеристик на странице сравнения и в блоках \"Товары\", что используют шаблон \"AB: Расширенные сравнения и отложенные товары: Список со списком характеристик\""
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::features_filter_behavior"
+msgid "Behaviour of the button \"All features\""
+msgstr "Поведение кнопки \"Все характеристики\""
+
+msgctxt "SettingsTooltips::ab__extended_comparison_wishlist::features_filter_behavior"
+msgid "Select a way to place an emphasis on different product features"
+msgstr "Выберите способ акцентирования внимания на различных характеристиках товаров"
+
+msgctxt "SettingsOptions::ab__extended_comparison_wishlist::open_compare_page_with_add_to_compare_button"
+msgid "Open comparison list by second click on the button"
+msgstr "Открывать список сравнения повторным нажатием на кнопку добавления в сравнение"
+
+msgctxt "Languages::ab__ecw.group_by"
+msgid "Group by"
+msgstr "Группировать по"
+
+msgctxt "Languages::ab__extended_comparison_wishlist.settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "Languages::ab__ecw.product_already_in_compare"
+msgid "Product already exists in comparison list"
+msgstr "Товар уже в списке сравнения"
+
+msgctxt "Languages::ab__ecw.comparison_lists"
+msgid "Comparison lists"
+msgstr "Списки сравнений"
+
+msgctxt "Languages::ab__ecw.group_by.main_category"
+msgid "main product category"
+msgstr "главной категории товара"
+
+msgctxt "Languages::ab__ecw.features_filter_behavior.reload_page"
+msgid "Display different features only"
+msgstr "Отобразить только различные характеристики"
+
+msgctxt "Languages::ab__ecw.features_filter_behavior.highlight_differences"
+msgid "Light different features"
+msgstr "Подсветить различные характеристики"
+
+msgctxt "Languages::ab__ecw.copy_link_to_compare_list"
+msgid "Share comparison list"
+msgstr "Поделиться списком сравнения"
+
+msgctxt "Languages::ab__ecw_often_compared"
+msgid "AB: Products are being compared frequently"
+msgstr "AB: Часто сравниваемые товары"
+
+msgctxt "Languages::ab__ecw.link_was_copied"
+msgid "Link was copied to clipboard"
+msgstr "Ссылка скопирована в буфер обмена"
+
+msgctxt "Languages::sort_by_ab__extended_comparison_wishlist_asc"
+msgid "AB: Extended comparison and wishlist: frequently compared at the end"
+msgstr "AB: Расширенные сравнения и отложенные товары: часто сравниваемые в конце"
+
+msgctxt "Languages::sort_by_ab__extended_comparison_wishlist_desc"
+msgid "AB: Extended comparison and wishlist: frequently compared at the beginning"
+msgstr "AB: Расширенные сравнения и отложенные товары: часто сравниваемые в начале"
+
+msgctxt "Languages::abt__ut2.sort_by_ab__extended_comparison_wishlist_asc"
+msgid "AB: Extended comparison and wishlist: frequently compared at the end"
+msgstr "AB: Расширенные сравнения и отложенные товары: часто сравниваемые в конце"
+
+msgctxt "Languages::abt__ut2.sort_by_ab__extended_comparison_wishlist_desc"
+msgid "AB: Extended comparison and wishlist: frequently compared at the beginning"
+msgstr "AB: Расширенные сравнения и отложенные товары: часто сравниваемые в конце"
+
+msgctxt "Languages::ab__ecw_similar_in_stock"
+msgid "Show products \"in stock\" only"
+msgstr "Показывать только товары в наличии"
+
+msgctxt "Languages::ab__ecw_list_with_features"
+msgid "AB: Extended comparison and wishlist: List with features list"
+msgstr "AB: Расширенные сравнения и отложенные товары: Список со списком характеристик"
+
+msgctxt "Languages::ab__ecw_enable_scroller"
+msgid "AB: Enable scroller"
+msgstr "AB: Включить скроллер"
+
+msgctxt "Languages::ab__ecw_min_compares_count"
+msgid "AB: Minimal quantity of comparisons"
+msgstr "AB: Минимальное количество сравнений"
+
+msgctxt "Languages::ab__ecw_min_compares_count.tooltip"
+msgid "Minimal quantity of product comparisons in order for getting into extract. If 0 is specified, all compared products will get into extract"
+msgstr "Минимальное количество сравнений товаров для того, чтоб попасть в выборку. Если указано 0, то в выборку попадут все сравниваемые товары"
+
+msgctxt "Languages::ab__ecw.empty_feature_value"
+msgid "-"
+msgstr "-"
+
+msgctxt "Languages::ab__ecw_show_product_names"
+msgid "AB: Show product names in feature list"
+msgstr "AB: Отображать названия товаров в списке характеристик"
+
+msgctxt "Languages::ab__ecw.view_more_products"
+msgid "Show more [title]"
+msgstr "Смотреть ещё [title]"
+
+msgctxt "Languages::ab__ecw.add_more_products"
+msgid "Add more"
+msgstr "Добавить ещё"
+
+msgctxt "Languages::ab__ecw_enable_add_more"
+msgid "Show link \"Show more...\""
+msgstr "Отобразить ссылку \"Смотреть ещё\""
+
+msgctxt "Languages::ab__ecw_enable_add_to_compare"
+msgid "Show \"Add to comparison list\""
+msgstr "Отобразить \"Добавить к сравнению\""
+
+msgctxt "Languages::ab__ecw.compare.title"
+msgid "Compare: [title]"
+msgstr "Сравниваем: [title]"
+
+msgctxt "Languages::ab__ecw.added_by_addon"
+msgid "Functionality is added by the add-on AB: Extended comparison and wishlist"
+msgstr "Функционал добавлен модулем AB: Расширенные сравнения и отложенные товары"
+
+msgctxt "Languages::ab__ecw.compares_qty"
+msgid "Quantity of comparisons"
+msgstr "Количество сравнений"
+
+msgctxt "Languages::ab__ecw.all_lists"
+msgid "All lists"
+msgstr "Все списки"
+
+msgctxt "Languages::ab__ecw.not_enough_to_compare"
+msgid "Lack of products to compare."
+msgstr "Недостаточно товаров для сравнения."
+
+msgctxt "Languages::ab__ecw_comparison_pages.manage"
+msgid "Manage comparison pages"
+msgstr "Управление страницами сравнения"
+
+msgctxt "Languages::ab__ecw_comparison_pages.add_page"
+msgid "Add comparison page"
+msgstr "Добавить страницу сравнения"
+
+msgctxt "Languages::ab__ecw_comparison_pages.new_page"
+msgid "New comparison page"
+msgstr "Новая страница сравнения"
+
+msgctxt "Languages::ab__ecw.select_some_products"
+msgid "You have to choose products to create comparison page"
+msgstr "Необходимо выбрать товары для создания страницы сравнений"
+
+msgctxt "Languages::ab__ecw_comparison_pages.comparison_page"
+msgid "Comparison page"
+msgstr "Страница сравнения"
+
+msgctxt "Languages::ab__ecw.ab__ecw_comparison_pages.pages_deleted"
+msgid "Comparison page has been deleted|Comparison pages have been deleted"
+msgstr "Страница сравнения удалена|Страницы сравнения удалены"
+
+msgctxt "Languages::ab__ecw_pages_list"
+msgid "Page list"
+msgstr "Список страниц"
+
+msgctxt "Languages::block_ab__ecw_comparison_pages"
+msgid "AB: Comparison pages"
+msgstr "AB: Страницы сравнений"
+
+msgctxt "Languages::ab__ecw_comparison_pages.ab__comparison_page"
+msgid "AB: Comparison page"
+msgstr "AB: Страница сравнения"
+
+msgctxt "Languages::ab__ecw.select_more_products"
+msgid "To produce comparison pages select more than one product"
+msgstr "Нужно выбрать больше одного товара для формирования страницы сравнения"
+
+msgctxt "Languages::ab__ecw.add_products"
+msgid "To create a comparison page, please, select 2 and more products"
+msgstr "Для создания страницы сравнения выберите два и больше товара"
+
+msgctxt "Languages::ab__ecw_pages_extended"
+msgid "Extended page list"
+msgstr "Расширенный список страниц"
+
+msgctxt "Languages::ab__ecw.pages_extended.products_heading"
+msgid "Compare:"
+msgstr "Сравниваем:"
+
+msgctxt "Languages::ab__ecw_show_short_descr"
+msgid "Display short description"
+msgstr "Отобразить краткое описание"
+
+msgctxt "Languages::ab__ecw_show_products_list"
+msgid "Display product list"
+msgstr "Отобразить список товаров"
+
+msgctxt "Languages::ab__ecw_show_date"
+msgid "Display date"
+msgstr "Отобразить дату"
+
+msgctxt "Languages::abt__ut2.less_settings.addons.ab__extended_comparison_wishlist_group"
+msgid "AB: Extended comparison and wishlist"
+msgstr "AB: Расширенные сравнения и отложенные товары"
+
+msgctxt "Languages::abt__ut2.less_settings.addons.ab__extended_comparison_wishlist_group_description"
+msgid "There are settings that influence on elements that were added by the add-on \"AB: Extended comparison and wishlist\""
+msgstr "Ниже представлены настройки, которые воздействуют на элементы добавляемые модулем \"AB: Расширенные сравнения и отложенные товары\""
+
+msgctxt "Languages::abt__ut2.less_settings.addons.ab__extended_comparison_wishlist.block_background"
+msgid "Color of block background \"Extended page list\""
+msgstr "Цвет фона блока \"Расширенный список страниц\""
+
+msgctxt "Languages::abt__yt.less_settings.addons.ab__extended_comparison_wishlist_group"
+msgid "AB: Extended comparison and wishlist"
+msgstr "AB: Расширенные сравнения и отложенные товары"
+
+msgctxt "Languages::abt__yt.less_settings.addons.ab__extended_comparison_wishlist_group_description"
+msgid "There are settings that influence on elements that were added by the add-on \"AB: Extended comparison and wishlist\""
+msgstr "Ниже представлены настройки, которые воздействуют на элементы добавляемые модулем \"AB: Расширенные сравнения и отложенные товары\""
+
+msgctxt "Languages::abt__yt.less_settings.addons.ab__extended_comparison_wishlist.block_background"
+msgid " Color of block background \"Extended page list\""
+msgstr "Цвет фона блока \"Расширенный список страниц\""
+
+msgctxt "Languages::ab__ecw.comparison_pages.list"
+msgid "Comparison pages"
+msgstr "Страницы сравнений"
+
+msgctxt "Languages::ab__ecw.image_update.description"
+msgid "Image will be displayed in lists and when formating Open Graph microdata"
+msgstr "Изображение будет отображено в списках и для формирования Open Graph микроразметки"
+
+msgctxt "Languages::ab__ecw_comparison_pages.ab__comparison_pages_list"
+msgid "AB: Comparison pages list"
+msgstr "AB: Список страниц сравнений"
+
+msgctxt "Languages::ab__ecw.comparison_pages.detailed_image"
+msgid "Detailed image"
+msgstr "Детальное изображение"
+
+msgctxt "Languages::ab__ecw.detailed_image_update.description"
+msgid "Image will be displayed on the comparison page"
+msgstr "Изображение будет отображено на странице сравнения"
+
+msgctxt "Languages::ab__ecw.comparison_pages.table_title"
+msgid "#"
+msgstr "#"
+
+msgctxt "Languages::ab__ecw_comparison_pages.demo_data"
+msgid "Demo data"
+msgstr "Демо-данные"
+
+msgctxt "Languages::ab__ecw.demo_data.unpacking_archive"
+msgid "Decompression of the archive"
+msgstr "Распаковка архива"
+
+msgctxt "Languages::ab__ecw.demo_data.creating_pages"
+msgid "Page creation"
+msgstr "Создание страниц"
+
+msgctxt "Languages::ab__ecw.demo_data.description"
+msgid "You can set demo data of the add-on on the page"
+msgstr "На этой странице Вы можете установить демо-данные модуля"
+
+msgctxt "Languages::ab__ecw.demo_data.table.description"
+msgid "Demo data description"
+msgstr "Описание демо-данных"
+
+msgctxt "Languages::ab__ecw_comparison_pages.demo_data.add_pages"
+msgid "Demo pages of comparisons (new products and its features will be added)"
+msgstr "Демо-страницы сравнений (добавят собственные товары и характеристики)"
+
+msgctxt "Languages::ab__ecw.demo_data.deleting_temp_files"
+msgid "Removal of utility files"
+msgstr "Удаление служебных файлов"
+
+msgctxt "Languages::ab__ecw.page_created"
+msgid "Comparison page <a href=\"[href]\" target=\"_blank\">has been created</a>"
+msgstr "Создана <a href=\"[href]\" target=\"_blank\">страница сравнения</a>"
+
+msgctxt "Languages::ab__extended_comparison_wishlist.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__extended_comparison_wishlist.help.docs"
+msgid "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__extended_comparison_wishlist.doc'>documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__extended_comparison_wishlist.doc'>документацией</a>."
+
+msgctxt "Languages::privilege_groups.ab__extended_comparison_wishlist"
+msgid "AB: Extended comparison and wishlist"
+msgstr "AB: Расширенные сравнения и отложенные товары"
+
+msgctxt "Languages::privileges.ab__extended_comparison_wishlist.help"
+msgid "View help"
+msgstr "Просмотр справки"
+
+#. Alexbranding. Do not modify this file manually!

@@ -1,0 +1,337 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::ab__seo_for_tags"
+msgid "AB: SEO for tags pages"
+msgstr "AB: SEO оптимізація сторінок тегів"
+
+msgctxt "Addons::description::ab__seo_for_tags"
+msgid "Adds SEO fields for tags pages"
+msgstr "Додає SEO поля для сторінок тегів"
+
+msgctxt "Languages::ab__seo_for_tags"
+msgid "AB: SEO for tags pages"
+msgstr "AB: SEO оптимізація сторінок тегів"
+
+msgctxt "SettingsOptions::ab__seo_for_tags::description_location"
+msgid "Tag description location"
+msgstr "Розташування опису в тегах"
+
+msgctxt "SettingsVariants::ab__seo_for_tags::description_location::top"
+msgid "top"
+msgstr "вгорі"
+
+msgctxt "SettingsVariants::ab__seo_for_tags::description_location::bottom"
+msgid "bottom"
+msgstr "внизу"
+
+msgctxt "SettingsOptions::ab__seo_for_tags::index_tag_pages"
+msgid "To index tags pages"
+msgstr "Індексувати сторінки тегів"
+
+msgctxt "SettingsTooltips::ab__seo_for_tags::index_tag_pages"
+msgid "When indexing is enabled, tags links are added to the XML-sitemap"
+msgstr "При увімкнені індексації посилання на сторінки тегів додаються до XML-карти сайту"
+
+msgctxt "SettingsOptions::ab__seo_for_tags::noindex_tag_pages_without_products"
+msgid "Noindex tag pages without products"
+msgstr "Заборона індексації сторінок тегів без товарів"
+
+msgctxt "SettingsTooltips::ab__seo_for_tags::noindex_tag_pages_without_products"
+msgid "When enabled, tags pages without products will be not indexed. Checking only products status (independent of amount, price, etc)"
+msgstr "При увімкненні сторінки тегів без товарів не індексуються. Перевіряється лише статус товарів (не залежно від наявності, ціни тощо)"
+
+msgctxt "Languages::ab__seo_for_tags.editing_tag"
+msgid "Editing tag SEO data"
+msgstr "Редагування SEO-даних тега"
+
+msgctxt "Languages::ab__seo_for_tags.h1"
+msgid "H1 tag"
+msgstr "H1 тег"
+
+msgctxt "Languages::ab__seo_for_tags.description"
+msgid "Description"
+msgstr "Опис"
+
+msgctxt "Languages::ab__seo_for_tags.page_title"
+msgid "Page title"
+msgstr "Заголовок сторінки"
+
+msgctxt "Languages::ab__seo_for_tags.meta_description"
+msgid "Meta tag <code>description</code>"
+msgstr "Мета тег <code>description</code>"
+
+msgctxt "Languages::ab__seo_for_tags.meta_keywords"
+msgid "Meta tag <code>keywords</code>"
+msgstr "Мета тег <code>keywords</code>"
+
+msgctxt "Languages::ab__seo_for_tags.edit_seo_data"
+msgid "AB: Edit tag SEO data"
+msgstr "AB: Редагувати SEO-дані тега"
+
+msgctxt "Languages::ab__seo_for_tags.unknown_tag"
+msgid "Unknown tag"
+msgstr "Невідомий тег"
+
+msgctxt "Languages::ab__sft.export_selected"
+msgid "AB: Export selected"
+msgstr "AB: Експортувати обрані"
+
+msgctxt "Languages::ab__sft.exim.remove_tags"
+msgid "Delete tags"
+msgstr "Видалити теги"
+
+msgctxt "Languages::ab__sft.exim.remove_tags.text"
+msgid "Delete all existing tags before import"
+msgstr "Видалити усі існуючі теги перед імпортом"
+
+msgctxt "Languages::ab__sft.settings"
+msgid "General settings"
+msgstr "Загальні налаштування"
+
+msgctxt "Languages::ab__seo_for_tags.export"
+msgid "AB: SEO for tags pages: Export"
+msgstr "AB: SEO оптимізація сторінок тегів: Експорт"
+
+msgctxt "Languages::ab__seo_for_tags.import"
+msgid "AB: SEO for tags pages: Import"
+msgstr "AB: SEO оптимізація сторінок тегів: Імпорт"
+
+msgctxt "Languages::ab__sft.form.seo_data"
+msgid "SEO-data"
+msgstr "SEO-данні"
+
+msgctxt "Languages::ab__sft.form.links_generating"
+msgid "Links generating"
+msgstr "Генерація зв'зків"
+
+msgctxt "Languages::ab__sft.form.generate_by_cron"
+msgid "Generate by Cron"
+msgstr "Генерація по Cron"
+
+msgctxt "Languages::ab__sft.form.generate_by_cron.tooltip"
+msgid "When checked, links to products with this tag will be created by Cron-task. Otherwise, only in manual mode"
+msgstr "Якщо відмічено, то зв'язки з товарами по цьому тегу будуть створені за Cron-завданням. Інакше, лише в ручному режимі"
+
+msgctxt "Languages::ab__sft.form.links_generating_rules"
+msgid "Rules of generating"
+msgstr "Правила генерації"
+
+msgctxt "Languages::ab__sft.form.links_generating.description"
+msgid "Please attend! Existing links that don't match specified conditions will be deleted by generating."
+msgstr "Будьте обережні. Існуючі зв'язки, які не відповідають вказаним правилам, будуть видалені під час генерації."
+
+msgctxt "Languages::ab__seo_for_tags.conditions.all"
+msgid "all"
+msgstr "всі"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.any"
+msgid "any"
+msgstr "будь-які"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.true"
+msgid "true"
+msgstr "істина"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.false"
+msgid "false"
+msgstr "хибність"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.set"
+msgid "If [set] of these conditions are [set_value]"
+msgstr "Якщо [set] з цих умов [set_value]"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.price"
+msgid "Price"
+msgstr "Ціна"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.feature"
+msgid "Feature"
+msgstr "Характеристика"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.category"
+msgid "Category"
+msgstr "Категорія"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.amount"
+msgid "Amount"
+msgstr "Кількість"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.popularity"
+msgid "Popularity"
+msgstr "Популярність"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.weight"
+msgid "Weight"
+msgstr "Вага"
+
+msgctxt "Languages::ab__sft.cron_links"
+msgid "Use following command to generate tags links by Cron:"
+msgstr "Для виконання генерації зв'язків тегів по Cron-у застосовуйте вказану команду:"
+
+msgctxt "Languages::ab__sft.generate_button"
+msgid "Generate links"
+msgstr "Генерувати зв'язки"
+
+msgctxt "Languages::ab__sft.generating_manage"
+msgid "Links generating"
+msgstr "Генерація зв'язків"
+
+msgctxt "Languages::ab__sft.generating.error"
+msgid "Links generating failed"
+msgstr "Не вдалося згенерувати зв'язки"
+
+msgctxt "Languages::ab__sft.generating.notification.array"
+msgid "Added links - [added], removed links - [deleted]"
+msgstr "Додано зв'язків - [added], видалено зв'язків - [deleted]"
+
+msgctxt "Languages::ab__sft.generating.notification.string"
+msgid "Links generated successfully"
+msgstr "Зв'язки успішно згенеровано"
+
+msgctxt "Languages::ab__sft.comet.title"
+msgid "Links generating"
+msgstr "Генерація зв'язків"
+
+msgctxt "Languages::ab__sft.comet.init"
+msgid "Loading tags"
+msgstr "Завантаження тегів"
+
+msgctxt "Languages::ab__emd.tabs.tags.view"
+msgid "Tags"
+msgstr "Теги"
+
+msgctxt "Languages::ab__emd.setting.header.tags.view"
+msgid "Tags general pattern"
+msgstr "Загальний шаблон тегів"
+
+msgctxt "Languages::ab__emd.setting.tags.view.action"
+msgid "Redefine categories meta tags"
+msgstr "Перевизначати мета-теги"
+
+msgctxt "Languages::ab__emd.setting.tags.view.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Шаблон тега <code>title</code>"
+
+msgctxt "Languages::ab__emd.setting.tags.view.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Шаблон мета-тега <code>description</code>"
+
+msgctxt "Languages::ab__emd.setting.tags.view.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Шаблон мета-тега <code>keywords</code>"
+
+msgctxt "Languages::ab__emd.setting.tags.view.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Не перевизначати"
+
+msgctxt "Languages::ab__emd.setting.tags.view.action.override_empty"
+msgid "Redefine empty"
+msgstr "Перевизначати пусті"
+
+msgctxt "Languages::ab__emd.setting.tags.view.action.override_all"
+msgid "Redefine all"
+msgstr "Перевизначати всі"
+
+msgctxt "Languages::ab__sft.placeholders.tag"
+msgid "<b>[tag]</b> — tag name (as is)<br> <b>[tag_lower]</b> — tag name (lowercase)<br> <b>[Tag]</b> — tag name (the first letter is uppercase others are lowercase)<br> <b>[TAG]</b> — tag name (uppercase)"
+msgstr "<b>[tag]</b> — назва тегу (як є)<br>"
+"<b>[tag_lower]</b> — назва тегу (малі літери)<br>"
+"<b>[Tag]</b> — назва тегу (перша велика, решта малі)<br>"
+"<b>[TAG]</b> — назва тегу (великі літери)"
+
+msgctxt "Languages::ab__sft.placeholders.h1"
+msgid "<b>[h1_tag]</b> — h1 value (as is)<br> <b>[h1_tag_lower]</b> — h1 value (lowercase)<br> <b>[H1_tag]</b> — h1 value (the first letter is uppercase others are lowercase)<br> <b>[H1_TAG]</b> — h1 value (uppercase)"
+msgstr "<b>[h1_tag]</b> — значення h1 (як є)<br>"
+"<b>[h1_tag_lower]</b> — значення h1 (малі літери)<br>"
+"<b>[H1_tag]</b> — значення h1 (перша велика, решта малі)<br>"
+"<b>[H1_TAG]</b> — значення h1 (великі літери)"
+
+msgctxt "Languages::ab__sft.help"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "Languages::ab__sft_help.docs"
+msgid "Read <a target=\"_blank\" href=\"https://cs-cart.alexbranding.com/en/ab__seo_for_tags.doc\">the documentation</a>."
+msgstr "Ознайомитись з <a target=\"_blank\" href=\"https://cs-cart.alexbranding.com/ru/ab__seo_for_tags.doc\">документацією</a>."
+
+msgctxt "Languages::privilege_groups.ab__seo_for_tags"
+msgid "AB: SEO for tags pages"
+msgstr "AB: SEO оптимізація сторінок тегів"
+
+msgctxt "Languages::privileges.ab__sft.data.manage"
+msgid "Manage tags SEO data"
+msgstr "Керування SEO-даними тегів"
+
+msgctxt "Languages::privileges.ab__sft.data.view"
+msgid "View tags SEO data"
+msgstr "Перегляд SEO-даних тегів"
+
+msgctxt "Languages::ab__sft.autoinstall.no_demodata"
+msgid "File with demo data is missing"
+msgstr "Файл з демо-даними відсутній"
+
+msgctxt "Languages::ab__sft.autoinstall.tags_where_not_filled"
+msgid "Failed to fill up demo tags"
+msgstr "Не вдалось заповнити демо-теги"
+
+msgctxt "Languages::ab__sft.autoinstall.tags_where_filled"
+msgid "Demo tags [tags] is filled up successfully"
+msgstr "Демо-теги [tags] успішно оновлено"
+
+msgctxt "Languages::ab__sft.layouts"
+msgid "Layouts"
+msgstr "Макети"
+
+msgctxt "Languages::ab__sft.layouts.layout_was_reset"
+msgid "Layout was reset"
+msgstr "Макет було скинуто"
+
+msgctxt "Languages::ab__sft.layouts.choose_layout_to_reset"
+msgid "Choose layout to reset"
+msgstr "Оберіть макет для скидання"
+
+msgctxt "Languages::ab__sft.layouts.table.dispatch_description"
+msgid "Type of the layout page"
+msgstr "Тип сторінки макета"
+
+msgctxt "Languages::ab__sft.layouts.table.dispatch"
+msgid "Dispatch"
+msgstr "Dispatch"
+
+msgctxt "Languages::ab__sft.layouts.table.layouts"
+msgid "Layouts"
+msgstr "Макети"
+
+msgctxt "Languages::ab__sft.layouts.table.action"
+msgid "Action"
+msgstr "Дія"
+
+msgctxt "Languages::ab__sft.layouts.table.get_file"
+msgid "Get file"
+msgstr "Завантажити файл"
+
+msgctxt "Languages::ab__sft.layouts.layout_is_not_found"
+msgid "Layout is not found"
+msgstr "Макет не знайдено"
+
+msgctxt "Languages::ab__sft.layouts.header"
+msgid "There are displaying all layout pages, added by the addon, on this page. You can reset pages in any layout to the default state. Also you can download xml-file of a layout page and import it manually."
+msgstr "На цій сторінці відображено усі сторінки макетів, доданих модулем. Ви можете скинути сторінку у межах будь-якого макету до стану за замовчуванням для поточної версії модуля. Також Ви можете завантажити xml-файл сторінки макету та імпортувати його вручну."
+
+msgctxt "Languages::ab__sft.layouts.table.create_new_location"
+msgid "- Create a new page -"
+msgstr "- Створити нову сторінку -"
+
+msgctxt "Languages::ab__sft.upgrade_notifications.2.0.0.layout_changed.title"
+msgid "Attention! Layout actualization is needed"
+msgstr "Увага! Необхідна актуалізація макетів"
+
+msgctxt "Languages::ab__sft.upgrade_notifications.2.0.0.layout_changed.text"
+msgid "You have to actualize your layouts after update.To make this procedure easier we added <a href=\"[url]\">the page for layouts recovery</a>. More details read in the add-on documentation."
+msgstr "З оновленням з'явилась необхідність в актуалізації макетів. Для спрощення цієї процедури ми додали <a href=\"[url]\"> сторінку відновлення макетів</a>. Докладніше про цю сторінку читайте в документації до модулю."
+
+#. Alexbranding. Do not modify this file manually!

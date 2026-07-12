@@ -1,0 +1,25 @@
+<?php
+
+/*
+*                                                                            *
+*          All rights reserved! CS-Commerce Software Solutions               *
+*           https://www.cs-commerce.com/license-agreement.html               *
+*                                                                            *
+*/
+
+use Tygh\Registry;
+
+if (!defined('BOOTSTRAP')) {
+    exit('Access denied');
+}
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    return;
+}
+
+if ($mode == 'update') {
+    if (!empty($_REQUEST['addon']) && $_REQUEST['addon'] == 'csc_live_search') {
+        $redirect_to = $_REQUEST['addon'] . '.settings';
+        csc_live_search::_ar($redirect_to);
+        return [CONTROLLER_STATUS_REDIRECT, $redirect_to];
+    }
+}

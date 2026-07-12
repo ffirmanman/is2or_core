@@ -1,0 +1,1 @@
+{include file="addons/ab__multiple_cat_descriptions/views/categories/components/ab__mcd_view_description.tpl"}

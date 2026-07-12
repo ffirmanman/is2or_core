@@ -1,0 +1,1 @@
+Added ability to avoid changes if structure of CSV or Excel files was changed.

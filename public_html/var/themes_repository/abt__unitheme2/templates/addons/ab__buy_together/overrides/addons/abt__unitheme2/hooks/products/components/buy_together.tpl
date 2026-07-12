@@ -1,0 +1,1 @@
+{include file="addons/ab__buy_together/components/buy_together_block.tpl"}

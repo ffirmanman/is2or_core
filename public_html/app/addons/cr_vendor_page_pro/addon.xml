@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cr_vendor_page_pro</id>
+    <version>1.5.2</version>
+    <priority>100</priority>
+    <position>100</position>
+    <status>disabled</status>
+    <auto_install>MULTIVENDOR</auto_install>
+    <has_icon>true</has_icon>
+
+    <authors>
+        <author>
+            <name>cartrocks.com</name>
+            <email>service@cartrocks.com</email>
+            <url>https://cartrocks.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Rocks</supplier>
+    <supplier_link>https://cartrocks.com</supplier_link>
+
+    <settings>
+        <sections>
+            <section id="general">
+                <name>General</name>
+                <items>
+                    <item id="header_vendor_page_pro">
+                        <type>header</type>
+                    </item>
+                    <item id="vendor_logo_width">
+                        <type>input</type>
+                        <default_value>180</default_value>
+                    </item>
+                    <item id="vendor_logo_height">
+                        <type>input</type>
+                        <default_value>80</default_value>
+                    </item>
+                    <item id="pd_show_vendor_logo">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="pd_vendor_logo_width">
+                        <type>input</type>
+                        <default_value>180</default_value>
+                    </item>
+                    <item id="pd_vendor_logo_height">
+                        <type>input</type>
+                        <default_value>80</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+<marketplace_product_id>280</marketplace_product_id><marketplace_license_number>MP-7BQ4-37K2-KEKK-J583</marketplace_license_number></addon>
