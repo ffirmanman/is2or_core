@@ -1,0 +1,43 @@
+# Ignore sensitive configuration files (Must be configured manually on new servers)
+public_html/config.local.php
+public_html/_srx_config.php
+public_html/local_conf.php
+
+# Ignore all log files (Prevent large log files from being committed)
+public_html/*.log
+public_html/error_log*
+public_html/temp_log
+
+# Ignore the internal Git directory from the addon repository (IMPORTANT!)
+# This prevents the parent repository from treating the existing Git repository as an empty submodule.
+public_html/.git/
+
+# Ignore all CS-Cart runtime cache, temporary, and upgrade files
+public_html/var/cache/
+public_html/var/compiled/
+public_html/var/snapshots/
+public_html/var/gl_data/
+public_html/var/backups/
+public_html/var/upgrade/
+public_html/upgrades/
+
+# Ignore all media files, product images, banners, and logos
+public_html/images/
+public_html/design/themes/*/media/
+
+# Ignore digital downloads and user-uploaded files
+public_html/var/downloads/
+public_html/var/attachments/
+public_html/var/custom_files/
+
+# Ignore old archive files and server-generated temporary files (Including .well-known.zip)
+public_html/*.zip
+public_html/*.tar.gz
+public_html/*.gz
+public_html/.ftpquota
+
+# Ignore operating system and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
