@@ -1,0 +1,1 @@
+{style src="addons/ab__protection_content_copying/styles.less"}

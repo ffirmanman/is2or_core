@@ -1,0 +1,71 @@
+<?php
+/**
+ * cartrocks.com
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file CR-LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * https://cartrocks.com/CR-LICENSE.txt
+ *
+ * @copyright  Copyright (c) 2010 cartrocks.com
+ * @license    https://cartrocks.com/CR-LICENSE.txt
+ */
+
+use Tygh\Http;
+use Tygh\Registry;
+
+defined('BOOTSTRAP') or die('Access denied');
+
+function fn_license_check_cr_vendor_page_pro() {
+
+    $addon_name = basename(dirname(__FILE__));
+
+    $marketplace_license_key = call_user_func("db_get_field", "SELECT marketplace_license_key FROM ?:addons WHERE addon = ?s", $addon_name);
+
+    if(!$marketplace_license_key) {
+        $api_args = array(
+            'woo_sl_action' => 'activate',
+            'licence_key' => Registry::get('addons.' . $addon_name . '.license_key'),
+            'product_unique_id' => 'cs4_vpp',
+            'domain' => Registry::get('config.current_host')
+        );
+
+        if (fn_allowed_for('ULTIMATE')) {
+            $api_args['edition'] = 'sbfp';
+        }
+
+        if (fn_allowed_for('ULTIMATE:ULTIMATE')) {
+            $api_args['edition'] = 'sbu';
+        }
+
+        if (fn_allowed_for('MULTIVENDOR')) {
+            $api_args['edition'] = 'mvs';
+        }
+
+        if (fn_allowed_for('MULTIVENDOR:PLUS')) {
+            $api_args['edition'] = 'mvp';
+        }
+
+        if(fn_allowed_for('MULTIVENDOR:ULTIMATE,MULTIVENDOR:ENTERPRISE')) {
+            $api_args['edition'] = 'mvu';
+        }
+
+        $response = json_decode(Http::get(CR_LC_API_URL, $api_args), true);
+
+        if($response) {
+            $response = $response[count($response) - 1];
+
+            if( $response['status'] == 'success' && ( $response['status_code'] == 's100' || $response['status_code'] == 's101' ) ) {
+                return true;
+            } else {
+                db_query("UPDATE ?:addons SET status = ?s WHERE addon = ?s", "D", $addon_name);
+
+                fn_set_notification('W', __('warning'), $response['message']);
+
+                exit;
+            }
+        }
+    }
+}

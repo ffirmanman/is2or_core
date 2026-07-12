@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__seo_filters</id>
+<version>7.7.2</version>
+<priority>100000000</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<ab>
+<hash>55781aa14c43932dd95c4ff36015bd62d1581170, 2025-09-22 11:59:31</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.5.6</min></ab__addons_manager>
+<ab__multiple_cat_descriptions><min>4.2.0</min></ab__multiple_cat_descriptions>
+<abt__youpitheme><min>4.14.1.a</min></abt__youpitheme>
+<abt__unitheme2><min>4.18.4.b</min></abt__unitheme2>
+</dependencies>
+</compatibility>
+</ab>
+<compatibility>
+<core_version><min>4.14.1</min></core_version>
+<php_extensions>
+<mbstring><supported>Y</supported></mbstring>
+</php_extensions>
+<dependencies>seo,ab__addons_manager</dependencies>
+</compatibility>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="general">
+<items>
+<item id="amount_breadcrumbs_in_product">
+<type>selectbox</type>
+<default_value>3</default_value>
+<variants>
+<item id="0"></item>
+<item id="1"></item>
+<item id="2"></item>
+<item id="3"></item>
+<item id="4"></item>
+<item id="5"></item>
+</variants>
+</item>
+<item id="max_filters">
+<type>selectbox</type>
+<default_value>4</default_value>
+<variants>
+<item id="0"></item>
+<item id="1"></item>
+<item id="2"></item>
+<item id="3"></item>
+<item id="4"></item>
+<item id="5"></item>
+</variants>
+</item>
+<item id="max_variants">
+<type>selectbox</type>
+<default_value>3</default_value>
+<variants>
+<item id="1"></item>
+<item id="2"></item>
+<item id="3"></item>
+<item id="4"></item>
+<item id="5"></item>
+</variants>
+</item>
+<item id="add_to_sitemap">
+<type>selectbox</type>
+<default_value>fixed</default_value>
+<variants>
+<item id="none"></item>
+<item id="fixed"></item>
+<item id="unfixed"></item>
+<item id="all"></item>
+</variants>
+</item>
+<item id="action_when_page_has_been_deleted">
+<type>selectbox</type>
+<default_value>302_redirect</default_value>
+<variants>
+<item id="no_action"></item>
+<item id="302_redirect"></item>
+<item id="301_redirect"></item>
+</variants>
+</item>
+<item id="add_slash">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="block_id">
+<type>input</type>
+<default_value></default_value>
+</item>
+<item id="feature_as_seo_page">
+<type>selectbox</type>
+<default_value>disallow</default_value>
+<variants>
+<item id="disallow"></item>
+<item id="allow_in_this_window"></item>
+<item id="allow_in_new_window"></item>
+</variants>
+</item>
+<item id="hide_description_on_hashs_pages">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="code"><type>hidden</type><default_value>ABA-rtqAfpwve5NNPvDx9Y8uv</default_value></item>
+<item id="build"><type>hidden</type><default_value>1246</default_value></item>
+</items>
+</section>
+<section id="multiple_descriptions">
+<items>
+<item id="enable_multiple_descriptions">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+</items>
+</section>
+<section id="category_view">
+<items>
+<item id="enable_add_seo_pages_in_subcategories_block">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="hide_subcategories_block_when_active_any_filter">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+</items>
+</section>
+</sections>
+</settings>
+<queries>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id LIKE 'ab__seo_filters' OR group_id = 'ab__seo_filters'</item>
+<item>REPLACE INTO ?:privileges (group_id, section_id, is_default, privilege,is_view)
+VALUES ('ab__seo_filters', 'ab__addons', 'Y', 'ab__sf.view', 'Y')
+,('ab__seo_filters', 'ab__addons', 'Y', 'ab__sf.manage', 'N');
+</item>
+<item>
+CREATE TABLE IF NOT EXISTS ?:ab__sf_names (
+sf_id int(11) unsigned NOT NULL AUTO_INCREMENT,
+category_id int(10) unsigned NOT NULL,
+features_hash varchar(100) NOT NULL,
+fixed char(1) NOT NULL DEFAULT 'U',
+company_id int(10) unsigned NOT NULL DEFAULT '0',
+show_in_breadcrumbs CHAR(1) NOT NULL DEFAULT 'Y',
+show_in_subcategory_block CHAR(1) NOT NULL DEFAULT 'N',
+is_noindex CHAR(1) NOT NULL DEFAULT 'N',
+position_in_subcategory_block int(10) unsigned NOT NULL DEFAULT '0',
+edit_mark CHAR(1) NOT NULL DEFAULT 'N',
+PRIMARY KEY (sf_id),
+KEY fixed_category_hash (fixed,category_id,features_hash)
+) DEFAULT CHARSET=utf8;
+</item>
+<item>
+CREATE TABLE IF NOT EXISTS ?:ab__sf_name_descriptions (
+sf_id int(11) unsigned NOT NULL DEFAULT '0',
+lang_code char(2) NOT NULL DEFAULT '',
+name varchar(255) NOT NULL DEFAULT '',
+name_in_subcategory_block varchar(255) NOT NULL DEFAULT '',
+description mediumtext,
+short_description text,
+meta_keywords varchar(255) NOT NULL DEFAULT '',
+meta_description varchar(255) NOT NULL DEFAULT '',
+page_title varchar(255) NOT NULL DEFAULT '',
+tag_h1 varchar(255) NOT NULL DEFAULT '',
+breadcrumb varchar(255) NOT NULL,
+product_breadcrumb varchar(255) NOT NULL,
+PRIMARY KEY (sf_id,lang_code),
+KEY name__lang_code (name,lang_code)
+) DEFAULT CHARSET=utf8;
+</item>
+<item>
+CREATE TABLE IF NOT EXISTS ?:ab__sf_rules (
+rule_id int(11) unsigned NOT NULL AUTO_INCREMENT,
+feature_id text NOT NULL,
+categories text NOT NULL,
+subcats char(1) NOT NULL DEFAULT 'Y',
+position int(11) unsigned NOT NULL,
+fixed char(1) NOT NULL DEFAULT 'U',
+status char(1) NOT NULL DEFAULT 'D',
+generated_categories enum('by_all_filter_categories','by_non_empty_filter_categories') NOT NULL DEFAULT 'by_all_filter_categories',
+company_id int(10) unsigned NOT NULL DEFAULT '0',
+show_in_breadcrumbs CHAR(1) NOT NULL DEFAULT 'Y',
+link_pattern varchar(20) NOT NULL DEFAULT 'variant',
+autogenerate CHAR(1) NOT NULL DEFAULT 'N',
+canonical_id int(11) unsigned NOT NULL DEFAULT '0',
+PRIMARY KEY (rule_id)
+) DEFAULT CHARSET=utf8;
+</item>
+<item>
+CREATE TABLE IF NOT EXISTS ?:ab__sf_rule_descriptions (
+rule_id int(11) unsigned NOT NULL DEFAULT '0',
+lang_code char(2) NOT NULL DEFAULT '',
+description mediumtext,
+short_description text,
+meta_keywords varchar(255) NOT NULL DEFAULT '',
+meta_description varchar(255) NOT NULL DEFAULT '',
+page_title varchar(255) NOT NULL DEFAULT '',
+tag_h1 varchar(255) NOT NULL DEFAULT '',
+breadcrumb varchar(255) NOT NULL,
+product_breadcrumb varchar(255) NOT NULL,
+PRIMARY KEY (rule_id,lang_code)
+) DEFAULT CHARSET=utf8;
+</item>
+<item>
+CREATE TABLE IF NOT EXISTS ?:ab__sf_patterns (
+pattern varchar(255) NOT NULL DEFAULT '',
+lang_code char(2) NOT NULL DEFAULT '',
+value varchar(1000) NOT NULL DEFAULT '',
+company_id int(10) unsigned NOT NULL DEFAULT '0',
+PRIMARY KEY (pattern,lang_code,company_id)
+) DEFAULT CHARSET=utf8;
+</item>
+</queries>
+<functions>
+<item for="install">fn_ab__sf_install</item>
+</functions>
+</addon>

@@ -1,0 +1,9 @@
+2026-02-15 @ 06:06:33 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"358CA48AA25","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=358CA48AA25","command":"PURCHASE","currency":"SAR","amount":"12800","order_description":"Order #358","customer_ip":"182.253.58.60","customer_email":"firmanfirdaus17.jtk12@gmail.com","customer_name":"firman firdaus","phone_number":"+96650 123 4567","merchant_extra1":358,"merchant_extra2":97,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"08b29aca30efb441e437c143927c3f4c4f582a76cb1b89c438620ac79c2f2ff1"}}
+
+2026-02-15 @ 06:07:00 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=358CA48AA25","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"358CA48AA25","amount":"12800","captured_amount":"12800","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029680313","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-15 @ 08:02:45 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzU5","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"359EF32B706","amount":"6100","captured_amount":"6100","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029681229","response_code":"12000","reason_text":"Success","order_status":"P"}}
+

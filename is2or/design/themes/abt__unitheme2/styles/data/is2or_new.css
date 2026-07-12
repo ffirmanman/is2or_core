@@ -1,0 +1,232 @@
+/*===============Heder-Manu ================*/
+.top-logo img {
+    padding: 5px 0 5px 0;
+}
+
+.ty-logo-container {
+    padding-left: 10px;
+}
+
+.container-fluid.header-grid.default-header.custom-heder .container-fluid-row {
+    max-width: 100% !important;
+}
+
+.container-fluid.header-grid.default-header.custom-heder .container-fluid-row-full-width > .row-fluid {
+    max-width: 100% !important;
+    margin-left: 30px;
+}
+
+@media (min-width: 1025px) {
+    #sw_dropdown_174 {
+        position: absolute;
+        margin-top: 120px;
+        left: 10px;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    #sw_dropdown_174.hidden {
+        visibility: hidden;
+    }
+}
+
+/*===============Main page================*/
+.bolock-title span {
+    font-family: OutfitBold, sans-serif;
+}
+
+.product-title {
+    font-size: 16px !important;
+}
+.banner-carousel .banners .ut2-banner {
+  margin: 5px;
+}
+
+/*===============Footer================*/
+.footer-sell-block {
+    background: #161e2d;
+}
+
+.lang-footer .ty-flag.ty-flag-us {
+    background-position: -400px -695px;
+}
+
+.lang-footer .ty-flag.ty-flag-sa {
+    background-position: -50px -645px;
+}
+
+.payment .ty-footer-general__header {
+    padding-top: 10px;
+}
+
+@media (min-width: 578px) {
+    .span3.colum3 {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 578px) {
+    .lang-footer.ty-float-right {
+        display: contents;
+    }
+}
+
+@media (max-width: 578px) {
+    .connect-with-us.ty-float-right {
+        width: 100%;
+    }
+}
+
+.bottom-serv div {
+    margin-top: 10px;
+}
+
+@media (max-width: 578px) {
+    .bottom-serv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .logo-footer {
+        padding-top: 10px;
+        padding-left: 35px;
+    }
+
+    .get-app {
+        text-align: center;
+    }
+
+    .ut2-social-links {
+        justify-content: center !important;
+    }
+
+    .mail {
+        text-align: center;
+    }
+
+    .ty-footer-general__header.cm-combination.get-app span {
+        position: relative;
+        left: 35%;
+    }
+
+    .ty-footer-general__header.сonnect {
+        border-bottom: 0;
+        position: relative;
+        left: 30%;
+    }
+}
+
+/*===============Backgrounds================*/
+.fill--custom {
+    background: #000;
+}
+
+/*===============vendor================*/
+.top-bar__btn-inner.logo-menu__btn-inner {
+    display: none !important;
+}
+
+
+.ty-fileuploader__file-local.upload-file-local {
+    border: 1px solid #eb560c;
+    width: 90px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.ty-fileuploader__a {
+    color: #eb560c;
+}
+
+.ty-control-group.ty-profile-field__item.ty-bd,
+.ty-control-group.ty-profile-field__item.ty-cr {
+    display: inline-block;
+}
+
+.ty-control-group.ty-profile-field__item.ty-cr {
+    padding-left: 30px;
+}
+
+/*===============vendor plan================*/
+.ty-vendor-plans__item .ty-vendor-plan-current-plan {
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    background-color: #f90;
+    border-radius: 0px;
+    display: block;
+    padding: 6px 0px;
+}
+
+.ty-vendor-plans__item.active.ty-vendor-plans__item .ty-vendor-plan-header {
+    margin-top: 0px !important;
+}
+
+.ty-vendor-plans__item .ty-vendor-plan-header {
+    margin-top: 20px;
+}
+
+/*===============CSS for the SSL to hide the heaser of the block ================*/
+#sw_footer-general_384 > span:first-child {
+    display: none;
+}
+
+/*===============Form ================*/
+.ty-form-builder .ty-input-text {
+    max-width: 100%;
+}
+
+.ty-form-builder__textarea {
+    max-width: 100%;
+}
+
+.ty-form-builder__buttons.buttons-container.buttons-container > .ty-btn {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.ty-control-group__title.cm-required {
+    font-weight: bold;
+}
+
+/*===============FAQ ================*/
+.faq .cp-faq__section-name {
+    color: #eb560c;
+    text-transform: uppercase;
+}
+
+.ty-search-magnifier {
+    top: 10px;
+    right: 10px;
+}
+
+.faq .cp-faq__questions {
+    box-shadow: 3px 5px 30px 0 rgba(0, 0, 0, .15);
+}
+
+.faq .cp-faq__answer {
+    border-left: 2px solid #eb560c;
+}
+
+.faq .cp-faq__list-block .cp-faq__questions {
+    border-radius: 20px;
+}
+
+.faq i {
+    color: #eb560c;
+}
+
+.faq-manu {
+    position: sticky;
+    top: 80px;
+}
+.faq-manu a:hover {
+  color: #eb560c;
+}
+/* ======================================================= ##companies.catalog (Vendors) */
+.ty-control-group.ty-profile-field__item.ty-shipping-city {
+    display: none;
+}
+.ty-control-group.ty-profile-field__item.ty-shipping-country {
+    display: none;
+}

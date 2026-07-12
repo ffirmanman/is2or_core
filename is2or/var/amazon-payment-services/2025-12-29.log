@@ -1,0 +1,12 @@
+2025-12-29 @ 00:30:47 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"38442CF6F2A","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=38442CF6F2A","command":"PURCHASE","currency":"SAR","amount":"4900","order_description":"Order #384","customer_ip":"122.50.6.195","customer_email":"eki_yeheskiel@hotmail.co.id","customer_name":"Test Reza","phone_number":"+966 50 123 4567","merchant_extra1":384,"merchant_extra2":86,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"ccf2dcefe4c0173f129034dc460aaec2f60d96d1867726c4d75d0e8331c2c88d"}}
+
+2025-12-29 @ 00:33:15 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=38442CF6F2A","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"38442CF6F2A","amount":49,"captured_amount":49,"response_type":"FAILED","command":"AUTHORIZATION","fort_id":"169996200028965309","reason_text":"Transaction declined","order_status":"F"}}
+
+2025-12-29 @ 00:36:06 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"385335E596F","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=385335E596F","command":"PURCHASE","currency":"SAR","amount":"4900","order_description":"Order #385","customer_ip":"122.50.6.195","customer_email":"eki_yeheskiel@hotmail.co.id","customer_name":"Test Reza","phone_number":"+966 50 123 4567","merchant_extra1":385,"merchant_extra2":86,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"599e653937dc17bde6ff0b16419342af3b6b18e27e09b7cd5109038466ae0f11"}}
+
+2025-12-29 @ 00:36:22 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=385335E596F","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"385335E596F","amount":49,"captured_amount":49,"response_type":"FAILED","command":"AUTHORIZATION","fort_id":"169996200028965355","reason_text":"Transaction declined","order_status":"F"}}
+

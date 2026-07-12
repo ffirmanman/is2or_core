@@ -1,0 +1,73 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::ab__protection_content_copying"
+msgid "AB: Protection from the content copying"
+msgstr "AB: Захист від копіювання"
+
+msgctxt "Addons::description::ab__protection_content_copying"
+msgid "Protect your content from selection and copy"
+msgstr "Модуль захищає контент від виділення і копіювання"
+
+msgctxt "Languages::ab__protection_content_copying"
+msgid "AB: Protection from the content copying"
+msgstr "AB: Захист від копіювання"
+
+msgctxt "SettingsOptions::ab__protection_content_copying::activate_non_protection_for_ips"
+msgid "Disable copying for specified IP addresses"
+msgstr "Вимкнути копіювання для зазначених IP-адрес"
+
+msgctxt "SettingsTooltips::ab__protection_content_copying::activate_non_protection_for_ips"
+msgid "Block of the copy will be disabled for the IP addresses specified in the field below"
+msgstr "Для IP-адрес, зазначених в полі нижче, буде вимкнено блокування копіювання"
+
+msgctxt "SettingsOptions::ab__protection_content_copying::non_protection_for_ips"
+msgid "IP addresses list (specify from a new line)"
+msgstr "Список IP-адрес (вказувати з нового рядка)"
+
+msgctxt "SettingsTooltips::ab__protection_content_copying::non_protection_for_ips"
+msgid "The addresses list must be specified from a new line, for example: <code>127.0.0.1</code><br/> <code>127.0.0.2</code>"
+msgstr "Список адрес потрібно вказувати з нового рядка, наприклад:"
+"<code>127.0.0.1</code><br/>"
+"<code>127.0.0.2</code>"
+
+msgctxt "SettingsOptions::ab__protection_content_copying::non_protection_classes"
+msgid "Do not distribute the lock on data classes"
+msgstr "Не розповсюджувати блокування на вказані класи"
+
+msgctxt "SettingsTooltips::ab__protection_content_copying::non_protection_classes"
+msgid "You can list the css-classes of elements that will not be covered by the lock (separated by commas)"
+msgstr "Ви можете перелічити css-класи елементів, для котрих блокування не буде розповсюджуватись (через кому)"
+
+msgctxt "SettingsOptions::ab__protection_content_copying::non_protection_for_admin"
+msgid "Disable admin lock"
+msgstr "Вимкнути блокування для адміністратора"
+
+msgctxt "SettingsTooltips::ab__protection_content_copying::non_protection_for_admin"
+msgid "Disable blocking of content copying for store administrators and vendors"
+msgstr "Вимкнути блокування від копіювання контенту для адміністраторів і продавців магазину"
+
+msgctxt "Languages::ab__pcc.status"
+msgid "Disable AB: Protection from the content copying"
+msgstr "Вимкнути AB: Захист від копіювання"
+
+msgctxt "Languages::ab__pcc.settings"
+msgid "Common settings"
+msgstr "Загальні налаштування"
+
+msgctxt "Languages::ab__pcc.help"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "Languages::ab__pcc.help.doc"
+msgid "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__protection_content_copying.doc'>documentation</a>."
+msgstr "Ознайомитись з <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__protection_content_copying.doc'>документацією</a>."
+
+msgctxt "Languages::privilege_groups.ab__protection_content_copying"
+msgid "AB: Protection from the content copying"
+msgstr "AB: Захист від копіювання"
+
+#. Alexbranding. Do not modify this file manually!

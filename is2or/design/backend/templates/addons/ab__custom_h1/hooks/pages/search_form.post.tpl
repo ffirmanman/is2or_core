@@ -1,0 +1,1 @@
+{include file="addons/ab__custom_h1/views/ab__ch1/components/search.tpl" object_type='page'}

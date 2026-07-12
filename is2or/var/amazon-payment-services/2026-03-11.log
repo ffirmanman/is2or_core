@@ -1,0 +1,9 @@
+2026-03-11 @ 06:05:54 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzM1","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"3354E1C5DDA","amount":"37.00","captured_amount":"37.00","order_status":"I"}}
+
+2026-03-11 @ 07:32:43 - CC - Form Request:
+{"Request Url":"https:\/\/checkout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"lydaa2isB18rPqxvkfxD","merchant_identifier":"ZFFPkAaw","merchant_reference":"3367E693176","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3367E693176","command":"PURCHASE","currency":"SAR","amount":"1900","order_description":"Order #336","customer_ip":"182.253.58.33","customer_email":"firmanfirdaus17.jtk12@gmail.com","customer_name":"firman firdaus","phone_number":"+96650 123 4567","merchant_extra1":336,"merchant_extra2":98,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"9ac2da0209b336e26f89ebfda26a6adc427280a500fdb199cc3158fa7355934d"}}
+
+2026-03-11 @ 09:42:56 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzM5","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"33964CA02DB","amount":"132.00","captured_amount":"132.00","order_status":"I"}}
+

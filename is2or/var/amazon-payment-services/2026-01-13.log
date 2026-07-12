@@ -1,0 +1,6 @@
+2026-01-13 @ 11:11:28 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"278E7A6E492","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=278E7A6E492","command":"PURCHASE","currency":"SAR","amount":"12000","order_description":"Order #278","customer_ip":"122.50.6.195","customer_email":"eki_yeheskiel@hotmail.co.id","customer_name":"Test Reza","phone_number":"+966 50 123 4567","merchant_extra1":278,"merchant_extra2":86,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"65ee20c52d76a3b24aca5b5da17037d2c52cfa5c2328b1595a259e48379b6ecb"}}
+
+2026-01-13 @ 11:12:11 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=278E7A6E492","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"278E7A6E492","amount":"12000","captured_amount":"12000","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029183015","response_code":"12000","reason_text":"Success","order_status":"P"}}
+

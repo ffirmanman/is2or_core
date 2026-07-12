@@ -1,0 +1,1 @@
+{include file="addons/buy_together/abt__ut2_common/product_set.tpl"}

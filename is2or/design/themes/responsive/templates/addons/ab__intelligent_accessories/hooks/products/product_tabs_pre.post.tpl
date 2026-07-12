@@ -1,0 +1,1 @@
+{include file="addons/ab__intelligent_accessories/blocks/components/ab__ia_product_tabs_content.tpl"}

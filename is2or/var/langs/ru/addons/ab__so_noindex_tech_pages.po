@@ -1,0 +1,194 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__so_noindex_tech_pages"
+msgid "AB: Indexation management"
+msgstr "AB: Управление индексацией"
+
+msgctxt "Addons::description::ab__so_noindex_tech_pages"
+msgid "Addon adds management for indexation of pages by search engines"
+msgstr "Модуль добавляет управление индексацией страниц поисковыми системами"
+
+msgctxt "Languages::ab__so_noindex_tech_pages"
+msgid "AB: Indexation management"
+msgstr "AB: Управление индексацией"
+
+msgctxt "SettingsSections::ab__so_noindex_tech_pages::settings"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsSections::ab__so_noindex_tech_pages::301_redirects"
+msgid "301 redirects"
+msgstr "301 редиректы"
+
+msgctxt "SettingsOptions::ab__so_noindex_tech_pages::noindex_empty_categories"
+msgid "Excluding empty categories (without products) from indexation"
+msgstr "Исключение пустых категорий (без товаров) из индексации"
+
+msgctxt "SettingsOptions::ab__so_noindex_tech_pages::exclude_next_prev_links"
+msgid "Exclude <code>link rel=\"next\"</code> and <code>link rel=\"prev\"</code> tags from pagination pages"
+msgstr "Исключить теги <code>link rel=\"next\"</code> и <code>link rel=\"prev\"</code> из страниц пагинации"
+
+msgctxt "SettingsTooltips::ab__so_noindex_tech_pages::exclude_next_prev_links"
+msgid "If the option is enabled, in the <head> tag, <link> tags to the next and previous pagination pages will not be added"
+msgstr "Если настройка включена, в тег <code>head</code> страницы не будут добавлены теги <code>link</code> со ссылками на следующую и предыдущую страницы пагинации"
+
+msgctxt "SettingsOptions::ab__so_noindex_tech_pages::add_page_referer_to_canonical_link"
+msgid "Add page index to the canonical link"
+msgstr "Добавить указатель страницы в каноническую ссылку"
+
+msgctxt "SettingsTooltips::ab__so_noindex_tech_pages::add_page_referer_to_canonical_link"
+msgid "If the option is enabled, then page number will be added to the pagination pages canonical link"
+msgstr "Если настройка включена, то на страницах пагинации в каноническую ссылку будет добавляться номер страницы"
+
+msgctxt "SettingsOptions::ab__so_noindex_tech_pages::html_sitemap_exclude_denied"
+msgid "Exclude denied objects from the HTML sitemap"
+msgstr "Исключить запрещенные объекты из HTML-карты сайта"
+
+msgctxt "SettingsOptions::ab__so_noindex_tech_pages::process_slash_in_end_of_url"
+msgid "Slashes at the URL end processing"
+msgstr "Обработка слэша в конце URL"
+
+msgctxt "SettingsTooltips::ab__so_noindex_tech_pages::process_slash_in_end_of_url"
+msgid "Process slashes at the URL end <p>from: <code class=\"ab-ntp-code\">https://sitename.com/your-category</code></p> <p>to: <code class=\"ab-ntp-code\">https://sitename.com/your-category/</code></p>"
+msgstr "Обрабатывать слэшы в конце URL"
+"<p>с: <code class=\"ab-ntp-code\">https://sitename.com/your-category</code></p>"
+"<p>на: <code class=\"ab-ntp-code\">https://sitename.com/your-category/</code></p>"
+
+msgctxt "SettingsOptions::ab__so_noindex_tech_pages::process_extra_url_slashes"
+msgid "Excess slashes in URL processing"
+msgstr "Обработка лишних слэшей в URL"
+
+msgctxt "SettingsTooltips::ab__so_noindex_tech_pages::process_extra_url_slashes"
+msgid "Process extra slashes in URL <p>from: <code class=\"ab-ntp-code\">https://sitename.com/your-category///</code></p> <p>to: <code class=\"ab-ntp-code\">https://sitename.com/your-category/</code></p>"
+msgstr "Обрабатывать лишние слэшы в URL"
+"<p>c: <code class=\"ab-ntp-code\">https://sitename.com/your-category///</code></p>"
+"<p>на: <code class=\"ab-ntp-code\">https://sitename.com/your-category/</code></p>"
+
+msgctxt "SettingsOptions::ab__so_noindex_tech_pages::cast_url_to_lowercase"
+msgid "Bring URL to lowercase"
+msgstr "Привести URL к нижнему регистру"
+
+msgctxt "SettingsTooltips::ab__so_noindex_tech_pages::cast_url_to_lowercase"
+msgid "Bring URL to lowercase <p>from: <code class=\"ab-ntp-code\">https://sitename.com/your-CATEGORY/</code></p> <p>to: <code class=\"ab-ntp-code\">https://sitename.com/your-category/</code></p>"
+msgstr "Приводить URL к нижнему регистру"
+"<p>с: <code class=\"ab-ntp-code\">https://sitename.com/your-CATEGORY/</code></p>"
+"<p>на: <code class=\"ab-ntp-code\">https://sitename.com/your-category/</code></p>"
+
+msgctxt "SettingsOptions::ab__so_noindex_tech_pages::noindex_for_pages_gt_1"
+msgid "Noindex for pagination"
+msgstr "Noindex для страниц пагинации"
+
+msgctxt "SettingsTooltips::ab__so_noindex_tech_pages::noindex_for_pages_gt_1"
+msgid "Place meta-tag <code class=\"ab-ntp-code\">&lt;meta name=\"robots\" content=\"noindex, follow\" /&gt;</code> on all pagination pages (except first page)"
+msgstr "Разместить мета-тег <code class=\"ab-ntp-code\">&lt;meta name=\"robots\" content=\"noindex, follow\" /&gt;</code> на всех страницах пагинации кроме первой"
+
+msgctxt "SettingsOptions::ab__so_noindex_tech_pages::noindex_for_product_reviews_pagination"
+msgid "Noindex for review pages on the product card"
+msgstr "Noindex для страниц отзывов в карточке товара"
+
+msgctxt "SettingsTooltips::ab__so_noindex_tech_pages::noindex_for_product_reviews_pagination"
+msgid "Place meta tag <code class=\"ab-ntp-code\">&lt;meta name=\"robots\" content=\"noindex, follow\" /&gt;</code> on all product pages of type <code class=\"ab-ntp-code\">/&amp;selected_section=product_reviews</code> or <code class=\"ab-ntp-code\">/&amp;selected_section=discussion</code>. Compatible with add-ons \"Reviews and comments\" and \"Product reviews\""
+msgstr "Разместить мета-тег <code class=\"ab-ntp-code\">&lt;meta name=\"robots\" content=\"noindex, follow\" /&gt;</code> на всех страницах товаров вида <code class=\"ab-ntp-code\">/&amp;selected_section=product_reviews</code> или <code class=\"ab-ntp-code\">/&amp;selected_section=discussion</code>. Совместимо с модулями \"Отзывы и комментарии\" и \"Отзывы о товарах\""
+
+msgctxt "SettingsOptions::ab__so_noindex_tech_pages::copy_canonical_on_clone"
+msgid "Clone canonical link"
+msgstr "Клонировать каноническую ссылку"
+
+msgctxt "SettingsTooltips::ab__so_noindex_tech_pages::copy_canonical_on_clone"
+msgid "Save canonical link of the original when cloning the product or page"
+msgstr "При клонировании товара или страницы сохранять каноническую ссылку оригинала"
+
+msgctxt "SettingsOptions::ab__so_noindex_tech_pages::canonical_for_pages_gt_1"
+msgid "Add canonical link of the first page to pagination pages"
+msgstr "Добавить на страницы пагинации каноническую ссылку первой страницы"
+
+msgctxt "SettingsTooltips::ab__so_noindex_tech_pages::canonical_for_pages_gt_1"
+msgid "When using \"Noindex for pagination\" setting add canonical link from the first page to prohibited for indexation pagination pages"
+msgstr "При использовании настройки \"Noindex для страниц пагинации\" добавлять на закрытые от индексации страницы пагинации каноническую ссылку первой страницы"
+
+msgctxt "SettingsOptions::ab__so_noindex_tech_pages::exclude_non_canonical_from_sitemap"
+msgid "Exclude non-canonical objects from sitemap"
+msgstr "Исключить неканонические обьекты из карты сайта"
+
+msgctxt "SettingsTooltips::ab__so_noindex_tech_pages::exclude_non_canonical_from_sitemap"
+msgid "Do not include into xml-sitemap, generated by \"AB: Advanced sitemap\" add-on, objects (categories, products, pages, etc), which have canonical URL, pointing to other object"
+msgstr "Не включать в xml-карту сайта, сформированную модулем \"AB: Расширенная карта сайта\", обьекты (категории, товары, страницы и т.д.), у которых канонический URL указан на другой обьект"
+
+msgctxt "Languages::ab__so_ntp.form.noindex"
+msgid "Exclude page from the indexation"
+msgstr "Исключить страницу из индексации"
+
+msgctxt "Languages::ab__so_ntp.form.canonical"
+msgid "Change the canonical link"
+msgstr "Изменить каноническую ссылку"
+
+msgctxt "Languages::ab__so_ntp.form.canonical.product"
+msgid "Choose the canonical product"
+msgstr "Выберите канонический товар"
+
+msgctxt "Languages::ab__so_ntp.form.canonical.category"
+msgid "Choose the canonical category"
+msgstr "Выберите каноническую категорию"
+
+msgctxt "Languages::ab__so_ntp.form.canonical.page"
+msgid "Choose the canonical page"
+msgstr "Выберите каноническую страницу"
+
+msgctxt "Languages::ab__so_ntp.tooltip.from_4.3.6"
+msgid "<b style='color: #f00000'>Only for CS-Cart 4.3.6 and higher</b>"
+msgstr "<b style='color: #f00000'>Только для CS-Cart 4.3.6 и выше</b>"
+
+msgctxt "Languages::ab__so_ntp.form.chose_frontstore"
+msgid "<b style='color: #f00000'>Choose store</b>"
+msgstr "<b style='color: #f00000'>Выберите магазин</b>"
+
+msgctxt "Languages::ab__so_ntp.settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "Languages::ab__so_ntp.301_redirects_info"
+msgid "On this tab, you can configure 301 redirects according to the following rules. <br/>Please note, that if your redirects don't work — contact your hosting provider for the server software additional configuration"
+msgstr "На этой вкладке Вы можете настроить 301 редиректы по нижеприведенным правилам."
+"<br/>Обратите внимание, что если у Вас не работают редиректы — обратитесь к своему хостинг провайдеру за донастройкой серверного ПО"
+
+msgctxt "Languages::ab_noindex"
+msgid "Enable/Disable product indexation"
+msgstr "Включить/выключить индексацию товара"
+
+msgctxt "Languages::ab_canonical_id"
+msgid "Canonical product ID"
+msgstr "ID канонического товара"
+
+msgctxt "Languages::ab__so_ntp.form.reset"
+msgid "Reset"
+msgstr "Сбросить"
+
+msgctxt "Languages::ab__so_ntp.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__so_ntp_help.docs"
+msgid "Read the <a target='_blank' href=\"https://cs-cart.alexbranding.com/en/ab__so_noindex_tech_pages.doc\">documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' href=\"https://cs-cart.alexbranding.com/ru/ab__so_noindex_tech_pages.doc\">документацией</a>."
+
+msgctxt "Languages::privilege_groups.ab__so_noindex_tech_pages"
+msgid "AB: Indexation management"
+msgstr "AB: Управление индексацией"
+
+msgctxt "Languages::privileges.ab__so_ntp_manage_data"
+msgid "Changing indexing parameters"
+msgstr "Изменение параметров индексации"
+
+msgctxt "Languages::privileges.ab__so_ntp_view_data"
+msgid "View indexing parameters"
+msgstr "Просмотр параметров индексации"
+
+msgctxt "Languages::ab__so_ntp.autoinstall.insert_hook_into_meta_tpl"
+msgid "The hook <code>index:ab__so_noindex</code> into the file <code>[file_path]</code> is inserted"
+msgstr "Вставлен `hook` <code>index:ab__so_noindex</code> в файл <code>[file_path]</code>"
+
+#. Alexbranding. Do not modify this file manually!

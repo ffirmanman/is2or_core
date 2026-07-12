@@ -1,0 +1,18 @@
+2026-04-01 @ 12:13:40 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"3818CDB4A51","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3818CDB4A51","command":"PURCHASE","currency":"SAR","amount":"23700","order_description":"Order #381","customer_ip":"182.253.58.127","customer_email":"arifyandwip.work@gmail.com","customer_name":"Arifyan Prayogo","phone_number":"+966 56 342 4232","merchant_extra1":381,"merchant_extra2":99,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"e83fefa39ea3ea55bec2e6b9b47903ddbadb49087c23fbc7c8dfeeb18f774f2a"}}
+
+2026-04-01 @ 12:13:48 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3818CDB4A51","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"3818CDB4A51","amount":237,"captured_amount":237,"order_status":"I"}}
+
+2026-04-01 @ 12:15:39 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"38456D52AC9","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=38456D52AC9","command":"PURCHASE","currency":"SAR","amount":"23700","order_description":"Order #384","customer_ip":"182.253.58.127","customer_email":"arifyandwip.work@gmail.com","customer_name":"Arifyan Prayogo","phone_number":"+966 56 342 4232","merchant_extra1":384,"merchant_extra2":99,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"5fb5b63071c28941ee74a87384d1d66b86d880cf1e70cc9da586a91b1ad0b8e9"}}
+
+2026-04-01 @ 12:15:44 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=38456D52AC9","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"38456D52AC9","amount":237,"captured_amount":237,"order_status":"I"}}
+
+2026-04-01 @ 13:42:32 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"3874455C52D","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3874455C52D","command":"PURCHASE","currency":"SAR","amount":"23700","order_description":"Order #387","customer_ip":"182.253.58.127","customer_email":"arifyandwip.work@gmail.com","customer_name":"Arifyan Prayogo","phone_number":"+966 56 342 4232","merchant_extra1":387,"merchant_extra2":99,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"3c4a95309b924cda7323818d6b40a8f8fae19adeb0dea175566965f664ff2bf0"}}
+
+2026-04-01 @ 13:43:11 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3874455C52D","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"3874455C52D","amount":237,"captured_amount":237,"order_status":"I"}}
+

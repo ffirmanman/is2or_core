@@ -1,0 +1,123 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::ab__antibot"
+msgid "AB: Antibot"
+msgstr "AB: Антибот"
+
+msgctxt "Addons::description::ab__antibot"
+msgid "Add-on allows to reduce the load on the server and hide content that is not desirable for indexing"
+msgstr "Модуль дозволяє заблокувати вміст блока сторінки для ботів"
+
+msgctxt "Languages::ab__antibot"
+msgid "AB: Antibot"
+msgstr "AB: Антибот"
+
+msgctxt "Languages::ab__ab.bots"
+msgid "Bot list"
+msgstr "Список ботів"
+
+msgctxt "Languages::ab__ab.bots.black_list"
+msgid "Bots from Black list"
+msgstr "Боти з Чорного списку"
+
+msgctxt "Languages::ab__ab.bots.white_list"
+msgid "Bots from White list"
+msgstr "Боти з Білого списку"
+
+msgctxt "Languages::ab__ab.bot.pattern"
+msgid "Name/Pattern"
+msgstr "Ім'я/Шаблон"
+
+msgctxt "Languages::ab__ab.bot.group_name"
+msgid "Group"
+msgstr "Група"
+
+msgctxt "Languages::ab__ab.bot.type"
+msgid "Type"
+msgstr "Тип"
+
+msgctxt "Languages::ab__ab.bot.type.variants.b"
+msgid "From Black list"
+msgstr "Чорний список"
+
+msgctxt "Languages::ab__ab.bot.type.variants.w"
+msgid "From White list"
+msgstr "Білий список"
+
+msgctxt "Languages::ab__ab.bot.type.has_been_updated"
+msgid "Bot type has been updated successfully"
+msgstr "Тип бота було успішно оновлено"
+
+msgctxt "Languages::ab__ab.bot.status"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "Languages::ab__ab.bot.has_been_updated"
+msgid "Bot has been successfully updated/added"
+msgstr "Бот було успішно оновлено/додано"
+
+msgctxt "Languages::ab__ab.bot.has_been_deleted"
+msgid "Bot(s) has been successfully deleted"
+msgstr "Бот(и) був(були) успішно видалено(і)"
+
+msgctxt "Languages::ab__ab.bot.add"
+msgid "Add a new bot"
+msgstr "Додати нового бота"
+
+msgctxt "Languages::ab__ab.hide_block"
+msgid "Hide this block"
+msgstr "Приховати цей блок"
+
+msgctxt "Languages::ab__ab.hide_block.variants.n"
+msgid "Do not hide"
+msgstr "Не приховувати"
+
+msgctxt "Languages::ab__ab.hide_block.variants.w"
+msgid "Hide for all bots (except the bots from the White list)"
+msgstr "Приховати для всіх ботів (окрім ботів з Білого списку)"
+
+msgctxt "Languages::ab__ab.hide_block.variants.a"
+msgid "Hide for all bots"
+msgstr "Приховати для всіх ботів"
+
+msgctxt "Languages::ab__ab.view_layout"
+msgid "<b>AB: Antibot</b> Block visibility"
+msgstr "<b>AB: Антибот</b> Видимість блоків"
+
+msgctxt "Languages::ab__ab.view_layout.for_real_users"
+msgid "For real visitors"
+msgstr "Для реальних відвідувачів"
+
+msgctxt "Languages::ab__ab.view_layout.for_white_bots"
+msgid "For White bots"
+msgstr "Для Білих ботів"
+
+msgctxt "Languages::ab__ab.view_layout.for_black_and_other_bots"
+msgid "For Black and other bots"
+msgstr "Для Чорних та інших ботів"
+
+msgctxt "Languages::ab__ab.layout_block.hide_block.variants.a"
+msgid "Block is hidden for all bots"
+msgstr "Блок прихований всім ботам"
+
+msgctxt "Languages::ab__ab.layout_block.hide_block.variants.w"
+msgid "Block is hidden for Black and other bots"
+msgstr "Блок прихований для Чорних та інших ботів"
+
+msgctxt "Languages::ab__ab.help"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "Languages::ab__ab.help.doc"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__antibot.doc'>the documentation</a>."
+msgstr "Ознайомитись з <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__antibot.doc'>документацією</a>."
+
+msgctxt "Languages::privilege_groups.ab__antibot"
+msgid "AB: Antibot"
+msgstr "AB: Антибот"
+
+#. Alexbranding. Do not modify this file manually!

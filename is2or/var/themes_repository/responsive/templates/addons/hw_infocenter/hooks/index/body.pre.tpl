@@ -1,0 +1,1 @@
+{if $extra_classes}<div class="{$extra_classes}">{/if}

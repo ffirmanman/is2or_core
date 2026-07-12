@@ -1,0 +1,128 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ab__seo_product_tabs"
+msgid "AB: SEO for product tabs"
+msgstr "AB: SEO for product tabs"
+
+msgctxt "Addons::description::ab__seo_product_tabs"
+msgid "This add-on allows to add SEO optimized headers for product tabs on the product pages. It is possible to use templates and placeholders of product names"
+msgstr "This add-on allows to add SEO optimized headers for product tabs on the product pages. It is possible to use templates and placeholders of product names"
+
+msgctxt "Languages::ab__seo_product_tabs"
+msgid "AB: SEO for product tabs"
+msgstr "AB: SEO for product tabs"
+
+msgctxt "Languages::ab__spt.ab.short"
+msgid "AB:"
+msgstr "AB:"
+
+msgctxt "SettingsOptions::ab__seo_product_tabs::add_tabs_fixed_panel"
+msgid "Add navigation bar with tab links on the product page"
+msgstr "Add navigation bar with tab links on the product page"
+
+msgctxt "SettingsTooltips::ab__seo_product_tabs::add_tabs_fixed_panel"
+msgid "When the setting is enabled a tabbed floating panel will be added for easy navigation on the page"
+msgstr "When the setting is enabled a tabbed floating panel will be added for easy navigation on the page"
+
+msgctxt "SettingsOptions::ab__seo_product_tabs::tabs_fixed_panel_position"
+msgid "Tab floating panel position"
+msgstr "Tab floating panel position"
+
+msgctxt "SettingsTooltips::ab__seo_product_tabs::tabs_fixed_panel_position"
+msgid "Determines where the tab navigation bar will be displayed"
+msgstr "Determines where the tab navigation bar will be displayed"
+
+msgctxt "SettingsVariants::ab__seo_product_tabs::tabs_fixed_panel_position::before_tabs"
+msgid "Before product tabs"
+msgstr "Before product tabs"
+
+msgctxt "SettingsVariants::ab__seo_product_tabs::tabs_fixed_panel_position::after_h1"
+msgid "After H1 heading"
+msgstr "After H1 heading"
+
+msgctxt "Languages::ab__spt.settings"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "Languages::ab__spt.product.short_name"
+msgid "AB: Product short name"
+msgstr "AB: Product short name"
+
+msgctxt "Languages::ab__spt.product.short_name.tooltip"
+msgid "This field will be used for output in tabs"
+msgstr "This field will be used for output in tabs"
+
+msgctxt "Languages::ab__spt.product_tabs.activate_settings"
+msgid "Activate settings"
+msgstr "Activate settings"
+
+msgctxt "Languages::ab__spt.product_tabs.tab_header_tag"
+msgid "HTML tag of tab header"
+msgstr "HTML tag of tab header"
+
+msgctxt "Languages::ab__spt.product_tabs.tab_header.tabs_enabled.N"
+msgid "Tab header"
+msgstr "Tab header"
+
+msgctxt "Languages::ab__spt.product_tabs.tab_header.tabs_enabled.Y"
+msgid "Tab content header"
+msgstr "Tab content header"
+
+msgctxt "Languages::ab__spt.product_tabs.tab_header.description"
+msgid "<p>You can also use the set of placeholders for this field:</p> <ul> <li><code>[product]</code> - Product name;</li> <li><code>[product_code]</code> - Product code (sku);</li> <li><code>[tab_name]</code> - Product tab name;</li> <li><code>[feature_N]</code> - Where N is characteristic id, which value is used in the tab header.</li> </ul> <p>The following delimiters are available. Text between delimiters will be displayed with a reduced contrast.</p> <ul> <li><code>[<]</code> - beginning of the color selection;</li> <li><code>[>]</code> - the end of the color selection.</li> </ul> For example, <code>Reviews [<]for [product][>] from real buyers</code>"
+msgstr "<p>You can also use the set of placeholders for this field:</p>"
+"<ul>"
+"<li><code>[product]</code> - Product name;</li>"
+"<li><code>[product_code]</code> - Product code (sku);</li>"
+"<li><code>[tab_name]</code> - Product tab name;</li>"
+"<li><code>[feature_N]</code> - Where N is characteristic id, which value is used in the tab header.</li>"
+"</ul>"
+"<p>The following delimiters are available. Text between delimiters will be displayed with a reduced contrast.</p>"
+"<ul>"
+"<li><code>[<]</code> - beginning of the color selection;</li>"
+"<li><code>[>]</code> - the end of the color selection.</li>"
+"</ul>"
+"For example, <code>Reviews [<]for [product][>] from real buyers</code>"
+
+msgctxt "Languages::ab__spt.product_tabs.advanced_settings"
+msgid "Advanced settings"
+msgstr "Advanced settings"
+
+msgctxt "Languages::ab__spt.product_tabs.add_tab_to_floating_panel"
+msgid "Show tab on the floating panel"
+msgstr "Show tab on the floating panel"
+
+msgctxt "Languages::ab__spt.product_tabs.add_tab_to_floating_panel.why_disabled"
+msgid "You can activate this setting under the following conditions: <ul> <li>The setting \"Display product details in tabs\" in <a href=\"[link_1]\" target=\"_blank\">appearance settings</a> - should be disabled. Current status - [settings_1_status]</li> <li>The add-on <a href=\"[link_2]\" target=\"_blank\">AB: SEO for product tabs</a> settings \"Add navigation bar with tab links on the product page\" - should be enabled. Current status - [settings_2_status]</li> <li>The setting \"Show this tab in a popup window\", located in this window in the tab \"General\" - should be disabled. Current status - [settings_3_status]</li> </ul>"
+msgstr "You can activate this setting under the following conditions:"
+"<ul>"
+"<li>The setting \"Display product details in tabs\" in <a href=\"[link_1]\" target=\"_blank\">appearance settings</a> - should be disabled. Current status - [settings_1_status]</li>"
+"<li>The add-on <a href=\"[link_2]\" target=\"_blank\">AB: SEO for product tabs</a> settings \"Add navigation bar with tab links on the product page\" - should be enabled. Current status - [settings_2_status]</li>"
+"<li>The setting \"Show this tab in a popup window\", located in this window in the tab \"General\" - should be disabled. Current status - [settings_3_status]</li>"
+"</ul>"
+
+msgctxt "Languages::ab__spt.all_about_product"
+msgid "All about product"
+msgstr "All about product"
+
+msgctxt "Languages::ab__seo_product_tabs.help"
+msgid "Help"
+msgstr "Help"
+
+msgctxt "Languages::ab__spt.help.docs"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__seo_product_tabs.doc'>the documentation</a>."
+msgstr "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__seo_product_tabs.doc'>the documentation</a>."
+
+msgctxt "Languages::privilege_groups.ab__seo_product_tabs"
+msgid "AB: SEO for product tabs"
+msgstr "AB: SEO for product tabs"
+
+msgctxt "Languages::privileges.ab__seo_product_tabs.help"
+msgid "View help"
+msgstr "View help"
+
+#. Alexbranding. Do not modify this file manually!

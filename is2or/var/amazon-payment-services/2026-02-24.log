@@ -1,0 +1,12 @@
+2026-02-24 @ 11:39:34 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"370D2C96752","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=370D2C96752","command":"PURCHASE","currency":"SAR","amount":"3000","order_description":"Order #370","customer_ip":"114.10.45.140","customer_email":"arifyandwip.work@gmail.com","customer_name":"Arifyan Arifyan","phone_number":"+966 50 123 4567","merchant_extra1":370,"merchant_extra2":100,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"483ce2f9ee56e2adef14fae96bf4b06c1ff6ba85552ea7c272524467d2f48ea9"}}
+
+2026-02-24 @ 11:39:48 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=370D2C96752","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"370D2C96752","amount":30,"captured_amount":30,"order_status":"I"}}
+
+2026-02-24 @ 11:40:20 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"3715AAF06BD","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3715AAF06BD","command":"PURCHASE","currency":"SAR","amount":"3000","order_description":"Order #371","customer_ip":"114.10.45.140","customer_email":"arifyandwip.work@gmail.com","customer_name":"Arifyan Arifyan","phone_number":"+966 50 123 4567","merchant_extra1":371,"merchant_extra2":100,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"50a052f4d30773eabea39da583e5cafd94a5b5db442a77c3d03e5d01ac241e16"}}
+
+2026-02-24 @ 11:40:43 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3715AAF06BD","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"3715AAF06BD","amount":"3000","captured_amount":"3000","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029831044","response_code":"12000","reason_text":"Success","order_status":"P"}}
+

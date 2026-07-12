@@ -1,0 +1,1 @@
+{if $close_link}</a>{/if}

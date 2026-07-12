@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+    <id>myfatoorah</id>
+    <supplier>MyFatoorah</supplier>
+    <supplier_link>https://www.myfatoorah.com/</supplier_link>
+    <version>2.1.2</version>
+    <priority>0</priority>
+    <position>0</position>
+    <default_language>en</default_language>
+    <status>disabled</status>
+    <has_icon>Y</has_icon>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="countryMode">
+                        <!-- The variants if this setting will be taken from the function fn_settings_variants_addons_[addon_id]_[setting_id] -->
+                        <type>selectbox</type>
+                        <default_value>KWT</default_value>
+                        <variants/>
+                    </item>
+                    <item id="testMode">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="apiKey">
+                        <type>textarea</type>
+                    </item>
+                    <item id="webhookSecretKey">
+                        <type>input</type>
+                    </item>
+                    <item id="listOptions">
+                        <type>selectbox</type>
+                        <default_value>multigateways</default_value>
+                        <variants/>
+                    </item>
+                    <item id="isApplePayRegistered">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="orderStatus">
+                        <type>selectbox</type>
+                        <default_value>P</default_value>
+                        <variants/>
+                    </item>
+                    <item id="debugMode">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="saveCard">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item type="file">database/data.sql</item>
+    </queries>
+    <functions>
+        <item for="install">mf_install</item>
+        <item for="uninstall">mf_uninstall</item>
+    </functions>
+    <authors>
+        <author>
+            <name>MyFatoorah Plugin Team</name>
+            <email>plugins@myfatoorah.com</email>
+            <url>https://www.myfatoorah.com/</url>
+        </author>
+        <author>
+            <name>Nermeen Shoman</name>
+            <email>nshoman@myfatoorah.com</email>
+        </author>
+        <author>
+            <name>Rasha Saeed</name>
+            <email>rsaeed@myfatoorah.com</email>
+        </author>
+    </authors>
+    <marketplace_product_id>3123</marketplace_product_id>
+<marketplace_license_number>MP-P56Z-BBU2-N40I-Q7R7</marketplace_license_number></addon>

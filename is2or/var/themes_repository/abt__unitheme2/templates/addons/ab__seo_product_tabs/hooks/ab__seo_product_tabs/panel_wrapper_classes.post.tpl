@@ -1,0 +1,1 @@
+{if $settings.abt__ut2.general.enable_fixed_header_panel === 'Y'} abt-has-fixed-menu{/if}

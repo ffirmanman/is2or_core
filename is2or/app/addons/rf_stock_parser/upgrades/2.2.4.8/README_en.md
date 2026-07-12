@@ -1,0 +1,1 @@
+Ability to import Buy URL and SEO data of products was added.

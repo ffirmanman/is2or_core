@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__images_seo</id>
+<version>3.3.2</version>
+<priority>2016</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<ab>
+<hash>366386843e43932be5d46f21e722aac135baf619, 2022-01-12 10:40:28</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.5.0</min></ab__addons_manager>
+<abt__unitheme2><min>4.11.4.c</min></abt__unitheme2>
+</dependencies>
+</compatibility>
+</ab>
+<compatibility>
+<dependencies>ab__addons_manager</dependencies>
+<core_version><min>4.13.3</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="settings">
+<items>
+<item id="code"><type>hidden</type><default_value>ABA-6h4uFMJHWBxMf0rHZ1TeX</default_value></item>
+<item id="build"><type>hidden</type><default_value>1002</default_value></item>
+<item id="override">
+<type>selectbox</type>
+<default_value>generated_if_empty</default_value>
+<variants>
+<item id="generated_if_empty">
+</item>
+<item id="always_generate">
+</item>
+</variants>
+</item>
+</items>
+</section>
+</sections>
+</settings>
+<functions>
+<item for="install">fn_ab__is_install</item>
+</functions>
+<queries>
+<item>
+CREATE TABLE IF NOT EXISTS ?:ab__is_attributes (
+is_id mediumint(8) unsigned NOT NULL auto_increment,
+storefront_id int(11) unsigned NOT NULL default 0,
+attribute_type char(1) NOT NULL default 'T',
+object_type char(1) NOT NULL default 'P',
+PRIMARY KEY (is_id),
+UNIQUE (storefront_id, attribute_type, object_type)
+) DEFAULT CHARSET=utf8;
+</item>
+<item>
+CREATE TABLE IF NOT EXISTS ?:ab__is_attribute_descriptions (
+is_id mediumint(8) unsigned NOT NULL,
+lang_code char(2) NOT NULL default '',
+prefix varchar(255) NOT NULL default '',
+text varchar(255) NOT NULL default '',
+suffix varchar(255) NOT NULL default '',
+PRIMARY KEY (is_id, lang_code)
+) DEFAULT CHARSET=utf8;
+</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__is.data.manage', 'Y', 'ab__addons', 'ab__images_seo', 'N')</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__is.data.view', 'Y', 'ab__addons', 'ab__images_seo', 'Y')</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__images_seo' OR group_id = 'ab__images_seo'</item>
+</queries>
+</addon>

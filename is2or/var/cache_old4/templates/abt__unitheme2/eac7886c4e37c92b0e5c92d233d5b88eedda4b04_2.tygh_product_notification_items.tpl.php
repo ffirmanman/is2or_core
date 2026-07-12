@@ -1,0 +1,261 @@
+<?php
+/* Smarty version 5.4.3, created on 2026-05-06 17:11:36
+  from 'tygh:views/products/components/product_notification_items.tpl' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
+  'version' => '5.4.3',
+  'unifunc' => 'content_69fb4c188003c2_74397501',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'eac7886c4e37c92b0e5c92d233d5b88eedda4b04' => 
+    array (
+      0 => 'views/products/components/product_notification_items.tpl',
+      1 => 1777315049,
+      2 => 'tygh',
+    ),
+  ),
+  'includes' => 
+  array (
+    'tygh:common/image.tpl' => 2,
+    'tygh:common/options_info.tpl' => 2,
+    'tygh:common/price.tpl' => 2,
+  ),
+))) {
+function content_69fb4c188003c2_74397501 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = '/var/www/is2or/design/themes/abt__unitheme2/templates/views/products/components';
+if ($_smarty_tpl->getValue('runtime')['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
+$_smarty_tpl->getSmarty()->getRuntime('Capture')->open($_smarty_tpl, "template_content", null, null);
+$_block_repeat=true;
+if (!$_smarty_tpl->getSmarty()->getBlockHandler('hook')) {
+throw new \Smarty\Exception('block tag \'hook\' not callable or registered');
+}
+
+echo $_smarty_tpl->getSmarty()->getBlockHandler('hook')->handle(array('name'=>"products:notification_items"), null, $_smarty_tpl, $_block_repeat);
+while ($_block_repeat) {
+  ob_start();
+?>
+    <?php if ($_smarty_tpl->getValue('added_products')) {?>
+
+        <?php $_smarty_tpl->assign('cart_product_icon_width', ($_smarty_tpl->getSmarty()->getModifierCallback('intval')($_smarty_tpl->getValue('settings')['Thumbnails']['product_cart_thumbnail_width']) > 0 ? $_smarty_tpl->getValue('settings')['Thumbnails']['product_cart_thumbnail_width'] : 80), false, NULL);?>
+        <?php $_smarty_tpl->assign('cart_product_icon_height', ($_smarty_tpl->getSmarty()->getModifierCallback('intval')($_smarty_tpl->getValue('settings')['Thumbnails']['product_cart_thumbnail_height']) > 0 ? $_smarty_tpl->getValue('settings')['Thumbnails']['product_cart_thumbnail_height'] : 80), false, NULL);?>
+
+        <div class="ut2-added-products"
+             style="--cart-product-icon-width:<?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('cart_product_icon_width')), ENT_QUOTES, 'UTF-8');?>
+px;--cart-product-icon-height:<?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('cart_product_icon_height')), ENT_QUOTES, 'UTF-8');?>
+px;">
+
+            <?php
+$_from = $_smarty_tpl->getSmarty()->getRuntime('Foreach')->init($_smarty_tpl, $_smarty_tpl->getValue('added_products'), 'product', false, 'key');
+$foreach0DoElse = true;
+foreach ($_from ?? [] as $_smarty_tpl->getVariable('key')->value => $_smarty_tpl->getVariable('product')->value) {
+$foreach0DoElse = false;
+?>
+                <?php $_block_repeat=true;
+if (!$_smarty_tpl->getSmarty()->getBlockHandler('hook')) {
+throw new \Smarty\Exception('block tag \'hook\' not callable or registered');
+}
+
+echo $_smarty_tpl->getSmarty()->getBlockHandler('hook')->handle(array('name'=>"products:notification_product"), null, $_smarty_tpl, $_block_repeat);
+while ($_block_repeat) {
+  ob_start();
+?>
+                    <div class="ut2-added-products__item">
+                        <div class="ut2-added-products__itself-item">
+
+                            <div class="product-pict">
+                                <div class="pict-underlay">
+                                    <a href="<?php echo htmlspecialchars((string) ($_smarty_tpl->getSmarty()->getModifierCallback('fn_url')("products.view?product_id=".((string)$_smarty_tpl->getValue('product')['product_id']))), ENT_QUOTES, 'UTF-8');?>
+">
+                                        <?php $_smarty_tpl->renderSubTemplate("tygh:common/image.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('images'=>$_smarty_tpl->getValue('product')['main_pair'],'no_ids'=>true,'image_width'=>$_smarty_tpl->getValue('cart_product_icon_width'),'image_height'=>$_smarty_tpl->getValue('cart_product_icon_height')), (int) 0, $_smarty_current_dir);
+?>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="desc">
+                                <div class="base">
+
+                                    <div class="product-name">
+                                        <a href="<?php echo htmlspecialchars((string) ($_smarty_tpl->getSmarty()->getModifierCallback('fn_url')("products.view?product_id=".((string)$_smarty_tpl->getValue('product')['product_id']))), ENT_QUOTES, 'UTF-8');?>
+">
+                                            <?php echo $_smarty_tpl->getSmarty()->getModifierCallback('fn_get_product_name')($_smarty_tpl->getValue('product')['product_id']);?>
+
+                                        </a>
+                                    </div>
+
+                                    <?php if ($_smarty_tpl->getValue('product')['variation_features']) {?>
+                                        <div class="options-variations-readonly">
+                                            <?php
+$_from = $_smarty_tpl->getSmarty()->getRuntime('Foreach')->init($_smarty_tpl, $_smarty_tpl->getValue('product')['variation_features'], 'v_feature');
+$foreach1DoElse = true;
+foreach ($_from ?? [] as $_smarty_tpl->getVariable('v_feature')->value) {
+$foreach1DoElse = false;
+?><div class="ty-product-options"><div class="ty-product-options-name"><?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('v_feature')['description']), ENT_QUOTES, 'UTF-8');?>
+:<span class="white-space">&nbsp;</span></div><div class="ty-product-options-content"><?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('v_feature')['variant']), ENT_QUOTES, 'UTF-8');?>
+</div></div><?php
+}
+$_smarty_tpl->getSmarty()->getRuntime('Foreach')->restore($_smarty_tpl, 1);?>
+                                        </div>
+                                    <?php }?>
+
+                                    <?php if ($_smarty_tpl->getValue('product')['product_option_data']) {?>
+                                        <div class="options-variations-readonly">
+                                            <?php $_smarty_tpl->renderSubTemplate("tygh:common/options_info.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('product_options'=>$_smarty_tpl->getValue('product')['product_option_data']), (int) 0, $_smarty_current_dir);
+?>
+                                        </div>
+                                    <?php }?>
+
+                                </div>
+
+                                <?php if (!($_smarty_tpl->getValue('settings')['Checkout']['allow_anonymous_shopping'] == "hide_price_and_add_to_cart" && !$_smarty_tpl->getValue('auth')['user_id'])) {?>
+                                    <?php if (!$_smarty_tpl->getValue('hide_amount')) {?>
+                                        <div class="mix-quantity-x-price"><bdi class="bdi-add-wrapper"><span class="mix-quantity-x"><span class="unit-quantity"><?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('product')['amount']), ENT_QUOTES, 'UTF-8');?>
+</span><span class="white-space">&nbsp;</span>x</span><span class="unit-price"><?php $_smarty_tpl->renderSubTemplate("tygh:common/price.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('value'=>$_smarty_tpl->getValue('product')['display_price'],'span_id'=>"price_".((string)$_smarty_tpl->getValue('key')),'class'=>"none"), (int) 0, $_smarty_current_dir);
+?></span></bdi></div>
+                                    <?php }?>
+                                <?php }?>
+
+                            </div>
+
+                        </div>
+                    </div>
+                <?php $_block_repeat=false;
+echo $_smarty_tpl->getSmarty()->getBlockHandler('hook')->handle(array('name'=>"products:notification_product"), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+}
+?>
+            <?php
+}
+$_smarty_tpl->getSmarty()->getRuntime('Foreach')->restore($_smarty_tpl, 1);?>
+
+        </div>
+    <?php } else { ?>
+        <?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('empty_text')), ENT_QUOTES, 'UTF-8');?>
+
+    <?php }
+$_block_repeat=false;
+echo $_smarty_tpl->getSmarty()->getBlockHandler('hook')->handle(array('name'=>"products:notification_items"), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+}
+$_smarty_tpl->getSmarty()->getRuntime('Capture')->close($_smarty_tpl);
+if ($_smarty_tpl->getSmarty()->getModifierCallback('trim')($_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, 'template_content'))) {
+if ($_smarty_tpl->getValue('auth')['area'] == "A") {?><span class="cm-template-box template-box" data-ca-te-template="views/products/components/product_notification_items.tpl" id="<?php echo $_smarty_tpl->getSmarty()->getFunctionHandler('set_id')->handle(array('name'=>"views/products/components/product_notification_items.tpl"), $_smarty_tpl);?>
+"><div class="cm-template-icon icon-edit ty-icon-edit hidden"></div><?php echo $_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, 'template_content');?>
+<!--[/tpl_id]--></span><?php } else {
+echo $_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, 'template_content');
+}
+}
+} else {
+$_block_repeat=true;
+if (!$_smarty_tpl->getSmarty()->getBlockHandler('hook')) {
+throw new \Smarty\Exception('block tag \'hook\' not callable or registered');
+}
+
+echo $_smarty_tpl->getSmarty()->getBlockHandler('hook')->handle(array('name'=>"products:notification_items"), null, $_smarty_tpl, $_block_repeat);
+while ($_block_repeat) {
+  ob_start();
+?>
+    <?php if ($_smarty_tpl->getValue('added_products')) {?>
+
+        <?php $_smarty_tpl->assign('cart_product_icon_width', ($_smarty_tpl->getSmarty()->getModifierCallback('intval')($_smarty_tpl->getValue('settings')['Thumbnails']['product_cart_thumbnail_width']) > 0 ? $_smarty_tpl->getValue('settings')['Thumbnails']['product_cart_thumbnail_width'] : 80), false, NULL);?>
+        <?php $_smarty_tpl->assign('cart_product_icon_height', ($_smarty_tpl->getSmarty()->getModifierCallback('intval')($_smarty_tpl->getValue('settings')['Thumbnails']['product_cart_thumbnail_height']) > 0 ? $_smarty_tpl->getValue('settings')['Thumbnails']['product_cart_thumbnail_height'] : 80), false, NULL);?>
+
+        <div class="ut2-added-products"
+             style="--cart-product-icon-width:<?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('cart_product_icon_width')), ENT_QUOTES, 'UTF-8');?>
+px;--cart-product-icon-height:<?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('cart_product_icon_height')), ENT_QUOTES, 'UTF-8');?>
+px;">
+
+            <?php
+$_from = $_smarty_tpl->getSmarty()->getRuntime('Foreach')->init($_smarty_tpl, $_smarty_tpl->getValue('added_products'), 'product', false, 'key');
+$foreach2DoElse = true;
+foreach ($_from ?? [] as $_smarty_tpl->getVariable('key')->value => $_smarty_tpl->getVariable('product')->value) {
+$foreach2DoElse = false;
+?>
+                <?php $_block_repeat=true;
+if (!$_smarty_tpl->getSmarty()->getBlockHandler('hook')) {
+throw new \Smarty\Exception('block tag \'hook\' not callable or registered');
+}
+
+echo $_smarty_tpl->getSmarty()->getBlockHandler('hook')->handle(array('name'=>"products:notification_product"), null, $_smarty_tpl, $_block_repeat);
+while ($_block_repeat) {
+  ob_start();
+?>
+                    <div class="ut2-added-products__item">
+                        <div class="ut2-added-products__itself-item">
+
+                            <div class="product-pict">
+                                <div class="pict-underlay">
+                                    <a href="<?php echo htmlspecialchars((string) ($_smarty_tpl->getSmarty()->getModifierCallback('fn_url')("products.view?product_id=".((string)$_smarty_tpl->getValue('product')['product_id']))), ENT_QUOTES, 'UTF-8');?>
+">
+                                        <?php $_smarty_tpl->renderSubTemplate("tygh:common/image.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('images'=>$_smarty_tpl->getValue('product')['main_pair'],'no_ids'=>true,'image_width'=>$_smarty_tpl->getValue('cart_product_icon_width'),'image_height'=>$_smarty_tpl->getValue('cart_product_icon_height')), (int) 0, $_smarty_current_dir);
+?>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="desc">
+                                <div class="base">
+
+                                    <div class="product-name">
+                                        <a href="<?php echo htmlspecialchars((string) ($_smarty_tpl->getSmarty()->getModifierCallback('fn_url')("products.view?product_id=".((string)$_smarty_tpl->getValue('product')['product_id']))), ENT_QUOTES, 'UTF-8');?>
+">
+                                            <?php echo $_smarty_tpl->getSmarty()->getModifierCallback('fn_get_product_name')($_smarty_tpl->getValue('product')['product_id']);?>
+
+                                        </a>
+                                    </div>
+
+                                    <?php if ($_smarty_tpl->getValue('product')['variation_features']) {?>
+                                        <div class="options-variations-readonly">
+                                            <?php
+$_from = $_smarty_tpl->getSmarty()->getRuntime('Foreach')->init($_smarty_tpl, $_smarty_tpl->getValue('product')['variation_features'], 'v_feature');
+$foreach3DoElse = true;
+foreach ($_from ?? [] as $_smarty_tpl->getVariable('v_feature')->value) {
+$foreach3DoElse = false;
+?><div class="ty-product-options"><div class="ty-product-options-name"><?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('v_feature')['description']), ENT_QUOTES, 'UTF-8');?>
+:<span class="white-space">&nbsp;</span></div><div class="ty-product-options-content"><?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('v_feature')['variant']), ENT_QUOTES, 'UTF-8');?>
+</div></div><?php
+}
+$_smarty_tpl->getSmarty()->getRuntime('Foreach')->restore($_smarty_tpl, 1);?>
+                                        </div>
+                                    <?php }?>
+
+                                    <?php if ($_smarty_tpl->getValue('product')['product_option_data']) {?>
+                                        <div class="options-variations-readonly">
+                                            <?php $_smarty_tpl->renderSubTemplate("tygh:common/options_info.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('product_options'=>$_smarty_tpl->getValue('product')['product_option_data']), (int) 0, $_smarty_current_dir);
+?>
+                                        </div>
+                                    <?php }?>
+
+                                </div>
+
+                                <?php if (!($_smarty_tpl->getValue('settings')['Checkout']['allow_anonymous_shopping'] == "hide_price_and_add_to_cart" && !$_smarty_tpl->getValue('auth')['user_id'])) {?>
+                                    <?php if (!$_smarty_tpl->getValue('hide_amount')) {?>
+                                        <div class="mix-quantity-x-price"><bdi class="bdi-add-wrapper"><span class="mix-quantity-x"><span class="unit-quantity"><?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('product')['amount']), ENT_QUOTES, 'UTF-8');?>
+</span><span class="white-space">&nbsp;</span>x</span><span class="unit-price"><?php $_smarty_tpl->renderSubTemplate("tygh:common/price.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('value'=>$_smarty_tpl->getValue('product')['display_price'],'span_id'=>"price_".((string)$_smarty_tpl->getValue('key')),'class'=>"none"), (int) 0, $_smarty_current_dir);
+?></span></bdi></div>
+                                    <?php }?>
+                                <?php }?>
+
+                            </div>
+
+                        </div>
+                    </div>
+                <?php $_block_repeat=false;
+echo $_smarty_tpl->getSmarty()->getBlockHandler('hook')->handle(array('name'=>"products:notification_product"), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+}
+?>
+            <?php
+}
+$_smarty_tpl->getSmarty()->getRuntime('Foreach')->restore($_smarty_tpl, 1);?>
+
+        </div>
+    <?php } else { ?>
+        <?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('empty_text')), ENT_QUOTES, 'UTF-8');?>
+
+    <?php }
+$_block_repeat=false;
+echo $_smarty_tpl->getSmarty()->getBlockHandler('hook')->handle(array('name'=>"products:notification_items"), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+}
+}
+}
+}

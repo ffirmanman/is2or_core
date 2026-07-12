@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__protection_content_copying</id>
+<version>1.7.0</version>
+<priority>20160322</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<ab>
+<hash>536a403c5e08042bf5cd2f09b4f6e7004d149814, 2021-01-06 10:23:04</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.3.5</min></ab__addons_manager>
+</dependencies>
+</compatibility>
+</ab>
+<compatibility>
+<dependencies>ab__addons_manager</dependencies>
+<core_version><min>4.12.1</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="settings">
+<items>
+<item id="activate_non_protection_for_ips">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="non_protection_for_ips">
+<type>textarea</type>
+<default_value/>
+</item>
+<item id="non_protection_classes">
+<type>input</type>
+</item>
+<item id="non_protection_for_admin">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="code"><type>hidden</type><default_value>ABA-VZdgDjnHHH4rg9Tantuge</default_value></item>
+<item id="build"><type>hidden</type><default_value>766</default_value></item>
+</items>
+</section>
+</sections>
+</settings>
+<queries>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__pcc.data.manage', 'Y', 'ab__addons', 'ab__protection_content_copying', 'N')</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__pcc.data.view', 'Y', 'ab__addons', 'ab__protection_content_copying', 'Y')</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__protection_content_copying' OR group_id = 'ab__protection_content_copying'</item>
+</queries>
+<functions>
+<item for="install">fn_ab__protection_content_copying_install</item>
+</functions>
+</addon>

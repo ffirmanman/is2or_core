@@ -1,0 +1,102 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ab__product_sets"
+msgid "AB: Product sets (Up-Sell)"
+msgstr "AB: Product sets (Up-Sell)"
+
+msgctxt "Addons::description::ab__product_sets"
+msgid "Addon Product sets"
+msgstr "Addon Product sets"
+
+msgctxt "Languages::ab__product_sets"
+msgid "AB: Product sets (Up-Sell)"
+msgstr "AB: Product sets (Up-Sell)"
+
+msgctxt "SettingsOptions::ab__product_sets::pattern"
+msgid "List element's pattern"
+msgstr "List element's pattern"
+
+msgctxt "SettingsTooltips::ab__product_sets::pattern"
+msgid "This pattern is using by products for set at customer side <br>Use tokens: <br>%product% - product's name; <br>%price% - product's price."
+msgstr "This pattern is using by products for set at customer side"
+"<br>Use tokens:"
+"<br>%product% - product's name;"
+"<br>%price% - product's price."
+
+msgctxt "Languages::ab__ps.form.pos"
+msgid "Pos."
+msgstr "Pos."
+
+msgctxt "Languages::ab__ps.form.title"
+msgid "Set title"
+msgstr "Set title"
+
+msgctxt "Languages::ab__ps.form.status"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "Languages::ab__ps.form.add_set"
+msgid "Add set"
+msgstr "Add set"
+
+msgctxt "Languages::ab__ps.results.subtotal"
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgctxt "Languages::ab__ps.results.discount"
+msgid "Discount"
+msgstr "Discount"
+
+msgctxt "Languages::ab__ps.results.total"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "Languages::ab__ps.multiselect.searchplaceholder"
+msgid "Select products"
+msgstr "Select products"
+
+msgctxt "Languages::ab__ps.multiselect.noItemsAvailable"
+msgid "No items available"
+msgstr "No items available"
+
+msgctxt "Languages::ab__ps.multiselect.selectAll"
+msgid "Select all"
+msgstr "Select all"
+
+msgctxt "Languages::ab__ps.multiselect.selectNone"
+msgid "Select none"
+msgstr "Select none"
+
+msgctxt "Languages::ab__ps.settings"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "Languages::ab__product_sets.help"
+msgid "Help"
+msgstr "Help"
+
+msgctxt "Languages::ab__ps_help.docs"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__product_sets.doc'>the documentation</a>."
+msgstr "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__product_sets.doc'>the documentation</a>."
+
+msgctxt "Languages::privilege_groups.ab__product_sets"
+msgid "AB: Product sets (Up-Sell)"
+msgstr "AB: Product sets (Up-Sell)"
+
+msgctxt "Languages::privileges.ab__ps.sets.manage"
+msgid "Manage sets"
+msgstr "Manage sets"
+
+msgctxt "Languages::privileges.ab__ps.sets.view"
+msgid "View sets"
+msgstr "View sets"
+
+msgctxt "Languages::ab__ps.autoinstall.install_demodata"
+msgid "For the following products, sets of products were added: [products]."
+msgstr "For the following products, sets of products were added: [products]."
+
+#. Alexbranding. Do not modify this file manually!

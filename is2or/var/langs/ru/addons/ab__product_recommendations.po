@@ -1,0 +1,123 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__product_recommendations"
+msgid "AB: Product recommendations in the customer's focus area"
+msgstr "AB: Рекомендации товаров в зоне фокуса покупателя"
+
+msgctxt "Addons::description::ab__product_recommendations"
+msgid "Assign and display product recommendations on the main product page in the place of maximum customer focus."
+msgstr "Назначайте и выводите товарные рекомендации на странице основного товара в месте максимального фокуса внимания покупателя."
+
+msgctxt "Languages::ab__product_recommendations"
+msgid "AB: Product recommendations in the customer's focus area"
+msgstr "AB: Рекомендации товаров в зоне фокуса покупателя"
+
+msgctxt "Languages::ab__product_recommendations.added_by_addon"
+msgid "Functionality is added by \"AB: Product recommendations in the customer's focus area\" add-on"
+msgstr "Функционал добавлен модулем \"AB: Рекомендации товаров в зоне фокуса покупателя\""
+
+msgctxt "Languages::ab__pr.settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "Languages::ab__pr.tab"
+msgid "AB: Product recommendations in the customer's focus area"
+msgstr "AB: Рекомендации товаров в зоне фокуса покупателя"
+
+msgctxt "Languages::ab__pr.choose_products"
+msgid "Select products"
+msgstr "Выберите товары"
+
+msgctxt "Languages::ab__pr.install_ab_intelligent_accessories_to_automate"
+msgid "To automate filling, install the add-on <a href=\"https://cs-cart.alexbranding.com/en/addon-intellectual-analogues-accessories-by-features.html\" target=\"_blank\">Intellectual selection of products in block</a>"
+msgstr "Для автоматизации наполнения установите модуль <a href=\"https://cs-cart.alexbranding.com/ru/intllectual-products-selection-by-features.html\" target=\"_blank\">Интеллектуальный подбор связанных товаров</a>"
+
+msgctxt "Languages::ab__pr.select_join"
+msgid "Select join"
+msgstr "Выберите связь"
+
+msgctxt "Languages::ab__pr.no_joins_presented"
+msgid "There are no joins for this category, create a new one"
+msgstr "Для этой категории нет созданных связей, создайте новую"
+
+msgctxt "Languages::ab__pr.we_recommend"
+msgid "Recommended"
+msgstr "Рекомендуем"
+
+msgctxt "Languages::ab__pr.products_search.with_personal_recommendations"
+msgid "With recommended products"
+msgstr "С рекомендоваными товарами"
+
+msgctxt "Languages::ab__pr.products_search.with_category_recommendations"
+msgid "With recommended products from category"
+msgstr "С рекомендоваными товарами на уровне категорий"
+
+msgctxt "Languages::ab__pr.inherit"
+msgid "Inherit products"
+msgstr "Наследовать товары"
+
+msgctxt "Languages::ab__pr.inherit.tooltip"
+msgid "If recommended products are not selected, they can be obtained from the parent category. Products from the main parent category are taken into account"
+msgstr "Если не выбраны рекомендуемые товары, можно их получить с родительской категории. Учитываются товары с главной родительской категории"
+
+msgctxt "Languages::ab__pr.inherit.all"
+msgid "All"
+msgstr "Все"
+
+msgctxt "Languages::ab__pr.inherit.category"
+msgid "From category"
+msgstr "С категории"
+
+msgctxt "Languages::ab__pr.inherit.intelligent"
+msgid "From Intellectual selection"
+msgstr "С Интеллектуального подбора"
+
+msgctxt "Languages::ab__pr.inherit.none"
+msgid "No"
+msgstr "Нет"
+
+msgctxt "Languages::ab__pr.inherit_if_not_available"
+msgid "Inherit if products are unavailable"
+msgstr "Наследовать, если товары недоступны"
+
+msgctxt "Languages::ab__pr.inherit_if_not_available.tooltip"
+msgid "If the selected products are not available to the buyer for some reason, the products from inheritance will be selected (taking into account the setting \"Inherit products\")"
+msgstr "Если выбранные товары по каким-то причинам недоступны для покупателя, то будут выбраны товары с наследования (учитывая настройку \"Наследовать товары\")"
+
+msgctxt "Languages::ab__pr.category_has_recommendations"
+msgid "Product recommendations are set for the parent category"
+msgstr "Для родительской категории заданы рекомендации товаров"
+
+msgctxt "Languages::ab__pr.category_has_no_recommendations"
+msgid "There are no product recommendations set for the parent category"
+msgstr "Для родительской категории не заданы рекомендации товаров"
+
+msgctxt "Languages::ab__pr.ab__pr_allow_recommendations"
+msgid "AB: Product recommendations in the customer's focus area"
+msgstr "AB: Рекомендации товаров в зоне фокуса покупателя"
+
+msgctxt "Languages::ab__pr.ab__pr_allow_recommendations.tooltip"
+msgid "Allow to set recommended products yourself"
+msgstr "Разрешить самостоятельно задавать рекомендованные товары"
+
+msgctxt "Languages::ab__pr.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__pr.help.docs"
+msgid "Read <a target='_blank' href='https://docs.cs-cart.abt.team/en/ab__product_recommendations.doc'>the documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' href='https://docs.cs-cart.abt.team/ru/ab__product_recommendations.doc/'>документацией</a>."
+
+msgctxt "Languages::privilege_groups.ab__product_recommendations"
+msgid "AB: Product recommendations in the customer's focus area"
+msgstr "AB: Рекомендации товаров в зоне фокуса покупателя"
+
+msgctxt "Languages::privileges.ab__product_recommendations.help"
+msgid "View help"
+msgstr "Просмотр справки"
+
+#. Alexbranding. Do not modify this file manually!

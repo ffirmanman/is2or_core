@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__product_sets</id>
+<version>1.9.0</version>
+<priority>2016</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<compatibility>
+<conflicts></conflicts>
+<dependencies>ab__addons_manager</dependencies>
+<core_version><min>4.15.1</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<ab>
+<hash>5100b25b51e49b760d1c2e470edbf8d3ffb4c9e4, 2022-12-28 16:53:57</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.5.0</min></ab__addons_manager>
+</dependencies>
+</compatibility>
+</ab>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="settings">
+<items>
+<item id="pattern">
+<type>input</type>
+<default_value>%product%, %price%</default_value>
+</item>
+<item id="code"><type>hidden</type><default_value>ABA-WrsMqp7Nmcdov3ip1k4up</default_value></item>
+<item id="build"><type>hidden</type><default_value>1085</default_value></item>
+</items>
+</section>
+</sections>
+</settings>
+<queries>
+<item>
+CREATE TABLE IF NOT EXISTS `?:ab__product_sets` (
+`set_id` int(11) unsigned NOT NULL auto_increment,
+`product_id` mediumint(8) unsigned NOT NULL,
+`pos` smallint(5) unsigned NOT NULL default 0,
+`status` char(1) NOT NULL default 'A',
+PRIMARY KEY (`set_id`),
+KEY `status` (`status`),
+KEY `product_id` (`product_id`)
+) DEFAULT CHARSET UTF8;
+</item>
+<item>
+CREATE TABLE IF NOT EXISTS `?:ab__product_sets_descriptions` (
+`set_id` int(11) unsigned NOT NULL,
+`set` varchar(255) NOT NULL default '',
+`lang_code` char(2) NOT NULL default '',
+PRIMARY KEY (`set_id`,`lang_code`)
+) DEFAULT CHARSET UTF8;
+</item>
+<item>
+CREATE TABLE IF NOT EXISTS `?:ab__product_sets_products` (
+`set_id` int(11) unsigned NOT NULL,
+`product_id` mediumint(8) NOT NULL,
+PRIMARY KEY (`set_id`,`product_id`)
+) DEFAULT CHARSET UTF8;
+</item>
+<item>REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__ps.sets.manage', 'Y', 'ab__addons', 'ab__product_sets', 'N')</item>
+<item>REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__ps.sets.view', 'Y', 'ab__addons', 'ab__product_sets', 'Y')</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__product_sets' OR group_id = 'ab__product_sets'</item>
+</queries>
+</addon>

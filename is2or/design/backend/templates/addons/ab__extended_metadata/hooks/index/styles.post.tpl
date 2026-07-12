@@ -1,0 +1,1 @@
+{style src="addons/ab__extended_metadata/styles.less"}

@@ -1,0 +1,15 @@
+2026-03-16 @ 11:37:26 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzQ2","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"3462BF55B4C","amount":"139.00","captured_amount":"139.00","order_status":"I"}}
+
+2026-03-16 @ 13:08:21 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"3499B7C48B2","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3499B7C48B2","command":"PURCHASE","currency":"SAR","amount":"11000","order_description":"Order #349","customer_ip":"114.10.45.255","customer_email":"arifyandwip.work@gmail.com","customer_name":"Arifyan Prayogo","phone_number":"+966 56 342 4232","merchant_extra1":349,"merchant_extra2":99,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"bd956dba773c217b1e31e84c6d6d86fad3bf2af36b8715b19ae66393517d41b6"}}
+
+2026-03-16 @ 14:02:51 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3499B7C48B2","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"3499B7C48B2","amount":110,"captured_amount":110,"order_status":"I"}}
+
+2026-03-16 @ 15:26:53 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"35029DF4ED4","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=35029DF4ED4","command":"PURCHASE","currency":"SAR","amount":"11000","order_description":"Order #350","customer_ip":"114.10.45.255","customer_email":"arifyandwip.work@gmail.com","customer_name":"Arifyan Prayogo","phone_number":"+966 56 342 4232","merchant_extra1":350,"merchant_extra2":99,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"4c385a3509752aa2d28d24a5dacf8b54082812daacf736bf775c65923680ce83"}}
+
+2026-03-16 @ 15:27:18 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=35029DF4ED4","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"35029DF4ED4","amount":"11000","captured_amount":"11000","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200030158681","response_code":"12000","reason_text":"Success","order_status":"P"}}
+

@@ -1,0 +1,582 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__extended_metadata"
+msgid "AB: Extended meta tags and placeholders"
+msgstr "AB: Расширенные мета-теги и плейсхолдеры"
+
+msgctxt "Addons::description::ab__extended_metadata"
+msgid "Add-on helps you to control meta tags and generate page tag <code>title</code>, meta tag <code>description</code> and meta tag <code>keywords</code> by specified pattern"
+msgstr "Модуль помогает с управлением мета-тегами, а также генерирует тег <code>title</code> страницы, мета-тег <code>description</code> и мета-тег <code>keywords</code> по заданному шаблону"
+
+msgctxt "Languages::ab__extended_metadata"
+msgid "AB: Extended meta tags and placeholders"
+msgstr "AB: Расширенные мета-теги и плейсхолдеры"
+
+msgctxt "SettingsOptions::ab__extended_metadata::brand_id"
+msgid "Brand feature ID"
+msgstr "ID характеристики Бренд"
+
+msgctxt "SettingsOptions::ab__extended_metadata::exclude_keywords"
+msgid "Exclude meta tag <code>keywords</code>"
+msgstr "Исключить мета-тег <code>keywords</code>"
+
+msgctxt "SettingsTooltips::ab__extended_metadata::exclude_keywords"
+msgid "Remove meta tag <code>keywords</code> from all pages"
+msgstr "Убрать мета-тег <code>keywords</code> со всех страниц"
+
+msgctxt "Languages::ab__emd.tabs.categories.view"
+msgid "Categories"
+msgstr "Категории"
+
+msgctxt "Languages::ab__emd.tabs.product_features.view"
+msgid "Brands"
+msgstr "Бренды"
+
+msgctxt "Languages::ab__emd.tabs.pages.view"
+msgid "Pages"
+msgstr "Страницы"
+
+msgctxt "Languages::ab__emd.tabs.products.view"
+msgid "Products"
+msgstr "Товары"
+
+msgctxt "Languages::ab__emd.tabs.companies.products"
+msgid "Vendor (products)"
+msgstr "Продавец (товары)"
+
+msgctxt "Languages::ab__emd.settings"
+msgid "Patterns management"
+msgstr "Управление шаблонами"
+
+msgctxt "Languages::ab__emd.setting.header.categories.view"
+msgid "Categories general pattern"
+msgstr "Основной шаблон категорий"
+
+msgctxt "Languages::ab__emd.setting.header.product_features.view"
+msgid "Brands general pattern"
+msgstr "Основной шаблон брендов"
+
+msgctxt "Languages::ab__emd.setting.header.pages.view"
+msgid "Pages general pattern"
+msgstr "Основной шаблон страниц"
+
+msgctxt "Languages::ab__emd.setting.header.products.view"
+msgid "Products general pattern"
+msgstr "Основной шаблон товаров"
+
+msgctxt "Languages::ab__emd.setting.header.companies.products"
+msgid "Vendor's products general pattern"
+msgstr "Основной шаблон списка товаров продавца"
+
+msgctxt "Languages::ab__emd.setting.header.additional_categories.view"
+msgid "Categories additional patterns"
+msgstr "Дополнительные шаблоны категорий"
+
+msgctxt "Languages::ab__emd.setting.header.additional_products.view"
+msgid "Products additional patterns"
+msgstr "Дополнительные шаблоны товаров"
+
+msgctxt "Languages::ab__emd.setting.categories.view.action"
+msgid "Redefine categories meta tags"
+msgstr "Переопределить мета-теги"
+
+msgctxt "Languages::ab__emd.setting.categories.view.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Не переопределять"
+
+msgctxt "Languages::ab__emd.setting.categories.view.action.override_empty"
+msgid "Redefine empty"
+msgstr "Переопределять пустые"
+
+msgctxt "Languages::ab__emd.setting.categories.view.action.override_all"
+msgid "Redefine all"
+msgstr "Переопределять все"
+
+msgctxt "Languages::ab__emd.setting.categories.view.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Шаблон тега <code>title</code>"
+
+msgctxt "Languages::ab__emd.setting.categories.view.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Шаблон мета-тега <code>description</code>"
+
+msgctxt "Languages::ab__emd.setting.categories.view.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Шаблон мета-тега <code>keywords</code>"
+
+msgctxt "Languages::ab__emd.setting.products.view.action"
+msgid "Redefine product meta tags"
+msgstr "Переопределить мета-теги"
+
+msgctxt "Languages::ab__emd.setting.products.view.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Не переопределять"
+
+msgctxt "Languages::ab__emd.setting.products.view.action.override_empty"
+msgid "Redefine empty"
+msgstr "Переопределять пустые"
+
+msgctxt "Languages::ab__emd.setting.products.view.action.override_all"
+msgid "Redefine all"
+msgstr "Переопределять все"
+
+msgctxt "Languages::ab__emd.setting.products.view.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Шаблон тега <code>title</code>"
+
+msgctxt "Languages::ab__emd.setting.products.view.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Шаблон мета-тега <code>description</code>"
+
+msgctxt "Languages::ab__emd.setting.products.view.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Шаблон мета-тега <code>keywords</code>"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.action"
+msgid "Redefine product features meta tags"
+msgstr "Переопределить мета-теги"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Не переопределять"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.action.override_empty"
+msgid "Redefine empty"
+msgstr "Переопределять пустые"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.action.override_all"
+msgid "Redefine all"
+msgstr "Переопределять все"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Шаблон тега <code>title</code>"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Шаблон мета-тега <code>description</code>"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Шаблон мета-тега <code>keywords</code>"
+
+msgctxt "Languages::ab__emd.setting.pages.view.action"
+msgid "Redefine page meta tags"
+msgstr "Переопределить мета-теги"
+
+msgctxt "Languages::ab__emd.setting.pages.view.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Не переопределять"
+
+msgctxt "Languages::ab__emd.setting.pages.view.action.override_empty"
+msgid "Redefine empty"
+msgstr "Переопределять пустые"
+
+msgctxt "Languages::ab__emd.setting.pages.view.action.override_all"
+msgid "Redefine all"
+msgstr "Переопределять все"
+
+msgctxt "Languages::ab__emd.setting.pages.view.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Шаблон тега <code>title</code>"
+
+msgctxt "Languages::ab__emd.setting.pages.view.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Шаблон мета-тега <code>description</code>"
+
+msgctxt "Languages::ab__emd.setting.pages.view.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Шаблон мета-тега <code>keywords</code>"
+
+msgctxt "Languages::ab__emd.setting.companies.products.action"
+msgid "Redefine page meta tags"
+msgstr "Переопределить мета-теги"
+
+msgctxt "Languages::ab__emd.setting.companies.products.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Не переопределять"
+
+msgctxt "Languages::ab__emd.setting.companies.products.action.override_empty"
+msgid "Redefine empty"
+msgstr "Переопределять пустые"
+
+msgctxt "Languages::ab__emd.setting.companies.products.action.override_all"
+msgid "Redefine all"
+msgstr "Переопределять все"
+
+msgctxt "Languages::ab__emd.setting.companies.products.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Шаблон тега <code>title</code>"
+
+msgctxt "Languages::ab__emd.setting.companies.products.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Шаблон мета-тега <code>description</code>"
+
+msgctxt "Languages::ab__emd.setting.companies.products.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Шаблон мета-тега <code>keywords</code>"
+
+msgctxt "Languages::ab__emd.placeholders.header"
+msgid "Use following placeholders:"
+msgstr "Используйте следующие плейсхолдеры:"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip_link"
+msgid "Available placeholders"
+msgstr "Доступны плейсхолдеры"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.original"
+msgid "<b>[placeholder]</b> — [field] (as is)"
+msgstr "<b>[placeholder]</b> — [field] (как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.lowercase"
+msgid "<b>[placeholder]</b> — [field] (lowercase)"
+msgstr "<b>[placeholder]</b> — [field] (строчные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.uppercase"
+msgid "<b>[placeholder]</b> — [field] (uppercase)"
+msgstr "<b>[placeholder]</b> — [field] (заглавные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.first_upper_case"
+msgid "<b>[placeholder]</b> — [field] (the first letter is uppercase others are lowercase)"
+msgstr "<b>[placeholder]</b> — [field] (первая заглавная, остальные строчные)"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.first_lower_case"
+msgid "<b>[placeholder]</b> — [field] (the first letter is lowercase others as is)"
+msgstr "<b>[placeholder]</b> — [field] (первая строчная, остальные как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[category]"
+msgid "category name"
+msgstr "название категории"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[category_parent_name]"
+msgid "parent category name"
+msgstr "название родительской категории"
+
+msgctxt "Languages::ab__emd.placeholders.category_path"
+msgid "<b>[category_path]</b> — category path (as is)"
+msgstr "<b>[category_path]</b> — путь к категории (как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_lower"
+msgid "<b>[category_path_lower]</b> — category path (lowercase)"
+msgstr "<b>[category_path_lower]</b> — путь к категории (строчные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_ucfirst"
+msgid "<b>[Category_path]</b> — category path (the first letter is uppercase others are lowercase)"
+msgstr "<b>[Category_path]</b> — путь к категории (первая заглавная, остальные строчные)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_upper"
+msgid "<b>[CATEGORY_PATH]</b> — category path (uppercase)"
+msgstr "<b>[CATEGORY_PATH]</b> — путь к категории (заглавные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_first_lower"
+msgid "<b>[category_path_first_lower]</b> — category path (the first letter is lowercase others as is)"
+msgstr "<b>[category_path_first_lower]</b> — путь к категории (первая строчная, остальные как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_rev"
+msgid "<b>[category_path_reverse]</b> — reverse category path (as is)"
+msgstr "<b>[category_path_reverse]</b> — путь к категории в обратном порядке (как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_rev_lower"
+msgid "<b>[category_path_reverse_lower]</b> — reverse category path (lowercase)"
+msgstr "<b>[category_path_reverse_lower]</b> — путь к категории в обратном порядке (строчные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_rev_ucfirst"
+msgid "<b>[Category_path_reverse]</b> — reverse category path (first letter uppercase else lowercase)"
+msgstr "<b>[Category_path_reverse]</b> — путь к категории в обратном порядке (первая заглавная, остальные строчные)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_rev_upper"
+msgid "<b>[CATEGORY_PATH_REVERSE]</b> — reverse category path (uppercase)"
+msgstr "<b>[CATEGORY_PATH_REVERSE]</b> — путь к категории в обратном порядке (заглавные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_rev_first_lower"
+msgid "<b>[category_path_reverse_first_lower]</b> — reverse category path (the first letter is lowercase others as is)"
+msgstr "<b>[category_path_reverse_first_lower]</b> — путь к категории в обратном порядке (первая строчная, остальные как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.min_price"
+msgid "<b>[min_price]</b> — minimal product price in the section (as is, by currency settings)<br> <b>[min_price_nocurrency]</b> — minimal product price in the section (without currency sign)<br> <b>[min_price_noseparate]</b> — minimal product price in the section (without thousand separator)<br> <b>[min_price_noseparate_nocurrency]</b> — minimal product price in the section (without thousand separator and currency sign)<br> <b>[min_price_prefix]</b> — value of the language variable <code>ab__em.min_price_prefix</code>. Prints when minimal product price greater than 0 only. Can be changed by translations<br> <b>[min_price_suffix]</b> — value of the language variable <code>ab__em.min_price_suffix</code>. Prints when minimal product price greater than 0 only. Can be changed by translations"
+msgstr "<b>[min_price]</b> — минимальная цена товара в разделе (как есть, по настройкам валюты)<br>"
+"<b>[min_price_nocurrency]</b> — минимальная цена товара в разделе (без валюты)<br>"
+"<b>[min_price_noseparate]</b> — минимальная цена товара в разделе (без тысячного разделителя)<br>"
+"<b>[min_price_noseparate_nocurrency]</b> — минимальная цена товара в разделе (без тысячного разделителя и без валюты)<br>"
+"<b>[min_price_prefix]</b> — значение языковой переменной <code>ab__em.min_price_prefix</code>. Отображается только если минимальная цена выше нуля. Может быть изменена в переводах<br>"
+"<b>[min_price_suffix]</b> — значение языковой переменной <code>ab__em.min_price_suffix</code>. Отображается только если минимальная цена выше нуля. Может быть изменена в переводах"
+
+msgctxt "Languages::ab__emd.placeholders.max_price"
+msgid "<b>[max_price]</b> — maximal product price in the section (as is, by currency settings)<br> <b>[max_price_nocurrency]</b> — maximal product price in the section (without currency sign)<br> <b>[max_price_noseparate]</b> — maximal product price in the section (without thousand separator)<br> <b>[max_price_noseparate_nocurrency]</b> — maximal product price in the section (without thousand separator and currency sign)<br> <b>[max_price_prefix]</b> — value of the language variable <code>ab__em.max_price_prefix</code>. Prints when maximal product price greater than 0 only. Can be changed by translations<br> <b>[max_price_suffix]</b> — value of the language variable <code>ab__em.max_price_suffix</code>. Prints when maximal product price greater than 0 only. Can be changed by translations"
+msgstr "<b>[max_price]</b> — максимальная цена товара в разделе (как есть, по настройкам валюты)<br>"
+"<b>[max_price_nocurrency]</b> — максимальная цена товара в разделе (без валюты)<br>"
+"<b>[max_price_noseparate]</b> — максимальная цена товара в разделе (без тысячного разделителя)<br>"
+"<b>[max_price_noseparate_nocurrency]</b> — максимальная цена товара в разделе (без тысячного разделителя и без валюты)<br>"
+"<b>[max_price_prefix]</b> — значение языковой переменной <code>ab__em.max_price_prefix</code>. Отображается только если максимальная цена выше нуля. Может быть изменена в переводах<br>"
+"<b>[max_price_suffix]</b> — значение языковой переменной <code>ab__em.max_price_suffix</code>. Отображается только если максимальная цена выше нуля. Может быть изменена в переводах"
+
+msgctxt "Languages::ab__emd.placeholders.total_products"
+msgid "<b>[total_products]</b> — total products count in the section"
+msgstr "<b>[total_products]</b> — количество товаров в разделе"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[storefront]"
+msgid "storefront name"
+msgstr "название витрины"
+
+msgctxt "Languages::ab__emd.placeholders.currency"
+msgid "<b>[currency]</b> — currency sign (as is)"
+msgstr "<b>[currency]</b> — символ валюты (как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.currency_nohtml"
+msgid "<b>[currency_nohtml]</b> — currency sign without html-tags"
+msgstr "<b>[currency_nohtml]</b> — символ валюты без html-тегов"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[product]"
+msgid "product name"
+msgstr "название товара"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[short_description]"
+msgid "product short description"
+msgstr "краткое описание товара"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[product_category]"
+msgid "product category name"
+msgstr "название категории товара"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[product_brand]"
+msgid "product brand"
+msgstr "бренд товара"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[product_code]"
+msgid "product code"
+msgstr "артикул товара"
+
+msgctxt "Languages::ab__emd.placeholders.product_price"
+msgid "<b>[product_price]</b> — product price (as is, by currency settings)<br> <b>[product_price_nocurrency]</b> — product price (without currency sign)<br> <b>[product_price_noseparate]</b> — product price (without thousand separator)<br> <b>[product_price_noseparate_nocurrency]</b> — product price (without thousand separator and currency sign)"
+msgstr "<b>[product_price]</b> — цена товара (как есть, по настройкам валюты)<br>"
+"<b>[product_price_nocurrency]</b> — цена товара (без валюты)<br>"
+"<b>[product_price_noseparate]</b> — цена товара (без тысячного разделителя)<br>"
+"<b>[product_price_noseparate_nocurrency]</b> — цена товара (без тысячного разделителя и без валюты)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path"
+msgid "<b>[product_category_path]</b> — product category path (as is)"
+msgstr "<b>[product_category_path]</b> — путь к категории товара (как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_lower"
+msgid "<b>[product_category_path_lower]</b> — product category path (lowercase)"
+msgstr "<b>[product_category_path_lower]</b> — путь к категории товара (строчные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_ucfirst"
+msgid "<b>[Product_category_path]</b> — product category path (the first letter is uppercase others are lowercase)"
+msgstr "<b>[Product_category_path]</b> — путь к категории товара (первая заглавная, остальные строчные)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_upper"
+msgid "<b>[PRODUCT_CATEGORY_PATH]</b> — product category path (uppercase)"
+msgstr "<b>[PRODUCT_CATEGORY_PATH]</b> — путь к категории товара (заглавные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_first_lower"
+msgid "<b>[product_category_path_first_lower]</b> — product category path (the first letter is lowercase others as is)"
+msgstr "<b>[product_category_path_first_lower]</b> — путь к категории товара (первая строчная, остальные как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_rev"
+msgid "<b>[product_category_path_reverse]</b> — reverse product category path (as is)"
+msgstr "<b>[product_category_path_reverse]</b> — путь к категории товара в обратном порядке (как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_rev_lower"
+msgid "<b>[product_category_path_reverse_lower]</b> — reverse product category path (lowercase)"
+msgstr "<b>[product_category_path_reverse_lower]</b> — путь к категории товара в обратном порядке (строчные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_rev_ucfirst"
+msgid "<b>[Product_category_path_reverse]</b> — reverse product category path (the first letter is uppercase others are lowercase)"
+msgstr "<b>[Product_category_path_reverse]</b> — путь к категории товара в обратном порядке (первая заглавная, остальные строчные)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_rev_upper"
+msgid "<b>[PRODUCT_CATEGORY_PATH_REVERSE]</b> — reverse product category path (uppercase)"
+msgstr "<b>[PRODUCT_CATEGORY_PATH_REVERSE]</b> — путь к категории товара в обратном порядке (заглавные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_rev_first_lower"
+msgid "<b>[product_category_path_reverse_first_lower]</b> — reverse product category path (the first letter is lowercase others as is)"
+msgstr "<b>[product_category_path_reverse_first_lower]</b> — путь к категории товара в обратном порядке (первая строчная, остальные как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.product_features"
+msgid "<b>[some {fvalue_ID} text]</b> — text with a feature value, where ID — is the feature identifier, \"some text\" — any text (optional) that will be inserted only if product has the value of the corresponding feature<br> <b>[some {fname_ID} text]</b> — text with a feature name, where ID — is the feature identifier, \"some text\" — any text (optional) that will be inserted only if product has the value of the corresponding feature"
+msgstr "<b>[произвольный {fvalue_ID} текст]</b> — текст со значением характеристики, где ID — идентификатор вставляемой характеристики, \"произвольный текст\" — любой текст (необязательно), который будет вставлен только если товару проставлено значение соответствующей характеристики<br>"
+"<b>[произвольный {fname_ID} текст]</b> — текст с названием характеристики, где ID — идентификатор вставляемой характеристики, \"произвольный текст\" — любой текст (необязательно), который будет вставлен только если товару проставлено значение соответствующей характеристики"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[brand]"
+msgid "feature variant name"
+msgstr "название бренда"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[page]"
+msgid "page name"
+msgstr "название страницы"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[page_parent]"
+msgid "parent page name"
+msgstr "название родительской страницы"
+
+msgctxt "Languages::ab__emd.placeholders.page_path"
+msgid "<b>[page_path]</b> — page path (as is)"
+msgstr "<b>[page_path]</b> — путь страницы (как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_lower"
+msgid "<b>[page_path_lower]</b> — page path (lowercase)"
+msgstr "<b>[page_path_lower]</b> — путь страницы (строчные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_ucfirst"
+msgid "<b>[Page_path]</b> — page path (the first letter is uppercase others are lowercase)"
+msgstr "<b>[Page_path]</b> — путь страницы (первая заглавная, остальные строчные)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_upper"
+msgid "<b>[PAGE_PATH]</b> — page path (uppercase)"
+msgstr "<b>[PAGE_PATH]</b> — путь страницы (заглавные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_first_lower"
+msgid "<b>[page_path_first_lower]</b> — page path (the first letter is lowercase others as is)"
+msgstr "<b>[page_path_first_lower]</b> — путь страницы (первая строчная, остальные как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_rev"
+msgid "<b>[page_path_reverse]</b> — reverse page path (as is)"
+msgstr "<b>[page_path_reverse]</b> — путь страницы в обратном порядке (как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_rev_lower"
+msgid "<b>[page_path_reverse_lower]</b> — reverse page path (lowercase)"
+msgstr "<b>[page_path_reverse_lower]</b> — путь страницы в обратном порядке (строчные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_rev_ucfirst"
+msgid "<b>[Page_path_reverse]</b> — reverse page path (the first letter is uppercase others are lowercase)"
+msgstr "<b>[Page_path_reverse]</b> — путь страницы в обратном порядке (первая заглавная, остальные строчные)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_rev_upper"
+msgid "<b>[PAGE_PATH_REVERSE]</b> — reverse page path (uppercase)"
+msgstr "<b>[PAGE_PATH_REVERSE]</b> — путь страницы в обратном порядке (заглавные буквы)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_rev_first_lower"
+msgid "<b>[page_path_reverse_first_lower]</b> — reverse page path (the first letter is lowercase others as is)"
+msgstr "<b>[page_path_reverse_first_lower]</b> — путь страницы в обратном порядке (первая строчная, остальные как есть)"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[vendor]"
+msgid "product vendor"
+msgstr "продавец товара"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[alternative_name]"
+msgid "alternative name"
+msgstr "альтернативное название"
+
+msgctxt "Languages::ab__emd.setting.categories.view.extra"
+msgid "Category path delimiter is language variable <code>ab__emd.category_path_delimiter</code>. It could be changed on the \"Administration panel → Languages → Translations\" page. By default <b>::</b><br> The products prices are used without discounts of [Promotions], because of the CS-Cart limitations"
+msgstr "Как разделитель пути категории используется языковая переменная <code>ab__emd.category_path_delimiter</code>. Может быть изменен на странице \"Административная панель → Языки → Переводы\". По умолчанию <b>::</b><br>"
+"Цены товаров используются без учета возможных скидок по [Промо-акциям], из-за ограничений самого CS-Cart"
+
+msgctxt "Languages::ab__emd.setting.products.view.extra"
+msgid "Product category path delimiter is language variable <code>ab__emd.product_path_delimiter</code>. It could be changed on the \"Administration panel → Languages → Translations\" page. By default <b>::</b><br > Product features variants delimiter is language variable <code>ab__emd.features_variants_delimiter</code>. It could be changed on the \"Administration panel → Languages → Translations\" page. By default <b>, </b>"
+msgstr "Как разделитель пути категории товара используется языковая переменная <code>ab__emd.product_path_delimiter</code>. Может быть изменен на странице \"Административная панель → Языки → Переводы\". По умолчанию <b>::</b><br >"
+"Как разделитель вариантов одной характеристики товара (характеристики с множественными значениями) используется языковая переменная <code>ab__emd.features_variants_delimiter</code>. Может быть изменен на странице \"Административная панель → Языки → Переводы\". По умолчанию <b>, </b>"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.extra"
+msgid "The products prices are used without discounts of [Promotions], because of the CS-Cart limitations"
+msgstr "Цены товаров используются без учета возможных скидок по [Промо-акциям], из-за ограничений самого CS-Cart"
+
+msgctxt "Languages::ab__emd.setting.pages.view.extra"
+msgid "Page path delimiter is language variable <code>ab__emd.page_path_delimiter</code>. It could be changed on the \"Administration panel → Languages → Translations\" page. By default <b>::</b>"
+msgstr "Как разделитель пути страницы используется языковая переменная <code>ab__emd.page_path_delimiter</code>. Может быть изменен на странице \"Административная панель → Языки → Переводы\". По умолчанию <b>::</b>"
+
+msgctxt "Languages::ab__emd.placeholders.storefront"
+msgid "<b>[storefront]</b> — storefront name (as is)<br> <b>[storefront_lower]</b> — storefront name (lowercase)<br> <b>[Storefront]</b> — storefront name (the first letter is uppercase others are lowercase)<br> <b>[STOREFRONT]</b> — storefront name (uppercase)"
+msgstr "<b>[storefront]</b> — название витрины (как есть)<br>"
+"<b>[storefront_lower]</b> — название витрины (строчные буквы)<br>"
+"<b>[Storefront]</b> — название витрины (первая заглавная, остальные строчные)<br>"
+"<b>[STOREFRONT]</b> — название витрины (заглавные буквы)"
+
+msgctxt "Languages::ab__emd.form.pattern.name"
+msgid "Pattern name"
+msgstr "Название шаблона"
+
+msgctxt "Languages::ab__emd.form.category_pattern_id"
+msgid "Category meta tags pattern"
+msgstr "Шаблон мета-тегов категории"
+
+msgctxt "Languages::ab__emd.form.products_pattern_id"
+msgid "Products meta tags pattern"
+msgstr "Шаблон мета-тегов товаров"
+
+msgctxt "Languages::ab__emd.form.empty_pattern"
+msgid "General"
+msgstr "Общий"
+
+msgctxt "Languages::ab__emd.link.edit_categories_patterns"
+msgid "Edit categories patterns"
+msgstr "Редактировать шаблоны категорий"
+
+msgctxt "Languages::ab__emd.link.edit_products_patterns"
+msgid "Edit products patterns"
+msgstr "Редактировать шаблоны товаров"
+
+msgctxt "Languages::ab__emd.general_settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "Languages::ab__em.min_price_prefix"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__em.min_price_suffix"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__em.max_price_prefix"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__em.max_price_suffix"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__emd.category_path_delimiter"
+msgid "::"
+msgstr "::"
+
+msgctxt "Languages::ab__emd.page_path_delimiter"
+msgid "::"
+msgstr "::"
+
+msgctxt "Languages::ab__emd.product_path_delimiter"
+msgid "::"
+msgstr "::"
+
+msgctxt "Languages::ab__emd.features_variants_delimiter"
+msgid ","
+msgstr ","
+
+msgctxt "Languages::ab__emd_alternative_name"
+msgid "Alternative name"
+msgstr "Альтернативное название"
+
+msgctxt "Languages::ab__emd.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__emd_help.docs"
+msgid "Read the <a target='_blank' href=\"https://cs-cart.alexbranding.com/en/ab__extended_metadata.doc\">documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' href=\"https://cs-cart.alexbranding.com/ru/ab__extended_metadata.doc\">документацией</a>."
+
+msgctxt "Languages::privilege_groups.ab__extended_metadata"
+msgid "AB: Extended meta tags and placeholders"
+msgstr "AB: Расширенные мета-теги и плейсхолдеры"
+
+msgctxt "Languages::privileges.ab__em.manage"
+msgid "Meta tags management"
+msgstr "Управление мета-тегами"
+
+msgctxt "Languages::privileges.ab__em.view"
+msgid "View Meta tags"
+msgstr "Просмотр мета-тегов"
+
+msgctxt "Languages::ab__emd.autoinstall.comment_auto_description"
+msgid "Constant <code>AUTO_META_DESCRIPTION</code> is commented"
+msgstr "Константа <code>AUTO_META_DESCRIPTION</code> закомментирована"
+
+msgctxt "Languages::ab__emd.autoinstall.insert_hook_into_meta_tpl"
+msgid "The hook <code>index:meta_keywords</code> into the file <code>[file_path]</code> is inserted"
+msgstr "Вставлен `hook` <code>index:meta_keywords</code> в файл <code>[file_path]</code>"
+
+#. Alexbranding. Do not modify this file manually!

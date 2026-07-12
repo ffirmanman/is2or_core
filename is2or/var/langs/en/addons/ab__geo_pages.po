@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ab__geo_pages"
+msgid "AB: Geo pages"
+msgstr "AB: Geo pages"
+
+msgctxt "Addons::description::ab__geo_pages"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__geo_pages"
+msgid "AB: Geo pages"
+msgstr "AB: Geo pages"
+
+msgctxt "Languages::ab__geo_pages.added_by_addon"
+msgid "Functionality is added by the add-on \"AB: Geo pages\""
+msgstr "Functionality is added by the add-on \"AB: Geo pages\""
+
+msgctxt "Languages::ab__gp"
+msgid "AB: Geo pages"
+msgstr "AB: Geo pages"
+
+msgctxt "SettingsOptions::ab__geo_pages::default_template_id"
+msgid "Template by default"
+msgstr "Template by default"
+
+msgctxt "SettingsOptions::ab__geo_pages::index_page_template_id"
+msgid "Template for Home page"
+msgstr "Template for Home page"
+
+msgctxt "SettingsOptions::ab__geo_pages::single_url"
+msgid "Use the same URL for all languages"
+msgstr "Use the same URL for all languages"
+
+msgctxt "Languages::ab__gp.settings"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "Languages::ab__gp.tab"
+msgid "AB: Geo pages"
+msgstr "AB: Geo pages"
+
+msgctxt "Languages::ab__gp.position"
+msgid "Position"
+msgstr "Position"
+
+msgctxt "Languages::ab__gp.title"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "Languages::ab__gp.description"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "Languages::ab__gp.popup.add"
+msgid "Add a new description"
+msgstr "Add a new description"
+
+msgctxt "Languages::ab__gp.popup.edit"
+msgid "Edit description: [name]"
+msgstr "Edit description: [name]"
+
+msgctxt "Languages::ab__gp.update.on_page"
+msgid "Edit on the page"
+msgstr "Edit on the page"
+
+msgctxt "Languages::ab__gp.delete"
+msgid "Delete description"
+msgstr "Delete description"
+
+msgctxt "Languages::ab__gp.first_tab"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "Languages::ab__gp.manage"
+msgid "Locations management"
+msgstr "Locations management"
+
+msgctxt "Languages::ab__gp.location"
+msgid "Location name"
+msgstr "Location name"
+
+msgctxt "Languages::ab__gp.location_forms"
+msgid "Forms of location names"
+msgstr "Forms of location names"
+
+msgctxt "Languages::ab__gp.location_form"
+msgid "Location name (form [form])"
+msgstr "Location name (form [form])"
+
+msgctxt "Languages::ab__gp.seo_name"
+msgid "SEO name"
+msgstr "SEO name"
+
+msgctxt "Languages::ab__gp.new_location"
+msgid "Add location"
+msgstr "Add location"
+
+msgctxt "Languages::ab__gp.default_location"
+msgid "Kyiv"
+msgstr "Kyiv"
+
+msgctxt "Languages::block_ab__gp_other_locations"
+msgid "AB: Geo pages"
+msgstr "AB: Geo pages"
+
+msgctxt "Languages::ab__gp.block.comma_separated"
+msgid "Comma separated"
+msgstr "Comma separated"
+
+msgctxt "Languages::ab__gp.block.column"
+msgid "In column"
+msgstr "In column"
+
+msgctxt "Languages::ab__gp.seo_addons_dependency"
+msgid "Setting is operated only with the availability of one or both add-ons \"AB: Indexing management\" and \"AB: Advanced sitemap\""
+msgstr "Setting is operated only with the availability of one or both add-ons \"AB: Indexing management\" and \"AB: Advanced sitemap\""
+
+msgctxt "Languages::ab__gp.location.link_type"
+msgid "Relation with categories and SEO pages"
+msgstr "Relation with categories and SEO pages"
+
+msgctxt "Languages::ab__gp.location.link_type.all"
+msgid "Automatically (all together)"
+msgstr "Automatically (all together)"
+
+msgctxt "Languages::ab__gp.location.link_type.selected"
+msgid "Manually"
+msgstr "Manually"
+
+msgctxt "Languages::ab__gp.templates"
+msgid "Templates management"
+msgstr "Templates management"
+
+msgctxt "Languages::ab__gp.template.custom"
+msgid "Your template"
+msgstr "Your template"
+
+msgctxt "Languages::ab__gp.template.update"
+msgid "Edit template: [template_name]"
+msgstr "Edit template: [template_name]"
+
+msgctxt "Languages::ab__gp.template.template_name"
+msgid "Template name"
+msgstr "Template name"
+
+msgctxt "Languages::ab__gp.template.name"
+msgid "Template for name"
+msgstr "Template for name"
+
+msgctxt "Languages::ab__gp.template.description"
+msgid "Template for description"
+msgstr "Template for description"
+
+msgctxt "Languages::ab__gp.template.title"
+msgid "Template for <code>title</code> tag"
+msgstr "Template for <code>title</code> tag"
+
+msgctxt "Languages::ab__gp.template.meta_description"
+msgid "Template for <code>meta_description</code> tag"
+msgstr "Template for <code>meta_description</code> tag"
+
+msgctxt "Languages::ab__gp.template.select_template"
+msgid "Select template"
+msgstr "Select template"
+
+msgctxt "Languages::ab__gp.template.default"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "Languages::ab__gp.template.existent_templates"
+msgid "Existing templates"
+msgstr "Existing templates"
+
+msgctxt "Languages::ab__gp.template.placeholders_list"
+msgid "<code>[original_value]</code> - Field value before progress with a template</br> <code>[name]</code> - Entity name</br> <code>[location]</code> - Location name</br> <code>[location_form_1]...[location_form_7]</code> - Forms of location names"
+msgstr "<code>[original_value]</code> - Field value before progress with a template</br>"
+"<code>[name]</code> - Entity name</br>"
+"<code>[location]</code> - Location name</br>"
+"<code>[location_form_1]...[location_form_7]</code> - Forms of location names"
+
+msgctxt "Languages::ab__gp.template.placeholders"
+msgid "Placeholders"
+msgstr "Placeholders"
+
+msgctxt "Languages::ab__gp.template.enable"
+msgid "Enable"
+msgstr "Enable"
+
+msgctxt "Languages::ab__gp.template.is_noindex"
+msgid "Exclude page from the indexation"
+msgstr "Exclude page from the indexation"
+
+msgctxt "Languages::ab__gp.template.canonical_id"
+msgid "Change canonical link (category_id)"
+msgstr "Change canonical link (category_id)"
+
+msgctxt "Languages::ab__gp.template.new"
+msgid "New template"
+msgstr "New template"
+
+msgctxt "Languages::ab__gp.template.placeholders.addon_placeholders"
+msgid "Placeholders from the add-on"
+msgstr "Placeholders from the add-on"
+
+msgctxt "Languages::ab__gp.template.placeholders.addon_ab__emd_integration_available"
+msgid "Placeholders of the add-on <b><a href=\"https://cs-cart.alexbranding.com/en/extended-meta-tags-by-templates.html\" target=\"_blank\">AB: Extended meta tags and placeholders</a></b> are supported."
+msgstr "Placeholders of the add-on <b><a href=\"https://cs-cart.alexbranding.com/en/extended-meta-tags-by-templates.html\" target=\"_blank\">AB: Extended meta tags and placeholders</a></b> are supported."
+
+msgctxt "Languages::ab__gp.help"
+msgid "Help"
+msgstr "Help"
+
+msgctxt "Languages::ab__gp.help.docs"
+msgid "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__geo_pages.doc'>documentation</a>."
+msgstr "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__geo_pages.doc'>documentation</a>."
+
+msgctxt "Languages::privilege_groups.ab__geo_pages"
+msgid "AB: Geo pages"
+msgstr "AB: Geo pages"
+
+msgctxt "Languages::privileges.ab__geo_pages.help"
+msgid "View help"
+msgstr "View help"
+
+#. Alexbranding. Do not modify this file manually!

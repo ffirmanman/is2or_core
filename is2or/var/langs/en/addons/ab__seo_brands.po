@@ -1,0 +1,171 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ab__seo_brands"
+msgid "AB: SEO for brands"
+msgstr "AB: SEO for brands"
+
+msgctxt "Addons::description::ab__seo_brands"
+msgid "Allows to optimize page of brand-type product feature and set own layout for each brand"
+msgstr "Allows to optimize page of brand-type product feature and set own layout for each brand"
+
+msgctxt "Languages::ab__seo_brands"
+msgid "AB: SEO for brands"
+msgstr "AB: SEO for brands"
+
+msgctxt "SettingsOptions::ab__seo_brands::ab__as"
+msgid "AB: Advanced sitemap"
+msgstr "AB: Advanced sitemap"
+
+msgctxt "SettingsOptions::ab__seo_brands::ab__as_add_to_sitemap"
+msgid "Adding filters pages to the XML-sitemap"
+msgstr "Adding filters pages to the XML-sitemap"
+
+msgctxt "Languages::ab__product_feature_variant_view"
+msgid "AB: Feature variants"
+msgstr "AB: Feature variants"
+
+msgctxt "Languages::ab__sb.add_variants"
+msgid "Add variants"
+msgstr "Add variants"
+
+msgctxt "Languages::ab__sb.add_variants_and_close"
+msgid "Add variants and close"
+msgstr "Add variants and close"
+
+msgctxt "Languages::ab__sb.edit_blocks_link"
+msgid "AB: Edit variant layout"
+msgstr "AB: Edit variant layout"
+
+msgctxt "Languages::ab__sb.editing_layouts_for"
+msgid "AB: Editing layout"
+msgstr "AB: Editing layout"
+
+msgctxt "Languages::ab__view_all_product_features"
+msgid "AB: Filters"
+msgstr "AB: Filters"
+
+msgctxt "Languages::ab__sb.form.h1"
+msgid "H1 tag"
+msgstr "H1 tag"
+
+msgctxt "Languages::ab__sb.form.breadcrumb"
+msgid "Breadcrumb"
+msgstr "Breadcrumb"
+
+msgctxt "Languages::ab__sb.form.page_title"
+msgid "Page title"
+msgstr "Page title"
+
+msgctxt "Languages::ab__sb.form.meta_description"
+msgid "Meta tag <code>description</code>"
+msgstr "Meta tag <code>description</code>"
+
+msgctxt "Languages::ab__sb.form.meta_keywords"
+msgid "Meta tag <code>keywords</code>"
+msgstr "Meta tag <code>keywords</code>"
+
+msgctxt "Languages::ab__sb.form.description"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "Languages::ab__sb.form.descr_position"
+msgid "Description position"
+msgstr "Description position"
+
+msgctxt "Languages::ab__sb.form.descr_position.top"
+msgid "Above the variants list"
+msgstr "Above the variants list"
+
+msgctxt "Languages::ab__sb.form.descr_position.bottom"
+msgid "Under the variants list"
+msgstr "Under the variants list"
+
+msgctxt "Languages::ab__sb.form.variants_template"
+msgid "View template of variants list"
+msgstr "View template of variants list"
+
+msgctxt "Languages::ab__sb.form.variants_template.grid"
+msgid "Grid with alphabetical list"
+msgstr "Grid with alphabetical list"
+
+msgctxt "Languages::ab__sb.form.variants_template.table"
+msgid "Table with alphabetical list"
+msgstr "Table with alphabetical list"
+
+msgctxt "Languages::ab__sb.form.variants_template.grid_with_images"
+msgid "Grid with images"
+msgstr "Grid with images"
+
+msgctxt "Languages::ab__seo_brands.help"
+msgid "Help"
+msgstr "Help"
+
+msgctxt "Languages::ab__seo_brands.help.docs"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__seo_brands.doc'>the documentation</a>."
+msgstr "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__seo_brands.doc'>the documentation</a>."
+
+msgctxt "Languages::privilege_groups.ab__seo_brands"
+msgid "AB: SEO for brands"
+msgstr "AB: SEO for brands"
+
+msgctxt "Languages::privileges.ab__sb.data.manage"
+msgid "Manage data"
+msgstr "Manage data"
+
+msgctxt "Languages::privileges.ab__sb.data.view"
+msgid "View data"
+msgstr "View data"
+
+msgctxt "Languages::ab__seo_brands.layouts"
+msgid "Layouts"
+msgstr "Layouts"
+
+msgctxt "Languages::ab__sb.layouts"
+msgid "Layouts"
+msgstr "Layouts"
+
+msgctxt "Languages::ab__sb.layouts.layout_was_reset"
+msgid "Layout was reset"
+msgstr "Layout was reset"
+
+msgctxt "Languages::ab__sb.layouts.choose_layout_to_reset"
+msgid "Choose layout to reset"
+msgstr "Choose layout to reset"
+
+msgctxt "Languages::ab__sb.layouts.table.dispatch_description"
+msgid "Type of the layout page"
+msgstr "Type of the layout page"
+
+msgctxt "Languages::ab__sb.layouts.table.dispatch"
+msgid "Dispatch"
+msgstr "Dispatch"
+
+msgctxt "Languages::ab__sb.layouts.table.layouts"
+msgid "Layouts"
+msgstr "Layouts"
+
+msgctxt "Languages::ab__sb.layouts.table.action"
+msgid "Action"
+msgstr "Action"
+
+msgctxt "Languages::ab__sb.layouts.table.get_file"
+msgid "Download file"
+msgstr "Download file"
+
+msgctxt "Languages::ab__sb.layouts.layout_is_not_found"
+msgid "Layout is not found"
+msgstr "Layout is not found"
+
+msgctxt "Languages::ab__sb.layouts.header"
+msgid "There are displaying all layout pages, added by the addon, on this page. You can reset pages in any layout to the default state. Also you can download xml-file of a layout page and import it manually."
+msgstr "There are displaying all layout pages, added by the addon, on this page. You can reset pages in any layout to the default state. Also you can download xml-file of a layout page and import it manually."
+
+msgctxt "Languages::ab__sb.layouts.table.create_new_location"
+msgid "- Create a new page -"
+msgstr "- Create a new page -"
+
+#. Alexbranding. Do not modify this file manually!

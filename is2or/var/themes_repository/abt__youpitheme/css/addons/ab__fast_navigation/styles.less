@@ -1,0 +1,630 @@
+/*******************************************************************************************
+*   ___  _          ______                     _ _                _                        *
+*  / _ \| |         | ___ \                   | (_)              | |              © 2026   *
+* / /_\ | | _____  _| |_/ /_ __ __ _ _ __   __| |_ _ __   __ _   | |_ ___  __ _ _ __ ___   *
+* |  _  | |/ _ \ \/ / ___ \ '__/ _` | '_ \ / _` | | '_ \ / _` |  | __/ _ \/ _` | '_ ` _ \  *
+* | | | | |  __/>  <| |_/ / | | (_| | | | | (_| | | | | | (_| |  | ||  __/ (_| | | | | | | *
+* \_| |_/_|\___/_/\_\____/|_|  \__,_|_| |_|\__,_|_|_| |_|\__, |  \___\___|\__,_|_| |_| |_| *
+*                                                         __/ |                            *
+*                                                        |___/                             *
+* ---------------------------------------------------------------------------------------- *
+* This is commercial software, only users who have purchased a valid license and accept    *
+* to the terms of the License Agreement can install and use this program.                  *
+* ---------------------------------------------------------------------------------------- *
+* website: https://cs-cart.alexbranding.com                                                *
+*   email: info@alexbranding.com                                                           *
+*******************************************************************************************/
+.mxn_plus(@plus_size, @plus_color) {
+    position: relative;
+    width: @plus_size;
+    height: @plus_size;
+
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        background-color: @plus_color;
+        transition: transform 150ms;
+    }
+
+    /* Vertical line */
+    &:before {
+        inset-block-start: 0;
+        inset-inline-start: 50%;
+        width: 2px;
+        height: @plus_size;
+        margin-inline-start: -1px;
+    }
+
+    /* horizontal line */
+    &:after {
+        inset-block-start: 50%;
+        inset-inline-start: 0;
+        width: @plus_size;
+        height: 2px;
+        margin-block-start: -1px;
+    }
+}
+
+.mxn_good-wrap-text-containing-long-word() {
+    word-break: normal;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.mxn_glyphs-icon() {
+    font-family: 'glyphs';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+@circle-size: 42px; // legacy code
+
+
+/*==============================================================================
+   [[[ BEGIN ]]] both levels wrappers
+==============================================================================*/
+.ab-fn-parent {
+    --flow-direction-factor-inline: 1;
+    html[dir="rtl"] & {
+        --flow-direction-factor-inline: -1;
+    }
+    margin-block-end: 30px;
+
+    .category-banner-block & {
+        margin: initial;
+    }
+}
+
+.ab-fn-levels-wrapper {
+    border: 1px solid darken(@base, 5%);
+}
+
+.ab-fn-levels-container {
+    container-name: qc_levels-wrapper;
+    container-type: inline-size;
+
+    [class*=ty-column] {
+        margin: initial !important;
+    }
+
+    .ab-fn-parent & {
+        .owl-carousel,
+        .owl-wrapper-outer,
+        .owl-wrapper {
+            height: initial !important;
+        }
+    }
+
+    .owl-carousel .owl-wrapper::after {
+        content: initial;
+    }
+
+    .owl-item {
+        flex-shrink: 0;
+        display: flex;
+    }
+
+    .owl-theme .owl-controls {
+        margin-top: initial;
+    }
+
+    .owl-carousel.owl-theme .owl-controls .owl-buttons > div {
+        border-radius: initial;
+        width: 20px;
+        height: 100px;
+        position: absolute;
+        inset-block-start: 50%;
+        transform: translateY(-50%);
+        margin: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &.owl-prev {
+            inset-inline-start: 0;
+
+            i {
+                margin-inline-start: -1px;
+            }
+        }
+
+        &.owl-next {
+            inset-inline-end: 0;
+
+            i {
+                margin-inline-start: 1px;
+            }
+        }
+
+        i {
+            line-height: 1;
+
+            html[dir="rtl"] & {
+                transform: scaleX(-1);
+            }
+        }
+    }
+
+    .ab-fn-hidden {
+        display: none !important;
+    }
+}
+/* [[[ END ]]] both levels wrappers
+==============================================================================*/
+
+
+/*==============================================================================
+   [[[ BEGIN ]]] level container
+==============================================================================*/
+.ab-fn-one-of-levels {
+    overflow: clip; // hide oveflowing items
+    inline-size: calc(~"100% + 42px");
+    margin-inline: -21px;
+    padding-inline: 21px;
+}
+
+.ab-fn-first-level {
+    display: flex;
+    position: relative;
+    z-index: 1; // above second level
+
+    &.one_level {
+        &.ab__fn_grid {
+            flex-wrap: wrap;
+        }
+    }
+
+    &.two_level {
+        &::before,
+        &::after {
+            content: '';
+            background-color: @content_bg;
+            inline-size: 20px;
+            block-size: 3px;
+            position: absolute;
+            inset-block-end: -1px;
+        }
+
+        &::before {
+            inset-inline-start: 0;
+        }
+
+        &::after {
+            inset-inline-end: 0;
+        }
+    }
+}
+
+.ab-fn-second-level {
+    border-block-start: 1px solid darken(@base, 5%);
+    margin-block-start: -1px;
+    display: none !important; // override owl inline style
+
+    &.active:not(.no-items.no-parent-href) {
+        display: flex !important;
+    }
+
+    &:not(.ab-fn-second-level-scroller) {
+        flex-wrap: wrap;
+    }
+}
+/* [[[ END ]]] level container
+==============================================================================*/
+
+
+/*==============================================================================
+   [[[ BEGIN ]]] level item
+==============================================================================*/
+.ab-fn-level-item {
+    display: flex;
+    .ab-fn-parent .ab-fn-levels-wrapper .ab-fn-one-of-levels &[class*="ty-column"] {
+        flex: 0 0 auto;
+        min-width: 0; // for owl
+    }
+    .ab-fn-levels-container .ab-fn-one-of-levels & {
+        padding: 4px;
+        min-width: 0; // for owl
+        height: initial;
+        flex: 0 0 auto;
+    }
+
+    &:not(.active) {
+        cursor: pointer;
+    }
+
+    .ab-fn-levels-container .ab-fn-one-of-levels .owl-item & {
+        width: 100% !important;
+        flex: 1;
+    }
+}
+
+.ab-fn-one-of-levels .owl-item,
+.ab-fn-levels-container .ab-fn-one-of-levels .ab-fn-level-item // increase precedence to override inherited style from catalog and/or ab__category_banners
+{
+    @media (min-width: 1230px) {
+        width: calc(100cqw / var(--cols-desktop));
+    }
+
+    @media (max-width: 1229px) {
+        width: calc(100cqw / var(--cols-desktop-small));
+    }
+
+    @media (max-width: 991px) {
+        width: calc(100cqw / var(--cols-tablet));
+    }
+
+    @media (max-width: 767px) {
+        width: calc(100cqw / var(--cols-tablet-small));
+    }
+
+    @media (max-width: 575px) {
+        width: calc(100cqw / var(--cols-mobile));
+    }
+}
+
+.ab-fn-first-level-item {
+    &.expand-mode {
+        position: relative; // offset parent for active marker/indicator
+
+        &.active {
+            &::before,
+            &::after {
+                display: block;
+            }
+        }
+
+        &::before {
+            content: '';
+            block-size: 8px;
+            inline-size: 0;
+            border-inline-start: 3px solid @decorative;
+            position: absolute;
+            inset-block-end: 3px;
+            inset-inline-start: 50%;
+            transform: translate3d(calc(var(--flow-direction-factor-inline) * -50%), 0, 0);
+            display: none;
+        }
+
+        &::after {
+            content: '';
+            block-size: 0;
+            border-block-end: 3px solid @decorative;
+            position: absolute;
+            inset-block-end: 0;
+            inset-inline: 5px;
+            display: none;
+        }
+    }
+}
+
+
+.ab-fn-second-level-item {
+    &:not(.delimeter-0):not(.delimeter-block):not(.ab-fn-second-level-scroller .ab-fn-second-level-item) {
+        display: none;
+    }
+
+    &.delimeter-block[data-delimeter] {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+
+        ~ .delimeter-block {
+            display: none;
+        }
+    }
+
+    .ab-fn-delimeter-plus {
+        border: 2px solid @links;
+        border-radius: 50%;
+        width: @circle-size;
+        height: @circle-size;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .plus-itself {
+            .mxn_plus((@circle-size - 4px) / 2, @links);
+        }
+    }
+
+    &.ab-fn-common-item-link {
+        .ab-fn-arrow-more {
+            border: 2px solid @links;
+            border-radius: 50%;
+            width: @circle-size;
+            height: @circle-size;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            i {
+                .mxn_glyphs-icon();
+                font-size: 16px;
+                color: @links;
+                margin-inline-start: 1px;
+                margin-block-start: -1px;
+
+                html[dir="rtl"] & {
+                    transform: scaleX(-1);
+                }
+
+                &::before {
+                    content: "\e040";
+                }
+            }
+        }
+    }
+
+    &.delimeter-block[data-delimeter],
+    &.ab-fn-common-item-link {
+        .ab-fn-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            row-gap: 10px;
+        }
+    }
+}
+/* [[[ END ]]] level item
+==============================================================================*/
+
+
+/*==============================================================================
+   [[[ BEGIN ]]] item elements
+==============================================================================*/
+.ab-fn-content {
+    padding-block: 15px;
+    padding-inline: 15px;
+    width: 100%;
+    min-width: 0;
+    flex: 1;
+    display: block;
+    position: relative; // offset parent for tag/label/marker
+
+    transition: background-color 150ms;
+
+    @media (max-width: 575px) {
+        padding-block: 10px;
+        padding-inline: 10px;
+    }
+
+    @media (hover: hover) and (pointer: fine) {
+        .ab-fn-level-item:not(.active):not(.current) &:hover {
+            background-color: darken(@content_bg, 3%);
+        }
+    }
+
+    .ab-fn-level-item.current & {
+        background-color: saturate(mix(white, @links, 90%), 40%);
+
+        @media (hover: hover) and (pointer: fine) {
+            &:hover {
+                background-color: saturate(mix(white, @links, 85%), 40%);
+            }
+        }
+    }
+}
+
+.ab-fn-image-wrap {
+    margin-inline: auto;
+    max-width: 100%;
+    width: var(--icon-width);
+    aspect-ratio: 1;
+    height: initial;
+    min-height: 0;
+    display: grid;
+    place-items: center;
+    position: relative;
+
+    @media (hover: hover) and (pointer: fine) {
+        .ab-fn-level-item:not(.active) .ab-fn-content:hover & {
+            .ty-pict,
+            .ty-no-image,
+            .ab-fn-no-image {
+                transform: scale(1.07);
+            }
+
+            .ty-no-image,
+            .ab-fn-no-image {
+                background-color: @general_bg_image;
+            }
+        }
+
+        .ab-fn-sl-content:hover &:not(.ab-fn-no-image-wrapper) {
+            opacity: 1;
+        }
+    }
+
+    .ab-fn-sl-content &:not(.ab-fn-no-image-wrapper) {
+        opacity: 0.9;
+    }
+
+    .ty-pict,
+    .ty-no-image,
+    .ab-fn-no-image {
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        width: initial !important;
+        min-width: 0;
+        min-height: 0;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        object-position: center;
+
+        transition: transform 225ms; // 150 * 1.5
+        transform: scale(1);
+    }
+
+    .ty-pict {
+        .ab-fn-level-item.current & {
+            mix-blend-mode: darken;
+        }
+    }
+
+    .ty-no-image,
+    .ab-fn-no-image {
+        overflow: clip;
+
+        .ab-fn-level-item.current & {
+            background-color: @general_bg_image;
+        }
+    }
+
+    .ty-no-image {
+        cursor: inherit;
+    }
+
+    .ab-fn-no-image {
+        color: darken(@base, 10%);
+        background: darken(@content_bg, 5%);
+    }
+}
+
+.ab-fn-item-header {
+    text-align: center;
+
+    @media (max-width: 575px) {
+        font-size: @body_font_size - 2;
+    }
+
+    .ab-fn-level-item:not(.ab-fn-common-item-link):not(.delimeter-block) & {
+        margin-block-start: 10px;
+    }
+
+    .ab-fn-label {
+        font-size: 8px;
+        line-height: normal;
+        font-weight: 600;
+        text-transform: uppercase;
+        white-space: nowrap;
+        color: white;
+
+        background-color: darken(@base, 30%);
+        .yp_round();
+
+        block-size: 14px;
+        max-inline-size: 100%;
+        min-inline-size: 22px;
+        overflow-x: clip;
+        padding-inline: 5px;
+
+        display: inline-flex;
+        vertical-align: middle;
+        align-items: center;
+
+        position: absolute;
+        inset-block-start: 0;
+        inset-inline-end: 0;
+        margin-block-start: 15px;
+        margin-inline-end: 15px;
+
+        @media (max-width: 575px) {
+            margin-block-start: 10px;
+            margin-inline-end: 10px;
+        }
+    }
+}
+
+.ab-fn-caption {
+    line-height: 1.1;
+    padding-block: 2px;
+
+    transition: color 150ms;
+    color: @font;
+
+    @media (hover: hover) and (pointer: fine) {
+        .ab-fn-level-item:not(.active) .ab-fn-content:hover & {
+            color: @links;
+        }
+    }
+
+    .ab-fn-level-item:not(.ab-fn-common-item-link):not(.delimeter-block) & {
+        .ut2_line_clamp(3);
+        .mxn_good-wrap-text-containing-long-word();
+    }
+
+    .ab-fn-level-item:not(.ab-fn-common-item-link):not(.delimeter-block).expand-mode.active & {
+        color: @links;
+    }
+
+    .ab-fn-level-item.delimeter-block & {
+        span {
+            display: block;
+        }
+    }
+
+}
+/* [[[ END ]]] item elements
+==============================================================================*/
+
+
+/*==============================================================================
+   [[[ BEGIN ]]] general link
+==============================================================================*/
+.ab-fn-common-link {
+    text-align: center;
+    margin-block-start: 15px;
+}
+
+.ab-fn-common-text-link {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 5px;
+
+    &:hover {
+        span {
+            text-decoration: underline;
+        }
+    }
+
+    span {
+        font-size: @body_font_size + 4;
+    }
+
+    i {
+        font-size: @body_font_size + 2;
+        color: lighten(@links, 10%);
+        position: relative;
+        inset-block-start: 1px;
+        transition: color 150ms;
+
+        html[dir="rtl"] & {
+            transform: scaleX(-1);
+        }
+    }
+}
+/* [[[ END ]]] general link
+==============================================================================*/
+
+
+/*==============================================================================
+   [[[ BEGIN ]]] progress bar for 1st level
+==============================================================================*/
+.ab-fn-scrollbar {
+    inline-size: 100%;
+    block-size: 3px;
+    position: relative;
+    z-index: 2;
+
+    .ab-fn-scrollbar-plate {
+        block-size: 100%;
+        min-width: 0;
+        position: absolute;
+        inset-inline-start: 0;
+        background: @base;
+
+        transition: width 600ms;
+    }
+}
+/* [[[ END ]]] progress bar for 1st level
+==============================================================================*/

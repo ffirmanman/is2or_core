@@ -1,0 +1,1 @@
+{if $ab__mcd_show_company}<td class="muted">{foreach $category_data.path_names as $path}{$path}{if !$path@last} / {/if}{/foreach}</td><td>{include file="views/companies/components/company_name.tpl" object=$category_data}</td>{/if}

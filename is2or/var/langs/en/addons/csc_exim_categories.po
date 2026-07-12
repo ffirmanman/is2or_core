@@ -1,0 +1,166 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::csc_exim_categories"
+msgid "Import/export categories."
+msgstr "Import/export categories."
+
+msgctxt "Addons::description::csc_exim_categories"
+msgid "Import/export your store categories via csv import. Developed by <b> <a href=\"https://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+msgstr "Import/export your store categories via csv import. Developed by <b> <a href=\"https://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+
+msgctxt "Languages::ceca.csc_addons"
+msgid "CS-Commerce Addons"
+msgstr "CS-Commerce Addons"
+
+msgctxt "Languages::csc_addons"
+msgid "CS-Commerce Addons"
+msgstr "CS-Commerce Addons"
+
+msgctxt "Languages::csc_exim_categories"
+msgid "Import/export categories"
+msgstr "Import/export categories"
+
+msgctxt "Languages::privilege_groups.csc_exim_categories"
+msgid "Manage Import/export categories"
+msgstr "Manage Import/export categories"
+
+msgctxt "Languages::ceca.settings"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "Languages::ceca.title_general_settings"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "Languages::ceca.tab_general"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "Languages::ceca.menu"
+msgid "Menu"
+msgstr "Menu"
+
+msgctxt "Languages::ceca.rate_us"
+msgid "Like this addon? Rate it!"
+msgstr "Like this add-on? Rate it!"
+
+msgctxt "Languages::ceca.other_addons"
+msgid "Other our addons"
+msgstr "Our other add-ons →"
+
+msgctxt "Languages::ceca.documentation"
+msgid "Documentation"
+msgstr "Documentation"
+
+msgctxt "Languages::ceca.feedback"
+msgid "Have questions? Mail us!"
+msgstr "Have questions? Mail us!"
+
+
+msgctxt "Languages::ceca.addon_upgrades"
+msgid "Add-on upgrades"
+msgstr "Add-on upgrades"
+
+msgctxt "Languages::ceca.license_error"
+msgid "License error"
+msgstr "License error"
+
+msgctxt "Languages::ceca.current_v"
+msgid "Installed version"
+msgstr "Installed version"
+
+msgctxt "Languages::ceca.new_v"
+msgid "New add-on version"
+msgstr "New add-on version"
+
+msgctxt "Languages::ceca.actual_version_installed"
+msgid "The latest version is installed"
+msgstr "The latest version is installed"
+
+msgctxt "Languages::ceca.prolongate"
+msgid "Prolongate subscription"
+msgstr "Prolongate subscription"
+
+msgctxt "Languages::ceca.days_left"
+msgid "<b>[n]</b> day left until the end of the subscription|<b>[n]</b> days left until the end of the subscription"
+msgstr "<b>[n]</b> day left until the end of the subscription|<b>[n]</b> days left until the end of the subscription"
+
+msgctxt "Languages::ceca.subscription_expired"
+msgid "Upgrade subscription expired"
+msgstr "Upgrade subscription expired"
+
+msgctxt "Languages::ceca.prolongate_discount"
+msgid "Renew your subscription with a <b>30% discount until [date]</b>"
+msgstr "Renew your subscription with a <b>30% discount until [date]</b>"
+
+msgctxt "Languages::ceca.upgrade"
+msgid "Upgrade center"
+msgstr "Upgrade center"
+
+
+msgctxt "Languages::ceca.category_code"
+msgid "Category code"
+msgstr "Category code"
+
+msgctxt "Languages::ceca.category_code_tlp"
+msgid "Unique category number (within one storefront) to identify category on import process."
+msgstr "Unique category number (within one storefront) to identify category on import process."
+
+msgctxt "Languages::ceca_export_categories"
+msgid "Export categories"
+msgstr "Export categories"
+
+msgctxt "Languages::ceca_import_categories"
+msgid "Import categories"
+msgstr "Import categories"
+
+msgctxt "Languages::ceca_categories"
+msgid "Categories"
+msgstr "Categories"
+
+msgctxt "Languages::ceca_import_mode"
+msgid "Import mode"
+msgstr "Import mode"
+
+msgctxt "Languages::ceca_import_mode_desc"
+msgid "Select logic of updating exists categories and create new categories"
+msgstr "Select logic of updating exists categories and create new categories"
+
+msgctxt "Languages::ceca_update_exists_only"
+msgid "Update only exist categories"
+msgstr "Update only exist categories"
+
+msgctxt "Languages::ceca_create_new_only"
+msgid "Create only new categories"
+msgstr "Create only new categories"
+
+msgctxt "Languages::ceca_backup_categories"
+msgid "Backup data"
+msgstr "Backup data"
+
+msgctxt "Languages::ceca_backup_categories_descr"
+msgid "Create buckup categories and seo-names tables before import"
+msgstr "Create buckup categories and seo-names tables before import"
+
+msgctxt "Languages::ceca.export_selected_products"
+msgid "Export products from selected"
+msgstr "Export products from selected"
+
+msgctxt "Languages::ceca.parent_category_not_exists"
+msgid "Parent category not exist: "
+msgstr "Parent category not exist: "
+
+msgctxt "Languages::ceca.generate_codes"
+msgid "Generate category codes for categories without it ([no_codes])"
+msgstr "Generate category codes for categories without it ([no_codes])"
+
+
+msgctxt "Languages::ceca.category_codes_was_set_success"
+msgid "Category codes was generated success!"
+msgstr "Category codes was generated success!"
+
+

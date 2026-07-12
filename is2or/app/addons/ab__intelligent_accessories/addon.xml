@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__intelligent_accessories</id>
+<version>4.0.2</version>
+<priority>2016</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<compatibility>
+<dependencies>ab__addons_manager</dependencies>
+<core_version><min>4.14.3</min></core_version>
+</compatibility>
+<ab>
+<hash>a5e26e4070d41ab12a37cc8ce56db065a4c13e6e, 2025-05-01 10:34:03</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.5.6</min></ab__addons_manager>
+<abt__youpitheme><min>4.12.2.d</min></abt__youpitheme>
+<abt__unitheme2><min>4.14.3.d</min></abt__unitheme2>
+</dependencies>
+</compatibility>
+</ab>
+<settings edition_type="ROOT,VENDOR,STOREFRONT" layout="separate">
+<sections>
+<section id="general">
+<items>
+<item id="show_ia_in_added_to_cart">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="max_ia_tabs_in_added_to_cart">
+<type>selectbox</type>
+<default_value>2</default_value>
+</item>
+<item id="max_products_of_ia_tab_in_added_to_cart">
+<type>selectbox</type>
+<default_value>2</default_value>
+</item>
+<item id="show_ia_in_added_to_cart_once">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="show_ia_in_cart">
+<type>selectbox</type>
+<variants>
+<item id="none"/>
+<item id="for_all"/>
+<item id="for_the_most_expensive_product"/>
+</variants>
+<default_value>for_all</default_value>
+</item>
+<item id="max_ia_products_in_cart">
+<type>selectbox</type>
+<default_value>2</default_value>
+</item>
+<item id="update_cache_every">
+<type>selectbox</type>
+<default_value>5</default_value>
+</item>
+<item id="exclude_duplication_of_tabs">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>fn_ab__md_update_item
+<item id="exclude_product_variations">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="code"><type>hidden</type><default_value>ABA-kCym5L3fNFPXep0iNPfLx</default_value></item>
+<item id="build"><type>hidden</type><default_value>1224</default_value></item>
+</items>
+</section>
+<section id="params_default">
+<items>
+<item id="price_from_default">
+<type>input</type>
+<default_value>0</default_value>
+</item>
+<item id="price_to_default">
+<type>input</type>
+<default_value>0</default_value>
+</item>
+<item id="shuffle_products_default">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="only_in_stock_default">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="products_sorting_default">
+<type>selectbox</type>
+<default_value>null-asc</default_value>
+</item>
+<item id="join_max_view_products_default">
+<type>selectbox</type>
+<default_value>25</default_value>
+</item>
+<item id="rule_max_view_products_default">
+<type>selectbox</type>
+<default_value>5</default_value>
+</item>
+<item id="show_in_add_to_cart_default">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="show_in_cart_default">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+</items>
+</section>
+</sections>
+</settings>
+<functions>
+<item for="install">fn_ab__ia_install</item>
+</functions>
+<queries>
+<item>CREATE TABLE IF NOT EXISTS `?:ab__ia_data` (
+`product_id` int(11) NOT NULL,
+`join_id` int(11) NOT NULL,
+`timestamp` int(11) NOT NULL DEFAULT '0',
+`list` text NOT NULL,
+PRIMARY KEY (`product_id`,`join_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+</item>
+<item>CREATE TABLE IF NOT EXISTS `?:ab__ia_joins` (
+`join_id` int(11) NOT NULL AUTO_INCREMENT,
+`base_category_id` int(11) unsigned NOT NULL DEFAULT '0',
+`joined_category_id` int(11) NOT NULL DEFAULT '0',
+`price_from` decimal(10,2) DEFAULT '0.00',
+`price_to` decimal(10,2) NOT NULL DEFAULT '0.00',
+`shuffle_products` char(1) DEFAULT 'N',
+`only_in_stock` char(1) DEFAULT 'N',
+`products_sorting` varchar(20) NOT NULL DEFAULT 'null-asc',
+`status` char(1) NOT NULL DEFAULT 'A',
+`position` tinyint(3) unsigned NOT NULL DEFAULT '0',
+`max_view_products` tinyint(3) unsigned NOT NULL DEFAULT '20',
+`last_update_date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+`tab_url` varchar(20) NOT NULL DEFAULT 'not_use',
+`custom_url` varchar(255) NOT NULL DEFAULT '',
+`start_update` int(11) NOT NULL DEFAULT '0',
+`end_update` int(11) NOT NULL DEFAULT '0',
+PRIMARY KEY (`join_id`)
+) DEFAULT CHARSET=utf8;
+</item>
+<item>CREATE TABLE IF NOT EXISTS `?:ab__ia_join_descriptions` (
+`join_id` int(11) NOT NULL AUTO_INCREMENT,
+`lang_code` char(2) NOT NULL,
+`name` varchar(255) NOT NULL,
+PRIMARY KEY (`join_id`,`lang_code`),
+KEY `join_id` (`join_id`)
+) DEFAULT CHARSET=utf8;
+</item>
+<item>CREATE TABLE IF NOT EXISTS `?:ab__ia_rules` (
+`rule_id` int(11) NOT NULL AUTO_INCREMENT,
+`join_id` int(11) NOT NULL,
+`name` varchar(255) NOT NULL DEFAULT 'no-name',
+`conditions` text NOT NULL,
+`status` char(1) NOT NULL DEFAULT 'A',
+`position` tinyint(3) unsigned NOT NULL DEFAULT '0',
+`max_view_products` tinyint(3) unsigned NOT NULL DEFAULT '20',
+PRIMARY KEY (`rule_id`)
+) DEFAULT CHARSET=utf8;
+</item>
+<item>CREATE TABLE IF NOT EXISTS `?:ab__ia_groups` (
+`group_id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+PRIMARY KEY (`group_id`)
+) DEFAULT CHARSET=utf8;
+</item>
+<item>CREATE TABLE IF NOT EXISTS `?:ab__ia_group_descriptions` (
+`group_id` int(11) unsigned NOT NULL DEFAULT '0',
+`lang_code` char(2) NOT NULL DEFAULT '',
+`name` varchar(255) NOT NULL DEFAULT '',
+PRIMARY KEY (`group_id`,`lang_code`)
+) DEFAULT CHARSET=utf8;
+</item>
+<item>REPLACE INTO ?:privileges (group_id, section_id, is_default, privilege, is_view)
+VALUES ('ab__intelligent_accessories', 'ab__addons', 'Y', 'ab__ia_data.update_cache', 'N')
+,('ab__intelligent_accessories', 'ab__addons', 'Y', 'ab__ia_data.base_category_list', 'Y')
+,('ab__intelligent_accessories', 'ab__addons', 'Y', 'ab__ia_groups.update', 'N')
+,('ab__intelligent_accessories', 'ab__addons', 'Y', 'ab__ia_joins.update', 'N')
+;
+</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__intelligent_accessories' or group_id = 'ab__intelligent_accessories'</item>
+</queries>
+</addon>

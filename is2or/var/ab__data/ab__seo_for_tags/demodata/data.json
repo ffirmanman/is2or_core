@@ -1,0 +1,89 @@
+{
+  "Books": {
+    "en": {
+      "tag_id": "1",
+      "h1": "Books",
+      "description": "<p>The best books are only in our  store, as we diligently select their assortment and replenish it every week with fresh receipts, bestsellers, and arrange regular sales. And to be honest, this is a demo text for the CS-Cart addon SEO for tags (just to see, how it extends native CS-Cart tags functionality).<\/p>",
+      "page_title": "Books - best assortment in our store",
+      "meta_description": "The best books are only in our  store, as we diligently select their assortment and replenish it every week with fresh receipts, bestsellers, and arrange regular sales.",
+      "meta_keywords": "Books, book store",
+      "lang_code": "en"
+    },
+    "ar": {
+      "tag_id": "1",
+      "h1": "Books",
+      "description": "<p>The best books are only in our  store, as we diligently select their assortment and replenish it every week with fresh receipts, bestsellers, and arrange regular sales. And to be honest, this is a demo text for the CS-Cart addon SEO for tags (just to see, how it extends native CS-Cart tags functionality)<span id=\"selection-marker-1\" class=\"redactor-selection-marker\"><\/span><\/p>",
+      "page_title": "Books - best assortment in our store",
+      "meta_description": "The best books are only in our  store, as we diligently select their assortment and replenish it every week with fresh receipts, bestsellers, and arrange regular sales.",
+      "meta_keywords": "Books",
+      "lang_code": "ar"
+    },
+    "ru": {
+      "tag_id": "1",
+      "h1": "Книги",
+      "description": "<p>Лучшие книги только в нашем интернет - магазине, так как мы усердно подбираем их ассортимент и пополняем его каждую неделю свежими поступлениями, бестселлерами, и устраиваем постоянные распродажи. А если честно, то это демо текст для CS-Cart модуля  SEO для тегов (только лишь для демонстрации возможностей, который модуль добавляет для поисковой оптимизации страницы тега)<\/p>",
+      "page_title": "Книги - лучший ассортимент только в нашем магазине",
+      "meta_description": "Лучшие книги только в нашем интернет - магазине, так как мы усердно подбираем их ассортимент и пополняем его каждую неделю свежими поступлениями, бестселлерами, и устраиваем постоянные распродажи.",
+      "meta_keywords": "Книги, книжный интернет - магазин",
+      "lang_code": "ru"
+    }
+  },
+  "Music": {
+    "en": {
+      "tag_id": "2",
+      "h1": "Music CDs",
+      "description": "The best Music CDs<span id=\"selection-marker-1\" class=\"redactor-selection-marker\"><\/span> are only in our store, as we diligently select their assortment and replenish it every week with fresh receipts, bestsellers, and arrange regular sales. And to be honest, this is a demo text for the CS-Cart addon SEO for tags (just to see, how it extends native CS-Cart tags functionality).",
+      "page_title": "Music CDs - best assortment in our store",
+      "meta_description": "The best Music CDs​ are only in our store, as we diligently select their assortment and replenish it every week with fresh receipts, bestsellers, and arrange regular sales.",
+      "meta_keywords": "Music CDs, music store",
+      "lang_code": "en"
+    },
+    "ar": {
+      "tag_id": "2",
+      "h1": "Music CDs",
+      "description": "The best Music CDs<span id=\"selection-marker-1\" class=\"redactor-selection-marker\"><\/span> are only in our store, as we diligently select their assortment and replenish it every week with fresh receipts, bestsellers, and arrange regular sales. And to be honest, this is a demo text for the CS-Cart addon SEO for tags (just to see, how it extends native CS-Cart tags functionality).",
+      "page_title": "Music CDs - best assortment in our store",
+      "meta_description": "The best Music CDs​ are only in our store, as we diligently select their assortment and replenish it every week with fresh receipts, bestsellers, and arrange regular sales.",
+      "meta_keywords": "Music CDs, music store",
+      "lang_code": "ar"
+    },
+    "ru": {
+      "tag_id": "2",
+      "h1": "Музыкальные диски",
+      "description": "<p>Лучшие м<span id=\"selection-marker-1\" class=\"redactor-selection-marker\"><\/span>узыкальные диски только в нашем интернет - магазине, так как мы усердно подбираем их ассортимент и пополняем его каждую неделю свежими поступлениями, бестселлерами, и устраиваем постоянные распродажи. А если честно, то это демо текст для CS-Cart модуля SEO для тегов (только лишь для демонстрации возможностей, который модуль добавляет для поисковой оптимизации страницы тега)<\/p>",
+      "page_title": "Музыкальные диски - лучший ассортимент только в нашем магазине",
+      "meta_description": "Лучшие м​узыкальные диски только в нашем интернет - магазине, так как мы усердно подбираем их ассортимент и пополняем его каждую неделю свежими поступлениями, бестселлерами, и устраиваем постоянные распродажи.",
+      "meta_keywords": "Музыкальные диски, интернет - магазин музыкальных дисков",
+      "lang_code": "ru"
+    }
+  },
+  "Sport": {
+    "en": {
+      "tag_id": "4",
+      "h1": "Sporting goods",
+      "description": "<p>The best sporting goods are only in our store, as we diligently select their assortment and replenish it every week with fresh receipts, bestsellers, and arrange regular sales. And to be honest, this is a demo text for the CS-Cart addon SEO for tags (just to see, how it extends native CS-Cart tags functionality).\r\n<\/p>",
+      "page_title": "Sporting goods  - best assortment in our store",
+      "meta_description": "The best sporting goods are only in our store, as we diligently select their assortment and replenish it every week with fresh receipts, bestsellers, and arrange regular sales.",
+      "meta_keywords": "sporting goods, sporting store",
+      "lang_code": "en"
+    },
+    "ar": {
+      "tag_id": "4",
+      "h1": "Спорттовары",
+      "description": "<p>Лучшие с<span id=\"selection-marker-1\" class=\"redactor-selection-marker\"><\/span>порттовары только в нашем интернет - магазине, так как мы усердно подбираем их ассортимент и пополняем его каждую неделю свежими поступлениями, бестселлерами, и устраиваем постоянные распродажи. А если честно, то это демо текст для CS-Cart модуля SEO для тегов (только лишь для демонстрации возможностей, который модуль добавляет для поисковой оптимизации страницы тега)<\/p>",
+      "page_title": "Спорттовары - лучший ассортимент только в нашем магазине",
+      "meta_description": "​Лучшие с​порттовары только в нашем интернет - магазине, так как мы усердно подбираем их ассортимент и пополняем его каждую неделю свежими поступлениями, бестселлерами, и устраиваем постоянные распродажи.",
+      "meta_keywords": "Спорттовары, магазин спорттоваров",
+      "lang_code": "ar"
+    },
+    "ru": {
+      "tag_id": "4",
+      "h1": "Спорттовары",
+      "description": "<p>Лучшие с<span id=\"selection-marker-1\" class=\"redactor-selection-marker\"><\/span>порттовары только в нашем интернет - магазине, так как мы усердно подбираем их ассортимент и пополняем его каждую неделю свежими поступлениями, бестселлерами, и устраиваем постоянные распродажи. А если честно, то это демо текст для CS-Cart модуля SEO для тегов (только лишь для демонстрации возможностей, который модуль добавляет для поисковой оптимизации страницы тега)<\/p>",
+      "page_title": "Спорттовары - лучший ассортимент только в нашем магазине",
+      "meta_description": "​Лучшие с​порттовары только в нашем интернет - магазине, так как мы усердно подбираем их ассортимент и пополняем его каждую неделю свежими поступлениями, бестселлерами, и устраиваем постоянные распродажи.",
+      "meta_keywords": "Спорттовары, магазин спорттоваров",
+      "lang_code": "ru"
+    }
+  }
+}

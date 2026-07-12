@@ -1,0 +1,339 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__buy_together"
+msgid "AB: Extended \"Buy together\""
+msgstr "AB: Расширенные \"Купить вместе дешевле\""
+
+msgctxt "Addons::description::ab__buy_together"
+msgid "Add-on allows to generate product combinations quickly and extends interface for customers in choosing combinations"
+msgstr "Модуль позволяет быстро генерировать комбинации товаров и расширяет интерфейс выбора комбинаций товаров"
+
+msgctxt "Languages::ab__buy_together"
+msgid "AB: Extended \"Buy together\""
+msgstr "AB: Расширенные \"Купить вместе дешевле\""
+
+msgctxt "SettingsOptions::ab__buy_together::combinations_list_view"
+msgid "Display view of combination list"
+msgstr "Вид отображения списка комбинаций"
+
+msgctxt "SettingsVariants::ab__buy_together::combinations_list_view::scroller"
+msgid "Horizontal scroller"
+msgstr "Горизонтальный скроллер"
+
+msgctxt "SettingsVariants::ab__buy_together::combinations_list_view::list"
+msgid "List"
+msgstr "Список"
+
+msgctxt "SettingsOptions::ab__buy_together::behavior_of_similar_products"
+msgid "Interface of additional product selection"
+msgstr "Интерфейс выбора варианта дополнительного товара"
+
+msgctxt "SettingsVariants::ab__buy_together::behavior_of_similar_products::popup"
+msgid "Pop-up window"
+msgstr "Всплывающее окно"
+
+msgctxt "SettingsVariants::ab__buy_together::behavior_of_similar_products::scroller"
+msgid "Vertical scroller"
+msgstr "Вертикальный скроллер"
+
+msgctxt "SettingsTooltips::ab__buy_together::behavior_of_similar_products"
+msgid "If there are several products at a combination for additional products. \"Pop-up window\" is always used for mobile devices."
+msgstr "Если в комбинации для дополнительного товара существуют несколько товаров. Для мобильных устройств всегда используется \"Всплывающее окно\"."
+
+msgctxt "Languages::ab__buy_together.generate"
+msgid "AB: \"Buy together\" generator"
+msgstr "AB: Генератор \"Комбинации товаров\""
+
+msgctxt "Languages::ab__buy_together.manage"
+msgid "Product combinations list"
+msgstr "Список комбинаций товаров"
+
+msgctxt "Languages::ab__bt.form.generate"
+msgid "Generate combinations"
+msgstr "Генерировать комбинации"
+
+msgctxt "Languages::ab__bt.form.header.general"
+msgid "General"
+msgstr "Общее"
+
+msgctxt "Languages::tt_addons_abt__unitheme2_views_abt__ut2_buy_together_generate_name"
+msgid "You can use placeholder [product] which will be replaced by original product name"
+msgstr "Используйте плейсхолдер [product] чтобы вставить название основного товара"
+
+msgctxt "Languages::tt_addons_ab__buy_together_views_ab__buy_together_generate_description"
+msgid "You can use placeholder [product] which will be replaced by original product name"
+msgstr "Используйте плейсхолдер [product] чтобы вставить название основного товара"
+
+msgctxt "Languages::ab__bt.form.header.base_products"
+msgid "Base products"
+msgstr "Основные товары"
+
+msgctxt "Languages::ab__bt.form.header.additional_products"
+msgid "Additional product [product_number]"
+msgstr "Дополнительный товар [product_number]"
+
+msgctxt "Languages::ab__bt.combinations_generated"
+msgid "Generated [n] comb."
+msgstr "Сгенерировано [n] комб."
+
+msgctxt "Languages::ab__bt.empty_data"
+msgid "Choose products for combinations"
+msgstr "Выберите товары для комбинаций"
+
+msgctxt "Languages::ab__bt.editing"
+msgid "Editing"
+msgstr "Редактирование"
+
+msgctxt "Languages::ab__bt.form.find_by_name"
+msgid "Find by name"
+msgstr "Найти по названию"
+
+msgctxt "Languages::ab__bt.form.find_by_base_product"
+msgid "Find by base product"
+msgstr "Найти по основному товару"
+
+msgctxt "Languages::ab__bt.form.find_by_additional_product"
+msgid "Find by additional product"
+msgstr "Найти по дополнительному товару"
+
+msgctxt "Languages::ab__bt.form.header.additional_langs"
+msgid "Additional languages"
+msgstr "Дополнительные языки"
+
+msgctxt "Languages::ab__bt.select_by_params"
+msgid "Select by products search"
+msgstr "Выбрать по поиску товаров"
+
+msgctxt "Languages::ab__bt.parameters_are_set"
+msgid "Search options are set"
+msgstr "Параметры поиска установлены"
+
+msgctxt "Languages::ab__bt.parameters_are_set.tooltip"
+msgid "Click on the \"Select by products search\" button to view"
+msgstr "Для просмотра нажмите на кнопку \"Выбрать по поиску товаров\""
+
+msgctxt "Languages::ab__bt.generators_list"
+msgid "Generators list"
+msgstr "Список генераторов"
+
+msgctxt "Languages::ab__bt.add_generator"
+msgid "Add generator"
+msgstr "Добавить генератор"
+
+msgctxt "Languages::ab__bt_generators.manage"
+msgid "Combination generators"
+msgstr "Генераторы комбинаций"
+
+msgctxt "Languages::ab__bt.new_generator"
+msgid "New generator"
+msgstr "Новый генератор"
+
+msgctxt "Languages::ab__bt.updated"
+msgid "Updated at"
+msgstr "Обновлено"
+
+msgctxt "Languages::ab__bt.last_generation"
+msgid "Last generation"
+msgstr "Последняя генерация"
+
+msgctxt "Languages::ab__bt.chains_deleted"
+msgid "Combinations deleted"
+msgstr "Комбинации удалены"
+
+msgctxt "Languages::ab__bt.no_chains_to_deleted"
+msgid "No combinations to delete"
+msgstr "Нет комбинаций для удаления"
+
+msgctxt "Languages::ab__bt.no_generated_chains"
+msgid "No generated combinations"
+msgstr "Нет сгенерированных комбинаций"
+
+msgctxt "Languages::ab__bt.form.delete_generated"
+msgid "Delete generated combinations"
+msgstr "Удалить сгенерированные комбинации"
+
+msgctxt "Languages::ab__bt.list_of_base_products"
+msgid "List of base products"
+msgstr "Список основных товаров"
+
+msgctxt "Languages::ab__bt.settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "Languages::ab__bt.no_base_products"
+msgid "There are no main products"
+msgstr "Нет основных товаров"
+
+msgctxt "Languages::ab__bt.no_additional_products"
+msgid "There are no additional products"
+msgstr "Нет дополнительных товаров"
+
+msgctxt "Languages::ab__bt.combinations_generated_successfully"
+msgid "Combinations are generated successfully. Total generated: [total]"
+msgstr "Комбинации сгенерированы успешно. Всего сгенерировано: [total]"
+
+msgctxt "Languages::ab__bt.dialog_title"
+msgid "Title of dialog window on the storefront"
+msgstr "Заголовок диалогового окна на витрине"
+
+msgctxt "Languages::ab__bt.add_products_with_picker"
+msgid "Add with picker"
+msgstr "Добавить через пикер"
+
+msgctxt "Languages::ab__bt.add_products_with_search"
+msgid "Add with search"
+msgstr "Добавить через поиск"
+
+msgctxt "Languages::ab__bt.add_products_with_intelligent_accessories"
+msgid "Add with \"Intelligent accessories\" add-on"
+msgstr "Добавить через \"Интеллектуальные товары\""
+
+msgctxt "Languages::ab__bt.products_picker"
+msgid "Products picker"
+msgstr "Пикер товаров"
+
+msgctxt "Languages::ab__bt.saved_search_picker"
+msgid "Products search"
+msgstr "Поиск товаров"
+
+msgctxt "Languages::ab__bt.ab__ia_joins_picker"
+msgid "Intelligent accessories"
+msgstr "Интеллектуальные товары"
+
+msgctxt "Languages::ab__bt.form.header.combination_products"
+msgid "Combination products"
+msgstr "Товары комбинаций"
+
+msgctxt "Languages::ab__bt.delete_all_joins"
+msgid "Delete all relations"
+msgstr "Удалить все связи"
+
+msgctxt "Languages::ab__bt.generator"
+msgid "Generator"
+msgstr "Генератор"
+
+msgctxt "Languages::ab__bt.dialog_title.tooltip"
+msgid "Will be used in the interface for selecting additional product by the customer"
+msgstr "Будет использован в интерфейсе выбора дополнительного товара покупателем"
+
+msgctxt "Languages::ab__bt.required.tooltip"
+msgid "Determines whether an additional product is required in a combination. If the option is inactive, then the user will be able to buy a combination without the corresponding additional product"
+msgstr "Определяет обязательность дополнительного товара в комбинации. Если опция неактивна, то пользователь сможет купить комбинацию без соответствующего дополнительного товара"
+
+msgctxt "Languages::ab__bt.type"
+msgid "Type"
+msgstr "Тип"
+
+msgctxt "Languages::ab__bt.general"
+msgid "Simple"
+msgstr "Простой"
+
+msgctxt "Languages::ab__bt.intelligent_accessories"
+msgid "Intelligent accessories"
+msgstr "Интеллектуальные товары"
+
+msgctxt "Languages::ab__bt.products_will_be_added_from_joins"
+msgid "Reference products will be used from relations of each Additional product"
+msgstr "Будут использованы Опорные товары из связей каждого Дополнительного товара"
+
+msgctxt "Languages::ab__bt.no_base_products_ia"
+msgid "There are no main products. Maybe cache was not updated for relations that were chosen as additional products. You shall update cache. <a href=\"https://docs.cs-cart.abt.team/en/ab__intelligent_accessories.doc#p-2572\" target=\"_blank\">Instruction</a>"
+msgstr "Нет основных товаров. Возможно для связей, выбранных как дополнительные товары, не обновлен кэш. Обновите кэш для связей. <a href=\"https://docs.cs-cart.abt.team/ru/ab__intelligent_accessories.doc#p-2572\" target=\"_blank\">Инструкция</a>"
+
+msgctxt "Languages::ab__bt.no_additional_products_ia"
+msgid "There are no additional products. Maybe cache was not updated for relations that were chosen as additional products. You shall update cache. <a href=\"https://docs.cs-cart.abt.team/en/ab__intelligent_accessories.doc#p-2572\" target=\"_blank\">Instruction</a>"
+msgstr "Нет дополнительных товаров. Возможно для связей, выбранных как дополнительные товары, не обновлен кэш. Обновите кэш для связей. <a href=\"https://docs.cs-cart.abt.team/ru/ab__intelligent_accessories.doc#p-2572\" target=\"_blank\">Инструкция</a>"
+
+msgctxt "Languages::ab__bt.no_ia_addon"
+msgid "Add-on \"Intellectual selection of products in block\" is required for work of the generator"
+msgstr "Для работы этого генератора необходим модуль \"AB: Интеллектуальный подбор связанных товаров\""
+
+msgctxt "Languages::ab__bt.ia_used_joins"
+msgid "Use relations"
+msgstr "Использованы связи"
+
+msgctxt "Languages::ab__bt.from_category"
+msgid "from category"
+msgstr "из категории"
+
+msgctxt "Languages::ab__bt.clear_search_conditions"
+msgid "Clear search conditions"
+msgstr "Очистить условия поиска"
+
+msgctxt "Languages::ab__bt.search_generator"
+msgid "List of base products"
+msgstr "Список основных товаров по генератору"
+
+msgctxt "Languages::ab__bt.additional_products_list"
+msgid "List of additional products"
+msgstr "Список дополнительных товаров"
+
+msgctxt "Languages::ab__bt.generate_link"
+msgid "To perfrom generating by Cron, use this command"
+msgstr "Для запуска генерации по Cron-у используйте следующую команду"
+
+msgctxt "Languages::ab__bt.delete_generator_and_combinations"
+msgid "Generator and its generated combinations will be removed. Continue?"
+msgstr "Будут удалены генератор и сгенерированные им комбинации. Продолжить?"
+
+msgctxt "Languages::ab__bt.placeholder_tooltip"
+msgid "Placeholder [product] is available that will be changed on main product name"
+msgstr "Доступен плейсхолдер [product], который будет заменен на название основного товара"
+
+msgctxt "Languages::ab__bt.progressbar.getting_products"
+msgid "Receive products"
+msgstr "Получаем товары"
+
+msgctxt "Languages::ab__bt.progressbar.generating_combinations_intersections"
+msgid "Generate interceptors of combinations"
+msgstr "Генерируем пересечения комбинаций"
+
+msgctxt "Languages::ab__bt.progressbar.creating_combinations"
+msgid "Create combinations"
+msgstr "Создаем комбинации"
+
+msgctxt "Languages::ab__bt.max_combinations_number_exceeded"
+msgid "Number of generated combinations beyond determined limit. Limit - [limit] is approximate number of generated combinations - [amount]. Please, decrease number of additional products. It is a temporary restriction. We are working at improvement of these parameters"
+msgstr "Количество генерируемых комбинаций выше установленного лимита. Лимит - [limit], приблизительное количество генерируемых комбинаций - [amount]. Уменьшите количество дополнительных товаров. Это временное ограничение. Мы уже работаем над улучшением этих показателей"
+
+msgctxt "Languages::ab__bt.combinations_amount"
+msgid "Number of combinations - [n]"
+msgstr "Количество комбинаций - [n]"
+
+msgctxt "Languages::ab__bt.form.calculate_combinations"
+msgid "Calculate number of possible combinations"
+msgstr "Подсчитать количество возможных комбинаций"
+
+msgctxt "Languages::ab__bt.generating_in_progress"
+msgid "Generating has already been started. Wait until the previous process will come to the end, if you wish to start again"
+msgstr "Генерация уже запущена. Дождитесь окончания предыдущего процесса, если хотите запустить заново"
+
+msgctxt "Languages::ab__bt.total_combinations"
+msgid "Total number of combinations"
+msgstr "Всего комбинаций"
+
+msgctxt "Languages::ab__buy_together.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__bt.help.docs"
+msgid "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__buy_together.doc'>documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__buy_together.doc'>документацией</a>."
+
+msgctxt "Languages::privilege_groups.ab__buy_together"
+msgid "AB: Extended \"Buy together\""
+msgstr "AB: Расширенные \"Купить вместе дешевле\""
+
+msgctxt "Languages::privileges.ab__bt.data.manage"
+msgid "AB: Management of product combinations"
+msgstr "AB: Управление комбинациями товаров"
+
+msgctxt "Languages::privileges.ab__bt.data.view"
+msgid "AB: View of product combinations"
+msgstr "AB: Просмотр комбинаций товаров"
+
+#. Alexbranding. Do not modify this file manually!

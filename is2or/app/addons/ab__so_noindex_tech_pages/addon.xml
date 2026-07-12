@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__so_noindex_tech_pages</id>
+<version>1.16.0</version>
+<priority>2017</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<compatibility>
+<dependencies>ab__addons_manager</dependencies>
+<core_version><min>4.12.1</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<ab>
+<hash>819e2aeffb43932ed110ec661e62972571872a4d, 2021-09-01 14:35:31</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.4.0</min></ab__addons_manager>
+</dependencies>
+</compatibility>
+</ab>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="settings">
+<items>
+<item id="noindex_empty_categories">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="html_sitemap_exclude_denied">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="add_page_referer_to_canonical_link">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="exclude_next_prev_links">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="noindex_for_product_reviews_pagination">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="noindex_for_pages_gt_1">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="canonical_for_pages_gt_1" parent_id="noindex_for_pages_gt_1">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="copy_canonical_on_clone">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="exclude_non_canonical_from_sitemap">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="code"><type>hidden</type><default_value>ABA-acsR9lJ7pqm5Cq8NxaaXz</default_value></item>
+<item id="build"><type>hidden</type><default_value>919</default_value></item>
+</items>
+</section>
+<section id="301_redirects">
+<items>
+<item id="301_redirects_info">
+<type>info</type>
+<handler>fn_ab__so_ntp_301_redirects_info</handler>
+</item>
+<item id="process_slash_in_end_of_url">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="process_extra_url_slashes">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+<item id="cast_url_to_lowercase">
+<type>checkbox</type>
+<default_value>N</default_value>
+</item>
+</items>
+</section>
+</sections>
+</settings>
+<queries>
+<item for="install">
+CREATE TABLE IF NOT EXISTS `?:ab__so_noindex_tech_pages` (
+`object_id` mediumint(8) unsigned NOT NULL default '0',
+`company_id` mediumint(8) unsigned NOT NULL default '0',
+`object_type` varchar(20) NOT NULL default '',
+`var` varchar(255) NOT NULL default '',
+`value` varchar(255) NOT NULL default '',
+PRIMARY KEY (`object_id`, `company_id`, `object_type`, `var`)
+) DEFAULT CHARSET UTF8;
+</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__so_ntp_view_data', 'Y', 'ab__addons', 'ab__so_noindex_tech_pages', 'Y')</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__so_ntp_manage_data', 'Y', 'ab__addons', 'ab__so_noindex_tech_pages', 'N')</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__so_noindex_tech_pages' OR group_id = 'ab__so_noindex_tech_pages'</item>
+</queries>
+</addon>

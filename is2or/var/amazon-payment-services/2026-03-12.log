@@ -1,0 +1,6 @@
+2026-03-12 @ 07:27:20 - CC - Form Request:
+{"Request Url":"https:\/\/checkout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"lydaa2isB18rPqxvkfxD","merchant_identifier":"ZFFPkAaw","merchant_reference":"340E45FE00E","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=340E45FE00E","command":"PURCHASE","currency":"SAR","amount":"6300","order_description":"Order #340","customer_ip":"182.253.58.33","customer_email":"firmanfirdaus17.jtk12@gmail.com","customer_name":"firman firdaus","phone_number":"+96650 123 4567","merchant_extra1":340,"merchant_extra2":98,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"ed3dfee51a6f8a25ca3d3f2ec44c45595a510daf271c13a961f9ce7414281430"}}
+
+2026-03-12 @ 07:28:28 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=340E45FE00E","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"340E45FE00E","amount":63,"captured_amount":63,"order_status":"I"}}
+

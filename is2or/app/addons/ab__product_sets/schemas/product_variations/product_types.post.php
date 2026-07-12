@@ -1,0 +1,25 @@
+<?php
+/*******************************************************************************************
+*   ___  _          ______                     _ _                _                        *
+*  / _ \| |         | ___ \                   | (_)              | |              © 2023   *
+* / /_\ | | _____  _| |_/ /_ __ __ _ _ __   __| |_ _ __   __ _   | |_ ___  __ _ _ __ ___   *
+* |  _  | |/ _ \ \/ / ___ \ '__/ _` | '_ \ / _` | | '_ \ / _` |  | __/ _ \/ _` | '_ ` _ \  *
+* | | | | |  __/>  <| |_/ / | | (_| | | | | (_| | | | | | (_| |  | ||  __/ (_| | | | | | | *
+* \_| |_/_|\___/_/\_\____/|_|  \__,_|_| |_|\__,_|_|_| |_|\__, |  \___\___|\__,_|_| |_| |_| *
+*                                                         __/ |                            *
+*                                                        |___/                             *
+* ---------------------------------------------------------------------------------------- *
+* This is commercial software, only users who have purchased a valid license and accept    *
+* to the terms of the License Agreement can install and use this program.                  *
+* ---------------------------------------------------------------------------------------- *
+* website: https://cs-cart.alexbranding.com                                                *
+*   email: info@alexbranding.com                                                           *
+*******************************************************************************************/
+
+defined('BOOTSTRAP') or die('Access denied');
+
+if (defined('PRODUCT_TYPE_VENDOR_PRODUCT_OFFER') && defined('PRODUCT_TYPE_PRODUCT_OFFER_VARIATION')) {
+$schema[PRODUCT_TYPE_VENDOR_PRODUCT_OFFER]['tabs'][] = 'ab__product_sets';
+$schema[PRODUCT_TYPE_PRODUCT_OFFER_VARIATION]['tabs'][] = 'ab__product_sets';
+}
+return $schema;

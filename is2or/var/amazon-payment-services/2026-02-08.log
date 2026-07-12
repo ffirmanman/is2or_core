@@ -1,0 +1,66 @@
+2026-02-08 @ 17:31:37 - Notify Response:
+{"Notify Url":"\/api\/is2or_amazon_payments\/281","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"281A488EA17","amount":"127.00","captured_amount":"127.00","order_status":"I"}}
+
+2026-02-08 @ 17:45:17 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=Mjgx","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"281A488EA17","amount":"1.27","captured_amount":"127.00","reason_text":"No valid response from Gateway","order_status":"I"}}
+
+2026-02-08 @ 17:49:16 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"3031B30D416","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3031B30D416","command":"PURCHASE","currency":"SAR","amount":"9600","order_description":"Order #303","customer_ip":"182.253.58.60","customer_email":"lukmangrahito@gmail.com","customer_name":"Lukman Ito","phone_number":"+6285720355817","merchant_extra1":303,"merchant_extra2":98,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"691b15461d4dd42896b9f0b415562035d6d36518123be2413d7a0830233b9502"}}
+
+2026-02-08 @ 17:56:50 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzA1","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"3056E5E7452","amount":"17.00","captured_amount":"17.00","order_status":"I"}}
+
+2026-02-08 @ 17:58:18 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"306BC169458","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=306BC169458","command":"PURCHASE","currency":"SAR","amount":"9600","order_description":"Order #306","customer_ip":"182.253.58.60","customer_email":"lukmangrahito@gmail.com","customer_name":"Lukman Ito","phone_number":"+6285720355817","merchant_extra1":306,"merchant_extra2":98,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"4e60870f3c6756619e9108a19f4b6272e0fdcd68646b44ba90b6819b8eee5deb"}}
+
+2026-02-08 @ 17:59:35 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"309A4CFFB0E","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=309A4CFFB0E","command":"PURCHASE","currency":"SAR","amount":"9600","order_description":"Order #309","customer_ip":"182.253.58.60","customer_email":"lukmangrahito@gmail.com","customer_name":"Lukman Ito","phone_number":"+6285720355817","merchant_extra1":309,"merchant_extra2":98,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"4de6559928fd6775635135a8bac082168565c214702f5b0329ac88a1dce63e0b"}}
+
+2026-02-08 @ 18:00:46 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"312D821E261","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=312D821E261","command":"PURCHASE","currency":"SAR","amount":"9600","order_description":"Order #312","customer_ip":"182.253.58.60","customer_email":"lukmangrahito@gmail.com","customer_name":"Lukman Ito","phone_number":"+6285720355817","merchant_extra1":312,"merchant_extra2":98,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"44e0bf616fe6cda1fb684bce0241ed33d95c27b236e82ca2060ae29d5a3a6266"}}
+
+2026-02-08 @ 18:03:02 - Notify Response:
+{"Notify Url":"\/api\/is2or_amazon_payments\/305","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"3056E5E7452","amount":"17.00","captured_amount":"17.00","order_status":"I"}}
+
+2026-02-08 @ 18:08:16 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzA1","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"30537A7AD64","amount":"1700","captured_amount":"1700","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029559406","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-08 @ 18:10:08 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzA1","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"30537A7AD64","amount":"1700","captured_amount":"1700","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029559406","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-08 @ 18:18:08 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"3151A275B56","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3151A275B56","command":"PURCHASE","currency":"SAR","amount":"23600","order_description":"Order #315","customer_ip":"182.253.58.60","customer_email":"lukmangrahito@gmail.com","customer_name":"Lukman Ito","phone_number":"+6285720355817","merchant_extra1":315,"merchant_extra2":98,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"51dbebb130bc75ba75488bc800097084f41794154c102fc8093f0390a74b2e21"}}
+
+2026-02-08 @ 18:20:01 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzE1","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"315DD7E8612","amount":"23600","captured_amount":"23600","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029559603","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-08 @ 18:20:41 - Notify Response:
+{"Notify Url":"\/api\/is2or_amazon_payments\/315","Response":{"gateway":"","payment_mode":"CAPTURE","merchant_reference":"315DD7E8612","amount":"23600","captured_amount":"23600","fort_id":"169996200029559603","response_code":"12000","reason_text":"Success","order_status":"P","response_type":"PAYMENT_SUCCESS","command":"CAPTURE"}}
+
+2026-02-08 @ 18:29:23 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"316603A70DF","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=316603A70DF","command":"PURCHASE","currency":"SAR","amount":"15900","order_description":"Order #316","customer_ip":"182.253.58.60","customer_email":"lukmangrahito@gmail.com","customer_name":"Lukman Ito","phone_number":"+6285720355817","merchant_extra1":316,"merchant_extra2":98,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"18c05108f29e91ce3175afa649205980b0db3c86f71392e72b3fbda691d73098"}}
+
+2026-02-08 @ 18:36:24 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=316603A70DF","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"316603A70DF","amount":159,"captured_amount":159,"order_status":"I"}}
+
+2026-02-08 @ 18:55:36 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"319A5A8CA16","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=319A5A8CA16","command":"PURCHASE","currency":"SAR","amount":"15900","order_description":"Order #319","customer_ip":"182.253.58.60","customer_email":"lukmangrahito@gmail.com","customer_name":"Lukman Ito","phone_number":"+6285720355817","merchant_extra1":319,"merchant_extra2":98,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"e3bce0e8d41c469f8784b7cd12705bb82a17f800f122f1111d8ec14f68e6c2c2"}}
+
+2026-02-08 @ 18:56:08 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=319A5A8CA16","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"319A5A8CA16","amount":"15900","captured_amount":"15900","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029560013","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-08 @ 20:59:26 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"3228E827846","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3228E827846","command":"PURCHASE","currency":"SAR","amount":"17900","order_description":"Order #322","customer_ip":"182.253.58.60","customer_email":"lukmangrahito@gmail.com","customer_name":"Lukman Ito","phone_number":"+6285720355817","merchant_extra1":322,"merchant_extra2":98,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"e928fa738b11ca402bb85585f0a968183a6e45c0dcab413fc50b1d3c64078267"}}
+
+2026-02-08 @ 21:17:57 - Notify Response:
+{"Notify Url":"\/api\/is2or_amazon_payments\/322","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"3228E827846","amount":179,"captured_amount":179,"order_status":"I"}}
+
+2026-02-08 @ 21:20:07 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzIy","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"322502C5EA0","amount":"17900","captured_amount":"17900","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029561813","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-08 @ 21:20:58 - Notify Response:
+{"Notify Url":"\/api\/is2or_amazon_payments\/322","Response":{"gateway":"","payment_mode":"CAPTURE","merchant_reference":"322502C5EA0","amount":"17900","captured_amount":"17900","fort_id":"169996200029561813","response_code":"12000","reason_text":"Success","order_status":"P","response_type":"PAYMENT_SUCCESS","command":"CAPTURE"}}
+
+2026-02-08 @ 21:25:05 - Notify Response:
+{"Notify Url":"\/api\/is2or_amazon_payments\/322","Response":{"gateway":"","payment_mode":"CAPTURE","merchant_reference":"322502C5EA0","amount":"17900","captured_amount":"17900","fort_id":"169996200029561813","response_code":"12000","reason_text":"Success","order_status":"P","response_type":"PAYMENT_SUCCESS","command":"CAPTURE"}}
+

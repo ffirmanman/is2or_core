@@ -1,0 +1,468 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ab__advanced_sitemap"
+msgid "AB: Advanced sitemap"
+msgstr "AB: Advanced sitemap"
+
+msgctxt "Addons::description::ab__advanced_sitemap"
+msgid "Add-on adds XML and HTML sitemaps, XML images sitemap"
+msgstr "Add-on adds XML and HTML sitemaps, XML images sitemap"
+
+msgctxt "Languages::ab__advanced_sitemap"
+msgid "AB: Advanced sitemap"
+msgstr "AB: Advanced sitemap"
+
+msgctxt "SettingsSections::ab__advanced_sitemap::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::cron_key"
+msgid "Cron-key"
+msgstr "Cron-key"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::cron_key"
+msgid "Auto update requires key. Length must be between 10 and 20 chars (only latin letters and digits)"
+msgstr "Auto update requires key. Length must be between 10 and 20 chars (only latin letters and digits)"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::exclude_categories"
+msgid "Exclude categories"
+msgstr "Exclude categories"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::exclude_categories"
+msgid "Exclude categories from sitemaps:<br><ul> <li>don't exclude — show all categories</li> <li>without products — categories without products</li> <li>with products without amount — categories in which all products don't have amount</li> <li>with products without prices — categories in which all products don't have prices</li> <li>with products without amount and prices — categories in which all products don't have amount and prices</li> </ul>"
+msgstr "Exclude categories from sitemaps:<br><ul>"
+"<li>don't exclude — show all categories</li>"
+"<li>without products — categories without products</li>"
+"<li>with products without amount — categories in which all products don't have amount</li>"
+"<li>with products without prices — categories in which all products don't have prices</li>"
+"<li>with products without amount and prices — categories in which all products don't have amount and prices</li>"
+"</ul>"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::none"
+msgid "don't exclude"
+msgstr "don't exclude"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::without_products"
+msgid "without products"
+msgstr "without products"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::without_product_amount"
+msgid "with products without amount"
+msgstr "with products without amount"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::without_product_price"
+msgid "with products without prices"
+msgstr "with products without prices"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::without_product_amount_and_price"
+msgid "with products without amount and prices"
+msgstr "with products without amount and prices"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::exclude_brands"
+msgid "Exclude brands"
+msgstr "Exclude brands"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::exclude_brands"
+msgid "Exclude brands from sitemaps:<br><ul> <li>don't exclude — show all brands</li> <li>without products — brands without products</li> <li>with products without amount — brands in which all products don't have amount</li> <li>with products without prices — brands in which all products don't have prices</li> <li>with products without amount and prices — brands in which all products have neither amount nor prices</li> </ul>"
+msgstr "Exclude brands from sitemaps:<br><ul>"
+"<li>don't exclude — show all brands</li>"
+"<li>without products — brands without products</li>"
+"<li>with products without amount — brands in which all products don't have amount</li>"
+"<li>with products without prices — brands in which all products don't have prices</li>"
+"<li>with products without amount and prices — brands in which all products have neither amount nor prices</li>"
+"</ul>"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::none"
+msgid "don't exclude"
+msgstr "don't exclude"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::without_products"
+msgid "without products"
+msgstr "without products"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::without_product_amount"
+msgid "with products without amount"
+msgstr "with products without amount"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::without_product_price"
+msgid "with products without prices"
+msgstr "with products without prices"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::without_product_amount_and_price"
+msgid "with products without amount and prices"
+msgstr "with products without amount and prices"
+
+msgctxt "SettingsSections::ab__advanced_sitemap::xml_sitemap"
+msgid "XML sitemap"
+msgstr "XML sitemap"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::enable_xml_sitemap"
+msgid "Enable XML sitemap"
+msgstr "Enable XML sitemap"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_products"
+msgid "Include to sitemap"
+msgstr "Include to sitemap"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_categories"
+msgid "Include to sitemap"
+msgstr "Include to sitemap"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_pages"
+msgid "Include to sitemap"
+msgstr "Include to sitemap"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_blog"
+msgid "Include blog pages to sitemap"
+msgstr "Include blog pages to sitemap"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_extended"
+msgid "Include to sitemap"
+msgstr "Include to sitemap"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_companies"
+msgid "Include companies in sitemap"
+msgstr "Include companies in sitemap"
+
+msgctxt "SettingsSections::ab__advanced_sitemap::html_sitemap"
+msgid "HTML sitemap"
+msgstr "HTML sitemap"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::enable_html_sitemap"
+msgid "Enable HTML sitemap"
+msgstr "Enable HTML sitemap"
+
+msgctxt "SettingsSections::ab__advanced_sitemap::xml_images_map"
+msgid "XML sitemap of images"
+msgstr "XML sitemap of images"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::enable_xml_images_map"
+msgid "Enable XML images map"
+msgstr "Enable XML images map"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::exclude_products"
+msgid "Exclude products"
+msgstr "Exclude products"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::exclude_products"
+msgid "Exclude products from sitemaps:<br><ul> <li>don't exclude — show all active products</li> <li>without amount — products without amount</li> <li>without prices — products without prices</li> <li>without amount and prices — products without amount and prices</li> </ul>"
+msgstr "Exclude products from sitemaps:<br><ul>"
+"<li>don't exclude — show all active products</li>"
+"<li>without amount — products without amount</li>"
+"<li>without prices — products without prices</li>"
+"<li>without amount and prices — products without amount and prices</li>"
+"</ul>"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_products::none"
+msgid "don't exclude"
+msgstr "don't exclude"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_products::without_amount"
+msgid "without amount"
+msgstr "without amount"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_products::without_price"
+msgid "without price"
+msgstr "without price"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_products::without_amount_and_price"
+msgid "without amount and price"
+msgstr "without amount and price"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::exclude_products_variations"
+msgid "Exclude product variations from the sitemap"
+msgstr "Exclude product variations from the sitemap"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::add_lastmod"
+msgid "Add last modified date"
+msgstr "Add last modified date"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::add_lastmod"
+msgid "Adds tag <code>&lt;lastmod&gt;</code> for each feature type to the sitemap. The date will be the date of the sitemap generation"
+msgstr "Adds tag <code>&lt;lastmod&gt;</code> for each feature type to the sitemap. The date will be the date of the sitemap generation"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::products_settings"
+msgid "Products settings"
+msgstr "Products settings"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::products_changefreq"
+msgid "Change frequency"
+msgstr "Change frequency"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::products_priority"
+msgid "Priority"
+msgstr "Priority"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::feature_variants_settings"
+msgid "Feature variants settings (like Brand/Manufacturer)"
+msgstr "Feature variants settings (like Brand/Manufacturer)"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::feature_variants_changefreq"
+msgid "Change frequency"
+msgstr "Change frequency"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::feature_variants_priority"
+msgid "Priority"
+msgstr "Priority"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::categories_settings"
+msgid "Categories settings"
+msgstr "Categories settings"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::categories_changefreq"
+msgid "Change frequency"
+msgstr "Change frequency"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::categories_priority"
+msgid "Priority"
+msgstr "Priority"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::custom_links_settings"
+msgid "Customer links settings"
+msgstr "Customer links settings"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::custom_links_changefreq"
+msgid "Change frequency"
+msgstr "Change frequency"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::custom_links_priority"
+msgid "Priority"
+msgstr "Priority"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::other_links_settings"
+msgid "Links settings for other add-ons"
+msgstr "Links settings for other add-ons"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::other_links_changefreq"
+msgid "Change frequency"
+msgstr "Change frequency"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::other_links_priority"
+msgid "Priority"
+msgstr "Priority"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::pages_settings"
+msgid "Pages settings"
+msgstr "Pages settings"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::pages_changefreq"
+msgid "Change frequency"
+msgstr "Change frequency"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::pages_priority"
+msgid "Priority"
+msgstr "Priority"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::add_title_and_caption"
+msgid "Add <code>&lt;image:title&gt;</code> and <code>&lt;image:caption&gt;</code>"
+msgstr "Add <code>&lt;image:title&gt;</code> and <code>&lt;image:caption&gt;</code>"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::add_title_and_caption"
+msgid "Setting depends on the add-on \"AB: Automatic Alt and Title tags for images using templates\""
+msgstr "Setting depends on the add-on \"AB: Automatic Alt and Title tags for images using templates\""
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::add_variation_features_description"
+msgid "Add feature values that will be used for creation of variation at <code>&lt;image:title&gt;</code> and <code>&lt;image:caption&gt;</code>"
+msgstr "Add feature values that will be used for creation of variation at <code>&lt;image:title&gt;</code> and <code>&lt;image:caption&gt;</code>"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::add_variation_features_description"
+msgid "Setting depends on add-ons \"AB: Automatic Alt and Title tags for images using templates\" and \"Product variations\".<br/> Pay attention! When the setting is active, time of sitemap generation will be increased that tends to increase demands to hardware of your server"
+msgstr "Setting depends on add-ons \"AB: Automatic Alt and Title tags for images using templates\" and \"Product variations\".<br/>"
+"Pay attention! When the setting is active, time of sitemap generation will be increased that tends to increase demands to hardware of your server"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::add_vendor_offers"
+msgid "Add vendors' offers"
+msgstr "Add vendors' offers"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::add_vendor_offers"
+msgid "Setting defines whether vendors' offers will be added to sitemap or not.<br/><code>Common Products for Vendors</code> add-on"
+msgstr "Setting defines whether vendors' offers will be added to sitemap or not.<br/><code>Common Products for Vendors</code> add-on"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::languages_locales_header"
+msgid "Locale settings"
+msgstr "Locale settings"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::xml_sitemap_directory"
+msgid "XML sitemap directory"
+msgstr "XML sitemap directory"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::xml_sitemap_directory"
+msgid "It is allowed to use letters of the Latin alphabet, numbers and symbols <code>/ _ . ~ - </code>. After changing this parameter, it is necessary to generate a sitemap"
+msgstr "It is allowed to use letters of the Latin alphabet, numbers and symbols <code>/ _ . ~ - </code>. After changing this parameter, it is necessary to generate a sitemap"
+
+msgctxt "Languages::ab__as.generate_sitemap_button"
+msgid "Generate sitemap"
+msgstr "Generate sitemap"
+
+msgctxt "Languages::ab__as.map_generated"
+msgid "The map is generated!"
+msgstr "The map is generated!"
+
+msgctxt "Languages::ab__as.form.page_sitemap"
+msgid "Page name for sitemap"
+msgstr "Page name for sitemap"
+
+msgctxt "Languages::ab__as.generate_link"
+msgid "Use the following command to generate sitemap by Cron:"
+msgstr "Use the following command to generate sitemap by Cron:"
+
+msgctxt "Languages::ab__advanced_sitemap.help.server.title"
+msgid "Server option"
+msgstr "Server option"
+
+msgctxt "Languages::ab__advanced_sitemap.manage"
+msgid "Sitemap generation"
+msgstr "Sitemap generation"
+
+msgctxt "Languages::ab__as.generate_map"
+msgid "The sitemap isn't created yet. Go to the <a href=\"[url]\">sitemap generation page</a>"
+msgstr "The sitemap isn't created yet. Go to the <a href=\"[url]\">sitemap generation page</a>"
+
+msgctxt "Languages::ab__as.view_sitemap"
+msgid "Sitemap is available by this link: <a target=\"_blank\" href=\"[url]\">[url]</a> or <a target=\"_blank\" href=\"[location]sitemap.xml\">[location]sitemap.xml</a>"
+msgstr "Sitemap is available by this link: <a target=\"_blank\" href=\"[url]\">[url]</a> or <a target=\"_blank\" href=\"[location]sitemap.xml\">[location]sitemap.xml</a>"
+
+msgctxt "Languages::ab__as_links.manage"
+msgid "User's links in XML sitemap"
+msgstr "User's links in XML sitemap"
+
+msgctxt "Languages::ab__as.new_link"
+msgid "New link"
+msgstr "New link"
+
+msgctxt "Languages::ab__as.form.link"
+msgid "Link"
+msgstr "Link"
+
+msgctxt "Languages::ab__as.error_link_exists"
+msgid "Link already exists: [link]"
+msgstr "Link already exists: [link]"
+
+msgctxt "Languages::ab__as.error_link_empty"
+msgid "Link to homepage already exists"
+msgstr "Link to homepage already exists"
+
+msgctxt "Languages::tt_addons_ab__advanced_sitemap_views_ab__as_links_manage_ab__as.form.link"
+msgid "Possible to use:<br /> <ul style=\"margin:10px 0;list-style-type:none\"><li>dispatch value — <code>categories.catalog</code> or <code>products.view&product_id=12</code>. The most preferred option, converting to all languages automatically</li> <li>relative links — <code>/catalog/</code> or <code>/mens-clothing/100g-pants/</code>. For each language, you must add a separate link manually!</li> <li>absolute links — <code>http://example.com/catalog/</code> or <code style=\"white-space:normal\">http://example.com/mens-clothing/100g-pants/</code>. Automatically converting to relative link</li><ul>"
+msgstr "Possible to use:<br />"
+"<ul style=\"margin:10px 0;list-style-type:none\"><li>dispatch value — <code>categories.catalog</code> or <code>products.view&product_id=12</code>. The most preferred option, converting to all languages automatically</li>"
+"<li>relative links — <code>/catalog/</code> or <code>/mens-clothing/100g-pants/</code>. For each language, you must add a separate link manually!</li>"
+"<li>absolute links — <code>http://example.com/catalog/</code> or <code style=\"white-space:normal\">http://example.com/mens-clothing/100g-pants/</code>. Automatically converting to relative link</li><ul>"
+
+msgctxt "Languages::ab__as.settings"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "Languages::ab__as.error.check_permissions"
+msgid "A sitemap file can't be created. Check files permissions"
+msgstr "A sitemap file can't be created. Check files permissions"
+
+msgctxt "Languages::ab__as.errors.cron_key"
+msgid "Warning! CRON Key doesn't meet safety requirements"
+msgstr "Warning! CRON Key doesn't meet safety requirements"
+
+msgctxt "Languages::ab__as.comet.adding_storefront"
+msgid "Adding main page link"
+msgstr "Adding main page link"
+
+msgctxt "Languages::ab__as.comet.adding_custom_links"
+msgid "Adding custom links"
+msgstr "Adding custom links"
+
+msgctxt "Languages::ab__as.comet.adding_categories"
+msgid "Adding categories links"
+msgstr "Adding categories links"
+
+msgctxt "Languages::ab__as.comet.adding_products"
+msgid "Adding products links"
+msgstr "Adding products links"
+
+msgctxt "Languages::ab__as.comet.adding_pages"
+msgid "Adding pages links"
+msgstr "Adding pages links"
+
+msgctxt "Languages::ab__as.comet.adding_blog"
+msgid "Adding blog links"
+msgstr "Adding blog links"
+
+msgctxt "Languages::ab__as.comet.adding_brands"
+msgid "Adding brands links"
+msgstr "Adding brands links"
+
+msgctxt "Languages::ab__as.comet.adding_vendors"
+msgid "Adding vendors links"
+msgstr "Adding vendors links"
+
+msgctxt "Languages::ab__as.comet.adding_images"
+msgid "Adding images links"
+msgstr "Adding images links"
+
+msgctxt "Languages::ab__as.always"
+msgid "Always"
+msgstr "Always"
+
+msgctxt "Languages::ab__as.hourly"
+msgid "Hourly"
+msgstr "Hourly"
+
+msgctxt "Languages::ab__as.daily"
+msgid "Daily"
+msgstr "Daily"
+
+msgctxt "Languages::ab__as.weekly"
+msgid "Weekly"
+msgstr "Weekly"
+
+msgctxt "Languages::ab__as.monthly"
+msgid "Monthly"
+msgstr "Monthly"
+
+msgctxt "Languages::ab__as.yearly"
+msgid "Annually"
+msgstr "Annually"
+
+msgctxt "Languages::ab__as.never"
+msgid "Never"
+msgstr "Never"
+
+msgctxt "Languages::ab__advanced_sitemap.help"
+msgid "Help"
+msgstr "Help"
+
+msgctxt "Languages::ab__as_help.docs"
+msgid "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__advanced_sitemap.doc'>documentation</a>."
+msgstr "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__advanced_sitemap.doc'>documentation</a>."
+
+msgctxt "Languages::privilege_groups.ab__advanced_sitemap"
+msgid "AB: Advanced sitemap"
+msgstr "AB: Advanced sitemap"
+
+msgctxt "Languages::privileges.ab__as.manage"
+msgid "Manage data"
+msgstr "Manage data"
+
+msgctxt "Languages::privileges.ab__as.view"
+msgid "View data"
+msgstr "View data"
+
+msgctxt "Languages::ab__as.autoinstall.sitemap_true"
+msgid "XML sitemap has been successfully generated. You can view it by the link <a target=\"_blank\" href=\"[url]\">[url]</a>"
+msgstr "XML sitemap has been successfully generated. You can view it by the link <a target=\"_blank\" href=\"[url]\">[url]</a>"
+
+msgctxt "Languages::ab__as.autoinstall.sitemap_false"
+msgid "Failed to create XML sitemap"
+msgstr "Failed to create XML sitemap"
+
+msgctxt "Languages::ab__as.upgrade_notifications.2.0.0.update_cron_tasks.title"
+msgid "Update Cron-tasks"
+msgstr "Update Cron-tasks"
+
+msgctxt "Languages::ab__as.upgrade_notifications.2.0.0.update_cron_tasks.text"
+msgid "Link for the Cron was changed. Please, update your Cron-tasks."
+msgstr "Link for the Cron was changed. Please, update your Cron-tasks."
+
+#. Alexbranding. Do not modify this file manually!

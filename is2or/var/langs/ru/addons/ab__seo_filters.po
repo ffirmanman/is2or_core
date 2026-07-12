@@ -1,0 +1,1048 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__seo_filters"
+msgid "AB: SEO pages for filters"
+msgstr "AB: SEO-страницы для фильтров"
+
+msgctxt "Addons::description::ab__seo_filters"
+msgid "Manage of rules for pages generation, and view, adding and edition of SEO pages for filters"
+msgstr "Управление правилами генерации страниц, а также просмотр, добавление и редактирование SEO-страниц для фильтров"
+
+msgctxt "Languages::ab__seo_filters"
+msgid "AB: SEO pages for filters"
+msgstr "AB: SEO-страницы для фильтров"
+
+msgctxt "Languages::ab__sf.notifications.generate_names_by_rule_is_complete"
+msgid "Rule #[id]. SEO pages generation is executed successfully!"
+msgstr "Правило #[id]. Генерация SEO-страниц выполнена успешно!"
+
+msgctxt "Languages::ab__sf.notifications.generate_names_by_rule_is_not_completed"
+msgid "Rule #[id]. [text]"
+msgstr "Правило #[id]. [text]"
+
+msgctxt "Languages::ab__sf.errors.feature_is_empty"
+msgid "Feature is not specified!"
+msgstr "Не указана характеристика!"
+
+msgctxt "Languages::ab__sf.errors.categories_is_empty"
+msgid "Category (categories) is not specified!"
+msgstr "Не указана категория(и)!"
+
+msgctxt "Languages::ab__sf.errors.category_id_is_empty"
+msgid "Category is not specified!"
+msgstr "Не указана категория!"
+
+msgctxt "Languages::ab__sf.errors.features_hash_is_empty"
+msgid "Filter hash is not specified!"
+msgstr "Не указан хеш фильтра!"
+
+msgctxt "Languages::ab__sf.errors.name_is_empty"
+msgid "URL to SEO page is not specified!"
+msgstr "Не указана ссылка на SEO-страницу!"
+
+msgctxt "Languages::ab__sf.errors.not_all_features_are_active"
+msgid "Not all features are active!"
+msgstr "Не все характеристики в правиле активны!"
+
+msgctxt "Languages::ab__sf.errors.no_active_filters_by_selected_features"
+msgid "No active filters by selected features!"
+msgstr "Нет активных фильтров по выбранным характеристикам в правиле!"
+
+msgctxt "Languages::ab__sf.errors.not_all_features_exist_active_filters"
+msgid "Not all features have active filters!"
+msgstr "Не все характеристики имеют активные фильтры!"
+
+msgctxt "Languages::ab__sf.errors.there_are_no_active_categories"
+msgid "There are no active categories!"
+msgstr "Нет активных категорий!"
+
+msgctxt "Languages::ab__sf.errors.no_active_products_for_categories"
+msgid "There are no active products for specified active categories!"
+msgstr "Нет активных товаров по указанным активным категориям!"
+
+msgctxt "Languages::ab__sf.errors.rule_is_disabled"
+msgid "The rule is disabled. SEO pages have not been generated!"
+msgstr "Правило отключено, SEO-страницы не сгенерированы!"
+
+msgctxt "Languages::ab__sf.rules"
+msgid "SEO pages generation rules for filters"
+msgstr "Правила генерации SEO-страниц для фильтров"
+
+msgctxt "Languages::ab__sf.rules.search_form.by_features"
+msgid "Search by feature"
+msgstr "Поиск по характеристике"
+
+msgctxt "Languages::ab__sf.rules.search_form.by_categories"
+msgid "Search by category"
+msgstr "Поиск по категории"
+
+msgctxt "Languages::ab__sf.rule.generate_link"
+msgid "To perform filters generating of SEO pages by this rule with Cron, use this command"
+msgstr "Для выполнения генерации SEO-страниц для фильтров по этому правилу по Cron-у используйте эту комманду"
+
+msgctxt "Languages::ab__sf.rule.generate_link_all.title"
+msgid "To generate SEO pages for filters by all rules with Cron, use the following command"
+msgstr "Для выполнения генерации SEO-страниц для фильтров по всем правилам по Cron-у используйте эту комманду"
+""
+
+msgctxt "Languages::ab__sf.rule.generate_link_all.text"
+msgid "Set the checkbox <b>Autogeneration</b> on the editing rule page"
+msgstr "Также установите чекбокс <b>Автогенерация</b> на странице редактирования правила"
+
+msgctxt "Languages::ab__sf.rule.limit_max_filters"
+msgid "You can save no more than [limit] feature(s)! See add-on settings."
+msgstr "Вы можете сохранить не более чем [limit] характеристик(и)! Смотрите настройки модуля."
+
+msgctxt "Languages::ab__sf.rule.features_sequence"
+msgid "The saved sequence"
+msgstr "Сохраненная последовательность"
+
+msgctxt "Languages::ab__sf.rule.feature_id"
+msgid "Feature"
+msgstr "Характеристика"
+
+msgctxt "Languages::ab__sf.rule.feature_id.tooltip"
+msgid "Specify the feature, by which generation of pages for SEO filters will be executed.<br>Available only the following types of features:<br><code>Check box → Single</code><br><code>Check box → Multiple</code><br><code>Select box → Text</code><br><code>Select box → Brand</code>"
+msgstr "Укажите характеристику, по которой будет выполнена генерация SEO-страниц для фильтров.<br>Доступны только следующие типы характеристик:<br><code>Флажок → Один</code><br><code>Флажок → Несколько</code><br><code>Список вариантов → Текст</code><br><code>Список вариантов → Бренд</code>"
+
+msgctxt "Languages::ab__sf.rule.categories"
+msgid "Category(ies)"
+msgstr "Категория(и)"
+
+msgctxt "Languages::ab__sf.rule.categories.tooltip"
+msgid "Specify the category(ies), by which generation of pages for SEO filters will be executed. Category(ies) should be in the list of the categories specified in the filter settings for the selected feature"
+msgstr "Укажите категорию(и), по которой(ым) будет выполнена генерация SEO-страниц для фильтров. Категория(и) должна(ы) входить в список категорий, указанных в настройках фильтра по выбранной характеристике"
+
+msgctxt "Languages::ab__sf.rule.subcats"
+msgid "Include subcategories?"
+msgstr "Учитывать подкатегории?"
+
+msgctxt "Languages::ab__sf.rule.subcats.tooltip"
+msgid "If the value is <b>not selected</b>, then generating of SEO pages for the filters will be executed only for the specified categories; If the value is <b>selected</b> — then generation will be performed for these categories and their subcategories"
+msgstr "Если значение <b>сброшено</b>, тогда генерация SEO-страниц для фильтров будет выполнена только по указанным категориям; если значение <b>установлено</b> — тогда генерация будет выполнена по указанным категориям и их подкатегориям"
+
+msgctxt "Languages::ab__sf.rule.generated_categories"
+msgid "Parent categories"
+msgstr "Родительские категории"
+
+msgctxt "Languages::ab__sf.rule.generated_categories.by_all_filter_categories"
+msgid "Generate SEO pages for filters by all parent categories"
+msgstr "Генерировать SEO-страницы для фильтров по всем родительским категориям"
+
+msgctxt "Languages::ab__sf.rule.generated_categories.by_non_empty_filter_categories"
+msgid "Generate SEO pages for filters only by the category to which the product is attached"
+msgstr "Генерировать SEO-страницы для фильтров только по категории, к которой привязан товар"
+
+msgctxt "Languages::ab__sf.rule.generated_categories.tooltip"
+msgid "Whether to generate SEO pages for filters by parent categories? For example: the site has a product that belongs to the category Electronics/Computers/Desktops/. If you set <b>Generate SEO pages for filters by all parent categories</b>, then generation will be performed separately for each category: for <i>Electronics</i>, for <i>Computers</i> and for <i>Desktops</i>. If you set <b>Generate SEO pages for filters only by the category to which the products is attached</b>, then the generation will be performed only for the category <i>Desktops</i>, where the product is placed directly"
+msgstr "Генерировать ли SEO-страницы для фильтров по родительским категориям? Например: на сайте есть товар, который принадлежит категории Электроника/Компьютеры/Ноутбуки. Если установлено <b>Генерировать SEO-страницы для фильтров по всем родительским категориям</b>, тогда генерация будет выполнена для каждой категории отдельно: для <i>Электроника</i>, для <i>Компьютеры</i> и для <i>Ноутбуки</i>. Если установлено <b>Генерировать SEO-страницы для фильтров только по категории, к которой привязан товар</b>, тогда генерация будет выполнена только для категории <i>Ноутбуки</i>, в которой непосредственно находится товар"
+
+msgctxt "Languages::ab__sf.rule.tag_h1"
+msgid "Page tag h1"
+msgstr "Тег h1 страницы"
+
+msgctxt "Languages::ab__sf.rule.tag_h1.tooltip"
+msgid "Specify the page tag h1. Also placeholders <b>[category]</b> and <b>[variant]</b> are available"
+msgstr "Укажите тег h1 страницы. Также доступны плейсхолдеры <b>[category]</b> и <b>[variant]</b>"
+
+msgctxt "Languages::ab__sf.rule.page_title"
+msgid "Page title"
+msgstr "Заголовок страницы"
+
+msgctxt "Languages::ab__sf.rule.page_title.tooltip"
+msgid "Specify the page title. Also placeholders <b>[category]</b> and <b>[variant]</b> are available"
+msgstr "Укажите заголовок страницы. Также доступны плейсхолдеры <b>[category]</b> и <b>[variant]</b>"
+
+msgctxt "Languages::ab__sf.rule.meta_description"
+msgid "Page meta tag description"
+msgstr "Мета тег description страницы"
+
+msgctxt "Languages::ab__sf.rule.meta_description.tooltip"
+msgid "Specify the page meta tag description. Also placeholders <b>[category]</b> and <b>[variant]</b> are available"
+msgstr "Укажите мета тег description страницы. Также доступны плейсхолдеры <b>[category]</b> и <b>[variant]</b>"
+
+msgctxt "Languages::ab__sf.rule.meta_keywords"
+msgid "Page meta tag keywords"
+msgstr "Мета тег keywords страницы"
+
+msgctxt "Languages::ab__sf.rule.meta_keywords.tooltip"
+msgid "Specify the page meta tag keywords. Also placeholders <b>[category]</b> and <b>[variant]</b> are available"
+msgstr "Укажите мета тег keywords страницы. Также доступны плейсхолдеры <b>[category]</b> и <b>[variant]</b>"
+
+msgctxt "Languages::ab__sf.rule.breadcrumb"
+msgid "Page breadcrumbs"
+msgstr "Breadcrumbs (хлебные крошки) страницы"
+
+msgctxt "Languages::ab__sf.rule.breadcrumb.tooltip"
+msgid "Specify page breadcrumbs. Also placeholders are available <b>[category]</b> and <b>[variant]</b>"
+msgstr "Укажите хлебные крошки страницы. Также доступны плейсхолдеры <b>[category]</b> и <b>[variant]</b>"
+
+msgctxt "Languages::ab__sf.rule.product_breadcrumb"
+msgid "Product page breadcrumb"
+msgstr "Breadcrumb (хлебная крошка) страницы товара"
+
+msgctxt "Languages::ab__sf.rule.product_breadcrumb.tooltip"
+msgid "It is used for displaying the link to this filter combination in product breadcrumbs. Also placeholders <b>[category]</b> and <b>[variant]</b> are available"
+msgstr "Используется для отображения в хлебных крошках товара ссылки на эту комбинацию фильтра. Также доступны плейсхолдеры <b>[category]</b> и <b>[variant]</b>"
+
+msgctxt "Languages::ab__sf.rule.show_in_breadcrumbs"
+msgid "Whether to display the SEO page in product breadcrumbs?"
+msgstr "Отображать SEO-страницу в хлебных крошках товара?"
+
+msgctxt "Languages::ab__sf.rule.link_pattern"
+msgid "Generation template \"SEO links\" of the page"
+msgstr "Шаблон генерации \"SEO-ссылки\" страницы"
+
+msgctxt "Languages::ab__sf.rule.link_pattern.tooltip"
+msgid "Choose any template to generate \"SEO links\""
+msgstr "Выберите один из шаблонов генерации \"SEO-ссылки\""
+
+msgctxt "Languages::ab__sf.rule.link_pattern.variants.variant"
+msgid "Variant name"
+msgstr "Название варианта"
+
+msgctxt "Languages::ab__sf.rule.link_pattern.variants.feature_and_variant"
+msgid "Feature name + Variant name"
+msgstr "Название характеристики + Название варианта"
+
+msgctxt "Languages::ab__sf.rule.link_pattern.variants.filter_and_variant"
+msgid "Filter name + Variant name"
+msgstr "Название фильтра + Название варианта"
+
+msgctxt "Languages::ab__sf.rule.link_pattern.variants.category_and_variant"
+msgid "Category name + Variant name"
+msgstr "Название категории + Название варианта"
+
+msgctxt "Languages::ab__sf.rule.position"
+msgid "Sorting position"
+msgstr "Позиция сортировки"
+
+msgctxt "Languages::ab__sf.rule.position.tooltip"
+msgid "Specify the rule sorting position in the rules general list"
+msgstr "Укажите позицию сортировки правила в общем списке правил"
+
+msgctxt "Languages::ab__sf.rule.notes"
+msgid "<p>Used placeholders for autosubstitution category name, filter name and the feature variant name:<br><b>[category]</b> (as is)<br><b>[category_lower]</b> (lowercase)<br><b>[Category]</b> (capitalize)<br><b>[CATEGORY]</b> (uppercase)<br><b>[filter]</b><br><b>[filter_lower]</b><br><b>[Filter]</b><br><b>[FILTER]</b><br><b>[variant]</b><br><b>[variant_lower]</b><br><b>[Variant]</b><br><b>[VARIANT]</b></p><p>If you have our add-on <a href='https://cs-cart.alexbranding.com/ru/custom-h1-pro.html' target='_blank'>AB: Custom H1 PRO</a>, you can use additional placeholders:<br><b>[category_custom_h1]</b><br><b>[category_custom_h1_lower]</b><br><b>[Category_custom_h1]</b><br><b>[CATEGORY_CUSTOM_H1]</b></p><p><b>For example</b>: for the page field title you can specify:<br><code>[category] [variant] buy</code><br><code>[Category] [VARIANT] buy</code></p>"
+msgstr "<p>Используемые плейсхолдеры для автоподстановки названия категории, названия фильтра и названия варианта характеристики:<br><b>[category]</b> (отображается как есть)<br><b>[category_lower]</b> (принудительно все буквы строчные)<br><b>[Category]</b> (первая буква заглавная, остальные — строчные)<br><b>[CATEGORY]</b> (все буквы заглавные)<br><b>[filter]</b><br><b>[filter_lower]</b><br><b>[Filter]</b><br><b>[FILTER]</b><br><b>[variant]</b><br><b>[variant_lower]</b><br><b>[Variant]</b><br><b>[VARIANT]</b></p><p>При установленном модуле <a href='https://cs-cart.alexbranding.com/ru/custom-h1-pro.html' target='_blank'>AB: Пользовательский H1 PRO</a>, также доступны:<br><b>[category_custom_h1]</b><br><b>[category_custom_h1_lower]</b><br><b>[Category_custom_h1]</b><br><b>[CATEGORY_CUSTOM_H1]</b></p><p><b>Например</b>: для поля заголовок страницы можно указать:<br><code>[category] [variant] купить</code><br><code>[Category] [VARIANT] купить</code></p>"
+
+msgctxt "Languages::ab__sf.rule.add"
+msgid "Add the new rule"
+msgstr "Добавить новое правило"
+
+msgctxt "Languages::ab__sf.rule.edit"
+msgid "Edit the rule"
+msgstr "Редактировать правило"
+
+msgctxt "Languages::ab__sf.rule.generate"
+msgid "Generate SEO pages"
+msgstr "Сгенерировать SEO-страницы"
+
+msgctxt "Languages::ab__sf.rule.delete_name_not_deleted"
+msgid "Delete the rule (SEO pages are not removed)"
+msgstr "Удалить правило (SEO-страницы не удаляются)"
+
+msgctxt "Languages::ab__sf.rule.field.id"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "Languages::ab__sf.rule.field.position"
+msgid "Pos."
+msgstr "Поз."
+
+msgctxt "Languages::ab__sf.rule.field.category"
+msgid "Categories"
+msgstr "Категории"
+
+msgctxt "Languages::ab__sf.rule.field.feature"
+msgid "Feature"
+msgstr "Характеристика"
+
+msgctxt "Languages::ab__sf.rule.field.generated_categories"
+msgid "PC"
+msgstr "РК"
+
+msgctxt "Languages::ab__sf.rule.field.status"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "Languages::ab__sf.page_state.fixed"
+msgid "Fixed"
+msgstr "Зафиксированное состояние"
+
+msgctxt "Languages::ab__sf.page_state.unfixed"
+msgid "Unfixed"
+msgstr "Незафиксированное состояние"
+
+msgctxt "Languages::ab__sf.page_state.hidden"
+msgid "Hidden"
+msgstr "Скрытое состояние"
+
+msgctxt "Languages::ab__sf.rule.descriptions"
+msgid "Page description"
+msgstr "Описания страницы"
+
+msgctxt "Languages::ab__sf.rule.warning"
+msgid "Warning"
+msgstr "Предупреждение"
+
+msgctxt "Languages::ab__sf.rule.warning.text"
+msgid "Use of automatically generated descriptions may negatively impact on SEO values."
+msgstr "Использование автоматически генерированных описаний может негативно сказаться на SEO-показателях."
+
+msgctxt "Languages::ab__sf.rule.description"
+msgid "Page description."
+msgstr "Описание страницы"
+
+msgctxt "Languages::ab__sf.rule.description.tooltip"
+msgid "Specify page description. Also placeholders are available"
+msgstr "Укажите описание страницы. Также доступны плейсхолдеры"
+
+msgctxt "Languages::ab__sf.rule.short_description"
+msgid "Page short description"
+msgstr "Краткое описание страницы"
+
+msgctxt "Languages::ab__sf.rule.short_description.tooltip"
+msgid "Specify page short description. Also placeholders are available"
+msgstr "Укажите краткое описание страницы. Также доступны плейсхолдеры"
+
+msgctxt "Languages::ab__sf.rule.autogenerate"
+msgid "Autogeneration"
+msgstr "Автогенерация"
+
+msgctxt "Languages::ab__sf.rule.autogenerate.tooltip"
+msgid "Use a rule when generating all rules through Cron"
+msgstr "Использовать правило при генерации всех правил через Cron"
+
+msgctxt "Languages::ab__sf.names"
+msgid "SEO pages for filters"
+msgstr "SEO-страницы для фильтров"
+
+msgctxt "Languages::ab__sf.names.search_form.name"
+msgid "Search by page SEO link"
+msgstr "Поиск по SEO-ссылке страницы"
+
+msgctxt "Languages::ab__sf.names.search_form.features_hash"
+msgid "Search by Hash combination"
+msgstr "Поиск по Hash комбинации"
+
+msgctxt "Languages::ab__sf.names.search_form.by_features"
+msgid "Search by feature"
+msgstr "Поиск по характеристике"
+
+msgctxt "Languages::ab__sf.names.search_form.by_fixed"
+msgid "Search by SEO page status"
+msgstr "Поиск по состоянию SEO-страницы"
+
+msgctxt "Languages::ab__sf.names.search_form.fixed"
+msgid "by fixed pages"
+msgstr "по зафиксированным страницам"
+
+msgctxt "Languages::ab__sf.names.search_form.not_fixed"
+msgid "by unfixed pages"
+msgstr "по незафиксированным страницам"
+
+msgctxt "Languages::ab__sf.names.search_form.hidden"
+msgid "by hidden pages"
+msgstr "по скрытым страницам"
+
+msgctxt "Languages::ab__sf.names.search_form.show_in_breadcrumbs"
+msgid "Search by the SEO page display status in product breadcrumbs"
+msgstr "Поиск по состоянию отображения SEO-страницы в хлебных крошках товара"
+
+msgctxt "Languages::ab__sf.names.search_form.show_in_breadcrumbs.displayed"
+msgid "by displayed SEO pages in product breadcrumbs"
+msgstr "по отображаемым SEO-страницам в хлебных крошках товара"
+
+msgctxt "Languages::ab__sf.names.search_form.show_in_breadcrumbs.not_displayed"
+msgid "by undisplayed SEO pages in product breadcrumbs"
+msgstr "по не отображаемым SEO-страницам в хлебных крошках товара"
+
+msgctxt "Languages::ab__sf_names.search_form.by_categories"
+msgid "Search by category"
+msgstr "Поиск по категории"
+
+msgctxt "Languages::ab__sf.name.field.category"
+msgid "Category"
+msgstr "Категория"
+
+msgctxt "Languages::ab__sf.name.field.name"
+msgid "SEO link"
+msgstr "SEO-ссылка"
+
+msgctxt "Languages::ab__sf.name.field.features_hash"
+msgid "Filter Hash combinations"
+msgstr "Hash комбинации фильтра"
+
+msgctxt "Languages::ab__sf.name.field.fixed"
+msgid "Status"
+msgstr "Состояние"
+
+msgctxt "Languages::ab__sf.name.field.show_in_breadcrumbs"
+msgid "DSinPBC"
+msgstr "СОвХКТ"
+
+msgctxt "Languages::ab__sf.name.field.show_in_breadcrumbs__tooltip"
+msgid "State of SEO page display in Product BreadCrumbs"
+msgstr "Состояние Отображения SEO-страницы в Хлебных Крошках Товара"
+
+msgctxt "Languages::ab__sf.name.field.is_noindex"
+msgid "Do not index"
+msgstr "Не индексировать"
+
+msgctxt "Languages::ab__sf.name.is_noindex"
+msgid "Do not index SEO-page"
+msgstr "Не индексировать SEO-страницу"
+
+msgctxt "Languages::ab__sf.name.is_noindex.tooltip"
+msgid "Meta tag <code>robots</code> with the value <b>noindex</b> will be added on the page"
+msgstr "На страницу будет добавлен мета тег <code>robots</code> со значением <b>noindex</b>"
+
+msgctxt "Languages::ab__sf.name.unfix"
+msgid "Transfer the SEO page to Unfixed"
+msgstr "Перевести SEO-страницу в Незафиксированное состояние"
+
+msgctxt "Languages::ab__sf.name.fix"
+msgid "Transfer the SEO page to Fixed"
+msgstr "Перевести SEO-страницу в Зафиксированное состояние"
+
+msgctxt "Languages::ab__sf.name.hide"
+msgid "Transfer the SEO page to Hidden"
+msgstr "Перевести SEO-страницу в Скрытое состояние"
+
+msgctxt "Languages::ab__sf.name.add"
+msgid "Add a SEO page"
+msgstr "Добавить SEO-страницу"
+
+msgctxt "Languages::ab__sf.name.edit"
+msgid "Edit the SEO page"
+msgstr "Редактировать SEO-страницу"
+
+msgctxt "Languages::ab__sf.name.preview"
+msgid "SEO page preview"
+msgstr "Предпросмотр SEO-страницы"
+
+msgctxt "Languages::ab__sf.name.unfix_selected"
+msgid "Transfer the chosen SEO pages to the Unfixed"
+msgstr "Перевести выбранные SEO-страницы в незафиксированное состояние"
+
+msgctxt "Languages::ab__sf.name.fix_selected"
+msgid "Transfer the chosen SEO pages to the Fixed"
+msgstr "Перевести выбранные SEO-страницы в зафиксированное состояние"
+
+msgctxt "Languages::ab__sf.name.hide_selected"
+msgid "Transfer the chosen SEO pages to the Hidden"
+msgstr "Перевести выбранные SEO-страницы в скрытое состояние"
+
+msgctxt "Languages::ab__sf.name.category_id"
+msgid "Category"
+msgstr "Категория"
+
+msgctxt "Languages::ab__sf.name.category_id.tooltip"
+msgid "Specify category, for which the SEO page will be created"
+msgstr "Укажите категорию, относительно которой будет сформирована SEO-страница"
+
+msgctxt "Languages::ab__sf.name.features_hash"
+msgid "Filter Hash combinations"
+msgstr "Hash комбинация фильтра"
+
+msgctxt "Languages::ab__sf.name.features_hash.tooltip"
+msgid "You can take this value from the address bar after you select a filter value. Read more about this parameter at add-ons Help page"
+msgstr "Это значение Вы можете взять из адресной строки при выборе значения фильтра. Подробнее по этому параметру смотрите справку по модулю"
+
+msgctxt "Languages::ab__sf.all_combinations"
+msgid "All pages"
+msgstr "Все страницы"
+
+msgctxt "Languages::ab__sf.name.name"
+msgid "SEO link"
+msgstr "SEO-ссылка"
+
+msgctxt "Languages::ab__sf.name.name.tooltip"
+msgid "Specify the desirable SEO link of the page"
+msgstr "Укажите желаемую SEO-ссылку страницы"
+
+msgctxt "Languages::ab__sf.name.fixed"
+msgid "SEO page status"
+msgstr "Состояние SEO-страницы"
+
+msgctxt "Languages::ab__sf.rule.fixed.tooltip"
+msgid "SEO page, when generated by the rule, can have two states: Unfixed and Hidden"
+msgstr "При генерации по правилу SEO-страница может иметь два состояния: Незафиксированное и Скрытое"
+
+msgctxt "Languages::ab__sf.name.fixed.tooltip"
+msgid "SEO page can have three states: Fixed, Unfixed and Hidden"
+msgstr "SEO-страница может иметь три состояния: Зафиксированное, Незафиксированное и Скрытое"
+
+msgctxt "Languages::ab__sf.page_state.fixed.tooltip"
+msgid "<b>Fixed</b> — state, for which SEO page won't be overwritten by the pages next generation by the rules and will be displayed on the storefront"
+msgstr "<b>Зафиксированное состояние</b> — состояние, при котором SEO-страница не будет перезаписана при перегенерации страниц по правилам и будет отображаться на витрине"
+
+msgctxt "Languages::ab__sf.page_state.unfixed.tooltip"
+msgid "<b>Unfixed</b> — state, for which SEO page will be overwritten by the pages next generation by the rules and will be displayed on the storefront"
+msgstr "<b>Незафиксированное состояние</b> — состояние, при котором SEO-страница будет перезаписана при перегенерации страниц по правилам и будет отображаться на витрине"
+
+msgctxt "Languages::ab__sf.page_state.hidden.tooltip"
+msgid "<b>Hidden</b> — state, for which SEO page will be overwritten by the pages next generation by the rules and won't be displayed and upon direct transition on the storefront, the <code>robots</code> meta tag with value <b>noindex, nofollow</b> will be added"
+msgstr "<b>Скрытое состояние</b> — состояние, при котором SEO-страница не будет перезаписана при перегенерации страниц по правилам, не будет отображаться на витрине, а при прямом переходе на витрине будет добавлен мета тег <code>robots</code> со значением <b>noindex, nofollow</b>"
+
+msgctxt "Languages::ab__sf.name.tag_h1"
+msgid "Page tag h1"
+msgstr "Тег h1 страницы"
+
+msgctxt "Languages::ab__sf.name.tag_h1.tooltip"
+msgid "Specify the page tag h1. Also placeholders are available"
+msgstr "Укажите тег h1 страницы. Также доступны плейсхолдеры"
+
+msgctxt "Languages::ab__sf.name.page_title"
+msgid "Page title"
+msgstr "Заголовок страницы"
+
+msgctxt "Languages::ab__sf.name.page_title.tooltip"
+msgid "Specify the page title. Also placeholders are available"
+msgstr "Укажите заголовок страницы. Также доступны плейсхолдеры"
+
+msgctxt "Languages::ab__sf.name.description"
+msgid "Page SEO text"
+msgstr "Описание страницы"
+
+msgctxt "Languages::ab__sf.name.description.tooltip"
+msgid "Specify the page SEO text. Also placeholders are available"
+msgstr "Укажите описание страницы. Также доступны плейсхолдеры"
+
+msgctxt "Languages::ab__sf.name.short_description"
+msgid "Short page SEO description"
+msgstr "Краткое описание страницы"
+
+msgctxt "Languages::ab__sf.name.short_description.tooltip"
+msgid "Specify the short SEO text of the page. Also placeholders are available"
+msgstr "Укажите короткое описание страницы. Также доступны плейсхолдеры"
+
+msgctxt "Languages::ab__sf.name.meta_description"
+msgid "Page meta tag description"
+msgstr "Мета тег description страницы"
+
+msgctxt "Languages::ab__sf.name.meta_description.tooltip"
+msgid "Specify the page meta tag description. Also placeholders are available"
+msgstr "Укажите мета тег description страницы. Также доступны плейсхолдеры"
+
+msgctxt "Languages::ab__sf.name.meta_keywords"
+msgid "Page meta tag keywords"
+msgstr "Мета тег keywords страницы"
+
+msgctxt "Languages::ab__sf.name.meta_keywords.tooltip"
+msgid "Specify the page meta tag keywords. Also placeholders are available"
+msgstr "Укажите мета тег keywords страницы. Также доступны плейсхолдеры"
+
+msgctxt "Languages::ab__sf.name.breadcrumb"
+msgid "Page breadcrumbs"
+msgstr "Хлебные крошки страницы"
+
+msgctxt "Languages::ab__sf.name.breadcrumb.tooltip"
+msgid "Specify page breadcrumbs. Also placeholders are available"
+msgstr "Укажите хлебные крошки страницы. Также доступны плейсхолдеры"
+
+msgctxt "Languages::ab__sf.name.show_in_breadcrumbs"
+msgid "Whether to display the SEO page in product breadcrumbs?"
+msgstr "Отображать SEO-страницу в хлебных крошках товара?"
+
+msgctxt "Languages::ab__sf.name.product_breadcrumb"
+msgid "Product breadcrumb"
+msgstr "Хлебная крошка товара"
+
+msgctxt "Languages::ab__sf.name.product_breadcrumb.tooltip"
+msgid "Used to display link to this SEO filter combination in the product breadcrumbs. Also placeholders are available"
+msgstr "Используется для отображения в хлебных крошках товара ссылки на эту комбинацию фильтра. Также доступны плейсхолдеры"
+
+msgctxt "Languages::ab__sf.category_view_tab"
+msgid "Category view"
+msgstr "Вид категории"
+
+msgctxt "Languages::ab__sf.name.show_in_subcategory_block"
+msgid "Display the SEO page in the subcategories block"
+msgstr "Отображать SEO-страницу в блоке подкатегорий"
+
+msgctxt "Languages::ab__sf.name.show_in_subcategory_block.tooltip"
+msgid "Allow the SEO page display at the subcategories block list end"
+msgstr "Разрешить отображение SEO-страницы в конце списка блока подкатегорий"
+
+msgctxt "Languages::ab__sf.name.name_in_subcategory_block"
+msgid "Name"
+msgstr "Название"
+
+msgctxt "Languages::ab__sf.name.name_in_subcategory_block.tooltip"
+msgid "The name used in the subcategories block list"
+msgstr "Название используемое в списке блока подкатегорий"
+
+msgctxt "Languages::ab__sf.name.position_in_subcategory_block"
+msgid "Position"
+msgstr "Позиция"
+
+msgctxt "Languages::ab__sf.name.position_in_subcategory_block.tooltip"
+msgid "Specify the SEO pages list position added to the subcategories block list end"
+msgstr "Укажите позицию в списке SEO-страниц добавляемых в конец списка блока подкатегорий"
+
+msgctxt "Languages::ab__sf.name.icon"
+msgid "Icon"
+msgstr "Иконка"
+
+msgctxt "Languages::ab__sf.name.icon.tooltip"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__sf.name.picker.add_ab__sf_names_and_close"
+msgid "Add pages and close"
+msgstr "Добавить страницы и закрыть"
+
+msgctxt "Languages::ab__sf.name.picker.add_ab__sf_names"
+msgid "Add SEO pages"
+msgstr "Добавить SEO-страницы"
+
+msgctxt "Languages::ab__sf.tabs.ab__seo_filters"
+msgid "Linked AB: SEO pages for filters"
+msgstr "Связанные AB: SEO-страницы для фильтров"
+
+msgctxt "Languages::ab__sf.popup.linked_ab__seo_filters_list"
+msgid "List of linked SEO pages for filters"
+msgstr "Список связанных SEO страниц для фильтров"
+
+msgctxt "Languages::ab__sf.linked_ab__seo_filters"
+msgid "Linked AB: SEO pages for filters"
+msgstr "Связанные AB: SEO-страницы для фильтров"
+
+msgctxt "Languages::ab__sf.ab__seo_filters_status"
+msgid "Activate for SEO pages"
+msgstr "Активировать для SEO-страниц"
+
+msgctxt "Languages::ab__sf.ab__seo_filters_status.tooltip"
+msgid "Activate the setting to display multi-description element on SEO pages according to settings below."
+msgstr "Активируйте настройку, чтобы отобразить элемент мультиописания на SEO-страницах, согласно настройкам ниже."
+
+msgctxt "Languages::ab__sf.include_pages"
+msgid "Include SEO pages"
+msgstr "Включить SEO-страницы"
+
+msgctxt "Languages::ab__sf.exclude_pages"
+msgid "Exclude SEO pages"
+msgstr "Исключить SEO-страницы"
+
+msgctxt "Languages::ab__sf.name.do_indexed"
+msgid "Index selected SEO pages"
+msgstr "Индексировать выбранные SEO-страницы"
+
+msgctxt "Languages::ab__sf.name.do_noindexed"
+msgid "Do not index selected SEO pages"
+msgstr "Не индексировать выбранные SEO-страницы"
+
+msgctxt "Languages::ab__sf.name.canonical_id"
+msgid "Canonical URL"
+msgstr "Каноническая ссылка"
+
+msgctxt "Languages::ab__sf.name.canonical_id.tooltip"
+msgid "Used to change the canonical link to the specified SEO page."
+msgstr "Используется для изменения канонической ссылки на ссылку указанной SEO-страницы."
+
+msgctxt "Languages::ab__sf.name.canonical_id.title"
+msgid "Choose canonical URL"
+msgstr "Выберите каноническую ссылку"
+
+msgctxt "Languages::ab__sf.pattern.edit"
+msgid "Edit a field pattern"
+msgstr "Редактировать образец поля"
+
+msgctxt "Languages::ab__sf.pattern.copy"
+msgid "Copy"
+msgstr "Копировать"
+
+msgctxt "Languages::ab__sf.patterns"
+msgid "Autosubstitution patterns for fields"
+msgstr "Шаблоны автоподстановки для полей"
+
+msgctxt "Languages::ab__sf.pattern.pattern"
+msgid "Pattern for field"
+msgstr "Шаблон для поля"
+
+msgctxt "Languages::ab__sf.pattern.value"
+msgid "Value"
+msgstr "Значение"
+
+msgctxt "Languages::ab__sf.breadcrumbs.rules"
+msgid "AB: SEO pages for filters generation rules"
+msgstr "AB: Правила генерации SEO-страниц для фильтров"
+
+msgctxt "Languages::ab__sf.breadcrumbs.names"
+msgid "AB: SEO pages for filters"
+msgstr "AB: SEO-страницы для фильтров"
+
+msgctxt "Languages::ab__sf.breadcrumbs.patterns"
+msgid "AB: Autosubstitution patterns for fields"
+msgstr "AB: Шаблоны автоподстановки для полей"
+
+msgctxt "Languages::ab__sf.sitemap"
+msgid "SEO pages for filters sitemap"
+msgstr "Карта сайта SEO-страниц для фильтров"
+
+msgctxt "Languages::ab__sf.sitemap.generate"
+msgid "Generate the sitemap"
+msgstr "Сгенерировать карту сайта"
+
+msgctxt "Languages::ab__sf.sitemap.languages"
+msgid "SEO pages language"
+msgstr "Язык SEO-страниц"
+
+msgctxt "Languages::ab__sf.sitemap.languages.tooltip"
+msgid "Specify on what languages it is necessary to create the sitemap"
+msgstr "Укажите по каким языкам необходимо сформировать карту сайта"
+
+msgctxt "Languages::ab__sf.sitemap.languages.all"
+msgid "by all store active languages"
+msgstr "по всем активным языкам магазина"
+
+msgctxt "Languages::ab__sf.sitemap.fixed"
+msgid "SEO pages state"
+msgstr "Состояние SEO-страниц"
+
+msgctxt "Languages::ab__sf.sitemap.fixed.tooltip"
+msgid "Specify for which SEO pages sitemap should be generated"
+msgstr "Укажите по каким SEO-страницам генерировать карту сайта"
+
+msgctxt "Languages::ab__sf.sitemap.fixed.all"
+msgid "fixed and unfixed pages"
+msgstr "по зафиксированным и незафиксированным страницам"
+
+msgctxt "Languages::ab__sf.sitemap.fixed.only_fixed"
+msgid "only by fixed"
+msgstr "только по зафиксированным страницам"
+
+msgctxt "Languages::ab__sf.sitemap.fixed.only_unfixed"
+msgid "only by unfixed"
+msgstr "только по незафиксированным страницам"
+
+msgctxt "Languages::ab__sf.sitemap.generate.complete"
+msgid "<p>Sitemap of SEO pages for filters was generated in [time] sec for [count] links.</p><p>Current sitemap of SEO pages for filters is available by the link: <code>[sitemap_url]</code></p>"
+msgstr "<p>Карта сайта SEO-страниц для фильтров была сформирована за [time] сек на [count] ссылок.</p><p>Текущая карта сайта SEO-страниц для фильтров доступна по ссылке: <code>[sitemap_url]</code></p>"
+
+msgctxt "Languages::ab__sf.from"
+msgid "from"
+msgstr "от"
+
+msgctxt "Languages::ab__sf.to"
+msgid "till"
+msgstr "до"
+
+msgctxt "Languages::ab__sf.variant_glue"
+msgid " - "
+msgstr " - "
+
+msgctxt "Languages::ab__sf.checkbox_set"
+msgid "Yes"
+msgstr "Да"
+
+msgctxt "Languages::ab__sf.export_search"
+msgid "Export of the found SEO pages"
+msgstr "Экспорт найденных SEO-страниц"
+
+msgctxt "Languages::ab__sf.export_selected"
+msgid "Export of the selected SEO pages"
+msgstr "Экспорт выбранных SEO-страниц"
+
+msgctxt "Languages::ab__sf.export"
+msgid "SEO pages for filters export"
+msgstr "Экспорт SEO-страниц для фильтров"
+
+msgctxt "Languages::ab__sf.import"
+msgid "SEO pages for filters import"
+msgstr "Импорт SEO-страниц для фильтров"
+
+msgctxt "Languages::ab__sf.seo_variant"
+msgid "SEO variant"
+msgstr "SEO-вариант"
+
+msgctxt "Languages::ab__sf.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__sf.help.docs"
+msgid "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__seo_filters.doc'>documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__seo_filters.doc'>документацией</a>."
+
+msgctxt "Languages::ab__sf.rdelim"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__sf.optionlist.selectall"
+msgid "Select all"
+msgstr "Выбрать все"
+
+msgctxt "Languages::ab__sf.optionlist.selectnone"
+msgid "Reset"
+msgstr "Сбросить"
+
+msgctxt "Languages::ab__sf.optionlist.searchplaceholder"
+msgid "Search..."
+msgstr "Поиск...."
+
+msgctxt "Languages::ab__sf.optionlist.itemsselected"
+msgid "features selected"
+msgstr "характеристик выбрано"
+
+msgctxt "Languages::ab__sf.optionlist.noitemsavailable"
+msgid "No elements for display"
+msgstr "Нет элементов для отображения"
+
+msgctxt "SettingsSections::ab__seo_filters::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::ab__seo_filters::amount_breadcrumbs_in_product"
+msgid "Breadcrumbs number on the product page"
+msgstr "Количество хлебных крошек на странице товара"
+
+msgctxt "SettingsTooltips::ab__seo_filters::amount_breadcrumbs_in_product"
+msgid "Additional breadcrumbs number on the product page, if product feature will have its SEO page"
+msgstr "Количество дополнительных хлебных крошек на странице товара, если характеристика товара будет иметь свою SEO-страницу"
+
+msgctxt "SettingsVariants::ab__seo_filters::amount_breadcrumbs_in_product::0"
+msgid "do not display the additional elements"
+msgstr "не отображать дополнительные элементы"
+
+msgctxt "SettingsVariants::ab__seo_filters::amount_breadcrumbs_in_product::1"
+msgid "1"
+msgstr "1"
+
+msgctxt "SettingsVariants::ab__seo_filters::amount_breadcrumbs_in_product::2"
+msgid "2"
+msgstr "2"
+
+msgctxt "SettingsVariants::ab__seo_filters::amount_breadcrumbs_in_product::3"
+msgid "3"
+msgstr "3"
+
+msgctxt "SettingsVariants::ab__seo_filters::amount_breadcrumbs_in_product::4"
+msgid "4"
+msgstr "4"
+
+msgctxt "SettingsVariants::ab__seo_filters::amount_breadcrumbs_in_product::5"
+msgid "5"
+msgstr "5"
+
+msgctxt "SettingsOptions::ab__seo_filters::max_filters"
+msgid "Maximum filters number in combination"
+msgstr "Максимальное количество фильтров в комбинации"
+
+msgctxt "SettingsTooltips::ab__seo_filters::max_filters"
+msgid "Maximum filters number, involved in the SEO page creation. For example, the value is 3, then the SEO pages created on the filters [Brand] or [Brand+Color] or [Brand+Color+Material] is tracked, but the combination of [Brand+Color+Material+Type] — isn't"
+msgstr "Максимальное количество фильтров, участвующих в создании SEO-страницы. Например, значение равно 3, тогда SEO-страницы созданные на фильтрах [Бренд] или [Бренд+Цвет] или [Бренд+Цвет+Материал] — отслеживаемые, а уже комбинация [Бренд+Цвет+Материал+Тип] — нет"
+
+msgctxt "SettingsVariants::ab__seo_filters::max_filters::0"
+msgid "0"
+msgstr "0"
+
+msgctxt "SettingsVariants::ab__seo_filters::max_filters::1"
+msgid "1"
+msgstr "1"
+
+msgctxt "SettingsVariants::ab__seo_filters::max_filters::2"
+msgid "2"
+msgstr "2"
+
+msgctxt "SettingsVariants::ab__seo_filters::max_filters::3"
+msgid "3"
+msgstr "3"
+
+msgctxt "SettingsVariants::ab__seo_filters::max_filters::4"
+msgid "4 (recommended don't exceed this value)"
+msgstr "4 (рекомендуем не превышать это значение)"
+
+msgctxt "SettingsVariants::ab__seo_filters::max_filters::5"
+msgid "5"
+msgstr "5"
+
+msgctxt "SettingsOptions::ab__seo_filters::max_variants"
+msgid "Maximum filter variants number"
+msgstr "Максимальное количество вариантов фильтра"
+
+msgctxt "SettingsTooltips::ab__seo_filters::max_variants"
+msgid "Maximum number of variants of one filter that will be used to track SEO pages. For example, if a value is 3 then SEO pages will be created with the participation of filter [Brand: Asus] or [Brand: Asus+HP] or [Brand: Asus+HP+SAMSUNG] — is tracked, and the combination of [Brand: Asus+HP+SAMSUNG+Acer] — is not tracked. Pages that are not tracked, are not displayed as links in filter list on the storefront but still are available by direct reference"
+msgstr "Максимальное количество вариантов одного фильтра, по которым будут отслеживаться SEO-страницы. Например, если значение равно 3, тогда SEO-страницы созданные с участием фильтра [Бренд: Asus] или [Бренд: Asus+HP] или [Бренд: Asus+HP+SAMSUNG] — отслеживаемые, а уже комбинация [Бренд: Asus+HP+SAMSUNG+Acer] — нет. Неотслеживаемые страницы не отображаются как ссылки в списке фильтров на витрине, но как прежде доступны по прямой ссылке"
+
+msgctxt "SettingsVariants::ab__seo_filters::max_variants::1"
+msgid "1"
+msgstr "1"
+
+msgctxt "SettingsVariants::ab__seo_filters::max_variants::2"
+msgid "2"
+msgstr "2"
+
+msgctxt "SettingsVariants::ab__seo_filters::max_variants::3"
+msgid "3 (recommended don't exceed this value)"
+msgstr "3 (рекомендуем не превышать это значение)"
+
+msgctxt "SettingsVariants::ab__seo_filters::max_variants::4"
+msgid "4"
+msgstr "4"
+
+msgctxt "SettingsVariants::ab__seo_filters::max_variants::5"
+msgid "5"
+msgstr "5"
+
+msgctxt "SettingsOptions::ab__seo_filters::add_to_sitemap"
+msgid "Add SEO pages to the \"AB: Advanced sitemap\""
+msgstr "Добавить SEO-страницы в \"AB: Расширенная карта сайта\""
+
+msgctxt "SettingsTooltips::ab__seo_filters::add_to_sitemap"
+msgid "Add SEO pages to the <a href='https://cs-cart.alexbranding.com/en/abadvancedsitemap.html' target='_blank'>\"AB: Advanced sitemap\"</a>"
+msgstr "Добавить SEO-страницы в <a href='https://cs-cart.alexbranding.com/ru/advanced-sitemap.html' target='_blank'>модуль — \"АВ: Расширенная карта сайта\"</a>"
+
+msgctxt "SettingsVariants::ab__seo_filters::add_to_sitemap::none"
+msgid "don't add"
+msgstr "не добавлять"
+
+msgctxt "SettingsVariants::ab__seo_filters::add_to_sitemap::fixed"
+msgid "only fixed"
+msgstr "только зафиксированные"
+
+msgctxt "SettingsVariants::ab__seo_filters::add_to_sitemap::unfixed"
+msgid "only unfixed"
+msgstr "только незафиксированные"
+
+msgctxt "SettingsVariants::ab__seo_filters::add_to_sitemap::all"
+msgid "all (except hidden)"
+msgstr "все (кроме скрытых)"
+
+msgctxt "SettingsOptions::ab__seo_filters::action_when_page_has_been_deleted"
+msgid "Action when deleted SEO page opening"
+msgstr "Действие при открытии удаленной SEO-страницы"
+
+msgctxt "SettingsTooltips::ab__seo_filters::action_when_page_has_been_deleted"
+msgid "The parameter defines the action when there is a transition to the SEO page that was deleted and it hasn't got a system redirect"
+msgstr "Параметр определяет действие, если происходит переход на SEO-страницу, которая была удалена и у нее нет системного редиректа"
+
+msgctxt "SettingsVariants::ab__seo_filters::action_when_page_has_been_deleted::no_action"
+msgid "call system 404 error"
+msgstr "вызывать системную 404 ошибку"
+
+msgctxt "SettingsVariants::ab__seo_filters::action_when_page_has_been_deleted::302_redirect"
+msgid "perform a 302 redirect to the SEO page parent category"
+msgstr "выполнить 302 редирект на родительскую категорию SEO-страницы"
+
+msgctxt "SettingsVariants::ab__seo_filters::action_when_page_has_been_deleted::301_redirect"
+msgid "perform a 301 redirect to the SEO page parent category"
+msgstr "выполнить 301 редирект на родительскую категорию SEO-страницы"
+
+msgctxt "SettingsOptions::ab__seo_filters::add_slash"
+msgid "Add the finishing slash '/'"
+msgstr "Добавить завершающий слэш '/'"
+
+msgctxt "SettingsTooltips::ab__seo_filters::add_slash"
+msgid "Depending on your SEO link generation scheme, allow adding the finishing slash '/' in the link when changing the link to the SEO page (Checkbox: Redirect from the old URL)"
+msgstr "В зависимости от Вашей схемы формирования SEO-ссылок, разрешить добавление завершающего слэша '/' в ссылке при изменении ссылки на SEO-страницу (Checkbox: Перенаправлять со старого URL)"
+
+msgctxt "SettingsOptions::ab__seo_filters::block_id"
+msgid "ID block"
+msgstr "Блок ID"
+
+msgctxt "SettingsTooltips::ab__seo_filters::block_id"
+msgid "Show this block or blocks (specify by comma in the required order) if there are no products on the SEO page temporarily"
+msgstr "Показать этот блок или блоки (укажите через запятую в нужном порядке), если на SEO-странице временно нет товаров"
+
+msgctxt "SettingsOptions::ab__seo_filters::feature_as_seo_page"
+msgid "Product feature variants as SEO pages links"
+msgstr "Варианты характеристик товаров, как ссылки SEO-страниц"
+
+msgctxt "SettingsTooltips::ab__seo_filters::feature_as_seo_page"
+msgid "Allow display of the product feature as a link to SEO page, on the product page in the \"Features\" tab"
+msgstr "Разрешить отображение характеристики товара как ссылку на SEO-страницу, на странице товара во вкладке \"Характеристики\""
+
+msgctxt "SettingsVariants::ab__seo_filters::feature_as_seo_page::disallow"
+msgid "disallow"
+msgstr "запретить"
+
+msgctxt "SettingsVariants::ab__seo_filters::feature_as_seo_page::allow_in_this_window"
+msgid "permit (open in the current window)"
+msgstr "разрешить (открывать в текущем окне)"
+
+msgctxt "SettingsVariants::ab__seo_filters::feature_as_seo_page::allow_in_new_window"
+msgid "permit (open in the new window)"
+msgstr "разрешить (открывать в новом окне)"
+
+msgctxt "SettingsOptions::ab__seo_filters::hide_description_on_hashs_pages"
+msgid "Hide descriptions on filters pages for which SEO pages weren't created"
+msgstr "Скрывать описания на страницах фильтров, для которых не были созданы SEO-страницы"
+
+msgctxt "SettingsTooltips::ab__seo_filters::hide_description_on_hashs_pages"
+msgid "If the category has a description, if there is a transition to the filter page for which SEO page hasn't exist — the category description won't be displayed"
+msgstr "Если у категории есть описание, то при переходе на страницу фильтра, для которой не существует соответствующей SEO-страницы — описание категории не будет отображено"
+
+msgctxt "SettingsSections::ab__seo_filters::multiple_descriptions"
+msgid "Multiple descriptions"
+msgstr "Мультиописания"
+
+msgctxt "SettingsOptions::ab__seo_filters::enable_multiple_descriptions"
+msgid "Allow multiple descriptions"
+msgstr "Разрешить мультиописания"
+
+msgctxt "SettingsTooltips::ab__seo_filters::enable_multiple_descriptions"
+msgid "For multiple descriptions work, need an active module <a target='_blank' href='https://cs-cart.alexbranding.com/en/category-multi-descriptions.html'>\"AB: Multiple category descriptions + FAQ\"</a> version 2.0 and higher"
+msgstr "Для работы мультиописаний требуется наличие активного модуля <a target='_blank' href='https://cs-cart.alexbranding.com/ru/multiple-categories-descriptions.html'>\"AB: Мультиописания категорий + ЧАВО\"</a> версии 2.0 и выше"
+
+msgctxt "SettingsSections::ab__seo_filters::category_view"
+msgid "Category view"
+msgstr "Вид категории"
+
+msgctxt "SettingsOptions::ab__seo_filters::enable_add_seo_pages_in_subcategories_block"
+msgid "Display SEO pages in the subcategories block"
+msgstr "Отображать SEO-страницы в блоке подкатегорий"
+
+msgctxt "SettingsTooltips::ab__seo_filters::enable_add_seo_pages_in_subcategories_block"
+msgid "Allow the specified SEO pages displaying in the subcategories block on the category page"
+msgstr "Разрешить отображение указанных SEO-страниц в блоке подкатегорий на странице категории"
+
+msgctxt "SettingsOptions::ab__seo_filters::hide_subcategories_block_when_active_any_filter"
+msgid "Hide the subcategories block at the selected any filter"
+msgstr "Скрыть блок подкатегорий при выбранном любом фильтре"
+
+msgctxt "Languages::ab__sf_when_no_main_products"
+msgid "AB: SEO pages for filters — the most similar products"
+msgstr "AB: SEO-страницы для фильтров — наиболее похожие товары"
+
+msgctxt "Languages::ab__sf.block_id.info"
+msgid "This is a special block for displaying the most similar products on the seo-pages, where there are currently no products. For more information see the Help"
+msgstr "Это специальный блок для отображения наиболее похожих товаров на SEO-страницах, где в данный момент нет товаров. Подробнее смотрите Cправку"
+
+msgctxt "Languages::ab__sf_block_info"
+msgid "Filling description"
+msgstr "Описание заполнения"
+
+msgctxt "Languages::ab__sf_sort"
+msgid "Sorting"
+msgstr "Сортировка"
+
+msgctxt "Languages::ab__sf_subcats"
+msgid "Include subcategories"
+msgstr "Учитывать подкатегории"
+
+msgctxt "Languages::privilege_sections.ab__seo_filters"
+msgid "AB: SEO pages for filters"
+msgstr "AB: SEO-страницы для фильтров"
+
+msgctxt "Languages::privileges.ab__sf.view"
+msgid "View add-on settings and data"
+msgstr "Просмотр настроек и данных модуля"
+
+msgctxt "Languages::privileges.ab__sf.manage"
+msgid "Manage add-on settings and data"
+msgstr "Управление настройками и данными модуля"
+
+msgctxt "Languages::privilege_groups.ab__seo_filters"
+msgid "AB: SEO pages for filters"
+msgstr "AB: SEO-страницы для фильтров"
+
+msgctxt "Languages::ab__sf.settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+#. Alexbranding. Do not modify this file manually!

@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_faq_addon</id>
+    <version>2.2</version>
+    <priority>2100</priority>
+    <position>130</position>
+	<default_language>en</default_language>
+	<status>disabled</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+                                </author>
+    </authors>
+    <compatibility>
+        <dependencies></dependencies>
+    </compatibility>
+    <supplier>Cart-Power</supplier>
+        <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="faq_page_instructions">
+                        <type>info</type>
+                        <handler>fn_cp_faq_addon_faq_page_instructions</handler>
+                    </item>
+                    <item id="general">
+                        <type>header</type>
+                    </item>
+                    <item id="default_icon_for_section">
+                        <type>input</type>
+                        <default_value>cp-ic-info</default_value>
+                    </item>
+                    <item id="default_icon_for_question">
+                        <type>input</type>
+                        <default_value>cp-ic-question-circle-o</default_value>
+                    </item>
+                    <item id="font_awesome_info_icons">
+                        <type>info</type>
+                        <handler>fn_cp_faq_addon_font_awesome_info_icons</handler>
+                    </item>
+                    <item id="product_settings">
+                        <type>header</type>
+                    </item>
+					<item id="show_expanded_sections_tab">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+					<item id="show_expanded_questions">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+					<item id="show_search_on_tab">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="faq_page_settings">
+                        <type>header</type>
+                    </item>
+					<item id="show_expanded_questions_comon_faq">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+					<item id="show_expanded_section_comon_faq">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+					<item id="show_search_comon_faq">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+	<queries>
+		<item>DROP TABLE IF EXISTS ?:faq_sections;</item>
+		<item>DROP TABLE IF EXISTS ?:faq_sections_products;</item>
+		<item>DROP TABLE IF EXISTS ?:faq_sections_descr;</item>
+		<item>DROP TABLE IF EXISTS ?:faq_questions_cp;</item>
+		<item>DROP TABLE IF EXISTS ?:faq_questions_products;</item>
+		<item>DROP TABLE IF EXISTS ?:faq_questions_descr;</item>
+		<item>
+            CREATE TABLE `?:faq_sections` (
+                `faq_section_id` mediumint(8) unsigned NOT NULL auto_increment,
+				`section_position` int(11) unsigned NOT NULL default '1',
+				`company_id` mediumint(8) unsigned NOT NULL,
+				`shar_section` text NOT NULL default '',
+				`icon_class` varchar(128) NOT NULL,
+                `status` char(1) NOT NULL default 'A',
+				`for_product` char(1) NOT NULL default 'N',
+                `single` char(1) NOT NULL default 'N',
+                `show_on_main` char(1) NOT NULL default 'Y',
+                PRIMARY KEY  (`faq_section_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+		<item>
+            CREATE TABLE `?:faq_sections_products` (
+                `faq_section_id` mediumint(8) unsigned NOT NULL,
+				`section_position` int(11) unsigned NOT NULL default '1',
+				`product_id` int(11) unsigned NOT NULL,
+                UNIQUE KEY `faq_section_id` (`faq_section_id`,`product_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+		<item>
+            CREATE TABLE `?:faq_sections_descr` (
+				`faq_section_id` mediumint(8) unsigned NOT NULL,
+				`faq_section_name` varchar(255) NOT NULL,
+				`lang_code` char(2) NOT NULL,
+                `meta_keywords` TEXT NOT NULL DEFAULT '',
+                `meta_description` text NOT NULL DEFAULT '',
+                `page_title` text NOT NULL DEFAULT '',
+				UNIQUE KEY `faq_section_id` (`faq_section_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+		
+		<item>
+            CREATE TABLE `?:faq_questions_cp` (
+                `faq_question_id` mediumint(8) unsigned NOT NULL auto_increment,
+				`faq_section_id` mediumint(8) unsigned NOT NULL default '0',
+				`question_position` int(11) unsigned NOT NULL default '1',
+				`company_id` mediumint(8) unsigned NOT NULL,
+				`qu_icon_class` varchar(128) NOT NULL,
+				`qu_anchor` text NOT NULL,
+                `status` char(1) NOT NULL default 'A',
+				`for_product` char(1) NOT NULL default 'N',
+                `show_on_main` char(1) NOT NULL default 'Y',
+                PRIMARY KEY  (`faq_question_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+		<item>
+            CREATE TABLE `?:faq_questions_products` (
+                `faq_question_id` mediumint(8) unsigned NOT NULL,
+				`faq_section_id` mediumint(8) unsigned NOT NULL default '0',
+				`question_position` int(11) unsigned NOT NULL default '1',
+				`product_id` int(11) unsigned NOT NULL,
+				`single` char(1) NOT NULL default 'N',
+                UNIQUE KEY `faq_question_id` (`faq_question_id`,`product_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+		<item>
+            CREATE TABLE `?:faq_questions_descr` (
+				`faq_question_id` mediumint(8) unsigned NOT NULL,
+				`faq_question` text NOT NULL default '',
+				`faq_answer` text NOT NULL default '',
+				`lang_code` char(2) NOT NULL,
+				UNIQUE KEY `faq_question_id` (`faq_question_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_cp_faq_addon', 'Y', 'addons');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_cp_faq_addon', 'Y', 'addons');</item>        
+        <item>ALTER TABLE ?:products ADD cp_fq_variation_type char(1) NOT NULL default 'M';</item>
+        
+		<item for="uninstall">DROP TABLE IF EXISTS ?:faq_sections;</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:faq_sections_products;</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:faq_sections_descr;</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:faq_questions_cp;</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:faq_questions_products;</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:faq_questions_descr;</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'view_cp_faq_addon'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'manage_cp_faq_addon'</item>
+        <item for="uninstall">ALTER TABLE ?:products DROP COLUMN cp_fq_variation_type;</item>
+    </queries>
+	<functions>
+        <item for="install">fn_cp_faq_addon_instal_func</item>
+		<item for="uninstall">fn_cp_faq_addon_uninstall_func</item>
+    </functions>
+</addon>

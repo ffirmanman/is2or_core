@@ -1,0 +1,1 @@
+{style src="addons/cr_vendor_page_pro/styles.css"}

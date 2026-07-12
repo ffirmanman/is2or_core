@@ -1,0 +1,1 @@
+{style src="addons/ab__multiple_cat_descriptions/styles.less"}

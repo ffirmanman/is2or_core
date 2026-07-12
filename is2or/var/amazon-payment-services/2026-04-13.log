@@ -1,0 +1,6 @@
+2026-04-13 @ 05:49:17 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=Mzk3","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"39794CEBAF9","amount":"5200","captured_amount":"5200","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200030594445","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-04-13 @ 15:44:39 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=Mzk4","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"398E8DED25D","amount":"38600","captured_amount":"38600","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200030604065","response_code":"12000","reason_text":"Success","order_status":"P"}}
+

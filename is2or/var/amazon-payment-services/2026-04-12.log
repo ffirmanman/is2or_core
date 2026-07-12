@@ -1,0 +1,3 @@
+2026-04-12 @ 07:01:02 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=Mzk2","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"396F2E449DC","amount":"4900","captured_amount":"4900","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200030577952","response_code":"12000","reason_text":"Success","order_status":"P"}}
+

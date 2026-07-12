@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__lazy_load"
+msgid "AB: Lazy loading images"
+msgstr "AB: Lazy load изображений"
+
+msgctxt "Addons::description::ab__lazy_load"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__lazy_load"
+msgid "AB: Lazy loading images"
+msgstr "AB: Lazy load изображений"
+
+msgctxt "Languages::ab__lazy_load.added_by_addon"
+msgid "Functionality is added by the add-on \"AB: Lazy loading images\""
+msgstr "Функционал добавлен модулем \"AB: Lazy load изображений\""
+
+msgctxt "SettingsOptions::ab__lazy_load::expand_height"
+msgid "Load images higher/lower of a screen at, px"
+msgstr "Загружать изображения выше/ниже экрана на, px"
+
+msgctxt "SettingsTooltips::ab__lazy_load::expand_height"
+msgid "Images that are located higher or lower of the current area of view will be loaded at specified number of pixels. Recommended value is 350"
+msgstr "Будут загружены изображения, которые находятся выше или ниже текущей области просмотра на установленное количество пиксилей. Рекомендованное значение 350"
+
+msgctxt "SettingsOptions::ab__lazy_load::expand_width"
+msgid "Load images left/right of screen at, px"
+msgstr "Загружать изображения левее/правее экрана на, px"
+
+msgctxt "SettingsTooltips::ab__lazy_load::expand_width"
+msgid "Images that are located left or right of the current area of view or left/right of the current image at any scroller will be loaded at specified number of pixels. Recommended value is 150"
+msgstr "Будут загружены изображения, которые находятся левее или правее текущей области просмотра или левее/правее текущего изображения в любом скроллере на установленное количество пиксилей. Рекомендованное значение 150"
+
+msgctxt "Languages::abt__ut2.settings.general.lazy_load"
+msgid "Use lazy load of images"
+msgstr "Использовать отложенную загрузку изображений"
+
+msgctxt "Languages::abt__ut2.settings.general.lazy_load.tooltip"
+msgid "Increase page loading thanks to image loading after loading of the page as far as images visibility on the user's screen"
+msgstr "Ускоряет загрузку страниц за счет того, что изображения загружаются после загрузки страницы, а также по мере их отображения на экране пользователя"
+
+msgctxt "Languages::abt__yt.settings.general.lazy_load"
+msgid "Use lazy load of images"
+msgstr "Использовать отложенную загрузку изображений"
+
+msgctxt "Languages::abt__yt.settings.general.lazy_load.tooltip"
+msgid "Increase page loading thanks to image loading after loading of the page as far as images visibility on the user's screen"
+msgstr "Ускоряет загрузку страниц за счет того, что изображения загружаются после загрузки страницы, а также по мере их отображения на экране пользователя"
+
+msgctxt "Languages::ab__lazy_load.settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "Languages::ab__lazy_load.placeholder_image"
+msgid "Placeholder of image"
+msgstr "Плейсхолдер изображения"
+
+msgctxt "Languages::ab__lazy_load.placeholder_image.tooltip"
+msgid "Image that will be displayed until process of lazy load will come to the end"
+msgstr "Изображение, которое будет отображаться до завершения процесса lazy load"
+
+msgctxt "Languages::ab__lazy_load.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__lazy_load.help.docs"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__lazy_load.doc'>the documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__lazy_load.doc'>документацией</a>."
+
+msgctxt "Languages::privilege_groups.ab__lazy_load"
+msgid "AB: Lazy loading images"
+msgstr "AB: Lazy load изображений"
+
+msgctxt "Languages::privileges.ab__lazy_load.help"
+msgid "View help"
+msgstr "Просмотр справки"
+
+#. Alexbranding. Do not modify this file manually!

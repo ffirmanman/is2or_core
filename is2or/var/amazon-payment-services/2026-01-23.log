@@ -1,0 +1,12 @@
+2026-01-23 @ 17:29:31 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"286AA74463D","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=286AA74463D","command":"PURCHASE","currency":"SAR","amount":"12700","order_description":"Order #286","customer_ip":"182.253.58.157","customer_email":"firmanfirdaus17.jtk12@gmail.com","customer_name":"firman firdaus","phone_number":"+96650 123 4567","merchant_extra1":286,"merchant_extra2":97,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"f4b5100aef535e937ef53486a576bf20aad59c67da63d9bc7ee30701792a6206"}}
+
+2026-01-23 @ 17:41:13 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=286AA74463D","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"286AA74463D","amount":127,"captured_amount":0,"order_status":"I"}}
+
+2026-01-23 @ 17:41:44 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"2876F482593","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=2876F482593","command":"PURCHASE","currency":"SAR","amount":"12700","order_description":"Order #287","customer_ip":"182.253.58.157","customer_email":"firmanfirdaus17.jtk12@gmail.com","customer_name":"firman firdaus","phone_number":"+96650 123 4567","merchant_extra1":287,"merchant_extra2":97,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"c9c23c42c47de0d79bad621a8b3f5f8d54c3a220a184d918ec6682442e1c09f7"}}
+
+2026-01-23 @ 17:42:19 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=2876F482593","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"2876F482593","amount":"12700","captured_amount":"12700","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029336800","response_code":"12000","reason_text":"Success","order_status":"P"}}
+

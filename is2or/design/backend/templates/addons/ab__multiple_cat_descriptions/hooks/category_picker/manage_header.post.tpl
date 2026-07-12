@@ -1,0 +1,1 @@
+{if $ab__mcd_show_company}<th></th><th></th>{/if}

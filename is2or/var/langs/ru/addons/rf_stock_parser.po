@@ -1,0 +1,661 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.8.1/addons/rf_stock_parser.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2019-02-03 13:14\n"
+
+msgctxt "Addons::name::rf_stock_parser"
+msgid "My suppliers"
+msgstr "[RetailFactory] Автоматизация прайсов поставщиков"
+
+msgctxt "Addons::description::rf_stock_parser"
+msgid "Модуль автоматизирует всю работу с прайсами поставщиков форматов XLS, XML"
+msgstr "Модуль автоматизирует всю работу с прайсами поставщиков форматов XLS, XML. <a href='https://store.retailfactory.ru/spru/' target='_blank'>Документация</a>, <a href='mailto: support@retailfactory.ru'>Поддержка</a>"
+
+msgctxt "Languages::rf_stock_parser"
+msgid "My suppliers"
+msgstr "Парсеры прайсов"
+
+msgctxt "Languages::my_supplier_schedule"
+msgid "My suppliers schedule"
+msgstr "Расписание"
+
+msgctxt "Languages::my_supplier_file_price_link"
+msgid "File link"
+msgstr "Ссылка на файл"
+
+msgctxt "Languages::my_supplier_file_price_time"
+msgid "Time download"
+msgstr "Время загрузки"
+
+msgctxt "Languages::my_supplier_extra_charge"
+msgid "Extra charge"
+msgstr "Наценка"
+
+msgctxt "Languages::my_supplier_availability_strategy"
+msgid "Availability strategy"
+msgstr "Стратегия наличия"
+
+msgctxt "Languages::my_supplier_pricing_strategy"
+msgid "Pricing strategy"
+msgstr "Стратегия ценообразования"
+
+msgctxt "Languages::notify_my_supplier"
+msgid "Notify my supplier"
+msgstr "Уведомить поставщика"
+
+msgctxt "Languages::view_my_supplier_products"
+msgid "View my supplier products"
+msgstr "Просмотреть товары поставщика"
+
+msgctxt "Languages::my_supplier"
+msgid "My supplier"
+msgstr "Парсер"
+
+msgctxt "Languages::my_supplier_email_header"
+msgid "The following products have been purchased in our store and need to be shipped."
+msgstr "Перечисленные ниже товары были куплены в нашем магазине и должны быть доставлены покупателю."
+
+msgctxt "Languages::rf_stock_parser_menu_description"
+msgid "List of supplier accounts registered in the store."
+msgstr "Список добавленных парсеров прайсов."
+
+msgctxt "Languages::dear_sirs"
+msgid "Dear Sirs"
+msgstr "Уважаемые господа"
+
+msgctxt "Languages::add_my_supplier"
+msgid "Add my supplier"
+msgstr "Добавить пасер"
+
+msgctxt "Languages::available_for_my_supplier"
+msgid "Available for supplier"
+msgstr "Доступен для поставщика"
+
+msgctxt "Languages::editing_my_supplier"
+msgid "Editing supplier"
+msgstr "Редактирование парсера"
+
+msgctxt "Languages::my_supplier_deleted"
+msgid "Supplier has been deleted successfully."
+msgstr "Парсер был успешно удален."
+
+msgctxt "Languages::privileges.manage_rf_stock_parser"
+msgid "Manage suppliers"
+msgstr "Управление парсерами прайсов"
+
+msgctxt "SettingsSections::rf_stock_parser::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "Languages::my_supplier_legend_residues"
+msgid "Legend of residues"
+msgstr "Обозначения остатков"
+
+msgctxt "Languages::my_supplier_column_settings"
+msgid "Column Settings"
+msgstr "Настройка колонок"
+
+msgctxt "Languages::my_supplier_settings_columns"
+msgid "Columns"
+msgstr "Колонки"
+
+msgctxt "Languages::my_supplier_settings_first_row"
+msgid "First row"
+msgstr "Первая строка"
+
+msgctxt "Languages::my_supplier_positive_balance"
+msgid "Positive balance"
+msgstr "Положительный остаток"
+
+msgctxt "Languages::my_supplier_negative_balance"
+msgid "Negative balance"
+msgstr "Отрицательный остаток"
+
+msgctxt "Languages::my_supplier_goods_in_price_list"
+msgid "Goods in the price list"
+msgstr "Товар в прайсе"
+
+msgctxt "Languages::my_supplier_goods_not_in_price_list"
+msgid "Goods are not in the price list"
+msgstr "Товара нет в прайсе"
+
+msgctxt "Languages::my_supplier_avail_strategy_in_turn_on"
+msgid "Turn on goods"
+msgstr "Включаем"
+
+msgctxt "Languages::my_supplier_avail_strategy_in_turn_off"
+msgid "Turn off goods"
+msgstr "Скрываем и ставим 0"
+
+msgctxt "Languages::my_supplier_avail_strategy_leave_status"
+msgid "Leave the former status"
+msgstr "Оставляем прежний статус"
+
+msgctxt "Languages::my_supplier_avail_strategy_set_zero"
+msgid "Set amount to 0"
+msgstr "Ставим 0"
+
+msgctxt "Languages::my_supplier_disable_all_missing"
+msgid "Disable all missing goods"
+msgstr "Выключить все отсутствующие товары"
+
+msgctxt "Languages::my_supplier_set_to_zero"
+msgid "Set to zero"
+msgstr "Обнулить остатки у отсутствующих"
+
+msgctxt "Languages::my_supplier_success"
+msgid "Success"
+msgstr "Успешно"
+
+msgctxt "Languages::my_supplier_import_price_not_exists"
+msgid "Import price not exists"
+msgstr "Если нет цены в РРЦ"
+
+msgctxt "Languages::my_supplier_pricing_strategy_keep_old_price"
+msgid "Keep old price"
+msgstr "Оставляем текущую цену"
+
+msgctxt "Languages::my_supplier_pricing_strategy_use_opt_price"
+msgid "Use opt price"
+msgstr "Используем оптовую цену"
+
+msgctxt "Languages::my_supplier_log_count"
+msgid "Count"
+msgstr "Всего товаров"
+
+msgctxt "Languages::my_supplier_log_enabled"
+msgid "Products has been enabled"
+msgstr "Включено товаров"
+
+msgctxt "Languages::my_supplier_log_disabled"
+msgid "Products has been disabled"
+msgstr "Выключено товаров"
+
+msgctxt "Languages::my_search_by_supplier"
+msgid "Search by supplier"
+msgstr "Поиск по парсеру"
+
+msgctxt "Languages::my_suppliers_logs_type_not_found"
+msgid "Not found"
+msgstr "Нет на сайте"
+
+msgctxt "Languages::my_suppliers_logs_type_duplicates"
+msgid "Duplicates"
+msgstr "Дубликаты"
+
+msgctxt "Languages::my_suppliers_logs_type_categories"
+msgid "Unbound categories"
+msgstr "Непривязанные категории"
+
+msgctxt "Languages::my_suppliers_logs_type_detailed"
+msgid "Detailed"
+msgstr "Детальный отчет"
+
+msgctxt "Languages::my_suppliers_logs_type_large_percentage"
+msgid "Large percentage change"
+msgstr "Радикальное изменение цены"
+
+msgctxt "SettingsOptions::rf_stock_parser::large_percent_change"
+msgid "Large percentage change"
+msgstr "Радикальное изменение цены в процентах"
+
+msgctxt "SettingsOptions::rf_stock_parser::license_number"
+msgid "license_number"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsOptions::rf_stock_parser::php_executable_path"
+msgid "PHP executable path"
+msgstr "Путь к исполняемому файлу PHP"
+
+msgctxt "Languages::my_supplier_price_upload"
+msgid "Price upload"
+msgstr "Загрузка прайса"
+
+msgctxt "Languages::my_supplier_edit_supplier"
+msgid "Edit supplier"
+msgstr "Редактирование парсера"
+
+msgctxt "Languages::my_supplier_amount_synonyms"
+msgid "Amount synonyms"
+msgstr "Синонимы остатков"
+
+msgctxt "Languages::my_supplier_price_synonyms"
+msgid "Price synonyms"
+msgstr "Синонимы цен"
+
+msgctxt "Languages::my_supplier_features_synonyms"
+msgid "Features synonyms"
+msgstr "Синонимы характеристик"
+
+msgctxt "Languages::manufacturer_code"
+msgid "Manufacturer code"
+msgstr "Артикул поставщика"
+
+msgctxt "Languages::manufacturer_field"
+msgid "Manufacturer field"
+msgstr "Артикул для связи"
+
+msgctxt "SettingsOptions::rf_stock_parser::brand_feature_id"
+msgid "Field for brand matching"
+msgstr "Бренд для связи"
+
+msgctxt "Languages::rf_stock_parser_license_expired"
+msgid "Wrong license"
+msgstr "Лицензия недействительна"
+
+msgctxt "Languages::rf_stock_parser_attachments_module_disabled"
+msgid "Attachments module disabled"
+msgstr "Модуль Прикрепленные файлы отключен"
+
+msgctxt "Languages::rf_stock_parser_file_was_not_saved"
+msgid "File was not saved"
+msgstr "Файл не сохранился"
+
+msgctxt "Languages::rf_stock_parser_new_pos_first_line"
+msgid "First Line"
+msgstr "Первая строка"
+
+msgctxt "Languages::rf_stock_parser_new_pos_file_name"
+msgid "File name"
+msgstr "Имя файла"
+
+msgctxt "Languages::rf_stock_parser_new_pos_file_path"
+msgid "File path"
+msgstr "Путь файла"
+
+msgctxt "Languages::rf_stock_parser_new_pos_prefix"
+msgid "Prefix"
+msgstr "Префикс"
+
+msgctxt "Languages::rf_stock_parser_new_pos_postfix"
+msgid "Postfix"
+msgstr "Постфикс"
+
+msgctxt "Languages::rf_product_code"
+msgid "Product code"
+msgstr "Код товара"
+
+msgctxt "Languages::rf_supplier_price"
+msgid "Supplier price"
+msgstr "Цена поставщика"
+
+msgctxt "Languages::rf_supplier_vat"
+msgid "Vat"
+msgstr "НДС"
+
+msgctxt "Languages::rf_msrp"
+msgid "MSRP"
+msgstr "РРЦ"
+
+msgctxt "Languages::rf_keep_logs"
+msgid "Keep logs"
+msgstr "Хранить логи"
+
+msgctxt "Languages::rf_days"
+msgid "Days"
+msgstr "Дней"
+
+msgctxt "Languages::rf_get_xml_scheme"
+msgid "Get XML scheme"
+msgstr "Получить XML схему"
+
+msgctxt "Languages::rf_xml_file"
+msgid "XML file"
+msgstr "XML файл"
+
+msgctxt "Languages::rf_product_node"
+msgid "Product node"
+msgstr "Узел товара"
+
+msgctxt "Languages::rf_execute"
+msgid "Execute"
+msgstr "Выполнить"
+
+msgctxt "Languages::rf_columns_definition"
+msgid "Columns definition"
+msgstr "Соответствие полей"
+
+msgctxt "Languages::rf_reset"
+msgid "Reset"
+msgstr "Сбросить"
+
+msgctxt "Languages::rf_column"
+msgid "Column"
+msgstr "Колонка"
+
+msgctxt "Languages::rf_value"
+msgid "Value"
+msgstr "Значение"
+
+msgctxt "Languages::rf_partial"
+msgid "Partial"
+msgstr "Частично"
+
+msgctxt "Languages::rf_amount_will_save"
+msgid "Amount will be saved in"
+msgstr "Количество будет сохранено в"
+
+msgctxt "Languages::rf_suppliers_enable_and_disable_tracking"
+msgid "Enable product and set tracking to Do not track"
+msgstr "Включить товары и поставить Не отслеживать наличие"
+
+msgctxt "Languages::rf_filter_by_availability"
+msgid "Filter products by availability attribute"
+msgstr "Фильтровать товары по атрибуту available"
+
+msgctxt "Languages::my_supplier_settings_csv_delimiter"
+msgid "CSV delimiter"
+msgstr "CSV разделитель"
+
+msgctxt "Languages::my_supplier_settings_csv_enclosure"
+msgid "CSV enclosure"
+msgstr "CSV символ ограничителя поля"
+
+msgctxt "Languages::my_supplier_settings_csv_escape"
+msgid "CSV escape"
+msgstr "CSV экранирующий символ"
+
+msgctxt "Languages::rf_additional_columns_definition"
+msgid "Дополнительные данные товаров"
+msgstr "Дополнительные данные товаров"
+
+msgctxt "Languages::rf_modifier"
+msgid "Модификатор"
+msgstr "Модификатор"
+
+msgctxt "Languages::my_supplier_not_found"
+msgid "Новые товары"
+msgstr "Новые товары"
+
+msgctxt "Languages::my_supplier_products_created"
+msgid "Products created"
+msgstr "Товары созданы"
+
+msgctxt "Languages::my_supplier_logs"
+msgid "Logs"
+msgstr "Журнал событий"
+
+msgctxt "Languages::rf_stock_parser_start"
+msgid "Start"
+msgstr "Старт"
+
+msgctxt "Languages::rf_stock_parser_parsing"
+msgid "Products handling"
+msgstr "Обработка товаров... "
+
+msgctxt "Languages::rf_stock_parser_disableProducts"
+msgid "Disabling missing products"
+msgstr "Отключение отсутствующих товаров"
+
+msgctxt "Languages::rf_stock_parser_updateCollections"
+msgid "Update variations"
+msgstr "Обновление вариаций"
+
+msgctxt "Languages::rf_stock_parser_parsingFinish"
+msgid "End of work"
+msgstr "Окончание работы"
+
+msgctxt "Languages::rf_stock_parser_communication_category"
+msgid "Communication category"
+msgstr "Связь категорий"
+
+msgctxt "Languages::rf_stock_parser_encoding"
+msgid "Encoding"
+msgstr "Кодировка"
+
+msgctxt "Languages::rf_additional"
+msgid "Дополнительно"
+msgstr "Дополнительно"
+
+msgctxt "Languages::rf_file_not_available"
+msgid "Файл не доступен"
+msgstr "Файл не доступен"
+
+msgctxt "Languages::rf_price_list"
+msgid "Парсер"
+msgstr "Парсер"
+
+msgctxt "Languages::privileges.manage_my_suppliers"
+msgid "[RetailFactory] Редактирование и просмотр парсеров"
+msgstr "[RetailFactory] Редактирование и просмотр парсеров"
+
+msgctxt "Languages::rf_stock_parser_extra_charge_type_percent"
+msgid "Percent"
+msgstr "Процентная"
+
+msgctxt "Languages::rf_stock_parser_extra_charge_type_absolute"
+msgid "Absolute"
+msgstr "Абсолютная"
+
+msgctxt "Languages::rf_stock_parser_autoimport"
+msgid "Auto import"
+msgstr "Авто импорт"
+
+msgctxt "Languages::rf_stock_parser_xml_syntax_error"
+msgid "Error in the XML syntax"
+msgstr "Ошибка в синтаксисе XML"
+
+msgctxt "Languages::rf_stock_price_rounding"
+msgid "Rounding"
+msgstr "Округление"
+
+msgctxt "Languages::rf_stock_price_round"
+msgid "Round up"
+msgstr "Округлять"
+
+msgctxt "Languages::rf_stock_price_round_precision"
+msgid "Precision"
+msgstr "Точность"
+
+msgctxt "Languages::rf_stock_price_round_mode_half_down"
+msgid "Round half down"
+msgstr "Округлять в меньшую сторону"
+
+msgctxt "Languages::my_supplier_custom_extra_charge"
+msgid "Customizable extra charge"
+msgstr "Настраиваемая наценка"
+
+msgctxt "Languages::rf_stock_parser_stop_update_price"
+msgid "Do not update price"
+msgstr "Не обновлять цену"
+
+msgctxt "Languages::rf_stock_parser_stop_update_amount"
+msgid "Do not update amount"
+msgstr "Не обновлять кол-во"
+
+msgctxt "Languages::rf_stock_parser_stop_update_status"
+msgid "Do not update status"
+msgstr "Не обновлять статус"
+
+msgctxt "SettingsOptions::rf_stock_parser::add_fields_products_list"
+msgid "Add fields to products list"
+msgstr "Добавить поля в список товаров"
+
+msgctxt "SettingsOptions::rf_stock_parser::rates_source"
+msgid "Source of exchange rates"
+msgstr "Источник курса валюта"
+
+msgctxt "SettingsOptions::rf_stock_parser::import_to_multiple_stores"
+msgid "Import to multiple stores"
+msgstr "Импорт в несколько витрин"
+
+msgctxt "Languages::rf_stock_parser_log_status_updated"
+msgid "Updated"
+msgstr "обновлен"
+
+msgctxt "Languages::rf_stock_parser_log_status_updated_only_prices"
+msgid "Updated only price"
+msgstr "обновлена только цена"
+
+msgctxt "Languages::rf_stock_parser_log_status_enabled"
+msgid "Enabled"
+msgstr "включен"
+
+msgctxt "Languages::rf_stock_parser_log_status_disabled"
+msgid "Disabled"
+msgstr "выключен"
+
+msgctxt "Languages::rf_stock_parser_log_status_hidden"
+msgid "Hidden"
+msgstr "скрыт"
+
+msgctxt "Languages::rf_stock_parser_currency"
+msgid "Currency"
+msgstr "Валюта"
+
+msgctxt "Languages::rf_stock_parser_store_currencies"
+msgid "Store currencies"
+msgstr "Валюты магазина"
+
+msgctxt "Languages::rf_stock_parser_without_resetting_stored_fields"
+msgid "Without resetting the stored fields"
+msgstr "Без сброса сохраненных полей"
+
+msgctxt "Languages::rf_stock_parser_cron_info"
+msgid "Cron info"
+msgstr "<b>Cron</b>: [path]"
+
+msgctxt "Languages::rf_stock_parser_cron_info_php_version"
+msgid "Cron info php version"
+msgstr "<b>PHP версия [current] неверна. Минимальная версия [must]. Заполните путь PHP вручную</b>"
+
+msgctxt "Languages::rf_stock_parser_attr_translates_nodevalue"
+msgid "Node value"
+msgstr "Значение тега"
+
+msgctxt "Languages::rf_stock_parser_xml_fix_wrong_encode"
+msgid "Fix wrong encode"
+msgstr "Исправить неправильную кодировку (потребует ресурсов для больших файлов)"
+
+msgctxt "Languages::rf_stock_parser_last_run"
+msgid "Last run"
+msgstr "Последний запуск"
+
+msgctxt "Languages::rf_stock_parser_renewable"
+msgid "Renewable"
+msgstr "Обновляемый"
+
+msgctxt "Languages::rf_stock_parser_additional_update_settings"
+msgid "Update settings"
+msgstr "Настройки обновления"
+
+msgctxt "Languages::rf_stock_parser_use_price_category_id"
+msgid "Use Category ID from price list as category ID"
+msgstr "Использовать Category ID из прайс листа как ID категории"
+
+msgctxt "Languages::rf_stock_parser_default_category"
+msgid "Default category"
+msgstr "Категория по-умолчанию"
+
+msgctxt "Languages::rf_stock_parser_price_not_exists_report"
+msgid "The price on the link is not available"
+msgstr "Прайс по ссылке недоступен"
+
+msgctxt "Languages::rf_stock_parser_price_large_percent_report"
+msgid "Large percent changes report"
+msgstr "Отчет о значительных процентных изменениях"
+
+msgctxt "Languages::rf_stock_parser_attach_to_master"
+msgid "Attach to master product"
+msgstr "Прикрепить к основному продукту"
+
+msgctxt "Languages::rf_stock_parser_autoimport_description"
+msgid "Autoimport description"
+msgstr "Автоматически импортируются только товары с категориями. Не забудьте связать категории прайс листа с вашими ниже."
+
+msgctxt "Languages::rf_stock_parser_attach_to_master_description"
+msgid "Attach to master description"
+msgstr "Если артикул в прайсе будет найден среди Обших товаров"
+
+msgctxt "Languages::rf_stock_parser_categories_mapping_description"
+msgid "Categories mapping description"
+msgstr "Здесь нужно указать название категории из прайс листа и связать с вашей категорией в магазине"
+
+msgctxt "Languages::rf_stock_parser.all_vendors_master_product"
+msgid "All vendors (common products)"
+msgstr "Все продавцы (общие товары)"
+
+msgctxt "Languages::rf_stock_parser_amount_not_in_schema"
+msgid "Amount not in schema"
+msgstr "Если товар в прайсе (но не выбрано в схеме)"
+
+msgctxt "Languages::rf_stock_parser_amount_not_in_schema_value"
+msgid "Set stock"
+msgstr "Ставить наличие"
+
+msgctxt "Languages::rf_stock_parser_reset_warehouses"
+msgid "Reset warehouses"
+msgstr "Обнулять склады"
+
+msgctxt "Languages::rf_stock_parser_product_field"
+msgid "Field"
+msgstr "Поле продукта"
+
+msgctxt "SettingsOptions::rf_stock_parser::csv_fields_range"
+msgid "CSV fields range"
+msgstr "Диапазон полей CSV"
+
+msgctxt "Languages::rf_stock_parser_link_to_products"
+msgid "Link to products in the store"
+msgstr "Связь с товарами в магазине"
+
+msgctxt "Languages::rf_stock_parser_link_to_products.vendor_code"
+msgid "Vendor code"
+msgstr "Артикул"
+
+msgctxt "Languages::rf_stock_parser_link_to_products.vendor_code_with_brand"
+msgid "Vendor code + brand"
+msgstr "Артикул + Бренд"
+
+msgctxt "Languages::rf_stock_parser_link_to_products.vendor_code_with_parser"
+msgid "Vendor code + field parser"
+msgstr "Артикул + Поле парсер"
+
+msgctxt "Languages::rf_stock_settings_labels_row"
+msgid "Row with field names"
+msgstr "Строка с названиями полей"
+
+msgctxt "Languages::rf_stock_parser_labels_row_stop_update"
+msgid "Do not update if the row with the names has changed"
+msgstr "Не обновлять если изменилась строка с названиями"
+
+msgctxt "Languages::rf_stock_parser_price_labels_wrong_report"
+msgid "Columns have changed in the price list"
+msgstr "В прайсе изменились столбцы"
+
+msgctxt "Languages::rf_stock_parser.scheme_not_found"
+msgid "XML scheme need to be defined before"
+msgstr "Сначала надо добавить схему XML документа"
+
+msgctxt "Languages::rf_stock_parser_categories_default_description"
+msgid "If you enable Auto import checkbox all products without founded category will be added to default category"
+msgstr "Если у вас включен Автоимпорт все товары без категории будут добавлены в эту категорию"
+
+msgctxt "Languages::rf_stock_parser.pricing_strategy_cat_header"
+msgid "Set custom margin for category"
+msgstr "Добавить наценку по категории"
+
+msgctxt "Languages::rf_update_price_is_out_of_stock"
+msgid "Update price is out of stock"
+msgstr "Если количество в прайсе 0"
+
+msgctxt "Languages::rf_update_price_is_out_of_stock_update"
+msgid "Update price is out of stock update"
+msgstr "Обновить закупку и розницу"
+
+msgctxt "Languages::rf_update_price_is_out_of_stock_set_zero"
+msgid "Update price is out of stock set zero"
+msgstr "Обнулить закупку и розницу"
+
+msgctxt "Languages::rf_update_price_is_out_of_stock_keep"
+msgid "Update price is out of stock keep"
+msgstr "Оставить текущие"

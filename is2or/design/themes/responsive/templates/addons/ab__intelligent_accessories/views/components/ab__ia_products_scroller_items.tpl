@@ -1,0 +1,1 @@
+{include file="blocks/products/products_scroller.tpl"}

@@ -1,0 +1,28 @@
+<?php
+/* Smarty version 5.4.3, created on 2026-03-10 08:52:45
+  from 'tygh:addons/vendor_rating/hooks/index/styles.post.tpl' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
+  'version' => '5.4.3',
+  'unifunc' => 'content_69afb1ad1cbfd2_73034335',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '57bac8defdbca23fb1a70d49468712d6e8b8de5c' => 
+    array (
+      0 => 'addons/vendor_rating/hooks/index/styles.post.tpl',
+      1 => 1767831041,
+      2 => 'tygh',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+))) {
+function content_69afb1ad1cbfd2_73034335 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = '/var/www/is2or/design/backend/templates/addons/vendor_rating/hooks/index';
+echo $_smarty_tpl->getSmarty()->getFunctionHandler('style')->handle(array('src'=>"addons/vendor_rating/styles.less"), $_smarty_tpl);?>
+
+<?php }
+}

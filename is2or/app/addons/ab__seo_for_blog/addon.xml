@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__seo_for_blog</id>
+<version>1.0.1</version>
+<priority>2023</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<ab>
+<hash>96df8d01be43932ca4550fd6d2c705adc3b5eb4f, 2024-05-28 12:17:41</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.5.2</min></ab__addons_manager>
+</dependencies>
+</compatibility>
+</ab>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<compatibility>
+<conflicts></conflicts>
+<dependencies>ab__addons_manager,blog</dependencies>
+<core_version><min>4.16.2</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="settings">
+<items>
+<item id="code"><type>hidden</type><default_value>ABA-NLiJLTM0xad7C62JFFu9L</default_value></item>
+<item id="build"><type>hidden</type><default_value>1165</default_value></item>
+<item id="default_author">
+<type>selectbox</type>
+<default_value>0</default_value>
+</item>
+</items>
+</section>
+</sections>
+</settings>
+<functions>
+<item for="install">fn_ab__seo_for_brands_install</item>
+</functions>
+<queries>
+<item for="install">
+CREATE TABLE IF NOT EXISTS ?:ab__sfb_authors (
+author_id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+status char(1) DEFAULT 'A',
+is_noindex char(1) NOT NULL DEFAULT 'N',
+canonical_id int(11) DEFAULT NULL,
+PRIMARY KEY (author_id)
+) DEFAULT CHARSET=utf8
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS ?:ab__sfb_author_descriptions (
+author_id bigint(20) NOT NULL,
+lang_code char(2) NOT NULL,
+name varchar(100) NOT NULL,
+short_description varchar(255) NOT NULL,
+full_description TEXT NOT NULL,
+author_rank varchar(50) NOT NULL,
+appointment varchar(50) NOT NULL,
+author_url varchar(255) NOT NULL,
+title varchar(255) NOT NULL,
+meta_description varchar(255) NOT NULL,
+meta_keywords varchar(255) NOT NULL,
+PRIMARY KEY (author_id,lang_code)
+) DEFAULT CHARSET=utf8
+</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__sfb.data.manage', 'Y', 'ab__addons', 'ab__seo_for_blog', 'N')</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__sfb.data.view', 'Y', 'ab__addons', 'ab__seo_for_blog', 'Y')</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__seo_for_blog' OR group_id = 'ab__seo_for_blog'</item>
+</queries>
+</addon>

@@ -1,0 +1,337 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__seo_for_tags"
+msgid "AB: SEO for tags pages"
+msgstr "AB: SEO оптимизация страниц тегов"
+
+msgctxt "Addons::description::ab__seo_for_tags"
+msgid "Adds SEO fields for tags pages"
+msgstr "Добавляет SEO поля для страниц тегов"
+
+msgctxt "Languages::ab__seo_for_tags"
+msgid "AB: SEO for tags pages"
+msgstr "AB: SEO оптимизация страниц тегов"
+
+msgctxt "SettingsOptions::ab__seo_for_tags::description_location"
+msgid "Tag description location"
+msgstr "Размещение описания в тегах"
+
+msgctxt "SettingsVariants::ab__seo_for_tags::description_location::top"
+msgid "top"
+msgstr "вверху"
+
+msgctxt "SettingsVariants::ab__seo_for_tags::description_location::bottom"
+msgid "bottom"
+msgstr "внизу"
+
+msgctxt "SettingsOptions::ab__seo_for_tags::index_tag_pages"
+msgid "To index tags pages"
+msgstr "Индексировать страницы тегов"
+
+msgctxt "SettingsTooltips::ab__seo_for_tags::index_tag_pages"
+msgid "When indexing is enabled, tags links are added to the XML-sitemap"
+msgstr "При включении индексации ссылки на страницы тегов добавляются в XML-карту сайта"
+
+msgctxt "SettingsOptions::ab__seo_for_tags::noindex_tag_pages_without_products"
+msgid "Noindex tag pages without products"
+msgstr "Запрет индексации страниц тегов без товаров"
+
+msgctxt "SettingsTooltips::ab__seo_for_tags::noindex_tag_pages_without_products"
+msgid "When enabled, tags pages without products will be not indexed. Checking only products status (independent of amount, price, etc)"
+msgstr "При включении страницы тегов без товаров не индексируются. Проверяется только статус товаров (не зависит от наличия, цены и т.д.)"
+
+msgctxt "Languages::ab__seo_for_tags.editing_tag"
+msgid "Editing tag SEO data"
+msgstr "Редактирование SEO-данных тега"
+
+msgctxt "Languages::ab__seo_for_tags.h1"
+msgid "H1 tag"
+msgstr "H1 тег"
+
+msgctxt "Languages::ab__seo_for_tags.description"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "Languages::ab__seo_for_tags.page_title"
+msgid "Page title"
+msgstr "Заголовок страницы"
+
+msgctxt "Languages::ab__seo_for_tags.meta_description"
+msgid "Meta tag <code>description</code>"
+msgstr "Мета тег <code>description</code>"
+
+msgctxt "Languages::ab__seo_for_tags.meta_keywords"
+msgid "Meta tag <code>keywords</code>"
+msgstr "Мета тег <code>keywords</code>"
+
+msgctxt "Languages::ab__seo_for_tags.edit_seo_data"
+msgid "AB: Edit tag SEO data"
+msgstr "AB: Редактировать SEO-данные тега"
+
+msgctxt "Languages::ab__seo_for_tags.unknown_tag"
+msgid "Unknown tag"
+msgstr "Неизвестный тег"
+
+msgctxt "Languages::ab__sft.export_selected"
+msgid "AB: Export selected"
+msgstr "AB: Экспортировать выбранные"
+
+msgctxt "Languages::ab__sft.exim.remove_tags"
+msgid "Delete tags"
+msgstr "Удалить теги"
+
+msgctxt "Languages::ab__sft.exim.remove_tags.text"
+msgid "Delete all existing tags before import"
+msgstr "Удалить все существующие теги перед импортом"
+
+msgctxt "Languages::ab__sft.settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "Languages::ab__seo_for_tags.export"
+msgid "AB: SEO for tags pages: Export"
+msgstr "AB: SEO оптимизация страниц тегов: Экспорт"
+
+msgctxt "Languages::ab__seo_for_tags.import"
+msgid "AB: SEO for tags pages: Import"
+msgstr "AB: SEO оптимизация страниц тегов: Импорт"
+
+msgctxt "Languages::ab__sft.form.seo_data"
+msgid "SEO-data"
+msgstr "SEO-данные"
+
+msgctxt "Languages::ab__sft.form.links_generating"
+msgid "Links generating"
+msgstr "Генерация связей"
+
+msgctxt "Languages::ab__sft.form.generate_by_cron"
+msgid "Generate by Cron"
+msgstr "Генерация по Cron"
+
+msgctxt "Languages::ab__sft.form.generate_by_cron.tooltip"
+msgid "When checked, links to products with this tag will be created by Cron-task. Otherwise, only in manual mode"
+msgstr "Если отмечено, то связи с товарами по этому тегу будут созданы по Cron-заданию. Иначе, только в ручном режиме."
+
+msgctxt "Languages::ab__sft.form.links_generating_rules"
+msgid "Rules of generating"
+msgstr "Правила генерации"
+
+msgctxt "Languages::ab__sft.form.links_generating.description"
+msgid "Please attend! Existing links that don't match specified conditions will be deleted by generating."
+msgstr "Будьте внимательны. Существующие связи, которые не соответствуют указанным правилам, будут удалены во время генерации."
+
+msgctxt "Languages::ab__seo_for_tags.conditions.all"
+msgid "all"
+msgstr "каждое"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.any"
+msgid "any"
+msgstr "любое"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.true"
+msgid "true"
+msgstr "выполняется"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.false"
+msgid "false"
+msgstr "не выполняется"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.set"
+msgid "If [set] of these conditions are [set_value]"
+msgstr "Если [set] из этих условий [set_value]"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.price"
+msgid "Price"
+msgstr "Цена"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.feature"
+msgid "Feature"
+msgstr "Характеристика"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.category"
+msgid "Category"
+msgstr "Категория"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.amount"
+msgid "Amount"
+msgstr "Количество"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.popularity"
+msgid "Popularity"
+msgstr "Популярность"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.weight"
+msgid "Weight"
+msgstr "Вес"
+
+msgctxt "Languages::ab__sft.cron_links"
+msgid "Use following command to generate tags links by Cron:"
+msgstr "Для выполнения генерации связей тегов по Cron-у используйте указанную команду:"
+
+msgctxt "Languages::ab__sft.generate_button"
+msgid "Generate links"
+msgstr "Генерировать связи"
+
+msgctxt "Languages::ab__sft.generating_manage"
+msgid "Links generating"
+msgstr "Генерация связей"
+
+msgctxt "Languages::ab__sft.generating.error"
+msgid "Links generating failed"
+msgstr "Не удалось сгенерировать связи"
+
+msgctxt "Languages::ab__sft.generating.notification.array"
+msgid "Added links - [added], removed links - [deleted]"
+msgstr "Добавлено связей - [added], удалено связей - [deleted]"
+
+msgctxt "Languages::ab__sft.generating.notification.string"
+msgid "Links generated successfully"
+msgstr "Связи успешно сгенерированы"
+
+msgctxt "Languages::ab__sft.comet.title"
+msgid "Links generating"
+msgstr "Генерация связей"
+
+msgctxt "Languages::ab__sft.comet.init"
+msgid "Loading tags"
+msgstr "Загрузка тегов"
+
+msgctxt "Languages::ab__emd.tabs.tags.view"
+msgid "Tags"
+msgstr "Теги"
+
+msgctxt "Languages::ab__emd.setting.header.tags.view"
+msgid "Tags general pattern"
+msgstr "Основной шаблон тегов"
+
+msgctxt "Languages::ab__emd.setting.tags.view.action"
+msgid "Redefine categories meta tags"
+msgstr "Переопределить мета-теги"
+
+msgctxt "Languages::ab__emd.setting.tags.view.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Шаблон тега <code>title</code>"
+
+msgctxt "Languages::ab__emd.setting.tags.view.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Шаблон мета-тега <code>description</code>"
+
+msgctxt "Languages::ab__emd.setting.tags.view.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Шаблон мета-тега <code>keywords</code>"
+
+msgctxt "Languages::ab__emd.setting.tags.view.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Не переопределять"
+
+msgctxt "Languages::ab__emd.setting.tags.view.action.override_empty"
+msgid "Redefine empty"
+msgstr "Переопределять пустые"
+
+msgctxt "Languages::ab__emd.setting.tags.view.action.override_all"
+msgid "Redefine all"
+msgstr "Переопределять все"
+
+msgctxt "Languages::ab__sft.placeholders.tag"
+msgid "<b>[tag]</b> — tag name (as is)<br> <b>[tag_lower]</b> — tag name (lowercase)<br> <b>[Tag]</b> — tag name (the first letter is uppercase others are lowercase)<br> <b>[TAG]</b> — tag name (uppercase)"
+msgstr "<b>[tag]</b> — название тега (как есть)<br>"
+"<b>[tag_lower]</b> — название тега (строчные буквы)<br>"
+"<b>[Tag]</b> — название тега (первая заглавная, остальные строчные)<br>"
+"<b>[TAG]</b> — название тега (заглавные буквы)"
+
+msgctxt "Languages::ab__sft.placeholders.h1"
+msgid "<b>[h1_tag]</b> — h1 value (as is)<br> <b>[h1_tag_lower]</b> — h1 value (lowercase)<br> <b>[H1_tag]</b> — h1 value (the first letter is uppercase others are lowercase)<br> <b>[H1_TAG]</b> — h1 value (uppercase)"
+msgstr "<b>[h1_tag]</b> — значение h1 (как есть)<br>"
+"<b>[h1_tag_lower]</b> — значение h1 (строчные буквы)<br>"
+"<b>[H1_tag]</b> — значение h1 (первая заглавная, остальные строчные)<br>"
+"<b>[H1_TAG]</b> — значение h1 (заглавные буквы)"
+
+msgctxt "Languages::ab__sft.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__sft_help.docs"
+msgid "Read <a target=\"_blank\" href=\"https://cs-cart.alexbranding.com/en/ab__seo_for_tags.doc\">the documentation</a>."
+msgstr "Ознакомиться с <a target=\"_blank\" href=\"https://cs-cart.alexbranding.com/ru/ab__seo_for_tags.doc\">документацией</a>."
+
+msgctxt "Languages::privilege_groups.ab__seo_for_tags"
+msgid "AB: SEO for tags pages"
+msgstr "AB: SEO оптимизация страниц тегов"
+
+msgctxt "Languages::privileges.ab__sft.data.manage"
+msgid "Manage tags SEO data"
+msgstr "Управление SEO-данными тегов"
+
+msgctxt "Languages::privileges.ab__sft.data.view"
+msgid "View tags SEO data"
+msgstr "Просмотр SEO-данных тегов"
+
+msgctxt "Languages::ab__sft.autoinstall.no_demodata"
+msgid "File with demo data is missing"
+msgstr "Файл с демо-данными отсутствует"
+
+msgctxt "Languages::ab__sft.autoinstall.tags_where_not_filled"
+msgid "Failed to fill up demo tags"
+msgstr "Не удалось заполнить демо теги"
+
+msgctxt "Languages::ab__sft.autoinstall.tags_where_filled"
+msgid "Demo tags [tags] is filled up successfully"
+msgstr "Демо теги [tags] успешно наполнены"
+
+msgctxt "Languages::ab__sft.layouts"
+msgid "Layouts"
+msgstr "Макеты"
+
+msgctxt "Languages::ab__sft.layouts.layout_was_reset"
+msgid "Layout was reset"
+msgstr "Макет был сброшен"
+
+msgctxt "Languages::ab__sft.layouts.choose_layout_to_reset"
+msgid "Choose layout to reset"
+msgstr "Выберите макет для сброса"
+
+msgctxt "Languages::ab__sft.layouts.table.dispatch_description"
+msgid "Type of the layout page"
+msgstr "Тип страницы макета"
+
+msgctxt "Languages::ab__sft.layouts.table.dispatch"
+msgid "Dispatch"
+msgstr "Dispatch"
+
+msgctxt "Languages::ab__sft.layouts.table.layouts"
+msgid "Layouts"
+msgstr "Макеты"
+
+msgctxt "Languages::ab__sft.layouts.table.action"
+msgid "Action"
+msgstr "Действие"
+
+msgctxt "Languages::ab__sft.layouts.table.get_file"
+msgid "Get file"
+msgstr "Скачать файл"
+
+msgctxt "Languages::ab__sft.layouts.layout_is_not_found"
+msgid "Layout is not found"
+msgstr "Макет не найден"
+
+msgctxt "Languages::ab__sft.layouts.header"
+msgid "There are displaying all layout pages, added by the addon, on this page. You can reset pages in any layout to the default state. Also you can download xml-file of a layout page and import it manually."
+msgstr "На этой странице отображаются все страницы макетов, добавляемые модулем. Вы можете сбросить страницу в рамках любого макета до состояния по умолчанию для текущей версии модуля. Также вы можете скачать xml-файл страницы макета и импортировать его вручную."
+
+msgctxt "Languages::ab__sft.layouts.table.create_new_location"
+msgid "- Create a new page -"
+msgstr "- Создать новую старницу -"
+
+msgctxt "Languages::ab__sft.upgrade_notifications.2.0.0.layout_changed.title"
+msgid "Attention! Layout actualization is needed"
+msgstr "Внимание! Необходима актуализация макетов"
+
+msgctxt "Languages::ab__sft.upgrade_notifications.2.0.0.layout_changed.text"
+msgid "You have to actualize your layouts after update.To make this procedure easier we added <a href=\"[url]\">the page for layouts recovery</a>. More details read in the add-on documentation."
+msgstr "С обновлением появилась необходимость актуализации макетов. Для упрощения данной процедуры мы добавили <a href=\"[url]\">страницу восстановления макетов</a>. Подробнее об этой странице читайте в документации к модулю."
+
+#. Alexbranding. Do not modify this file manually!

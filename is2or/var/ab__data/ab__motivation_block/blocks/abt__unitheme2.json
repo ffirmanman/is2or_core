@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Delivery",
+    "position": 100,
+    "icon_type": "nothing",
+    "icon_class": "",
+    "icon_color": "",
+    "description": "<div class=\"ab__mb_delivery_type-list\">\n    <div class=\"ab__mb_delivery_type with_logo\">\n        <img src=\"images/ab__motivation_block/dhl-delivery.png\" width=\"32\" height=\"32\" alt=\"DHL express\">\n        <div class=\"ab__mb_delivery_type_description\">\n            <div class=\"ab__mb_delivery_type_name\">DHL express - Fast</div>\n            <div class=\"ab__mb_delivery_type_time\">1 day, Door-to-Door, Courier Delivered</div>\n        </div>\n        <div class=\"ab__mb_delivery_type_price\">from 26$ <span class=\"ut2-icon-outline-info cm-tooltip\" title=\"This is demo content and does not apply to this company's prices\"></span></div>\n    </div>\n    <div class=\"ab__mb_delivery_type with_logo\">\n        <img src=\"images/ab__motivation_block/fedex-delivery.png\" width=\"32\" height=\"32\" alt=\"Fedex express\">\n        <div class=\"ab__mb_delivery_type_description\">\n            <div class=\"ab__mb_delivery_type_name\">Fedex express - International shipments</div>\n            <div class=\"ab__mb_delivery_type_time\">2-3 days, <a href=\"https://www.fedex.com/en-us/tracking.html\" target=\"_blank\" title=\"Fedex express\">Tracking available</a></div>\n        </div>\n        <div class=\"ab__mb_delivery_type_price\">from 14$ <span class=\"ut2-icon-outline-info cm-tooltip\" title=\"This is demo content and does not apply to this company's prices\"></span></div>\n    </div>\n    <div class=\"ab__mb_delivery_type\">\n        <div class=\"ab__mb_delivery_type_description\">\n            <div class=\"ab__mb_delivery_type_name\">\n                <span class=\"ab__mb_delivery_type_name_link\">Pickup at your own expense</span>\n            </div>\n            <div class=\"ab__mb_delivery_type_time\">Tomorrow from 09:00 to 20:00, <a href=\"?dispatch=store_locator.search\" target=\"_blank\">Store location</a></div>\n        </div>\n        <div class=\"ab__mb_delivery_type_price with_color\">Free</div>\n    </div>\n</div>",
+    "expanded_desktop": "Y",
+    "expanded_tablet": "Y",
+    "expanded_mobile": "Y",
+    "categories_ids": "",
+    "destination_ids": "",
+    "template_path": "addons/ab__motivation_block/blocks/components/item_templates/custom_content.tpl",
+    "ru": {
+      "name": "Доставка",
+      "description": "<div class=\"ab__mb_delivery_type-list\">\n    <div class=\"ab__mb_delivery_type with_logo\">\n        <img src=\"images/ab__motivation_block/dhl-delivery.png\" width=\"32\" height=\"32\" alt=\"DHL express\">\n        <div class=\"ab__mb_delivery_type_description\">\n            <div class=\"ab__mb_delivery_type_name\">DHL express - быстро</div>\n            <div class=\"ab__mb_delivery_type_time\">1 день, от двери до двери, курьерская доставка</div>\n        </div>\n        <div class=\"ab__mb_delivery_type_price\">от 26$ <span class=\"ut2-icon-outline-info cm-tooltip\" title=\"Это демонстрационный контент, который не отражает фактические цены этой компании\"></span></div>\n    </div>\n    <div class=\"ab__mb_delivery_type with_logo\">\n        <img src=\"images/ab__motivation_block/fedex-delivery.png\" width=\"32\" height=\"32\" alt=\"Fedex express\">\n        <div class=\"ab__mb_delivery_type_description\">\n            <div class=\"ab__mb_delivery_type_name\">Fedex express - Международные перевозки</div>\n            <div class=\"ab__mb_delivery_type_time\">2-3 дня, <a href=\"https://www.fedex.com/ru-ru/home.html\" target=\"_blank\" title=\"Fedex express\">Отслеживание доступно</a></div>\n        </div>\n        <div class=\"ab__mb_delivery_type_price\">от 14$ <span class=\"ut2-icon-outline-info cm-tooltip\" title=\"Это демонстрационный контент, который не отражает фактические цены этой компании\"></span></div>\n    </div>\n    <div class=\"ab__mb_delivery_type\">\n        <div class=\"ab__mb_delivery_type_description\">\n            <div class=\"ab__mb_delivery_type_name\">Самовывоз за ваш счет</div>\n            <div class=\"ab__mb_delivery_type_time\">Завтра с 09:00 до 20:00, <a href=\"?dispatch=store_locator.search\" target=\"_blank\">Расположение магазина</a></div>\n        </div>\n        <div class=\"ab__mb_delivery_type_price with_color\">Бесплатно</div>\n    </div>\n</div>"
+    },
+    "uk": {
+      "name": "Доставка",
+      "description": "<div class=\"ab__mb_delivery_type-list\">\n    <div class=\"ab__mb_delivery_type with_logo\">\n        <img src=\"images/ab__motivation_block/dhl-delivery.png\" width=\"32\" height=\"32\" alt=\"DHL express\">\n        <div class=\"ab__mb_delivery_type_description\">\n            <div class=\"ab__mb_delivery_type_name\">DHL express - швидко</div>\n            <div class=\"ab__mb_delivery_type_time\">1 день, від дверей до дверей, кур'єрська доставка</div>\n        </div>\n        <div class=\"ab__mb_delivery_type_price\">від 26$ <span class=\"ut2-icon-outline-info cm-tooltip\" title=\"Це демонстраційний вміст і не відображає фактичні ціни цієї компанії\"></span></div>\n    </div>\n    <div class=\"ab__mb_delivery_type with_logo\">\n        <img src=\"images/ab__motivation_block/fedex-delivery.png\" width=\"32\" height=\"32\" alt=\"Fedex express\">\n        <div class=\"ab__mb_delivery_type_description\">\n            <div class=\"ab__mb_delivery_type_name\">Fedex express - Міжнародні перевезення</div>\n            <div class=\"ab__mb_delivery_type_time\">2-3 дні, <a href=\"https://www.fedex.com/uk-ua/tracking.html\" target=\"_blank\" title=\"Fedex express\">Відстеження доступне</a></div>\n        </div>\n        <div class=\"ab__mb_delivery_type_price\">от 14$ <span class=\"ut2-icon-outline-info cm-tooltip\" title=\"Це демонстраційний вміст і не відображає фактичні ціни цієї компанії\"></span></div>\n    </div>\n    <div class=\"ab__mb_delivery_type\">\n        <div class=\"ab__mb_delivery_type_description\">\n            <div class=\"ab__mb_delivery_type_name\">Самовивіз за ваш рахунок</div>\n            <div class=\"ab__mb_delivery_type_time\">Завтра з 09:00 до 20:00, <a href=\"?dispatch=store_locator.search\" target=\"_blank\">Розташування магазину</a></div>\n        </div>\n        <div class=\"ab__mb_delivery_type_price with_color\">Безкоштовно</div>\n    </div>\n</div>"
+    }
+  },
+  {
+    "name": "Payment options",
+    "position": 110,
+    "icon_type": "nothing",
+    "icon_class": "",
+    "icon_color": "",
+    "description": "<div class=\"ab__mb_motivation_type-list\">\n    <div class=\"ab__mb_motivation_type\">\n        <div class=\"ab__mb_motivation_type_description\">\n            <div class=\"ab__mb_motivation_type_icons\">\n                <img src=\"images/ab__motivation_block/icon-apple-pay.svg\" width=\"55\" alt=\"Apple Pay\">\n                <img src=\"images/ab__motivation_block/icon-google-pay.svg\" width=\"55\" alt=\"Google Pay\">\n                <img src=\"images/ab__motivation_block/icon-mastercard.svg\" width=\"35\" alt=\"Mastercard\">\n                <img src=\"images/ab__motivation_block/icon-visa.svg\" width=\"55\" alt=\"Visa\">\n            </div>\n            <div class=\"ab__mb_motivation_type_name\">\n                <span class=\"ab__mb_motivation_type_name_link\">Cash, bank card, credit/installment payments, cashless payment for legal entities</span>\n            </div>\n            <div class=\"ab__mb_motivation_type_desc\"></div>\n        </div>\n        <div class=\"ab__mb_motivation_type_more\"><a href=\"payment-and-shipping/\" title=\"\" target=\"_blank\">More details</a><span class=\"ut2-icon-outline-info cm-tooltip\" title=\"This is demo content\"></span></div>\n    </div>\n</div>",
+    "expanded_desktop": "Y",
+    "expanded_tablet": "Y",
+    "expanded_mobile": "Y",
+    "categories_ids": "",
+    "destination_ids": "",
+    "template_path": "addons/ab__motivation_block/blocks/components/item_templates/custom_content.tpl",
+    "ru": {
+      "name": "Варианты оплаты",
+      "description": "<div class=\"ab__mb_motivation_type-list\">\n    <div class=\"ab__mb_motivation_type\">\n        <div class=\"ab__mb_motivation_type_description\">\n            <div class=\"ab__mb_motivation_type_icons\">\n                <img src=\"images/ab__motivation_block/icon-apple-pay.svg\" width=\"55\" alt=\"Apple Pay\">\n                <img src=\"images/ab__motivation_block/icon-google-pay.svg\" width=\"55\" alt=\"Google Pay\">\n                <img src=\"images/ab__motivation_block/icon-mastercard.svg\" width=\"35\" alt=\"Mastercard\">\n                <img src=\"images/ab__motivation_block/icon-visa.svg\" width=\"55\" alt=\"Visa\">\n            </div>\n            <div class=\"ab__mb_motivation_type_name\">\n                <span class=\"ab__mb_motivation_type_name_link\">Наличные, банковская карта, кредит/рассрочка, безналичный расчет для юридических лиц</span>\n            </div>\n            <div class=\"ab__mb_motivation_type_desc\"></div>\n        </div>\n        <div class=\"ab__mb_motivation_type_more\"><a href=\"payment-and-shipping/\" title=\"\" target=\"_blank\">Подробнее</a><span class=\"ut2-icon-outline-info cm-tooltip\" title=\"Это демо-контент\"></span></div>\n    </div>\n</div>"
+    },
+    "uk": {
+      "name": "Варіанти оплати",
+      "description": "<div class=\"ab__mb_motivation_type-list\">\n    <div class=\"ab__mb_motivation_type\">\n        <div class=\"ab__mb_motivation_type_description\">\n            <div class=\"ab__mb_motivation_type_icons\">\n                <img src=\"images/ab__motivation_block/icon-apple-pay.svg\" width=\"55\" alt=\"Apple Pay\">\n                <img src=\"images/ab__motivation_block/icon-google-pay.svg\" width=\"55\" alt=\"Google Pay\">\n                <img src=\"images/ab__motivation_block/icon-mastercard.svg\" width=\"35\" alt=\"Mastercard\">\n                <img src=\"images/ab__motivation_block/icon-visa.svg\" width=\"55\" alt=\"Visa\">\n            </div>\n            <div class=\"ab__mb_motivation_type_name\">\n                <span class=\"ab__mb_motivation_type_name_link\">Готівка, банківська карта, кредит/розстрочка, безготівковий розрахунок для юридичних осіб</span>\n            </div>\n            <div class=\"ab__mb_motivation_type_desc\"></div>\n        </div>\n        <div class=\"ab__mb_motivation_type_more\"><a href=\"payment-and-shipping/\" title=\"\" target=\"_blank\">Докладніше</a><span class=\"ut2-icon-outline-info cm-tooltip\" title=\"Це демонстраційний вміст\"></span></div>\n    </div>\n</div>"
+    }
+  },
+  {
+    "name": "Warranty and returns",
+    "position": 120,
+    "icon_type": "nothing",
+    "icon_class": "",
+    "icon_color": "",
+    "description": "<div class=\"ab__mb_motivation_type-list\">\n    <div class=\"ab__mb_motivation_type\">\n        <div class=\"ab__mb_motivation_type_description\">\n            <div class=\"ab__mb_motivation_type_name\">\n                <span class=\"ab__mb_motivation_type_name_link\">Exchange/return of products of proper quality within <b>14 days</b></span>\n                <span class=\"ab__mb_motivation_type_name_link\">Official manufacturer's warranty: <b>12 months</b></span>\n            </div>\n        </div>\n        <div class=\"ab__mb_motivation_type_more\"><a href=\"exchange-and-return/\" title=\"\" target=\"_blank\">More details</a><span class=\"ut2-icon-outline-info cm-tooltip\" title=\"This is demo content\"></span></div>\n    </div>\n</div>",
+    "expanded_desktop": "Y",
+    "expanded_tablet": "Y",
+    "expanded_mobile": "Y",
+    "categories_ids": "",
+    "destination_ids": "",
+    "template_path": "addons/ab__motivation_block/blocks/components/item_templates/custom_content.tpl",
+    "ru": {
+      "name": "Гарантия и возврат",
+      "description": "<div class=\"ab__mb_motivation_type-list\">\n    <div class=\"ab__mb_motivation_type\">\n        <div class=\"ab__mb_motivation_type_description\">\n            <div class=\"ab__mb_motivation_type_name\">\n                <span class=\"ab__mb_motivation_type_name_link\">Обмен/возврат продукции надлежащего качества в течение <b>14 дней</b></span>\n                <span class=\"ab__mb_motivation_type_name_link\">Официальная гарантия производителя: <b>12 месяцев</b></span>\n            </div>\n        </div>\n        <div class=\"ab__mb_motivation_type_more\"><a href=\"exchange-and-return/\" title=\"\" target=\"_blank\">Подробнее</a><span class=\"ut2-icon-outline-info cm-tooltip\" title=\"Это демо-контент\"></span></div>\n    </div>\n</div>"
+    },
+    "uk": {
+      "name": "Гарантія та повернення",
+      "description": "<div class=\"ab__mb_motivation_type-list\">\n    <div class=\"ab__mb_motivation_type\">\n        <div class=\"ab__mb_motivation_type_description\">\n            <div class=\"ab__mb_motivation_type_name\">\n                <span class=\"ab__mb_motivation_type_name_link\">Обмін/повернення товарів належної якості протягом <b>14 днів</b></span>\n                <span class=\"ab__mb_motivation_type_name_link\">Офіційна гарантія виробника: <b>12 місяців</b></span>\n            </div>\n        </div>\n        <div class=\"ab__mb_motivation_type_more\"><a href=\"exchange-and-return/\" title=\"\" target=\"_blank\">Докладніше</a><span class=\"ut2-icon-outline-info cm-tooltip\" title=\"Це демонстраційний вміст\"></span></div>\n    </div>\n</div>"
+    }
+  },
+  {
+    "name": "Find similar",
+    "status": "D",
+    "position": 130,
+    "icon_type": "nothing",
+    "icon_class": "",
+    "icon_color": "",
+    "description": "",
+    "expanded_desktop": "N",
+    "expanded_tablet": "N",
+    "expanded_mobile": "N",
+    "categories_ids": "",
+    "destination_ids": "",
+    "template_path": "addons/ab__motivation_block/blocks/components/item_templates/product_categories_list.tpl",
+    "ru": {
+      "name": "Найдите похожие"
+    }
+  }
+]

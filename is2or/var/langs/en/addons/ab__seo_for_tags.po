@@ -1,0 +1,337 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ab__seo_for_tags"
+msgid "AB: SEO for tags pages"
+msgstr "AB: SEO for tags pages"
+
+msgctxt "Addons::description::ab__seo_for_tags"
+msgid "Adds SEO fields for tags pages"
+msgstr "Adds SEO fields for tags pages"
+
+msgctxt "Languages::ab__seo_for_tags"
+msgid "AB: SEO for tags pages"
+msgstr "AB: SEO for tags pages"
+
+msgctxt "SettingsOptions::ab__seo_for_tags::description_location"
+msgid "Tag description location"
+msgstr "Tag description location"
+
+msgctxt "SettingsVariants::ab__seo_for_tags::description_location::top"
+msgid "top"
+msgstr "top"
+
+msgctxt "SettingsVariants::ab__seo_for_tags::description_location::bottom"
+msgid "bottom"
+msgstr "bottom"
+
+msgctxt "SettingsOptions::ab__seo_for_tags::index_tag_pages"
+msgid "To index tags pages"
+msgstr "To index tags pages"
+
+msgctxt "SettingsTooltips::ab__seo_for_tags::index_tag_pages"
+msgid "When indexing is enabled, tags links are added to the XML-sitemap"
+msgstr "When indexing is enabled, tags links are added to the XML-sitemap"
+
+msgctxt "SettingsOptions::ab__seo_for_tags::noindex_tag_pages_without_products"
+msgid "Noindex tag pages without products"
+msgstr "Noindex tag pages without products"
+
+msgctxt "SettingsTooltips::ab__seo_for_tags::noindex_tag_pages_without_products"
+msgid "When enabled, tags pages without products will be not indexed. Checking only products status (independent of amount, price, etc)"
+msgstr "When enabled, tags pages without products will be not indexed. Checking only products status (independent of amount, price, etc)"
+
+msgctxt "Languages::ab__seo_for_tags.editing_tag"
+msgid "Editing tag SEO data"
+msgstr "Editing tag SEO data"
+
+msgctxt "Languages::ab__seo_for_tags.h1"
+msgid "H1 tag"
+msgstr "H1 tag"
+
+msgctxt "Languages::ab__seo_for_tags.description"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "Languages::ab__seo_for_tags.page_title"
+msgid "Page title"
+msgstr "Page title"
+
+msgctxt "Languages::ab__seo_for_tags.meta_description"
+msgid "Meta tag <code>description</code>"
+msgstr "Meta tag <code>description</code>"
+
+msgctxt "Languages::ab__seo_for_tags.meta_keywords"
+msgid "Meta tag <code>keywords</code>"
+msgstr "Meta tag <code>keywords</code>"
+
+msgctxt "Languages::ab__seo_for_tags.edit_seo_data"
+msgid "AB: Edit tag SEO data"
+msgstr "AB: Edit tag SEO data"
+
+msgctxt "Languages::ab__seo_for_tags.unknown_tag"
+msgid "Unknown tag"
+msgstr "Unknown tag"
+
+msgctxt "Languages::ab__sft.export_selected"
+msgid "AB: Export selected"
+msgstr "AB: Export selected"
+
+msgctxt "Languages::ab__sft.exim.remove_tags"
+msgid "Delete tags"
+msgstr "Delete tags"
+
+msgctxt "Languages::ab__sft.exim.remove_tags.text"
+msgid "Delete all existing tags before import"
+msgstr "Delete all existing tags before import"
+
+msgctxt "Languages::ab__sft.settings"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "Languages::ab__seo_for_tags.export"
+msgid "AB: SEO for tags pages: Export"
+msgstr "AB: SEO for tags pages: Export"
+
+msgctxt "Languages::ab__seo_for_tags.import"
+msgid "AB: SEO for tags pages: Import"
+msgstr "AB: SEO for tags pages: Import"
+
+msgctxt "Languages::ab__sft.form.seo_data"
+msgid "SEO-data"
+msgstr "SEO-data"
+
+msgctxt "Languages::ab__sft.form.links_generating"
+msgid "Links generating"
+msgstr "Links generating"
+
+msgctxt "Languages::ab__sft.form.generate_by_cron"
+msgid "Generate by Cron"
+msgstr "Generate by Cron"
+
+msgctxt "Languages::ab__sft.form.generate_by_cron.tooltip"
+msgid "When checked, links to products with this tag will be created by Cron-task. Otherwise, only in manual mode"
+msgstr "When checked, links to products with this tag will be created by Cron-task. Otherwise, only in manual mode"
+
+msgctxt "Languages::ab__sft.form.links_generating_rules"
+msgid "Rules of generating"
+msgstr "Rules of generating"
+
+msgctxt "Languages::ab__sft.form.links_generating.description"
+msgid "Please attend! Existing links that don't match specified conditions will be deleted by generating."
+msgstr "Please attend! Existing links that don't match specified conditions will be deleted by generating."
+
+msgctxt "Languages::ab__seo_for_tags.conditions.all"
+msgid "all"
+msgstr "all"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.any"
+msgid "any"
+msgstr "any"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.true"
+msgid "true"
+msgstr "true"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.false"
+msgid "false"
+msgstr "false"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.set"
+msgid "If [set] of these conditions are [set_value]"
+msgstr "If [set] of these conditions are [set_value]"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.price"
+msgid "Price"
+msgstr "Price"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.feature"
+msgid "Feature"
+msgstr "Feature"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.category"
+msgid "Category"
+msgstr "Category"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.amount"
+msgid "Amount"
+msgstr "Amount"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.popularity"
+msgid "Popularity"
+msgstr "Popularity"
+
+msgctxt "Languages::ab__seo_for_tags.conditions.names.weight"
+msgid "Weight"
+msgstr "Weight"
+
+msgctxt "Languages::ab__sft.cron_links"
+msgid "Use following command to generate tags links by Cron:"
+msgstr "Use following command to generate tags links by Cron:"
+
+msgctxt "Languages::ab__sft.generate_button"
+msgid "Generate links"
+msgstr "Generate links"
+
+msgctxt "Languages::ab__sft.generating_manage"
+msgid "Links generating"
+msgstr "Links generating"
+
+msgctxt "Languages::ab__sft.generating.error"
+msgid "Links generating failed"
+msgstr "Links generating failed"
+
+msgctxt "Languages::ab__sft.generating.notification.array"
+msgid "Added links - [added], removed links - [deleted]"
+msgstr "Added links - [added], removed links - [deleted]"
+
+msgctxt "Languages::ab__sft.generating.notification.string"
+msgid "Links generated successfully"
+msgstr "Links generated successfully"
+
+msgctxt "Languages::ab__sft.comet.title"
+msgid "Links generating"
+msgstr "Links generating"
+
+msgctxt "Languages::ab__sft.comet.init"
+msgid "Loading tags"
+msgstr "Loading tags"
+
+msgctxt "Languages::ab__emd.tabs.tags.view"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "Languages::ab__emd.setting.header.tags.view"
+msgid "Tags general pattern"
+msgstr "Tags general pattern"
+
+msgctxt "Languages::ab__emd.setting.tags.view.action"
+msgid "Redefine categories meta tags"
+msgstr "Redefine categories meta tags"
+
+msgctxt "Languages::ab__emd.setting.tags.view.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Page tag <code>title</code> pattern"
+
+msgctxt "Languages::ab__emd.setting.tags.view.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Meta tag <code>description</code> pattern"
+
+msgctxt "Languages::ab__emd.setting.tags.view.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Meta tag <code>keywords</code> pattern"
+
+msgctxt "Languages::ab__emd.setting.tags.view.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Do not redefine"
+
+msgctxt "Languages::ab__emd.setting.tags.view.action.override_empty"
+msgid "Redefine empty"
+msgstr "Redefine empty"
+
+msgctxt "Languages::ab__emd.setting.tags.view.action.override_all"
+msgid "Redefine all"
+msgstr "Redefine all"
+
+msgctxt "Languages::ab__sft.placeholders.tag"
+msgid "<b>[tag]</b> — tag name (as is)<br> <b>[tag_lower]</b> — tag name (lowercase)<br> <b>[Tag]</b> — tag name (the first letter is uppercase others are lowercase)<br> <b>[TAG]</b> — tag name (uppercase)"
+msgstr "<b>[tag]</b> — tag name (as is)<br>"
+"<b>[tag_lower]</b> — tag name (lowercase)<br>"
+"<b>[Tag]</b> — tag name (the first letter is uppercase others are lowercase)<br>"
+"<b>[TAG]</b> — tag name (uppercase)"
+
+msgctxt "Languages::ab__sft.placeholders.h1"
+msgid "<b>[h1_tag]</b> — h1 value (as is)<br> <b>[h1_tag_lower]</b> — h1 value (lowercase)<br> <b>[H1_tag]</b> — h1 value (the first letter is uppercase others are lowercase)<br> <b>[H1_TAG]</b> — h1 value (uppercase)"
+msgstr "<b>[h1_tag]</b> — h1 value (as is)<br>"
+"<b>[h1_tag_lower]</b> — h1 value (lowercase)<br>"
+"<b>[H1_tag]</b> — h1 value (the first letter is uppercase others are lowercase)<br>"
+"<b>[H1_TAG]</b> — h1 value (uppercase)"
+
+msgctxt "Languages::ab__sft.help"
+msgid "Help"
+msgstr "Help"
+
+msgctxt "Languages::ab__sft_help.docs"
+msgid "Read <a target=\"_blank\" href=\"https://cs-cart.alexbranding.com/en/ab__seo_for_tags.doc\">the documentation</a>."
+msgstr "Read <a target=\"_blank\" href=\"https://cs-cart.alexbranding.com/en/ab__seo_for_tags.doc\">the documentation</a>."
+
+msgctxt "Languages::privilege_groups.ab__seo_for_tags"
+msgid "AB: SEO for tags pages"
+msgstr "AB: SEO for tags pages"
+
+msgctxt "Languages::privileges.ab__sft.data.manage"
+msgid "Manage tags SEO data"
+msgstr "Manage tags SEO data"
+
+msgctxt "Languages::privileges.ab__sft.data.view"
+msgid "View tags SEO data"
+msgstr "View tags SEO data"
+
+msgctxt "Languages::ab__sft.autoinstall.no_demodata"
+msgid "File with demo data is missing"
+msgstr "File with demo data is missing"
+
+msgctxt "Languages::ab__sft.autoinstall.tags_where_not_filled"
+msgid "Failed to fill up demo tags"
+msgstr "Failed to fill up demo tags"
+
+msgctxt "Languages::ab__sft.autoinstall.tags_where_filled"
+msgid "Demo tags [tags] is filled up successfully"
+msgstr "Demo tags [tags] is filled up successfully"
+
+msgctxt "Languages::ab__sft.layouts"
+msgid "Layouts"
+msgstr "Layouts"
+
+msgctxt "Languages::ab__sft.layouts.layout_was_reset"
+msgid "Layout was reset"
+msgstr "Layout was reset"
+
+msgctxt "Languages::ab__sft.layouts.choose_layout_to_reset"
+msgid "Choose layout to reset"
+msgstr "Choose layout to reset"
+
+msgctxt "Languages::ab__sft.layouts.table.dispatch_description"
+msgid "Type of the layout page"
+msgstr "Type of the layout page"
+
+msgctxt "Languages::ab__sft.layouts.table.dispatch"
+msgid "Dispatch"
+msgstr "Dispatch"
+
+msgctxt "Languages::ab__sft.layouts.table.layouts"
+msgid "Layouts"
+msgstr "Layouts"
+
+msgctxt "Languages::ab__sft.layouts.table.action"
+msgid "Action"
+msgstr "Action"
+
+msgctxt "Languages::ab__sft.layouts.table.get_file"
+msgid "Get file"
+msgstr "Get file"
+
+msgctxt "Languages::ab__sft.layouts.layout_is_not_found"
+msgid "Layout is not found"
+msgstr "Layout is not found"
+
+msgctxt "Languages::ab__sft.layouts.header"
+msgid "There are displaying all layout pages, added by the addon, on this page. You can reset pages in any layout to the default state. Also you can download xml-file of a layout page and import it manually."
+msgstr "There are displaying all layout pages, added by the addon, on this page. You can reset pages in any layout to the default state. Also you can download xml-file of a layout page and import it manually."
+
+msgctxt "Languages::ab__sft.layouts.table.create_new_location"
+msgid "- Create a new page -"
+msgstr "- Create a new page -"
+
+msgctxt "Languages::ab__sft.upgrade_notifications.2.0.0.layout_changed.title"
+msgid "Attention! Layout actualization is needed"
+msgstr "Attention! Layout actualization is needed"
+
+msgctxt "Languages::ab__sft.upgrade_notifications.2.0.0.layout_changed.text"
+msgid "You have to actualize your layouts after update.To make this procedure easier we added <a href=\"[url]\">the page for layouts recovery</a>. More details read in the add-on documentation."
+msgstr "You have to actualize your layouts after update.To make this procedure easier we added <a href=\"[url]\">the page for layouts recovery</a>. More details read in the add-on documentation."
+
+#. Alexbranding. Do not modify this file manually!

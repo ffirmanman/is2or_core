@@ -1,0 +1,48 @@
+<?php
+/* Smarty version 5.4.3, created on 2026-03-10 08:44:09
+  from 'tygh:addons/price_per_unit/hooks/products/list_price_block.post.tpl' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
+  'version' => '5.4.3',
+  'unifunc' => 'content_69afafa9a5c763_78847352',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'd0e370f8815881aa98210b6398d4b7ac06f2ed25' => 
+    array (
+      0 => 'addons/price_per_unit/hooks/products/list_price_block.post.tpl',
+      1 => 1767831050,
+      2 => 'tygh',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+))) {
+function content_69afafa9a5c763_78847352 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = '/var/www/is2or/design/themes/responsive/templates/addons/price_per_unit/hooks/products';
+if ($_smarty_tpl->getValue('runtime')['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
+$_smarty_tpl->getSmarty()->getRuntime('Capture')->open($_smarty_tpl, "template_content", null, null);
+$_smarty_tpl->assign('price_per_unit', "price_per_unit_".((string)$_smarty_tpl->getValue('obj_id')), false, NULL);
+if ($_smarty_tpl->getSmarty()->getModifierCallback('trim')($_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, $_smarty_tpl->getValue('price_per_unit')))) {?>
+    <?php echo $_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, $_smarty_tpl->getValue('price_per_unit'));?>
+
+<?php }
+$_smarty_tpl->getSmarty()->getRuntime('Capture')->close($_smarty_tpl);
+if ($_smarty_tpl->getSmarty()->getModifierCallback('trim')($_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, 'template_content'))) {
+if ($_smarty_tpl->getValue('auth')['area'] == "A") {?><span class="cm-template-box template-box" data-ca-te-template="addons/price_per_unit/hooks/products/list_price_block.post.tpl" id="<?php echo $_smarty_tpl->getSmarty()->getFunctionHandler('set_id')->handle(array('name'=>"addons/price_per_unit/hooks/products/list_price_block.post.tpl"), $_smarty_tpl);?>
+"><div class="cm-template-icon icon-edit ty-icon-edit hidden"></div><?php echo $_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, 'template_content');?>
+<!--[/tpl_id]--></span><?php } else {
+echo $_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, 'template_content');
+}
+}
+} else {
+$_smarty_tpl->assign('price_per_unit', "price_per_unit_".((string)$_smarty_tpl->getValue('obj_id')), false, NULL);
+if ($_smarty_tpl->getSmarty()->getModifierCallback('trim')($_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, $_smarty_tpl->getValue('price_per_unit')))) {?>
+    <?php echo $_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, $_smarty_tpl->getValue('price_per_unit'));?>
+
+<?php }
+}
+}
+}

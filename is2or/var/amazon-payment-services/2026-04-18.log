@@ -1,0 +1,3 @@
+2026-04-18 @ 12:04:52 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDIy","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"42290CF20F6","amount":"90500","captured_amount":"90500","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200030696360","response_code":"12000","reason_text":"Success","order_status":"P"}}
+

@@ -1,0 +1,1 @@
+Expanded availability strategy settings

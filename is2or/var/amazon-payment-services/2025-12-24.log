@@ -1,0 +1,57 @@
+2025-12-24 @ 00:17:45 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"36365AD1891","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=36365AD1891","command":"AUTHORIZATION","currency":"SAR","amount":"19600","order_description":"Order #363","customer_ip":"182.1.218.134","customer_email":"eki_yeheskiel@hotmail.co.id","customer_name":"Test Reza","phone_number":"+966 50 123 4567","merchant_extra1":363,"merchant_extra2":86,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"02665d8b05108dedf303f50c85d81d34bf700819794281eefed24ed56de36b4c"}}
+
+2025-12-24 @ 00:18:05 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=36365AD1891","Response":{"gateway":"Credit \/ Debit Card","payment_mode":"AUTHORIZATION","merchant_reference":"36365AD1891","amount":196,"captured_amount":0,"order_status":"I"}}
+
+2025-12-24 @ 01:38:04 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"364452A2E79","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=364452A2E79","command":"PURCHASE","currency":"SAR","amount":"19600","order_description":"Order #364","customer_ip":"182.1.218.134","customer_email":"eki_yeheskiel@hotmail.co.id","customer_name":"Test Reza","phone_number":"+966 50 123 4567","merchant_extra1":364,"merchant_extra2":86,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"3cf24429ed9530a19809f981e9b216698e0a85e01c9b40deff76b5c4a63a6460"}}
+
+2025-12-24 @ 01:38:36 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=364452A2E79","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"364452A2E79","amount":"19600","captured_amount":0,"command":"CAPTURE","fort_id":"169996200028888698","response_code":"00034","reason_text":"Success","order_status":"P","generated_response_signature":"724339a34903873dbf9381bcd9f494fb03b99ee5da1c6d1e32675b8a120810c7","response_message":"Operation not allowed : CAPTURE","signature":"724339a34903873dbf9381bcd9f494fb03b99ee5da1c6d1e32675b8a120810c7","merchant_identifier":"eDELUatJ","access_code":"JcyOB7EKcLJlCr28TNxk","language":"en","currency":"SAR","status":"00"}}
+
+2025-12-24 @ 01:41:00 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"3656F06B8F5","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3656F06B8F5","command":"PURCHASE","currency":"SAR","amount":"19600","order_description":"Order #365","customer_ip":"182.1.218.134","customer_email":"eki_yeheskiel@hotmail.co.id","customer_name":"Test Reza","phone_number":"+966 50 123 4567","merchant_extra1":365,"merchant_extra2":86,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"aad950e4102403ae3874527aa89af2d859f94d9f68b6d7f0211af6b8454cfbdf"}}
+
+2025-12-24 @ 01:41:27 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3656F06B8F5","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"3656F06B8F5","amount":"19600","captured_amount":"19600","response_type":"PAYMENT_SUCCESS","command":"AUTHORIZATION","fort_id":"169996200028888735","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2025-12-24 @ 01:43:22 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzY2","Response":{"gateway":"cc","payment_mode":"AUTHORIZATION","merchant_reference":"3660680E989","amount":"9200","captured_amount":"9200","response_type":"PAYMENT_SUCCESS","command":"AUTHORIZATION","fort_id":"169996200028888762","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2025-12-24 @ 01:59:58 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzY4","Response":{"gateway":"cc","payment_mode":"AUTHORIZATION","merchant_reference":"3684ED5F55A","amount":"89.00","captured_amount":0,"order_status":"I"}}
+
+2025-12-24 @ 02:22:27 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=Mzcw","Response":{"gateway":"cc","payment_mode":"AUTHORIZATION","merchant_reference":"3709ED6985F","amount":"89.00","captured_amount":0,"order_status":"I"}}
+
+2025-12-24 @ 02:27:47 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=Mzcy","Response":{"gateway":"cc","payment_mode":"AUTHORIZATION","merchant_reference":"372D09F592C","amount":"9200","captured_amount":"9200","response_type":"PAYMENT_SUCCESS","command":"AUTHORIZATION","fort_id":"169996200028889410","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2025-12-24 @ 02:31:42 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=Mzcz","Response":{"gateway":"cc","payment_mode":"AUTHORIZATION","merchant_reference":"3738429604E","amount":"89.00","captured_amount":0,"order_status":"I"}}
+
+2025-12-24 @ 02:36:51 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=Mzc0","Response":{"gateway":"cc","payment_mode":"AUTHORIZATION","merchant_reference":"374B9F78B56","amount":"89.00","captured_amount":0,"order_status":"I"}}
+
+2025-12-24 @ 11:51:54 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"375D0AFED55","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=375D0AFED55","command":"PURCHASE","currency":"SAR","amount":"16900","order_description":"Order #375","customer_ip":"182.253.75.15","customer_email":"eki_yeheskiel@hotmail.co.id","customer_name":"Test Reza","phone_number":"+966 50 123 4567","merchant_extra1":375,"merchant_extra2":86,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"1a61fd08f6db561eb568a5cff4f0c7ce7e5a6af942501854117d1186b84b7543"}}
+
+2025-12-24 @ 11:52:18 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=375D0AFED55","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"375D0AFED55","amount":169,"captured_amount":0,"order_status":"I"}}
+
+2025-12-24 @ 11:52:36 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=375D0AFED55","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"375D0AFED55","amount":"1.69","captured_amount":0,"reason_text":"No valid response from Gateway","order_status":"I"}}
+
+2025-12-24 @ 11:54:43 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"3764F453F03","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3764F453F03","command":"PURCHASE","currency":"SAR","amount":"16900","order_description":"Order #376","customer_ip":"182.253.75.15","customer_email":"eki_yeheskiel@hotmail.co.id","customer_name":"Test Reza","phone_number":"+966 50 123 4567","merchant_extra1":376,"merchant_extra2":86,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"cd96587ddd28f91e128eda2c814e0b7d6dc8c9944adb2fb536e5415deebd52f6"}}
+
+2025-12-24 @ 11:55:52 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=3764F453F03","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"3764F453F03","amount":"16900","captured_amount":"16900","response_type":"PAYMENT_SUCCESS","command":"AUTHORIZATION","fort_id":"169996200028897096","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2025-12-24 @ 11:59:34 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"377DDB6337E","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=377DDB6337E","command":"PURCHASE","currency":"SAR","amount":"7900","order_description":"Order #377","customer_ip":"182.253.75.15","customer_email":"eki_yeheskiel@hotmail.co.id","customer_name":"Test Reza","phone_number":"+966 50 123 4567","merchant_extra1":377,"merchant_extra2":86,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"3aa1160600ca5b6a62a5bdc93e0ef2d649c052411d1fa2ec762d982d3b8e4510"}}
+
+2025-12-24 @ 12:00:12 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=377DDB6337E","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"377DDB6337E","amount":"7900","captured_amount":"7900","response_type":"PAYMENT_SUCCESS","command":"AUTHORIZATION","fort_id":"169996200028897184","response_code":"12000","reason_text":"Success","order_status":"P"}}
+

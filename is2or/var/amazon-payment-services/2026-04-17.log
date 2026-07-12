@@ -1,0 +1,12 @@
+2026-04-17 @ 09:52:23 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDE1","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"415CC5B411C","amount":"3500","captured_amount":"3500","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200030675213","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-04-17 @ 10:58:39 - CC - Form Request:
+{"Request Url":"https:\/\/sbcheckout.payfort.com\/FortAPI\/paymentPage","Params":{"access_code":"JcyOB7EKcLJlCr28TNxk","merchant_identifier":"eDELUatJ","merchant_reference":"4162A4F6E42","language":"en","return_url":"https:\/\/online.is2or.com\/index.php?dispatch=payment_notification.aps_return&merchant_reference=4162A4F6E42","command":"PURCHASE","currency":"SAR","amount":"43400","order_description":"Order #416","customer_ip":"2407:0:3007:8149:608c:6d26:7ccc:87af","customer_email":"arifyandwip.work@gmail.com","customer_name":"Arifyan Prayogo","phone_number":"+966 56 342 4232","merchant_extra1":416,"merchant_extra2":99,"merchant_extra3":"cc","app_programming":"PHP","app_framework":"Multi-Vendor","app_ver":"4.19.1.SP1","app_plugin":"MULTIVENDOR","app_plugin_version":"4.19.1.SP1","signature":"dd7161d12e9ce557e14c0d40d72f6e8810f9a3f162379f50bb2c1619693a256b"}}
+
+2026-04-17 @ 11:01:17 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.aps_return&merchant_reference=4162A4F6E42","Response":{"gateway":"","payment_mode":"PURCHASE","merchant_reference":"4162A4F6E42","amount":"43400","captured_amount":"43400","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200030676784","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-04-17 @ 17:05:10 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDIw","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"420C0D38E03","amount":"4000","captured_amount":"4000","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200030684575","response_code":"12000","reason_text":"Success","order_status":"P"}}
+

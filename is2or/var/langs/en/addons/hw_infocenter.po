@@ -1,0 +1,153 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "LanguageName"
+msgid "Localized language name"
+msgstr "English"
+
+msgctxt "Addons::name::hw_infocenter"
+msgid "Help center for customers and/or vendors"
+msgstr "Help center for customers and/or vendors"
+
+msgctxt "Addons::description::hw_infocenter"
+msgid "Elevate your customer support experience by providing a centralized hub for FAQs, guides, and resources."
+msgstr "Elevate your customer support experience by providing a centralized hub for FAQs, guides, and resources."
+
+msgctxt "Languages::infocenter"
+msgid "Help Center"
+msgstr "Help Center"
+
+msgctxt "Languages::infocenter_menu_description"
+msgid "Manage Help Center categories and articles"
+msgstr "Manage Help Center categories and articles"
+
+msgctxt "Languages::infocenter.content"
+msgid "Content"
+msgstr "Content"
+
+msgctxt "Languages::infocenter.single"
+msgid "Single"
+msgstr "Single"
+
+msgctxt "Languages::infocenter.name"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "Languages::infocenter.add"
+msgid "Add"
+msgstr "Add"
+
+msgctxt "Languages::infocenter.edit"
+msgid "Edit"
+msgstr "Edit"
+
+msgctxt "Languages::infocenter.new"
+msgid "New"
+msgstr "New"
+
+msgctxt "Languages::infocenter.homepage.hello"
+msgid "Hello!"
+msgstr "Hello!"
+
+msgctxt "Languages::infocenter.homepage.welcome"
+msgid "How can we help you?"
+msgstr "How can we help you?"
+
+msgctxt "Languages::infocenter.homepage.choose"
+msgid "Choose a category"
+msgstr "Choose a category"
+
+msgctxt "Languages::infocenter.search.placeholder"
+msgid "Find the necessary information here."
+msgstr "Find the necessary information here."
+
+msgctxt "Languages::infocenter.home"
+msgid "Home"
+msgstr "Home"
+
+msgctxt "Languages::infocenter.back"
+msgid "Back to category"
+msgstr "Back to category"
+
+msgctxt "Languages::infocenter.more"
+msgid "View more"
+msgstr "View more"
+
+msgctxt "Languages::infocenter.ask.feedback"
+msgid "Was the information found helpful?"
+msgstr "Was the information found helpful?"
+
+msgctxt "Languages::infocenter.ask.yes"
+msgid "Yes"
+msgstr "Yes"
+
+msgctxt "Languages::infocenter.ask.no"
+msgid "No"
+msgstr "No"
+
+msgctxt "Languages::infocenter.feedback.yes"
+msgid "We are glad we could help you. :) We can't wait to see you again!"
+msgstr "We are glad we could help you. :) We can't wait to see you again!"
+
+msgctxt "Languages::infocenter.feedback.no"
+msgid "Let us know what we haven't included! Your feedback helps us improve."
+msgstr "Let us know what we haven't included! Your feedback helps us improve."
+
+msgctxt "Languages::infocenter.feedback.no.info"
+msgid "Please do not add personal details in the message."
+msgstr "Please do not add personal details in the message."
+
+msgctxt "Languages::infocenter.feedback.send"
+msgid "Send"
+msgstr "Send"
+
+msgctxt "Languages::infocenter.feedback.thankyou"
+msgid "Thank you for the feedback!"
+msgstr "Thank you for the feedback!"
+
+msgctxt "Languages::infocenter.search.title"
+msgid "Search results"
+msgstr "Search results"
+
+msgctxt "Languages::infocenter.search.results"
+msgid "[count] results found"
+msgstr "[count] results found"
+
+msgctxt "Languages::infocenter.search.no.results"
+msgid "No results were found."
+msgstr "No results were found."
+
+msgctxt "Languages::infocenter.forms.list"
+msgid "Available forms"
+msgstr "Available forms"
+
+msgctxt "Languages::discussion_tab_infocenter"
+msgid "Help Center"
+msgstr "Help Center"
+
+msgctxt "Languages::discussion_title_infocenter"
+msgid "Help Center"
+msgstr "Help Center"
+
+msgctxt "SettingsSections::hw_infocenter::license_updates"
+msgid "License & Updates"
+msgstr "License & Updates"
+
+msgctxt "SettingsOptions::hw_infocenter::license"
+msgid "License number"
+msgstr "License number"
+
+msgctxt "SettingsOptions::hw_infocenter::license_info_generate"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::hw_license_generator"
+msgid "[ Click here to generate license key ]"
+msgstr "[ Click here to generate license key ]"
+
+msgctxt "Languages::hw_license_generator_info"
+msgid "To be able to upgrade to a new version using CS-Cart Upgrade Center you will need have a valid license key."
+msgstr "To be able to upgrade to a new version using CS-Cart Upgrade Center you will need have a valid license key."

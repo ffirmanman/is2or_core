@@ -1,0 +1,1 @@
+{style src="addons/ab__seo_brands/styles.less"}

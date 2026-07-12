@@ -1,0 +1,68 @@
+<?php
+/* Smarty version 4.3.0, created on 2025-05-26 04:51:45
+  from '/srv/projects/is2or.com/public_html/design/themes/responsive/templates/addons/ab__preload/hooks/ab__fast_navigation/first_level_item.pre.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.3.0',
+  'unifunc' => 'content_683455d19a7d60_17179934',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'a20df6708e115467b74bd2b183685bd568fd30fd' => 
+    array (
+      0 => '/srv/projects/is2or.com/public_html/design/themes/responsive/templates/addons/ab__preload/hooks/ab__fast_navigation/first_level_item.pre.tpl',
+      1 => 1747376510,
+      2 => 'tygh',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_683455d19a7d60_17179934 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/srv/projects/is2or.com/public_html/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'/srv/projects/is2or.com/public_html/app/functions/smarty_plugins/modifier.trim.php','function'=>'smarty_modifier_trim',),2=>array('file'=>'/srv/projects/is2or.com/public_html/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
+if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
+$_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);
+if ($_smarty_tpl->tpl_vars['properties']->value['enable_preload'] == smarty_modifier_enum("YesNo::YES")) {?>
+    <?php ob_start();
+echo htmlspecialchars((string) (($tmp = $_smarty_tpl->tpl_vars['settings']->value['abt__device'] ?? null)===null||$tmp==='' ? "desktop" ?? null : $tmp), ENT_QUOTES, 'UTF-8');
+$_prefixVariable3=ob_get_clean();
+$_smarty_tpl->_assignInScope('setting_name', "ab__fn_number_of_columns_".$_prefixVariable3);?>
+    <?php ob_start();
+echo htmlspecialchars((string) (($tmp = $_smarty_tpl->tpl_vars['settings']->value['abt__device'] ?? null)===null||$tmp==='' ? "desktop" ?? null : $tmp), ENT_QUOTES, 'UTF-8');
+$_prefixVariable4=ob_get_clean();
+$_smarty_tpl->_assignInScope('pov', "pov_".$_prefixVariable4);?>
+    <?php $_smarty_tpl->_assignInScope('max_items', $_smarty_tpl->tpl_vars['properties']->value[$_smarty_tpl->tpl_vars['setting_name']->value]);?>
+    
+    <?php if ($_smarty_tpl->tpl_vars['max_items']->value > $_smarty_tpl->tpl_vars['item']->index) {?>
+        <?php $_smarty_tpl->_assignInScope('ab__preload', $_smarty_tpl->tpl_vars['properties']->value[$_smarty_tpl->tpl_vars['pov']->value] ,false ,2);?>
+    <?php }
+}
+$_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);
+if (smarty_modifier_trim($_smarty_tpl->smarty->ext->_capture->getBuffer($_smarty_tpl, 'template_content'))) {
+if ($_smarty_tpl->tpl_vars['auth']->value['area'] == "A") {?><span class="cm-template-box template-box" data-ca-te-template="addons/ab__preload/hooks/ab__fast_navigation/first_level_item.pre.tpl" id="<?php echo smarty_function_set_id(array('name'=>"addons/ab__preload/hooks/ab__fast_navigation/first_level_item.pre.tpl"),$_smarty_tpl);?>
+"><div class="cm-template-icon icon-edit ty-icon-edit hidden"></div><?php echo $_smarty_tpl->smarty->ext->_capture->getBuffer($_smarty_tpl, 'template_content');?>
+<!--[/tpl_id]--></span><?php } else {
+echo $_smarty_tpl->smarty->ext->_capture->getBuffer($_smarty_tpl, 'template_content');
+}
+}
+} else {
+if ($_smarty_tpl->tpl_vars['properties']->value['enable_preload'] == smarty_modifier_enum("YesNo::YES")) {?>
+    <?php ob_start();
+echo htmlspecialchars((string) (($tmp = $_smarty_tpl->tpl_vars['settings']->value['abt__device'] ?? null)===null||$tmp==='' ? "desktop" ?? null : $tmp), ENT_QUOTES, 'UTF-8');
+$_prefixVariable5=ob_get_clean();
+$_smarty_tpl->_assignInScope('setting_name', "ab__fn_number_of_columns_".$_prefixVariable5);?>
+    <?php ob_start();
+echo htmlspecialchars((string) (($tmp = $_smarty_tpl->tpl_vars['settings']->value['abt__device'] ?? null)===null||$tmp==='' ? "desktop" ?? null : $tmp), ENT_QUOTES, 'UTF-8');
+$_prefixVariable6=ob_get_clean();
+$_smarty_tpl->_assignInScope('pov', "pov_".$_prefixVariable6);?>
+    <?php $_smarty_tpl->_assignInScope('max_items', $_smarty_tpl->tpl_vars['properties']->value[$_smarty_tpl->tpl_vars['setting_name']->value]);?>
+    
+    <?php if ($_smarty_tpl->tpl_vars['max_items']->value > $_smarty_tpl->tpl_vars['item']->index) {?>
+        <?php $_smarty_tpl->_assignInScope('ab__preload', $_smarty_tpl->tpl_vars['properties']->value[$_smarty_tpl->tpl_vars['pov']->value] ,false ,2);?>
+    <?php }
+}
+}
+}
+}

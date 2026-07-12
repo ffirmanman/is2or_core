@@ -1,0 +1,79 @@
+/*******************************************************************************************
+*   ___  _          ______                     _ _                _                        *
+*  / _ \| |         | ___ \                   | (_)              | |              © 2021   *
+* / /_\ | | _____  _| |_/ /_ __ __ _ _ __   __| |_ _ __   __ _   | |_ ___  __ _ _ __ ___   *
+* |  _  | |/ _ \ \/ / ___ \ '__/ _` | '_ \ / _` | | '_ \ / _` |  | __/ _ \/ _` | '_ ` _ \  *
+* | | | | |  __/>  <| |_/ / | | (_| | | | | (_| | | | | | (_| |  | ||  __/ (_| | | | | | | *
+* \_| |_/_|\___/_/\_\____/|_|  \__,_|_| |_|\__,_|_|_| |_|\__, |  \___\___|\__,_|_| |_| |_| *
+*                                                         __/ |                            *
+*                                                        |___/                             *
+* ---------------------------------------------------------------------------------------- *
+* This is commercial software, only users who have purchased a valid license and accept    *
+* to the terms of the License Agreement can install and use this program.                  *
+* ---------------------------------------------------------------------------------------- *
+* website: https://cs-cart.alexbranding.com                                                *
+*   email: info@alexbranding.com                                                           *
+*******************************************************************************************/
+.ab__buy-together {
+
+	&.owl-theme .owl-controls:not(.owl-controls-outside) .owl-buttons {
+        
+        div {
+            margin-top: -100px;
+        }
+		.owl-prev {
+		    left: 0 !important;
+
+		    .ut2_round() when (@abt__ut2_general_use_rounding = little) {
+				border-radius: 0 4px 4px 0;
+			}
+			.ut2_round() when (@abt__ut2_general_use_rounding = full) {
+				border-radius: 0 8px 8px 0;
+			}
+			.ut2_round();
+		}
+		.owl-next {
+			right: 0 !important;
+
+			.ut2_round() when (@abt__ut2_general_use_rounding = little) {
+				border-radius: 4px 0 0 4px;
+			}
+			.ut2_round() when (@abt__ut2_general_use_rounding = full) {
+				border-radius: 8px 0 0 8px;
+			}
+			.ut2_round();
+		}
+		@media screen and (max-width: 768px) {
+    		.owl-prev, .owl-next {
+        		display: none;
+    		}
+		}
+	}
+}
+
+@media screen and (max-width: 1023px) {
+    .ab__bt_plus.chain-plus:after {
+        top: 16px;
+    }
+}
+
+.ab__bt {
+	&_products_popup {
+    	margin-bottom: 0;
+	}
+	&_plus.chain-plus {
+        font-size: 30px;
+
+        @media screen and (min-width: 1024px) {
+        	&:after {
+                left: -11px;
+                margin-top: -21px;
+        	}
+    	}
+	}
+}
+
+.ty-buy-together-cart-items__list {
+    padding-left: 55px;
+    margin-top: -20px;
+}

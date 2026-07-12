@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<block_scheme scheme="1.0">
+<settings>
+<default_language>en</default_language>
+</settings>
+<location dispatch="pages.view?page_type=B" is_default="0" layout_id="6" object_ids="" custom_html="" position="170" lang_code="en" name="Blog" title="" meta_description="" meta_keywords="" is_frontend_editing_allowed="">
+<containers>
+<container position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A"/>
+<container position="HEADER" width="16" user_class="" linked_to_default="Y" status="A"/>
+<container position="CONTENT" width="16" user_class="" linked_to_default="Y" status="A">
+<grid width="16" user_class="" linked_to_default="Y" status="A" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" abt__ut2_extended="0" abt__ut2_padding="" abt__ut2_show_blocks_in_tabs="no" abt__ut2_use_lazy_load="N">
+<blocks>
+<block>
+<type><![CDATA[breadcrumbs]]></type>
+<properties>
+<template><![CDATA[common/breadcrumbs.tpl]]></template>
+</properties>
+<storefront_id><![CDATA[1]]></storefront_id>
+<lang_code><![CDATA[en]]></lang_code>
+<name><![CDATA[Breadcrumbs]]></name>
+<object_id><![CDATA[0]]></object_id>
+<object_type><![CDATA[]]></object_type>
+<content><![CDATA[]]></content>
+<availability/>
+<object_ids><![CDATA[]]></object_ids>
+<wrapper><![CDATA[]]></wrapper>
+<user_class><![CDATA[]]></user_class>
+<order><![CDATA[0]]></order>
+<status><![CDATA[A]]></status>
+<translations>
+<translation lang_code="ru"><![CDATA[Строка навигации]]></translation>
+<translation lang_code="uk"><![CDATA[Рядок навігації]]></translation>
+</translations>
+<contents/>
+</block>
+</blocks>
+</grid>
+<grid width="9" user_class="ty-blog-grid" linked_to_default="Y" status="A" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0" abt__ut2_extended="0" abt__ut2_padding="" abt__ut2_show_blocks_in_tabs="no" abt__ut2_use_lazy_load="N">
+<blocks>
+<block>
+<type><![CDATA[template]]></type>
+<properties>
+<template><![CDATA[addons/ab__seo_for_blog/blocks/static_templates/ab__sfb_post_info_short.tpl]]></template>
+<abt__ut2_demo_block_id><![CDATA[]]></abt__ut2_demo_block_id>
+</properties>
+<storefront_id><![CDATA[1]]></storefront_id>
+<lang_code><![CDATA[en]]></lang_code>
+<name><![CDATA[Blog info]]></name>
+<object_id><![CDATA[0]]></object_id>
+<object_type><![CDATA[]]></object_type>
+<content><![CDATA[]]></content>
+<availability/>
+<object_ids><![CDATA[]]></object_ids>
+<wrapper><![CDATA[]]></wrapper>
+<user_class><![CDATA[]]></user_class>
+<order><![CDATA[0]]></order>
+<status><![CDATA[A]]></status>
+<translations>
+<translation lang_code="ru"><![CDATA[Краткая информация о посте]]></translation>
+<translation lang_code="uk"><![CDATA[Коротка інформація про пост]]></translation>
+</translations>
+<contents/>
+</block>
+<block>
+<type><![CDATA[main]]></type>
+<properties><![CDATA[]]></properties>
+<storefront_id><![CDATA[1]]></storefront_id>
+<lang_code><![CDATA[en]]></lang_code>
+<name><![CDATA[Main Content]]></name>
+<object_id><![CDATA[0]]></object_id>
+<object_type><![CDATA[]]></object_type>
+<content><![CDATA[]]></content>
+<availability/>
+<object_ids><![CDATA[]]></object_ids>
+<wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+<user_class><![CDATA[]]></user_class>
+<order><![CDATA[1]]></order>
+<status><![CDATA[A]]></status>
+<translations>
+<translation lang_code="ru"><![CDATA[Главное содержимое]]></translation>
+<translation lang_code="uk"><![CDATA[Головний вміст]]></translation>
+</translations>
+<contents/>
+</block>
+</blocks>
+</grid>
+<grid width="5" user_class="ab__sfb-aside clearfix" linked_to_default="Y" status="A" offset="1" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" abt__ut2_extended="0" abt__ut2_padding="" abt__ut2_show_blocks_in_tabs="no" abt__ut2_use_lazy_load="N">
+<blocks>
+<block>
+<type><![CDATA[blog]]></type>
+<properties>
+<template><![CDATA[addons/blog/blocks/recent_posts.tpl]]></template>
+</properties>
+<storefront_id><![CDATA[1]]></storefront_id>
+<lang_code><![CDATA[en]]></lang_code>
+<name><![CDATA[Recent posts]]></name>
+<object_id><![CDATA[0]]></object_id>
+<object_type><![CDATA[]]></object_type>
+<content>
+<items>
+<filling><![CDATA[blog.recent_posts]]></filling>
+<period><![CDATA[A]]></period>
+<last_days><![CDATA[1]]></last_days>
+<limit><![CDATA[3]]></limit>
+</items>
+</content>
+<availability/>
+<object_ids><![CDATA[]]></object_ids>
+<wrapper><![CDATA[blocks/wrappers/sidebox_important.tpl]]></wrapper>
+<user_class><![CDATA[]]></user_class>
+<order><![CDATA[0]]></order>
+<status><![CDATA[A]]></status>
+<translations>
+<translation lang_code="ru"><![CDATA[Недавнее]]></translation>
+<translation lang_code="uk"><![CDATA[Нещодавнє]]></translation>
+</translations>
+<contents>
+<item>
+<object_id><![CDATA[0]]></object_id>
+<object_type><![CDATA[]]></object_type>
+<lang_code><![CDATA[ar]]></lang_code>
+<content>
+<items>
+<filling><![CDATA[blog.recent_posts]]></filling>
+<period><![CDATA[A]]></period>
+<last_days><![CDATA[1]]></last_days>
+<limit><![CDATA[3]]></limit>
+</items>
+</content>
+</item>
+<item>
+<object_id><![CDATA[0]]></object_id>
+<object_type><![CDATA[]]></object_type>
+<lang_code><![CDATA[ru]]></lang_code>
+<content>
+<items>
+<filling><![CDATA[blog.recent_posts]]></filling>
+<period><![CDATA[A]]></period>
+<last_days><![CDATA[1]]></last_days>
+<limit><![CDATA[3]]></limit>
+</items>
+</content>
+</item>
+<item>
+<object_id><![CDATA[0]]></object_id>
+<object_type><![CDATA[]]></object_type>
+<lang_code><![CDATA[uk]]></lang_code>
+<content>
+<items>
+<filling><![CDATA[blog.recent_posts]]></filling>
+<period><![CDATA[A]]></period>
+<last_days><![CDATA[1]]></last_days>
+<limit><![CDATA[3]]></limit>
+</items>
+</content>
+</item>
+</contents>
+</block>
+<block>
+<type><![CDATA[template]]></type>
+<properties>
+<template><![CDATA[addons/ab__seo_for_blog/blocks/static_templates/ab__sfb_author_data.tpl]]></template>
+<abt__ut2_demo_block_id><![CDATA[]]></abt__ut2_demo_block_id>
+</properties>
+<storefront_id><![CDATA[1]]></storefront_id>
+<lang_code><![CDATA[en]]></lang_code>
+<name><![CDATA[Author]]></name>
+<object_id><![CDATA[0]]></object_id>
+<object_type><![CDATA[]]></object_type>
+<content><![CDATA[]]></content>
+<availability/>
+<object_ids><![CDATA[]]></object_ids>
+<wrapper><![CDATA[blocks/wrappers/sidebox_important.tpl]]></wrapper>
+<user_class><![CDATA[]]></user_class>
+<order><![CDATA[1]]></order>
+<status><![CDATA[A]]></status>
+<translations>
+<translation lang_code="ru"><![CDATA[Автор]]></translation>
+<translation lang_code="uk"><![CDATA[Автор]]></translation>
+</translations>
+<contents/>
+</block>
+<block>
+<type><![CDATA[template]]></type>
+<properties>
+<template><![CDATA[addons/ab__seo_for_blog/blocks/static_templates/ab__sfb_table_of_content.tpl]]></template>
+<abt__ut2_demo_block_id><![CDATA[]]></abt__ut2_demo_block_id>
+</properties>
+<storefront_id><![CDATA[1]]></storefront_id>
+<lang_code><![CDATA[en]]></lang_code>
+<name><![CDATA[Contents]]></name>
+<object_id><![CDATA[0]]></object_id>
+<object_type><![CDATA[]]></object_type>
+<content><![CDATA[]]></content>
+<availability>
+<phone>
+<![CDATA[ ]]>
+</phone>
+</availability>
+<object_ids><![CDATA[]]></object_ids>
+<wrapper><![CDATA[blocks/wrappers/sidebox_important.tpl]]></wrapper>
+<user_class><![CDATA[ hidden-phone ]]></user_class>
+<order><![CDATA[2]]></order>
+<status><![CDATA[A]]></status>
+<translations>
+<translation lang_code="ru"><![CDATA[Содержание]]></translation>
+<translation lang_code="uk"><![CDATA[Зміст]]></translation>
+</translations>
+<contents/>
+</block>
+</blocks>
+</grid>
+</container>
+<container position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A"/>
+</containers>
+<translations>
+<translation lang_code="ru">
+<meta_keywords><![CDATA[]]></meta_keywords>
+<page_title><![CDATA[]]></page_title>
+<meta_description><![CDATA[]]></meta_description>
+<name>&#x411;&#x43B;&#x43E;&#x433;</name>
+</translation>
+<translation lang_code="uk">
+<meta_keywords><![CDATA[]]></meta_keywords>
+<page_title><![CDATA[]]></page_title>
+<meta_description><![CDATA[]]></meta_description>
+<name>Blog</name>
+</translation>
+</translations>
+</location>
+<location dispatch="ab__sfb_authors.view" is_default="0" layout_id="6" object_ids="" custom_html="" position="270" lang_code="en" name="AB: Blog author" title="" meta_description="" meta_keywords="" is_frontend_editing_allowed="">
+<containers>
+<container position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A"/>
+<container position="HEADER" width="16" user_class="" linked_to_default="Y" status="A"/>
+<container position="CONTENT" width="16" user_class="" linked_to_default="Y" status="A">
+<grid width="16" user_class="main-content-grid" linked_to_default="Y" status="A" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1" abt__ut2_extended="0" abt__ut2_padding="" abt__ut2_show_blocks_in_tabs="no" abt__ut2_use_lazy_load="N">
+<blocks>
+<block>
+<type><![CDATA[breadcrumbs]]></type>
+<properties>
+<template><![CDATA[common/breadcrumbs.tpl]]></template>
+</properties>
+<storefront_id><![CDATA[1]]></storefront_id>
+<lang_code><![CDATA[en]]></lang_code>
+<name><![CDATA[Breadcrumbs]]></name>
+<object_id><![CDATA[0]]></object_id>
+<object_type><![CDATA[]]></object_type>
+<content><![CDATA[]]></content>
+<availability/>
+<object_ids><![CDATA[]]></object_ids>
+<wrapper><![CDATA[]]></wrapper>
+<user_class><![CDATA[]]></user_class>
+<order><![CDATA[0]]></order>
+<status><![CDATA[A]]></status>
+<translations>
+<translation lang_code="ru"><![CDATA[Строка навигации]]></translation>
+<translation lang_code="uk"><![CDATA[Рядок навігації]]></translation>
+</translations>
+<contents/>
+</block>
+<block>
+<type><![CDATA[main]]></type>
+<properties><![CDATA[]]></properties>
+<storefront_id><![CDATA[1]]></storefront_id>
+<lang_code><![CDATA[en]]></lang_code>
+<name><![CDATA[Main Content]]></name>
+<object_id><![CDATA[0]]></object_id>
+<object_type><![CDATA[]]></object_type>
+<content><![CDATA[]]></content>
+<availability/>
+<object_ids><![CDATA[]]></object_ids>
+<wrapper><![CDATA[]]></wrapper>
+<user_class><![CDATA[]]></user_class>
+<order><![CDATA[0]]></order>
+<status><![CDATA[A]]></status>
+<translations>
+<translation lang_code="ru"><![CDATA[Главное содержимое]]></translation>
+<translation lang_code="uk"><![CDATA[Головний вміст]]></translation>
+</translations>
+<contents/>
+</block>
+</blocks>
+</grid>
+</container>
+<container position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A"/>
+</containers>
+<translations>
+<translation lang_code="ru">
+<meta_keywords><![CDATA[]]></meta_keywords>
+<page_title><![CDATA[]]></page_title>
+<meta_description><![CDATA[]]></meta_description>
+<name>AB: &#x410;&#x432;&#x442;&#x43E;&#x440; &#x431;&#x43B;&#x43E;&#x433;&#x430;</name>
+</translation>
+<translation lang_code="uk">
+<meta_keywords><![CDATA[]]></meta_keywords>
+<page_title><![CDATA[]]></page_title>
+<meta_description><![CDATA[]]></meta_description>
+<name>AB: &#x410;&#x432;&#x442;&#x43E;&#x440; &#x431;&#x43B;&#x43E;&#x433;&#x443;</name>
+</translation>
+</translations>
+</location>
+</block_scheme>

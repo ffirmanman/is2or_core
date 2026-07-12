@@ -1,0 +1,101 @@
+/*================= Manu ======================*/
+@media (min-width: 1025px) {
+    .container-fluid.header-grid.default-header .row-fluid {
+        max-width: 95% !important;
+    }
+}
+
+.ut2-menu.ut2-h__menu .ut2-menu__list {
+    //justify-content: space-evenly;
+    justify-content: center;
+}
+
+.ut2-menu__link__name {
+    text-transform: uppercase;
+}
+
+.ut2-menu__item.item-1st-no-drop {
+    padding: 0 30px;
+}
+
+.ut2-menu__link__in {
+    padding: 0 20px;
+}
+
+#abt__ut2_compared_products {
+    display: none;
+}
+
+/*================= Benefits ======================*/
+.benefit-art-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*================= Subscribe  ======================*/
+@media (min-width: 1025px) {
+    .ty-footer-form-block {
+        background: #fff;
+    }
+
+    .ty-footer-form-block__input .ty-btn__subscribe {
+        width: 140px;
+        border-radius: 0;
+    }
+
+    .subscribe-art {
+        padding: 0 200px 0 200px;
+    }
+}
+
+.ty-uppercase.ty-social-link__title {
+    display: none;
+}
+
+.ty-footer-form-block__input input[type="text"] {
+    border-radius: 0;
+    border: 1px solid;
+}
+
+.ty-footer-form-block__input input[type="text"] {
+    margin-right: 0;
+}
+
+.ty-footer-form-block__input .ty-btn__subscribe {
+    border-radius: 0;
+}
+
+/*================= Category  ======================*/
+.ab-fn-first-level.one_level {
+    border-bottom: 0px solid #d7d7d7;
+}
+
+.ab-fn-first-level {
+    border: 0px solid #d7d7d7;
+}
+
+.ab-fn-image-wrap {
+    border: 5px solid #0000002b;
+    border-radius: 3px;
+}
+
+/*================= Footer  ======================*/
+#sw_footer-general_1399 {
+    text-align: right;
+}
+
+.ut2-social-links a {
+    background: #e1e1e1;
+}
+
+.ut2-social-links a i::before {
+    color: #080808;
+}
+
+.ut2-social-links a:hover {
+    background: #1e1e1e45;
+}
+
+.fill--darck {
+    background: #000;
+}

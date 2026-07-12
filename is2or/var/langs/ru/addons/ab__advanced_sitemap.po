@@ -1,0 +1,468 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__advanced_sitemap"
+msgid "AB: Advanced sitemap"
+msgstr "AB: Расширенная карта сайта"
+
+msgctxt "Addons::description::ab__advanced_sitemap"
+msgid "Add-on adds XML and HTML sitemaps, XML images sitemap"
+msgstr "Модуль добавляет XML и HTML-карты сайта, XML-карту изображений"
+
+msgctxt "Languages::ab__advanced_sitemap"
+msgid "AB: Advanced sitemap"
+msgstr "AB: Расширенная карта сайта"
+
+msgctxt "SettingsSections::ab__advanced_sitemap::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::cron_key"
+msgid "Cron-key"
+msgstr "Cron-ключ"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::cron_key"
+msgid "Auto update requires key. Length must be between 10 and 20 chars (only latin letters and digits)"
+msgstr "Для автоматического выполнения обновления, наличие ключа обязательно. Длина должна составлять от 10 до 20 символов (только латинские буквы и цифры)"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::exclude_categories"
+msgid "Exclude categories"
+msgstr "Исключить категории"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::exclude_categories"
+msgid "Exclude categories from sitemaps:<br><ul> <li>don't exclude — show all categories</li> <li>without products — categories without products</li> <li>with products without amount — categories in which all products don't have amount</li> <li>with products without prices — categories in which all products don't have prices</li> <li>with products without amount and prices — categories in which all products don't have amount and prices</li> </ul>"
+msgstr "Исключать категории из карт сайта:<br><ul>"
+"<li>не исключать — отображать все категории</li>"
+"<li>без товаров — категории, не имеющие товаров</li>"
+"<li>с товарами без наличия — категории, у которых все товары не имеют наличия</li>"
+"<li>с товарами без цен — категории, у которых все товары не имеют цен</li>"
+"<li>с товарами без цен и наличия — категории, у которых все товары не имеют ни цен, ни наличия</li>"
+"</ul>"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::none"
+msgid "don't exclude"
+msgstr "не исключать"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::without_products"
+msgid "without products"
+msgstr "без товаров"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::without_product_amount"
+msgid "with products without amount"
+msgstr "с товарами без наличия"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::without_product_price"
+msgid "with products without prices"
+msgstr "с товарами без цен"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::without_product_amount_and_price"
+msgid "with products without amount and prices"
+msgstr "с товарами без цен и наличия"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::exclude_brands"
+msgid "Exclude brands"
+msgstr "Исключить бренды"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::exclude_brands"
+msgid "Exclude brands from sitemaps:<br><ul> <li>don't exclude — show all brands</li> <li>without products — brands without products</li> <li>with products without amount — brands in which all products don't have amount</li> <li>with products without prices — brands in which all products don't have prices</li> <li>with products without amount and prices — brands in which all products have neither amount nor prices</li> </ul>"
+msgstr "Исключать бренды из карт сайта:<br><ul>"
+"<li>не исключать — отображать все бренды</li>"
+"<li>без товаров — бренды, не имеющие товаров</li>"
+"<li>с товарами без наличия — бренды, у которых все товары не имеют наличия</li>"
+"<li>с товарами без цен — бренды, у которых все товары не имеют цен</li>"
+"<li>с товарами без цен и наличия — бренды, у которых все товары не имеют ни цен, ни наличия</li>"
+"</ul>"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::none"
+msgid "don't exclude"
+msgstr "не исключать"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::without_products"
+msgid "without products"
+msgstr "без товаров"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::without_product_amount"
+msgid "with products without amount"
+msgstr "с товарами без наличия"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::without_product_price"
+msgid "with products without prices"
+msgstr "с товарами без цен"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::without_product_amount_and_price"
+msgid "with products without amount and prices"
+msgstr "с товарами без цен и наличия"
+
+msgctxt "SettingsSections::ab__advanced_sitemap::xml_sitemap"
+msgid "XML sitemap"
+msgstr "XML-карта сайта"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::enable_xml_sitemap"
+msgid "Enable XML sitemap"
+msgstr "Включить XML-карту сайта"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_products"
+msgid "Include to sitemap"
+msgstr "Включить в карту сайта"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_categories"
+msgid "Include to sitemap"
+msgstr "Включить в карту сайта"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_pages"
+msgid "Include to sitemap"
+msgstr "Включить в карту сайта"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_blog"
+msgid "Include blog pages to sitemap"
+msgstr "Включить страницы блога в карту сайта"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_extended"
+msgid "Include to sitemap"
+msgstr "Включить в карту сайта"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_companies"
+msgid "Include companies in sitemap"
+msgstr "Компании в карте сайта"
+
+msgctxt "SettingsSections::ab__advanced_sitemap::html_sitemap"
+msgid "HTML sitemap"
+msgstr "HTML-карта сайта"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::enable_html_sitemap"
+msgid "Enable HTML sitemap"
+msgstr "Включить HTML-карту сайта"
+
+msgctxt "SettingsSections::ab__advanced_sitemap::xml_images_map"
+msgid "XML sitemap of images"
+msgstr "XML-карта изображений"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::enable_xml_images_map"
+msgid "Enable XML images map"
+msgstr "Включить XML-карту изображений"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::exclude_products"
+msgid "Exclude products"
+msgstr "Исключить товары"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::exclude_products"
+msgid "Exclude products from sitemaps:<br><ul> <li>don't exclude — show all active products</li> <li>without amount — products without amount</li> <li>without prices — products without prices</li> <li>without amount and prices — products without amount and prices</li> </ul>"
+msgstr "Исключить товары из карт сайта:<br><ul>"
+"<li>не исключать — отображать все активные товары</li>"
+"<li>без наличия — товары без наличия</li>"
+"<li>без цен — товары без цен</li>"
+"<li>без наличия и цен — товары без наличия и цен</li>"
+"</ul>"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_products::none"
+msgid "don't exclude"
+msgstr "не исключать"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_products::without_amount"
+msgid "without amount"
+msgstr "без наличия"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_products::without_price"
+msgid "without price"
+msgstr "без цены"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_products::without_amount_and_price"
+msgid "without amount and price"
+msgstr "без наличия и цены"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::exclude_products_variations"
+msgid "Exclude product variations from the sitemap"
+msgstr "Исключить вариации товаров из карты сайта"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::add_lastmod"
+msgid "Add last modified date"
+msgstr "Добавить дату последнего редактирования"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::add_lastmod"
+msgid "Adds tag <code>&lt;lastmod&gt;</code> for each feature type to the sitemap. The date will be the date of the sitemap generation"
+msgstr "Добавляет к карте сайта тег <code>&lt;lastmod&gt;</code> для каждого типа объектов. Датой будет выступать дата генерации карты сайта"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::products_settings"
+msgid "Products settings"
+msgstr "Настройки для товаров"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::products_changefreq"
+msgid "Change frequency"
+msgstr "Частота изменений"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::products_priority"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::feature_variants_settings"
+msgid "Feature variants settings (like Brand/Manufacturer)"
+msgstr "Настройки для вариантов характеристик (типа Бренд/Производитель)"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::feature_variants_changefreq"
+msgid "Change frequency"
+msgstr "Частота изменений"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::feature_variants_priority"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::categories_settings"
+msgid "Categories settings"
+msgstr "Настройки для категорий"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::categories_changefreq"
+msgid "Change frequency"
+msgstr "Частота изменений"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::categories_priority"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::custom_links_settings"
+msgid "Customer links settings"
+msgstr "Настройки для пользовательских ссылок"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::custom_links_changefreq"
+msgid "Change frequency"
+msgstr "Частота изменений"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::custom_links_priority"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::other_links_settings"
+msgid "Links settings for other add-ons"
+msgstr "Настройки для ссылок из других модулей"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::other_links_changefreq"
+msgid "Change frequency"
+msgstr "Частота изменений"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::other_links_priority"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::pages_settings"
+msgid "Pages settings"
+msgstr "Настройки для страниц"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::pages_changefreq"
+msgid "Change frequency"
+msgstr "Частота изменений"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::pages_priority"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::add_title_and_caption"
+msgid "Add <code>&lt;image:title&gt;</code> and <code>&lt;image:caption&gt;</code>"
+msgstr "Добавить <code>&lt;image:title&gt;</code> и <code>&lt;image:caption&gt;</code>"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::add_title_and_caption"
+msgid "Setting depends on the add-on \"AB: Automatic Alt and Title tags for images using templates\""
+msgstr "Настройка зависит от модуля \"AB: Автоматические теги Alt и Title для изображений по шаблонам\""
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::add_variation_features_description"
+msgid "Add feature values that will be used for creation of variation at <code>&lt;image:title&gt;</code> and <code>&lt;image:caption&gt;</code>"
+msgstr "Добавить значения характеристик, по которым создана вариация в <code>&lt;image:title&gt;</code> и <code>&lt;image:caption&gt;</code>"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::add_variation_features_description"
+msgid "Setting depends on add-ons \"AB: Automatic Alt and Title tags for images using templates\" and \"Product variations\".<br/> Pay attention! When the setting is active, time of sitemap generation will be increased that tends to increase demands to hardware of your server"
+msgstr "Настройка зависит от модулей \"AB: Автогенерация атрибутов Alt и Title для изображений\" и \"Вариации товаров\".<br/>"
+"Обратите внимание, что при включении данной настройки увеличивается время генерации карты сайта, что приводит к увеличению требований к аппаратному обеспечению Вашего сервера"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::add_vendor_offers"
+msgid "Add vendors' offers"
+msgstr "Добавить предложения продавцов"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::add_vendor_offers"
+msgid "Setting defines whether vendors' offers will be added to sitemap or not.<br/><code>Common Products for Vendors</code> add-on"
+msgstr "Настройка определяет будут ли добавлены предложения продавцов в карту сайта.<br/>Модуль <code>Общие товары для продавцов</code>"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::languages_locales_header"
+msgid "Locale settings"
+msgstr "Настройки локали"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::xml_sitemap_directory"
+msgid "XML sitemap directory"
+msgstr "Каталог для XML-карты сайта"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::xml_sitemap_directory"
+msgid "It is allowed to use letters of the Latin alphabet, numbers and symbols <code>/ _ . ~ - </code>. After changing this parameter, it is necessary to generate a sitemap"
+msgstr "Разрешается использовать буквы латинского алфавита, цифры и символы <code>/ _ . ~ - </code>. После изменения этого параметра необходимо выполнить генерацию карты сайта"
+
+msgctxt "Languages::ab__as.generate_sitemap_button"
+msgid "Generate sitemap"
+msgstr "Сгенерировать карту сайта"
+
+msgctxt "Languages::ab__as.map_generated"
+msgid "The map is generated!"
+msgstr "Карта сгенерирована!"
+
+msgctxt "Languages::ab__as.form.page_sitemap"
+msgid "Page name for sitemap"
+msgstr "Название страницы для карты сайта"
+
+msgctxt "Languages::ab__as.generate_link"
+msgid "Use the following command to generate sitemap by Cron:"
+msgstr "Для выполнения генерации карту сайта по Cron-у используйте эту команду:"
+
+msgctxt "Languages::ab__advanced_sitemap.help.server.title"
+msgid "Server option"
+msgstr "Настройка сервера"
+
+msgctxt "Languages::ab__advanced_sitemap.manage"
+msgid "Sitemap generation"
+msgstr "Генерация карты сайта"
+
+msgctxt "Languages::ab__as.generate_map"
+msgid "The sitemap isn't created yet. Go to the <a href=\"[url]\">sitemap generation page</a>"
+msgstr "Карта сайта ещё не создана. Перейдите на <a href=\"[url]\">страницу генерации карты сайта</a>"
+
+msgctxt "Languages::ab__as.view_sitemap"
+msgid "Sitemap is available by this link: <a target=\"_blank\" href=\"[url]\">[url]</a> or <a target=\"_blank\" href=\"[location]sitemap.xml\">[location]sitemap.xml</a>"
+msgstr "Файл Sitemap доступен по ссылками <a target=\"_blank\" href=\"[url]\">[url]</a> или <a target=\"_blank\" href=\"[location]sitemap.xml\">[location]sitemap.xml</a>"
+
+msgctxt "Languages::ab__as_links.manage"
+msgid "User's links in XML sitemap"
+msgstr "Пользовательские ссылки в XML-карте сайта"
+
+msgctxt "Languages::ab__as.new_link"
+msgid "New link"
+msgstr "Новая ссылка"
+
+msgctxt "Languages::ab__as.form.link"
+msgid "Link"
+msgstr "Ссылка"
+
+msgctxt "Languages::ab__as.error_link_exists"
+msgid "Link already exists: [link]"
+msgstr "Ссылка уже существует: [link]"
+
+msgctxt "Languages::ab__as.error_link_empty"
+msgid "Link to homepage already exists"
+msgstr "Ссылка на главную страницу уже существует"
+
+msgctxt "Languages::tt_addons_ab__advanced_sitemap_views_ab__as_links_manage_ab__as.form.link"
+msgid "Possible to use:<br /> <ul style=\"margin:10px 0;list-style-type:none\"><li>dispatch value — <code>categories.catalog</code> or <code>products.view&product_id=12</code>. The most preferred option, converting to all languages automatically</li> <li>relative links — <code>/catalog/</code> or <code>/mens-clothing/100g-pants/</code>. For each language, you must add a separate link manually!</li> <li>absolute links — <code>http://example.com/catalog/</code> or <code style=\"white-space:normal\">http://example.com/mens-clothing/100g-pants/</code>. Automatically converting to relative link</li><ul>"
+msgstr "Можно использовать:<br />"
+"<ul style=\"margin:10px 0;list-style-type:none\"><li>значение dispatch — <code>categories.catalog</code> или <code>products.view&product_id=12</code>. Наиболее предпочтительный вариант, конвертируется под все языки автоматически</li>"
+"<li>относительные ссылки — <code>/catalog/</code> или <code>/mens-clothing/100g-pants/</code>. Для каждого языка необходимо добавлять отдельную ссылку вручную!</li>"
+"<li>абсолютные ссылки — <code>http://example.com/catalog/</code> или <code style=\"white-space:normal\">http://example.com/mens-clothing/100g-pants/</code>. Автоматически конвертируется в относительную ссылку</li></ul>"
+
+msgctxt "Languages::ab__as.settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "Languages::ab__as.error.check_permissions"
+msgid "A sitemap file can't be created. Check files permissions"
+msgstr "Файл карты не может быть создан. Проверьте права на файлы"
+
+msgctxt "Languages::ab__as.errors.cron_key"
+msgid "Warning! CRON Key doesn't meet safety requirements"
+msgstr "Внимание! CRON Ключ не отвечает требованиям безопасности"
+
+msgctxt "Languages::ab__as.comet.adding_storefront"
+msgid "Adding main page link"
+msgstr "Добавление главной страницы"
+
+msgctxt "Languages::ab__as.comet.adding_custom_links"
+msgid "Adding custom links"
+msgstr "Добавление произвольных ссылок"
+
+msgctxt "Languages::ab__as.comet.adding_categories"
+msgid "Adding categories links"
+msgstr "Добавление ссылок категорий"
+
+msgctxt "Languages::ab__as.comet.adding_products"
+msgid "Adding products links"
+msgstr "Добавление ссылок товаров"
+
+msgctxt "Languages::ab__as.comet.adding_pages"
+msgid "Adding pages links"
+msgstr "Добавление ссылок страниц"
+
+msgctxt "Languages::ab__as.comet.adding_blog"
+msgid "Adding blog links"
+msgstr "Добавление ссылок блога"
+
+msgctxt "Languages::ab__as.comet.adding_brands"
+msgid "Adding brands links"
+msgstr "Добавление ссылок брендов"
+
+msgctxt "Languages::ab__as.comet.adding_vendors"
+msgid "Adding vendors links"
+msgstr "Добавление ссылок продавцов"
+
+msgctxt "Languages::ab__as.comet.adding_images"
+msgid "Adding images links"
+msgstr "Добавление ссылок изображений"
+
+msgctxt "Languages::ab__as.always"
+msgid "Always"
+msgstr "Всегда"
+
+msgctxt "Languages::ab__as.hourly"
+msgid "Hourly"
+msgstr "Каждый час"
+
+msgctxt "Languages::ab__as.daily"
+msgid "Daily"
+msgstr "Каждый день"
+
+msgctxt "Languages::ab__as.weekly"
+msgid "Weekly"
+msgstr "Еженедельно"
+
+msgctxt "Languages::ab__as.monthly"
+msgid "Monthly"
+msgstr "Ежемесячно"
+
+msgctxt "Languages::ab__as.yearly"
+msgid "Annually"
+msgstr "Ежегодно"
+
+msgctxt "Languages::ab__as.never"
+msgid "Never"
+msgstr "Никогда"
+
+msgctxt "Languages::ab__advanced_sitemap.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__as_help.docs"
+msgid "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__advanced_sitemap.doc'>documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__advanced_sitemap.doc'>документацией</a>."
+
+msgctxt "Languages::privilege_groups.ab__advanced_sitemap"
+msgid "AB: Advanced sitemap"
+msgstr "AB: Расширенная карта сайта"
+
+msgctxt "Languages::privileges.ab__as.manage"
+msgid "Manage data"
+msgstr "Управление данными"
+
+msgctxt "Languages::privileges.ab__as.view"
+msgid "View data"
+msgstr "Просмотр данных"
+
+msgctxt "Languages::ab__as.autoinstall.sitemap_true"
+msgid "XML sitemap has been successfully generated. You can view it by the link <a target=\"_blank\" href=\"[url]\">[url]</a>"
+msgstr "XML-карта сайта успешно сгенерирована. Просмотреть можно по ссылке <a target=\"_blank\" href=\"[url]\">[url]</a>"
+
+msgctxt "Languages::ab__as.autoinstall.sitemap_false"
+msgid "Failed to create XML sitemap"
+msgstr "Не удалось создать XML-карту сайта"
+
+msgctxt "Languages::ab__as.upgrade_notifications.2.0.0.update_cron_tasks.title"
+msgid "Update Cron-tasks"
+msgstr "Обновите Cron-задания"
+
+msgctxt "Languages::ab__as.upgrade_notifications.2.0.0.update_cron_tasks.text"
+msgid "Link for the Cron was changed. Please, update your Cron-tasks."
+msgstr "Ссылки для Cron были изменены. Пожалуйста, обновите Cron-задания."
+
+#. Alexbranding. Do not modify this file manually!

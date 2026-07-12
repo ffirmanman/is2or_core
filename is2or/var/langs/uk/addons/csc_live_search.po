@@ -1,0 +1,1368 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::csc_live_search"
+msgid "Live search add-on."
+msgstr "Живий пошук"
+
+msgctxt "Addons::description::csc_live_search"
+msgid "Irreplaceable search toolkit on your website. Developed by <b> <a href=\"https://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+msgstr "Унікальний інструмент пошуку товарів на вашому сайті. Розробник <b><a href=\"https://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+
+msgctxt "Languages::cls.csc_addons"
+msgid "CS-Commerce Addons"
+msgstr "Модулі CS-Commerce"
+
+msgctxt "Languages::csc_addons"
+msgid "CS-Commerce Addons"
+msgstr "Модулі CS-Commerce"
+
+msgctxt "Languages::csc_live_search"
+msgid "Live search add-on"
+msgstr "Модуль Живого пошуку"
+
+msgctxt "Languages::cls.settings"
+msgid "General settings"
+msgstr "Основні налаштування"
+
+msgctxt "Languages::cls.title_general_settings"
+msgid "General settings"
+msgstr "Основні налаштування"
+
+msgctxt "Languages::cls.tab_general"
+msgid "General settings"
+msgstr "Основні налаштування"
+
+msgctxt "Languages::cls.menu"
+msgid "Menu"
+msgstr "Меню"
+
+msgctxt "Languages::cls.rate_us"
+msgid "Like this addon? Rate it!"
+msgstr "Поставити оцінку модулю"
+
+msgctxt "Languages::cls.other_addons"
+msgid "Other our addons"
+msgstr "Інші наші модулі →"
+
+msgctxt "Languages::cls.addon_upgrades"
+msgid "Add-on upgrades"
+msgstr "Оновлення модуля"
+
+msgctxt "Languages::cls.license_error"
+msgid "License error"
+msgstr "Помилка ліцензії"
+
+msgctxt "Languages::cls.current_v"
+msgid "Installed version"
+msgstr "Встановлено версію"
+
+msgctxt "Languages::cls.new_v"
+msgid "New add-on version"
+msgstr "Нова версія модуля"
+
+msgctxt "Languages::cls.actual_version_installed"
+msgid "The latest version is installed"
+msgstr "Ви використовуєте останню версію модуля"
+
+msgctxt "Languages::cls.prolongate"
+msgid "Prolongate subscription"
+msgstr "Продовжити передплату"
+
+msgctxt "Languages::cls.days_left"
+msgid "<b>[n]</b> day left until the end of the subscription|<b>[n]</b> days left until the end of the subscription"
+msgstr "До кінця підписки <b>[n] день</b> |До кінця підписки <b>[n] дня</b> |До кінця підписки <b>[n] днів</b>"
+
+msgctxt "Languages::cls.subscription_expired"
+msgid "Upgrade subscription expired"
+msgstr "Підписка на оновлення закінчилася"
+
+msgctxt "Languages::cls.prolongate_discount"
+msgid "Renew your subscription with a <b>30% discount until [date]</b>"
+msgstr "Продовжуйте передплату зі знижкою <b>30% до [date]</b>"
+
+msgctxt "Languages::cls.upgrade"
+msgid "Upgrade center"
+msgstr "Центр оновлень"
+
+msgctxt "Languages::cls.feedback"
+msgid "Have questions? Mail us!"
+msgstr "Є питання? Пишіть нам!"
+
+msgctxt "Languages::cls.feedback_info"
+msgid "Have questions about Live search add-on addon by cs-commerce.com<br>or you have any ideas for improving the functionality? Mail us!"
+msgstr "Є питання щодо роботи модуля Модуль Живого пошуку від cs-commerce.com<br> чи є ідеї щодо покращення функціоналу? Пишіть нам!"
+
+msgctxt "Languages::cls.installation_warning"
+msgid "Installation was not completed automatically. User action is needed. Please, <a href='[url]'>go to this page</a> and check red block instructions."
+msgstr "Встановлення модуля не пройшло автоматично. Потрібна дія з боку користувача. Будь ласка, <a href='[url]'>пройдіть за посиланням</a> та дотримуйтесь інструкцій у червоному блоці"
+
+msgctxt "Languages::cls.installation_was_not_completed"
+msgid "Installation was not completed by file system access restrictions, or Live search addon initial file has been deleted from website ROOT folder.<br>Please, <a href='[url]' class=\"cm-ajax\" data-ca-target-id=\"clsWarningInstallation\">click this link</a> to copy initial file to website root folder.<br>If action is not completed success, please, <a href='[download]'>Download file from this link</a> and put it to ROOT folder of your website manually. Downloaded file strongly must have cls.php name."
+msgstr "Встановлення не було завершено повністю через обмеження прав на запис на вашому сервері, або вихідний файл модуля Живого пошуку було видалено з кореневої папки веб-сайту.<br> Будь ласка, <a href = '[url]' class=\"cm-ajax\" data-ca-target-id = \"clsWarningInstallation\">натисніть цю посилання</a> , щоб скопіювати вихідний файл до кореневої папки веб-сайту.<br> Якщо дія не завершилася успішно, будь ласка, <a href='[download]'>завантажте файл за цим посиланням</a> і вручну помістіть його в кореневу папку вашого сайту. Завантажуваний файл обов&#39;язково повинен мати назву <b>cls.php</b>"
+
+msgctxt "Languages::cls.show_more"
+msgid "Show more products"
+msgstr "показати ще"
+
+msgctxt "Languages::cls.total_found"
+msgid "Total found products"
+msgstr "Усього знайдено товарів"
+
+msgctxt "Languages::cls.featured_products"
+msgid "Featured products"
+msgstr "рекомендовані товари"
+
+msgctxt "Languages::cls.found_products"
+msgid "Products search result"
+msgstr "Результат пошуку товарів"
+
+msgctxt "Languages::cls.browse_products_by_category"
+msgid "Browse products by category for "
+msgstr "Фільтрувати пошук за категоріями для запиту"
+
+msgctxt "Languages::cls.back_to_all_cats"
+msgid "Back to all categories"
+msgstr "Повернутися до всіх категорій"
+
+msgctxt "Languages::cls.storefronts_categories"
+msgid "Categories from friendly stores"
+msgstr "Категорії із дружніх магазинів"
+
+msgctxt "Languages::cls.text_pages_and_blog"
+msgid "Information pages"
+msgstr "Інформаційні сторінки"
+
+msgctxt "Languages::cls.brand_pages"
+msgid "Brands"
+msgstr "Бренди"
+
+msgctxt "Languages::cls.vendor_pages"
+msgid "Vendor stores"
+msgstr "Магазини продавців"
+
+msgctxt "Languages::cls.porpose_correction"
+msgid "You may be looking for:"
+msgstr "Можливо ви шукаєте:"
+
+msgctxt "Languages::cls.popular_searches"
+msgid "Popular search phrases"
+msgstr "Популярні пошукові фрази"
+
+msgctxt "Languages::cls.found_categories"
+msgid "Found categories"
+msgstr "Категорії"
+
+msgctxt "Languages::cls.allow_storefronts"
+msgid "Allowed storefronts"
+msgstr "Дозволені вітрини"
+
+msgctxt "Languages::cls.allow_storefronts_tooltip"
+msgid "Select the storefronts where you want to search for categories. "
+msgstr "Виберіть вітрини, за якими ви хочете шукати категорії"
+
+msgctxt "Languages::cls.autoredirect"
+msgid "Autoredirect when found 1 product"
+msgstr "Авторедирект на знайдений товар"
+
+msgctxt "Languages::cls.autoredirect_tooltip"
+msgid "If found 1 product, on press search button customer will be redirected to product page"
+msgstr "Якщо знайдено один товар, то при натисканні на кнопку пошуку покупця буде переадресовано відразу на сторінку знайденого товару"
+
+msgctxt "Languages::cls.block_enter_press"
+msgid "Block Enter button press "
+msgstr "Блокувати кнопку ENTER"
+
+msgctxt "Languages::cls.block_enter_press_tooltip"
+msgid "On enter press button user will not be redirected to search results page"
+msgstr "При натисканні на кнопку ENTER користувач не буде перекинутий на сторінку результатів пошуку"
+
+msgctxt "Languages::cls.brands_feature_id"
+msgid "Brand feature"
+msgstr "Характеристика бренду"
+
+msgctxt "Languages::cls.brands_limit"
+msgid "Display no more than"
+msgstr "Відображати не більше"
+
+msgctxt "Languages::cls.cats_limit"
+msgid "Display no more than"
+msgstr "Відображати не більше"
+
+msgctxt "Languages::cls.characters_limit"
+msgid "Min. chars to start search"
+msgstr "мін. кількість символів для старту пошуку"
+
+msgctxt "Languages::cls.characters_limit_tooltip"
+msgid "Live search will start searching for products when the number of entered characters is equal to or greater than the specified value"
+msgstr "Живий пошук почне шукати товари коли кількість введених символів дорівнюватиме або буде більше вказаного значення"
+
+
+msgctxt "Languages::cls.increase_popularity"
+msgid "Automatically increase the search popularity of a product"
+msgstr "Автоматично підвищувати пошукову популярність товару"
+
+msgctxt "Languages::cls.out_stock_end"
+msgid "Display out of stock products on end of the list"
+msgstr "Відображати наприкінці списку товари, яких немає на складі"
+
+msgctxt "Languages::cls.pb_limit"
+msgid "Display no more than"
+msgstr "Відображати не більше"
+
+msgctxt "Languages::cls.products_per_page"
+msgid "Products per request"
+msgstr "Виводити товарів за один запит"
+
+msgctxt "Languages::cls.search_blog"
+msgid "Search blog pages"
+msgstr "Шукати сторінки блогу"
+
+msgctxt "Languages::cls.search_brands"
+msgid "Search brands"
+msgstr "Шукати бренди"
+
+msgctxt "Languages::cls.search_by_features"
+msgid "Select features"
+msgstr "Виберіть характеристики"
+
+msgctxt "Languages::cls.search_by_features_tooltip"
+msgid "No select any feature if you need search on all product features. Is recommended to limit the search by selected features for better search performance."
+msgstr "Не вибирайте параметри, якщо вам потрібен пошук за всіма параметрами продуктів. Рекомендується обмежити пошук вибраними характеристиками підвищення продуктивності пошуку"
+
+msgctxt "Languages::cls.search_categories"
+msgid "Search categories"
+msgstr "Шукати категорії"
+
+msgctxt "Languages::cls.search_vendors"
+msgid "Search vendors"
+msgstr "Шукати продавців"
+
+msgctxt "Languages::cls.vendors_limit"
+msgid "Display no more than"
+msgstr "Відображати не більше"
+
+msgctxt "Languages::cls.search_on_category_metakeywords"
+msgid "Search on meta-keywords"
+msgstr "Пошук за мета-ключовими словами"
+
+msgctxt "Languages::cls.search_on_category_name"
+msgid "Search on category name"
+msgstr "Пошук за назвами категорій"
+
+msgctxt "Languages::cls.search_on_description"
+msgid "Search on product descriptions"
+msgstr "Пошук за описами товарів"
+
+msgctxt "Languages::cls.search_on_features"
+msgid "Search on product features"
+msgstr "Пошук по хар-кам товару"
+
+msgctxt "Languages::cls.search_on_keywords"
+msgid "Search on search words"
+msgstr "Пошук за ключовими словами пошуку"
+
+msgctxt "Languages::cls.search_on_metadesc"
+msgid "Search on meta-descriptions"
+msgstr "Пошук по мета-опису"
+
+msgctxt "Languages::cls.search_on_metakeywords"
+msgid "Search on meta-keywords"
+msgstr "Пошук у мета-ключових словах"
+
+msgctxt "Languages::cls.search_on_metatitle"
+msgid "Search on meta-title"
+msgstr "Пошук за мета-заголовками"
+
+msgctxt "Languages::cls.title_search_on_general_title"
+msgid "General search by fields"
+msgstr "Основні поля для пошуку"
+
+msgctxt "Languages::cls.title_search_on_general_title_no_speed"
+msgid "Additional search by fields"
+msgstr "Додаткові поля для пошуку"
+
+msgctxt "Languages::cls.search_on_general_title_no_speed_tooltip"
+msgid "<b>Search by additional fields is not performed if the search speed-up mode is enabled!</b>"
+msgstr "Пошук додаткових полів не здійснюється, якщо активовано режим <b>Максимального прискорення</b> пошуку!"
+
+msgctxt "Languages::cls.title_search_general_title"
+msgid "Extra settings"
+msgstr "Додаткові надбудови"
+
+msgctxt "Languages::cls.search_on_name"
+msgid "Search on product name"
+msgstr "Пошук у назві товару"
+
+msgctxt "Languages::cls.search_on_options"
+msgid "Search on product options"
+msgstr "Пошук у опціях товару"
+
+msgctxt "Languages::cls.search_on_pcode"
+msgid "Search on product code"
+msgstr "Пошук за артикулом товару"
+
+msgctxt "Languages::cls.search_on_product_id"
+msgid "Search on product ID field"
+msgstr "Пошук по полю ID товару"
+
+msgctxt "Languages::cls.search_on_short_description"
+msgid "Search on product short description"
+msgstr "Пошук за коротким описом товару"
+
+msgctxt "Languages::cls.search_on_tags"
+msgid "Search on product tags"
+msgstr "Пошук за тегами товару"
+
+msgctxt "Languages::cls.search_pages"
+msgid "Search pages"
+msgstr "Шукати інформаційні сторінки"
+
+msgctxt "Languages::cls.search_products"
+msgid "Search products"
+msgstr "Шукати товари"
+
+msgctxt "Languages::cls.search_storefront_categories"
+msgid "Search storefront categories"
+msgstr "Шукати категорії з інших вітрин"
+
+msgctxt "Languages::cls.search_storefront_categories_tooltip"
+msgid "You can search for categories also by all storefronts of your site"
+msgstr "Ви можете здійснювати пошук категорій так само і за іншими вітринами вашого сайту"
+
+msgctxt "Languages::cls.show_cart"
+msgid "Displaying the \"Add to cart\" button"
+msgstr "Відображення кнопки \&quot;До кошика\&quot;"
+
+msgctxt "Languages::cls.show_category"
+msgid "Show product category"
+msgstr "Показати категорію"
+
+msgctxt "Languages::cls.show_compare"
+msgid "Show \"Add to compare\" button"
+msgstr "Відображати кнопку \&quot;До списку порівняння\&quot;"
+
+msgctxt "Languages::cls.show_parent_category"
+msgid "Show parent category"
+msgstr "Відображати батьківську категорію"
+
+msgctxt "Languages::cls.show_price"
+msgid "Displaying the price"
+msgstr "Відображення ціни товару"
+
+msgctxt "Languages::cls.display"
+msgid "Display"
+msgstr "Відображати"
+
+msgctxt "Languages::cls.not_display"
+msgid "Don't display "
+msgstr "Не відображати"
+
+msgctxt "Languages::cls.display_authed"
+msgid "Show for logged in only"
+msgstr "Відображати лише залогіненим"
+
+msgctxt "Languages::cls.show_product_code"
+msgid "Show product code"
+msgstr "Відображати артикул товару"
+
+msgctxt "Languages::cls.show_wish"
+msgid "Show \"Add to wishlist\" button"
+msgstr "Відображати кнопку \&quot;У вибране\&quot;"
+
+msgctxt "Languages::cls.show_quick_view "
+msgid "Show \"Quick view\" button"
+msgstr "Відображати кнопку \&quot;Швидкий перегляд\&quot;"
+
+msgctxt "Languages::cls.sort_by"
+msgid "Sorting"
+msgstr "Сортування"
+
+msgctxt "Languages::cls.suggest_corrections"
+msgid "Suggest corrections"
+msgstr "Пропонувати виправлення"
+
+msgctxt "Languages::cls.suggest_corrections_tooltip"
+msgid "When on search results nothing found we can suggest same phrase with corrections. Based on free service Yandex Speller."
+msgstr "Коли результат пошуку не дав результату, можна пропонувати виправлення для пошукової фрази. Зроблено на базі безкоштовного сервісу Yandex Speller"
+
+msgctxt "Languages::cls.suggest_products_categories"
+msgid "Show search based categories filter"
+msgstr "Відобразити фільтр за категоріями на основі результатів пошуку"
+
+msgctxt "Languages::cls.suggest_products_categories_tooltip"
+msgid "Will be displayed categories in which the products were found. User will be able to specify the search by selecting one or more categories that will be of interest to him."
+msgstr "Буде відображено категорії товарів, у яких було знайдено товари. Користувач зможе уточнити пошук вибравши одну або кілька категорій, які йому будуть цікаві"
+
+msgctxt "Languages::cls.tab_elements"
+msgid "Display elements"
+msgstr "Елементи відображення"
+
+msgctxt "Languages::cls.tab_search_settings"
+msgid "Product search settings "
+msgstr "Налаштування пошуку товарів"
+
+msgctxt "Languages::cls.tab_storefronts"
+msgid "Storefronts search"
+msgstr "Пошук за вітринами"
+
+msgctxt "Languages::cls.title_ttl_search_elements"
+msgid "Setup search objects"
+msgstr "Налаштуйте об&#39;єкти пошуку"
+
+msgctxt "Languages::cls.title_ttl_serch_on_storefronts"
+msgid "Search storefronts categories"
+msgstr "Шукати категорії в інших вітринах"
+
+msgctxt "Languages::cls.guest"
+msgid "Guest"
+msgstr "Гість"
+
+msgctxt "Languages::ls.requests"
+msgid "Requests"
+msgstr "Запити"
+
+msgctxt "Languages::cls.clicks"
+msgid "Clicks"
+msgstr "Кліки"
+
+msgctxt "Languages::cls.click"
+msgid "Click"
+msgstr "Клік"
+
+msgctxt "Languages::cls.history_per_product"
+msgid "History per product"
+msgstr "Історія по товарах"
+
+msgctxt "Languages::cls.history_per_request"
+msgid "History per requests"
+msgstr "Історія запитів"
+
+msgctxt "Languages::cls.history_per_user"
+msgid "History per user"
+msgstr "Історія користувачам"
+
+msgctxt "Languages::cls.history_per_word"
+msgid "History per search phrase"
+msgstr "Історія пошукових фраз"
+
+msgctxt "Languages::cls.synonyms"
+msgid "Search synonyms"
+msgstr "Синоніми пошуку"
+
+msgctxt "Languages::cls.new_synonym"
+msgid "New Synonym"
+msgstr "Новий Синонім"
+
+msgctxt "Languages::cls.synonyms_status"
+msgid "Enable/Disable Synonyms"
+msgstr "Вкл/Викл Синоніми"
+
+msgctxt "Languages::cls.synonyms_status_ttl"
+msgid "With synonyms enabled, the search will work based on synonyms for a specific search phrase. For example: You have added the synonym \"Mobile phone\" to the search phrase \"phone\", so the search will search for both Mobile phone  and phones"
+msgstr "При включених синонімах пошук буде працювати з урахуванням синонімів до конкретної пошукової фрази. Наприклад: Ви додали до пошукової фрази &quot;Мікрохвильова піч&quot; синонім &quot;Мікрохвильова піч&quot;, таким чином пошук буде шукати і мікрохвильові печі та мікрохвильові печі"
+
+msgctxt "Languages::cls.synonyms_ttl"
+msgid "Synonyms can be not only individual words but whole phrases. Start typing a word or phrase and press ENTER when you have finished entering a phrase or you want to start typing a new one."
+msgstr "Синонімами може бути лише окремі слова а й цілі фрази. Почніть вводити слово або фразу та натисніть ENTER коли закінчили введення фрази або для того щоб почати вводити нову"
+
+msgctxt "Languages::cls.stop_word"
+msgid "If the search query contains phrase"
+msgstr "Якщо пошуковий запит містить фразу"
+
+msgctxt "Languages::cls.contain_stop_words"
+msgid "Do not display products that contain the following phrases"
+msgstr "Не відображати товари, які містять наступні фрази"
+
+msgctxt "Languages::cls.contain_stop_words_ttl"
+msgid "Stop-words can be not only individual words but whole phrases. Start typing a word or phrase and press ENTER when you have finished entering a phrase or you want to start typing a new one."
+msgstr "Стоп-словами може бути лише окремі слова а й цілі фрази. Почніть вводити слово або фразу та натисніть ENTER коли закінчили введення фрази або для того щоб почати вводити нову. Вкажіть фрази, товари, які містять які, не виводяться, при збігу пошукової фрази"
+
+msgctxt "Languages::cls.stop_words_status"
+msgid "Enable/Disable Stop-words"
+msgstr "Увімк./Викл. Стоп-слова"
+
+msgctxt "Languages::cls.new_stop_word"
+msgid "Add stop-word"
+msgstr "Додати стоп-слово"
+
+msgctxt "Languages::cls.stop_words_status_ttl"
+msgid "Change status to \"OFF\" if you don't want use stop-words on search process."
+msgstr "Змініть статус на \&quot;OFF\&quot; якщо ви не хочете використовувати стоп-слова в процесі пошуку"
+
+msgctxt "Languages::cls.clsm_motivation_text_ru"
+msgid "Search motivation phrases"
+msgstr "Мотиваційні фрази для вікна пошуку"
+
+msgctxt "Languages::cls.clsm_motivation_text_en"
+msgid "Search motivation phrases"
+msgstr "Мотиваційні фрази для вікна пошуку"
+
+msgctxt "Languages::cls.clsm_motivation_text_ru_tooltip"
+msgid "Search motivation phrases can be not only individual words but whole phrases. Start typing a word or phrase and press ENTER when you have finished entering a phrase or you want to start typing a new one."
+msgstr "Мотиваційними фразами може бути лише окремі слова а й цілі фрази. Почніть вводити слово або фразу та натисніть ENTER коли закінчили введення фрази або для того щоб почати вводити нову"
+
+msgctxt "Languages::cls.clsm_status"
+msgid "Enable/Disable Search motivation"
+msgstr "Увімк./Викл Мотивацію пошуку"
+
+msgctxt "Languages::cls.clsm_status_ttl"
+msgid "Change status to \"OFF\" if you don't want use Search motivation function."
+msgstr "Змініть статус на \&quot;OFF\&quot; якщо ви не хочете використовувати функцію мотивації пошуку"
+
+msgctxt "Languages::cls.title_clsm_title"
+msgid "Search motivation"
+msgstr "Мотивація пошуку"
+
+msgctxt "Languages::cls.show_phrases_rec_products"
+msgid "Suggest featured products"
+msgstr "Пропонувати рекомендовані товари"
+
+msgctxt "Languages::cls.show_phrases_rec_products_ttl"
+msgid "Change status to \"OFF\" if you don't want to show featured products by search phrases."
+msgstr "Поміняйте статус на \&quot;OFF\&quot; якщо ви не хочете відображати рекомендовані товари до пошукових фраз"
+
+msgctxt "Languages::cls.suggest_phrases"
+msgid "Suggest serach phrases"
+msgstr "Пропонувати пошукові фрази"
+
+msgctxt "Languages::cls.suggest_phrases_ttl"
+msgid "Enable this feature if you want to display search phrases when the user starts typing a query. Search phrases will be displayed only relevant to the user's query."
+msgstr "Увімкніть цю функцію, якщо ви хочете показувати пошукові фрази під час початку введення користувачем запиту. Пошукові фрази будуть виводитись лише релевантні запиту користувача"
+
+msgctxt "Languages::cls.speedup_cluster_size"
+msgid "Cluster size"
+msgstr "Розмір кластера"
+
+msgctxt "Languages::css.scaner_finish"
+msgid "Products was indexed success!"
+msgstr "Товари успішно проіндексовані!"
+
+msgctxt "Languages::cls.speedup_cluster_size_tooltip"
+msgid "The cluster size affects the total number of product groups. For most languages, the optimal cluster size is 2 characters. But for some languages, where one character is a group of sounds, or even a whole word, then for such languages you need to choose 1 as cluster size."
+msgstr "Розмір кластера впливає підсумкова кількість груп товарів. Для більшості мов оптимальний розмір кластера 2 символи. Але для деяких мов, де один символ це група звуків, або навіть ціле слово - для таких мов потрібно вибирати розмір кластера 1"
+
+msgctxt "Languages::cls.speedup_cron_key"
+msgid "Cron-key"
+msgstr "Ключ для запуску по крону"
+
+msgctxt "Languages::cls.speedup_cron_key_tooltip"
+msgid "Change this key if you want keep indexation link private."
+msgstr "Змініть крон-ключ, якщо хочете тримати посилання на запуск процесу індексації в секреті"
+
+msgctxt "Languages::cls.speedup_exclude_import"
+msgid "Skip indexation when import is runing"
+msgstr "Не індексувати товари під час імпорту"
+
+msgctxt "Languages::cls.speedup_exclude_import_tooltip"
+msgid "Product indexation process takes some time, unchecking the checkbox speed up the import process, but the indexing process will need to be started manually or by cron "
+msgstr "Процес індексації товару займає деякий час, відключення індексації прискорює процес імпорту, але запуск індексації потрібно буде провести вручну або за cron після завершення імпорту"
+
+msgctxt "Languages::cls.speedup_use_on_admin"
+msgid "Use speedup on admi panel"
+msgstr "Використовувати прискорювач пошуку на панелі адміністратора"
+
+msgctxt "Languages::cls.title_general_info"
+msgid "General info"
+msgstr "Загальна інформація"
+
+msgctxt "Languages::cls.title_speedup_tech_settings"
+msgid "Settings"
+msgstr "Налаштування"
+
+msgctxt "Languages::cls.search_speedup_indexation"
+msgid "Products Indexation"
+msgstr "Індексація товарів"
+
+msgctxt "Languages::cls.search_speedup_settings"
+msgid "Speed-up settings"
+msgstr "Налаштування прискорювача"
+
+msgctxt "Languages::cls.speedup"
+msgid "Search speedup"
+msgstr "Прискорювач пошуку"
+
+msgctxt "Languages::cls.clss_status"
+msgid "Speed-up status<br>for storefront" 
+msgstr "Статус прискорювача<br> для вітрини"
+
+msgctxt "Languages::cls.clss_admin_status"
+msgid "Speed-up status<br>for admin panel" 
+msgstr "Статус прискорювача<br> для адмінки"
+
+msgctxt "Languages::cls.clss_status_ttl"
+msgid "You can enable speedup only for storefront, or completely disable using toggles." 
+msgstr "Ви можете увімкнути прискорення тільки для вітрини або повністю вимкнути за допомогою перемикачів"
+
+msgctxt "Languages::cls.clss_admin_status_ttl"
+msgid "You can enable speedup only for admin panel only, or completely disable using toggles." 
+msgstr "Ви можете увімкнути прискорення лише для адмінки або повністю вимкнути за допомогою перемикачів"
+
+msgctxt "Languages::csc_live_search.click_btn_below"
+msgid "Click button below to start indexation process"
+msgstr "Для запуску процесу індексації натисніть кнопку нижче"
+
+msgctxt "Languages::csc_live_search.cluster_size"
+msgid "Cluster size"
+msgstr "Розмір кластера"
+
+msgctxt "Languages::csc_live_search.duration_process"
+msgid "Process time"
+msgstr "Час виконання"
+
+msgctxt "Languages::csc_live_search.finished_success"
+msgid "Process of indexation was finished success!"
+msgstr "Процес індексації товарів успішно завершено!"
+
+msgctxt "Languages::csc_live_search.landing_title"
+msgid "Products indexation page"
+msgstr "Сторінка індексації товарів"
+
+msgctxt "Languages::csc_live_search.pause"
+msgid "Pause process"
+msgstr "Пауза"
+
+msgctxt "Languages::csc_live_search.process_will_be_stopped"
+msgid "The indexing process will be stopped if it is already running"
+msgstr "Не закривайте вкладку, поки процес не завершиться"
+
+msgctxt "Languages::css.no_product_for_index"
+msgid "All products already indexed. Clear indexes first if you want to make full reindexation"
+msgstr "Усі товари вже проіндексовані. Очистіть індекси, якщо ви хочете зробити повну реіндексацію товарів"
+
+msgctxt "Languages::cls.title_base_styles_settings"
+msgid "Base styles settings"
+msgstr "Базові налаштування стилів"
+
+msgctxt "Languages::cls.theme"
+msgid "Theme"
+msgstr "Тема"
+
+msgctxt "Languages::cls.modern"
+msgid "Modern"
+msgstr "Modern"
+
+msgctxt "Languages::cls.classic"
+msgid "Classic"
+msgstr "Classic"
+
+msgctxt "Languages::cls.active_elements_background"
+msgid "Header and hover background"
+msgstr "Фон шапки та наведення"
+
+msgctxt "Languages::cls.active_elements_color"
+msgid "Buttons color"
+msgstr "Колір активних кнопок"
+
+msgctxt "Languages::cls.link_color"
+msgid "Links color"
+msgstr "Колір посилань"
+
+msgctxt "Languages::cls.base_text_color"
+msgid "Text color"
+msgstr "Колір тексту"
+
+msgctxt "Languages::cls.border_radius"
+msgid "Border radius, px."
+msgstr "Радіус заокруглень, px"
+
+msgctxt "Languages::cls.color_type"
+msgid "Label color"
+msgstr "Колір лейблу"
+
+msgctxt "Languages::cls.fixed_color"
+msgid "One color for all "
+msgstr "Один колір для всіх"
+
+msgctxt "Languages::cls.one_of_ten"
+msgid "One of 10 preset"
+msgstr "Один із 10 встановлених"
+
+msgctxt "Languages::cls.rand_every_category"
+msgid "Randomly for each category"
+msgstr "Рандомно для кожної категорії"
+
+msgctxt "Languages::cls.color_type_tooltip"
+msgid "<b>One color for all:</b> fixed color for all category labels. Color can be selected by admin.<br><b>One of 10 preset:</b> every category will have one of 10 addon preset colors.<br><b>Randomly for each category:</b> every category will have their unique color hash."
+msgstr "<b>Один колір для всіх:</b> фіксований колір для всіх лейблів категорій. Адміністратор може сам вказати колір.<br> <b>Один з 10 попередньо встановлених:</b> кожна категорія матиме один з 10 попередньо встановлених модулем кольорів.<br> <b>Рандомно для кожної категорії:</b> кожна категорія буде мати свій унікальний автоматично згенерований колір"
+
+msgctxt "Languages::cls.search_history"
+msgid "Search history"
+msgstr "Історія пошуку"
+
+msgctxt "Languages::cls.search_history_menu_description"
+msgid "Search history of your products"
+msgstr "Відслідковуйте які пошукові запити привели покупців до ваших товарів"
+
+msgctxt "Languages::cls.search_motivation"
+msgid "Search motivation"
+msgstr "Мотивація пошуку"
+
+msgctxt "Languages::cls.search_phrases"
+msgid "Search phrases"
+msgstr "Пошукові фрази"
+
+msgctxt "Languages::cls.search_speedup"
+msgid "Search speed-up"
+msgstr "Прискорювач пошуку"
+
+msgctxt "Languages::cls.styles"
+msgid "Appearance settings"
+msgstr "Налаштування зовнішнього вигляду"
+
+msgctxt "Languages::cls.search_synonyms"
+msgid "Search synonyms"
+msgstr "Синоніми для пошуку"
+
+msgctxt "Languages::cls.show_category_gradient"
+msgid "Gradient"
+msgstr "Градієнт"
+
+msgctxt "Languages::cls.stop_words"
+msgid "Stop-words"
+msgstr "Стоп-слова"
+
+msgctxt "Languages::cls.stop_then"
+msgid "Then"
+msgstr "То тоді"
+
+msgctxt "Languages::cls.title_category_label"
+msgid "Product category label"
+msgstr "Лейбл категорії товару"
+
+msgctxt "Languages::cls.category_e"
+msgid "Label color"
+msgstr "Колір лейблу"
+
+msgctxt "Languages::css.cron_run_speedup_scaner"
+msgid "Cron job link"
+msgstr "Посилання для запуску Cron"
+
+msgctxt "Languages::css.example_run_php_script"
+msgid "Cron job command line example"
+msgstr "Запуск із командного рядка"
+
+msgctxt "Languages::css.full_cron_run_speedup_scaner_with"
+msgid "Cron job link with clear indexes"
+msgstr "Посилання для Cron з очищенням індексів"
+
+msgctxt "Languages::cls.speedup_scaner_instruction"
+msgid "The \"Search Speed-up\" feature can accelerator a search query up to 25 times. Products will be grouped into clusters according to the initial letters of each word in the product fields. This is a kind of internal grouping of products that allows you to search only in clusters that have been determined to be relevant according to the search query. But this logic has a slight limitation in the search. For example, typing query 'amsung' will not show Samsung products in the search.<br>It is enough to make indexation once, then the indexation will occur in an automatic mode if the goods are added through the admin panel. If you use third-party programaddons to import your products, or the \"Skip indexation on import\" function is enabled, after each products catalog update, you need to run products indexation by cron job or manually on the \"Products indexation page\"."
+msgstr "Функція &quot;Прискорювач пошуку&quot; в режимі &quot;Максимальне прискорення&quot; може прискорювати пошуковий запит до 25 разів. Товари групуються за кластерами згідно з початковими буквами кожного слова в полях товару. Це своєрідне внутрішнє угруповання товарів, яке дозволяє здійснювати пошук тільки в кластерах, які були визначені як відповідні за пошуковим запитом. Але така логіка має невелике обмеження у пошуку. Наприклад, вбиваючи слово &#39;amsung&#39; товари Samsung не відображатимуться у пошуку.<br> Індексацію товарів достатньо провести один раз, далі індексація відбуватиметься автоматично, якщо товари додаються або редагуються через панель адміністратора. Якщо ж ви використовуєте сторонні програми для імпорту товарів, або увімкнено функцію &quot;Не індексувати товари під час імпорту&quot; - після кожного оновлення каталогу необхідно виконувати індексацію товарів по крон або в ручному режимі.<br> <b>У режимі Максимального прискорення функціонал &quot;Синоніми для пошуку&quot; не працюватиме!</b>"
+
+msgctxt "Languages::cls.speedup_general_info"
+msgid "<div class='clsWarnBlock strong'>Не забудьте проиндексировать товары перед включением ускорителя поиска.</div>"
+msgstr "<div class='clsWarnBlock strong'>Не забудьте проіндексувати товари перед увімкненням прискорювача пошуку.</div>"
+
+msgctxt "Languages::cls.clear_indexes"
+msgid "Clear all indexes"
+msgstr "Очистити індекси"
+
+msgctxt "Languages::css.cron_commands"
+msgid "Cron commands"
+msgstr "Команди CRON"
+
+msgctxt "Languages::sort_by_cls_rel_asc"
+msgid "By relevance"
+msgstr "За релевантністю"
+
+msgctxt "Languages::abt__ut2.sort_by_cls_rel_asc"
+msgid "Relevance"
+msgstr "Релевантності"
+
+msgctxt "Languages::sort_by_cls_rel_pop_asc"
+msgid "By relevance based on popularity "
+msgstr "За релевантністю з урахуванням популярності"
+
+msgctxt "Languages::cls.product_code"
+msgid "Product code: "
+msgstr "Артикул:"
+
+msgctxt "Languages::cls.nothing_found"
+msgid "Unfortunately, for your query [q] nothing was found."
+msgstr "На жаль, за запитом [q] товарів не знайдено"
+
+msgctxt "Languages::cls.phrase"
+msgid "Search phrase"
+msgstr "Шукаємо"
+
+msgctxt "Languages::cls.syn_when"
+msgid "When user search for"
+msgstr "Якщо користувач ввів у пошуку"
+
+msgctxt "Languages::cls.requests"
+msgid "Requests"
+msgstr "Запити"
+
+msgctxt "Languages::cls.phrases"
+msgid "Search phrases"
+msgstr "Пошукові фрази"
+
+msgctxt "Languages::cls.search_word"
+msgid "Search"
+msgstr "Пошук"
+
+msgctxt "Languages::cls.play_product"
+msgid "Sony PlayStation 5"
+msgstr "Sony PlayStation 5"
+
+msgctxt "Languages::cls.play_product2"
+msgid "Microsoft Xbox One S1"
+msgstr "Microsoft Xbox One S1"
+
+msgctxt "Languages::cls.play_check1"
+msgid "Game consoles"
+msgstr "Ігрові консолі"
+
+msgctxt "Languages::cls.play_check2"
+msgid "Console Games "
+msgstr "Ігри для консолей"
+
+msgctxt "Languages::cls.play_check3"
+msgid "Console accessories"
+msgstr "Аксесуари для консолей"
+
+msgctxt "Languages::cls.play_category"
+msgid "Game consoles"
+msgstr "Ігрові консолі"
+
+msgctxt "Languages::cls.title_elements"
+msgid "Display elements"
+msgstr "Елементи відображення"
+
+msgctxt "Languages::cls.enter_more_symbols"
+msgid "To start a search, enter at least <b>[n] character</b> | To start a search, enter at least <b>[n] characters</b>"
+msgstr "Введіть мінімум <b>[n] символ</b> | Введіть мінімум <b>[n] символу</b> | Введіть мінімум <b>[n] символів</b>"
+
+msgctxt "Languages::cls.show_all"
+msgid "Show all"
+msgstr "Показати все"
+
+msgctxt "Languages::cls.tab_developers"
+msgid "For developers"
+msgstr "Для розробників"
+
+msgctxt "Languages::cls.hooks_get_products"
+msgid "get_products hook"
+msgstr "Хук get_products"
+
+msgctxt "Languages::cls.hooks_before_response"
+msgid "Хук before_response"
+msgstr "Хук before_response"
+
+msgctxt "Languages::cls.hooks_get_joins"
+msgid "get_joins hook"
+msgstr "Хук get_joins"
+
+msgctxt "Languages::cls.hooks_get_conditions"
+msgid "get_conditions hook"
+msgstr "Хук get_conditions"
+
+msgctxt "Languages::cls.hooks_get_fields"
+msgid "get_fields hook"
+msgstr "Хук get_fields"
+
+msgctxt "Languages::cls.hooks_get_categories"
+msgid "get_categories hook"
+msgstr "Хук get_categories"
+
+msgctxt "Languages::cls.hooks_get_categories_fields_condition"
+msgid "get_categories_fields_condition hook"
+msgstr "Хук get_categories_fields_condition"
+
+msgctxt "Languages::cls.hooks_get_brands"
+msgid "get_brands hook"
+msgstr "Хук get_brands"
+
+msgctxt "Languages::cls.hooks_get_pages"
+msgid "get_pages hook"
+msgstr "Хук get_pages"
+
+msgctxt "Languages::cls.hooks_get_pages_fields_condition"
+msgid "cls.hooks_get_pages_fields_condition hook"
+msgstr "Хук cls.hooks_get_pages_fields_condition"
+
+msgctxt "Languages::cls.hooks_get_vendors"
+msgid "get_vendors hook"
+msgstr "Хук get_vendors"
+
+msgctxt "Languages::cls.hooks_get_product_phrase_condition"
+msgid "get_product_phrase_condition"
+msgstr "Хук get_product_phrase_condition"
+
+msgctxt "Languages::cls.hooks_get_speedup_product_data"
+msgid "get_speedup_product_data"
+msgstr "Хук get_speedup_product_data"
+
+msgctxt "Languages::cls.hooks_get_products_tooltip"
+msgid "This feature is for developers! This hook will call the selected functions before sending the SQL request to receive зкщвгсеы. Thus, you can change the search conditions, or the query itself as a whole by changing any parameters. For more information on connecting to a hook, see the add-on's documentation."
+msgstr "Ця функція призначена для розробників! Цей хук викликатиме вибрані функції перед відправкою SQL запиту отримання товарів. Таким чином, можна змінити умови пошуку, або сам запит загалом, змінюючи будь-які параметри. Більш детальну інформацію щодо підключення до хука шукайте у документації до модуля"
+
+msgctxt "Languages::cls.documentation"
+msgid "Add-on documentation"
+msgstr "Документація до модуля"
+
+msgctxt "Languages::cls.new_phrase"
+msgid "Add new search phrase"
+msgstr "Додати нову пошукову фразу"
+
+msgctxt "Languages::cls.added_to_cart"
+msgid "Product was added to cart"
+msgstr "Товар успішно доданий до кошика"
+
+msgctxt "Languages::cls.last_activity"
+msgid "Last activity"
+msgstr "Остання активність"
+
+msgctxt "Languages::cls.vendor_history_access"
+msgid "Vendor search history access"
+msgstr "Доступ продавців до історії пошуку"
+
+msgctxt "Languages::cls.display_only_by_clicks"
+msgid "Only clicked vebdor products"
+msgstr "Тільки переходи по товарах продавця"
+
+msgctxt "Languages::cls.display_all"
+msgid "All history"
+msgstr "Уся історія"
+
+msgctxt "Languages::cls.tab_multivendor"
+msgid "Multivendor settings"
+msgstr "Установки Multivendor"
+
+msgctxt "Languages::privilege_groups.csc_live_search"
+msgid "Manage Live search add-on"
+msgstr "Управління модулем &quot;Живий пошук&quot;"
+
+msgctxt "Languages::cls.search_variation"
+msgid "Search \"Variations as one product\" separately"
+msgstr "Пошук Варіацій товару як один товар"
+
+msgctxt "Languages::cls.search_variation_tooltip"
+msgid "Set variations as one product search logic"
+msgstr "Налаштуйте логіку пошуку за варіаціями як один товар"
+
+msgctxt "Languages::cls.dont_search_variation"
+msgid "Don't search on variations"
+msgstr "Не шукати у варіаціях"
+
+msgctxt "Languages::cls.search_variation_show_main"
+msgid "Search on varioations, but show main product only"
+msgstr "Шукати у варіаціях, але виводити лише головний товар у результатах пошуку"
+
+msgctxt "Languages::cls.search_variation_show_all"
+msgid "Search on varioations and show as separate products on search results"
+msgstr "Шукати у варіаціях та виводити їх як окремі товари в результатах пошуку"
+
+msgctxt "Languages::cls.tables_was_cleared"
+msgid "Tables of indexations was cleared success!"
+msgstr "Таблиці індексації товарів успішно очищені"
+
+msgctxt "Languages::cls.desktop_max_width"
+msgid "Max. width, px"
+msgstr "Макс. ширина, px"
+
+msgctxt "Languages::cls.desktop_max_width_tooltip"
+msgid "Only for desktop view"
+msgstr "Тільки широкоформатних екранів"
+
+msgctxt "Languages::cls.anti_csrf"
+msgid "Block bots"
+msgstr "Блокувати запити ботів"
+
+msgctxt "Languages::cls.anti_csrf_tooltip"
+msgid "By enabling this option you activate security function, it prevent search results for bots."
+msgstr "Увімкнувши цю опцію, ви активуєте функцію безпеки, яка запобігатиме видачу результатів пошуку ботам"
+
+msgctxt "Languages::abt__ut2.sort_by_cls_rel_pop_asc"
+msgid "Relevance"
+msgstr "Релевантності"
+
+msgctxt "Languages::cls.clsm_redirect_category"
+msgid "Autoredirect to category"
+msgstr "Авторедирект на категорію"
+
+msgctxt "Languages::cls.clsm_redirect_category_tooltip"
+msgid "When nothing found except one category, on submit form user will be redirected to this category"
+msgstr "Коли нічого не знайдено, крім однієї категорії, під час відправлення форми користувач буде перенаправлений до цієї категорії"
+
+msgctxt "Languages::cleanup_all_history"
+msgid "Delete all data"
+msgstr "Очистити всі дані"
+
+msgctxt "Languages::cls.clear_all_requests"
+msgid "Delete all requests history"
+msgstr "Видалити всі запити"
+
+msgctxt "Languages::cls.search_history_deleted_success"
+msgid "History was deleted success!"
+msgstr "Історія успішно видалена!"
+
+msgctxt "Languages::cls.days_clear"
+msgid "Delete requests history older than [days] days"
+msgstr "Видалити запити старше [days] днів"
+
+msgctxt "Languages::cls.cron_job"
+msgid "You can setup cron job to clear old unneeded requests. Change days parameter to delete requests older than pointed days. See below Cron job examples ещ delet requests older than 30 days:"
+msgstr "Ви можете налаштувати завдання cron, щоб видалити старі непотрібні запити. Змініть параметр days, щоб видаляти запити старше вказаних днів. Нижче наведено приклади завдань Cron на видалення запитів старше 30 днів:"
+
+msgctxt "Languages::cls.clss_can_need_reindexation"
+msgid "You have changed settings search on fields. As you use search SpeedUp function -  In this case you need to delete indexes and run indexation again to apply changes."
+msgstr "Ви змінили налаштування поля пошуку. Оскільки ви використовуєте функцію прискорювача пошуку - в цьому випадку вам потрібно видалити індекси і знову запустити індексацію, щоб застосувати зміни"
+
+msgctxt "Languages::cls.syn_partial_match"
+msgid "Partial synonym match"
+msgstr "Частковий збіг синонімів"
+
+msgctxt "Languages::cls.syn_partial_match_ttl"
+msgid "Enable this function for matching synonyms by part of word."
+msgstr "Позначте галочку для пошуку синонімів за частковим збігом синоніма з пошуковою фразою"
+
+msgctxt "Languages::cls.synonyms_phrase_ttl"
+msgid "A search phrase is the correct word or phrase that matches the spelling on your site. Synonyms are words or phrases that users can enter. Synonyms can be misspelled words, abbreviated names, or phrases in local dialects."
+msgstr "Це те, що пошук шукатиме, якщо користувач ввів у пошуку словосполучення, що збігається з набраними вами синонімами. А синоніми – це слова чи словосполучення, які можуть вводити користувачі. Синонімами можуть бути слова з помилками, скорочені найменування або фрази місцевих діалектів"
+
+msgctxt "Languages::cls.enable_history"
+msgid "Search history journal status"
+msgstr "Ведення історії пошуку"
+
+msgctxt "Languages::cls.light"
+msgid "Recommended"
+msgstr "Оптимальний"
+
+msgctxt "Languages::cls.hard"
+msgid "Hard"
+msgstr "Максимальний"
+
+msgctxt "Languages::cls.speedup_level"
+msgid "SpeedUp mode"
+msgstr "Режим прискорення"
+
+msgctxt "Languages::cls.speedup_level_tooltip"
+msgid "Recommended - mode no have search restriction, but Hard mode works faster"
+msgstr "Оптимальний – не обмежує можливості пошуку, але Максимальний режим працює швидше. Обидва режими потребують індексації товарів"
+
+msgctxt "Languages::cls.found"
+msgid "Found"
+msgstr "Знайдено"
+
+msgctxt "Languages::cls.group_by_root_cats"
+msgid "Group by root"
+msgstr "Групувати по батьківській"
+
+msgctxt "Languages::cls.group_by_root_cats_tooltip"
+msgid "Group categories by their root category"
+msgstr "Категорії будуть згруповані за батьківськими категоріями"
+
+msgctxt "Languages::cls.clsm_show_parent_level"
+msgid "Level of parent category"
+msgstr "Рівень батьківської категорії"
+
+msgctxt "Languages::cls.clsm_show_parent_level_tooltip"
+msgid "If pointed level will be higher or equal of found category - closest parent category will be displayed"
+msgstr "Якщо вказаний рівень буде вищим або дорівнює знайденій категорії - буде виводиться найближча батьківська категорія"
+
+msgctxt "Languages::cls.force_reload_prices"
+msgid "Force reload prices"
+msgstr "Примусово завантажувати ціни"
+
+msgctxt "Languages::cls.force_reload_prices_tooltip"
+msgid "Check this checkbox if you have a price discrepancy in the live search and on the storefront"
+msgstr "Увімкніть цю галочку, якщо у вас спостерігається невідповідність ціни в пошуку та на вітрині"
+
+msgctxt "Languages::cls.quick_view"
+msgid "Quick view"
+msgstr "Швидкий перегляд"
+
+msgctxt "Languages::cls.add_to_cart"
+msgid "Add to cart"
+msgstr "Додати до кошику"
+
+msgctxt "Languages::cls.add_to_wishlist"
+msgid "Add to wishlist"
+msgstr "Додати в обране"
+
+msgctxt "Languages::cls.add_to_compare"
+msgid "Add to compare list"
+msgstr "Додати до списку порівняння"
+
+msgctxt "Languages::cls.added_to_wish"
+msgid "Product <b>[product]</b> was added to <a href=\"[url]\">wishlist</a>."
+msgstr "Товар <b>[product]</b> доданий до <a href=\"[url]\">обраного</a>"
+
+msgctxt "Languages::cls.added_to_comparison"
+msgid "Product <b>[product]</b> was added to <a href=\"[url]\">compare list</a>."
+msgstr "Товар b&gt;[product] доданий до <a href=\"[url]\">списку порівняння</a>"
+
+msgctxt "Languages::cls.ignore_lang_code"
+msgid "Ignore language"
+msgstr "Ігнорувати мову"
+
+msgctxt "Languages::cls.ignore_lang_code_tooltip"
+msgid "On multilingual website allow to search in all languages in one time"
+msgstr "На багатомовному вебсайті дозволяє здійснювати пошук одночасно всіма мовами"
+
+msgctxt "Languages::cls.delimiter"
+msgid "Delimiter"
+msgstr "Розділювач синонімів"
+
+msgctxt "Languages::cls.skip_chars"
+msgid "Ignore characters"
+msgstr "Ігнорувати символи"
+
+msgctxt "Languages::cls.skip_chars_tooltip"
+msgid "Enter space-separated characters to be ignored when searching in product names. Only works if a search speed-up is active."
+msgstr "Введіть символи через пробіл, які потрібно ігнорувати під час пошуку в назвах товарів. Працює лише якщо увімкнено прискорювач пошуку"
+
+msgctxt "Languages::cls.select_product_options"
+msgid "Select product options to add to cart"
+msgstr "Виберіть опції товару для додавання до кошика"
+
+msgctxt "Languages::cls.auth_users_only"
+msgid "Available to authorized users only"
+msgstr "Доступно після авторизації"
+
+msgctxt "Languages::cls.replace_with_break"
+msgid "Replace with a break"
+msgstr "Замінювати пробілом"
+
+msgctxt "Languages::cls.replace_with_break_tooltip"
+msgid "Enter characters separated by a space, which in the search query must be replaced with a space. When the search accelerator is enabled, this logic will also work when indexing products. If search spee-up uses the setting of ignoring characters- it will work first, and then the function of replacing chars with a space."
+msgstr "Введіть символи через пробіл, які потрібно замінити на пробіл у пошуковому запиті. При включенні прискорювача пошуку ця логіка також працюватиме при індексації товарів. Якщо у прискорювачі використовується налаштування ігнорування символів - спочатку відпрацює вона, а потім відпрацює функція заміни на пробіл"
+
+msgctxt "Languages::cls.title_ttl_other_settings"
+msgid "Professional settings"
+msgstr "Тонка настройка"
+
+msgctxt "Languages::cls.title_ttl_hooks"
+msgid "Hooks to connect with addon"
+msgstr "Підключення хуків"
+
+msgctxt "Languages::cls.stop_words_info"
+msgid "Stop words can work on the following fields: SKU, Product name, Search keywords, Meta keywords, Meta description. In speed-up mode, stop words will work on all fields enabled in the search."
+msgstr "Стоп слова можуть працювати за наступними полями: Артикул, Назва товару, Ключові слова для пошуку, Мета ключові слова, Мета опис. У режимі прискорювача стоп слова працюватимуть по всіх увімкнених для пошуку полях"
+
+msgctxt "Languages::cls.user_last_queries"
+msgid "Search history"
+msgstr "Раніше ви шукали"
+
+msgctxt "Languages::cls.show_user_history"
+msgid "Show the user their search history"
+msgstr "Показати користувачеві історію пошуку"
+
+msgctxt "Languages::cls.history_limit"
+msgid "Number of queries displayed"
+msgstr "Кількість відображуваних запитів"
+
+msgctxt "Languages::cls.category_hide_category"
+msgid "Hide category in live search add-on"
+msgstr "Приховати категорію у модулі живого пошуку"
+
+msgctxt "Languages::cls.hide_cat_only_search"
+msgid "Hide only on search results"
+msgstr "Приховати тільки результати пошуку"
+
+msgctxt "Languages::cls.hide_cat_only_filter"
+msgid "Hide only on filter by category"
+msgstr "Приховати тільки у фільтрі за категоріями"
+
+msgctxt "Languages::cls.hide_cat_both"
+msgid "Hide on search results and filter by category"
+msgstr "Сховати у результатах пошуку та у фільтрі за категоріями"
+
+msgctxt "Languages::cls.cats_sort_by"
+msgid "Sort categories by"
+msgstr "Сортувати за:"
+
+msgctxt "Languages::cls.tab_third_party_compatibility"
+msgid "Add-on compatibility"
+msgstr "Сумісність модуля"
+
+msgctxt "Languages::cls.search_products_on"
+msgid "Search products in"
+msgstr "Шукати товари по"
+
+msgctxt "Languages::cls.search_categories_on"
+msgid "Search categories in"
+msgstr "Шукати категорії по"
+
+msgctxt "Languages::cls.search_pages_on"
+msgid "Search pages in"
+msgstr "Шукати сторінки по"
+
+msgctxt "Languages::cls.search_brands_on"
+msgid "Search brands in"
+msgstr "Шукати бренди з"
+
+msgctxt "Languages::cls.search_categories_on_ab__seo_filters_tooltip"
+msgid "Searching for categories on SEO filter pages will work correctly only if you manually fill in the fields (without using placeholders for auto-filling)"
+msgstr "Пошук категорій по сторінках сео-фільтрів працюватиме коректно лише за умови ручного заповнення полів (без використання плейсхолдерів для автозаповнення)"
+
+msgctxt "Languages::cls.ab__seo_filters_ignore_placeholder"
+msgid "Do not search in SEO categories with placeholders in the title"
+msgstr "Не шукати у сео-категоріях із плейсхолдерами у назві"
+
+msgctxt "Languages::cls.custom_result_ids"
+msgid "Additional result ids"
+msgstr "Додаткові result ids"
+
+msgctxt "Languages::cls.custom_result_ids_tooltip"
+msgid "Insert comma separated blocks ids what you want to update after add product to cart or wishlist from live search search window"
+msgstr "Введіть ID блоків через кому, які ви хочете оновлювати після додавання товару до кошика або список обраного з пошукового вікна модуля"
+
+msgctxt "Languages::cls.show_user_history_tooltip"
+msgid "Working only when Search history journal is enabled"
+msgstr "Працює тільки якщо увімкнено Ведення історії пошуку"
+
+msgctxt "Languages::cls.disable_history_on_user_enabled"
+msgid "Status was not changed! To disable search history you need to disable \"Show the user their search history\" first"
+msgstr "Статус не змінено! Для відключення ведення історії пошуку спочатку потрібно вимкнути функцію \&quot;Показати користувачеві історію пошуку\&quot;"
+
+msgctxt "Languages::cls.search_delay"
+msgid "Search request delay, ms"
+msgstr "Затримка пошукового запиту, мс"
+
+msgctxt "Languages::cls.search_delay_tooltip"
+msgid "Used to reduce the load on the server, the request will be sent after a specified time if the user stops typing"
+msgstr "Використовується для зниження навантаження на сервер, запит надсилатиметься через вказаний час, якщо користувач перестав набирати текст"
+
+msgctxt "Languages::cls.ab__seo_filters_limit"
+msgid "Filters categories limit"
+msgstr "Відображати не більше"
+
+msgctxt "Languages::cls.turbo_cache_was_cleared"
+msgid "Turbo cache cleared!"
+msgstr "Турбо-кеш очищений!"
+
+msgctxt "Languages::cls.tab_turbo_cache"
+msgid "Turbo cache"
+msgstr "Турбо-кеш"
+
+msgctxt "Languages::cls.turbo_cache_status"
+msgid "Turbo cache status"
+msgstr "Заголовок Турбо-кеша"
+
+msgctxt "Languages::cls.turbo_cache_status_ttl"
+msgid "Enable/disable turbo cache"
+msgstr "Увімкнення/Відключення турбо-кешу"
+
+msgctxt "Languages::cls.clear_turbo_cache"
+msgid "Clear all turbo cache"
+msgstr "Очистити весь турбо-кеш"
+
+msgctxt "Languages::cls.clear_turbo_cache_tooltip"
+msgid "Press button to clear all turbo cache records"
+msgstr "Натисніть кнопку для повного очищення турбо-кешу"
+
+msgctxt "Languages::cls.turbo_cache_ttl"
+msgid "Turbo cache lifetime, hours."
+msgstr "Час життя турбо-кешу, годинника"
+
+msgctxt "Languages::cls.turbo_cache_ttl_tooltip"
+msgid "Specify the lifetime of the turbo cache in hours. Set the value to 0 if you want turbo cache does not expire."
+msgstr "Вкажіть час життя турбо-кешу в годиннику. Встановіть значення на 0 щоб турбо кеш не спливав"
+
+msgctxt "Languages::cls.redis_server"
+msgid "Redis server host"
+msgstr "Хост Redis сервера"
+
+msgctxt "Languages::cls.title_redis_server_settings"
+msgid "Redis server settings"
+msgstr "Налаштування сервера Redis"
+
+msgctxt "Languages::cls.redis_port"
+msgid "Redis server port"
+msgstr "Порт Redis сервера"
+
+msgctxt "Languages::cls.need_redis_auth"
+msgid "Redis authorization required"
+msgstr "Потрібна авторизація redis"
+
+msgctxt "Languages::cls.redis_login"
+msgid "Redis server login"
+msgstr "Логін Redis-сервера"
+
+msgctxt "Languages::cls.redis_pass"
+msgid "Redis server password"
+msgstr "Пароль Redis-сервера"
+
+msgctxt "Languages::cls.clear_turbo_cache_when"
+msgid "Clear turbo cache on"
+msgstr "Очищати турбо-кеш коли"
+
+msgctxt "Languages::cls.tc_on_create_product"
+msgid "Create/Delete product"
+msgstr "Створення/Видалення товару"
+
+msgctxt "Languages::cls.tc_on_create_update_product"
+msgid "Create/Delete/Update product"
+msgstr "Створення/Видалення/Оновлення товару"
+
+msgctxt "Languages::cls.tc_dont_clear"
+msgid "Don't clear"
+msgstr "Чи не очищати"
+
+msgctxt "Languages::cls.clear_turbo_cache_when_tooltip"
+msgid "The turbo cache will not be deleted completely, but segmented. Only the cache segment that includes this product will be deleted."
+msgstr "Турбо-кеш не видалятиметься повністю, а сегментовано. Видалятиметься тільки той сегмент кешу, до якого входить даний товар"
+
+msgctxt "Languages::cls.title_turbo_cache"
+msgid "Turbo cache"
+msgstr "Турбо-кеш"
+
+msgctxt "Languages::cls.turbo_cache_information"
+msgid "Turbo cache is a cache generated based on user search queries and works on Redis. The results of each new search query are stored in the cache. In the event that a search query already exists in the cache, the add-on skips the search query and returns a list of products directly from the cache. However, product prices are always retrieved from the database. This means that you do not need to clear the turbo cache if you are only updating product prices. Turbo cache operates on the Redis storage."
+msgstr "Турбо-кеш – це кеш, який формується на базі пошукових запитів користувачів. Результати кожного нового пошукового запиту зберігаються у кеші. У випадку, коли пошуковий запит вже є в кеші, модуль пропускає пошуковий запит і повертає список товарів одразу з кешу. При цьому ціни товарів завжди вивантажуються із бази даних. Це означає, що вам не потрібно очищати турбо-кеш, якщо ви оновлюєте у товарів лише ціни. Турбо-кеш працює на базі сховища Redis. Для включення турбо-кешу на вашому сервері має бути встановлена та запущена служба Redis"
+
+msgctxt "Languages::cls.turbo_cache_unavailable"
+msgid "Unfortunately, Turbo cache is currently unavailable on your server. Please contact your server's technical support to enable and configure the Redis service."
+msgstr "На жаль, зараз Турбо-кеш недоступний на вашому сервері. Будь ласка, зверніться до служби технічної підтримки сервера для увімкнення та налаштування служби Redis"
+
+msgctxt "Languages::cls.wrong_redis_configuration"
+msgid "Turbo-cache is not activated! Please check the Redis server settings (server address, port, authentication). For precise information about the parameters, please contact your server administrator. Technical error details: <br>"
+msgstr "Турбо-кеш не активовано! Будь ласка, перевірте налаштування сервера Redis (адреса сервера, порт, автентифікація). Для отримання точної інформації про параметри зверніться до адміністратора сервера. Технічна інформація про помилку конфігурації:<br>"
+
+msgctxt "Languages::cls.turbo_cache_enabled"
+msgid "Turbo-cache is activated!"
+msgstr "Турбо-кеш успішно активовано!"
+
+msgctxt "Languages::cls.from_turbo"
+msgid "From Turbo cache"
+msgstr "З Турбо-кешу"
+
+msgctxt "Languages::cls.about_cron_turbo_clear_cache"
+msgid "If there is a need to schedule Turbo-cache clearance on your project (for example, after a bulk import of products), or to initiate Turbo-cache clearance from an external script, you can use the commands provided below:"
+msgstr "У випадку, якщо на вашому проекті виникає необхідність очищення турбо-кешу за розкладом (наприклад після масового імпорту товарів) або запускати очищення турбо-кешу із зовнішнього скрипту, ви можете скористатися командами, наведеними нижче:"
+
+msgctxt "Languages::cls.title_turbo_cache_cron"
+msgid "Commands for clearing Turbo-cache."
+msgstr "Команди для очищення Турбо-кешу"
+
+msgctxt "Languages::cls.pb_ignore_lang_code"
+msgid "Ignore language"
+msgstr "Ігнорувати мову"
+
+msgctxt "Languages::cls.pb_ignore_lang_code_tooltip"
+msgid "On multilingual website allow to search in all languages in one time"
+msgstr "На багатомовному вебсайті дозволяє здійснювати пошук одночасно всіма мовами"
+
+msgctxt "Languages::cls.clss_need_clear_turbo"
+msgid "After changing search parameters, don't forget to clear turbo cache!"
+msgstr "Після зміни параметрів пошуку не забудьте очистити турбо-кеш!"
+
+msgctxt "Languages::cls.show_clear_btn"
+msgid "Show clear input field button"
+msgstr "Відображати кнопку очищення поля введення"
+
+msgctxt "Languages::cls.min_chars_limit"
+msgid "Min. characters to display search results"
+msgstr "мін. кількість символів для відображення результатів пошуку"
+
+msgctxt "Languages::cls.min_chars_limit_tooltip"
+msgid "Min. characters to display products on search results page"
+msgstr "мін. кількість символів для відображення товарів на сторінці результатів пошуку"
+
+

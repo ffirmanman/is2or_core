@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__seo_for_tags</id>
+<version>2.2.2</version>
+<priority>2016</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<compatibility>
+<conflicts>power_testimonials,cp_tag_ext</conflicts>
+<dependencies>tags,ab__addons_manager</dependencies>
+<core_version><min>4.11.1</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<ab>
+<hash>8f70f1f36e43932ac73eb4b9a0340c8e410a6184, 2021-07-13 12:21:22</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.4.0</min></ab__addons_manager>
+</dependencies>
+</compatibility>
+</ab>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="settings">
+<items>
+<item id="description_location">
+<type>selectbox</type>
+<default_value>top</default_value>
+<variants>
+<item id="top"></item>
+<item id="bottom"></item>
+</variants>
+</item>
+<item id="index_tag_pages">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="noindex_tag_pages_without_products">
+<type>checkbox</type>
+<default_value>Y</default_value>
+</item>
+<item id="code"><type>hidden</type><default_value>ABA-ghL4sufoza6cyKkvMLLX5</default_value></item>
+<item id="build"><type>hidden</type><default_value>909</default_value></item>
+</items>
+</section>
+</sections>
+</settings>
+<queries>
+<item for="install">
+CREATE TABLE IF NOT EXISTS `?:ab__tag_descriptions` (
+`tag_id` mediumint(8) UNSIGNED NOT NULL,
+`h1` varchar(255) NOT NULL DEFAULT '',
+`description` mediumtext NOT NULL DEFAULT '',
+`page_title` varchar(255) NOT NULL DEFAULT '',
+`meta_description` varchar(255) NOT NULL DEFAULT '',
+`meta_keywords` varchar(255) NOT NULL DEFAULT '',
+`lang_code` char(2) NOT NULL DEFAULT '',
+PRIMARY KEY (`tag_id`,`lang_code`)
+) DEFAULT CHARSET=UTF8;
+</item>
+<item>REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__sft_view_data', 'Y', 'ab__addons', 'ab__seo_for_tags', 'N')</item>
+<item>REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__sft_manage_data', 'Y', 'ab__addons', 'ab__seo_for_tags', 'Y')</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__seo_for_tags' OR group_id = 'ab__seo_for_tags'</item>
+</queries>
+<functions>
+<item for="install">fn_ab__seo_for_tags_install</item>
+</functions>
+</addon>

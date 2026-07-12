@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__extended_metadata</id>
+<version>2.3.0</version>
+<priority>99999999</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<compatibility>
+<dependencies>ab__addons_manager</dependencies>
+<core_version><min>4.11.4</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+<php_extensions>mbstring</php_extensions>
+</compatibility>
+<ab>
+<hash>7441d3b99c43932df10243cc08f0cc32a52435c7, 2022-12-06 17:49:56</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.5.0</min></ab__addons_manager>
+</dependencies>
+</compatibility>
+</ab>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="settings">
+<items>
+<item id="brand_id">
+<type>input</type>
+</item>
+<item id="exclude_keywords">
+<type>checkbox</type>
+<default>N</default>
+</item>
+<item id="code"><type>hidden</type><default_value>ABA-rcbKdrJ4WM3EyNgNHo4Lu</default_value></item>
+<item id="build"><type>hidden</type><default_value>1084</default_value></item>
+</items>
+</section>
+</sections>
+</settings>
+<queries>
+<item for="install">
+CREATE TABLE IF NOT EXISTS `?:ab__emd_settings` (
+`dispatch` varchar(50) NOT NULL,
+`value` text NOT NULL,
+`company_id` int(11) unsigned NOT NULL default 0,
+`lang_code` char(2) NOT NULL default '',
+PRIMARY KEY (`dispatch`,`company_id`,`lang_code`)
+) DEFAULT CHARSET=utf8;
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS `?:ab__emd_patterns` (
+`pattern_id` mediumint(8) unsigned NOT NULL auto_increment,
+`company_id` int(11) unsigned NOT NULL default 0,
+`object` varchar(255) NOT NULL default '',
+PRIMARY KEY (`pattern_id`)
+) DEFAULT CHARSET=utf8;
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS `?:ab__emd_patterns_descriptions` (
+`pattern_id` mediumint(8) unsigned NOT NULL,
+`lang_code` char(2) NOT NULL default '',
+`name` varchar(255) NOT NULL default '',
+`page_title` varchar(255) NOT NULL default '',
+`meta_description` varchar(255) NOT NULL default '',
+`meta_keywords` varchar(255) NOT NULL default '',
+PRIMARY KEY (`pattern_id`, `lang_code`)
+) DEFAULT CHARSET=utf8;
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS `?:ab__emd_categories_patterns` (
+`category_id` mediumint(8) unsigned NOT NULL,
+`category_pattern_id` mediumint(8) unsigned NOT NULL,
+`products_pattern_id` mediumint(8) unsigned NOT NULL,
+PRIMARY KEY (`category_id`)
+) DEFAULT CHARSET=utf8;
+</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__em.manage', 'Y', 'ab__addons', 'ab__extended_metadata', 'N')</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__em.view', 'Y', 'ab__addons', 'ab__extended_metadata', 'Y')</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__extended_metadata' OR group_id = 'ab__extended_metadata'</item>
+</queries>
+<functions>
+<item for="install">fn_ab__extended_metadata_install</item>
+</functions>
+</addon>

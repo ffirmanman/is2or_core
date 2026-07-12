@@ -1,0 +1,30 @@
+2026-02-11 @ 05:00:41 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzQ0","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"34434E9A15A","amount":"17300","captured_amount":"17300","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029606090","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-11 @ 05:04:17 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzQ3","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"3475B5FBB49","amount":"4800","captured_amount":"4800","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029606120","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-11 @ 05:11:14 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzQ4","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"3486FC96B0D","amount":"5600","captured_amount":"5600","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029606153","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-11 @ 05:13:52 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzQ5","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"3497469FD33","amount":"5300","captured_amount":"5300","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029606157","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-11 @ 05:34:43 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzUw","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"350579FD63C","amount":"5600","captured_amount":"5600","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029606281","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-11 @ 05:44:05 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzUx","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"3510BE46ED7","amount":"9500","captured_amount":"9500","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029606346","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-11 @ 05:57:45 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzUy","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"352F7D57972","amount":"19400","captured_amount":"19400","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029606353","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-11 @ 06:00:10 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzU1","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"3558F347CD9","amount":"3200","captured_amount":"3200","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029606356","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-11 @ 07:34:13 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzU2","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"356F9A52D97","amount":"3500","captured_amount":"3500","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029607316","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-02-11 @ 11:14:13 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=MzU3","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"35744F1EA70","amount":"31100","captured_amount":"31100","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029611693","response_code":"12000","reason_text":"Success","order_status":"P"}}
+

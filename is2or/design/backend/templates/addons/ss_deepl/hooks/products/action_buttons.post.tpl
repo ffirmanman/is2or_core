@@ -1,0 +1,1 @@
+<li>{btn type="list" text=__("ss_deepl_trans_all_products") href="ss_deepl.trans_all_product"}</li>

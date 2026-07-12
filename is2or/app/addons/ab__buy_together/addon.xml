@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+<id>ab__buy_together</id>
+<version>2.0.1</version>
+<priority>2020</priority>
+<position>0</position>
+<status>active</status>
+<default_language>en</default_language>
+<ab>
+<hash>c2d1998bf41531ab1cbd4a57abde348b4d116865, 2021-09-14 14:08:19</hash>
+<compatibility>
+<dependencies>
+<ab__addons_manager><min>2.4.0</min></ab__addons_manager>
+<ab__intelligent_accessories><min>3.2.0</min></ab__intelligent_accessories>
+<abt__unitheme2><min>4.11.5.c</min></abt__unitheme2>
+<abt__youpitheme><min>4.11.5.e</min></abt__youpitheme>
+</dependencies>
+</compatibility>
+</ab>
+<authors>
+<author>
+<name>AlexBranding</name>
+<email>info@alexbranding.com</email>
+<url>https://alexbranding.com</url>
+</author>
+</authors>
+<supplier>AlexBranding</supplier>
+<supplier_link>https://cs-cart.alexbranding.com</supplier_link>
+<supplier_page>ab__am.addons</supplier_page>
+<compatibility>
+<dependencies>ab__addons_manager,buy_together</dependencies>
+<core_version><min>4.11.5</min></core_version>
+<core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+</compatibility>
+<settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+<sections>
+<section id="settings">
+<items>
+<item id="combinations_list_view">
+<type>selectbox</type>
+<default_value>scroller</default_value>
+<variants>
+<item id="scroller"> </item>
+<item id="list"> </item>
+</variants>
+</item>
+<item id="behavior_of_similar_products">
+<type>selectbox</type>
+<default_value>scroller</default_value>
+<variants>
+<item id="scroller"> </item>
+<item id="popup"> </item>
+</variants>
+</item>
+<item id="code"><type>hidden</type><default_value>ABA-PBTB5Ex2Fgp3flDaJHdwN</default_value></item>
+<item id="build"><type>hidden</type><default_value>938</default_value></item>
+</items>
+</section>
+</sections>
+</settings>
+<queries>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__bt.data.manage', 'Y', 'ab__addons', 'ab__buy_together', 'N')</item>
+<item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('ab__bt.data.view', 'Y', 'ab__addons', 'ab__buy_together', 'Y')</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS `?:ab__bt_generators` (
+`generator_id` int(11) NOT NULL AUTO_INCREMENT,
+`type` varchar(20) NOT NULL,
+`modifier` decimal(12,3) NOT NULL,
+`modifier_type` varchar(20) NOT NULL,
+`date_from` int(11) NOT NULL,
+`date_to` int(11) NOT NULL,
+`display_in_promotions` char(1) NOT NULL DEFAULT 'N',
+`status` char(1) NOT NULL DEFAULT 'D',
+`company_id` int(11) NOT NULL,
+`base_products` text NOT NULL,
+`products` text NOT NULL COMMENT 'Additional products',
+`timestamp` int(11) NOT NULL,
+`last_generation_timestamp` int(11) NOT NULL,
+`total_combinations` int(11) NOT NULL,
+PRIMARY KEY (`generator_id`)
+) DEFAULT CHARSET=utf8;
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS `?:ab__bt_generator_descriptions` (
+`generator_id` int(11) NOT NULL,
+`lang_code` varchar(2) NOT NULL,
+`name` varchar(50) NOT NULL,
+`description` mediumtext NOT NULL,
+PRIMARY KEY (`generator_id`,`lang_code`)
+) DEFAULT CHARSET=utf8;
+</item>
+<item for="install">
+CREATE TABLE IF NOT EXISTS `?:ab__bt_generator_products` (
+`generator_id` int(11) NOT NULL,
+`base_product_id` int(11) NOT NULL,
+`chain_id` int(11) NOT NULL,
+`position` int(11) NOT NULL,
+`product_id` int(11) NOT NULL,
+`amount` int(11) NOT NULL,
+`modifier_type` varchar(25) NOT NULL,
+`modifier` decimal(12,2) NOT NULL,
+`aoc` char(1) NOT NULL,
+`options` TEXT NOT NULL,
+PRIMARY KEY(generator_id,base_product_id,chain_id,position),
+INDEX (generator_id,base_product_id)
+) DEFAULT CHARSET=utf8;
+</item>
+<item for="uninstall">DELETE FROM ?:privileges WHERE section_id = 'ab__buy_together' OR group_id = 'ab__buy_together'</item>
+</queries>
+<functions>
+<item for="install">fn_ab__buy_together_install</item>
+</functions>
+</addon>

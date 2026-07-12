@@ -1,0 +1,54 @@
+<?php
+/* Smarty version 5.4.3, created on 2026-03-08 18:23:28
+  from 'tygh:addons/mobile_app/hooks/index/meta.post.tpl' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
+  'version' => '5.4.3',
+  'unifunc' => 'content_69ad9470d821a7_06451384',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '736608488b65fa577b140ef7016cae0a4ad0799e' => 
+    array (
+      0 => 'addons/mobile_app/hooks/index/meta.post.tpl',
+      1 => 1767831052,
+      2 => 'tygh',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+))) {
+function content_69ad9470d821a7_06451384 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = '/var/www/is2or/design/themes/responsive/templates/addons/mobile_app/hooks/index';
+if ($_smarty_tpl->getValue('runtime')['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
+$_smarty_tpl->getSmarty()->getRuntime('Capture')->open($_smarty_tpl, "template_content", null, null);
+if ($_smarty_tpl->getValue('mobile_app_settings')['promotion']['app_store_app_id']) {?>
+    <meta name="apple-itunes-app" content="app-id=<?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('mobile_app_settings')['promotion']['app_store_app_id']), ENT_QUOTES, 'UTF-8');?>
+"/>
+<?php }
+if ($_smarty_tpl->getValue('mobile_app_settings')['promotion']['google_play_app_id']) {?>
+    <meta name="google-play-app" content="app-id=<?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('mobile_app_settings')['promotion']['google_play_app_id']), ENT_QUOTES, 'UTF-8');?>
+"/>
+<?php }
+$_smarty_tpl->getSmarty()->getRuntime('Capture')->close($_smarty_tpl);
+if ($_smarty_tpl->getSmarty()->getModifierCallback('trim')($_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, 'template_content'))) {
+if ($_smarty_tpl->getValue('auth')['area'] == "A") {?><span class="cm-template-box template-box" data-ca-te-template="addons/mobile_app/hooks/index/meta.post.tpl" id="<?php echo $_smarty_tpl->getSmarty()->getFunctionHandler('set_id')->handle(array('name'=>"addons/mobile_app/hooks/index/meta.post.tpl"), $_smarty_tpl);?>
+"><div class="cm-template-icon icon-edit ty-icon-edit hidden"></div><?php echo $_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, 'template_content');?>
+<!--[/tpl_id]--></span><?php } else {
+echo $_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, 'template_content');
+}
+}
+} else {
+if ($_smarty_tpl->getValue('mobile_app_settings')['promotion']['app_store_app_id']) {?>
+    <meta name="apple-itunes-app" content="app-id=<?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('mobile_app_settings')['promotion']['app_store_app_id']), ENT_QUOTES, 'UTF-8');?>
+"/>
+<?php }
+if ($_smarty_tpl->getValue('mobile_app_settings')['promotion']['google_play_app_id']) {?>
+    <meta name="google-play-app" content="app-id=<?php echo htmlspecialchars((string) ($_smarty_tpl->getValue('mobile_app_settings')['promotion']['google_play_app_id']), ENT_QUOTES, 'UTF-8');?>
+"/>
+<?php }
+}
+}
+}

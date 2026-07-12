@@ -1,0 +1,45 @@
+2026-06-29 @ 09:31:02 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDI2","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"4269DE81CD7","amount":"457.00","captured_amount":"457.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031885968","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 12:22:14 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDI4","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"4284E0BFA05","amount":"290.00","captured_amount":"290.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031889510","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 12:33:45 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDI5","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"429A82DB961","amount":"48.00","captured_amount":"48.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031889711","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 12:38:58 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDMw","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"43002B503B1","amount":"46.00","captured_amount":"46.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031889883","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 12:53:56 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDMx","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"4310882549D","amount":"271.00","captured_amount":"271.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031890045","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 12:56:04 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDMy","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"4321AEE2813","amount":"46.00","captured_amount":"46.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031890068","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 13:28:11 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDM0","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"434597B4D86","amount":"27.00","captured_amount":"27.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031890542","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 13:48:06 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDM1","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"4353D07BAA3","amount":"67.00","captured_amount":"67.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031890970","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 14:14:09 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDM2","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"436CC039507","amount":"107.00","captured_amount":"107.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031891476","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 14:32:37 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDM3","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"43786F19F82","amount":"90.00","captured_amount":"90.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031891865","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 14:42:59 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDM4","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"438CF8EF06D","amount":"57.00","captured_amount":"57.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031892082","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 14:48:33 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDM5","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"4395CB8105C","amount":"252.00","captured_amount":"252.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031892157","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 14:58:41 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDQw","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"440FA41AE91","amount":"250.00","captured_amount":"250.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031892244","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 15:24:42 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDQx","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"441AF2459ED","amount":"72.00","captured_amount":"72.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031892579","response_code":"12000","reason_text":"Success","order_status":"P"}}
+
+2026-06-29 @ 15:26:59 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDQy","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"4423D12F77C","amount":"825.00","captured_amount":"825.00","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200031892613","response_code":"12000","reason_text":"Success","order_status":"P"}}
+

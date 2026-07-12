@@ -1,0 +1,129 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__images_seo"
+msgid "AB: Auto-generation of Alt and Title attributes for images"
+msgstr "AB: Автогенерация атрибутов Alt и Title для изображений"
+
+msgctxt "Addons::description::ab__images_seo"
+msgid "Add-on automatically adds Alt and Title attributes to the main and additional images of the products, categories and brands"
+msgstr "Модуль автоматически добавляет атрибуты Alt и Title к основным и дополнительным изображениям товаров, к изображениям категорий и брендов"
+
+msgctxt "Languages::ab__images_seo"
+msgid "AB: Auto-generation of Alt and Title attributes for images"
+msgstr "AB: Автогенерация атрибутов Alt и Title для изображений"
+
+msgctxt "Languages::ab__is"
+msgid "AB: Auto-generation of Alt and Title attributes for images"
+msgstr "AB: Автогенерация атрибутов Alt и Title для изображений"
+
+msgctxt "SettingsOptions::ab__images_seo::override"
+msgid "Attribute generation method"
+msgstr "Способ генерации атрибутов"
+
+msgctxt "SettingsVariants::ab__images_seo::override::generated_if_empty"
+msgid "Generate if the value is empty"
+msgstr "Сгенерировать, если пустое значение"
+
+msgctxt "SettingsVariants::ab__images_seo::override::always_generate"
+msgid "Always generate"
+msgstr "Всегда генерировать"
+
+msgctxt "Languages::ab__is.text.P"
+msgid "[text][image_num]"
+msgstr "[text][image_num]"
+
+msgctxt "Languages::ab__is.text.C"
+msgid "[text]"
+msgstr "[text]"
+
+msgctxt "Languages::ab__is.text.F"
+msgid "[text]"
+msgstr "[text]"
+
+msgctxt "Languages::ab__is.settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "Languages::ab__is.manage_attrs"
+msgid "Manage attributes"
+msgstr "Управление атрибутами"
+
+msgctxt "Languages::ab__is.attribute"
+msgid "Attribute"
+msgstr "Атрибут"
+
+msgctxt "Languages::ab__is.attribute.T"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "Languages::ab__is.attribute.A"
+msgid "Alt"
+msgstr "Alt"
+
+msgctxt "Languages::ab__is.image_number"
+msgid "Image number<br/><code>[image_num]</code>"
+msgstr "Номер изображения<br/><code>[image_num]</code>"
+
+msgctxt "Languages::ab__is.image_number.tooltip"
+msgid "This design will be used to substitute instead of the <code>[image_num]</code> placeholder in image attribute values, starting from second image. <br/>For the first image this placeholder will be cut"
+msgstr "Данная конструкция будет использована для подстановки вместо плейсхолдера <code>[image_num]</code> в значениях атрибутов изображений, начиная со второго."
+"<br/>Для первого изображения этот плейсхолдер будет вырезан"
+
+msgctxt "Languages::ab__is.image_number.default"
+msgid ", [n] image"
+msgstr ", изображение [n]"
+
+msgctxt "Languages::ab__is.image_number.hint"
+msgid "where [n] is the image number "
+msgstr "где [n] — номер изображения"
+
+msgctxt "Languages::ab__is.placeholders_list"
+msgid "The following placeholders are also available:<br/> <code>[text]</code> - name [object]"
+msgstr "Вам также доступны следующие плейсхолдеры:<br/>"
+"<code>[text]</code> - название [object]"
+
+msgctxt "Languages::ab__is.placeholders_list.P"
+msgid "of the product"
+msgstr "товара"
+
+msgctxt "Languages::ab__is.placeholders_list.C"
+msgid "of the category"
+msgstr "категории"
+
+msgctxt "Languages::ab__is.placeholders_list.F"
+msgid "of the feature variant"
+msgstr "варианта характеристики"
+
+msgctxt "Languages::ab__is.placeholders_list.empty"
+msgid "You need to fill in the required fields and click the \"Save\" button. Otherwise, the add-on will not work on the storefront"
+msgstr "Вам необходимо заполнить нужные поля и нажать кнопку \"Сохранить\". Иначе модуль не будет работать на витрине"
+
+msgctxt "Languages::privilege_groups.ab__images_seo"
+msgid "AB: Auto-generation of Alt and Title attributes for images"
+msgstr "AB: Автогенерация атрибутов Alt и Title для изображений"
+
+msgctxt "Languages::ab__is.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__is.help.doc"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__images_seo.doc'>the documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__images_seo.doc'>документацией</a>."
+
+msgctxt "Languages::ab__is.upgrade_notifications.3.0.0"
+msgid "Please note that the module no longer uses translations to generate attributes alt and title. Starting with this version, you can control the constructions for generating on <a href=\"[href]\" target=\"_blank\">Manage attributes</a> page"
+msgstr "Обратите внимание, что модуль больше не использует переводы для генерации атрибутов"
+"alt и title. Начиная с данной версии, Вы можете управлять конструкциями для генерации на"
+"странице <a href=\"[href]\" target=\"_blank\">Управление атрибутами</a>"
+
+msgctxt "Languages::ab__is.upgrade_notifications.3.0.1"
+msgid "The value of the field \"Image number<br/><code>[image_num]</code>\" on the page was set <a href=\"[href]\" target=\"_blank\">Manage attributes</a>, which was previously absent. <br/>Check that the fields are filled in correctly. "
+msgstr "Было задано значение поля \"Номер изображения<br/><code>[image_num]</code>\" на странице "
+"<a href=\"[href]\" target=\"_blank\">Управление атрибутами</a>, которое ранее отсутствовало."
+"<br/>Необходима проверка правильности заполнения полей"
+
+#. Alexbranding. Do not modify this file manually!

@@ -1,0 +1,62 @@
+<?php
+/* Smarty version 5.4.3, created on 2026-03-10 08:44:08
+  from 'tygh:addons/vendor_locations/hooks/blocks/product_filters_variants_element.override.tpl' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
+  'version' => '5.4.3',
+  'unifunc' => 'content_69afafa8f0a7a5_53902041',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'd16f86dcdb80ffbbdbd67a69ef7f5104f89e3204' => 
+    array (
+      0 => 'addons/vendor_locations/hooks/blocks/product_filters_variants_element.override.tpl',
+      1 => 1767831051,
+      2 => 'tygh',
+    ),
+  ),
+  'includes' => 
+  array (
+    'tygh:addons/vendor_locations/blocks/product_filters/components/product_filter_location_region.tpl' => 2,
+    'tygh:addons/vendor_locations/blocks/product_filters/components/product_filter_location_zone.tpl' => 2,
+  ),
+))) {
+function content_69afafa8f0a7a5_53902041 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = '/var/www/is2or/design/themes/responsive/templates/addons/vendor_locations/hooks/blocks';
+if ($_smarty_tpl->getValue('runtime')['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
+$_smarty_tpl->getSmarty()->getRuntime('Capture')->open($_smarty_tpl, "template_content", null, null);
+if ($_smarty_tpl->getValue('filter')['field_type'] == $_smarty_tpl->getSmarty()->getModifierCallback('constant')("\Tygh\Addons\VendorLocations\Enum\FilterTypes::REGION")) {?>
+    <?php $_smarty_tpl->renderSubTemplate("tygh:addons/vendor_locations/blocks/product_filters/components/product_filter_location_region.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('filter_uid'=>$_smarty_tpl->getValue('filter_uid'),'filter'=>$_smarty_tpl->getValue('filter'),'collapse'=>$_smarty_tpl->getValue('collapse')), (int) 0, $_smarty_current_dir);
+?>
+    <?php echo $_smarty_tpl->getSmarty()->getFunctionHandler('script')->handle(array('src'=>"js/addons/vendor_locations/product_filters.js"), $_smarty_tpl);?>
+
+<?php } elseif ($_smarty_tpl->getValue('filter')['field_type'] == $_smarty_tpl->getSmarty()->getModifierCallback('constant')("\Tygh\Addons\VendorLocations\Enum\FilterTypes::ZONE")) {?>
+    <?php $_smarty_tpl->renderSubTemplate("tygh:addons/vendor_locations/blocks/product_filters/components/product_filter_location_zone.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('filter_uid'=>$_smarty_tpl->getValue('filter_uid'),'filter'=>$_smarty_tpl->getValue('filter'),'collapse'=>$_smarty_tpl->getValue('collapse')), (int) 0, $_smarty_current_dir);
+?>
+    <?php echo $_smarty_tpl->getSmarty()->getFunctionHandler('script')->handle(array('src'=>"js/addons/vendor_locations/product_filters.js"), $_smarty_tpl);?>
+
+<?php }
+$_smarty_tpl->getSmarty()->getRuntime('Capture')->close($_smarty_tpl);
+if ($_smarty_tpl->getSmarty()->getModifierCallback('trim')($_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, 'template_content'))) {
+if ($_smarty_tpl->getValue('auth')['area'] == "A") {?><span class="cm-template-box template-box" data-ca-te-template="addons/vendor_locations/hooks/blocks/product_filters_variants_element.override.tpl" id="<?php echo $_smarty_tpl->getSmarty()->getFunctionHandler('set_id')->handle(array('name'=>"addons/vendor_locations/hooks/blocks/product_filters_variants_element.override.tpl"), $_smarty_tpl);?>
+"><div class="cm-template-icon icon-edit ty-icon-edit hidden"></div><?php echo $_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, 'template_content');?>
+<!--[/tpl_id]--></span><?php } else {
+echo $_smarty_tpl->getSmarty()->getRuntime('Capture')->getBuffer($_smarty_tpl, 'template_content');
+}
+}
+} else {
+if ($_smarty_tpl->getValue('filter')['field_type'] == $_smarty_tpl->getSmarty()->getModifierCallback('constant')("\Tygh\Addons\VendorLocations\Enum\FilterTypes::REGION")) {?>
+    <?php $_smarty_tpl->renderSubTemplate("tygh:addons/vendor_locations/blocks/product_filters/components/product_filter_location_region.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('filter_uid'=>$_smarty_tpl->getValue('filter_uid'),'filter'=>$_smarty_tpl->getValue('filter'),'collapse'=>$_smarty_tpl->getValue('collapse')), (int) 0, $_smarty_current_dir);
+?>
+    <?php echo $_smarty_tpl->getSmarty()->getFunctionHandler('script')->handle(array('src'=>"js/addons/vendor_locations/product_filters.js"), $_smarty_tpl);?>
+
+<?php } elseif ($_smarty_tpl->getValue('filter')['field_type'] == $_smarty_tpl->getSmarty()->getModifierCallback('constant')("\Tygh\Addons\VendorLocations\Enum\FilterTypes::ZONE")) {?>
+    <?php $_smarty_tpl->renderSubTemplate("tygh:addons/vendor_locations/blocks/product_filters/components/product_filter_location_zone.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('filter_uid'=>$_smarty_tpl->getValue('filter_uid'),'filter'=>$_smarty_tpl->getValue('filter'),'collapse'=>$_smarty_tpl->getValue('collapse')), (int) 0, $_smarty_current_dir);
+?>
+    <?php echo $_smarty_tpl->getSmarty()->getFunctionHandler('script')->handle(array('src'=>"js/addons/vendor_locations/product_filters.js"), $_smarty_tpl);?>
+
+<?php }
+}
+}
+}

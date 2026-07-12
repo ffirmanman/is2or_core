@@ -1,0 +1,1 @@
+{script src="js/addons/ss_deepl/func.js"}

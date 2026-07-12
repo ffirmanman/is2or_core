@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::ab__geo_pages"
+msgid "AB: Geo pages"
+msgstr "AB: Гео сторінки"
+
+msgctxt "Addons::description::ab__geo_pages"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__geo_pages"
+msgid "AB: Geo pages"
+msgstr "AB: Гео сторінки"
+
+msgctxt "Languages::ab__geo_pages.added_by_addon"
+msgid "Functionality is added by the add-on \"AB: Geo pages\""
+msgstr "Функціонал додано модулем \"AB: Гео сторінки\""
+
+msgctxt "Languages::ab__gp"
+msgid "AB: Geo pages"
+msgstr "AB: Гео сторінки"
+
+msgctxt "SettingsOptions::ab__geo_pages::default_template_id"
+msgid "Template by default"
+msgstr "Шаблон за замовчуванням"
+
+msgctxt "SettingsOptions::ab__geo_pages::index_page_template_id"
+msgid "Template for Home page"
+msgstr "Шаблон для головної сторінки"
+
+msgctxt "SettingsOptions::ab__geo_pages::single_url"
+msgid "Use the same URL for all languages"
+msgstr "Використовувати однаковий URL для всіх мов"
+
+msgctxt "Languages::ab__gp.settings"
+msgid "General settings"
+msgstr "Загальні налаштування"
+
+msgctxt "Languages::ab__gp.tab"
+msgid "AB: Geo pages"
+msgstr "AB: Гео сторінки"
+
+msgctxt "Languages::ab__gp.position"
+msgid "Position"
+msgstr "Позиція"
+
+msgctxt "Languages::ab__gp.title"
+msgid "Title"
+msgstr "Заголовок"
+
+msgctxt "Languages::ab__gp.description"
+msgid "Description"
+msgstr "Опис"
+
+msgctxt "Languages::ab__gp.popup.add"
+msgid "Add a new description"
+msgstr "Додати новий опис"
+
+msgctxt "Languages::ab__gp.popup.edit"
+msgid "Edit description: [name]"
+msgstr "Редагувати опис: [name]"
+
+msgctxt "Languages::ab__gp.update.on_page"
+msgid "Edit on the page"
+msgstr "Редагувати опис на сторінці"
+
+msgctxt "Languages::ab__gp.delete"
+msgid "Delete description"
+msgstr "Видалити опис"
+
+msgctxt "Languages::ab__gp.first_tab"
+msgid "Description"
+msgstr "Опис"
+
+msgctxt "Languages::ab__gp.manage"
+msgid "Locations management"
+msgstr "Керування локаціями"
+
+msgctxt "Languages::ab__gp.location"
+msgid "Location name"
+msgstr "Назва локації"
+
+msgctxt "Languages::ab__gp.location_forms"
+msgid "Forms of location names"
+msgstr "Форми назв локацій"
+
+msgctxt "Languages::ab__gp.location_form"
+msgid "Location name (form [form])"
+msgstr "Назва локації (форма [form])"
+
+msgctxt "Languages::ab__gp.seo_name"
+msgid "SEO name"
+msgstr "SEO-ім'я"
+
+msgctxt "Languages::ab__gp.new_location"
+msgid "Add location"
+msgstr "Додати локацію"
+
+msgctxt "Languages::ab__gp.default_location"
+msgid "Kyiv"
+msgstr "Київ"
+
+msgctxt "Languages::block_ab__gp_other_locations"
+msgid "AB: Geo pages"
+msgstr "AB: Гео сторінки"
+
+msgctxt "Languages::ab__gp.block.comma_separated"
+msgid "Comma separated"
+msgstr "Через кому"
+
+msgctxt "Languages::ab__gp.block.column"
+msgid "In column"
+msgstr "У стовпчик"
+
+msgctxt "Languages::ab__gp.seo_addons_dependency"
+msgid "Setting is operated only with the availability of one or both add-ons \"AB: Indexing management\" and \"AB: Advanced sitemap\""
+msgstr "Налаштування приводиться в дію лише при наявності одного або двох модулів \"АВ: Управління індексацією\" і \"АВ: Розширена карта сайту\""
+
+msgctxt "Languages::ab__gp.location.link_type"
+msgid "Relation with categories and SEO pages"
+msgstr "Зв'язок із категоріями і SEO-сторінками"
+
+msgctxt "Languages::ab__gp.location.link_type.all"
+msgid "Automatically (all together)"
+msgstr "Автоматично (з усіма)"
+
+msgctxt "Languages::ab__gp.location.link_type.selected"
+msgid "Manually"
+msgstr "Вручну"
+
+msgctxt "Languages::ab__gp.templates"
+msgid "Templates management"
+msgstr "Керування шаблонами"
+
+msgctxt "Languages::ab__gp.template.custom"
+msgid "Your template"
+msgstr "Свій шаблон"
+
+msgctxt "Languages::ab__gp.template.update"
+msgid "Edit template: [template_name]"
+msgstr "Редагування шаблону: [template_name]"
+
+msgctxt "Languages::ab__gp.template.template_name"
+msgid "Template name"
+msgstr "Назва шаблону"
+
+msgctxt "Languages::ab__gp.template.name"
+msgid "Template for name"
+msgstr "Шаблон для назви"
+
+msgctxt "Languages::ab__gp.template.description"
+msgid "Template for description"
+msgstr "Шаблон для опису"
+
+msgctxt "Languages::ab__gp.template.title"
+msgid "Template for <code>title</code> tag"
+msgstr "Шаблон для тегу <code>title</code>"
+
+msgctxt "Languages::ab__gp.template.meta_description"
+msgid "Template for <code>meta_description</code> tag"
+msgstr "Шаблон для тега <code>meta_description</code>"
+
+msgctxt "Languages::ab__gp.template.select_template"
+msgid "Select template"
+msgstr "Оберіть шаблон"
+
+msgctxt "Languages::ab__gp.template.default"
+msgid "Default"
+msgstr "За замовчуванням"
+
+msgctxt "Languages::ab__gp.template.existent_templates"
+msgid "Existing templates"
+msgstr "Існуючі шаблони"
+
+msgctxt "Languages::ab__gp.template.placeholders_list"
+msgid "<code>[original_value]</code> - Field value before progress with a template</br> <code>[name]</code> - Entity name</br> <code>[location]</code> - Location name</br> <code>[location_form_1]...[location_form_7]</code> - Forms of location names"
+msgstr "<code>[original_value]</code> - Значення поля до обробки шаблоном</br>"
+"<code>[name]</code> - Назва сутності</br>"
+"<code>[location]</code> - Назва локації</br>"
+"<code>[location_form_1]...[location_form_7]</code> - Форми назв локацій"
+
+msgctxt "Languages::ab__gp.template.placeholders"
+msgid "Placeholders"
+msgstr "Плейсхолдери"
+
+msgctxt "Languages::ab__gp.template.enable"
+msgid "Enable"
+msgstr "Увімкнути"
+
+msgctxt "Languages::ab__gp.template.is_noindex"
+msgid "Exclude page from the indexation"
+msgstr "Вилучити сторінку з індексації"
+
+msgctxt "Languages::ab__gp.template.canonical_id"
+msgid "Change canonical link (category_id)"
+msgstr "Змінити канонічне посилання (category_id)"
+
+msgctxt "Languages::ab__gp.template.new"
+msgid "New template"
+msgstr "Новий шаблон"
+
+msgctxt "Languages::ab__gp.template.placeholders.addon_placeholders"
+msgid "Placeholders from the add-on"
+msgstr "Плейсхолдери з модуля"
+
+msgctxt "Languages::ab__gp.template.placeholders.addon_ab__emd_integration_available"
+msgid "Placeholders of the add-on <b><a href=\"https://cs-cart.alexbranding.com/en/extended-meta-tags-by-templates.html\" target=\"_blank\">AB: Extended meta tags and placeholders</a></b> are supported."
+msgstr "Підтримується робота з плейсхолдерами модуля <b><a href=\"https://cs-cart.alexbranding.com/ru/rashirennie-shabloni-meta-tegov.html\" target=\"_blank\">AB: Розширені мета-теги і плейсхолдери</a></b>"
+
+msgctxt "Languages::ab__gp.help"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "Languages::ab__gp.help.docs"
+msgid "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__geo_pages.doc'>documentation</a>."
+msgstr "Ознайомитись з <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__geo_pages.doc'>документацією</a>."
+
+msgctxt "Languages::privilege_groups.ab__geo_pages"
+msgid "AB: Geo pages"
+msgstr "AB: Гео сторінки"
+
+msgctxt "Languages::privileges.ab__geo_pages.help"
+msgid "View help"
+msgstr "Перегляд довідки"
+
+#. Alexbranding. Do not modify this file manually!

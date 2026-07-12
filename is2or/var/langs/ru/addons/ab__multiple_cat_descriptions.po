@@ -1,0 +1,674 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ab__multiple_cat_descriptions"
+msgid "AB: Multiple category descriptions + FAQ"
+msgstr "AB: Мультиописания категорий + ЧАВО"
+
+msgctxt "Addons::description::ab__multiple_cat_descriptions"
+msgid "The add-on allows to add multiple descriptions for categories, features variants or SEO pages for filters<br><a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+msgstr "Модуль позволяет добавить несколько описаний для категории, варианта хактеристики или SEO страницы для фильтров<br><a href='https://cs-cart.alexbranding.com' target='_blank'>cs-cart.alexbranding.com</a>"
+
+msgctxt "Languages::ab__multiple_cat_descriptions"
+msgid "AB: Multiple category descriptions + FAQ"
+msgstr "AB: Мультиописания категорий + ЧАВО"
+
+msgctxt "SettingsOptions::ab__multiple_cat_descriptions::max_height"
+msgid "Max height of the multiple descriptions"
+msgstr "Максимальная высота блока мультиописаний"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::disabled"
+msgid "not limited"
+msgstr "не ограничивать"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::150"
+msgid "150 px"
+msgstr "150 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::200"
+msgid "200 px"
+msgstr "200 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::250"
+msgid "250 px"
+msgstr "250 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::300"
+msgid "300 px"
+msgstr "300 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::350"
+msgid "350 px"
+msgstr "350 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::400"
+msgid "400 px"
+msgstr "400 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::450"
+msgid "450 px"
+msgstr "450 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::500"
+msgid "500 px"
+msgstr "500 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::550"
+msgid "550 px"
+msgstr "550 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::600"
+msgid "600 px"
+msgstr "600 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::650"
+msgid "650 px"
+msgstr "650 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::700"
+msgid "700 px"
+msgstr "700 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::750"
+msgid "750 px"
+msgstr "750 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::800"
+msgid "800 px"
+msgstr "800 px"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_height::850"
+msgid "850 px"
+msgstr "850 px"
+
+msgctxt "SettingsOptions::ab__multiple_cat_descriptions::max_product_number"
+msgid "Maximum number of products"
+msgstr "Максимальное количество товаров"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_product_number::3"
+msgid "3"
+msgstr "3"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_product_number::6"
+msgid "6"
+msgstr "6"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_product_number::9"
+msgid "9"
+msgstr "9"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_product_number::12"
+msgid "12"
+msgstr "12"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_product_number::15"
+msgid "15"
+msgstr "15"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_product_number::18"
+msgid "18"
+msgstr "18"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_product_number::21"
+msgid "21"
+msgstr "21"
+
+msgctxt "SettingsVariants::ab__multiple_cat_descriptions::max_product_number::24"
+msgid "24"
+msgstr "24"
+
+msgctxt "SettingsTooltips::ab__multiple_cat_descriptions::max_product_number"
+msgid "Limits the maximum number of products that can be selected when using dynamic content"
+msgstr "Ограничивает максимальное количество товаров, которые могут быть выбраны при использовании динамического наполнения"
+
+msgctxt "Languages::ab__mcd.mark_as_faqpage.y"
+msgid "Add"
+msgstr "Добавить"
+
+msgctxt "Languages::ab__mcd.mark_as_faqpage.n"
+msgid "Exclude"
+msgstr "Исключить"
+
+msgctxt "Languages::ab__mcd.tab"
+msgid "AB: Multi-descriptions"
+msgstr "AB: Мультиописания"
+
+msgctxt "Languages::ab__mcd.show_header"
+msgid "Add block header"
+msgstr "Добавить заголовок блока"
+
+msgctxt "Languages::ab__mcd.header"
+msgid "The header text"
+msgstr "Текст заголовка блока"
+
+msgctxt "Languages::ab__mcd.header_tag"
+msgid "HTML tag of the header text"
+msgstr "Html-тег заголовка блока"
+
+msgctxt "Languages::ab__mcd.header_tag.variants.div"
+msgid "div"
+msgstr "div"
+
+msgctxt "Languages::ab__mcd.header_tag.variants.h2"
+msgid "h2"
+msgstr "h2"
+
+msgctxt "Languages::ab__mcd.header_tag.variants.h3"
+msgid "h3"
+msgstr "h3"
+
+msgctxt "Languages::ab__mcd.header_tag.variants.h4"
+msgid "h4"
+msgstr "h4"
+
+msgctxt "Languages::ab__mcd.tag"
+msgid "HTML tag of title"
+msgstr "HTML-тег заголовка"
+
+msgctxt "Languages::ab__mcd.tag.variants.div"
+msgid "div"
+msgstr "div"
+
+msgctxt "Languages::ab__mcd.tag.variants.h2"
+msgid "h2"
+msgstr "h2"
+
+msgctxt "Languages::ab__mcd.tag.variants.h3"
+msgid "h3"
+msgstr "h3"
+
+msgctxt "Languages::ab__mcd.tag.variants.h4"
+msgid "h4"
+msgstr "h4"
+
+msgctxt "Languages::ab__mcd.tag.variants.h5"
+msgid "h5"
+msgstr "h5"
+
+msgctxt "Languages::ab__mcd.is_faq"
+msgid "Use FAQPage microdata"
+msgstr "Использовать микроразметку FAQPage"
+
+msgctxt "Languages::ab__mcd.is_faq.tooltip"
+msgid "<b>Frequently Asked Questions (FAQ)</b> - additional descriptions will be viewed as Frequently Asked Questions with microdata <a href=\"https://developers.google.com/search/docs/data-types/faqpage\">FAQPage</a>"
+msgstr "<b>Часто задаваемые вопросы (FAQ)</b> - дополнительные описания будут отображаться как \"Часто задаваемые вопросы\" с микроразметкой <a href=\"https://developers.google.com/search/docs/data-types/faqpage\">FAQPage</a>"
+
+msgctxt "Languages::ab__mcd.is_faq.variants.y"
+msgid "Use"
+msgstr "Использовать"
+
+msgctxt "Languages::ab__mcd.is_faq.variants.n"
+msgid "Do not use"
+msgstr "Не использовать"
+
+msgctxt "Languages::ab__mcd.is_open"
+msgid "State"
+msgstr "Состояние элемента"
+
+msgctxt "Languages::ab__mcd.is_open.variants.y"
+msgid "Opened"
+msgstr "Открытое"
+
+msgctxt "Languages::ab__mcd.is_open.variants.n"
+msgid "Closed"
+msgstr "Закрытое"
+
+msgctxt "Languages::ab__mcd.position_on_page"
+msgid "Position on the page"
+msgstr "Позиция на странице"
+
+msgctxt "Languages::ab__mcd.position_on_page.tooltip"
+msgid "Display element inside accordion or under it (recommended to display at the table with prices)"
+msgstr "Отображать элемент внутри аккордеона или под ним (рекомендовано для отображения таблицы с ценами)"
+
+msgctxt "Languages::ab__mcd.position_on_page.variants.i"
+msgid "Inside accordion"
+msgstr "Внутри аккордеона"
+
+msgctxt "Languages::ab__mcd.position_on_page.variants.u"
+msgid "Under accordion"
+msgstr "Под аккордеоном"
+
+msgctxt "Languages::ab__mcd.position"
+msgid "Position"
+msgstr "Позиция"
+
+msgctxt "Languages::ab__mcd.title"
+msgid "Title"
+msgstr "Заголовок"
+
+msgctxt "Languages::ab__mcd.description"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "Languages::ab__mcd.status"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "Languages::ab__mcd.popup.add"
+msgid "Add a new description"
+msgstr "Добавить новое описание"
+
+msgctxt "Languages::ab__mcd.popup.edit"
+msgid "Edit description: [name]"
+msgstr "Редактировать описание: [name]"
+
+msgctxt "Languages::ab__mcd.delete"
+msgid "Delete"
+msgstr "Удалить"
+
+msgctxt "Languages::ab__mcd.first_tab"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "Languages::ab__mcd.additional_features"
+msgid "For the fields <b>Title</b>, <b>Description</b> and <b>The header text</b> you may use:"
+msgstr "Для полей <b>Заголовок</b>, <b>Описание</b> и <b>Текст заголовка блока</b> Вы можете использовать:"
+
+msgctxt "Languages::ab__mcd.additional_features.emoji.title"
+msgid "Emoji Unicode"
+msgstr "Emoji Unicode"
+
+msgctxt "Languages::ab__mcd.additional_features.emoji.text"
+msgid "To do it use the appropriate symbol code. Full list of the available symbols is presented on the <a target=\"_blank\" href=\"https://www.w3schools.com/charsets/\">page</a>.<br> Examples of symbol codes and its view:<br> <code>&#38;#129419;</code> - <span style=\"font-size:25px\">&#129419;</span> <a target=\"_blank\" href=\"https://www.w3schools.com/charsets/ref_emoji.asp\">Emoji</a><br> <code>&#38;#128526;</code> - <span style=\"font-size:25px\">&#128526;</span> <a target=\"_blank\" href=\"https://www.w3schools.com/charsets/ref_emoji_smileys.asp\">Smiley Emoji</a><br> <code>&#38;#10055;</code> - <span style=\"font-size:25px\">&#10055;</span> <a target=\"_blank\" href=\"https://www.w3schools.com/charsets/ref_utf_dingbats.asp\">Dingbats</a><br> <code>&#38;#9743;</code> - <span style=\"font-size:25px\">&#9743;</span> <a target=\"_blank\" href=\"https://www.w3schools.com/charsets/ref_utf_symbols.asp\">Misc Symbols</a>"
+msgstr "Для этого используйте соответствующий код символа. Полный список доступных символов представлен на этой <a target=\"_blank\" href=\"https://www.w3schools.com/charsets/\">странице</a>.<br>"
+"Примеры кодов символов и их представления:<br>"
+"<code>&#38;#129419;</code> - <span style=\"font-size:25px\">&#129419;</span> <a target=\"_blank\" href=\"https://www.w3schools.com/charsets/ref_emoji.asp\">Emoji</a><br>"
+"<code>&#38;#128526;</code> - <span style=\"font-size:25px\">&#128526;</span> <a target=\"_blank\" href=\"https://www.w3schools.com/charsets/ref_emoji_smileys.asp\">Smiley Emoji</a><br>"
+"<code>&#38;#10055;</code> - <span style=\"font-size:25px\">&#10055;</span> <a target=\"_blank\" href=\"https://www.w3schools.com/charsets/ref_utf_dingbats.asp\">Dingbats</a><br>"
+"<code>&#38;#9743;</code> - <span style=\"font-size:25px\">&#9743;</span> <a target=\"_blank\" href=\"https://www.w3schools.com/charsets/ref_utf_symbols.asp\">Misc Symbols</a>"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.title"
+msgid "Placeholders"
+msgstr "Плейсхолдеры"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.month.1"
+msgid "January"
+msgstr "января"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.month.2"
+msgid "February"
+msgstr "февраля"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.month.3"
+msgid "March"
+msgstr "марта"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.month.4"
+msgid "April"
+msgstr "апреля"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.month.5"
+msgid "May"
+msgstr "мая"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.month.6"
+msgid "June"
+msgstr "июня"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.month.7"
+msgid "July"
+msgstr "июля"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.month.8"
+msgid "August"
+msgstr "августа"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.month.9"
+msgid "September"
+msgstr "сентября"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.month.10"
+msgid "October"
+msgstr "октября"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.month.11"
+msgid "November"
+msgstr "ноября"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.month.12"
+msgid "December"
+msgstr "декабря"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.text.products"
+msgid "Use placeholder <code>[products]</code> to display products in multi-description text<br>"
+msgstr "Используйте плейсхолдер <code>[products]</code> чтобы отобразить товары в тексте мультиописания<br>"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.text"
+msgid "<code>[year]</code> - this year;<br> <code>[month]</code> - current month as it is;<br> <code>[month_lower]</code> - force to make the letters in lower case;<br> <code>[Month]</code> - the first letter is capital, the rest are in lower case;<br> <code>[MONTH]</code> - all letters are capital.<br> <code>[category]</code> - category name as it is;<br> <code>[category_lower]</code> - force to make the letters in lower case;<br> <code>[Category]</code> - the first letter is capital, the rest are in lower case;<br> <code>[CATEGORY]</code> - all letters are capital.<br> <br> <code>[storefront]</code> - storefront name as it is;<br> <code>[storefront_lower]</code> - force to make the letters in lower case;<br> <code>[Storefront]</code> - the first letter is capital, the rest are in lower case;<br> <code>[STOREFRONT]</code> - all letters are capital.<br> <br> <code>[products]</code> - product list from the \"Dynamic filling\" tab.<br> <br> When the <b>Custom Title H1 PRO</b> add-on is active the following placeholders will be available:<br> <code>[custom_category_h1]</code>; <code>[custom_category_h1_lower]</code>; <code>[Custom_category_h1]</code>; <code>[CUSTOM_CATEGORY_H1]</code>.<br> <br> When the <b>Advanced meta tags and placeholders</b> add-on is active the following placeholder will be available:<br> <code>[ab__mcd_name]</code> - follows the behavior of the placeholder [category], for feature variant pages - behavior of the placeholder [brand], for pages - behavior of the placeholder [page]<br>"
+msgstr "<code>[year]</code> - текущий год;<br>"
+"<code>[month]</code> - текущий месяц как есть;<br>"
+"<code>[month_lower]</code> - принудительно все буквы строчные;<br>"
+"<code>[Month]</code> - первая буква заглавная, остальные — строчные;<br>"
+"<code>[MONTH]</code> - все буквы заглавные.<br>"
+"<code>[category]</code> - название категории как есть;<br>"
+"<code>[category_lower]</code> - принудительно все буквы строчные;<br>"
+"<code>[Category]</code> - первая буква заглавная, остальные — строчные;<br>"
+"<code>[CATEGORY]</code> - все буквы заглавные.<br>"
+"<br>"
+"<code>[storefront]</code> - название магазина как есть;<br>"
+"<code>[storefront_lower]</code> - принудительно все буквы строчные;<br>"
+"<code>[Storefront]</code> - первая буква заглавная, остальные — строчные;<br>"
+"<code>[STOREFRONT]</code> - все буквы заглавные.<br>"
+"<br>"
+"<code>[products]</code> - список товаров с вкладки \"Динамическое наполнение\".<br>"
+"<br>"
+"При активном модуле <b>Пользовательский заголовок H1 PRO</b> также будут доступны плейсхолдеры:<br>"
+"<code>[custom_category_h1]</code>; <code>[custom_category_h1_lower]</code>; <code>[Custom_category_h1]</code>; <code>[CUSTOM_CATEGORY_H1]</code>.<br>"
+"<br>"
+"При активном модуле <b>Расширенные мета-теги и плейсхолдеры</b> также будет доступен:<br>"
+"<code>[ab__mcd_name]</code> - для категорий и SEO-страниц будет наследовать поведение плейсхолдера [category], для страниц варианта характеристики - поведение плейсхолдера [brand], для страниц - поведение плейсхолдера [page]<br>"
+
+msgctxt "Languages::ab__mcd.additional_features.placeholders.text.ab__seo_filter"
+msgid "When the <b>SEO pages for filters</b> add-on is active then available will be:<br> <code>%category%</code>; <code>%category_lower%</code>; <code>%Category%</code>; <code>%CATEGORY%</code>; <code>%filter%</code>; <code>%filter_lower%</code>; <code>%Filter%</code>; <code>%FILTER%</code>; <code>%variant%</code>; <code>%variant_lower%</code>; <code>%Variant%</code>; <code>%VARIANT%</code>\""
+msgstr "При активном модуле <b>SEO страницы для фильтров</b> также будут доступны:<br>"
+"<code>%category%</code>; <code>%category_lower%</code>; <code>%Category%</code>; <code>%CATEGORY%</code>; <code>%filter%</code>; <code>%filter_lower%</code>; <code>%Filter%</code>; <code>%FILTER%</code>; <code>%variant%</code>; <code>%variant_lower%</code>; <code>%Variant%</code>; <code>%VARIANT%</code>"
+
+msgctxt "Languages::ab__mcd.placeholders.ab__mcd_name"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__mcd_descs.category.with_mcd"
+msgid "Categories with multi-description"
+msgstr "Категории с мультиописанием"
+
+msgctxt "Languages::ab__mcd_descs.category.without_mcd"
+msgid "Categories without multi-description"
+msgstr "Категории без мультиописания"
+
+msgctxt "Languages::ab__mcd_descs.category.list.with_mcd"
+msgid "There are picked categories with appointed multi-descriptions. To display the hierarchy of categories correctly, parent categories will be displayed as well, even if there are no AB: Multi-descriptions!"
+msgstr "Отобраны категории, для которых назначены мультиописания. Для правильного отображения иерархии категорий, будут отображены и родительские категории, даже если для них нет AB: Мультиописания!"
+
+msgctxt "Languages::ab__mcd_descs.category.list.without_mcd"
+msgid "There are picked categories without appointed multi-descriptions. To display the hierarchy of categories correctly, parent categories will be displayed as well, even if there are AB: Multi-descriptions!"
+msgstr "Отобраны категории, для которых не назначены мультиописания. Для правильного отображения иерархии категорий, будут отображены и родительские категории, даже если для них есть AB: Мультиописания!"
+
+msgctxt "Languages::ab__mcd_descs.settings"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "Languages::ab__mcd_items.headers"
+msgid "Multi-descriptions blocks headers"
+msgstr "Заголовки блоков мультиописаний"
+
+msgctxt "Languages::ab__mcd_items.elements"
+msgid "Multi-descriptions elements"
+msgstr "Элементы мультиописаний"
+
+msgctxt "Languages::ab__mcd.linked_categories"
+msgid "Linked categories"
+msgstr "Связанные категории"
+
+msgctxt "Languages::ab__mcd.search.title"
+msgid "By title"
+msgstr "По заголовку"
+
+msgctxt "Languages::ab__mcd.search.description"
+msgid "By description"
+msgstr "По описанию"
+
+msgctxt "Languages::ab__mcd.search.category"
+msgid "By categories"
+msgstr "По категориям"
+
+msgctxt "Languages::ab__mcd.search.status"
+msgid "By status"
+msgstr "По статусу"
+
+msgctxt "Languages::ab__mcd_items.elements.list"
+msgid "Multi-descriptions elements"
+msgstr "Элементы мультиописаний"
+
+msgctxt "Languages::ab__mcd_items.headers.list"
+msgid "Multi-descriptions blocks headers"
+msgstr "Заголовки блоков мультиописаний"
+
+msgctxt "Languages::ab__mcd.popup.linked_categories_list"
+msgid "Linked categories list"
+msgstr "Список связанных категорий"
+
+msgctxt "Languages::ab__mcd.popup.update_feature_variant_links"
+msgid "Update variant`s multi-description"
+msgstr "Обновить мультиописания варианта"
+
+msgctxt "Languages::ab__mcd.popup.linked_feature_variants_list"
+msgid "List of linked features variants"
+msgstr "Список связанных вариантов характеристик"
+
+msgctxt "Languages::ab__mcd.linked_feature_variants"
+msgid "Linked feature variants"
+msgstr "Связанные варианты"
+
+msgctxt "Languages::ab__mcd.feature_variant"
+msgid "Feature variant"
+msgstr "Вариант характеристики"
+
+msgctxt "Languages::ab__mcd.add_feature_variants"
+msgid "Add feature variants"
+msgstr "Добавить варианты характеристики"
+
+msgctxt "Languages::ab__mcd.add_feature_variants_and_close"
+msgid "Add feature variants and close"
+msgstr "Добавить варианты характеристики и закрыть"
+
+msgctxt "Languages::ab__mcd.tabs.category"
+msgid "Linked categories"
+msgstr "Связанные категории"
+
+msgctxt "Languages::ab__mcd.tabs.feature_variant"
+msgid "Linked feature variants"
+msgstr "Связанные варианты"
+
+msgctxt "Languages::ab__mcd.tabs.ab__seo_filter"
+msgid "[ERROR-PLACEHOLDER]ab__mcd.linked_ab__seo_filter[/ERROR-PLACEHOLDER]"
+msgstr "[ERROR-PLACEHOLDER]ab__mcd.linked_ab__seo_filter[/ERROR-PLACEHOLDER]"
+
+msgctxt "Languages::ab__mcd.remove_all"
+msgid "Remove all"
+msgstr "Удалить все"
+
+msgctxt "Languages::ab__mcd.filling_type"
+msgid "Filling type"
+msgstr "Тип наполнения"
+
+msgctxt "Languages::ab__mcd.preview"
+msgid "Preview"
+msgstr "Предпросмотр"
+
+msgctxt "Languages::ab__mcd.tabs.fillings"
+msgid "Dynamic filling"
+msgstr "Динамическое наполнение"
+
+msgctxt "Languages::ab__mcd.max_products_warning_notification"
+msgid "The allowed number of products has been exceeded. The allowed number is [number]"
+msgstr "Превышено допустипое количество товаров. Допустимое количество - [number]"
+
+msgctxt "Languages::ab__mcd.products_number"
+msgid "Products number"
+msgstr "Количество товаров"
+
+msgctxt "Languages::ab__mcd.products_sorting"
+msgid "Sorting"
+msgstr "Сортировка"
+
+msgctxt "Languages::ab__mcd.products_template.variants.commas"
+msgid "Comma separated"
+msgstr "Через запятую"
+
+msgctxt "Languages::ab__mcd.products_template.variants.unordered_list"
+msgid "Bulleted list"
+msgstr "Маркированный список"
+
+msgctxt "Languages::ab__mcd.products_template.variants.ordered_list"
+msgid "Numbered list"
+msgstr "Нумерованный список"
+
+msgctxt "Languages::ab__mcd.products_template.variants.table_with_prices"
+msgid "Table with prices"
+msgstr "Таблица с ценами"
+
+msgctxt "Languages::ab__mcd.products_template"
+msgid "Product list display template"
+msgstr "Шаблон отображения списка товаров"
+
+msgctxt "Languages::ab__mcd.display_without_amount"
+msgid "Display product without amount"
+msgstr "Отображать товар без наличия"
+
+msgctxt "Languages::ab__mcd.min_products_on_page"
+msgid "Minimum products number on the page"
+msgstr "Минимальное количество товаров на странице"
+
+msgctxt "Languages::ttc_ab__mcd.min_products_on_page"
+msgid "If products amount on the page is less than described - the multi-description element will not be displayed. When set to \"0\" - no restrictions"
+msgstr "Если количество товаров на странице меньше указанного - елемент мультиописания отображатся не будет. При установке значения \"0\" - без ограничений"
+
+msgctxt "Languages::ab__mcd.feature"
+msgid "Feature"
+msgstr "Характеристика"
+
+msgctxt "Languages::ab__mcd.not_use"
+msgid "Not use"
+msgstr "Не использовать"
+
+msgctxt "Languages::ab__mcd.autoinstall.demodata"
+msgid "Added demo data"
+msgstr "Добавлены демо-данные"
+
+msgctxt "Languages::ab__mcd.category_status"
+msgid "Activate for categories"
+msgstr "Активировать для категорий"
+
+msgctxt "Languages::ab__mcd.feature_variant_status"
+msgid "Activate for feature variants"
+msgstr "Активировать для вариантов характеристики"
+
+msgctxt "Languages::ab__mcd.feature_variant_status_short"
+msgid "feature variants"
+msgstr "вариантов характеристики"
+
+msgctxt "Languages::ab__mcd.category_status.tooltip"
+msgid "Activate the setting to display multi-description element on category pages according to settings below."
+msgstr "Активируйте настройку, чтобы отобразить элемент мультиописания на страницах категорий, согласно настройкам ниже."
+
+msgctxt "Languages::ab__mcd.feature_variant_status.tooltip"
+msgid "Activate the setting to display multi-description element on feature variants pages according to settings below."
+msgstr "Активируйте настройку, чтобы отобразить элемент мультиописания на страницах вариантов характеристики, согласно настройкам ниже."
+
+msgctxt "Languages::ab__mcd.include_categories"
+msgid "Include categories"
+msgstr "Включить категории"
+
+msgctxt "Languages::ab__mcd.exclude_categories"
+msgid "Exclude categories"
+msgstr "Исключить категории"
+
+msgctxt "Languages::ab__mcd.include_feature_variant"
+msgid "Include feature variants"
+msgstr "Включить варианты характеристик"
+
+msgctxt "Languages::ab__mcd.exclude_feature_variant"
+msgid "Exclude feature variants"
+msgstr "Исключить варианты характеристик"
+
+msgctxt "Languages::ab__mcd.global_elements"
+msgid "Common elements"
+msgstr "Общие элементы"
+
+msgctxt "Languages::ab__mcd.tabs.page"
+msgid "Linked pages"
+msgstr "Связанные страницы"
+
+msgctxt "Languages::ab__mcd.page_status"
+msgid "Activate for pages"
+msgstr "Активировать для страниц"
+
+msgctxt "Languages::ab__mcd.page_status_short"
+msgid "pages"
+msgstr "страниц"
+
+msgctxt "Languages::ab__mcd.page_status.tooltip"
+msgid "Activate the setting to display multi-description element on pages according to settings below."
+msgstr "Активируйте настройку, чтобы отобразить элемент мультиописания на страницах, согласно настройкам ниже."
+
+msgctxt "Languages::ab__mcd.include_page"
+msgid "Include pages"
+msgstr "Включить страницы"
+
+msgctxt "Languages::ab__mcd.exclude_page"
+msgid "Exclude pages"
+msgstr "Исключить страницы"
+
+msgctxt "Languages::ab__mcd_descs.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__mcd.help"
+msgid "Help"
+msgstr "Справка"
+
+msgctxt "Languages::ab__mcd.help.doc"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__multiple_cat_descriptions.doc'>the documentation</a>."
+msgstr "Ознакомиться с <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__multiple_cat_descriptions.doc'>документацией</a>."
+
+msgctxt "Languages::ab__mcd_descs.demodata"
+msgid "Demo data"
+msgstr "Демо-данные"
+
+msgctxt "Languages::ab__mcd.demodata_description"
+msgid "On this page you can download demo data. <b>The demo data will be automatically added to the category and immediately displayed on the storefront!</b>"
+msgstr "На этой странице Вы можете загрузить демо-данные. <b>Демо-данные будут автоматически добавлены к категории и сразу будут отображаться на витрине магазина!</b>"
+
+msgctxt "Languages::ab__mcd.demodata.table.description"
+msgid "Demo data"
+msgstr "Демо-данные"
+
+msgctxt "Languages::ab__mcd.demodata.table.action"
+msgid "Action"
+msgstr "Действие"
+
+msgctxt "Languages::ab__mcd.demodata.table.add_category_descrs"
+msgid "Add descriptions"
+msgstr "Добавить описания"
+
+msgctxt "Languages::ab__mcd_descs.export"
+msgid "Data export"
+msgstr "Экспорт данных"
+
+msgctxt "Languages::ab__mcd.export_description"
+msgid "On this page you can export the data of this add-on"
+msgstr "На этой странице Вы можете экспортировать данные этого модуля"
+
+msgctxt "Languages::ab__mcd.export.table.description"
+msgid "Data export"
+msgstr "Экспорт данных"
+
+msgctxt "Languages::ab__mcd.export.table.data"
+msgid "Export information"
+msgstr "Данные для экспорта"
+
+msgctxt "Languages::ab__mcd.export.table.action"
+msgid "Action"
+msgstr "Действие"
+
+msgctxt "Languages::ab__mcd.export.actions.categories"
+msgid "Categories description export"
+msgstr "Экспорт описаний категорий"
+
+msgctxt "Languages::ab__mcd.export.actions.categories.placeholder"
+msgid "Categories ID"
+msgstr "ID категорий"
+
+msgctxt "Languages::ab__mcd.demodata.success"
+msgid "Descriptions [descriptions] in <a href=\"[href]\" target=\"_blank\">category</a> was installed successfully!"
+msgstr "Описания [descriptions] в <a href=\"[href]\" target=\"_blank\">категории</a> были установлены успешно!"
+
+msgctxt "Languages::privilege_groups.ab__multiple_cat_descriptions"
+msgid "AB: Multiple category descriptions + FAQ"
+msgstr "AB: Мультиописания категорий + ЧАВО"
+
+#. Alexbranding. Do not modify this file manually!

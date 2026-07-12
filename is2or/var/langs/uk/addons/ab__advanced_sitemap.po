@@ -1,0 +1,468 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::ab__advanced_sitemap"
+msgid "AB: Advanced sitemap"
+msgstr "AB: Розширена карта сайту"
+
+msgctxt "Addons::description::ab__advanced_sitemap"
+msgid "Add-on adds XML and HTML sitemaps, XML images sitemap"
+msgstr "Модуль додає XML і HTML-карти сайту, XML-карту зображень"
+
+msgctxt "Languages::ab__advanced_sitemap"
+msgid "AB: Advanced sitemap"
+msgstr "AB: Розширена карта сайту"
+
+msgctxt "SettingsSections::ab__advanced_sitemap::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::cron_key"
+msgid "Cron-key"
+msgstr "Cron-ключ"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::cron_key"
+msgid "Auto update requires key. Length must be between 10 and 20 chars (only latin letters and digits)"
+msgstr "Для автоматичного виконання оновлення, наявність ключа обов'язкова. Довжина має бути в межах від 10 до 20 символів (лише латинські букви і цифри)"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::exclude_categories"
+msgid "Exclude categories"
+msgstr "Вилучити категорії"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::exclude_categories"
+msgid "Exclude categories from sitemaps:<br><ul> <li>don't exclude — show all categories</li> <li>without products — categories without products</li> <li>with products without amount — categories in which all products don't have amount</li> <li>with products without prices — categories in which all products don't have prices</li> <li>with products without amount and prices — categories in which all products don't have amount and prices</li> </ul>"
+msgstr "Вилучати категорії з карт сайту:<br><ul>"
+" <li>не вилучати — відображати всі категорії</li>"
+" <li>без товарів — категорії, що не мають товарів</li>"
+" <li>з товарами без наявності — категорії, у яких всі товари не мають наявності</li>"
+" <li>з товарами без цін — категорії, у яких всі товари не мають цін</li>"
+" <li>з товарами без цін і наявності — категорії, у яких всі товари не мають ні цін, ні наявності</li>"
+" </ul>"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::none"
+msgid "don't exclude"
+msgstr "не вилучати"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::without_products"
+msgid "without products"
+msgstr "без товарів"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::without_product_amount"
+msgid "with products without amount"
+msgstr "з товарами без наявності"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::without_product_price"
+msgid "with products without prices"
+msgstr "з товарами без цін"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_categories::without_product_amount_and_price"
+msgid "with products without amount and prices"
+msgstr "з товарами без цін і наявності"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::exclude_brands"
+msgid "Exclude brands"
+msgstr "Вилучити бренди"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::exclude_brands"
+msgid "Exclude brands from sitemaps:<br><ul> <li>don't exclude — show all brands</li> <li>without products — brands without products</li> <li>with products without amount — brands in which all products don't have amount</li> <li>with products without prices — brands in which all products don't have prices</li> <li>with products without amount and prices — brands in which all products have neither amount nor prices</li> </ul>"
+msgstr "Вилучати бренди з карт сайту:<br><ul>"
+" <li>не вилучати — відображати всі бренди</li>"
+" <li>без товарів — бренди, що не мають товарів</li>"
+" <li>з товарами без наявності — бренди, у яких всі товари не мають наявності</li>"
+" <li>з товарами без цін — бренди, у яких всі товари не мають цін</li>"
+" <li>з товарами без цін і наявності — бренди, у яких всі товари не мають ні цін, ні наявності</li>"
+" </ul>"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::none"
+msgid "don't exclude"
+msgstr "не вилучати"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::without_products"
+msgid "without products"
+msgstr "без товарів"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::without_product_amount"
+msgid "with products without amount"
+msgstr "з товарами без наявності"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::without_product_price"
+msgid "with products without prices"
+msgstr "з товарами без цін"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_brands::without_product_amount_and_price"
+msgid "with products without amount and prices"
+msgstr "з товарами без цін і наявності"
+
+msgctxt "SettingsSections::ab__advanced_sitemap::xml_sitemap"
+msgid "XML sitemap"
+msgstr "XML-карта сайту"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::enable_xml_sitemap"
+msgid "Enable XML sitemap"
+msgstr "Увімкнути XML-карту сайту"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_products"
+msgid "Include to sitemap"
+msgstr "Включити до карти сайту"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_categories"
+msgid "Include to sitemap"
+msgstr "Включити до карти сайту"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_pages"
+msgid "Include to sitemap"
+msgstr "Включити до карти сайту"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_blog"
+msgid "Include blog pages to sitemap"
+msgstr "Включити сторінки блогу в карту сайту"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_extended"
+msgid "Include to sitemap"
+msgstr "Включити до карти сайту"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::include_companies"
+msgid "Include companies in sitemap"
+msgstr "Компанії в карті сайту"
+
+msgctxt "SettingsSections::ab__advanced_sitemap::html_sitemap"
+msgid "HTML sitemap"
+msgstr "HTML-карта сайту"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::enable_html_sitemap"
+msgid "Enable HTML sitemap"
+msgstr "Увімкнути HTML-карту сайту"
+
+msgctxt "SettingsSections::ab__advanced_sitemap::xml_images_map"
+msgid "XML sitemap of images"
+msgstr "XML-карта зображень"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::enable_xml_images_map"
+msgid "Enable XML images map"
+msgstr "Увімкнути XML-карту зображень"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::exclude_products"
+msgid "Exclude products"
+msgstr "Вилучити товари"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::exclude_products"
+msgid "Exclude products from sitemaps:<br><ul> <li>don't exclude — show all active products</li> <li>without amount — products without amount</li> <li>without prices — products without prices</li> <li>without amount and prices — products without amount and prices</li> </ul>"
+msgstr "Вилучити товари з карт сайту:<br><ul>"
+" <li>не вилучати — відображати усі активні товари</li>"
+" <li>без наявності — товари без наявності</li>"
+" <li>без цін — товари без цін</li>"
+" <li>без наявності і цін — товари без наявності і цін</li>"
+" </ul>"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_products::none"
+msgid "don't exclude"
+msgstr "не вилучати"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_products::without_amount"
+msgid "without amount"
+msgstr "без наявності"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_products::without_price"
+msgid "without price"
+msgstr "без ціни"
+
+msgctxt "SettingsVariants::ab__advanced_sitemap::exclude_products::without_amount_and_price"
+msgid "without amount and price"
+msgstr "без наявності і ціни"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::exclude_products_variations"
+msgid "Exclude product variations from the sitemap"
+msgstr "Вилучити варіації товарів із карти сайту"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::add_lastmod"
+msgid "Add last modified date"
+msgstr "Додати дату останнього редагування"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::add_lastmod"
+msgid "Adds tag <code>&lt;lastmod&gt;</code> for each feature type to the sitemap. The date will be the date of the sitemap generation"
+msgstr "Додає до карти сайту тег <code>&lt;lastmod&gt;</code> для кожного типу об'єктів. Датою виступатиме дата генерації карти сайту"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::products_settings"
+msgid "Products settings"
+msgstr "Налаштування для товарів"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::products_changefreq"
+msgid "Change frequency"
+msgstr "Частота змін"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::products_priority"
+msgid "Priority"
+msgstr "Пріоритет"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::feature_variants_settings"
+msgid "Feature variants settings (like Brand/Manufacturer)"
+msgstr "Налаштування для варіантів характеристик (типу Бренд/Виробник)"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::feature_variants_changefreq"
+msgid "Change frequency"
+msgstr "Частота змін"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::feature_variants_priority"
+msgid "Priority"
+msgstr "Пріоритет"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::categories_settings"
+msgid "Categories settings"
+msgstr "Налаштування для категорій"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::categories_changefreq"
+msgid "Change frequency"
+msgstr "Частота змін"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::categories_priority"
+msgid "Priority"
+msgstr "Пріоритет"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::custom_links_settings"
+msgid "Customer links settings"
+msgstr "Налаштування для користувацьких посилань"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::custom_links_changefreq"
+msgid "Change frequency"
+msgstr "Частота змін"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::custom_links_priority"
+msgid "Priority"
+msgstr "Пріоритет"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::other_links_settings"
+msgid "Links settings for other add-ons"
+msgstr "Налаштування для посилань з інших модулів"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::other_links_changefreq"
+msgid "Change frequency"
+msgstr "Частота змін"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::other_links_priority"
+msgid "Priority"
+msgstr "Пріоритет"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::pages_settings"
+msgid "Pages settings"
+msgstr "Налаштування для сторінок"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::pages_changefreq"
+msgid "Change frequency"
+msgstr "Частота змін"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::pages_priority"
+msgid "Priority"
+msgstr "Пріоритет"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::add_title_and_caption"
+msgid "Add <code>&lt;image:title&gt;</code> and <code>&lt;image:caption&gt;</code>"
+msgstr "Додати <code>&lt;image:title&gt;</code> та <code>&lt;image:caption&gt;</code>"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::add_title_and_caption"
+msgid "Setting depends on the add-on \"AB: Automatic Alt and Title tags for images using templates\""
+msgstr "Налаштування залежить від модулю \"АВ: Автоматичні теги Alt і Title для зображень по шаблонам\""
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::add_variation_features_description"
+msgid "Add feature values that will be used for creation of variation at <code>&lt;image:title&gt;</code> and <code>&lt;image:caption&gt;</code>"
+msgstr "Додати значення характеристик, по яким створено варіацію в <code>&lt;image:title&gt;</code> та <code>&lt;image:caption&gt;</code>"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::add_variation_features_description"
+msgid "Setting depends on add-ons \"AB: Automatic Alt and Title tags for images using templates\" and \"Product variations\".<br/> Pay attention! When the setting is active, time of sitemap generation will be increased that tends to increase demands to hardware of your server"
+msgstr "Налаштування залежить від модулів \"АВ: Автогенерація атрибутів Alt і Title для зображень\" і \"Варіації товарів\".,br/>"
+"Зверніть увагу, що при увімкнені цього налаштування збільшиться час генерації карти сайту, що призведе до збільшення вимог до апаратного забезпечення Вашого сервера"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::add_vendor_offers"
+msgid "Add vendors' offers"
+msgstr "Додати пропозиції продавців"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::add_vendor_offers"
+msgid "Setting defines whether vendors' offers will be added to sitemap or not.<br/><code>Common Products for Vendors</code> add-on"
+msgstr "Налаштування визначає чи будуть додані пропозиції продавців у карту сайта.<br/>Модуль <code>Спільні товари для продавців</code>"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::languages_locales_header"
+msgid "Locale settings"
+msgstr "Налаштування локалі"
+
+msgctxt "SettingsOptions::ab__advanced_sitemap::xml_sitemap_directory"
+msgid "XML sitemap directory"
+msgstr "Каталог для XML-карти сайту"
+
+msgctxt "SettingsTooltips::ab__advanced_sitemap::xml_sitemap_directory"
+msgid "It is allowed to use letters of the Latin alphabet, numbers and symbols <code>/ _ . ~ - </code>. After changing this parameter, it is necessary to generate a sitemap"
+msgstr "Дозволяється використовувати літери латинського алфавіту, цифри та символи <code>/ _ . ~ - </code>. Після зміни цього параметру необхідно виконати генерацію карти сайту"
+
+msgctxt "Languages::ab__as.generate_sitemap_button"
+msgid "Generate sitemap"
+msgstr "Згенерувати карту сайту"
+
+msgctxt "Languages::ab__as.map_generated"
+msgid "The map is generated!"
+msgstr "Карта згенерована!"
+
+msgctxt "Languages::ab__as.form.page_sitemap"
+msgid "Page name for sitemap"
+msgstr "Назва сторінки для карти сайту"
+
+msgctxt "Languages::ab__as.generate_link"
+msgid "Use the following command to generate sitemap by Cron:"
+msgstr "Для виконання генерації карти сайту по Cron-у використовуйте цю команду:"
+
+msgctxt "Languages::ab__advanced_sitemap.help.server.title"
+msgid "Server option"
+msgstr "Налаштування серверу"
+
+msgctxt "Languages::ab__advanced_sitemap.manage"
+msgid "Sitemap generation"
+msgstr "Генерація карти сайту"
+
+msgctxt "Languages::ab__as.generate_map"
+msgid "The sitemap isn't created yet. Go to the <a href=\"[url]\">sitemap generation page</a>"
+msgstr "Карта сайту ще не створена. Перейдіть на <a href=\"[url]\">сторінку генерації карти сайту</a>"
+
+msgctxt "Languages::ab__as.view_sitemap"
+msgid "Sitemap is available by this link: <a target=\"_blank\" href=\"[url]\">[url]</a> or <a target=\"_blank\" href=\"[location]sitemap.xml\">[location]sitemap.xml</a>"
+msgstr "Файл Sitemap доступний за посиланням <a target=\"_blank\" href=\"[url]\">[url]</a> або <a target=\"_blank\" href=\"[location]sitemap.xml\">[location]sitemap.xml</a>"
+
+msgctxt "Languages::ab__as_links.manage"
+msgid "User's links in XML sitemap"
+msgstr "Посилання користувача в XML-карті сайту"
+
+msgctxt "Languages::ab__as.new_link"
+msgid "New link"
+msgstr "Нове посилання"
+
+msgctxt "Languages::ab__as.form.link"
+msgid "Link"
+msgstr "Посилання"
+
+msgctxt "Languages::ab__as.error_link_exists"
+msgid "Link already exists: [link]"
+msgstr "Посилання вже існує: [link]"
+
+msgctxt "Languages::ab__as.error_link_empty"
+msgid "Link to homepage already exists"
+msgstr "Посилання на головну сторінку вже існує"
+
+msgctxt "Languages::tt_addons_ab__advanced_sitemap_views_ab__as_links_manage_ab__as.form.link"
+msgid "Possible to use:<br /> <ul style=\"margin:10px 0;list-style-type:none\"><li>dispatch value — <code>categories.catalog</code> or <code>products.view&product_id=12</code>. The most preferred option, converting to all languages automatically</li> <li>relative links — <code>/catalog/</code> or <code>/mens-clothing/100g-pants/</code>. For each language, you must add a separate link manually!</li> <li>absolute links — <code>http://example.com/catalog/</code> or <code style=\"white-space:normal\">http://example.com/mens-clothing/100g-pants/</code>. Automatically converting to relative link</li><ul>"
+msgstr "Можна використовувати:<br />"
+" <ul style=\"margin:10px 0;list-style-type:none\"><li>значення dispatch — <code>categories.catalog</code> або <code>products.view&product_id=12</code>. Найкращий варіант, конвертується під всі мови автоматично</li>"
+" <li>відносні посилання — <code>/catalog/</code> або <code>/mens-clothing/100g-pants/</code>. Для кожної мови необхідно додавати окреме посилання вручну!</li>"
+" <li>абсолютні посилання — <code>http://example.com/catalog/</code> або <code style=\"white-space:normal\">http://example.com/mens-clothing/100g-pants/</code>. Автоматично конвертується у відносне посилання</li></ul>"
+
+msgctxt "Languages::ab__as.settings"
+msgid "General settings"
+msgstr "Загальні налаштування"
+
+msgctxt "Languages::ab__as.error.check_permissions"
+msgid "A sitemap file can't be created. Check files permissions"
+msgstr "Файл карти не може бути створений. Перевірте права на файли"
+
+msgctxt "Languages::ab__as.errors.cron_key"
+msgid "Warning! CRON Key doesn't meet safety requirements"
+msgstr "Увага! CRON ключ не відповідає вимогам безпеки"
+
+msgctxt "Languages::ab__as.comet.adding_storefront"
+msgid "Adding main page link"
+msgstr "Додання головної сторінки"
+
+msgctxt "Languages::ab__as.comet.adding_custom_links"
+msgid "Adding custom links"
+msgstr "Додання довільних посилань"
+
+msgctxt "Languages::ab__as.comet.adding_categories"
+msgid "Adding categories links"
+msgstr "Додання посилань категорій"
+
+msgctxt "Languages::ab__as.comet.adding_products"
+msgid "Adding products links"
+msgstr "Додання посилань товарів"
+
+msgctxt "Languages::ab__as.comet.adding_pages"
+msgid "Adding pages links"
+msgstr "Додання посилань сторінок"
+
+msgctxt "Languages::ab__as.comet.adding_blog"
+msgid "Adding blog links"
+msgstr "Додання посилань блогу"
+
+msgctxt "Languages::ab__as.comet.adding_brands"
+msgid "Adding brands links"
+msgstr "Додання посилань брендів"
+
+msgctxt "Languages::ab__as.comet.adding_vendors"
+msgid "Adding vendors links"
+msgstr "Додання посилань продавців"
+
+msgctxt "Languages::ab__as.comet.adding_images"
+msgid "Adding images links"
+msgstr "Додання посилань зображень"
+
+msgctxt "Languages::ab__as.always"
+msgid "Always"
+msgstr "Завжди"
+
+msgctxt "Languages::ab__as.hourly"
+msgid "Hourly"
+msgstr "Щогодини"
+
+msgctxt "Languages::ab__as.daily"
+msgid "Daily"
+msgstr "Щодня"
+
+msgctxt "Languages::ab__as.weekly"
+msgid "Weekly"
+msgstr "Щотижня"
+
+msgctxt "Languages::ab__as.monthly"
+msgid "Monthly"
+msgstr "Щомісяця"
+
+msgctxt "Languages::ab__as.yearly"
+msgid "Annually"
+msgstr "Щороку"
+
+msgctxt "Languages::ab__as.never"
+msgid "Never"
+msgstr "Ніколи"
+
+msgctxt "Languages::ab__advanced_sitemap.help"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "Languages::ab__as_help.docs"
+msgid "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__advanced_sitemap.doc'>documentation</a>."
+msgstr "Ознайомитись з <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__advanced_sitemap.doc'>документацією</a>."
+
+msgctxt "Languages::privilege_groups.ab__advanced_sitemap"
+msgid "AB: Advanced sitemap"
+msgstr "AB: Розширена карта сайту"
+
+msgctxt "Languages::privileges.ab__as.manage"
+msgid "Manage data"
+msgstr "Керування данними"
+
+msgctxt "Languages::privileges.ab__as.view"
+msgid "View data"
+msgstr "Перегляд данних"
+
+msgctxt "Languages::ab__as.autoinstall.sitemap_true"
+msgid "XML sitemap has been successfully generated. You can view it by the link <a target=\"_blank\" href=\"[url]\">[url]</a>"
+msgstr "XML-карта сайту успішно згенерована. Переглянути можна за посиланням <a target=\"_blank\" href=\"[url]\">[url]</a>"
+
+msgctxt "Languages::ab__as.autoinstall.sitemap_false"
+msgid "Failed to create XML sitemap"
+msgstr "Не вдалося створити XML-карту сайту"
+
+msgctxt "Languages::ab__as.upgrade_notifications.2.0.0.update_cron_tasks.title"
+msgid "Update Cron-tasks"
+msgstr "Оновіть Cron-завдання"
+
+msgctxt "Languages::ab__as.upgrade_notifications.2.0.0.update_cron_tasks.text"
+msgid "Link for the Cron was changed. Please, update your Cron-tasks."
+msgstr "Посилання для Cron були змінені. Будь ласка, оновіть Cron-завдання."
+
+#. Alexbranding. Do not modify this file manually!

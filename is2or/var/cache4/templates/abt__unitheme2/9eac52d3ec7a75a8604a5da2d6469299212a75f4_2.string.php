@@ -1,0 +1,34 @@
+<?php
+/* Smarty version 4.3.0, created on 2025-05-26 04:37:36
+  from '9eac52d3ec7a75a8604a5da2d6469299212a75f4' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.3.0',
+  'unifunc' => 'content_68345280d401e9_73774939',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_68345280d401e9_73774939 (Smarty_Internal_Template $_smarty_tpl) {
+?><style>
+.protection  {
+  display: flex;
+}
+.protection {
+  padding-top: 77px;
+}
+.protection div {
+  padding-left: 10px;
+}
+</style>
+
+<div class="protection">
+<div><img src="/images/dig.png" ></div>
+<div><img src="/images/dss.png" ></div>
+</div><?php }
+}

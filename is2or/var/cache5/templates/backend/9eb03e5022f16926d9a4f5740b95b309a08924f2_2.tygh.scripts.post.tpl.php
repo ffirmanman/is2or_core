@@ -1,0 +1,27 @@
+<?php
+/* Smarty version 4.3.0, created on 2025-05-27 06:11:18
+  from '/srv/projects/is2or.com/public_html/design/backend/templates/addons/ab__fast_navigation/hooks/index/scripts.post.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.3.0',
+  'unifunc' => 'content_6835b9f6003554_94162338',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '9eb03e5022f16926d9a4f5740b95b309a08924f2' => 
+    array (
+      0 => '/srv/projects/is2or.com/public_html/design/backend/templates/addons/ab__fast_navigation/hooks/index/scripts.post.tpl',
+      1 => 1736835103,
+      2 => 'tygh',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_6835b9f6003554_94162338 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/srv/projects/is2or.com/public_html/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
+echo smarty_function_script(array('src'=>"js/addons/ab__fast_navigation/ab__fn_admin.js"),$_smarty_tpl);
+}
+}

@@ -1,0 +1,633 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_EN\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: en\n"
+"X-Crowdin-File: /release-4.8.1/addons/rf_stock_parser.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2019-02-03 13:14\n"
+
+msgctxt "Addons::name::rf_stock_parser"
+msgid "[RetailFactory] Fast and simple import and stocks & pricing control from XLS, XLSX, XML, CSV files"
+msgstr "[RetailFactory] Fast and simple import and stocks & pricing control from XLS, XLSX, XML, CSV files"
+
+msgctxt "Addons::description::rf_stock_parser"
+msgid "This addon helps to track inventory and products prices based on Excel/XML price list"
+msgstr "This addon helps to track inventory and products prices based on Excel/XML price list. <a href='https://store.retailfactory.ru/spen/' target='_blank'>Documentation</a>, <a href='mailto: support@retailfactory.ru'>Support</a>"
+
+msgctxt "Languages::rf_stock_parser"
+msgid "Suppliers price lists"
+msgstr "Suppliers price lists"
+
+msgctxt "Languages::my_supplier_schedule"
+msgid "Schedule"
+msgstr "Schedule"
+
+msgctxt "Languages::my_supplier_file_price_link"
+msgid "File URL"
+msgstr "File URL"
+
+msgctxt "Languages::my_supplier_file_price_time"
+msgid "Time download"
+msgstr "Download time"
+
+msgctxt "Languages::my_supplier_extra_charge"
+msgid "Markup"
+msgstr "Markup"
+
+msgctxt "Languages::my_supplier_availability_strategy"
+msgid "Availability rules"
+msgstr "Availability rules"
+
+msgctxt "Languages::my_supplier_pricing_strategy"
+msgid "Pricing rules"
+msgstr "Pricing rules"
+
+msgctxt "Languages::my_supplier"
+msgid "Supplier price list"
+msgstr "Supplier price list"
+
+msgctxt "Languages::add_my_supplier"
+msgid "Add Excel price list"
+msgstr "Add Excel price list"
+
+msgctxt "Languages::editing_my_supplier"
+msgid "Editing price list"
+msgstr "Editing price list"
+
+msgctxt "Languages::my_supplier_deleted"
+msgid "Price list has been deleted successfully."
+msgstr "Price list has been deleted successfully."
+
+msgctxt "Languages::privileges.manage_rf_stock_parser"
+msgid "[RetailFactory] Manage price lists"
+msgstr "Manage"
+
+msgctxt "SettingsSections::rf_stock_parser::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "Languages::my_supplier_column_settings"
+msgid "Columns definition"
+msgstr "Columns definition"
+
+msgctxt "Languages::my_supplier_settings_columns"
+msgid "Columns"
+msgstr "Columns"
+
+msgctxt "Languages::my_supplier_settings_first_row"
+msgid "First row"
+msgstr "First row"
+
+msgctxt "Languages::my_supplier_goods_in_price_list"
+msgid "Product in the price list"
+msgstr "Product in the price list"
+
+msgctxt "Languages::my_supplier_goods_not_in_price_list"
+msgid "Product is not in the price list"
+msgstr "Product is not in the price list"
+
+msgctxt "Languages::my_supplier_avail_strategy_in_turn_on"
+msgid "Enable"
+msgstr "Enable"
+
+msgctxt "Languages::my_supplier_avail_strategy_in_turn_off"
+msgid "Hide and set amount to 0"
+msgstr "Hide and set amount to 0"
+
+msgctxt "Languages::my_supplier_avail_strategy_leave_status"
+msgid "Leave previous status"
+msgstr "Leave previous status"
+
+msgctxt "Languages::my_supplier_avail_strategy_set_zero"
+msgid "Set amount to 0"
+msgstr "Set amount to 0"
+
+msgctxt "Languages::my_supplier_disable_all_missing"
+msgid "Disable all missing products"
+msgstr "Disable all missing products"
+
+msgctxt "Languages::my_supplier_set_to_zero"
+msgid "Set amount to 0 for all missing products"
+msgstr "Set amount to 0 for all missing products"
+
+msgctxt "Languages::my_supplier_success"
+msgid "Success"
+msgstr "Success"
+
+msgctxt "Languages::my_supplier_import_price_not_exists"
+msgid "If MSRP is not exists"
+msgstr "If MSRP is not exists"
+
+msgctxt "Languages::my_supplier_pricing_strategy_keep_old_price"
+msgid "Keep previous price"
+msgstr "Keep previous price"
+
+msgctxt "Languages::my_supplier_pricing_strategy_use_opt_price"
+msgid "Use supplier price"
+msgstr "use supplier price"
+
+msgctxt "Languages::my_supplier_log_count"
+msgid "Products count"
+msgstr "Products count"
+
+msgctxt "Languages::my_supplier_log_enabled"
+msgid "Products have been enabled"
+msgstr "Products have been enabled"
+
+msgctxt "Languages::my_supplier_log_disabled"
+msgid "Products have been disabled"
+msgstr "Products have been disabled"
+
+msgctxt "Languages::my_search_by_supplier"
+msgid "Search by supplier"
+msgstr "Search by supplier"
+
+msgctxt "Languages::my_suppliers_logs_type_not_found"
+msgid "Not found"
+msgstr "Not found"
+
+msgctxt "Languages::my_suppliers_logs_type_duplicates"
+msgid "Duplicates"
+msgstr "Duplicates"
+
+msgctxt "Languages::my_suppliers_logs_type_categories"
+msgid "Unbound categories"
+msgstr "Unbound categories"
+
+msgctxt "Languages::my_suppliers_logs_type_detailed"
+msgid "Detailed report"
+msgstr "Detailed report"
+
+msgctxt "Languages::my_suppliers_logs_type_large_percentage"
+msgid "Critical change of product price"
+msgstr "Critical change of product price"
+
+msgctxt "SettingsOptions::rf_stock_parser::large_percent_change"
+msgid "Critical change of product price in percent"
+msgstr "Critical change of product price in percent"
+
+msgctxt "SettingsOptions::rf_stock_parser::license_number"
+msgid "License number"
+msgstr "License number"
+
+msgctxt "SettingsOptions::rf_stock_parser::php_executable_path"
+msgid "PHP executable path"
+msgstr "PHP executable path"
+
+msgctxt "Languages::my_supplier_price_upload"
+msgid "Price list uploading"
+msgstr "Price list uploading"
+
+msgctxt "Languages::my_supplier_edit_supplier"
+msgid "Edit price list"
+msgstr "Edit price list"
+
+msgctxt "Languages::my_supplier_amount_synonyms"
+msgid "Amount synonyms"
+msgstr "Amount synonyms"
+
+msgctxt "Languages::my_supplier_price_synonyms"
+msgid "Price synonyms"
+msgstr "Price synonyms"
+
+msgctxt "Languages::my_supplier_features_synonyms"
+msgid "Features synonyms"
+msgstr "Features synonyms"
+
+msgctxt "Languages::manufacturer_code"
+msgid "Manufacturer code"
+msgstr "Manufacturer code"
+
+msgctxt "Languages::manufacturer_field"
+msgid "Field for products matching"
+msgstr "Field for products matching"
+
+msgctxt "SettingsOptions::rf_stock_parser::brand_feature_id"
+msgid "Field for brand matching"
+msgstr "Field for brand matching"
+
+msgctxt "Languages::rf_stock_parser_license_expired"
+msgid "Wrong license"
+msgstr "Wrong license"
+
+msgctxt "Languages::rf_stock_parser_attachments_module_disabled"
+msgid "Attachments module is disabled"
+msgstr "Attachments module is disabled"
+
+msgctxt "Languages::rf_stock_parser_file_was_not_saved"
+msgid "File was not saved"
+msgstr "File was not saved"
+
+msgctxt "Languages::rf_stock_parser_new_pos_first_line"
+msgid "First row"
+msgstr "First row"
+
+msgctxt "Languages::rf_stock_parser_new_pos_file_name"
+msgid "File name"
+msgstr "File name"
+
+msgctxt "Languages::rf_stock_parser_new_pos_file_path"
+msgid "File path"
+msgstr "File path"
+
+msgctxt "Languages::rf_stock_parser_new_pos_prefix"
+msgid "Prefix"
+msgstr "Prefix"
+
+msgctxt "Languages::rf_stock_parser_new_pos_postfix"
+msgid "Postfix"
+msgstr "Postfix"
+
+msgctxt "Languages::rf_product_code"
+msgid "Product code"
+msgstr "Product code"
+
+msgctxt "Languages::rf_supplier_price"
+msgid "Supplier price"
+msgstr "Supplier price"
+
+msgctxt "Languages::rf_supplier_vat"
+msgid "Vat"
+msgstr "VAT"
+
+msgctxt "Languages::rf_msrp"
+msgid "MSRP"
+msgstr "MSRP"
+
+msgctxt "Languages::rf_keep_logs"
+msgid "Keep logs"
+msgstr "Keep logs"
+
+msgctxt "Languages::rf_days"
+msgid "Days"
+msgstr "Days"
+
+msgctxt "Languages::rf_get_xml_scheme"
+msgid "Get XML scheme"
+msgstr "Get XML scheme"
+
+msgctxt "Languages::rf_xml_file"
+msgid "XML file"
+msgstr "XML file"
+
+msgctxt "Languages::rf_product_node"
+msgid "Product node"
+msgstr "Product node"
+
+msgctxt "Languages::rf_execute"
+msgid "Execute"
+msgstr "Execute"
+
+msgctxt "Languages::rf_columns_definition"
+msgid "Columns definition"
+msgstr "Columns definition"
+
+msgctxt "Languages::rf_reset"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "Languages::rf_column"
+msgid "Column"
+msgstr "Column"
+
+msgctxt "Languages::rf_value"
+msgid "Value"
+msgstr "Value"
+
+msgctxt "Languages::rf_partial"
+msgid "Partial"
+msgstr "Partial"
+
+msgctxt "Languages::rf_amount_will_save"
+msgid "Amount will be saved in"
+msgstr "Amount will be saved in"
+
+msgctxt "Languages::rf_suppliers_enable_and_disable_tracking"
+msgid "Enable product and set tracking to Do not track"
+msgstr "Enable product and set tracking to Do not track"
+
+msgctxt "Languages::rf_filter_by_availability"
+msgid "Filter products by availability attribute"
+msgstr "Filter products by availability attribute"
+
+msgctxt "Languages::my_supplier_settings_csv_delimiter"
+msgid "CSV delimiter"
+msgstr "CSV delimiter"
+
+msgctxt "Languages::my_supplier_settings_csv_enclosure"
+msgid "CSV enclosure"
+msgstr "CSV enclosure"
+
+msgctxt "Languages::my_supplier_settings_csv_escape"
+msgid "CSV escape"
+msgstr "CSV escape"
+
+msgctxt "Languages::rf_additional_columns_definition"
+msgid "Additional product data"
+msgstr "Additional product data"
+
+msgctxt "Languages::rf_modifier"
+msgid "Modifier"
+msgstr "Modifier"
+
+msgctxt "Languages::my_supplier_not_found"
+msgid "New products"
+msgstr "New products"
+
+msgctxt "Languages::my_supplier_products_created"
+msgid "Products created"
+msgstr "Products created"
+
+msgctxt "Languages::my_supplier_logs"
+msgid "Logs"
+msgstr "Logs"
+
+msgctxt "Languages::rf_stock_parser_start"
+msgid "Start"
+msgstr "Start"
+
+msgctxt "Languages::rf_stock_parser_parsing"
+msgid "Products handling"
+msgstr "Products handling... "
+
+msgctxt "Languages::rf_stock_parser_disableProducts"
+msgid "Disabling missing products"
+msgstr "Disabling missing products"
+
+msgctxt "Languages::rf_stock_parser_updateCollections"
+msgid "Update variations"
+msgstr "Update variations"
+
+msgctxt "Languages::rf_stock_parser_parsingFinish"
+msgid "End of work"
+msgstr "End of work"
+
+msgctxt "Languages::rf_stock_parser_communication_category"
+msgid "Communication category"
+msgstr "Categories mapping"
+
+msgctxt "Languages::rf_stock_parser_encoding"
+msgid "Encoding"
+msgstr "Encoding"
+
+msgctxt "Languages::rf_additional"
+msgid "Additional info"
+msgstr "Additional info"
+
+msgctxt "Languages::rf_file_not_available"
+msgid "File is not available"
+msgstr "File is not available"
+
+msgctxt "Languages::rf_price_list"
+msgid "Price list"
+msgstr "Price list"
+
+msgctxt "Languages::privileges.manage_my_suppliers"
+msgid "[RetailFactory] Edit and view suppliers price lists"
+msgstr "[RetailFactory] Edit and view suppliers price lists"
+
+msgctxt "Languages::rf_stock_parser_extra_charge_type_percent"
+msgid "Percent"
+msgstr "Percent"
+
+msgctxt "Languages::rf_stock_parser_extra_charge_type_absolute"
+msgid "Absolute"
+msgstr "Absolute"
+
+msgctxt "Languages::rf_stock_parser_autoimport"
+msgid "Auto import"
+msgstr "Auto import"
+
+msgctxt "Languages::rf_stock_parser_xml_syntax_error"
+msgid "Error in the XML syntax"
+msgstr "Error in the XML syntax"
+
+msgctxt "Languages::rf_stock_price_rounding"
+msgid "Rounding"
+msgstr "Rounding"
+
+msgctxt "Languages::rf_stock_price_round"
+msgid "Round up"
+msgstr "Round up"
+
+msgctxt "Languages::rf_stock_price_round_precision"
+msgid "Precision"
+msgstr "Precision"
+
+msgctxt "Languages::rf_stock_price_round_mode_half_down"
+msgid "Round half down"
+msgstr "Round half down"
+
+msgctxt "Languages::my_supplier_custom_extra_charge"
+msgid "Customizable extra charge"
+msgstr "Customizable extra charge"
+
+msgctxt "Languages::rf_stock_parser_stop_update_price"
+msgid "Do not update price"
+msgstr "Do not update price"
+
+msgctxt "Languages::rf_stock_parser_stop_update_amount"
+msgid "Do not update amount"
+msgstr "Do not update amount"
+
+msgctxt "Languages::rf_stock_parser_stop_update_status"
+msgid "Do not update status"
+msgstr "Do not update status"
+
+msgctxt "SettingsOptions::rf_stock_parser::add_fields_products_list"
+msgid "Add fields to products list"
+msgstr "Add fields to products list"
+
+msgctxt "SettingsOptions::rf_stock_parser::rates_source"
+msgid "Source of exchange rates"
+msgstr "Source of exchange rates"
+
+msgctxt "SettingsOptions::rf_stock_parser::import_to_multiple_stores"
+msgid "Import to multiple stores"
+msgstr "Import to multiple stores"
+
+msgctxt "Languages::rf_stock_parser_log_status_updated"
+msgid "Updated"
+msgstr "updated"
+
+msgctxt "Languages::rf_stock_parser_log_status_updated_only_prices"
+msgid "Updated only price"
+msgstr "updated only price"
+
+msgctxt "Languages::rf_stock_parser_log_status_enabled"
+msgid "Enabled"
+msgstr "enabled"
+
+msgctxt "Languages::rf_stock_parser_log_status_disabled"
+msgid "Disabled"
+msgstr "disabled"
+
+msgctxt "Languages::rf_stock_parser_log_status_hidden"
+msgid "Hidden"
+msgstr "hidden"
+
+msgctxt "Languages::rf_stock_parser_currency"
+msgid "Currency"
+msgstr "Currency"
+
+msgctxt "Languages::rf_stock_parser_store_currencies"
+msgid "Store currencies"
+msgstr "Store currencies"
+
+msgctxt "Languages::rf_stock_parser_without_resetting_stored_fields"
+msgid "Without resetting the stored fields"
+msgstr "Without resetting the stored fields"
+
+msgctxt "Languages::rf_stock_parser_cron_info"
+msgid "Cron info"
+msgstr "<b>Cron</b>: [path]"
+
+msgctxt "Languages::rf_stock_parser_cron_info_php_version"
+msgid "Cron info php version"
+msgstr "<b>PHP version [current] is wrong. Minimal version is [must]. Fill PHP path manually</b>"
+
+msgctxt "Languages::rf_stock_parser_attr_translates_nodevalue"
+msgid "Node value"
+msgstr "Node value"
+
+msgctxt "Languages::rf_stock_parser_xml_fix_wrong_encode"
+msgid "Fix wrong encode"
+msgstr "Fix incorrect encoding (will take resources for large files)"
+
+msgctxt "Languages::rf_stock_parser_last_run"
+msgid "Last run"
+msgstr "Last run"
+
+msgctxt "Languages::rf_stock_parser_renewable"
+msgid "Renewable"
+msgstr "Renewable"
+
+msgctxt "Languages::rf_stock_parser_additional_update_settings"
+msgid "Update settings"
+msgstr "Update settings"
+
+msgctxt "Languages::rf_stock_parser_use_price_category_id"
+msgid "Use Category ID from price list as category ID"
+msgstr "Use Category ID from price list as category ID"
+
+msgctxt "Languages::rf_stock_parser_default_category"
+msgid "Default category"
+msgstr "Default category"
+
+msgctxt "Languages::rf_stock_parser_price_not_exists_report"
+msgid "The price on the link is not available"
+msgstr "The price on the link is not available"
+
+msgctxt "Languages::rf_stock_parser_price_large_percent_report"
+msgid "Large percent changes report"
+msgstr "Large percent changes report"
+
+msgctxt "Languages::rf_stock_parser_attach_to_master"
+msgid "Attach to master product"
+msgstr "Attach to master product"
+
+msgctxt "Languages::privilege_groups.rf_stock_parser"
+msgid "My suppliers"
+msgstr "Fast and simple import and stocks & pricing control from XLS, XLSX, XML, CSV files"
+
+msgctxt "Languages::privileges.view_rf_stock_parser"
+msgid "View suppliers"
+msgstr "View"
+
+msgctxt "Languages::rf_stock_parser_autoimport_description"
+msgid "Autoimport description"
+msgstr "Only products with categories from price list can be imported automatically. Do not forget to map categories from price list with categories from your store."
+
+msgctxt "Languages::rf_stock_parser_attach_to_master_description"
+msgid "Attach to master description"
+msgstr "If product code will be found in Common products"
+
+msgctxt "Languages::rf_stock_parser_categories_mapping_description"
+msgid "Categories mapping description"
+msgstr "You need to map category name from price list with category from your store"
+
+msgctxt "Languages::rf_stock_parser.all_vendors_master_product"
+msgid "All vendors (common products)"
+msgstr "All vendors (common products)"
+
+msgctxt "Languages::rf_stock_parser_amount_not_in_schema"
+msgid "Amount not in schema"
+msgstr "If the product is in the price list (but not selected in the scheme)"
+
+msgctxt "Languages::rf_stock_parser_amount_not_in_schema_value"
+msgid "Set stock"
+msgstr "Set stock"
+
+msgctxt "Languages::rf_stock_parser_reset_warehouses"
+msgid "Reset warehouses"
+msgstr "Reset warehouses"
+
+msgctxt "Languages::rf_stock_parser_product_field"
+msgid "Field"
+msgstr "Product field"
+
+msgctxt "SettingsOptions::rf_stock_parser::csv_fields_range"
+msgid "CSV fields range"
+msgstr "CSV fields range"
+
+msgctxt "Languages::rf_stock_parser_link_to_products"
+msgid "Link to products in the store"
+msgstr "Link to products in the store"
+
+msgctxt "Languages::rf_stock_parser_link_to_products.vendor_code"
+msgid "Product code"
+msgstr "Product code"
+
+msgctxt "Languages::rf_stock_parser_link_to_products.vendor_code_with_brand"
+msgid "Product code + brand"
+msgstr "Product code + Brand"
+
+msgctxt "Languages::rf_stock_parser_link_to_products.vendor_code_with_parser"
+msgid "Product code + field Supplier price list on product page"
+msgstr "Product code + field Supplier price list on product page"
+
+msgctxt "Languages::rf_stock_settings_labels_row"
+msgid "Row with field names"
+msgstr "Row with field names"
+
+msgctxt "Languages::rf_stock_parser_labels_row_stop_update"
+msgid "Do not update if the row with the names has changed"
+msgstr "Do not update if the row with the names has changed"
+
+msgctxt "Languages::rf_stock_parser_price_labels_wrong_report"
+msgid "Columns have changed in the price list"
+msgstr "Columns have changed in the price list"
+
+msgctxt "Languages::rf_stock_parser.scheme_not_found"
+msgid "XML scheme need to be defined before"
+msgstr "XML scheme need to be defined before"
+
+msgctxt "Languages::rf_stock_parser_categories_default_description"
+msgid "If you enable Auto import checkbox all products without founded category will be added to default category"
+msgstr "If you enable Auto import checkbox all products without founded category will be added to default category"
+
+msgctxt "Languages::rf_stock_parser.pricing_strategy_cat_header"
+msgid "Set custom margin for category"
+msgstr "Set custom margin for category"
+
+msgctxt "Languages::rf_update_price_is_out_of_stock"
+msgid "Update price is out of stock"
+msgstr "If amount in price list equal 0"
+
+msgctxt "Languages::rf_update_price_is_out_of_stock_update"
+msgid "Update price is out of stock update"
+msgstr "Update price and supplier price"
+
+msgctxt "Languages::rf_update_price_is_out_of_stock_set_zero"
+msgid "Update price is out of stock set zero"
+msgstr "Reset price and supplier price"
+
+msgctxt "Languages::rf_update_price_is_out_of_stock_keep"
+msgid "Update price is out of stock keep"
+msgstr "Leave current"

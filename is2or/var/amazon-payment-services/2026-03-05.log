@@ -1,0 +1,3 @@
+2026-03-05 @ 13:15:21 - Notify Response:
+{"Notify Url":"\/index.php?dispatch=payment_notification.success&payment=aps&order_id=NDAy","Response":{"gateway":"cc","payment_mode":"PURCHASE","merchant_reference":"40215BCD122","amount":"14900","captured_amount":"14900","response_type":"PAYMENT_SUCCESS","command":"CAPTURE","fort_id":"169996200029992688","response_code":"12000","reason_text":"Success","order_status":"P"}}
+

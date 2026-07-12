@@ -1,0 +1,49 @@
+/*CLS  Unitheme */
+.clsBody {
+	.ut2-sticky-panel__wrap{	
+		display:contents !important;
+		.ut2-sticky-panel{
+			display:contents !important; 	
+			.ty-search-block.view:after{
+				display:none;
+			}
+			.clsActive{				
+				visibility: visible;
+				opacity: 1;
+				form{
+					position: relative;
+					z-index:1000;
+				}
+			}
+			.ty-search-block__input{
+				padding: 2px 10px;
+				max-width: 100%;
+				margin: 0px;
+				border-color:#e7e7e7;;
+				box-shadow:none;
+			}
+			.ty-search-block .ty-search-magnifier{
+				color: #07c;
+				right: 0px;
+				height: 25px;
+				top: 6px;
+			}
+			.ty-search-block:after, .ty-search-block:before{
+				display:none;
+			}		
+		}	
+	}
+
+	@media(max-width: 767px) {
+		.light-header.v2 .clsActive .ty-search-magnifier{
+			top: 0px;
+			bottom: 0px;
+			margin-top: auto;
+			margin-bottom: auto;
+			right: 0px;
+			margin-right: 5px;
+		}
+	}
+}
+
+/* CLS End Unitheme */

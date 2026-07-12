@@ -1,0 +1,582 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::ab__extended_metadata"
+msgid "AB: Extended meta tags and placeholders"
+msgstr "AB: Розширені мета-теги та плейсхолдери"
+
+msgctxt "Addons::description::ab__extended_metadata"
+msgid "Add-on helps you to control meta tags and generate page tag <code>title</code>, meta tag <code>description</code> and meta tag <code>keywords</code> by specified pattern"
+msgstr "Модуль допомагає керувати мета-тегами, а також генерує тег <code>title</code> сторінки, мета-тег <code>description</code> і мета-тег <code>keywords</code> за заданим шаблоном"
+
+msgctxt "Languages::ab__extended_metadata"
+msgid "AB: Extended meta tags and placeholders"
+msgstr "AB: Розширені мета-теги та плейсхолдери"
+
+msgctxt "SettingsOptions::ab__extended_metadata::brand_id"
+msgid "Brand feature ID"
+msgstr "ID характеристики Бренд"
+
+msgctxt "SettingsOptions::ab__extended_metadata::exclude_keywords"
+msgid "Exclude meta tag <code>keywords</code>"
+msgstr "Виключити мета-тег <code>keywords</code>"
+
+msgctxt "SettingsTooltips::ab__extended_metadata::exclude_keywords"
+msgid "Remove meta tag <code>keywords</code> from all pages"
+msgstr "Прибрати мета-тег <code>keywords</code> з усіх сторінок"
+
+msgctxt "Languages::ab__emd.tabs.categories.view"
+msgid "Categories"
+msgstr "Категорії"
+
+msgctxt "Languages::ab__emd.tabs.product_features.view"
+msgid "Brands"
+msgstr "Бренди"
+
+msgctxt "Languages::ab__emd.tabs.pages.view"
+msgid "Pages"
+msgstr "Сторінки"
+
+msgctxt "Languages::ab__emd.tabs.products.view"
+msgid "Products"
+msgstr "Товари"
+
+msgctxt "Languages::ab__emd.tabs.companies.products"
+msgid "Vendor (products)"
+msgstr "Продавець (товари)"
+
+msgctxt "Languages::ab__emd.settings"
+msgid "Patterns management"
+msgstr "Керування шаблонами"
+
+msgctxt "Languages::ab__emd.setting.header.categories.view"
+msgid "Categories general pattern"
+msgstr "Загальний шаблон категорій"
+
+msgctxt "Languages::ab__emd.setting.header.product_features.view"
+msgid "Brands general pattern"
+msgstr "Загальний шаблон брендів"
+
+msgctxt "Languages::ab__emd.setting.header.pages.view"
+msgid "Pages general pattern"
+msgstr "Загальний шаблон сторінок"
+
+msgctxt "Languages::ab__emd.setting.header.products.view"
+msgid "Products general pattern"
+msgstr "Загальний шаблон товарів"
+
+msgctxt "Languages::ab__emd.setting.header.companies.products"
+msgid "Vendor's products general pattern"
+msgstr "Загальний шаблон списку товарів продавця"
+
+msgctxt "Languages::ab__emd.setting.header.additional_categories.view"
+msgid "Categories additional patterns"
+msgstr "Додаткові шаблони категорій"
+
+msgctxt "Languages::ab__emd.setting.header.additional_products.view"
+msgid "Products additional patterns"
+msgstr "Додаткові шаблони товарів"
+
+msgctxt "Languages::ab__emd.setting.categories.view.action"
+msgid "Redefine categories meta tags"
+msgstr "Перевизначати мета-теги"
+
+msgctxt "Languages::ab__emd.setting.categories.view.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Не перевизначати"
+
+msgctxt "Languages::ab__emd.setting.categories.view.action.override_empty"
+msgid "Redefine empty"
+msgstr "Перевизначати пусті"
+
+msgctxt "Languages::ab__emd.setting.categories.view.action.override_all"
+msgid "Redefine all"
+msgstr "Перевизначати всі"
+
+msgctxt "Languages::ab__emd.setting.categories.view.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Шаблон тега <code>title</code>"
+
+msgctxt "Languages::ab__emd.setting.categories.view.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Шаблон мета-тега <code>description</code>"
+
+msgctxt "Languages::ab__emd.setting.categories.view.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Шаблон мета-тега <code>keywords</code>"
+
+msgctxt "Languages::ab__emd.setting.products.view.action"
+msgid "Redefine product meta tags"
+msgstr "Перевизначати мета-теги"
+
+msgctxt "Languages::ab__emd.setting.products.view.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Не перевизначати"
+
+msgctxt "Languages::ab__emd.setting.products.view.action.override_empty"
+msgid "Redefine empty"
+msgstr "Перевизначати пусті"
+
+msgctxt "Languages::ab__emd.setting.products.view.action.override_all"
+msgid "Redefine all"
+msgstr "Перевизначати всі"
+
+msgctxt "Languages::ab__emd.setting.products.view.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Шаблон тега <code>title</code>"
+
+msgctxt "Languages::ab__emd.setting.products.view.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Шаблон мета-тега <code>description</code>"
+
+msgctxt "Languages::ab__emd.setting.products.view.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Шаблон мета-тега <code>keywords</code>"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.action"
+msgid "Redefine product features meta tags"
+msgstr "Перевизначити мета-теги"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Не перевизначати"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.action.override_empty"
+msgid "Redefine empty"
+msgstr "Перевизначати пусті"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.action.override_all"
+msgid "Redefine all"
+msgstr "Перевизначати всі"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Шаблон тега <code>title</code>"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Шаблон мета-тега <code>description</code>"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Шаблон мета-тега <code>keywords</code>"
+
+msgctxt "Languages::ab__emd.setting.pages.view.action"
+msgid "Redefine page meta tags"
+msgstr "Перевизначити мета-теги"
+
+msgctxt "Languages::ab__emd.setting.pages.view.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Не перевизначати"
+
+msgctxt "Languages::ab__emd.setting.pages.view.action.override_empty"
+msgid "Redefine empty"
+msgstr "Перевизначати пусті"
+
+msgctxt "Languages::ab__emd.setting.pages.view.action.override_all"
+msgid "Redefine all"
+msgstr "Перевизначати всі"
+
+msgctxt "Languages::ab__emd.setting.pages.view.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Шаблон тега <code>title</code>"
+
+msgctxt "Languages::ab__emd.setting.pages.view.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Шаблон мета-тега <code>description</code>"
+
+msgctxt "Languages::ab__emd.setting.pages.view.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Шаблон мета-тега <code>keywords</code>"
+
+msgctxt "Languages::ab__emd.setting.companies.products.action"
+msgid "Redefine page meta tags"
+msgstr "Перевизначити мета-теги"
+
+msgctxt "Languages::ab__emd.setting.companies.products.action.do_not_override"
+msgid "Do not redefine"
+msgstr "Не перевизначати"
+
+msgctxt "Languages::ab__emd.setting.companies.products.action.override_empty"
+msgid "Redefine empty"
+msgstr "Перевизначати пусті"
+
+msgctxt "Languages::ab__emd.setting.companies.products.action.override_all"
+msgid "Redefine all"
+msgstr "Перевизначати всі"
+
+msgctxt "Languages::ab__emd.setting.companies.products.page_title"
+msgid "Page tag <code>title</code> pattern"
+msgstr "Шаблон тега <code>title</code>"
+
+msgctxt "Languages::ab__emd.setting.companies.products.meta_description"
+msgid "Meta tag <code>description</code> pattern"
+msgstr "Шаблон мета-тега <code>description</code>"
+
+msgctxt "Languages::ab__emd.setting.companies.products.meta_keywords"
+msgid "Meta tag <code>keywords</code> pattern"
+msgstr "Шаблон мета-тега <code>keywords</code>"
+
+msgctxt "Languages::ab__emd.placeholders.header"
+msgid "Use following placeholders:"
+msgstr "Використовуйте наступні плейсхолдери:"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip_link"
+msgid "Available placeholders"
+msgstr "Доступні плейсхолдери"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.original"
+msgid "<b>[placeholder]</b> — [field] (as is)"
+msgstr "<b>[placeholder]</b> — [field] (як є))"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.lowercase"
+msgid "<b>[placeholder]</b> — [field] (lowercase)"
+msgstr "<b>[placeholder]</b> — [field] (малі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.uppercase"
+msgid "<b>[placeholder]</b> — [field] (uppercase)"
+msgstr "<b>[placeholder]</b> — [field] (великі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.first_upper_case"
+msgid "<b>[placeholder]</b> — [field] (the first letter is uppercase others are lowercase)"
+msgstr "<b>[placeholder]</b> — [field] (перша велика, решта малі)"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.first_lower_case"
+msgid "<b>[placeholder]</b> — [field] (the first letter is lowercase others as is)"
+msgstr "<b>[placeholder]</b> — [field] (перша мала, решта як э)"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[category]"
+msgid "category name"
+msgstr "назва категорії"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[category_parent_name]"
+msgid "parent category name"
+msgstr "назва батьківської категорії"
+
+msgctxt "Languages::ab__emd.placeholders.category_path"
+msgid "<b>[category_path]</b> — category path (as is)"
+msgstr "<b>[category_path]</b> — шлях до категорії (як є)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_lower"
+msgid "<b>[category_path_lower]</b> — category path (lowercase)"
+msgstr "<b>[category_path_lower]</b> — шлях до категорії (малі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_ucfirst"
+msgid "<b>[Category_path]</b> — category path (the first letter is uppercase others are lowercase)"
+msgstr "<b>[Category_path]</b> — шлях до категорії (перша велика, решта малі)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_upper"
+msgid "<b>[CATEGORY_PATH]</b> — category path (uppercase)"
+msgstr "<b>[CATEGORY_PATH]</b> — шлях до категорії (великі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_first_lower"
+msgid "<b>[category_path_first_lower]</b> — category path (the first letter is lowercase others as is)"
+msgstr "<b>[category_path_first_lower]</b> — шлях до категорії (перша мала, решта як э)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_rev"
+msgid "<b>[category_path_reverse]</b> — reverse category path (as is)"
+msgstr "<b>[category_path_reverse]</b> — шлях до категорії у зворотному порядку (як є)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_rev_lower"
+msgid "<b>[category_path_reverse_lower]</b> — reverse category path (lowercase)"
+msgstr "<b>[category_path_reverse_lower]</b> — шлях до категорії у зворотному порядку (малі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_rev_ucfirst"
+msgid "<b>[Category_path_reverse]</b> — reverse category path (first letter uppercase else lowercase)"
+msgstr "<b>[Category_path_reverse]</b> — шлях до категорії у зворотному порядку (перша велика, решта малі)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_rev_upper"
+msgid "<b>[CATEGORY_PATH_REVERSE]</b> — reverse category path (uppercase)"
+msgstr "<b>[CATEGORY_PATH_REVERSE]</b> — шлях до категорії у зворотному порядку (великі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.category_path_rev_first_lower"
+msgid "<b>[category_path_reverse_first_lower]</b> — reverse category path (the first letter is lowercase others as is)"
+msgstr "<b>[category_path_reverse_first_lower]</b> — шлях до категорії у зворотному порядку (перша мала, решта як э)"
+
+msgctxt "Languages::ab__emd.placeholders.min_price"
+msgid "<b>[min_price]</b> — minimal product price in the section (as is, by currency settings)<br> <b>[min_price_nocurrency]</b> — minimal product price in the section (without currency sign)<br> <b>[min_price_noseparate]</b> — minimal product price in the section (without thousand separator)<br> <b>[min_price_noseparate_nocurrency]</b> — minimal product price in the section (without thousand separator and currency sign)<br> <b>[min_price_prefix]</b> — value of the language variable <code>ab__em.min_price_prefix</code>. Prints when minimal product price greater than 0 only. Can be changed by translations<br> <b>[min_price_suffix]</b> — value of the language variable <code>ab__em.min_price_suffix</code>. Prints when minimal product price greater than 0 only. Can be changed by translations"
+msgstr "<b>[min_price]</b> — мінімальна ціна товара в розділі (як є, за налаштуваннями валюти)<br>"
+"<b>[min_price_nocurrency]</b> — мінімальна ціна товара в розділі (без валюти)<br>"
+"<b>[min_price_noseparate]</b> — мінімальна ціна товара в розділі (без тисячного роздільника)<br>"
+"<b>[min_price_noseparate_nocurrency]</b> — мінімальна ціна товара в розділі (без тисячного роздільника і без валюти)<br>"
+"<b>[min_price_prefix]</b> — значення мовної змінної <code>ab__em.min_price_prefix</code>. Відображається лише якщо мінімальна ціна вища за 0. Може бути змінено в перекладах<br>"
+"<b>[min_price_suffix]</b> — значення мовної змінної <code>ab__em.min_price_suffix</code>. Відображається лише якщо мінімальна ціна вища за 0. Може бути змінено в перекладах"
+
+msgctxt "Languages::ab__emd.placeholders.max_price"
+msgid "<b>[max_price]</b> — maximal product price in the section (as is, by currency settings)<br> <b>[max_price_nocurrency]</b> — maximal product price in the section (without currency sign)<br> <b>[max_price_noseparate]</b> — maximal product price in the section (without thousand separator)<br> <b>[max_price_noseparate_nocurrency]</b> — maximal product price in the section (without thousand separator and currency sign)<br> <b>[max_price_prefix]</b> — value of the language variable <code>ab__em.max_price_prefix</code>. Prints when maximal product price greater than 0 only. Can be changed by translations<br> <b>[max_price_suffix]</b> — value of the language variable <code>ab__em.max_price_suffix</code>. Prints when maximal product price greater than 0 only. Can be changed by translations"
+msgstr "<b>[max_price]</b> — максимальна ціна товара в розділі (як є, за налаштуваннями валюти)<br>"
+"<b>[max_price_nocurrency]</b> — максимальна ціна товара в розділі (без валюти)<br>"
+"<b>[max_price_noseparate]</b> — максимальна ціна товара в розділі (без тисячного роздільника)<br>"
+"<b>[max_price_noseparate_nocurrency]</b> — максимальна ціна товара в розділі (без тисячного роздільника і без валюти)<br>"
+"<b>[max_price_prefix]</b> — значення мовної змінної <code>ab__em.max_price_prefix</code>. Відображається лише якщо мінімальна ціна вища за 0. Може бути змінено в перекладах<br>"
+"<b>[max_price_suffix]</b> — значення мовної змінної <code>ab__em.max_price_suffix</code>. Відображається лише якщо мінімальна ціна вища за 0. Може бути змінено в перекладах"
+
+msgctxt "Languages::ab__emd.placeholders.total_products"
+msgid "<b>[total_products]</b> — total products count in the section"
+msgstr "<b>[total_products]</b> — кількість товарів в розділі"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[storefront]"
+msgid "storefront name"
+msgstr "назва вітрини"
+
+msgctxt "Languages::ab__emd.placeholders.currency"
+msgid "<b>[currency]</b> — currency sign (as is)"
+msgstr "<b>[currency]</b> — символ валюти (як є)"
+
+msgctxt "Languages::ab__emd.placeholders.currency_nohtml"
+msgid "<b>[currency_nohtml]</b> — currency sign without html-tags"
+msgstr "<b>[currency_nohtml]</b> — символ валюти без html-тегів"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[product]"
+msgid "product name"
+msgstr "назва товара"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[short_description]"
+msgid "product short description"
+msgstr "короткий опис товара"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[product_category]"
+msgid "product category name"
+msgstr "назва категорії товара"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[product_brand]"
+msgid "product brand"
+msgstr "бренд товара"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[product_code]"
+msgid "product code"
+msgstr "артикул товара"
+
+msgctxt "Languages::ab__emd.placeholders.product_price"
+msgid "<b>[product_price]</b> — product price (as is, by currency settings)<br> <b>[product_price_nocurrency]</b> — product price (without currency sign)<br> <b>[product_price_noseparate]</b> — product price (without thousand separator)<br> <b>[product_price_noseparate_nocurrency]</b> — product price (without thousand separator and currency sign)"
+msgstr "<b>[product_price]</b> — ціна товара (як є, за налаштуваннями валюти)<br>"
+"<b>[product_price_nocurrency]</b> — ціна товара (без валюти)<br>"
+"<b>[product_price_noseparate]</b> — ціна товара (без тисячного роздільника)<br>"
+"<b>[product_price_noseparate_nocurrency]</b> — ціна товара (без тисячного роздільника і без валюти)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path"
+msgid "<b>[product_category_path]</b> — product category path (as is)"
+msgstr "<b>[product_category_path]</b> — шлях до категорії товара (як є)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_lower"
+msgid "<b>[product_category_path_lower]</b> — product category path (lowercase)"
+msgstr "<b>[product_category_path_lower]</b> — шлях до категорії товара (малі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_ucfirst"
+msgid "<b>[Product_category_path]</b> — product category path (the first letter is uppercase others are lowercase)"
+msgstr "<b>[Product_category_path]</b> — шлях до категорії товара (перша велика, решта малі)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_upper"
+msgid "<b>[PRODUCT_CATEGORY_PATH]</b> — product category path (uppercase)"
+msgstr "<b>[PRODUCT_CATEGORY_PATH]</b> — шлях до категорії товара (великі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_first_lower"
+msgid "<b>[product_category_path_first_lower]</b> — product category path (the first letter is lowercase others as is)"
+msgstr "<b>[product_category_path_first_lower]</b> — шлях до категорії товара (перша мала, решта як э)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_rev"
+msgid "<b>[product_category_path_reverse]</b> — reverse product category path (as is)"
+msgstr "<b>[product_category_path_reverse]</b> — шлях до категорії товара у зворотному порядку (як є)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_rev_lower"
+msgid "<b>[product_category_path_reverse_lower]</b> — reverse product category path (lowercase)"
+msgstr "<b>[product_category_path_reverse_lower]</b> — шлях до категорії товара у зворотному порядку (малі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_rev_ucfirst"
+msgid "<b>[Product_category_path_reverse]</b> — reverse product category path (the first letter is uppercase others are lowercase)"
+msgstr "<b>[Product_category_path_reverse]</b> — шлях до категорії товара у зворотному порядку (перша велика, решта малі)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_rev_upper"
+msgid "<b>[PRODUCT_CATEGORY_PATH_REVERSE]</b> — reverse product category path (uppercase)"
+msgstr "<b>[PRODUCT_CATEGORY_PATH_REVERSE]</b> — шлях до категорії товара у зворотному порядку (великі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.product_category_path_rev_first_lower"
+msgid "<b>[product_category_path_reverse_first_lower]</b> — reverse product category path (the first letter is lowercase others as is)"
+msgstr "<b>[product_category_path_reverse_first_lower]</b> — шлях до категорії товара у зворотному порядку (перша мала, решта як э)"
+
+msgctxt "Languages::ab__emd.placeholders.product_features"
+msgid "<b>[some {fvalue_ID} text]</b> — text with a feature value, where ID — is the feature identifier, \"some text\" — any text (optional) that will be inserted only if product has the value of the corresponding feature<br> <b>[some {fname_ID} text]</b> — text with a feature name, where ID — is the feature identifier, \"some text\" — any text (optional) that will be inserted only if product has the value of the corresponding feature"
+msgstr "<b>[довільний {fvalue_ID} текст]</b> — текст зі значенням характеристики, де ID — ідентифікатор обраної характеристики, \"довільний текст\" — будь-який (не обов'язковий) текст, що буде відображено лише якщо товару проставлено значення відповідної характеристики<br>"
+"<b>[довільний {fname_ID} текст]</b> — текст з назвою характеристики, де ID — ідентифікатор обраної характеристики, \"довільний текст\" — будь-який (не обов'язковий) текст, що буде відображено лише якщо товару проставлено значення відповідної характеристики"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[brand]"
+msgid "feature variant name"
+msgstr "назва бренда"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[page]"
+msgid "page name"
+msgstr "назва сторінки"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[page_parent]"
+msgid "parent page name"
+msgstr "назва батьківської сторінки"
+
+msgctxt "Languages::ab__emd.placeholders.page_path"
+msgid "<b>[page_path]</b> — page path (as is)"
+msgstr "<b>[page_path]</b> — шлях до сторінки (як є)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_lower"
+msgid "<b>[page_path_lower]</b> — page path (lowercase)"
+msgstr "<b>[page_path_lower]</b> — шлях до сторінки (малі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_ucfirst"
+msgid "<b>[Page_path]</b> — page path (the first letter is uppercase others are lowercase)"
+msgstr "<b>[Page_path]</b> — шлях до сторінки (перша велика, решта малі)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_upper"
+msgid "<b>[PAGE_PATH]</b> — page path (uppercase)"
+msgstr "<b>[PAGE_PATH]</b> — шлях до сторінки (великі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_first_lower"
+msgid "<b>[page_path_first_lower]</b> — page path (the first letter is lowercase others as is)"
+msgstr "<b>[page_path_first_lower]</b> — шлях до сторінки (перша мала, решта як э)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_rev"
+msgid "<b>[page_path_reverse]</b> — reverse page path (as is)"
+msgstr "<b>[page_path_reverse]</b> — шлях до сторінки у зворотному порядку (як є)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_rev_lower"
+msgid "<b>[page_path_reverse_lower]</b> — reverse page path (lowercase)"
+msgstr "<b>[page_path_reverse_lower]</b> — шлях до сторінки у зворотному порядку (малі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_rev_ucfirst"
+msgid "<b>[Page_path_reverse]</b> — reverse page path (the first letter is uppercase others are lowercase)"
+msgstr "<b>[Page_path_reverse]</b> — шлях до сторінки у зворотному (перша велика, решта малі)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_rev_upper"
+msgid "<b>[PAGE_PATH_REVERSE]</b> — reverse page path (uppercase)"
+msgstr "<b>[PAGE_PATH_REVERSE]</b> — шлях до сторінки у зворотному порядку (великі літери)"
+
+msgctxt "Languages::ab__emd.placeholders.page_path_rev_first_lower"
+msgid "<b>[page_path_reverse_first_lower]</b> — reverse page path (the first letter is lowercase others as is)"
+msgstr "<b>[page_path_reverse_first_lower]</b> — шлях до сторінки у зворотному порядку (перша мала, решта як э)"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[vendor]"
+msgid "product vendor"
+msgstr "продавець товара"
+
+msgctxt "Languages::ab__emd.placeholders.tooltip.[alternative_name]"
+msgid "alternative name"
+msgstr "альтернативна назва"
+
+msgctxt "Languages::ab__emd.setting.categories.view.extra"
+msgid "Category path delimiter is language variable <code>ab__emd.category_path_delimiter</code>. It could be changed on the \"Administration panel → Languages → Translations\" page. By default <b>::</b><br> The products prices are used without discounts of [Promotions], because of the CS-Cart limitations"
+msgstr "Як роздільник шляху категорії використовується мовна змінна <code>ab__emd.category_path_delimiter</code>. Може бути змінено на сторінці \"Адміністративна панель → Мови → Переклади\". За замовчуванням <b>::</b><br>"
+"Ціни товарів використовуються без врахування можливих скидок по [Промо-акціям], через обмеження самого CS-Cart"
+
+msgctxt "Languages::ab__emd.setting.products.view.extra"
+msgid "Product category path delimiter is language variable <code>ab__emd.product_path_delimiter</code>. It could be changed on the \"Administration panel → Languages → Translations\" page. By default <b>::</b><br > Product features variants delimiter is language variable <code>ab__emd.features_variants_delimiter</code>. It could be changed on the \"Administration panel → Languages → Translations\" page. By default <b>, </b>"
+msgstr "Як роздільник шляху категорії товара використовується мовна змінна <code>ab__emd.product_path_delimiter</code>. Може бути змінено на сторінці \"Адміністративна панель → Мови → Переклади\". За замовчуванням <b>::</b><br>"
+"Як роздільник варіантів однієї характеристики товара (характеристики з декількома значеннями) використовується мовна зманна <code>ab__emd.features_variants_delimiter</code>. Може бути змінено на сторінці \"Адміністративна панель → Мови → Переклади\". За замовчуванням <b>, </b>"
+
+msgctxt "Languages::ab__emd.setting.product_features.view.extra"
+msgid "The products prices are used without discounts of [Promotions], because of the CS-Cart limitations"
+msgstr "Ціни товарів використовуються без врахування можливих скидок по [Промо-акціям], через обмеження самого CS-Cart"
+
+msgctxt "Languages::ab__emd.setting.pages.view.extra"
+msgid "Page path delimiter is language variable <code>ab__emd.page_path_delimiter</code>. It could be changed on the \"Administration panel → Languages → Translations\" page. By default <b>::</b>"
+msgstr "Як роздільник шляху сторінки використовується мовна змінна <code>ab__emd.page_path_delimiter</code>. Може бути змінено на сторінці \"Адміністративна панель → Мови → Переклади\". За замовчуванням <b>::</b>"
+
+msgctxt "Languages::ab__emd.placeholders.storefront"
+msgid "<b>[storefront]</b> — storefront name (as is)<br> <b>[storefront_lower]</b> — storefront name (lowercase)<br> <b>[Storefront]</b> — storefront name (the first letter is uppercase others are lowercase)<br> <b>[STOREFRONT]</b> — storefront name (uppercase)"
+msgstr "<b>[storefront]</b> — назва вітрини (як є)<br>"
+"<b>[storefront_lower]</b> — назва вітрини (малі літери)<br>"
+"<b>[Storefront]</b> — назва вітрини (перша велика, решта малі)<br>"
+"<b>[STOREFRONT]</b> — назва вітрини (великі літери)"
+
+msgctxt "Languages::ab__emd.form.pattern.name"
+msgid "Pattern name"
+msgstr "Назва шаблону"
+
+msgctxt "Languages::ab__emd.form.category_pattern_id"
+msgid "Category meta tags pattern"
+msgstr "Шаблон мета-тегів категорії"
+
+msgctxt "Languages::ab__emd.form.products_pattern_id"
+msgid "Products meta tags pattern"
+msgstr "Шаблон мета-тегів товарів"
+
+msgctxt "Languages::ab__emd.form.empty_pattern"
+msgid "General"
+msgstr "Загальний"
+
+msgctxt "Languages::ab__emd.link.edit_categories_patterns"
+msgid "Edit categories patterns"
+msgstr "Редагувати шаблони категорій"
+
+msgctxt "Languages::ab__emd.link.edit_products_patterns"
+msgid "Edit products patterns"
+msgstr "Редагувати шаблони товарів"
+
+msgctxt "Languages::ab__emd.general_settings"
+msgid "General settings"
+msgstr "Загальні налаштування"
+
+msgctxt "Languages::ab__em.min_price_prefix"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__em.min_price_suffix"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__em.max_price_prefix"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__em.max_price_suffix"
+msgid ""
+msgstr ""
+
+msgctxt "Languages::ab__emd.category_path_delimiter"
+msgid "::"
+msgstr "::"
+
+msgctxt "Languages::ab__emd.page_path_delimiter"
+msgid "::"
+msgstr "::"
+
+msgctxt "Languages::ab__emd.product_path_delimiter"
+msgid "::"
+msgstr "::"
+
+msgctxt "Languages::ab__emd.features_variants_delimiter"
+msgid ","
+msgstr ","
+
+msgctxt "Languages::ab__emd_alternative_name"
+msgid "Alternative name"
+msgstr "Альтернативна назва"
+
+msgctxt "Languages::ab__emd.help"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "Languages::ab__emd_help.docs"
+msgid "Read the <a target='_blank' href=\"https://cs-cart.alexbranding.com/en/ab__extended_metadata.doc\">documentation</a>."
+msgstr "Ознайомитись з <a target='_blank' href=\"https://cs-cart.alexbranding.com/ru/ab__extended_metadata.doc\">документацією</a>."
+
+msgctxt "Languages::privilege_groups.ab__extended_metadata"
+msgid "AB: Extended meta tags and placeholders"
+msgstr "AB: Розширені мета-теги та плейсхолдери"
+
+msgctxt "Languages::privileges.ab__em.manage"
+msgid "Meta tags management"
+msgstr "Керування мета-тегами"
+
+msgctxt "Languages::privileges.ab__em.view"
+msgid "View Meta tags"
+msgstr "Перегляд мета-тегів"
+
+msgctxt "Languages::ab__emd.autoinstall.comment_auto_description"
+msgid "Constant <code>AUTO_META_DESCRIPTION</code> is commented"
+msgstr "Константа <code>AUTO_META_DESCRIPTION</code> закоментована"
+
+msgctxt "Languages::ab__emd.autoinstall.insert_hook_into_meta_tpl"
+msgid "The hook <code>index:meta_keywords</code> into the file <code>[file_path]</code> is inserted"
+msgstr "Вставлено `hook` <code>index:meta_keywords</code> в файл <code>[file_path]</code>"
+
+#. Alexbranding. Do not modify this file manually!

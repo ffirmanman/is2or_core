@@ -1,0 +1,171 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::ab__seo_brands"
+msgid "AB: SEO for brands"
+msgstr "AB: SEO для брендів"
+
+msgctxt "Addons::description::ab__seo_brands"
+msgid "Allows to optimize page of brand-type product feature and set own layout for each brand"
+msgstr "Дозволяє оптимізувати сторінки характеристик з типом Бренд, а також керувати макетами кожного варіанту окремо"
+
+msgctxt "Languages::ab__seo_brands"
+msgid "AB: SEO for brands"
+msgstr "AB: SEO для брендів"
+
+msgctxt "SettingsOptions::ab__seo_brands::ab__as"
+msgid "AB: Advanced sitemap"
+msgstr "AB: Розширена карта сайту"
+
+msgctxt "SettingsOptions::ab__seo_brands::ab__as_add_to_sitemap"
+msgid "Adding filters pages to the XML-sitemap"
+msgstr "Додання сторінок фільтрів у XML-карту сайту"
+
+msgctxt "Languages::ab__product_feature_variant_view"
+msgid "AB: Feature variants"
+msgstr "AB: Варіанти"
+
+msgctxt "Languages::ab__sb.add_variants"
+msgid "Add variants"
+msgstr "Додати варіанти"
+
+msgctxt "Languages::ab__sb.add_variants_and_close"
+msgid "Add variants and close"
+msgstr "Додати варіанти і закрити"
+
+msgctxt "Languages::ab__sb.edit_blocks_link"
+msgid "AB: Edit variant layout"
+msgstr "AB: Редагувати макет варіанту"
+
+msgctxt "Languages::ab__sb.editing_layouts_for"
+msgid "AB: Editing layout"
+msgstr "AB: Редагування макету"
+
+msgctxt "Languages::ab__view_all_product_features"
+msgid "AB: Filters"
+msgstr "AB: Фільтри"
+
+msgctxt "Languages::ab__sb.form.h1"
+msgid "H1 tag"
+msgstr "Тег h1"
+
+msgctxt "Languages::ab__sb.form.breadcrumb"
+msgid "Breadcrumb"
+msgstr "Хлібна крихта"
+
+msgctxt "Languages::ab__sb.form.page_title"
+msgid "Page title"
+msgstr "Заголовок сторінки"
+
+msgctxt "Languages::ab__sb.form.meta_description"
+msgid "Meta tag <code>description</code>"
+msgstr "Мета тег <code>description</code>"
+
+msgctxt "Languages::ab__sb.form.meta_keywords"
+msgid "Meta tag <code>keywords</code>"
+msgstr "Мета тег <code>keywords</code>"
+
+msgctxt "Languages::ab__sb.form.description"
+msgid "Description"
+msgstr "Опис"
+
+msgctxt "Languages::ab__sb.form.descr_position"
+msgid "Description position"
+msgstr "Позиція опису"
+
+msgctxt "Languages::ab__sb.form.descr_position.top"
+msgid "Above the variants list"
+msgstr "Над списком варіантів"
+
+msgctxt "Languages::ab__sb.form.descr_position.bottom"
+msgid "Under the variants list"
+msgstr "Під списком варіантів"
+
+msgctxt "Languages::ab__sb.form.variants_template"
+msgid "View template of variants list"
+msgstr "Шаблон відображення списку варіантів"
+
+msgctxt "Languages::ab__sb.form.variants_template.grid"
+msgid "Grid with alphabetical list"
+msgstr "Сітка з алфавітним списком"
+
+msgctxt "Languages::ab__sb.form.variants_template.table"
+msgid "Table with alphabetical list"
+msgstr "Таблиця з алфавітним списком"
+
+msgctxt "Languages::ab__sb.form.variants_template.grid_with_images"
+msgid "Grid with images"
+msgstr "Сітка із зображеннями"
+
+msgctxt "Languages::ab__seo_brands.help"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "Languages::ab__seo_brands.help.docs"
+msgid "Read <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__seo_brands.doc'>the documentation</a>."
+msgstr "Ознайомитись з <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__seo_brands.doc'>документацією</a>."
+
+msgctxt "Languages::privilege_groups.ab__seo_brands"
+msgid "AB: SEO for brands"
+msgstr "AB: SEO для брендів"
+
+msgctxt "Languages::privileges.ab__sb.data.manage"
+msgid "Manage data"
+msgstr "Керування даними"
+
+msgctxt "Languages::privileges.ab__sb.data.view"
+msgid "View data"
+msgstr "Перегляд даних"
+
+msgctxt "Languages::ab__seo_brands.layouts"
+msgid "Layouts"
+msgstr "Макети"
+
+msgctxt "Languages::ab__sb.layouts"
+msgid "Layouts"
+msgstr "Макети"
+
+msgctxt "Languages::ab__sb.layouts.layout_was_reset"
+msgid "Layout was reset"
+msgstr "Макет було скинуто"
+
+msgctxt "Languages::ab__sb.layouts.choose_layout_to_reset"
+msgid "Choose layout to reset"
+msgstr "Оберіть макет для скидання"
+
+msgctxt "Languages::ab__sb.layouts.table.dispatch_description"
+msgid "Type of the layout page"
+msgstr "Тип сторінки макета"
+
+msgctxt "Languages::ab__sb.layouts.table.dispatch"
+msgid "Dispatch"
+msgstr "Dispatch"
+
+msgctxt "Languages::ab__sb.layouts.table.layouts"
+msgid "Layouts"
+msgstr "Макети"
+
+msgctxt "Languages::ab__sb.layouts.table.action"
+msgid "Action"
+msgstr "Дія"
+
+msgctxt "Languages::ab__sb.layouts.table.get_file"
+msgid "Download file"
+msgstr "Завантажити файл"
+
+msgctxt "Languages::ab__sb.layouts.layout_is_not_found"
+msgid "Layout is not found"
+msgstr "Макет не знайдено"
+
+msgctxt "Languages::ab__sb.layouts.header"
+msgid "There are displaying all layout pages, added by the addon, on this page. You can reset pages in any layout to the default state. Also you can download xml-file of a layout page and import it manually."
+msgstr "На цій сторінці відображено усі сторінки макетів, доданих модулем. Ви можете скинути сторінку у межах будь-якого макету до стану за замовчуванням для поточної версії модуля. Також Ви можете завантажити xml-файл сторінки макету та імпортувати його вручну."
+
+msgctxt "Languages::ab__sb.layouts.table.create_new_location"
+msgid "- Create a new page -"
+msgstr "- Створити нову сторінку -"
+
+#. Alexbranding. Do not modify this file manually!

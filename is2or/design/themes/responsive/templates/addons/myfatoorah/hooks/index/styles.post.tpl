@@ -1,0 +1,1 @@
+{style src="addons/myfatoorah/styles.less"}      

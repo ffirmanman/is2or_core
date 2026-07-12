@@ -1,0 +1,61 @@
+/*******************************************************************************************
+*   ___  _          ______                     _ _                _                        *
+*  / _ \| |         | ___ \                   | (_)              | |              © 2026   *
+* / /_\ | | _____  _| |_/ /_ __ __ _ _ __   __| |_ _ __   __ _   | |_ ___  __ _ _ __ ___   *
+* |  _  | |/ _ \ \/ / ___ \ '__/ _` | '_ \ / _` | | '_ \ / _` |  | __/ _ \/ _` | '_ ` _ \  *
+* | | | | |  __/>  <| |_/ / | | (_| | | | | (_| | | | | | (_| |  | ||  __/ (_| | | | | | | *
+* \_| |_/_|\___/_/\_\____/|_|  \__,_|_| |_|\__,_|_|_| |_|\__, |  \___\___|\__,_|_| |_| |_| *
+*                                                         __/ |                            *
+*                                                        |___/                             *
+* ---------------------------------------------------------------------------------------- *
+* This is commercial software, only users who have purchased a valid license and accept    *
+* to the terms of the License Agreement can install and use this program.                  *
+* ---------------------------------------------------------------------------------------- *
+* website: https://cs-cart.alexbranding.com                                                *
+*   email: info@alexbranding.com                                                           *
+*******************************************************************************************/
+.category-banner {
+    text-align: center;
+}
+
+[class*="category-banner"] {
+    overflow: hidden;
+    padding: 10px;
+
+    .rounded_corners(6px);
+    .box-sizing(border-box);
+
+    &.ty-product-list {
+        padding: 0;
+    }
+    &.ty-compact-list__item {
+        padding: 0;
+    }
+
+    &.full-width {
+        width: calc(~'100% - 30px');
+        margin: 10px;
+        padding: 0;
+    }
+
+    > img.ty-pict {
+        .rounded_corners(6px);
+    }
+}
+
+.cb-gray-box,
+.cb-border-box,
+.cb-color-box {
+    .rounded_corners(6px);
+    padding: 20px;
+}
+
+.cb-gray-box {
+    background: lighten(@base, 30%);
+}
+.cb-border-box {
+    border: 1px solid @base;
+}
+.cb-color-box {
+    background: lighten(@discount_label, 30%);
+}

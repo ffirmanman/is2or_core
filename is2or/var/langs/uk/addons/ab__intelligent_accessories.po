@@ -1,0 +1,858 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::ab__intelligent_accessories"
+msgid "AB: Intellectual selection of products in block (analogues, accessories) by features"
+msgstr "AB: Інтелектуальний добір пов'язаних товарів (аналоги, аксесуари) на основі технічних характеристик"
+
+msgctxt "Addons::description::ab__intelligent_accessories"
+msgid "Intellectual selection of products in block (analogues, accessories) by features"
+msgstr "Інтелектуальний добір пов'язаних товарів (аналоги, аксесуари) на основі технічних характеристик"
+
+msgctxt "Languages::ab__intelligent_accessories"
+msgid "AB: Intellectual selection of products in block (analogues, accessories) by features"
+msgstr "AB: Інтелектуальний добір пов'язаних товарів (аналоги, аксесуари) на основі технічних характеристик"
+
+msgctxt "Languages::ab__ia.default_value_tooltip"
+msgid "The value by default at the new relation creating"
+msgstr "Значення за замовчуванням при створені нового зв'язку"
+
+msgctxt "SettingsSections::ab__intelligent_accessories::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsSections::ab__intelligent_accessories::params_default"
+msgid "Values by default"
+msgstr "Значення за замовчуванням"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::show_ia_in_added_to_cart"
+msgid "\"The product was added to your cart\" window: enable to show block with recommended products"
+msgstr "Вікно \"Товар був доданий до кошику\": дозволити відображення доборів товарів"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::show_ia_in_added_to_cart"
+msgid "Show block with recommended products in the \"The product was added to your cart\" window"
+msgstr "Відображати інтелектуальний добір товарів у вікні \"Товар був доданий до кошику\""
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::max_ia_tabs_in_added_to_cart"
+msgid "\"The product was added to your cart\" window: quantity of shown tabs"
+msgstr "Вікно \"Товар був доданий до кошику\": кількість відображених вкладок"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::max_ia_tabs_in_added_to_cart"
+msgid "Specify the products maximum amount intelligent selections tabs in the \"The product was added to your cart\" window"
+msgstr "Зазначте максимальну кількість вкладок інтелектуальних доборів товарів у вікні \"Товар був доданий до кошику\""
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::max_products_of_ia_tab_in_added_to_cart"
+msgid "\"The product was added to your cart\" window: products quantity at each tab"
+msgstr "Вікно \"Товар був доданий до кошику\": кількість товарів кожної вкладки"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::max_products_of_ia_tab_in_added_to_cart"
+msgid "Specify the products maximum amount in each products intelligent selections tab in the \"The product was added to your cart\" window"
+msgstr "Зазначте максимальну кількість товарів у кожній вкладці інтелектуальних доборів товарів у вікні \"Товар був доданий до кошику\""
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::show_ia_in_added_to_cart_once"
+msgid "\"The product was added to your cart\" window: show block with recommended products one time only"
+msgstr "Вікно \"Товар був доданий до кошику\": відображати добори товарів тільки один раз"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::show_ia_in_added_to_cart_once"
+msgid "Show block with recommended products in the \"The product was added to your cart\" window only once. Not cyclic"
+msgstr "Відображати інтелектуальний добір товарів у вікні \"Товар був доданий до кошику\" тільки один раз, а не безперервно"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::show_ia_in_cart"
+msgid "\"Cart\" page: enable to show block with recommended products"
+msgstr "Сторінка \"Кошик\": дозволити відображення доборів товарів"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::show_ia_in_cart"
+msgid "Show products intelligent selection on the \"Cart\" page"
+msgstr "Відображати інтелектуальний добір товарів на сторінці \"Кошик\""
+
+msgctxt "SettingsVariants::ab__intelligent_accessories::show_ia_in_cart::none"
+msgid "Don't show"
+msgstr "Не відображати"
+
+msgctxt "SettingsVariants::ab__intelligent_accessories::show_ia_in_cart::for_all"
+msgid "Show for each product in the cart"
+msgstr "Відображати для кожного товару кошику"
+
+msgctxt "SettingsVariants::ab__intelligent_accessories::show_ia_in_cart::for_the_most_expensive_product"
+msgid "Show only for one, the most expensive, item in the cart"
+msgstr "Відображати лише для одного, найдорожчого, товару у кошику"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::max_ia_products_in_cart"
+msgid "\"Cart\" page: quantity of shown products"
+msgstr "Сторінка \"Кошик\": кількість відображених товарів"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::max_ia_products_in_cart"
+msgid "Specify maximum quantity of the intelligent selected products for products list in the cart"
+msgstr "Зазначте максимальну кількість інтелектуально підібраних товарів для списку товарів у кошику"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::price_from_default"
+msgid "Price range FROM"
+msgstr "Діапазон цін ВІД"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::price_from_default"
+msgid "The value by default at the new relation creating"
+msgstr "Значення за замовчуванням при створені нового зв'язку"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::price_to_default"
+msgid "TILL"
+msgstr "ДО"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::price_to_default"
+msgid "The value by default at the new relation creating"
+msgstr "Значення за замовчуванням при створені нового зв'язку"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::shuffle_products_default"
+msgid "Shuffle items after the selection of all the rules before they are sorting"
+msgstr "Перемішати товари після добору по всім правилам перед їхнім сортуванням"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::shuffle_products_default"
+msgid "The value by default at the new relation creating"
+msgstr "Значення за замовчуванням при створені нового зв'язку"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::only_in_stock_default"
+msgid "Only in stock"
+msgstr "Тільки товари в наявності"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::only_in_stock_default"
+msgid "The value by default at the new relation creating"
+msgstr "Значення за замовчуванням при створені нового зв'язку"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::products_sorting_default"
+msgid "Sorting method"
+msgstr "Спосіб сортування"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::products_sorting_default"
+msgid "The value by default at the new relation creating"
+msgstr "Значення за замовчуванням при створені нового зв'язку"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::join_max_view_products_default"
+msgid "Maximum products amount in the relation"
+msgstr "Максимальна кількість товарів у зв'язку"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::join_max_view_products_default"
+msgid "The value by default at the new relation creating"
+msgstr "Значення за замовчуванням при створені нового зв'язку"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::show_in_add_to_cart_default"
+msgid "Allow relation display in the window \"The product was added to your cart\""
+msgstr "Дозволити відображення зв'язку у вікні \"Товар був доданий до кошику\""
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::show_in_add_to_cart_default"
+msgid "Allow relation display in the window \"The product was added to your cart\""
+msgstr "Дозволити відображення зв'язку у вікні \"Товар був доданий до кошику\""
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::show_in_cart_default"
+msgid "Allow relation display on the \"Cart\" page"
+msgstr "Дозволити відображення зв'язку на сторінці \"Кошик\""
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::show_in_cart_default"
+msgid "Allow relation display on the \"Cart\" page"
+msgstr "Дозволити відображення зв'язку на сторінці \"Кошик\""
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::rule_max_view_products_default"
+msgid "Maximum products amount in the rule"
+msgstr "Максимальна кількість товарів в правилі"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::rule_max_view_products_default"
+msgid "Maximum products amount in the rule"
+msgstr "Максимальна кількість товарів в правилі"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::update_cache_every"
+msgid "Cache update every"
+msgstr "Оновлювати кеш кожні"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::update_cache_every"
+msgid "Period in days, after which it is necessary to update relations cache"
+msgstr "Період в днях, по завершенню яких, необхідно оновлювати кеш зв'язку"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::cron_key"
+msgid "CRON key"
+msgstr "CRON ключ"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::cron_key"
+msgid "A special key, which is required to run the cache relations scheduler update. This key using — an obligatory condition. The key length must be between 5 and 10 characters, only numbers and latin lowercase letters"
+msgstr "Спеціальний ключ, який потрібний для запуску планувальника оновлення кеша зв'язку. Використання цього ключа - обов'язкова умова. "
+"Довжина ключа повинна бути від 5 до 10 символів, лише цифри і латинські маленькі букви"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::caching_variants_when_rules_are_created"
+msgid "Cache features variants when creating rules"
+msgstr "Кешувати варіанти характеристики при створені правила"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::caching_variants_when_rules_are_created"
+msgid "When choosing the features at the time of the creation of rules, its variants will be cached. So when re-selecting features will not have to wait for the list of varaints. If you need to force load a new list of variants — hold down the <b>Ctrl</b>, when you click on the feature"
+msgstr "При виборі характеристики, в момент створення правила, її варіанти будуть кешуватися. Тому при повторному виборі характеристики не потрібно буде очікувати списку варіантів. "
+"Якщо все ж потрібно примусово завантажити новий список варіантів - утримуйте клавішу <b>Ctrl</b>, при натисканні на характеристику"
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::exclude_duplication_of_tabs"
+msgid "Exclude duplication of tabs"
+msgstr "Вилучити дублювання вкладок"
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::exclude_duplication_of_tabs"
+msgid "The setting allows to exclude the display of tabs with the same names on the product page in the block \"AB: Products selection\". Only one (first) tab will be displayed."
+msgstr "Налаштування дозволяє вилучити відображення вкладок з однаковими назвами на сторінці товару в блоці \"АВ: Добір товарів\". Буде відображатись лише одна (перша) вкладка."
+
+msgctxt "SettingsOptions::ab__intelligent_accessories::exclude_product_variations"
+msgid "Exclude variations for Related products with the feature \"Variations as one product\""
+msgstr "Вилучити варіації для пов'язаних товарів з характеристикою \"Варіації як один товар\""
+
+msgctxt "SettingsTooltips::ab__intelligent_accessories::exclude_product_variations"
+msgid "If the setting is set, then the <a target=\"_blank\" href=\"https://docs.cs-cart.com/latest/user_guide/manage_products/products/product_variations.html\">Variation of a catalog item</a> products will be excluded from the calculation of Related Products."
+msgstr "Якщо налаштування встановлено, то при розрахунку Пов'язаних товарів будуть вилучені товари <a target=\"_blank\" href=\"https://www.cs-cart.ru/docs/4.11.x/user_guide/manage_products/products/product_variations.html\">Варіація позиції в каталозі</a>."
+
+msgctxt "SettingsVariants::ab__intelligent_accessories::caching_variants_when_rules_are_created::Y"
+msgid "Yes"
+msgstr "Так"
+
+msgctxt "SettingsVariants::ab__intelligent_accessories::caching_variants_when_rules_are_created::N"
+msgid "No"
+msgstr "Ні"
+
+msgctxt "Languages::ab__ia.settings"
+msgid "General settings"
+msgstr "Загальні налаштування"
+
+msgctxt "Languages::ab__ia.default_value_in_addon_settings"
+msgid "The value by default can be set in the add-on settings"
+msgstr "Значення за замовчуванням можна виставити в налаштуваннях модуля"
+
+msgctxt "Languages::block_ab__intelligent_accessories"
+msgid "AB: Products selection"
+msgstr "AB: Добір товарів"
+
+msgctxt "Languages::block_ab__intelligent_accessories_description"
+msgid "Showing selected products"
+msgstr "Відображення підібраних товарів"
+
+msgctxt "Languages::tmpl_scroller_ab__ia"
+msgid "Scroller (AB: Products selection)"
+msgstr "Скроллер (AB: Добір товарів)"
+
+msgctxt "Languages::ab__ia_products_scroller"
+msgid "Scroller (AB: Products selection)"
+msgstr "Скроллер (AB: Добір товарів)"
+
+msgctxt "Languages::ab__ia_from_category_setting"
+msgid "Tab \"Products selection\" in category settings"
+msgstr "Вкладка \"Добір товарів\" в налаштуваннях категорії"
+
+msgctxt "Languages::ab__ia_category_tab"
+msgid "AB: Products selection"
+msgstr "AB: Добір товарів"
+
+msgctxt "Languages::ab__ia_joined_category"
+msgid "Related category"
+msgstr "Пов'язана категорія"
+
+msgctxt "Languages::ab__ia.joined_category.tooltip"
+msgid "Related category of products"
+msgstr "Пов'язана категорія товарів"
+
+msgctxt "Languages::ab__ia.joined_category.info"
+msgid "<span style=\"color: red; font-size: 12px\">After saving <b>the Related categories of products</b> can only be changed by creating new relation</span>"
+msgstr "<span style=\"color: red; font-size: 12px\">Після збереження <b>Пов'язану категорію товарів</b> можна змінити тільки створивши новий зв'язок.</span>"
+
+msgctxt "Languages::ab__ia_amount_of_rules"
+msgid "Rules"
+msgstr "Правила"
+
+msgctxt "Languages::ab__ia.amount_of_rules.tooltip"
+msgid "Active rules amount by the relation The value by default can be set in the add-on settings"
+msgstr "Кількість активних правил у зв'язку Значення за замовчуванням можна виставити в налаштуваннях модуля"
+
+msgctxt "Languages::ab__ia_shuffle_products"
+msgid "Shuffle"
+msgstr "Переміш."
+
+msgctxt "Languages::ab__ia.shuffle_products.tooltip"
+msgid "Shuffle products after the selection of all the rules before they are sorting. The value by default can be set in the add-on settings"
+msgstr "Перемішати товари після добору по всім правилам перед їхнім сортуванням. Значення за замовчуванням можна виставити в налаштуваннях модуля"
+
+msgctxt "Languages::ab__ia_only_in_stock"
+msgid "Only in stock"
+msgstr "Тільки у наявності"
+
+msgctxt "Languages::ab__ia.only_in_stock.tooltip"
+msgid "Products must be available The value by default can be set in the add-on settings"
+msgstr "Товар має бути у наявності, тобто поточний залишок має бути більше 0 Значення за замовчуванням можна виставити в налаштуваннях модуля"
+
+msgctxt "Languages::ab__ia_show_in_add_to_cart"
+msgid "Allow relation display in the window \"The product was added to your cart\""
+msgstr "Дозволити відображення зв'язку у вікні \"Товар був доданий до кошику\""
+
+msgctxt "Languages::ab__ia_show_in_cart"
+msgid "Allow relation display on the page \"Cart\""
+msgstr "Дозволити відображення зв'язку на сторінці \"Кошик\""
+
+msgctxt "Languages::ab__ia_products_sorting"
+msgid "Sort."
+msgstr "Сорт."
+
+msgctxt "Languages::ab__ia.products_sorting.tooltip"
+msgid "Sorting method of selected products. The value by default can be set in the add-on settings"
+msgstr "Спосіб сортування відібраних товарів. Значення за замовчуванням можна виставити в налаштуваннях модуля"
+
+msgctxt "Languages::ab__ia_max_view_products"
+msgid "Amount"
+msgstr "Кількість"
+
+msgctxt "Languages::ab__ia.max_view_products.tooltip"
+msgid "Maximum amount of displayed products in the relation The value by default can be set in the add-on settings"
+msgstr "Максимальна кількість відображених товарів у зв'язку Значення за замовчуванням можна виставити в налаштуваннях модуля"
+
+msgctxt "Languages::ab__ia_rule_max"
+msgid "Amount"
+msgstr "Кількість"
+
+msgctxt "Languages::ab__ia.rule_max.tooltip"
+msgid "Maximum amount of displayed products by the rule The value by default can be set in the add-on settings"
+msgstr "Максимальна кількість відображених товарів по правилу Значення за замовчуванням можна виставити в налаштуваннях модуля"
+
+msgctxt "Languages::ab__ia_name"
+msgid "Name"
+msgstr "Назва"
+
+msgctxt "Languages::ab__ia_popup_edit"
+msgid "Edit the relation: [name]"
+msgstr "Редагувати зв'язок: [name]"
+
+msgctxt "Languages::ab__ia_update_on_page"
+msgid "Edit on the page"
+msgstr "Редагувати на сторінці"
+
+msgctxt "Languages::ab__ia_popup_add"
+msgid "Add the relation"
+msgstr "Додати зв'язок"
+
+msgctxt "Languages::ab__ia_prices"
+msgid "Price range"
+msgstr "Діапазон цін"
+
+msgctxt "Languages::ab__ia_prices__tooltip"
+msgid "Price range of selected products. <br><b>0-0</b> - products of all costs;<br><b>0-10000</b> - products with a price of up to 10000; <br><b>10000-0</b> - products with priced from 10000; <b>10000-20000</b> - products with a price between 10000 and 20000. The value by default can be set in the add-on settings"
+msgstr "Діапазон цін для відібраних товарів Можна зазначити:<br><b>0-0</b> - товари з будь-якою ціною;<br><b>0-10000</b> - товари з ціною до 10000; "
+"<br><b>10000-0</b> - товари з ціною від 10000; <b>10000-20000</b> - товари з ціною від 10000 до 20000. Значення за замовчуванням можна виставити в налаштуваннях модуля"
+
+msgctxt "Languages::ab__ia_popup_tab_join"
+msgid "General relation settings"
+msgstr "Загальні налаштування зв'язку"
+
+msgctxt "Languages::ab__ia_popup_tab_rules"
+msgid "Rules of relation"
+msgstr "Правила зв'язку"
+
+msgctxt "Languages::ab__ia_new_rule"
+msgid "A new rule"
+msgstr "Нове правило"
+
+msgctxt "Languages::ab__ia_test"
+msgid "Test rule"
+msgstr "Тест правила"
+
+msgctxt "Languages::ab__ia_test__tooltip"
+msgid "The rule can be tested only after saving. Search Reference and Related products will be produced by the active categories and their subcategories, for active features, as well as active products. On Related products, also applied the price range condition"
+msgstr "Правило можна протестувати лише після збереження. Пошук Опорних і Пов'язаних товарів буде здійснений по активним категоріям та їхнім підкатегоріям, по активним характеристикам, а також по активним товарам. На Пов'язані товари накладається також умова діапазону цін"
+
+msgctxt "Languages::ab__ia_operator_eq"
+msgid "Equal"
+msgstr "Дорівнює"
+
+msgctxt "Languages::ab__ia_operator_neq"
+msgid "Not equal"
+msgstr "Не дорівнює"
+
+msgctxt "Languages::ab__ia_operator_gte"
+msgid "More or equal"
+msgstr "Більше або дорівнює"
+
+msgctxt "Languages::ab__ia_operator_lte"
+msgid "Less or equal"
+msgstr "Менше або дорівнює"
+
+msgctxt "Languages::ab__ia_operator_in"
+msgid "In list"
+msgstr "У списку"
+
+msgctxt "Languages::ab__ia_operator_nin"
+msgid "Not in list"
+msgstr "Не у списку"
+
+msgctxt "Languages::ab__ia_feature_not_active"
+msgid "[Off]"
+msgstr "[Викл.]"
+
+msgctxt "Languages::ab__ia_condition_base_products"
+msgid "<b>[Rreference products]</b> If the product is opened from the category <code><a target='_blank' href='[link]'>[name]</a></code>"
+msgstr "<b>[Опорні товари]</b> Якщо товар відкрито з категорії <code><a target='_blank' href='[link]'>[name]</a></code>"
+
+msgctxt "Languages::ab__ia_condition_base_products_with_options"
+msgid "and corresponds to the features"
+msgstr "і відповідає характеристикам"
+
+msgctxt "Languages::ab__ia_condition_joined_products"
+msgid "<b>[Related products]</b>Then select products from the category <code><a target='_blank' href='[link]'>[name]</a></code>"
+msgstr "<b>[Пов'язані товари]</b>Тоді до нього підібрати товари з категорії <code><a target='_blank' href='[link]'>[name]</a></code>"
+
+msgctxt "Languages::ab__ia_condition_joined_products_with_options"
+msgid "with next features"
+msgstr "з наступними характеристиками"
+
+msgctxt "Languages::ab__ia_condition_without_options"
+msgid "(without features)"
+msgstr "(без урахування характеристик)"
+
+msgctxt "Languages::ab__ia_update_cache"
+msgid "Update cache of relations"
+msgstr "Оновити кеш зв'язків"
+
+msgctxt "Languages::ab__ia_update_cache_category"
+msgid "Update cache of relations current category"
+msgstr "Оновити кеш зв'язків поточної категорії"
+
+msgctxt "Languages::ab__ia_update_join_cache"
+msgid "Update cache of relation"
+msgstr "Оновити кеш зв'язку"
+
+msgctxt "Languages::ab__ia_update_cache_is_done"
+msgid "Cache of relations successfully updated!"
+msgstr "Кеш зв'язків успішно оновлено!"
+
+msgctxt "Languages::ab__ia_base_category"
+msgid "Reference category"
+msgstr "Опорна категорія"
+
+msgctxt "Languages::ab__ia_base_category__tooltip"
+msgid "Reference category — the category, with product, to which we select products"
+msgstr "Опорна категорія - це категорія, в якій знаходиться товар, для якого обираються товари"
+
+msgctxt "Languages::ab__ia_base_category_list"
+msgid "List of reference categories"
+msgstr "Список опорних категорій"
+
+msgctxt "Languages::ab__ia_error_joined_category_is_empty"
+msgid "Relation is not saved. Related category is not specified"
+msgstr "Зв'язок не збережено. Не вказано Пов'язаної категорії"
+
+msgctxt "Languages::ab__ia_error_join_name_is_empty"
+msgid "Relation is not saved. Relation name is not specified"
+msgstr "Зв'язок не збережено. Не вказано Назви зв'язку"
+
+msgctxt "Languages::ab__ia_fast_search"
+msgid "For the quick search feature variant in the dropdown list — click the variant first letter at view selectbox list"
+msgstr "Для швидкого пошуку варіанту характеристики у випадаючому списку - натисніть першу літеру варіанта при перегляді списку selectbox"
+
+msgctxt "Languages::ab__ia_off"
+msgid "Disable"
+msgstr "Вимкнути"
+
+msgctxt "Languages::ab__ia_no_data"
+msgid "No data"
+msgstr "Немає даних"
+
+msgctxt "Languages::ab__ia_rule_name"
+msgid "Rule name"
+msgstr "Назва правила"
+
+msgctxt "Languages::ab__ia_position_short"
+msgid "Pos."
+msgstr "Поз."
+
+msgctxt "Languages::ab__ia_position"
+msgid "Position"
+msgstr "Позиція"
+
+msgctxt "Languages::ab__ia_delete"
+msgid "Delete"
+msgstr "Видалити"
+
+msgctxt "Languages::ab__ia_status"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "Languages::ab__ia_conditions"
+msgid "Conditions"
+msgstr "Умови"
+
+msgctxt "Languages::ab__ia_update_cache_info"
+msgid "Click the button below to update the cache"
+msgstr "Натисніть кнопку нижче, щоб оновити кеш даних модуля"
+
+msgctxt "Languages::ab__ia.products_in_add_to_cart"
+msgid "To this product we recommend"
+msgstr "До цього товару рекомендується"
+
+msgctxt "Languages::ab__ia.products_in_cart"
+msgid "Recommended products"
+msgstr "Рекомендуємо додати до замовлення"
+
+msgctxt "Languages::ab__ia.category.select_store"
+msgid "For further work with the AB: Intellectual selection of products in block (analogues, accessories) by features add-on, please choose a store"
+msgstr "Для подальшої роботи з модулемAB: Інтелектуальний добір пов'язаних товарів (аналоги, аксесуари) на основі технічних характеристик, будь ласка, оберіть магазин"
+
+msgctxt "Languages::ab__ia.title_block"
+msgid "Add to this product"
+msgstr "Цей товар добре доповнюють"
+
+msgctxt "Languages::ab__ia_image_size"
+msgid "Image size, px"
+msgstr "Розмір зображення, px"
+
+msgctxt "Languages::ab__ia.corresponding_base"
+msgid "--- Equal to variant of [Reference product] ---"
+msgstr "--- Дорівнює варіанту [Опорного товару] ---"
+
+msgctxt "Languages::ab__ia.test_rule.result.title"
+msgid "Test result of the Rule"
+msgstr "Результат тестування Правила"
+
+msgctxt "Languages::ab__ia.test_rule.result.text"
+msgid "<br>According to the Rule conditions, the Reference products were found: [count].<br>List (only the first [max] will be displayed):<br>[list]"
+msgstr "<Br> Згідно умов Правила знайдено Опорних товарів: [count].<br>Список (буде відображено лише перші [max]):<br>[list]"
+
+msgctxt "Languages::ab__ia.test_rule.result.text_empty"
+msgid "According to the Rule conditions, the Reference products were not found!"
+msgstr "Згідно умов Правила Опорних товарів не знайдено!"
+
+msgctxt "Languages::ab__ia.groups_list"
+msgid "List of relation groups by appointment"
+msgstr "Список груп зв'язків по призначенню"
+
+msgctxt "Languages::ab__ia.popup.add_group"
+msgid "Add relation group by appointment"
+msgstr "Додати групу зв'язків по призначенню"
+
+msgctxt "Languages::ab__ia.groups.name"
+msgid "Name of relation group by appointment"
+msgstr "Назва групи зв'язків по призначенню"
+
+msgctxt "Languages::ab__ia_links_group"
+msgid "Relation group by appointment"
+msgstr "Група зв'язків по призначенню"
+
+msgctxt "Languages::ab__ia.groups.without_group"
+msgid "Without group"
+msgstr "Без групи"
+
+msgctxt "Languages::ab__ia.groups.tooltip"
+msgid "To display products of this relation in a separate block - choose the same group on the editing relation page and in the tab \"Content\" of the block."
+msgstr "Для відображення товарів цього зв'язку в окремому блоці - оберіть однакову групу на сторінці редагування зв'язку і у вкладці «Контент» блоку"
+
+msgctxt "Languages::ab__ia.tab_url"
+msgid "Link at block tab"
+msgstr "Посилання на вкладці блоку"
+
+msgctxt "Languages::ab__ia.tab_url.not_use"
+msgid "Do not use"
+msgstr "Не використовувати"
+
+msgctxt "Languages::ab__ia.tab_url.use_joined_category"
+msgid "Related category"
+msgstr "Пов'язана категорія"
+
+msgctxt "Languages::ab__ia.tab_url.custom_url"
+msgid "Custom link"
+msgstr "Особисте посилання"
+
+msgctxt "Languages::ab__ia.tab_url.tooltip"
+msgid "Link at active block label of products selection. If selected Custom link - we recommend you to use link format with controller indicator (e.g., products.view?product_id=12121)"
+msgstr "Посилання в активному лейблі блоку добіру товарів. Якщо обрано Особисте посилання - рекомендуємо використовувати формат посилання із указанням контроллера (наприклад, products.view?product_id=12121)"
+
+msgctxt "Languages::ab__ia.cron.title"
+msgid "To update cache by Cron, use the following command"
+msgstr "Для оновлення кешу по Cron-у використовуйте наступну команду"
+
+msgctxt "Languages::ab__ia.cron.text"
+msgid "Use parameter --limit=5 to save server resources. See details in <a href=\"https://docs.cs-cart.abt.team/en/ab__intelligent_accessories.doc/v3.2.0#p-4314\" target=\"_blank\">documentation</a>"
+msgstr "Використовуйте параметр --limit=5 для економії ресурсу сервера. Детальніше дивіться в <a href=\"https://docs.cs-cart.abt.team/ru/ab__intelligent_accessories.doc/v3.2.0#p-4314\" target=\"_blank\">документації</a>"
+
+msgctxt "Languages::ab__ia.add_joins"
+msgid "Add relations"
+msgstr "Додати зв'язки"
+
+msgctxt "Languages::ab__ia.add_joins_and_close"
+msgid "Add relations and close"
+msgstr "Додати зв'язки і закрити"
+
+msgctxt "Languages::ab__ia.remove_all"
+msgid "Delete all"
+msgstr "Видалити всі"
+
+msgctxt "Languages::ab__ia_clone"
+msgid "Clone"
+msgstr "Клонувати"
+
+msgctxt "Languages::ab__ia_update_cache_time"
+msgid "Date/Duration of update"
+msgstr "Дата/тривалість оновлення"
+
+msgctxt "Languages::ab__ia.update_cache_time.tooltip"
+msgid "Date and duration of the last relation cache update"
+msgstr "Дата і тривалість останнього оновлення кешу зв'язку"
+
+msgctxt "Languages::ab__ia.settings.abt__youpitheme"
+msgid "Settings for the AB: YoupiTheme"
+msgstr "Налаштування для АВ: YoupiTheme"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories_group"
+msgid "\"AB: Intellectual selection of products in block (analogues, accessories) by features\" addon"
+msgstr "Модуль \"AB: Інтелектуальний добір пов'язаних товарів (аналоги, аксесуари) на основі технічних характеристик\""
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories_group_description"
+msgid "Additional block settings with intellectual products selection on the product page. These add-on AB: Intellectual selection of products in block (analogues, accessories) by features settings are valid for YoupiTheme only."
+msgstr "Додаткові налаштування блока з інтелектуальним добором товарів на сторінці товарів."
+"Ці налаштування модулю AB: Інтелектуальний добір пов'язаних товарів (аналоги, аксесуари) на основі технічних характеристик діють лише для YoupiTheme."
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.item_quantity"
+msgid "Elements quantity"
+msgstr "Кількість елементів"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.item_quantity.tooltip"
+msgid "Elements quantity"
+msgstr "Кількість елементів"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.not_scroll_automatically"
+msgid "Do not scroll automatically"
+msgstr "Не прокручувати автоматично"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.not_scroll_automatically.tooltip"
+msgid "Do not scroll automatically"
+msgstr "Не прокручувати автоматично"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.speed"
+msgid "Speed"
+msgstr "Швидкість"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.speed.tooltip"
+msgid "Speed"
+msgstr "Швидкість"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.pause_delay"
+msgid "Pause delay"
+msgstr "Припинення руху"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.pause_delay.tooltip"
+msgid "Pause delay"
+msgstr "Припинення руху"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.hide_add_to_cart_button"
+msgid "Hide adding to the cart button"
+msgstr "Приховати кнопку додання товару у кошик"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.hide_add_to_cart_button.tooltip"
+msgid "Hide adding to the cart button"
+msgstr "Приховати кнопку додання товару у кошик"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.show_price"
+msgid "Show price"
+msgstr "Показувати ціну"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.show_price.tooltip"
+msgid "Show price"
+msgstr "Показувати ціну"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.thumbnail_width"
+msgid "Image size, px"
+msgstr "Розмір зображення, px"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.thumbnail_width.tooltip"
+msgid "Image size, px"
+msgstr "Розмір зображення, px"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.outside_navigation"
+msgid "Outside navigation"
+msgstr "Зовнішня навігація"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.outside_navigation.tooltip"
+msgid "Allows you to enable outside navigation for the scroller"
+msgstr "Дозволяє увімкнути зовнішню навігацію для скроллера"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.scroll_per_page"
+msgid "Scroll per page"
+msgstr "Гортати посторінково"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.scroll_per_page.tooltip"
+msgid "Allows the scroller to scroll through not scrolling elements, but whole blocks"
+msgstr "Дозволяє скроллеру гортати не поелементно, а цілими блоками скроллера"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.enable_quick_view"
+msgid "Allow quick view"
+msgstr "Дозволити швидкий перегляд"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.enable_quick_view.tooltip"
+msgid "Allows to display \"Quick product viewer\" window button"
+msgstr "Дозволити виводити кнопку вікна \"Швидкий перегляд товарів\""
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.display_block"
+msgid "Display block"
+msgstr "Відобразити блок"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.display_block.tooltip"
+msgid "Choose how do you want to display the block on the product page"
+msgstr "Оберіть як Ви бажаєте відобразити блок на сторінці товару"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.display_block.variants.pre"
+msgid "Before product tabs"
+msgstr "Перед вкладками товару"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.display_block.variants.post"
+msgid "After product tabs"
+msgstr "Після вкладок товару"
+
+msgctxt "Languages::abt__yt.settings.addons.ab__intelligent_accessories.display_block.variants.do_not_show"
+msgid "Don't show"
+msgstr "Не відображати"
+
+msgctxt "Languages::ab__ia.settings.abt__unitheme2"
+msgid "Settings for AB: UniTheme2"
+msgstr "Налаштування для АВ: UniTheme2"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.display_block"
+msgid "Display block"
+msgstr "Відобразити блок"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.display_block.tooltip"
+msgid "Choose how do you want to display the block on the product page"
+msgstr "Оберіть як Ви бажаєте відобразити блок на сторінці товару"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.display_block.variants.pre"
+msgid "Before product tabs"
+msgstr "Перед вкладками товару"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.display_block.variants.post"
+msgid "After product tabs"
+msgstr "Після вкладок товару"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.display_block.variants.do_not_show"
+msgid "Don't show"
+msgstr "Не відображати"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.enable_quick_view"
+msgid "Allow quick view"
+msgstr "Дозволити швидкий перегляд"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.enable_quick_view.tooltip"
+msgid "Allows to display \"Quick product viewer\" window button"
+msgstr "Дозволити виводити кнопку вікна \"Швидкий перегляд товарів\""
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.scroll_per_page"
+msgid "Scroll per page"
+msgstr "Гортати посторінково"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.scroll_per_page.tooltip"
+msgid "Allows the scroller to scroll through not scrolling elements, but whole blocks"
+msgstr "Дозволяє скроллеру гортати не поелементно, а цілими блоками скроллера"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories_group"
+msgid "\"AB: Intellectual selection of products in block (analogues, accessories) by features\" addon"
+msgstr "Модуль \"AB: Інтелектуальний добір пов'язаних товарів (аналоги, аксесуари) на основі технічних характеристик\""
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories_group_description"
+msgid "Tthere are two methods to display product relations from the add-on AB: Intellectual selection of products in block (analogues, accessories) by features in UniTheme2: <ul> <li>the output is carried out in the places provided in the theme on the product page (above or below the product tabs). To manage the output with the help of this method, use settings below;</li> <li>adding block for layout \"Products\" (this method is well described in documentation of the add-on). To output with the help of this method, do not use settings below as the block has its own settings.</li></ul>"
+msgstr "Для відображення товарних доборів модуля AB: Інтелектуальний добір пов'язаних товарів (аналоги, аксесуари) на основі технічних характеристик в UniTheme2 можливо два способи:"
+"<ul>"
+"<li>в передбачених темою місцях на сторінці товару (перед товарними вкладками або після них). Для керування відображення за допомогою цього методу використовуйте налаштування нижче;</li>"
+"<li>додання блоку в макеті \"Товари\" (цей метод описано в документації до модулю). Для відображення цим способом не застосовуйте налаштування нижче, блок має свої особисті налаштування\"</li></ul>"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.speed"
+msgid "Speed"
+msgstr "Швидкість"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.speed.tooltip"
+msgid "Speed"
+msgstr "Швидкість"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.pause_delay"
+msgid "Pause delay"
+msgstr "Припинення руху"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.pause_delay.tooltip"
+msgid "Pause delay"
+msgstr "Припинення руху"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.item_quantity"
+msgid "Elements quantity"
+msgstr "Кількість елементів"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.item_quantity.tooltip"
+msgid "Elements quantity"
+msgstr "Кількість елементів"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.not_scroll_automatically"
+msgid "Do not scroll automatically"
+msgstr "Не прокручувати автоматично"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.not_scroll_automatically.tooltip"
+msgid "Do not scroll automatically"
+msgstr "Не прокручувати автоматично"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.hide_add_to_cart_button"
+msgid "Hide adding to the cart button"
+msgstr "Приховати кнопку додання товару у кошик"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.hide_add_to_cart_button.tooltip"
+msgid "Hide adding to the cart button"
+msgstr "Приховати кнопку додання товару у кошик"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.show_price"
+msgid "Show price"
+msgstr "Показувати ціну"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.show_price.tooltip"
+msgid "Show price"
+msgstr "Показувати ціну"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.thumbnail_width"
+msgid "Image size, px"
+msgstr "Розмір зображення, px"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.thumbnail_width.tooltip"
+msgid "Image size, px"
+msgstr "Розмір зображення, px"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.outside_navigation"
+msgid "Outside navigation"
+msgstr "Зовнішня навігація"
+
+msgctxt "Languages::abt__ut2.settings.addons.ab__intelligent_accessories.outside_navigation.tooltip"
+msgid "Allows you to enable outside navigation for the scroller"
+msgstr "Дозволяє увімкнути зовнішню навігацію для скроллера"
+
+msgctxt "Languages::ab__ia_help"
+msgid "Help"
+msgstr "Довідка"
+
+msgctxt "Languages::ab__ia_help.docs"
+msgid "Read the <a target='_blank' href='https://cs-cart.alexbranding.com/en/ab__intelligent_accessories.doc'>documentation</a>."
+msgstr "Ознайомитись з <a target='_blank' href='https://cs-cart.alexbranding.com/ru/ab__intelligent_accessories.doc'>документацією</a>."
+
+msgctxt "Languages::ab__ia.autoinstall.demodata"
+msgid "Added 3 links for the <a target=\"_blank\" href=\"[link]\">category</a>."
+msgstr "Додано 3 зв'язки для <a target=\"_blank\" href=\"[link]\">категорії</a>."
+
+msgctxt "Languages::privilege_sections.ab__intelligent_accessories"
+msgid "AB: Intellectual selection of products in block (analogues, accessories) by features"
+msgstr "AB: Інтелектуальний добір пов'язаних товарів (аналоги, аксесуари) на основі технічних характеристик"
+
+msgctxt "Languages::privileges.ab__ia_data.base_category_list"
+msgid "View list of reference categories"
+msgstr "Перегляд Списку опорних категорій"
+
+msgctxt "Languages::privileges.ab__ia_data.update_cache"
+msgid "Allow cache update for relations"
+msgstr "Дозволити Оновлення кеша зв'язків"
+
+msgctxt "Languages::privileges.ab__ia_joins.update"
+msgid "Manage relations in categories"
+msgstr "Керування зв'язками в категоріях"
+
+msgctxt "Languages::privileges.ab__ia_groups.update"
+msgid "Manage relation groups by appointment"
+msgstr "Керування групами зв'язків по призначенню"
+
+msgctxt "Languages::privilege_groups.ab__intelligent_accessories"
+msgid "AB: Intellectual selection of products in block (analogues, accessories) by features"
+msgstr "AB: Інтелектуальний добір пов'язаних товарів (аналоги, аксесуари) на основі технічних характеристик"
+
+#. Alexbranding. Do not modify this file manually!
