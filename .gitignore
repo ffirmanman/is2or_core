@@ -1,43 +1,38 @@
-# Ignore sensitive configuration files (Must be configured manually on new servers)
-public_html/config.local.php
-public_html/_srx_config.php
-public_html/local_conf.php
+# Ignore sensitive staging configuration files
+is2or/config.local.php
+is2or/local_conf.php
+is2or/local_conf_2.php
 
-# Ignore all log files (Prevent large log files from being committed)
-public_html/*.log
-public_html/error_log*
-public_html/temp_log
+# Ignore all staging log files
+is2or/*.log
+is2or/error_log*
 
-# Ignore the internal Git directory from the addon repository (IMPORTANT!)
-# This prevents the parent repository from treating the existing Git repository as an empty submodule.
-public_html/.git/
+# Ignore temporary directories, cache, and automatic backup files
+is2or/var/cache/
+is2or/var/compiled/
+is2or/var/snapshots/
+is2or/var/backups/
+is2or/var/upgrade/
+is2or/upgrades/
+is2or/tmp/
+is2or/__MACOSX/
 
-# Ignore all CS-Cart runtime cache, temporary, and upgrade files
-public_html/var/cache/
-public_html/var/compiled/
-public_html/var/snapshots/
-public_html/var/gl_data/
-public_html/var/backups/
-public_html/var/upgrade/
-public_html/upgrades/
-
-# Ignore all media files, product images, banners, and logos
-public_html/images/
-public_html/design/themes/*/media/
+# Ignore all media files and product images to keep the repository lightweight
+is2or/images/
+is2or/design/themes/*/media/
 
 # Ignore digital downloads and user-uploaded files
-public_html/var/downloads/
-public_html/var/attachments/
-public_html/var/custom_files/
+is2or/var/downloads/
+is2or/var/attachments/
+is2or/var/custom_files/
 
-# Ignore old archive files and server-generated temporary files (Including .well-known.zip)
-public_html/*.zip
-public_html/*.tar.gz
-public_html/*.gz
-public_html/.ftpquota
+# Ignore old archive files and server-generated temporary files
+is2or/*.zip
+is2or/*.tar.gz
+is2or/*.gz
 
-# Ignore operating system and IDE files
+# Ignore operating system, IDE, and temporary backup files
 .DS_Store
 Thumbs.db
-.idea/
-.vscode/
+backup_addon_git_staging/
+html/
